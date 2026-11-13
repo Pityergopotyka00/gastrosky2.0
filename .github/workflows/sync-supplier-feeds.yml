@@ -26,9 +26,16 @@ jobs:
         run: node scripts/sync-supplier-feeds.mjs
       - name: Validate storefront and supplier catalog
         run: npm run validate
+      - name: Report Maxima catalog progress
+        run: |
+          if [ -f data/maxima-import-report.json ]; then
+            echo '## Maxima product import coverage' >> "$GITHUB_STEP_SUMMARY"
+            echo 'Target: 216 or more real Maxima SKUs (200 more than the original 16).' >> "$GITHUB_STEP_SUMMARY"
+            node --input-type=module -e "import fs from 'node:fs';const r=JSON.parse(fs.readFileSync('data/maxima-import-report.json','utf8'));console.log('Current: '+r.maxima_products+' Maxima products, '+r.maxima_with_images+' photo links; '+r.maxima_missing_to_goal+' missing to target.')" >> "$GITHUB_STEP_SUMMARY"
+          fi
       - name: Commit updated catalog and stock snapshots
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/catalog-products.json data/supplier-stock-snapshot.json index.html
+          git add data/catalog-products.json data/supplier-stock-snapshot.json data/maxima-import-report.json
           git diff --cached --quiet || (git commit -m "Import manufacturer products and photos from authorized files" && git push)
