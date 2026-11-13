@@ -1,0 +1,42 @@
+name: Audit manufacturer product pictures
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 3 * * *'
+  push:
+    paths:
+      - '.github/workflows/audit-product-pictures.yml'
+      - 'scripts/audit-product-photos.mjs'
+permissions:
+  contents: write
+concurrency:
+  group: gastrosky-photo-audit
+  cancel-in-progress: false
+jobs:
+  photo-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check product images without modifying catalog
+        run: node scripts/audit-product-photos.mjs
+        env:
+          PHOTO_AUDIT_LIMIT: '80'
+      - name: Add picture health summary
+        if: always()
+        run: |
+          if [ -f data/catalog-image-audit.json ]; then
+            echo '### Product photo audit' >> "$GITHUB_STEP_SUMMARY"
+            echo '~~~json' >> "$GITHUB_STEP_SUMMARY"
+            cat data/catalog-image-audit.json >> "$GITHUB_STEP_SUMMARY"
+            echo '~~~' >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Commit photo evidence
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/catalog-image-audit.json
+          git diff --cached --quiet || (git commit -m "Audit Maxima and HENDI manufacturer picture URLs" && git push)
