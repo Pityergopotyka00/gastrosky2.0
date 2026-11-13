@@ -3534,9 +3534,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://www.luxia-nce.co.uk/Aristarco%20CP%2080.40%20ice%20machine%20%28a%29.jpg",
+    "image_source": "manufacturer_previous_code_photo",
+    "photo_status": "manufacturer_previous_code_photograph_check_rights",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -3894,9 +3894,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://mkayn.com/images/detailed/16/140578-140577_2pvt-xu.jpg",
+    "image_source": "manufacturer_previous_code_photo",
+    "photo_status": "manufacturer_previous_code_photograph_check_rights",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
