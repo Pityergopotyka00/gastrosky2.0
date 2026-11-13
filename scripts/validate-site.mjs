@@ -24,17 +24,18 @@ for (const x of p) {
  assert.ok(x.image_url&&/^https:\/\//i.test(x.image_url),'Each published product needs a secure real photo URL: '+x.id);
  const image=new URL(x.image_url);
  const isMaxima=x.manufacturer==='Maxima';
- const manufacturerHosts=isMaxima?['maxima.com']:['hendi.eu','www.hendi.eu','hendi.xcdn.nl'];
+ const manufacturerHosts=isMaxima?['maxima.com']:x.manufacturer==='HENDI'?['hendi.eu','www.hendi.eu','hendi.xcdn.nl']:x.manufacturer==='Modular'?['modular.it','www.modular.it','thenicekitchen.com','www.thenicekitchen.com']:x.manufacturer==='Fagor'?['fagorprofessional.com','www.fagorprofessional.com']:[];
  const manuallyMatchedRetailPhoto=isMaxima&&x.image_source==='matching_retailer_product_photo';
  const retailerHosts=['static.materiel-horeca.com','images.metro-marketplace.eu','cubosupplies.com'];
  assert.ok(manufacturerHosts.includes(image.hostname)||(manuallyMatchedRetailPhoto&&retailerHosts.includes(image.hostname)),'Unexpected product photo host: '+x.id);
- if(!isMaxima){
+ if(x.manufacturer==='HENDI'){
   assert.ok(image.pathname.includes(x.sku),'HENDI image filename does not match the product SKU: '+x.id);
  }
  if(x.source_url){
   const source=new URL(x.source_url);
   assert.equal(source.protocol,'https:','Unsafe manufacturer product URL: '+x.id);
-  assert.ok((isMaxima?['maxima.com']:['hendi.eu','www.hendi.eu']).includes(source.hostname),'Incorrect product manufacturer URL: '+x.id);
+  const allowedSourceHosts={Maxima:['maxima.com'],HENDI:['hendi.eu','www.hendi.eu'],Modular:['modular.it','www.modular.it','thenicekitchen.com','www.thenicekitchen.com'],Fagor:['fagorprofessional.com','www.fagorprofessional.com']};
+  assert.ok((allowedSourceHosts[x.manufacturer]||[]).includes(source.hostname),'Incorrect product manufacturer URL: '+x.id);
  }
 }
 assert.ok(html.includes('Ajánlatkéréshez adom'),'Quote add button not installed');
@@ -47,6 +48,7 @@ assert.ok(!script.includes('source.href=p.source_url'),'Supplier website links m
 for(const section of ['gs-header-inner','gs-hero-showcase','gs-intro-strip','gs-catalog-heading','gs-process-grid','gs-bottom-cta','gs-footer-main']){
  assert.ok(html.includes(section),'Premium storefront section missing: '+section);
 }
+for(const brand of ['Maxima','HENDI','Fagor','Modular'])assert.ok(html.includes('value="'+brand+'"'),'Brand filter missing: '+brand);
 for(const action of ['id="search"','id="category"','id="manufacturer"','id="sortBy"','id="quoteOpen"','id="quotePanel"']){
  assert.ok(html.includes(action),'Important catalog/quote control missing: '+action);
 }
