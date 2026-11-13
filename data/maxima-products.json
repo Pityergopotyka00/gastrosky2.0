@@ -15,13 +15,15 @@
       "Teljesítmény": "700 W",
       "Hőmérséklet": "−20 és −15 °C között"
     },
-    "source_url": "https://maxima.com/hu/fagyasztoszekreny-1200l-6-allithato-polc-2-1-gn-rozsdamentes-acel-uvegajtoval.html",
+    "source_url": null,
     "price": null,
     "availability": null,
     "record_status": "research_sample",
     "source_type": "manufacturer_product_page",
     "image_url": "https://maxima.com/img/5nErCkrodknvw1f6cFhnaT7iBCazhmKuaOQ5B0KwLk8/resize:fit:265:265/aHR0cHM6Ly9tYXhpbWEuY29tL21lZGlhL2NhdGFsb2cvcHJvZHVjdC8yLzYvMjYxMDE5XzA5NDAwMDE4X2ltZ18wMDEuanBnP3dpZHRoPTI2NSZoZWlnaHQ9MjY1.jpg",
-    "image_source": "manufacturer_og_image"
+    "image_source": "manufacturer_og_image",
+    "source_verification": "supplier_page_mismatch_09400016",
+    "stock_source_status": "needs_correct_product_url"
   },
   {
     "id": "maxima:09402310",
