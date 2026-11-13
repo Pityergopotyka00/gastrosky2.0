@@ -45,12 +45,12 @@ for (const x of p) {
   assert.ok((x.description||'').length>=95,'HENDI description needs meaningful details: '+x.id);
   assert.ok(!/^Professzionális vendéglátóipari termék\./.test(x.description||''),'Generic HENDI description: '+x.id);
  }
- assert.equal(x.id,x.manufacturer.toLowerCase()+':'+x.sku,'Catalog ID mismatch '+x.id);
+ assert.equal(x.id,(x.manufacturer==='Sistema Project Italia'?'sistemaproject:'+x.sku.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,''):x.manufacturer.toLowerCase()+':'+x.sku),'Catalog ID mismatch '+x.id);
  assert.ok(!x.image_url||/^https:\/\//i.test(x.image_url),'Product photo URL must use HTTPS if supplied: '+x.id);
  if((x.manufacturer==='Fagor'||x.manufacturer==='Modular')&&!x.image_url)assert.equal(x.photo_status,'product_photo_pending','Missing photo status must be explicit: '+x.id);
  const image=x.image_url?new URL(x.image_url):null;
  const isMaxima=x.manufacturer==='Maxima';
- const manufacturerHosts=isMaxima?['maxima.com']:x.manufacturer==='HENDI'?['hendi.eu','www.hendi.eu','hendi.xcdn.nl']:x.manufacturer==='Modular'?['modular.it','www.modular.it','thenicekitchen.com','www.thenicekitchen.com']:x.manufacturer==='Fagor'?['fagorprofessional.com','www.fagorprofessional.com']:x.manufacturer==='Coldline'?['coldline.it','www.coldline.it']:x.manufacturer==='Krupps'?['krupps.com','www.krupps.com']:x.manufacturer==='Aristarco'?['aristarco.it','www.aristarco.it']:[];
+ const manufacturerHosts=isMaxima?['maxima.com']:x.manufacturer==='HENDI'?['hendi.eu','www.hendi.eu','hendi.xcdn.nl']:x.manufacturer==='Modular'?['modular.it','www.modular.it','thenicekitchen.com','www.thenicekitchen.com']:x.manufacturer==='Fagor'?['fagorprofessional.com','www.fagorprofessional.com']:x.manufacturer==='Coldline'?['coldline.it','www.coldline.it']:x.manufacturer==='Krupps'?['krupps.com','www.krupps.com']:x.manufacturer==='Aristarco'?['aristarco.it','www.aristarco.it']:x.manufacturer==='Sistema Project Italia'?['projectsystems.it','www.projectsystems.it']:[];
  const manuallyMatchedRetailPhoto=(isMaxima||['Fagor','Krupps','Aristarco','Coldline'].includes(x.manufacturer))&&['matching_retailer_product_photo','matching_retailer_family_photo','manufacturer_family_reference_photo','manufacturer_previous_code_photo','manufacturer_shared_family_photo'].includes(x.image_source);
  const retailerHosts=['static.materiel-horeca.com','images.metro-marketplace.eu','cubosupplies.com','www.hellopro.fr','tirol.bg','www.wea56.com','www.materielhoreca.com','www.audores.lt','audores.lt','nivaeq.com','www.ventus.com.gr','img.archiexpo.com','horeca365.ro','www.andretti.hu','restoll.ru','et-e.com.ua','res.cloudinary.com','www.mh-hygiene.com','flexikitch.com.au','www.pesage-mb.com','luxia-nce.co.uk','shop.gastrooprema.rs','itpizza-russia.ru','www.lahostelera.com'];
  if(image)assert.ok(manufacturerHosts.includes(image.hostname)||(manuallyMatchedRetailPhoto&&retailerHosts.includes(image.hostname)),'Unexpected product photo host: '+x.id);
@@ -60,7 +60,7 @@ for (const x of p) {
  if(x.source_url){
   const source=new URL(x.source_url);
   assert.equal(source.protocol,'https:','Unsafe manufacturer product URL: '+x.id);
-  const allowedSourceHosts={Maxima:['maxima.com'],HENDI:['hendi.eu','www.hendi.eu'],Modular:['modular.it','www.modular.it','thenicekitchen.com','www.thenicekitchen.com'],Fagor:['fagorprofessional.com','www.fagorprofessional.com'],Coldline:['coldline.it','www.coldline.it'],Krupps:['krupps.com','www.krupps.com'],Aristarco:['aristarco.it','www.aristarco.it']};
+  const allowedSourceHosts={Maxima:['maxima.com'],HENDI:['hendi.eu','www.hendi.eu'],Modular:['modular.it','www.modular.it','thenicekitchen.com','www.thenicekitchen.com'],Fagor:['fagorprofessional.com','www.fagorprofessional.com'],Coldline:['coldline.it','www.coldline.it'],Krupps:['krupps.com','www.krupps.com'],Aristarco:['aristarco.it','www.aristarco.it'],'Sistema Project Italia':['projectsystems.it','www.projectsystems.it']};
   assert.ok((allowedSourceHosts[x.manufacturer]||[]).includes(source.hostname),'Incorrect product manufacturer URL: '+x.id);
  }
 }
@@ -74,7 +74,7 @@ assert.ok(!script.includes('source.href=p.source_url'),'Supplier website links m
 for(const section of ['gs-header-inner','gs-hero-showcase','gs-intro-strip','gs-catalog-heading','gs-process-grid','gs-bottom-cta','gs-footer-main']){
  assert.ok(html.includes(section),'Premium storefront section missing: '+section);
 }
-for(const brand of ['Maxima','HENDI','Fagor','Modular','Coldline','Krupps','Aristarco'])assert.ok(html.includes('value="'+brand+'"'),'Brand filter missing: '+brand);
+for(const brand of ['Maxima','HENDI','Fagor','Modular','Coldline','Krupps','Aristarco','Sistema Project Italia'])assert.ok(html.includes('value="'+brand+'"'),'Brand filter missing: '+brand);
 for(const action of ['id="search"','id="category"','id="manufacturer"','id="sortBy"','id="quoteOpen"','id="quotePanel"']){
  assert.ok(html.includes(action),'Important catalog/quote control missing: '+action);
 }
@@ -88,6 +88,8 @@ assert.ok(html.includes('id="quoteEmailButton"'),'Quote email submission button 
 assert.ok(html.includes('id="quoteFeedback"'),'Accessible quotation feedback missing');
 assert.ok(script.includes("fetch('/api/quote'"),'Server-side email route not wired');
 assert.ok(html.includes('id="manufacturer"'),'Manufacturer filter missing');
+assert.ok(html.includes('data-brand-filter="Sistema Project Italia"'),'New brand directory tile missing');
+assert.ok(script.includes("'Sistema Project Italia'].includes(p.manufacturer)"),'Supplier loader must accept all brands');
 assert.ok(script.includes("badge.hidden=kind==='unknown'"),'Unknown-stock badges must remain hidden');
 assert.ok(html.includes('id="statusHint"'),'Inventory explanation missing');
 console.log('Stock monitor JavaScript compiled');
