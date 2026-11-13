@@ -359,7 +359,11 @@ body{background:var(--gs-paper)!important}
  .tools .gs-category-picker select.gs-category-native:focus-visible{outline:3px solid #d3a557;outline-offset:2px}
 }
 </style>
-</head><body>
+<style id="gs-category-group-style">
+.gs-category-section-heading{font-size:10px;font-weight:850;letter-spacing:1.1px;color:#8a6330;text-transform:uppercase;padding:13px 10px 6px;border-bottom:1px solid #edf0f4;margin-top:3px}
+.gs-category-options button{padding-left:17px}
+@media(max-width:700px){.gs-category-picker select.gs-category-native{font-size:14px!important}.gs-category-section-heading{font-size:12px}}
+</style></head><body>
 <div class="gs-topline"><div><span class="gs-topline-dot"></span> GASTROSKY · NAGYKONYHAI BERENDEZÉSEK</div><a href="mailto:info@gastrosky.hu">info@gastrosky.hu</a></div><header class="gs-header"><div class="gs-header-inner"><a class="brand gs-brand" href="index.html" aria-label="GastroSky főoldal"><img class="brandmark real-logo" src="https://gastrosky.hu/assets/images/logo.png" alt="GastroSky" loading="eager" referrerpolicy="no-referrer"><div><strong>GASTROSKY</strong><small>Professzionális konyhatechnika</small></div></a><nav aria-label="Fő navigáció"><a href="#termekek">Termékek</a><a href="#markak">Márkák</a><a href="#hogyan-mukodik">Hogyan működik?</a><button type="button" class="quote-nav" id="quoteOpen"><span>Ajánlatkérő lista</span> <span class="gs-quote-count" id="quoteCount">0</span></button></nav></div></header>
 <section class="hero gs-hero"><div class="gs-hero-inner"><div class="gs-hero-copy"><span class="eyebrow"><span class="gs-spark"></span> GASTROSKY 2.0 · TERMÉKKATALÓGUS</span><h1>Professzionális konyhákhoz. <em>Okosan választva.</em></h1><p>Fedezd fel a Maxima, HENDI, Fagor Professional és Modular nagykonyhai berendezéseit. Nézd meg a részleteket, hasonlítsd össze a termékeket, és kérj személyre szabott ajánlatot egy helyen.</p><div class="gs-hero-buttons"><a href="#termekek" class="gs-hero-primary">Termékek megtekintése <span aria-hidden="true">↗</span></a><a href="#hogyan-mukodik" class="gs-hero-secondary">Hogyan működik?</a></div><div class="hero-features"><span><b>01</b> Keresés és szűrés</span><span><b>02</b> Termékrészletek</span><span><b>03</b> Ajánlatkérés</span></div></div><div class="gs-hero-showcase" aria-label="Válogatás a termékkatalógusból"><div class="gs-showcase-label">VÁLOGATÁS A KATALÓGUSBÓL <span>✦</span></div><div class="gs-showcase-photos"><div class="gs-showcase-photo gs-showcase-main"><img src="https://hendi.xcdn.nl/RM700%2C700/-/238967_OBW_2024_03_IMGP9712.jpg" alt="HENDI ételmelegítő készlet" loading="eager"><span>HENDI · Ételmelegítés</span></div><div class="gs-showcase-photo gs-showcase-side"><img src="https://maxima.com/img/2ygrxVpYMXeCFMPOO0mV0SeagqUxQHv0SthD4Z-1iZ8/resize:fit:265:265/aHR0cHM6Ly9tYXhpbWEuY29tL21lZGlhL2NhdGFsb2cvcHJvZHVjdC9zL3Avc3AtMTAwMS0wOTEwMDAwMC5qcGc_d2lkdGg9MjY1JmhlaWdodD0yNjU.jpg" alt="Maxima eszpresszógép" loading="eager"><span>MAXIMA · Kávégépek</span></div></div><div class="gs-showcase-bottom"><span>MAXIMA <i>×</i> HENDI</span><span>Professzionális választék</span></div></div></div></section><section class="gs-intro-strip" id="markak"><div class="gs-intro-inner"><span class="gs-intro-label">MÁRKÁK</span><div class="gs-intro-brand-grid"><a class="gs-intro-brand" href="#termekek" data-brand-filter="Maxima"><strong>MAXIMA</strong><span>16 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="HENDI"><strong>HENDI</strong><span>57 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Fagor"><strong>FAGOR</strong><span>201 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Modular"><strong>MODULAR</strong><span>18 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Coldline"><strong>COLDLINE</strong><span>17 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Krupps"><strong>KRUPPS</strong><span>17 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Aristarco"><strong>ARISTARCO</strong><span>74 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Sistema Project Italia"><strong>SISTEMA PROJECT ITALIA</strong><span>34 termék megtekinthető</span></a></div></div></section>
 <section class="gs-promo-section" id="kedvezmenyek">
@@ -689,7 +693,25 @@ async function loadFullSupplierCatalog(){
   const applicable=[...new Set(products.filter(p=>!manufacturer.value||p.manufacturer===manufacturer.value).map(p=>p.category).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'hu'));
   category.replaceChildren();
   const all=document.createElement('option');all.value='';all.textContent='Minden kategória';category.append(all);
-  for(const name of applicable){const option=document.createElement('option');option.value=name;option.textContent=name;category.append(option);}
+  // Tecnodom-style two-level navigation: manufacturer collection > product type.
+  // Native <optgroup> headings are also used by the mobile OS picker.
+  const groupMap=new Map();
+  for(const name of applicable){
+   const representative=products.find(p=>p.category===name&&(!manufacturer.value||p.manufacturer===manufacturer.value));
+   const group=manufacturer.value==='Tecnodom'
+     ? (representative?.specifications?.['Termékvonal']||'EGYÉB')
+     : manufacturer.value==='Gastro Haal'
+       ? (representative?.specifications?.['Főcsoport']||name)
+       : (!manufacturer.value?'Termékcsoportok':'Kategóriák');
+   if(!groupMap.has(group))groupMap.set(group,[]);
+   groupMap.get(group).push(name);
+  }
+  const groupOrder=(name)=>name==='HORIZONTAL'?0:name==='VERTICAL'?1:2;
+  for(const [heading,names] of [...groupMap.entries()].sort((a,b)=>groupOrder(a[0])-groupOrder(b[0])||a[0].localeCompare(b[0],'hu'))){
+   const container=document.createElement('optgroup');container.label=heading;
+   for(const name of names){const option=document.createElement('option');option.value=name;option.textContent=name;container.append(option);}
+   category.append(container);
+  }
   category.value=applicable.includes(previous)?previous:'';
   draw();
   if(previous!==category.value)category.dispatchEvent(new Event('change',{bubbles:true}));
@@ -699,11 +721,15 @@ async function loadFullSupplierCatalog(){
   const term=input.value.trim().toLocaleLowerCase('hu');
   const counts=new Map();
   for(const product of products){if(!product.category)continue;if(manufacturer.value&&manufacturer.value!==product.manufacturer)continue;counts.set(product.category,(counts.get(product.category)||0)+1);}
-  const entries=[...category.options].map(o=>({value:o.value,label:o.textContent||o.value,count:o.value?(counts.get(o.value)||0):[...counts.values()].reduce((a,b)=>a+b,0)}))
-   .filter(o=>!term||o.label.toLocaleLowerCase('hu').includes(term))
-   .sort((a,b)=>a.value===''?-1:b.value===''?1:b.count-a.count||a.label.localeCompare(b.label,'hu'));
+  const entries=[...category.options].map(o=>({value:o.value,label:o.textContent||o.value,group:o.parentElement?.tagName==='OPTGROUP'?o.parentElement.label:'',count:o.value?(counts.get(o.value)||0):[...counts.values()].reduce((a,b)=>a+b,0)}))
+   .filter(o=>!term||(o.label+' '+o.group).toLocaleLowerCase('hu').includes(term))
+   .sort((a,b)=>a.value===''?-1:b.value===''?1:a.group.localeCompare(b.group,'hu')||b.count-a.count||a.label.localeCompare(b.label,'hu'));
   list.replaceChildren();
+  let lastGroup=null;
   for(const item of entries){
+   if(item.value&&item.group&&item.group!==lastGroup){
+    const heading=document.createElement('div');heading.className='gs-category-section-heading';heading.textContent=item.group;heading.setAttribute('role','presentation');list.append(heading);lastGroup=item.group;
+   }
    const button=document.createElement('button');button.type='button';button.setAttribute('role','option');button.setAttribute('aria-selected',String(item.value===category.value));
    const name=document.createElement('span');name.textContent=item.label;
    const total=document.createElement('span');total.className='gs-category-count';total.textContent=String(item.count);
