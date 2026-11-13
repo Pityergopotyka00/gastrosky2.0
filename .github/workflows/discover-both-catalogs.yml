@@ -31,6 +31,8 @@ jobs:
         run: node scripts/discover-both-catalogs.mjs
         env:
           PUBLIC_DISCOVERY_PAGES: '100'
+      - name: Measure 250-per-brand catalog completeness
+        run: node scripts/check-catalog-coverage.mjs
       - name: Publish importer diagnostics to Actions summary
         if: always()
         run: |
@@ -48,7 +50,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/catalog-products.json data/catalog-discovery-state.json data/catalog-discovery-report.json
+          git add data/catalog-products.json data/catalog-discovery-state.json data/catalog-discovery-report.json data/catalog-coverage.json
           git diff --cached --quiet || (git commit -m "Expand public Maxima and HENDI product catalogs with verified images" && git push)
 
       - name: Report if supplier discovery is blocked
