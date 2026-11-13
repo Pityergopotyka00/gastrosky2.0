@@ -67,6 +67,41 @@ export async function handleQuote(request,env,readProducts){
   if(!response.ok){console.error('Email provider rejected quote with HTTP',response.status);return reply({error:'email_delivery_failed'},502)}
   const result=await response.json();
   if(!result.id)return reply({error:'email_delivery_unconfirmed'},502);
-  return reply({ok:true,requestId:result.id},202);
+  // The owner's quote notification succeeded. A customer receipt is best-effort:
+  // never mark the owner's request as failed just because the receipt was rejected.
+  let customerConfirmationSent=false;
+  if(env.QUOTE_CUSTOMER_CONFIRMATION!=='false'){
+   const receiptText=[
+    'Kedves '+name+'!','','Köszönjük, hogy ajánlatot kért a GastroSky-tól.',
+    'Az alábbi termékekre vonatkozó megkeresését megkaptuk:','',
+    ...productText.map(p=>'• '+p),'',
+    'Hamarosan felvesszük Önnel a kapcsolatot.',
+    'Ez egy automatikus visszaigazolás, nem végleges árajánlat.','','GastroSky'
+   ].join('\\n').replace(/\\n/g,'\n');
+   const receiptHtml='<div style="font-family:Arial,sans-serif;max-width:600px;margin:auto;color:#172b42">'
+    +'<div style="background:#102438;color:#e5ba73;padding:22px 26px;font-weight:bold;font-size:22px">GastroSky</div>'
+    +'<div style="padding:25px;border:1px solid #e7ebf0"><h2 style="margin-top:0">Köszönjük az ajánlatkérést!</h2>'
+    +'<p>Kedves '+clean(name)+'!</p><p>Megkaptuk megkeresését az alábbi termékekre:</p>'
+    +'<ul>'+selected.map(p=>'<li>'+clean(p.manufacturer)+' – '+clean(p.name)+' ('+clean(p.sku)+')</li>').join('')+'</ul>'
+    +'<p>Hamarosan felvesszük Önnel a kapcsolatot.</p>'
+    +'<p style="font-size:12px;color:#65758b">Ez egy automatikus visszaigazolás, nem végleges árajánlat.</p></div></div>';
+   try{
+    const receipt=await fetch('https://api.resend.com/emails',{
+     method:'POST',
+     headers:{Authorization:'Bearer '+env.RESEND_API_KEY,'Content-Type':'application/json'},
+     body:JSON.stringify({
+      from:env.QUOTE_FROM_EMAIL,
+      to:[email],
+      subject:'GastroSky – ajánlatkérés visszaigazolása',
+      text:receiptText,
+      html:receiptHtml
+     }),
+     signal:AbortSignal.timeout(12000)
+    });
+    if(receipt.ok)customerConfirmationSent=Boolean((await receipt.json()).id);
+    else console.error('Customer confirmation rejected with HTTP',receipt.status);
+   }catch{console.error('Customer confirmation could not be delivered')}
+  }
+  return reply({ok:true,requestId:result.id,customerConfirmationSent},202);
  }catch{ return reply({error:'email_provider_unavailable'},502)}
 }
