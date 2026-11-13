@@ -291,7 +291,38 @@ dialog::backdrop{background:#071726bb;backdrop-filter:blur(4px)}
 /* Published catalogue entries awaiting manufacturer imagery */
 .illustration .muted{white-space:pre-line;text-align:center;max-width:85%;font-size:13px;line-height:1.9;color:#65778b;font-weight:720;padding:24px;background:#eef3f8;border:1px dashed #bac7d6;border-radius:13px}
 .gs-detail-image-error{white-space:normal;display:block;border:1px dashed #b9c8d9;background:#f4f7fa;padding:25px 20px;border-radius:15px;font-size:13px;color:#526a84;font-weight:750}
-</style></head><body>
+</style><style>
+/* Continuous color system: navy header/hero, warm neutral content, no alternating black bands. */
+:root{--gs-paper:#f4f5f4;--gs-panel:#fffdfa;--gs-ink:#17314b;--gs-edge:#dfe6e9;--gs-accent:#d3a65e}
+html{scroll-padding-top:90px}
+body{background:var(--gs-paper)!important}
+.hero.gs-hero{background:linear-gradient(145deg,#10243a 0%,#203c53 75%,#34516a 100%);border-bottom:5px solid #d9b676}
+.gs-intro-strip{background:var(--gs-paper);border:none;box-shadow:none}
+.gs-intro-strip .gs-intro-inner{padding-top:43px;padding-bottom:23px}
+.gs-intro-brand-grid{gap:12px 14px}
+.gs-intro-brand-grid .gs-intro-brand{background:var(--gs-panel);border:1px solid var(--gs-edge);border-left:3px solid #d4a961;border-radius:12px;padding:17px 18px;box-shadow:0 6px 22px #0d30400a;transition:transform .16s,box-shadow .16s,border-color .16s}
+.gs-intro-brand-grid .gs-intro-brand:hover,.gs-intro-brand-grid .gs-intro-brand:focus-visible{transform:translateY(-2px);border-color:#d3b27e;box-shadow:0 12px 25px #17314b12;background:#fff}
+.gs-intro-brand-grid .gs-intro-brand strong{color:#19354d;font-size:clamp(12px,1.15vw,16px);letter-spacing:.45px}
+.gs-promo-section{background:var(--gs-paper);border:0;color:var(--gs-ink);padding:0 22px}
+.gs-promo-inner{background:linear-gradient(115deg,#fcf8ef,#f7f4ec);border:1px solid #e8dcc6;box-shadow:0 10px 25px #213a4b08;border-radius:18px;padding:28px 32px;max-width:1276px;gap:20px}
+.gs-promo-copy h2{color:#19354d;font-size:clamp(21px,2.3vw,30px)}
+.gs-promo-copy p{color:#617285;font-size:13px}
+.gs-promo-copy .gs-section-kicker{color:#9a7136}
+.gs-promo-link{background:#193b54!important;color:#fff!important;border:0;box-shadow:0 5px 14px #17314b18}
+.shell.gs-catalog-shell{margin-top:0;padding-top:44px}
+.gs-catalog-shell .notice{background:transparent;box-shadow:none;border:0;border-left:3px solid #d3a65e;border-radius:0;margin-bottom:28px;padding:8px 14px;color:#63778b}
+.gs-process{background:var(--gs-paper);border-top:1px solid #e1e5e8}
+.gs-process-grid article{background:var(--gs-panel);border-color:var(--gs-edge)}
+.gs-bottom-cta{background:linear-gradient(110deg,#e8eced,#f2f4f3);border-block:1px solid #dfe6e9;color:#18334a}
+.gs-bottom-cta h2{color:#18334a}.gs-bottom-cta p{color:#61758a}.gs-bottom-cta .gs-section-kicker{color:#9a7136}
+#quotePanel{background:#fffdfa;color:#16314a;border:1px solid #dce5ea;border-radius:22px;box-shadow:0 28px 90px #04162738;max-width:min(630px,calc(100vw - 28px));padding:28px}
+#quotePanel h2{color:#153047}
+#quotePanel .quote-field input,#quotePanel .quote-field textarea{background:#fff;border:1px solid #cdd9e1;border-radius:10px}
+#quotePanel .quote-field input:focus,#quotePanel .quote-field textarea:focus{outline:2px solid #d7ad66;outline-offset:1px}
+#quotePanel .quote-submit-actions .button{min-height:46px}
+@media(max-width:720px){.gs-intro-strip .gs-intro-inner{padding-top:25px;padding-bottom:17px}.gs-promo-section{padding:0 15px}.gs-promo-inner{padding:22px 19px}.shell.gs-catalog-shell{padding-top:29px}#quotePanel{padding:20px}}
+</style>
+</head><body>
 <div class="gs-topline"><div><span class="gs-topline-dot"></span> GASTROSKY · NAGYKONYHAI BERENDEZÉSEK</div><a href="mailto:info@gastrosky.hu">info@gastrosky.hu</a></div><header class="gs-header"><div class="gs-header-inner"><a class="brand gs-brand" href="index.html" aria-label="GastroSky főoldal"><img class="brandmark real-logo" src="https://gastrosky.hu/assets/images/logo.png" alt="GastroSky" loading="eager" referrerpolicy="no-referrer"><div><strong>GASTROSKY</strong><small>Professzionális konyhatechnika</small></div></a><nav aria-label="Fő navigáció"><a href="#termekek">Termékek</a><a href="#markak">Márkák</a><a href="#hogyan-mukodik">Hogyan működik?</a><button type="button" class="quote-nav" id="quoteOpen"><span>Ajánlatkérő lista</span> <span class="gs-quote-count" id="quoteCount">0</span></button></nav></div></header>
 <section class="hero gs-hero"><div class="gs-hero-inner"><div class="gs-hero-copy"><span class="eyebrow"><span class="gs-spark"></span> GASTROSKY 2.0 · TERMÉKKATALÓGUS</span><h1>Professzionális konyhákhoz. <em>Okosan választva.</em></h1><p>Fedezd fel a Maxima, HENDI, Fagor Professional és Modular nagykonyhai berendezéseit. Nézd meg a részleteket, hasonlítsd össze a termékeket, és kérj személyre szabott ajánlatot egy helyen.</p><div class="gs-hero-buttons"><a href="#termekek" class="gs-hero-primary">Termékek megtekintése <span aria-hidden="true">↗</span></a><a href="#hogyan-mukodik" class="gs-hero-secondary">Hogyan működik?</a></div><div class="hero-features"><span><b>01</b> Keresés és szűrés</span><span><b>02</b> Termékrészletek</span><span><b>03</b> Ajánlatkérés</span></div></div><div class="gs-hero-showcase" aria-label="Válogatás a termékkatalógusból"><div class="gs-showcase-label">VÁLOGATÁS A KATALÓGUSBÓL <span>✦</span></div><div class="gs-showcase-photos"><div class="gs-showcase-photo gs-showcase-main"><img src="https://hendi.xcdn.nl/RM700%2C700/-/238967_OBW_2024_03_IMGP9712.jpg" alt="HENDI ételmelegítő készlet" loading="eager"><span>HENDI · Ételmelegítés</span></div><div class="gs-showcase-photo gs-showcase-side"><img src="https://maxima.com/img/2ygrxVpYMXeCFMPOO0mV0SeagqUxQHv0SthD4Z-1iZ8/resize:fit:265:265/aHR0cHM6Ly9tYXhpbWEuY29tL21lZGlhL2NhdGFsb2cvcHJvZHVjdC9zL3Avc3AtMTAwMS0wOTEwMDAwMC5qcGc_d2lkdGg9MjY1JmhlaWdodD0yNjU.jpg" alt="Maxima eszpresszógép" loading="eager"><span>MAXIMA · Kávégépek</span></div></div><div class="gs-showcase-bottom"><span>MAXIMA <i>×</i> HENDI</span><span>Professzionális választék</span></div></div></div></section><section class="gs-intro-strip" id="markak"><div class="gs-intro-inner"><span class="gs-intro-label">MÁRKÁK</span><div class="gs-intro-brand-grid"><a class="gs-intro-brand" href="#termekek" data-brand-filter="Maxima"><strong>MAXIMA</strong><span>16 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="HENDI"><strong>HENDI</strong><span>57 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Fagor"><strong>FAGOR</strong><span>19 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Modular"><strong>MODULAR</strong><span>18 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Coldline"><strong>COLDLINE</strong><span>17 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Krupps"><strong>KRUPPS</strong><span>17 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Aristarco"><strong>ARISTARCO</strong><span>74 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Sistema Project Italia"><strong>SISTEMA PROJECT ITALIA</strong><span>34 termék megtekinthető</span></a></div></div></section>
 <section class="gs-promo-section" id="kedvezmenyek">
