@@ -1,0 +1,23 @@
+[
+  {
+    "name": "700l FAGYASZTÓ",
+    "category": "Hűtéstechnika",
+    "manufacturer": null,
+    "manufacturer_status": "unverified",
+    "source_url": "https://gastrosky.hu/termekek/reszletek/700l-fagyaszto"
+  },
+  {
+    "name": "Winterhalter UC-S",
+    "category": "Mosogatástechnika",
+    "manufacturer": "Winterhalter",
+    "manufacturer_status": "verified",
+    "source_url": "https://gastrosky.hu/termekek/reszletek/winterhalter-uc-s"
+  },
+  {
+    "name": "12L-ES MANUÁLIS VÍZLÁGYÍTÓ",
+    "category": "Mosogatástechnika",
+    "manufacturer": null,
+    "manufacturer_status": "unverified",
+    "source_url": "https://gastrosky.hu/termekek/reszletek/12l-es-manualis-vizlagyito"
+  }
+]
