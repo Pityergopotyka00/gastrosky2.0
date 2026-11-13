@@ -1,0 +1,15 @@
+{
+  "imported_at": "2026-11-13T21:39:32.736Z",
+  "category_pages_checked": 28,
+  "product_pages_discovered": 23,
+  "published_with_images": 22,
+  "excluded_group": "Tűzhelyek (3_tuzhelyek) including every descendant",
+  "unresolved": [
+    {
+      "url": "https://gastrohaal.sk/hu/termekek/70_automata-fertotlenito-adagolo/arcfelismeres-terminal-dezinflex-hikvision/301_dezinflex-m-e-automata-fertotlenito-adagolo-1l",
+      "name": "",
+      "reason": "The operation was aborted due to timeout"
+    }
+  ],
+  "errors": []
+}
