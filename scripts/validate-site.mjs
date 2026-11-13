@@ -78,6 +78,18 @@ for(const brand of ['Maxima','HENDI','Fagor','Modular','Coldline','Krupps','Aris
 for(const action of ['id="search"','id="category"','id="manufacturer"','id="sortBy"','id="quoteOpen"','id="quotePanel"']){
  assert.ok(html.includes(action),'Important catalog/quote control missing: '+action);
 }
+const minimumBrands=['Maxima','HENDI','Fagor','Modular','Coldline','Krupps','Aristarco','Sistema Project Italia'];
+for(const brand of minimumBrands){
+ const count=p.filter(item=>item.manufacturer===brand).length;
+ assert.ok(count>=16,brand+' needs at least 16 real catalog entries; got '+count);
+ const label=brand==='Sistema Project Italia'?'SISTEMA PROJECT ITALIA':brand.toUpperCase();
+ assert.ok(html.includes('data-brand-filter="'+brand+'"'),brand+' missing from clickable brand directory');
+ assert.ok(html.includes(count+' termék megtekinthető'),brand+' count missing from directory');
+}
+assert.ok(html.includes('id="kedvezmenyek"'),'Discount request section missing');
+assert.ok(p.filter(x=>x.promotion?.kind==='discount_quote_request').length>=5,'Discount quote products missing');
+assert.ok(script.includes("result?.success==='true'"),'FormSubmit should not treat a false string as success');
+assert.ok(script.includes("activation_required"),'Recipient activation status must be surfaced');
 console.log('Validated storefront JS and dynamic catalog of '+p.length+' products');
 
 const monitor=await readFile('stock-monitor.html','utf8');
