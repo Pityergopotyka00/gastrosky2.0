@@ -15,6 +15,8 @@ import {parseProducts} from './catalog-parse.mjs';
 
 const PRODUCT_PATH='data/catalog-products.json';
 const STATE_PATH='data/catalog-discovery-state.json';
+const REPORT_PATH='data/catalog-discovery-report.json';
+const report={checked_at:new Date().toISOString(),suppliers:{}};
 const MAX_PAGES=Math.min(120,Math.max(1,Number(process.env.PUBLIC_DISCOVERY_PAGES||45)));
 const USER_AGENT='GastroSkyCatalogCheck/1.0';
 const STOP_AFTER_CONSECUTIVE_FAILURES=8;
@@ -114,7 +116,11 @@ async function discoverSitemaps(vendor,policy,enqueue){
 let finalAdded=0,finalUpdated=0;
 for(const vendor of vendors){
   const policy=await readRobots(vendor);
-  if(!policy){console.warn('Skipping',vendor.name,'until robots policy is available');continue}
+  if(!policy){
+    console.warn('Skipping',vendor.name,'until robots policy is available');
+    report.suppliers[vendor.name]={status:'robots_unavailable',checked:0,added:0,updated:0};
+    continue;
+  }
   state[vendor.name]??={queue:[],seen:[]};
   const queue=state[vendor.name].queue,seen=new Set(state[vendor.name].seen);
   const pending=new Set(queue);
@@ -163,9 +169,15 @@ for(const vendor of vendors){
   state[vendor.name].queue=queue.slice(0,25000);
   state[vendor.name].seen=[...seen].slice(-50000);
   finalAdded+=added;finalUpdated+=updated;
-  console.log(vendor.name,{checked,added,updated,pending:queue.length,seen:seen.size});
+  report.suppliers[vendor.name]={status:checked?'pages_checked':'no_permitted_pages',checked,added,updated,pending:queue.length,seen:seen.size};
+  console.log(vendor.name,report.suppliers[vendor.name]);
 }
 const all=[...existing.values()].sort((a,b)=>a.manufacturer.localeCompare(b.manufacturer)||a.sku.localeCompare(b.sku));
 await writeFile(PRODUCT_PATH,JSON.stringify(all,null,2)+'\n');
 await writeFile(STATE_PATH,JSON.stringify(state,null,2)+'\n');
+report.catalog_count=all.length;
+report.new_products=finalAdded;
+report.updated_products=finalUpdated;
+report.products_with_image_url=all.filter(p=>p.image_url).length;
+await writeFile(REPORT_PATH,JSON.stringify(report,null,2)+'\n');
 console.log('Combined public catalog',all.length,'new',finalAdded,'updated',finalUpdated,'photos',all.filter(p=>p.image_url).length);
