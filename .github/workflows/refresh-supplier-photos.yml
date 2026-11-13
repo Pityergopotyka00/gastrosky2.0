@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - '.github/workflows/refresh-supplier-photos.yml'
+      - 'scripts/fetch-all-supplier-media.mjs'
 permissions:
   contents: write
 jobs:
