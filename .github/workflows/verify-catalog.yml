@@ -7,6 +7,9 @@ on:
       - 'worker/**'
       - 'tests/**'
       - 'package.json'
+      - 'index.html'
+      - 'data/catalog-products.json'
+      - 'scripts/validate-site.mjs'
 permissions:
   contents: read
 jobs:
@@ -17,8 +20,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Run stock-parser unit tests
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+      - name: Run stock-parser and storefront tests
         run: npm test
+      - name: Build deployable website
+        run: npm run build
       - name: Confirm all Maxima SKUs have image URLs
         run: |
           node --input-type=module -e "import fs from 'node:fs';const p=JSON.parse(fs.readFileSync('data/maxima-products.json'));if(p.some(x=>!x.image_url))throw Error('Missing product image URL');console.log(p.length+' photo URLs present');"
