@@ -20,7 +20,7 @@ const hosts={
  'Sistema Project Italia':['projectsystems.it','www.projectsystems.it'],
  Tecnodom:['tecnodomspa.com','www.tecnodomspa.com']
 };
-const allowedRetailPhotoHosts=new Set(['static.materiel-horeca.com','images.metro-marketplace.eu','cubosupplies.com','www.hellopro.fr','tirol.bg','www.wea56.com','www.materielhoreca.com','www.audores.lt','audores.lt','nivaeq.com','www.ventus.com.gr','img.archiexpo.com','horeca365.ro','www.andretti.hu','restoll.ru','et-e.com.ua','res.cloudinary.com','www.mh-hygiene.com','flexikitch.com.au','www.pesage-mb.com','luxia-nce.co.uk','shop.gastrooprema.rs','itpizza-russia.ru','www.lahostelera.com']);
+const allowedRetailPhotoHosts=new Set(['static.materiel-horeca.com','images.metro-marketplace.eu','cubosupplies.com','www.hellopro.fr','tirol.bg','www.wea56.com','www.materielhoreca.com','www.audores.lt','audores.lt','nivaeq.com','www.ventus.com.gr','img.archiexpo.com','horeca365.ro','www.andretti.hu','restoll.ru','et-e.com.ua','res.cloudinary.com','www.mh-hygiene.com','flexikitch.com.au','www.pesage-mb.com','luxia-nce.co.uk','shop.gastrooprema.rs','itpizza-russia.ru','www.lahostelera.com','mdb-equipement.com']);
 const seen=new Set();
 for(const item of products){
  assert.ok(item&&typeof item==='object','Invalid product');
