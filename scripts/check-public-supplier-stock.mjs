@@ -50,17 +50,19 @@ async function permits(url) {
         redirect:'error'
       });
       // If robots policy is inaccessible, err on the safe side.
-      robots.set(origin,response.ok?robotsPolicy(await response.text()):()=>false);
-    }catch{robots.set(origin,()=>false)}
+      robots.set(origin,response.ok?{permitted:robotsPolicy(await response.text()),reason:'supplier_robots_disallows'}:{permitted:()=>false,reason:'supplier_robots_http_'+response.status});
+    }catch(error){robots.set(origin,{permitted:()=>false,reason:'supplier_robots_unreachable'});console.warn('Cannot read robots policy for',origin,String(error?.message||error))}
   }
-  return robots.get(origin)(url.pathname);
+  const policy=robots.get(origin);
+  return {allowed:policy.permitted(url.pathname),reason:policy.reason};
 }
 async function check(p){
   if(!p.source_url)return {id:p.id,kind:'unknown',reason:'supplier_page_missing'};
   let url;
   try{url=new URL(p.source_url)}catch{return {id:p.id,kind:'unknown',reason:'invalid_supplier_url'}}
   if(url.protocol!=='https:'||!hosts[p.manufacturer]?.has(url.hostname))return {id:p.id,kind:'unknown',reason:'wrong_supplier_host'};
-  if(!(await permits(url)))return {id:p.id,kind:'unknown',reason:'supplier_robots_not_permitted'};
+  const policy=await permits(url);
+  if(!policy.allowed)return {id:p.id,kind:'unknown',reason:policy.reason};
   try{
     const response=await fetch(url.href,{
       headers:{Accept:'text/html','Accept-Language':'hu-HU,hu;q=0.9','User-Agent':'GastroSkyCatalogCheck/1.0 (public product availability)'},
