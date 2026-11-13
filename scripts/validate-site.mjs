@@ -16,6 +16,18 @@ for (const x of p) {
  assert.ok(x.sku&&x.name&&x.manufacturer&&x.id);
  assert.equal(x.id,x.manufacturer.toLowerCase()+':'+x.sku,'Catalog ID mismatch '+x.id);
  assert.ok(x.image_url&&/^https:\/\//i.test(x.image_url),'Each published product needs a secure real photo URL: '+x.id);
+ const image=new URL(x.image_url);
+ const isMaxima=x.manufacturer==='Maxima';
+ const permittedImageHosts=isMaxima?['maxima.com']:['hendi.eu','www.hendi.eu','hendi.xcdn.nl'];
+ assert.ok(permittedImageHosts.includes(image.hostname),'Unexpected manufacturer photo host: '+x.id);
+ if(!isMaxima){
+  assert.ok(image.pathname.includes(x.sku),'HENDI image filename does not match the product SKU: '+x.id);
+ }
+ if(x.source_url){
+  const source=new URL(x.source_url);
+  assert.equal(source.protocol,'https:','Unsafe manufacturer product URL: '+x.id);
+  assert.ok((isMaxima?['maxima.com']:['hendi.eu','www.hendi.eu']).includes(source.hostname),'Incorrect product manufacturer URL: '+x.id);
+ }
 }
 assert.ok(html.includes('Ajánlatkéréshez adom'),'Quote add button not installed');
 assert.ok(html.includes('quotePanel'),'Quote dialog absent');
