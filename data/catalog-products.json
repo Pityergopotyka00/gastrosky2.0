@@ -15798,5 +15798,115 @@
     "price": null,
     "availability": null,
     "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09400210",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09400210",
+    "ean": "8719632122425",
+    "name": "Maxima – Pizzakészítő hűtőpult, 202 cm, két ajtó, hét fiók",
+    "category": "Hűtéstechnika",
+    "description": "Maxima gyártói katalógusban található professzionális berendezés, modellazonosítóval ellenőrizve.",
+    "specifications": {
+      "Cikkszám": "09400210"
+    },
+    "source_url": "https://maxima.com/hu/pizza-prep-hutoszekreny-2-ajtoval-202cm-780l-7-fiokos.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09400208",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09400208",
+    "ean": "8719324276283",
+    "name": "Maxima – Pizzakészítő hűtőpult, 137 cm, három ajtó",
+    "category": "Hűtéstechnika",
+    "description": "Maxima gyártói katalógusban található professzionális berendezés, modellazonosítóval ellenőrizve.",
+    "specifications": {
+      "Cikkszám": "09400208"
+    },
+    "source_url": "https://maxima.com/hu/pizza-elokeszito-hutoszekreny-3-ajtoval-137cm-400l-uvegfedellel-egyutt.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09400207",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09400207",
+    "ean": "8719324276276",
+    "name": "Maxima – Pizzakészítő hűtőpult, 90 cm, két ajtó",
+    "category": "Hűtéstechnika",
+    "description": "Maxima gyártói katalógusban található professzionális berendezés, modellazonosítóval ellenőrizve.",
+    "specifications": {
+      "Cikkszám": "09400207"
+    },
+    "source_url": "https://maxima.com/hu/pizza-prep-hutoszekreny-2-ajtoval-90cm-285l-uvegfedellel-egyutt.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09377005",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09377005",
+    "ean": "8719632129615",
+    "name": "Maxima – Tésztanyújtógép, 52 cm",
+    "category": "Tésztakészítés",
+    "description": "Maxima gyártói katalógusban található professzionális berendezés, modellazonosítóval ellenőrizve.",
+    "specifications": {
+      "Cikkszám": "09377005"
+    },
+    "source_url": "https://maxima.com/hu/tesztagorgo-52cm-asztali.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09391600",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09391600",
+    "ean": "8719632123279",
+    "name": "Maxima – Gázüzemű sima sütőlap, 60 cm",
+    "category": "Sütőlapok",
+    "description": "Maxima gyártói katalógusban található professzionális berendezés, modellazonosítóval ellenőrizve.",
+    "specifications": {
+      "Cikkszám": "09391600"
+    },
+    "source_url": "https://maxima.com/hu/kereskedelmi-minosegu-grillsuto-sima-gaz-dupla-egyseg-60cm-melysegu.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
   }
 ]
