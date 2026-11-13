@@ -31,6 +31,15 @@ jobs:
         run: node scripts/discover-both-catalogs.mjs
         env:
           PUBLIC_DISCOVERY_PAGES: '100'
+      - name: Publish importer diagnostics to Actions summary
+        if: always()
+        run: |
+          if [ -f data/catalog-discovery-report.json ]; then
+            echo "### Supplier catalog discovery" >> "$GITHUB_STEP_SUMMARY"
+            echo "\`\`\`json" >> "$GITHUB_STEP_SUMMARY"
+            cat data/catalog-discovery-report.json >> "$GITHUB_STEP_SUMMARY"
+            echo "\`\`\`" >> "$GITHUB_STEP_SUMMARY"
+          fi
       - name: Run SKU-photo, URL and storefront tests
         run: npm test
       - name: Build Cloudflare website assets
@@ -39,5 +48,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/catalog-products.json data/catalog-discovery-state.json
+          git add data/catalog-products.json data/catalog-discovery-state.json data/catalog-discovery-report.json
           git diff --cached --quiet || (git commit -m "Expand public Maxima and HENDI product catalogs with verified images" && git push)
