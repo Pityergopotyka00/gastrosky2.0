@@ -77,6 +77,17 @@ def candidates_for_code(lines: list[str], ix: int, code: str) -> list[str]:
             break
         if valid_model(previous):
             found.append(previous)
+    # Some official tables print article CODE before the MODEL column.
+    # Accept only an immediately adjacent model; never scan an entire page.
+    for steps in (1, 2):
+        target = ix + steps
+        if target >= len(lines):
+            break
+        subsequent = lines[target].strip()
+        if CODE.search(subsequent) or len(subsequent) > 54:
+            break
+        if valid_model(subsequent):
+            found.append(subsequent)
     return found
 
 def read_pdf_text(path: str) -> list[str]:
@@ -179,7 +190,9 @@ def main() -> int:
     b = html.find(";\nconst search=", a)
     if a < 0 or b < 0:
         raise ValueError("embedded catalogue in storefront not found")
-    embedded = json.dumps(products, ensure_ascii=False, separators=(",",":")).replace("<", "\\u003c")
+    # Keep the initial HTML light. The page fetches the complete JSON as soon
+    # as it loads; embedded products are just the offline fallback.
+    embedded = json.dumps(products[:300], ensure_ascii=False, separators=(",",":")).replace("<", "\\u003c")
     html = html[:a] + marker + embedded + html[b:]
     import re
     html, count = re.subn(
