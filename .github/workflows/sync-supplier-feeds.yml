@@ -1,0 +1,34 @@
+name: Sync authorized Maxima and HENDI feeds
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */2 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: gastrosky-feed-sync
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      MAXIMA_FEED_URL: ${{ secrets.MAXIMA_FEED_URL }}
+      HENDI_FEED_URL: ${{ secrets.HENDI_FEED_URL }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install importer dependencies
+        run: npm ci || npm install --no-audit --no-fund
+      - name: Import products, images and verified stock
+        run: node scripts/sync-supplier-feeds.mjs
+      - name: Validate storefront and supplier catalog
+        run: npm run validate
+      - name: Commit updated catalog and stock snapshots
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/catalog-products.json data/supplier-stock-snapshot.json index.html
+          git diff --cached --quiet || (git commit -m "Sync Maxima and HENDI products photos and stock from authorized feeds" && git push)
