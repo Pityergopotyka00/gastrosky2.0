@@ -123,7 +123,7 @@ for(const feed of feeds){
   mapped++;if(p.image_url)withPhotos++;products.set(p.id,p);
   const status=statusFromRecord(r);
   if(status.kind!=='unknown')knownStock++;
-  stocks[p.id]={id:p.id,sku:p.sku,kind:status.kind,quantity:status.quantity,expected_date:null,reason:status.kind==='unknown'?'supplier_feed_no_explicit_stock':null,checked_at:observedAt};
+  stocks[p.id]={id:p.id,sku:p.sku,kind:status.kind,quantity:status.quantity,expected_date:null,reason:status.kind==='unknown'?'supplier_feed_no_explicit_stock':null,checked_at:observedAt,source:'authorized_supplier_feed'};
  }
  if(!mapped)throw Error(feed.manufacturer+': no valid SKU/name pairs. Supplier feed format needs mapping.');
  successful++;
