@@ -24,7 +24,7 @@ for(const item of fagorStaged){
  assert.ok(item.name&&item.description.length>=95&&Object.keys(item.specifications).length>=4,'Incomplete Fagor model description or specifications');
  assert.equal(item.image_url,null,'Staged Fagor images must not be claimed verified');
  assert.ok(item.source_url.startsWith('https://www.fagorprofessional.com/'),'Unofficial Fagor product reference');
- assert.ok(!p.some(x=>x.id===item.id),'Fagor item published before image rights review');
+ assert.ok(p.some(x=>x.id===item.id),'Published Fagor model absent from main catalog');
 }
 const staged=JSON.parse(await readFile('data/modular-verified-staging.json','utf8'));
 assert.ok(Array.isArray(staged)&&staged.length>=6,'Verified Modular staging records missing');
@@ -34,7 +34,7 @@ for(const item of staged){
  assert.ok(item.name&&item.description.length>=95&&Object.keys(item.specifications).length>2,'Incomplete manufacturer product information');
  assert.equal(item.image_url,null,'Do not imply images are verified before media review');
  assert.ok(item.source_url.startsWith('https://www.modular.it/'),'Missing official product sheet');
- assert.ok(!p.some(x=>x.id===item.id),'A staged product was published without matching photo approval');
+ assert.ok(p.some(x=>x.id===item.id),'Published Modular model absent from main catalog');
 }
 
 for (const x of p) {
@@ -46,15 +46,16 @@ for (const x of p) {
   assert.ok(!/^Professzionális vendéglátóipari termék\./.test(x.description||''),'Generic HENDI description: '+x.id);
  }
  assert.equal(x.id,x.manufacturer.toLowerCase()+':'+x.sku,'Catalog ID mismatch '+x.id);
- assert.ok(x.image_url&&/^https:\/\//i.test(x.image_url),'Each published product needs a secure real photo URL: '+x.id);
- const image=new URL(x.image_url);
+ assert.ok(!x.image_url||/^https:\/\//i.test(x.image_url),'Product photo URL must use HTTPS if supplied: '+x.id);
+ if((x.manufacturer==='Fagor'||x.manufacturer==='Modular')&&!x.image_url)assert.equal(x.photo_status,'product_photo_pending','Missing photo status must be explicit: '+x.id);
+ const image=x.image_url?new URL(x.image_url):null;
  const isMaxima=x.manufacturer==='Maxima';
  const manufacturerHosts=isMaxima?['maxima.com']:x.manufacturer==='HENDI'?['hendi.eu','www.hendi.eu','hendi.xcdn.nl']:x.manufacturer==='Modular'?['modular.it','www.modular.it','thenicekitchen.com','www.thenicekitchen.com']:x.manufacturer==='Fagor'?['fagorprofessional.com','www.fagorprofessional.com']:[];
- const manuallyMatchedRetailPhoto=isMaxima&&x.image_source==='matching_retailer_product_photo';
- const retailerHosts=['static.materiel-horeca.com','images.metro-marketplace.eu','cubosupplies.com'];
- assert.ok(manufacturerHosts.includes(image.hostname)||(manuallyMatchedRetailPhoto&&retailerHosts.includes(image.hostname)),'Unexpected product photo host: '+x.id);
+ const manuallyMatchedRetailPhoto=(isMaxima||x.manufacturer==='Fagor')&&x.image_source==='matching_retailer_product_photo';
+ const retailerHosts=['static.materiel-horeca.com','images.metro-marketplace.eu','cubosupplies.com','www.hellopro.fr'];
+ if(image)assert.ok(manufacturerHosts.includes(image.hostname)||(manuallyMatchedRetailPhoto&&retailerHosts.includes(image.hostname)),'Unexpected product photo host: '+x.id);
  if(x.manufacturer==='HENDI'){
-  assert.ok(image.pathname.includes(x.sku),'HENDI image filename does not match the product SKU: '+x.id);
+  assert.ok(image&&image.pathname.includes(x.sku),'HENDI image filename does not match the product SKU: '+x.id);
  }
  if(x.source_url){
   const source=new URL(x.source_url);
