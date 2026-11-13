@@ -16458,5 +16458,137 @@
     "price": null,
     "availability": null,
     "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300971",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300971",
+    "ean": "8719632120889",
+    "name": "Maxima – Rozsdamentes munkaasztal 200 × 60 cm",
+    "category": "Rozsdamentes bútorok",
+    "description": "Gyártói cikkszámmal ellenőrzött, professzionális Maxima rozsdamentes konyhai munkaasztal.",
+    "specifications": {
+      "Cikkszám": "09300971"
+    },
+    "source_url": "https://maxima.com/hu/rozsdamentes-acel-asztal-200-x-60cm-allithato-magassagu.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09364009",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09364009",
+    "ean": "8719632123071",
+    "name": "Maxima – Rozsdamentes munkaasztal 120 × 70 cm",
+    "category": "Rozsdamentes bútorok",
+    "description": "Gyártói cikkszámmal ellenőrzött, professzionális Maxima rozsdamentes konyhai munkaasztal.",
+    "specifications": {
+      "Cikkszám": "09364009"
+    },
+    "source_url": "https://maxima.com/hu/rozsdamentes-acel-asztal-120-x-70cm-allithato-magassagu.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09364006",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09364006",
+    "ean": "8719632123064",
+    "name": "Maxima – Rozsdamentes munkaasztal 100 × 70 cm",
+    "category": "Rozsdamentes bútorok",
+    "description": "Gyártói cikkszámmal ellenőrzött, professzionális Maxima rozsdamentes konyhai munkaasztal.",
+    "specifications": {
+      "Cikkszám": "09364006"
+    },
+    "source_url": "https://maxima.com/hu/rozsdamentes-acel-asztal-100-x-70cm-allithato-magassagu.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300959",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300959",
+    "ean": "8719632120841",
+    "name": "Maxima – Rozsdamentes munkaasztal 120 × 60 cm",
+    "category": "Rozsdamentes bútorok",
+    "description": "Gyártói cikkszámmal ellenőrzött, professzionális Maxima rozsdamentes konyhai munkaasztal.",
+    "specifications": {
+      "Cikkszám": "09300959"
+    },
+    "source_url": "https://maxima.com/hu/rozsdamentes-acel-asztal-120-x-60cm-allithato-magassagu.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09364033",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09364033",
+    "ean": "8719632123125",
+    "name": "Maxima – Rozsdamentes munkaasztal hátfallal, 120 × 70 cm",
+    "category": "Rozsdamentes bútorok",
+    "description": "Gyártói cikkszámmal ellenőrzött, professzionális Maxima rozsdamentes konyhai munkaasztal.",
+    "specifications": {
+      "Cikkszám": "09364033"
+    },
+    "source_url": "https://maxima.com/hu/rozsdamentes-acel-asztal-hatso-resszel-120-x-70cm-allithato-magassagu.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300977",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300977",
+    "ean": "8719632120902",
+    "name": "Maxima – Rozsdamentes munkaasztal hátfallal, 80 × 60 cm",
+    "category": "Rozsdamentes bútorok",
+    "description": "Gyártói cikkszámmal ellenőrzött, professzionális Maxima rozsdamentes konyhai munkaasztal.",
+    "specifications": {
+      "Cikkszám": "09300977"
+    },
+    "source_url": "https://maxima.com/hu/rozsdamentes-acel-asztal-hatso-resszel-80-x-60cm-allithato-magassagu.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
   }
 ]
