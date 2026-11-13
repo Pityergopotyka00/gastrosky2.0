@@ -34,7 +34,14 @@ function normalizeUrl(raw,vendor){
     if(vendor.name==='HENDI'&&!['www.hendi.eu','hendi.eu'].includes(hostname))return null;
     if(!u.pathname.startsWith(vendor.prefix))return null;
     if(/\.(?:pdf|jpe?g|gif|png|webp|svg|xml|css|js|woff\d?|zip)$/i.test(u.pathname))return null;
-    u.search='';u.hash='';
+    // HENDI category pagination uses ?p=2; retain only this benign page index.
+    // Drop marketing, tracking, session and sorting parameters.
+    const page=u.searchParams.get('p');
+    u.search='';
+    if(vendor.name==='HENDI'&&page&&/^\d{1,3}$/.test(page)&&Number(page)>1&&Number(page)<=200){
+      u.searchParams.set('p',String(Number(page)));
+    }
+    u.hash='';
     return u.href;
   }catch{return null}
 }
