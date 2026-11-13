@@ -11,6 +11,14 @@ const domainOk=(url,p)=>{
   return u.protocol==='https:'&&(u.hostname===base||u.hostname.endsWith('.'+base));
  }catch{return false}
 };
+const imageHostOk=(url,p)=>{
+ try{
+  const u=new URL(url);
+  return u.protocol==='https:'&&(p.manufacturer==='Maxima'?
+   (u.hostname==='maxima.com'||u.hostname.endsWith('.maxima.com')):
+   (u.hostname==='hendi.xcdn.nl'||u.hostname==='www.hendi.eu'||u.hostname==='hendi.eu'));
+ }catch{return false}
+};
 function attr(tag,name){
  const reg=new RegExp('\\b'+name+'\\s*=\\s*["\x27]([^"\x27]+)["\x27]','i');
  return tag.match(reg)?.[1]||null;
@@ -21,7 +29,18 @@ function imageFrom(html,base,p){
   if(!['og:image','twitter:image'].includes(name))continue;
   const raw=attr(tag,'content')?.replace(/&amp;/g,'&');
   if(!raw)continue;
-  try{const url=new URL(raw,base).href;if(domainOk(url,p))return url}catch{}
+  try{const url=new URL(raw,base).href;if(imageHostOk(url,p))return url}catch{}
+ }
+ // HENDI serves its official photos from hendi.xcdn.nl rather than hendi.eu.
+ // Prefer an actual product-specific media URL in the page, not generic site images.
+ if(p.manufacturer==='HENDI'){
+  const srcs=[...html.matchAll(/(?:href|src)\\s*=\\s*["']([^"']+)["']/gi)];
+  const links=srcs.map(x=>x[1].replace(/&amp;/g,'&'));
+  const preferred=links.filter(x=>x.includes(p.sku)&&/\\.(jpe?g|png|webp)(?:\\?|$)/i.test(x));
+  preferred.sort((a,b)=>(b.includes('RM700')?1:0)-(a.includes('RM700')?1:0));
+  for(const raw of preferred){
+   try{const uri=new URL(raw,base).href;if(imageHostOk(uri,p))return uri}catch{}
+  }
  }
  return null;
 }
