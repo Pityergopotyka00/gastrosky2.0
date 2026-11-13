@@ -1,0 +1,24 @@
+name: Verify catalog and stock parser
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/verify-catalog.yml'
+      - 'worker/**'
+      - 'tests/**'
+      - 'package.json'
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run stock-parser unit tests
+        run: npm test
+      - name: Confirm all Maxima SKUs have image URLs
+        run: |
+          node --input-type=module -e "import fs from 'node:fs';const p=JSON.parse(fs.readFileSync('data/maxima-products.json'));if(p.some(x=>!x.image_url))throw Error('Missing product image URL');console.log(p.length+' photo URLs present');"
