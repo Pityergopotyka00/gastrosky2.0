@@ -19,7 +19,9 @@
     "price": null,
     "availability": null,
     "record_status": "research_sample",
-    "source_type": "manufacturer_product_page"
+    "source_type": "manufacturer_product_page",
+    "image_url": null,
+    "image_source": "pending_supplier_media"
   },
   {
     "id": "maxima:09402310",
@@ -39,7 +41,9 @@
     "price": null,
     "availability": null,
     "record_status": "research_sample",
-    "source_type": "manufacturer_product_page"
+    "source_type": "manufacturer_product_page",
+    "image_url": null,
+    "image_source": "pending_supplier_media"
   },
   {
     "id": "maxima:09300490",
@@ -60,7 +64,9 @@
     "price": null,
     "availability": null,
     "record_status": "research_sample",
-    "source_type": "manufacturer_product_page"
+    "source_type": "manufacturer_product_page",
+    "image_url": null,
+    "image_source": "pending_supplier_media"
   },
   {
     "id": "maxima:09300495",
@@ -81,7 +87,9 @@
     "price": null,
     "availability": null,
     "record_status": "research_sample",
-    "source_type": "manufacturer_product_page"
+    "source_type": "manufacturer_product_page",
+    "image_url": "https://maxima.com/img/nwBXrD-wGsYwT1heKWrI6GD1V3tKGMxlek3BRuyuOLY/resize%3Afit%3A700%3A700/aHR0cHM6Ly9tYXhpbWEuY29tL21lZGlhL2NhdGFsb2cvcHJvZHVjdC8wLzkvMDkzMDA0OTVfMzgwNC5qcGc_d2lkdGg9NzAwJmhlaWdodD03MDA.jpg",
+    "image_source": "Maxima public product page"
   },
   {
     "id": "maxima:09300500",
@@ -102,7 +110,9 @@
     "price": null,
     "availability": null,
     "record_status": "research_sample",
-    "source_type": "manufacturer_product_page"
+    "source_type": "manufacturer_product_page",
+    "image_url": null,
+    "image_source": "pending_supplier_media"
   },
   {
     "id": "maxima:09240050",
@@ -123,7 +133,9 @@
     "price": null,
     "availability": null,
     "record_status": "research_sample",
-    "source_type": "manufacturer_product_page"
+    "source_type": "manufacturer_product_page",
+    "image_url": "https://maxima.com/img/xk4wJfpD4eHfAYjdsvnNZk-xMsyCTMV3Oh0JFUptmec/resize%3Afit%3A700%3A700/aHR0cHM6Ly9tYXhpbWEuY29tL21lZGlhL2NhdGFsb2cvcHJvZHVjdC9zL3Avc3AtMDg5XzIuanBnP3dpZHRoPTcwMCZoZWlnaHQ9NzAw.jpg",
+    "image_source": "Maxima public product page"
   },
   {
     "id": "maxima:09240060",
@@ -144,7 +156,9 @@
     "price": null,
     "availability": null,
     "record_status": "research_sample",
-    "source_type": "manufacturer_product_page"
+    "source_type": "manufacturer_product_page",
+    "image_url": null,
+    "image_source": "pending_supplier_media"
   },
   {
     "id": "maxima:09211005",
@@ -165,7 +179,9 @@
     "price": null,
     "availability": null,
     "record_status": "research_sample",
-    "source_type": "manufacturer_product_page"
+    "source_type": "manufacturer_product_page",
+    "image_url": null,
+    "image_source": "pending_supplier_media"
   },
   {
     "id": "maxima:09211006",
@@ -186,6 +202,8 @@
     "price": null,
     "availability": null,
     "record_status": "research_sample",
-    "source_type": "manufacturer_product_page"
+    "source_type": "manufacturer_product_page",
+    "image_url": null,
+    "image_source": "pending_supplier_media"
   }
 ]
