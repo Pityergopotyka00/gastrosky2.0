@@ -103,6 +103,8 @@ function parseProducts(html,url,vendor){
   const $=load(html);
   const title=$('h1').first().text().replace(/\s+/g,' ').trim();
   if(!title||title.length>250)return [];
+  // This public commercial kitchen catalog excludes sharp/weapon-like goods.
+  if(/\b(?:knife|knives|blade|dagger|machete|k[eé]s|peng[eé])\b/i.test(title))return [];
   const body=$('body').text().replace(/\s+/g,' ');
   const description=$('meta[name="description"]').attr('content')?.trim()||'';
   const category=$('nav[aria-label*=breadcrumb] a, .breadcrumbs a').last().text().trim()||
