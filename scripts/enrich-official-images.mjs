@@ -10,7 +10,7 @@ const allowed={
  Aristarco:['aristarco.it'],Fagor:['fagorprofessional.com'],
  Modular:['modular.it','thenicekitchen.com'],Coldline:['coldline.it'],
  Krupps:['krupps.com'],HENDI:['hendi.eu','hendi.xcdn.nl'],
- Maxima:['maxima.com']
+ Maxima:['maxima.com'],\n 'Sistema Project Italia':['projectsystems.it'],Tecnodom:['tecnodomspa.com']
 };
 const delay=ms=>new Promise(resolve=>setTimeout(resolve,ms));
 const norm=s=>String(s||'').normalize('NFKC').replace(/[\s\u00a0]+/g,' ').toUpperCase().trim();
@@ -82,9 +82,52 @@ function aristarcoPhoto($,model,base){
  matches.sort((a,b)=>a.score-b.score);
  return matches.length?{url:matches[0].url,kind:'official_category_card'}:null;
 }
+
+function possibleProductImage($,base,brand){
+ const meta=extractedMeta($,base,brand);
+ const candidates=[];
+ if(meta&&!/(logo|icon|banner|placeholder|favicon)/i.test(meta))candidates.push(meta);
+ $('main img,article img,.product img,.item-page img,.product-detail img,.content img').each((_,el)=>{
+  const img=$(el),alt=norm(img.attr('alt')),src=imageOf($,el,base,brand);
+  if(!src||/(logo|icon|flag|badge|thumb|sprite)/i.test(src))return;
+  candidates.push(src);
+ });
+ return [...new Set(candidates)][0]||null;
+}
+async function officialRangePhoto($,url,p){
+ const brand=p.manufacturer,model=norm(p.model||p.sku);
+ const links=$('a[href]').toArray().map(el=>({label:norm($(el).text()),href:$(el).attr('href')}))
+  .filter(x=>x.href&&x.label&&model&&x.label===model);
+ for(const link of links.slice(0,4)){
+  try{
+   const target=new URL(link.href,url).href;
+   if(!sourceUrl(target,brand)||target===url)continue;
+   const detail=await page(target,brand);
+   if(norm(detail.doc('body').text()).includes(model)){
+    const img=possibleProductImage(detail.doc,detail.url,brand);
+    if(img)return {url:img,type:'official_manufacturer_product_detail'};
+   }
+  }catch{}
+ }
+ if(brand==='Tecnodom'){
+  // The public Horizontal/Vertical directory contains many models.
+  // A generic directory image is not suitable for an individual product card.
+  return null;
+ }
+ if(brand==='Sistema Project Italia'){
+  // The linked page identifies the series, but does not necessarily distinguish
+  // each model's appearance. Mark any shared series image clearly.
+  const series=(p.sku||'').split(/[- _]/)[0];
+  if(!norm($('body').text()).includes(norm(series)))return null;
+  const image=possibleProductImage($,url,brand);
+  return image?{url:image,type:'official_manufacturer_series_photo_not_specific_sku'}:null;
+ }
+ return null;
+}
+
 let filled=0,missed=[],byBrand={};const MAX=Number(process.env.PHOTO_CHECK_LIMIT||200);
 let attempted=0;
-for(const p of products){
+const queue=products.filter(p=>!p.image_url).sort((a,b)=>{\n const priority=p=>p.manufacturer==='Tecnodom'?0:p.manufacturer==='Sistema Project Italia'?1:p.manufacturer==='Coldline'?2:p.manufacturer==='Krupps'?3:p.manufacturer==='Maxima'?4:p.manufacturer==='Modular'&&p.record_status!=='official_model_index_only'?5:6;\n return priority(a)-priority(b);\n});\nfor(const p of queue){
  if(p.image_url)continue;
  if(attempted++>=MAX){missed.push({id:p.id,reason:'run_limit'});continue}
  const brand=p.manufacturer,src=p.source_url;
@@ -101,6 +144,10 @@ for(const p of products){
     if(norm(detail.doc('body').text()).includes(norm(p.sku)))
      found=extractedMeta(detail.doc,detail.url,brand);
    }
+  }else if(brand==='Tecnodom'||brand==='Sistema Project Italia'){
+   const matched=await officialRangePhoto($,url,p);
+   if(matched){found=matched.url;p.photo_match_type=matched.type;}
+   else reason='exact_range_photo_not_found';
   }else{
    // Only exact SKU evidence on an individual product page qualifies.
    if(norm($('body').text()).includes(norm(p.sku))){
@@ -117,7 +164,7 @@ for(const p of products){
    const res=await fetch(found,{method:'GET',signal:AbortSignal.timeout(16000),headers:{Range:'bytes=0-100','User-Agent':'GastroSkyCatalogMedia/1.0'}});
    if(!res.ok||!(res.headers.get('content-type')||'').toLowerCase().startsWith('image/'))throw Error('image_not_served');
    await res.body?.cancel();
-   p.image_url=found;p.image_source=brand==='Aristarco'?'official_manufacturer_model_card':'official_manufacturer_product_page';
+   p.image_url=found;p.image_source=p.photo_match_type|| (brand==='Aristarco'?'official_manufacturer_model_card':'official_manufacturer_product_page');
    p.photo_status='manufacturer_photo_url_found_permission_to_confirm';
    filled++;byBrand[brand]=(byBrand[brand]||0)+1;
   }else{missed.push({id:p.id,reason});}
