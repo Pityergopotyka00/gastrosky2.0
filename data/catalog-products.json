@@ -2670,9 +2670,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://res.cloudinary.com/hyggzlxrb/image/upload/c_fit%2Cf_auto%2Ch_1024%2Cw_1024/v1/media/spari.ah60.42eprs_a1_image.jpg",
+    "image_source": "matching_retailer_family_photo",
+    "photo_status": "family_reference_visual_requires_model_verification",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -2742,9 +2742,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://res.cloudinary.com/hyggzlxrb/image/upload/c_fit%2Cf_auto%2Ch_1024%2Cw_1024/v1/media/spari.ah60.42eprs_a1_image.jpg",
+    "image_source": "matching_retailer_family_photo",
+    "photo_status": "family_reference_visual_requires_model_verification",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -2814,9 +2814,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://res.cloudinary.com/hyggzlxrb/image/upload/c_fit%2Cf_auto%2Ch_1024%2Cw_1024/v1/media/spari.ah60.42eprs_a1_image.jpg",
+    "image_source": "matching_retailer_family_photo",
+    "photo_status": "family_reference_visual_requires_model_verification",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -3054,9 +3054,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://img.archiexpo.com/images_ae/photo-mg/49951-19132751.jpg",
+    "image_source": "matching_retailer_product_photo",
+    "photo_status": "model_identified_photo_requires_delivery_and_rights_verification",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
