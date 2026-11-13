@@ -406,8 +406,12 @@
     "name": "Fedeles ételmelegítő készlet, GN 1/1, 8,5 liter",
     "category": "Melegentartók",
     "ean": "8711369238837",
-    "description": "Professzionális vendéglátóipari termék. A pontos műszaki adatokért és személyre szabott ajánlatért keresd a GastroSky ügyfélszolgálatát.",
-    "specifications": {},
+    "description": "GN 1/1 méretű, 8,5 literes fedeles ételmelegítő készlet. Büféasztalokon, rendezvényeken és önkiszolgáló pultoknál az előre elkészített meleg ételek tálalására és melegen tartására használható. A fedél segít lefedve tartani az ételt a kiszolgálás közben.",
+    "specifications": {
+      "Névleges űrtartalom (terméknév alapján)": "8,5 l",
+      "Edényméret (terméknév alapján)": "GN 1/1",
+      "Felhasználás": "Elkészített fogások melegen tartása"
+    },
     "source_url": "https://www.hendi.eu/en/chafing-dish-set-550253.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/238837_OBW_2024_08_IMGP6312.jpg",
     "image_source": "hendi_official_sku_named_media",
@@ -424,8 +428,10 @@
     "name": "Fiora fedeles ételmelegítő készlet",
     "category": "Melegentartók",
     "ean": "8711369471050",
-    "description": "Professzionális vendéglátóipari termék. A pontos műszaki adatokért és személyre szabott ajánlatért keresd a GastroSky ügyfélszolgálatát.",
-    "specifications": {},
+    "description": "Fiora sorozatú fedeles ételmelegítő készlet büféasztalokra és rendezvényekre. Elkészített fogások tálalásához és melegen tartásához alkalmas, amikor az ételeket hosszabb kiszolgálási idő alatt kínálják.",
+    "specifications": {
+      "Felhasználás": "Elkészített fogások melegen tartása"
+    },
     "source_url": "https://www.hendi.eu/en/chafing-dish-set-4826.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/471050_OBW_2022_04_IMGP4898.jpg",
     "image_source": "hendi_official_sku_named_media",
@@ -442,8 +448,11 @@
     "name": "Elektromos melegentartó lap – 380 W",
     "category": "Melegentartók",
     "ean": "8711369809709",
-    "description": "Professzionális vendéglátóipari termék. A pontos műszaki adatokért és személyre szabott ajánlatért keresd a GastroSky ügyfélszolgálatát.",
-    "specifications": {},
+    "description": "380 W teljesítményű elektromos melegentartó lap. Az elkészített, hőálló tálalóedényben lévő fogások melegen tartására szolgál önkiszolgáló pultoknál, büféknél és rendezvényeken. Nem az ételek elsődleges megfőzésére készült.",
+    "specifications": {
+      "Névleges teljesítmény (terméknév alapján)": "380 W",
+      "Felhasználás": "Elkészített fogások melegen tartása"
+    },
     "source_url": "https://www.hendi.eu/en/chafing-dish-heater-4849.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/809709_OBW_2019_02_IMG0098.jpg",
     "image_source": "hendi_official_sku_named_media",
@@ -460,8 +469,10 @@
     "name": "Elektromos sütőlap – sima – 2000 W",
     "category": "Sütőberendezések",
     "ean": "8711369203125",
-    "description": "Professzionális vendéglátóipari termék. A pontos műszaki adatokért és személyre szabott ajánlatért keresd a GastroSky ügyfélszolgálatát.",
-    "specifications": {},
+    "description": "2000 W teljesítményű, sima felületű elektromos sütőlap. Húsok, zöldségek, tojásételek vagy reggeli fogások közvetlen sütőfelületen történő elkészítésére használható. A sima lap alkalmas a folyékonyabb és apróbb alapanyagok kezelésére is.",
+    "specifications": {
+      "Névleges teljesítmény (terméknév alapján)": "2000 W"
+    },
     "source_url": "https://www.hendi.eu/en/griddle-flat-6786.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/203125_OBW_2022_02_IMGP8544.jpg",
     "image_source": "hendi_official_sku_named_media",
@@ -478,8 +489,10 @@
     "name": "Öntöttvas sütőlap – GN 1/1",
     "category": "Sütőberendezések",
     "ean": "8711369932001",
-    "description": "Professzionális vendéglátóipari termék. A pontos műszaki adatokért és személyre szabott ajánlatért keresd a GastroSky ügyfélszolgálatát.",
-    "specifications": {},
+    "description": "GN 1/1 méretű öntöttvas sütőlap, amelyen húst, zöldséget és más grillezhető alapanyagot lehet sütni. Az öntöttvas felület hőt tárol, ezért a sütőlap alkalmas a forró felületen készülő fogásokhoz. A pontos kompatibilitást a kiválasztott készülékkel ellenőrizni kell.",
+    "specifications": {
+      "Edényméret (terméknév alapján)": "GN 1/1"
+    },
     "source_url": "https://www.hendi.eu/en/cast-iron-griddle-4764.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/932001_2018_4_IMGP1162.jpg",
     "image_source": "hendi_official_sku_named_media",
@@ -496,8 +509,12 @@
     "name": "Fedeles ételmelegítő, GN 1/1, 9 liter, 2 darab",
     "category": "Melegentartók",
     "ean": "8711369472613",
-    "description": "Professzionális vendéglátóipari termék. A pontos műszaki adatokért és személyre szabott ajánlatért keresd a GastroSky ügyfélszolgálatát.",
-    "specifications": {},
+    "description": "Két darab, egyenként 9 literes GN 1/1 méretű, fedeles ételmelegítő. Szállodai reggelik, büfék és rendezvények meleg ételkínálatának tálalásához használhatók. A két edény lehetővé teszi, hogy egyszerre különböző fogásokat kínáljanak.",
+    "specifications": {
+      "Névleges űrtartalom (terméknév alapján)": "9 l",
+      "Edényméret (terméknév alapján)": "GN 1/1",
+      "Felhasználás": "Elkészített fogások melegen tartása"
+    },
     "source_url": "https://www.hendi.eu/en/chafing-dish-gastronorm-11-4821.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/472613_OBW_2024_02_IMGP6312.jpg",
     "image_source": "hendi_official_sku_named_media",
@@ -514,8 +531,12 @@
     "name": "Fedeles ételmelegítő, GN 1/1, 9 liter",
     "category": "Melegentartók",
     "ean": "8711369475904",
-    "description": "Professzionális vendéglátóipari termék. A pontos műszaki adatokért és személyre szabott ajánlatért keresd a GastroSky ügyfélszolgálatát.",
-    "specifications": {},
+    "description": "9 literes, GN 1/1 méretű fedeles ételmelegítő. Meleg főételek és köretek büféasztali tálalásához ajánlott, különösen akkor, ha a vendégek folyamatosan szednek az előkészített ételekből.",
+    "specifications": {
+      "Névleges űrtartalom (terméknév alapján)": "9 l",
+      "Edényméret (terméknév alapján)": "GN 1/1",
+      "Felhasználás": "Elkészített fogások melegen tartása"
+    },
     "source_url": "https://www.hendi.eu/en/chafing-dish-gastronorm-11-4821.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/475904_OBW_2024_06_IMGP6319.jpg",
     "image_source": "hendi_official_sku_named_media",
@@ -532,8 +553,11 @@
     "name": "Kerek fedeles ételmelegítő, 3,5 liter",
     "category": "Melegentartók",
     "ean": "8711369470619",
-    "description": "Professzionális vendéglátóipari termék. A pontos műszaki adatokért és személyre szabott ajánlatért keresd a GastroSky ügyfélszolgálatát.",
-    "specifications": {},
+    "description": "3,5 literes, kerek, fedeles ételmelegítő. Mártások, köretek és kisebb adagban kínált meleg fogások büfés tálalására és melegen tartására használható. Kerek kialakítása kiszolgálópulton is jól elhelyezhető.",
+    "specifications": {
+      "Névleges űrtartalom (terméknév alapján)": "3,5 l",
+      "Felhasználás": "Elkészített fogások melegen tartása"
+    },
     "source_url": "https://www.hendi.eu/en/chafing-dish-round-4824.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/470619_2016.jpg",
     "image_source": "hendi_official_sku_named_media",
@@ -550,8 +574,11 @@
     "name": "Fiora fedeles ételmelegítő, 9 liter",
     "category": "Melegentartók",
     "ean": "8711369471005",
-    "description": "Professzionális vendéglátóipari termék. A pontos műszaki adatokért és személyre szabott ajánlatért keresd a GastroSky ügyfélszolgálatát.",
-    "specifications": {},
+    "description": "Fiora kivitelű, 9 literes, fedeles ételmelegítő büféasztalokhoz. Főételek és köretek tálalására, valamint a kiszolgálási idő alatti melegen tartására való.",
+    "specifications": {
+      "Névleges űrtartalom (terméknév alapján)": "9 l",
+      "Felhasználás": "Elkészített fogások melegen tartása"
+    },
     "source_url": "https://www.hendi.eu/en/chafing-dish-gastronorm-11-4825.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/471005_OBW_2022_05_IMGP5202.jpg",
     "image_source": "hendi_official_sku_named_media",
@@ -568,8 +595,10 @@
     "name": "Sütőlap – 1/3 bordázott – 3500 W",
     "category": "Sütőberendezések",
     "ean": "8711369154960",
-    "description": "Professzionális vendéglátóipari termék. A pontos műszaki adatokért és személyre szabott ajánlatért keresd a GastroSky ügyfélszolgálatát.",
-    "specifications": {},
+    "description": "3500 W-os sütőlap, amelynek felülete részben bordázott: a bordázott szakasz grillezett csíkozást adhat a készülő ételeknek, a többi felület más sütési feladatokra használható. Steak, hamburger, zöldség és szendvics készítéséhez alkalmazható.",
+    "specifications": {
+      "Névleges teljesítmény (terméknév alapján)": "3500 W"
+    },
     "source_url": "https://www.hendi.eu/en/griddle-13-ribbed-512413.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/154960_OBW_2024_02_IMGP4512.jpg",
     "image_source": "hendi_official_sku_named_media",
@@ -586,8 +615,10 @@
     "name": "Elektromos sütőlap – sima – 2400 W",
     "category": "Sütőberendezések",
     "ean": "8711369203149",
-    "description": "Professzionális vendéglátóipari termék. A pontos műszaki adatokért és személyre szabott ajánlatért keresd a GastroSky ügyfélszolgálatát.",
-    "specifications": {},
+    "description": "2400 W teljesítményű, sima sütőfelületű elektromos sütőlap. Húsok, zöldségek, tojás, palacsintaszerű fogások és reggelik elkészítéséhez használható. A közvetlen sütőfelület gyors, pult melletti ételkészítésre alkalmas.",
+    "specifications": {
+      "Névleges teljesítmény (terméknév alapján)": "2400 W"
+    },
     "source_url": "https://www.hendi.eu/en/griddle-flat-6788.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/203149_OBW_2022_02_IMGP8547.jpg",
     "image_source": "hendi_official_sku_named_media",
@@ -604,8 +635,10 @@
     "name": "Elektromos sütőlap, sima, 2000 W",
     "category": "Sütőberendezések",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "2000 W teljesítményű, sima elektromos sütőlap. A munkapultnál húsok, zöldségek és reggeli fogások közvetlen sütésére használható, például büfékben, bisztrókban és kisebb éttermekben.",
+    "specifications": {
+      "Névleges teljesítmény (terméknév alapján)": "2000 W"
+    },
     "source_url": "https://www.hendi.eu/en/griddle-flat-512400.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/154922_OBW_2024_02_IMGP4527.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
@@ -622,8 +655,10 @@
     "name": "Elektromos sütőlap, sima, 2400 W",
     "category": "Sütőberendezések",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "2400 W teljesítményű, sima elektromos sütőlap. Hamburgerhúsok, tojásételek, zöldségek és más, forró sík felületen készülő fogások sütését teszi lehetővé a vendéglátóipari munkafolyamatban.",
+    "specifications": {
+      "Névleges teljesítmény (terméknév alapján)": "2400 W"
+    },
     "source_url": "https://www.hendi.eu/en/griddle-flat-512407.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/154939_OBW_2024_02_IMGP4518.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
@@ -640,8 +675,10 @@
     "name": "Elektromos sütőlap, sima, 3000 W",
     "category": "Sütőberendezések",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "3000 W teljesítményű, sima elektromos sütőlap. A forró sík felületet igénylő hús-, zöldség- és reggeli fogások elkészítésére szolgál, közvetlenül a pult vagy konyhai munkaterület mellett.",
+    "specifications": {
+      "Névleges teljesítmény (terméknév alapján)": "3000 W"
+    },
     "source_url": "https://www.hendi.eu/en/griddle-flat-512391.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/154977_OBW_2024_02_IMGP9511.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
@@ -658,8 +695,11 @@
     "name": "Leves melegentartó, 8 liter",
     "category": "Melegentartás",
     "ean": "8711369472507",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "8 literes levesmelegentartó az előre elkészített levesek melegen tartásához és adagolásához. Önkiszolgáló ebédpultokon, menzákon, büféknél és rendezvényeken hasznos, ahol a levest a kiszolgálás során melegen kell kínálni.",
+    "specifications": {
+      "Névleges űrtartalom (terméknév alapján)": "8 l",
+      "Felhasználás": "Elkészített fogások melegen tartása"
+    },
     "source_url": "https://www.hendi.eu/en/soup-chafing-dish-4823.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/472507.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
@@ -676,7 +716,7 @@
     "name": "Ipari hűtőszekrény, egyajtós",
     "category": "Hűtőberendezések",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
+    "description": "Egyajtós ipari hűtőszekrény hűtést igénylő élelmiszerek és alapanyagok konyhai tárolásához. Éttermekben, előkészítő helyiségekben és üzemi konyhákban használható a hűtőlánc fenntartásához. A beállítható hőmérsékletet és a tényleges befogadóképességet a végleges műszaki adatlapon kell ellenőrizni.",
     "specifications": {},
     "source_url": "https://www.hendi.eu/en/refrigerator-single-door-5347.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/232118_OBW_2026_02_IMGP5658.jpg",
@@ -694,8 +734,10 @@
     "name": "Hűtőszekrény, egyajtós, 410 liter",
     "category": "Hűtőberendezések",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "410 literes, egyajtós hűtőszekrény alapanyagok, előkészített élelmiszerek és hűtendő termékek tárolására. Kereskedelmi konyhák, éttermek és vendéglátóegységek hűtött tárolási feladataihoz használható.",
+    "specifications": {
+      "Névleges űrtartalom (terméknév alapján)": "410 l"
+    },
     "source_url": "https://www.hendi.eu/en/refrigerator-single-door-410-l-5342.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/233108_OBW_2026_02_IMGP5654.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
@@ -712,8 +754,10 @@
     "name": "Hűtő és fagyasztó kombináció, 420 liter",
     "category": "Hűtőberendezések",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "420 literes kombinált hűtő- és fagyasztóberendezés, amely hűtött és fagyasztott áruk konyhai tárolására szolgál. Olyan vendéglátóhelyeken praktikus, ahol mindkét tárolási módra szükség van, és a berendezéseket közös egységben szeretnék elhelyezni.",
+    "specifications": {
+      "Névleges űrtartalom (terméknév alapján)": "420 l"
+    },
     "source_url": "https://www.hendi.eu/en/refrigerator-and-freezer-420-l-103125.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/233146_OBW_2026_02_IMGP5654.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
@@ -730,8 +774,10 @@
     "name": "Pizzasütő, 1450 W",
     "category": "Pizza és sütőberendezések",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "1450 W teljesítményű pizzasütő pizzák és hasonló, sütőben készülő ételek elkészítéséhez. Kisebb vendéglátóhelyek, büfék vagy kiszolgálópultok pizzakínálatának támogatására használható.",
+    "specifications": {
+      "Névleges teljesítmény (terméknév alapján)": "1450 W"
+    },
     "source_url": "https://www.hendi.eu/en/pizza-oven-6859.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/220306_OBW_2021_01_IMGP0693.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
@@ -748,8 +794,10 @@
     "name": "Planetáris keverőgép, 7 liter",
     "category": "Tésztakészítés",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "7 literes planetáris keverőgép tészták, krémek és egyéb konyhai keverékek összeállítására. A keverőeszköz a keverőtálban forgó mozgással dolgozza össze a hozzávalókat; kisebb sütőipari és vendéglátóipari előkészítési feladatokra használható.",
+    "specifications": {
+      "Névleges űrtartalom (terméknév alapján)": "7 l"
+    },
     "source_url": "https://www.hendi.eu/en/planetary-mixer-5603.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/222829_OBW_2022_01_IMGP6455.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
@@ -766,8 +814,10 @@
     "name": "Planetáris keverőgép, 10 liter",
     "category": "Tésztakészítés",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "10 literes planetáris keverőgép tészta, hab, krém és más keverékek elkészítéséhez. Cukrászdákban, pékségekben és éttermi előkészítő konyhákban segíti az ismétlődő keverési feladatokat.",
+    "specifications": {
+      "Névleges űrtartalom (terméknév alapján)": "10 l"
+    },
     "source_url": "https://www.hendi.eu/en/planetary-mixer-5604.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/222836_OBW_2022_01_IMGP6432.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
@@ -784,8 +834,10 @@
     "name": "Planetáris keverőgép, 20 liter",
     "category": "Tésztakészítés",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "20 literes planetáris keverőgép nagyobb mennyiségű tészta, krém és habkeverék összeállításához. Pékségek, cukrászdák és nagyobb konyhák számára alkalmas a kézi keverési feladatok gépesítésére.",
+    "specifications": {
+      "Névleges űrtartalom (terméknév alapján)": "20 l"
+    },
     "source_url": "https://www.hendi.eu/en/planetary-mixer-5605.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/222843_OBW_2022_01_IMGP6432.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
@@ -802,8 +854,10 @@
     "name": "Lassú sütésre és melegen tartásra alkalmas sütő, 1200 W",
     "category": "Sütőberendezések",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "1200 W teljesítményű, lassú sütésre és melegen tartásra alkalmas sütő. Előkészített húsok és egyéb fogások kíméletes hőkezeléséhez, majd kiszolgálás előtti melegen tartásához használható. A beállításokat az adott étel elkészítési követelményeihez kell igazítani.",
+    "specifications": {
+      "Névleges teljesítmény (terméknév alapján)": "1200 W"
+    },
     "source_url": "https://www.hendi.eu/en/cook-and-hold-oven-6746.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/225479_OBW_2022_02_IMGP4750.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
@@ -820,8 +874,10 @@
     "name": "Gőzfunkciós légkeveréses sütő, 6400 W",
     "category": "Sütőberendezések",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "6400 W teljesítményű légkeveréses sütő gőzfunkcióval. Péksütemények, húsok, zöldségek és más fogások sütéséhez használható; a légáramlás a sütőtérben, a gőzfunkció pedig a megfelelő receptek esetén segítheti az elkészítést.",
+    "specifications": {
+      "Névleges teljesítmény (terméknév alapján)": "6400 W"
+    },
     "source_url": "https://www.hendi.eu/en/steam-convection-oven-8427.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/225523.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
@@ -838,8 +894,11 @@
     "name": "Hátsó bárhűtő, egyajtós, 120 W",
     "category": "Bárhűtők",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "Egyajtós, 120 W teljesítményű hátsó bárhűtő palackozott italok és egyéb hűtést igénylő bárkészlet tárolásához. A pult mögött elhelyezve támogatja a gyors ital-kiszolgálást.",
+    "specifications": {
+      "Névleges teljesítmény (terméknév alapján)": "120 W",
+      "Felhasználás": "Palackozott italok hűtött tárolása"
+    },
     "source_url": "https://www.hendi.eu/en/back-bar-refrigerator-single-door-718096.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/236864_OBW_2026_01_IMGP4296.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
@@ -856,8 +915,11 @@
     "name": "Hátsó bárhűtő, üvegajtós, 195 W",
     "category": "Bárhűtők",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "195 W teljesítményű, egyajtós, üvegajtós hátsó bárhűtő. Palackos és dobozos italok hűtött tárolásához használható; az üvegajtón keresztül a személyzet ráláthat a készletre.",
+    "specifications": {
+      "Névleges teljesítmény (terméknév alapján)": "195 W",
+      "Felhasználás": "Palackozott italok hűtött tárolása"
+    },
     "source_url": "https://www.hendi.eu/en/back-bar-refrigerator-single-door-718087.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/236956_OBW_2026_01_IMGP4318.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
@@ -874,8 +936,10 @@
     "name": "Hátsó bárhűtő, tolóajtós",
     "category": "Bárhűtők",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "Tolóajtós hátsó bárhűtő palackozott italok hűtött tárolására. A tolóajtós kialakítás olyan pultoknál előnyös, ahol a hagyományos, kifelé nyíló ajtó útban lehetne.",
+    "specifications": {
+      "Felhasználás": "Palackozott italok hűtött tárolása"
+    },
     "source_url": "https://www.hendi.eu/en/back-bar-refrigerator-with-double-sliding-doors-718139.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/236888_OBW_2026_01_MGP4275.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
@@ -892,8 +956,11 @@
     "name": "Bárhűtő, egyajtós, 120 W",
     "category": "Bárhűtők",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "Egyajtós, 120 W teljesítményű bárhűtő üdítők és palackozott italok hűtve tartására. Italpultok és kiszolgálóhelyek mögötti elhelyezéshez használható.",
+    "specifications": {
+      "Névleges teljesítmény (terméknév alapján)": "120 W",
+      "Felhasználás": "Palackozott italok hűtött tárolása"
+    },
     "source_url": "https://www.hendi.eu/en/back-bar-refrigerator-single-door-5329.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/233900_OBW_2024_01_IMGP4218.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
@@ -910,8 +977,10 @@
     "name": "Hűtőszekrény kétajtós, 900 liter",
     "category": "Hűtőberendezések",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "900 literes, kétajtós hűtőszekrény hűtendő élelmiszerek és nagyobb mennyiségű alapanyag tárolására. Éttermekben, szállodai konyhákban és közétkeztetésben támogathatja a nagyobb készletek elkülönített elhelyezését.",
+    "specifications": {
+      "Névleges űrtartalom (terméknév alapján)": "900 l"
+    },
     "source_url": "https://www.hendi.eu/en/refrigerator-with-2-doors-900-l-5343.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/233122_OBW_2026_02_IMGP5654.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
@@ -928,8 +997,10 @@
     "name": "Hűtőszekrény, 1300 liter",
     "category": "Hűtőberendezések",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "1300 literes nagykonyhai hűtőszekrény nagyobb mennyiségű hűtendő termék és előkészített alapanyag tárolására. Nagyobb konyhák, éttermek és közétkeztetési egységek hűtött raktározásához használható.",
+    "specifications": {
+      "Névleges űrtartalom (terméknév alapján)": "1300 l"
+    },
     "source_url": "https://www.hendi.eu/en/refrigerator-1300-l-103114.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/232736_OBW_2026_01_IMGP5666.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
@@ -946,8 +1017,10 @@
     "name": "Bárhűtő megvilágított reklámpanellel, egyajtós",
     "category": "Bárhűtők",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "Egyajtós bárhűtő megvilágított reklámpanellel. Palackos italok hűtésére és bemutatására szolgál; a világító felső panel lehetőséget ad márkajelzés vagy kínálati üzenet megjelenítésére.",
+    "specifications": {
+      "Felhasználás": "Palackozott italok hűtött tárolása"
+    },
     "source_url": "https://www.hendi.eu/en/back-bar-refrigerator-with-a-backlit-panel-single-door-5339.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/233788_OBW_2024_01_IMGP4247.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
@@ -964,8 +1037,10 @@
     "name": "Bárhűtő megvilágított reklámpanellel, kétajtós",
     "category": "Bárhűtők",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "Kétajtós bárhűtő megvilágított reklámpanellel. Hűtött italok nagyobb választékának bemutatására és tárolására használható. A kétajtós kialakítás a készlet gyorsabb áttekintését is segítheti.",
+    "specifications": {
+      "Felhasználás": "Palackozott italok hűtött tárolása"
+    },
     "source_url": "https://www.hendi.eu/en/back-bar-refrigerator-with-a-backlit-panel-double-door-5340.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/233795_OBW_2024_01_IMGP4253.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
@@ -982,7 +1057,7 @@
     "name": "Tejturmixkeverő gép, fehér",
     "category": "Bárgépek",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
+    "description": "Fehér kivitelű tejturmixkeverő gép tejturmixok és hasonló poharas italok összekeveréséhez. Kávézókban, fagylaltozókban és bárpultoknál használható a gyors italkészítéshez.",
     "specifications": {},
     "source_url": "https://www.hendi.eu/en/milkshake-mixer-237985.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/221617_IMGP0004_R1.jpg",
@@ -1000,7 +1075,7 @@
     "name": "Tejturmixkeverő gép, fekete",
     "category": "Bárgépek",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
+    "description": "Fekete kivitelű tejturmixkeverő gép tejturmixok és hasonló poharas italok összekeveréséhez. Kávézókban, fagylaltozókban és bárpultoknál használható a gyors italkészítéshez.",
     "specifications": {},
     "source_url": "https://www.hendi.eu/en/milkshake-mixer-237985.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/221600_OBW_2022_4B_IMGP8230.jpg",
@@ -1018,7 +1093,7 @@
     "name": "Sütőállvány, 1360 mm",
     "category": "Sütőberendezés tartozékai",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
+    "description": "1360 mm méretű sütőállvány megfelelő sütőberendezés alátámasztására és konyhai elhelyezésére. A megfelelő sütőmodellel való kompatibilitást és terhelhetőséget az ajánlat előtt egyeztetni kell.",
     "specifications": {},
     "source_url": "https://www.hendi.eu/en/oven-stand-208802.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/227206-1.jpg",
@@ -1036,7 +1111,7 @@
     "name": "Sütőállvány, 1000 mm",
     "category": "Sütőberendezés tartozékai",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
+    "description": "1000 mm méretű sütőállvány megfelelő sütőberendezés alátámasztására és konyhai elhelyezésére. A megfelelő sütőmodellel való kompatibilitást és terhelhetőséget az ajánlat előtt egyeztetni kell.",
     "specifications": {},
     "source_url": "https://www.hendi.eu/en/oven-stand-208802.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/227169-1.jpg",
@@ -1054,8 +1129,11 @@
     "name": "Rizsfőző párolókosárral, 1,8 L",
     "category": "Rizsfőzők",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "1,8 literes rizsfőző párolókosárral. Rizs főzésére és – a mellékelt párolókosár használatával – erre alkalmas alapanyagok párolására használható, például kisebb konyhákban és büfékben.",
+    "specifications": {
+      "Névleges űrtartalom (terméknév alapján)": "1,8 l",
+      "Felhasználás": "Rizs főzése"
+    },
     "source_url": "https://www.hendi.eu/en/rice-cooker-with-steaming-basket-6769.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/240410_OBW_2026_01_IMGP8650.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
@@ -1072,8 +1150,11 @@
     "name": "Rizsfőző, 4,2 L",
     "category": "Rizsfőzők",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "4,2 literes rizsfőző rizsköretek egyenletes elkészítéséhez. Éttermekben, ázsiai fogásokat kínáló vendéglátóhelyeken és üzemi konyhákban csökkentheti a tűzhelyen történő felügyelet igényét.",
+    "specifications": {
+      "Névleges űrtartalom (terméknév alapján)": "4,2 l",
+      "Felhasználás": "Rizs főzése"
+    },
     "source_url": "https://www.hendi.eu/en/rice-cooker-42-l-225284.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/240441_OBW_2026_01_IMGP8670.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
@@ -1090,8 +1171,11 @@
     "name": "Rizsfőző, 12 L",
     "category": "Rizsfőzők",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "12 literes rizsfőző nagyobb adag rizs elkészítéséhez. Közétkeztetésben, büfékben és nagy forgalmú éttermekben használható, ahol a rizs rendszeres és nagy mennyiségű köret.",
+    "specifications": {
+      "Névleges űrtartalom (terméknév alapján)": "12 l",
+      "Felhasználás": "Rizs főzése"
+    },
     "source_url": "https://www.hendi.eu/en/rice-cooker-12-l-835485.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/240472_OBW_2026_03_IMGP9505.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
@@ -1108,8 +1192,11 @@
     "name": "Rizsfőző, 10 L",
     "category": "Rizsfőzők",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "10 literes rizsfőző nagyobb adag rizs elkészítésére. Éttermekben, büfékben és rendezvénykonyhákban hasznos, ahol a főzési mennyiséget a napi forgalomhoz kell igazítani.",
+    "specifications": {
+      "Névleges űrtartalom (terméknév alapján)": "10 l",
+      "Felhasználás": "Rizs főzése"
+    },
     "source_url": "https://www.hendi.eu/en/rice-cooker-10-l-225291.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/240458_OBW_2021_01_IMGP9821.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
@@ -1126,8 +1213,11 @@
     "name": "Rizsfőző és melegentartó, 5,4 L",
     "category": "Rizsfőzők",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "5,4 literes rizsfőző és melegentartó berendezés. A rizs elkészítése mellett a kész köret melegen tartására is szolgál, így a főzés és a tálalás egymást követő szakaszai egy berendezésben történhetnek.",
+    "specifications": {
+      "Névleges űrtartalom (terméknév alapján)": "5,4 l",
+      "Felhasználás": "Rizs főzése"
+    },
     "source_url": "https://www.hendi.eu/en/rice-cooker-warmer-54-l-6768.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/240403_OBW_2026_01_IMGP8643.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
@@ -1144,8 +1234,11 @@
     "name": "Kontaktgrill, egyzónás, 1800 W",
     "category": "Kontaktgrillek",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "1800 W teljesítményű, egyzónás kontaktgrill. Melegszendvicsek, paninik, húsok és grillezhető zöldségek elkészítésére használható, amikor az étel két forró sütőfelület között sül.",
+    "specifications": {
+      "Névleges teljesítmény (terméknév alapján)": "1800 W",
+      "Felhasználás": "Kontaktgrillezés, melegszendvics készítés"
+    },
     "source_url": "https://www.hendi.eu/en/contact-grill-single-version-6806.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/263600_OBW_2022_05_IMGP0393.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
@@ -1162,8 +1255,11 @@
     "name": "Kontaktgrill, egyzónás, 1800 W",
     "category": "Kontaktgrillek",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "1800 W teljesítményű, egyzónás kontaktgrill. Melegszendvicsek, paninik és kisebb adag hús vagy zöldség grillezésére alkalmas, elsősorban büfék és szendvicsezők pultjánál.",
+    "specifications": {
+      "Névleges teljesítmény (terméknév alapján)": "1800 W",
+      "Felhasználás": "Kontaktgrillezés, melegszendvics készítés"
+    },
     "source_url": "https://www.hendi.eu/en/contact-grill-single-version-6805.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/263501_OBW_2020_01c_IMG4819.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
@@ -1180,8 +1276,10 @@
     "name": "Kontaktgrill virslis szendvicshez és tekercsekhez",
     "category": "Kontaktgrillek",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "Kontaktgrill virslis szendvicsek és tekercses ételek melegítésére, pirítására. Büfékben, gyorséttermekben és szendvicsezőkben támogatja a kiszolgálás előtti, frissen melegített fogások elkészítését.",
+    "specifications": {
+      "Felhasználás": "Kontaktgrillezés, melegszendvics készítés"
+    },
     "source_url": "https://www.hendi.eu/en/contact-grill-for-hot-dogs-and-wraps-714705.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/263594_OBW_2025_01_IMGP6147.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
@@ -1198,8 +1296,11 @@
     "name": "Kontaktgrill, dupla, 3600 W",
     "category": "Kontaktgrillek",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "3600 W teljesítményű, dupla kontaktgrill. Két sütőzónájával több melegszendvics vagy grillezhető fogás párhuzamos elkészítésére használható. Gyorséttermekben és forgalmas büfékben segíti a folyamatos kiszolgálást.",
+    "specifications": {
+      "Névleges teljesítmény (terméknév alapján)": "3600 W",
+      "Felhasználás": "Kontaktgrillezés, melegszendvics készítés"
+    },
     "source_url": "https://www.hendi.eu/en/contact-grill-double-version-6809.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/263907_OBW_2022_04_IMGP0366.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
@@ -1216,8 +1317,11 @@
     "name": "Kontaktgrill, dupla sütőfelülettel, 3600 W",
     "category": "Kontaktgrillek",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "3600 W teljesítményű, dupla sütőfelületű kontaktgrill. Paninik, melegszendvicsek és más grillezhető fogások készítéséhez használható, amikor több adag egyidejű sütésére van szükség.",
+    "specifications": {
+      "Névleges teljesítmény (terméknév alapján)": "3600 W",
+      "Felhasználás": "Kontaktgrillezés, melegszendvics készítés"
+    },
     "source_url": "https://www.hendi.eu/en/contact-grill-double-grill-6807.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/263709_OBW_2021_03_IMG8056.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
@@ -1234,8 +1338,11 @@
     "name": "Panini kontaktgrill, 2200 W",
     "category": "Kontaktgrillek",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "2200 W teljesítményű panini kontaktgrill. Szendvicsek kétoldalas pirítására és egyéb, kontaktfelületen grillezhető alapanyagok melegítésére szolgál kávézókban, büfékben és szendvicsezőkben.",
+    "specifications": {
+      "Névleges teljesítmény (terméknév alapján)": "2200 W",
+      "Felhasználás": "Kontaktgrillezés, melegszendvics készítés"
+    },
     "source_url": "https://www.hendi.eu/en/contact-grill-panini-6803.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/263655_OBW_2025_01_IMG1289.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
@@ -1252,8 +1359,11 @@
     "name": "Panini kontaktgrill, 2200 W",
     "category": "Kontaktgrillek",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "2200 W teljesítményű panini kontaktgrill. Paninik, melegszendvicsek és kisebb adag grillezett fogások elkészítésére használható, amikor gyors, kétoldalas sütésre van szükség.",
+    "specifications": {
+      "Névleges teljesítmény (terméknév alapján)": "2200 W",
+      "Felhasználás": "Kontaktgrillezés, melegszendvics készítés"
+    },
     "source_url": "https://www.hendi.eu/en/contact-grill-panini-6803.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/263617_OBW_2025_01_IMGP8538.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
@@ -1270,7 +1380,7 @@
     "name": "Ipari kalapos mosogatógép elektronikus vezérléssel",
     "category": "Ipari mosogatógépek",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
+    "description": "Elektronikus vezérlésű, kalapos kialakítású ipari mosogatógép. Nagyobb edényforgalmú éttermi és üzemi konyhákban tányérok, poharak és más alkalmas edények gépi tisztítására szolgál. A kalapemelős kialakítás támogatja az egymást követő mosogatási ciklusokat.",
     "specifications": {},
     "source_url": "https://www.hendi.eu/en/hood-dishwasher-electronic-controller-103328.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/231340_OBW_2021_04_IMGP7480.jpg",
@@ -1288,8 +1398,10 @@
     "name": "Bárturmixgép, 1680 W",
     "category": "Bárgépek",
     "ean": "",
-    "description": "Professzionális vendéglátóipari termék. Műszaki adatok és ajánlat kérésére ügyfélszolgálatunk segít.",
-    "specifications": {},
+    "description": "1680 W teljesítményű bártumixgép turmixok, italkeverékek és más, turmixolást igénylő alapanyagok feldolgozásához. Kávézókban, smoothie-bárokban és vendéglátóhelyek italpultjánál használható.",
+    "specifications": {
+      "Névleges teljesítmény (terméknév alapján)": "1680 W"
+    },
     "source_url": "https://www.hendi.eu/en/bar-blender-4685.html",
     "image_url": "https://hendi.xcdn.nl/RM265,265/-/230718_OBW_2024_04_IMGP1660.jpg",
     "image_source": "manufacturer_sku_named_product_photo",
