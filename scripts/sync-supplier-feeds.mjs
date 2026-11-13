@@ -10,7 +10,8 @@ const feeds=[
   {manufacturer:'Fagor',url:process.env.FAGOR_FEED_URL},
   {manufacturer:'Modular',url:process.env.MODULAR_FEED_URL},
   {manufacturer:'Coldline',url:process.env.COLDLINE_FEED_URL},
-  {manufacturer:'Krupps',url:process.env.KRUPPS_FEED_URL}
+  {manufacturer:'Krupps',url:process.env.KRUPPS_FEED_URL},
+  {manufacturer:'Aristarco',url:process.env.ARISTARCO_FEED_URL}
 ];
 const productFile='data/catalog-products.json';
 const stockFile='data/supplier-stock-snapshot.json';
@@ -136,7 +137,7 @@ for(const feed of feeds){
  console.log(feed.manufacturer+': mapped '+mapped+' products, '+withPhotos+' photos, '+knownStock+' explicit stock statuses');
 }
 // Fail safe: no feed configured = no public data files changed.
-if(!successful)throw Error('No supplier feed configured. Set at least one of MAXIMA_FEED_URL, HENDI_FEED_URL, FAGOR_FEED_URL or MODULAR_FEED_URL, COLDLINE_FEED_URL or KRUPPS_FEED_URL in GitHub Actions secrets.');
+if(!successful)throw Error('No supplier feed configured. Set at least one of MAXIMA_FEED_URL, HENDI_FEED_URL, FAGOR_FEED_URL or MODULAR_FEED_URL, COLDLINE_FEED_URL or KRUPPS_FEED_URL or ARISTARCO_FEED_URL in GitHub Actions secrets.');
 const all=[...products.values()].sort((a,b)=>a.manufacturer.localeCompare(b.manufacturer)||a.sku.localeCompare(b.sku));
 await writeFile(productFile,JSON.stringify(all,null,2)+'\n');
 // Existing stock from older supplier imports must not appear fresh.
