@@ -4,8 +4,10 @@
 - `data/catalog-products.json`: starter catalog (17 products with manufacturer image URLs).
 - `data/supplier-stock-snapshot.json`: stock values only after a source has been checked.
 - `index.html` fetches the catalog and snapshots automatically. Customers **cannot trigger a supplier request** and do not see delivery estimates.
-- `scripts/check-public-supplier-stock.mjs`: scheduled, cautious, robots.txt-aware checks of publicly accessible product pages for products already known to the catalog. It never fabricates stock or bypasses restricted access.
+- `scripts/check-public-supplier-stock.mjs`: scheduled, cautious, robots.txt-aware checks of publicly accessible product pages for products already known to the catalog.
+- `scripts/discover-public-maxima.mjs`: discover additional Maxima products from Hungarian public category pages, requiring page-verified SKU and manufacturer image before importing; nightly rotating capped batches. The workflow skips crawling when robots policy cannot be verified. It never fabricates stock or bypasses restricted access.
 - `.github/workflows/refresh-public-supplier-stock.yml`: scheduled every three hours, with a push trigger for the first workflow test.
+- `.github/workflows/discover-public-maxima.yml`: nightly product discovery and photo import, plus push-triggered initial attempt.
 - `scripts/sync-supplier-feeds.mjs`: imports complete catalog and warehouse availability **when supplier-authorized XML/CSV/JSON feeds exist**.
 - `.github/workflows/sync-supplier-feeds.yml`: scheduled every two hours.
 - `scripts/copy-static.mjs`: publishes product + stock snapshots into Cloudflare static assets on deployment.
