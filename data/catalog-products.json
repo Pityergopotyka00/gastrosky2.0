@@ -3102,9 +3102,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://www.aristarco.it/wp-content/uploads/2020/06/6000-lbox-800x650-fff.png",
+    "image_source": "official_manufacturer_model_card",
+    "photo_status": "official_or_model_reference_photo_awaiting_live_link_review",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -3198,9 +3198,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://luxia-nce.co.uk/Aristarco%20AU%2055.45%20EPI%20PRS%20Utensil%20washer.jpg",
+    "image_source": "manufacturer_previous_code_photo",
+    "photo_status": "official_or_model_reference_photo_awaiting_live_link_review",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -3270,9 +3270,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://www.ventus.com.gr/thumbnails/33/1/fplrg_337/resize/0/255.255.255/800x800/webp/1703844407_0_au65_web3.jpg",
+    "image_source": "manufacturer_previous_code_photo",
+    "photo_status": "official_or_model_reference_photo_awaiting_live_link_review",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -3318,9 +3318,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://www.hwlarsen.se/image/80d4cb02-ca3a-4d0c-a5ef-4f9f3e47e121/mopvaskau6565epiprs.jpg/default",
+    "image_source": "manufacturer_shared_family_photo",
+    "photo_status": "official_or_model_reference_photo_awaiting_live_link_review",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -3366,9 +3366,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://upload-site.storage.yandexcloud.net/iblock/8ff/8ffb93dd224158760278d684ed51803d/AU_125_80E_PRS.jpg",
+    "image_source": "manufacturer_previous_code_photo",
+    "photo_status": "official_or_model_reference_photo_awaiting_live_link_review",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
