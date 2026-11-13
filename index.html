@@ -487,6 +487,7 @@ async function sendViaFreeFormService(form){
   name:form.name,email:form.email,
   _subject:'GastroSky ajánlatkérés – '+form.items.length+' termék',
   _template:'table',
+  _url:location.origin+'/',
   _honey:form.companyWebsite,
   message:'Termékek:\n'+lines.join('\n')+'\n\nÜzenet:\n'+(form.message||'—')
  };
