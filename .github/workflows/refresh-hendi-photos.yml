@@ -1,0 +1,24 @@
+name: Discover HENDI product photographs
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/refresh-hendi-photos.yml'
+permissions:
+  contents: write
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check HENDI official photo metadata and SKU matches
+        run: node scripts/fetch-hendi-media.mjs
+      - name: Commit verified photos if any
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/catalog-products.json index.html
+          git diff --cached --quiet || (git commit -m "Import SKU-checked HENDI product photos" && git push)
