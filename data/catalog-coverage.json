@@ -1,0 +1,20 @@
+{
+  "target_per_supplier": 250,
+  "target_total": 500,
+  "current_total": 72,
+  "counts": {
+    "Maxima": {
+      "products": 15,
+      "with_photo_url": 15,
+      "missing_to_target": 235
+    },
+    "HENDI": {
+      "products": 57,
+      "with_photo_url": 57,
+      "missing_to_target": 193
+    }
+  },
+  "complete": false,
+  "notes": "Photo URLs are not proof of successful image delivery. Run the separate image audit.",
+  "issues": []
+}
