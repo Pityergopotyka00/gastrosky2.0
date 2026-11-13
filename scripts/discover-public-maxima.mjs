@@ -106,19 +106,25 @@ function getProduct(html,url){
   source:'public_supplier_product_page',checked_at:new Date().toISOString()};
  return {product,record};
 }
+// The category URL paths were verified against Maxima's public Hungarian menus.
 const seed=[
  origin+'/hu/',
- origin+'/hu/fagyaszto.html',
- origin+'/hu/mosogatogepek.html',
- origin+'/hu/tesztagep-es-tesztakevero.html'
+ origin+'/hu/hutes/',
+ origin+'/hu/hutes/fagyaszto/',
+ origin+'/hu/fozoberendezes/',
+ origin+'/hu/elelmiszer-feldolgozas/',
+ origin+'/hu/barfelszereles/eszpresszogep/',
+ origin+'/hu/mosogatogepek/'
 ];
 for(const item of catalog.filter(p=>p.manufacturer==='Maxima'&&p.source_url))addCandidate(item.source_url);
 for(const raw of seed){
  const url=normalizeUrl(raw);if(!url||!mayCrawl(url.pathname))continue;
  const html=await loadPage(url);
  if(html){
-  const $=load(html);$('a[href]').each((_,element)=>addCandidate($(element).attr('href')));
-  console.log('Discovered candidates:',candidates.size);
+  const $=load(html);
+  // Product cards link to /hu/....html, whereas categories are directories.
+  $('a[href]').each((_,element)=>addCandidate($(element).attr('href')));
+  console.log('Discovered from',url.pathname,'candidate pages:',candidates.size);
  }
  await wait();
 }
