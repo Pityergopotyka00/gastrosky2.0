@@ -27,7 +27,7 @@ async function verifySupplierPage(p){
   const html=await res.text();
   if(html.length>2500000)return missing(p,'oversized_page',now);
   const result=parseMaximaAvailability(html,p.sku);
-  return {id:p.id,sku:p.sku,supplier:p.manufacturer,kind:result.kind,quantity:result.quantity,expected_date:result.expected_date,reason:result.reason,checked_at:now};
+  return {id:p.id,sku:p.sku,supplier:p.manufacturer,kind:result.kind,quantity:result.quantity,expected_date:result.expected_date,delivery_days:result.delivery_days??null,reason:result.reason,checked_at:now};
  }catch(e){return missing(p,e.name==='TimeoutError'?'timeout':'supplier_request_failed',now)}
 }
 async function stockRequest(req,env){
