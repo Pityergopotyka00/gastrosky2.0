@@ -2982,9 +2982,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://img.archiexpo.com/images_ae/photo-g/49951-19132565.jpg",
+    "image_source": "manufacturer_previous_code_photo",
+    "photo_status": "model_name_matched_rights_and_link_check_pending",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -3246,9 +3246,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://www.hwlarsen.se/image/80d4cb02-ca3a-4d0c-a5ef-4f9f3e47e121/mopvaskau6565epiprs.jpg/default",
+    "image_source": "manufacturer_previous_code_photo",
+    "photo_status": "model_name_matched_rights_and_link_check_pending",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -3294,9 +3294,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://robusta.bg/files_directory/root/product_photos_no_logo_webp/9701-9800/miyalna-mashina-za-kunenska-posuda-mehanichno-upravlenie-r-9715-1.webp",
+    "image_source": "manufacturer_previous_code_photo",
+    "photo_status": "model_name_matched_rights_and_link_check_pending",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
