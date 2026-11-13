@@ -10,6 +10,7 @@
  */
 import {readFile,writeFile} from 'node:fs/promises';
 import {load} from 'cheerio';
+import {normalizeSupplierUrl} from './catalog-url.mjs';
 
 const PRODUCT_PATH='data/catalog-products.json';
 const STATE_PATH='data/catalog-discovery-state.json';
@@ -25,26 +26,7 @@ const vendors=[
   {name:'Maxima',origin:'https://maxima.com',prefix:'/hu/',seeds:['https://maxima.com/hu/','https://maxima.com/hu/hutes/','https://maxima.com/hu/fozoberendezes/','https://maxima.com/hu/elelmiszer-feldolgozas/']},
   {name:'HENDI',origin:'https://www.hendi.eu',prefix:'/en/',seeds:['https://www.hendi.eu/en/','https://www.hendi.eu/en/new/','https://www.hendi.eu/en/kitchen-appliances.html','https://www.hendi.eu/en/cooling.html']}
 ];
-function normalizeUrl(raw,vendor){
-  try{
-    const u=new URL(raw,vendor.origin);
-    if(u.protocol!=='https:')return null;
-    const hostname=u.hostname.toLowerCase();
-    if(vendor.name==='Maxima'&&hostname!=='maxima.com')return null;
-    if(vendor.name==='HENDI'&&!['www.hendi.eu','hendi.eu'].includes(hostname))return null;
-    if(!u.pathname.startsWith(vendor.prefix))return null;
-    if(/\.(?:pdf|jpe?g|gif|png|webp|svg|xml|css|js|woff\d?|zip)$/i.test(u.pathname))return null;
-    // HENDI category pagination uses ?p=2; retain only this benign page index.
-    // Drop marketing, tracking, session and sorting parameters.
-    const page=u.searchParams.get('p');
-    u.search='';
-    if(vendor.name==='HENDI'&&page&&/^\d{1,3}$/.test(page)&&Number(page)>1&&Number(page)<=200){
-      u.searchParams.set('p',String(Number(page)));
-    }
-    u.hash='';
-    return u.href;
-  }catch{return null}
-}
+const normalizeUrl=normalizeSupplierUrl;
 function parseRobots(raw,vendorAgent='GastroSkyCatalogCheck'){
   const groups=[];let agents=[],rules=[],begun=false;
   function flush(){if(agents.length)groups.push({agents:[...agents],rules:[...rules]});agents=[];rules=[];begun=false}
