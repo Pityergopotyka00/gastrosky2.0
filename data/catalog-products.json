@@ -16590,5 +16590,93 @@
     "price": null,
     "availability": null,
     "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09367572",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09367572",
+    "ean": "8719632126096",
+    "name": "Maxima – GN 1/1 tapadásmentes acéledény, 65 mm",
+    "category": "Sütőtartozékok",
+    "description": "Professzionális Maxima gastronorm tartály, hivatalos gyártói termékoldalon ellenőrzött cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09367572"
+    },
+    "source_url": "https://maxima.com/hu/gasztronorm-edeny-1-1-gn-tapadasmentes-6-5cm-mely-53-x-32-5cm-acel.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09367570",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09367570",
+    "ean": "8719632125945",
+    "name": "Maxima – GN 1/1 tapadásmentes acéledény, 20 mm",
+    "category": "Sütőtartozékok",
+    "description": "Professzionális Maxima gastronorm tartály, hivatalos gyártói termékoldalon ellenőrzött cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09367570"
+    },
+    "source_url": "https://maxima.com/hu/gasztronorm-edeny-1-1-gn-tapadasmentes-2cm-mely-53-x-32-5cm-acel.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09367910",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09367910",
+    "ean": "8720365341199",
+    "name": "Maxima – GN 1/1 polikarbonát tartály, 65 mm",
+    "category": "Sütőtartozékok",
+    "description": "Professzionális Maxima gastronorm tartály, hivatalos gyártói termékoldalon ellenőrzött cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09367910"
+    },
+    "source_url": "https://maxima.com/hu/gasztronorm-tartaly-1-1-gn-6-5cm-mely-53-x-32-5-cm-polikarbonat.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09367911",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09367911",
+    "ean": "8720365341205",
+    "name": "Maxima – GN 1/1 polikarbonát tartály, 100 mm",
+    "category": "Sütőtartozékok",
+    "description": "Professzionális Maxima gastronorm tartály, hivatalos gyártói termékoldalon ellenőrzött cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09367911"
+    },
+    "source_url": "https://maxima.com/hu/gasztronorm-tartaly-1-1-gn-10cm-mely-53-x-32-5-cm-polikarbonat.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
   }
 ]
