@@ -1,42 +1,36 @@
-# GastroSky 2.0 — AUTOMATIC supplier stock checks
+# GastroSky 2.0 — Maxima and HENDI product + stock sync
 
-## Architecture
-1. Cloudflare Worker cron wakes every five minutes.
-2. The Worker selects a small rotating batch of Maxima and HENDI products.
-3. It checks each *specific* supplier product URL and verifies the SKU.
-4. When the supplier reports **in stock** or **out of stock**, that result is saved to D1. Where there is no unambiguous public stock state, the result is `unknown`.
-5. The public website reads **only D1 saved records**. It never contacts supplier sites or lets customers trigger checks.
+## What is configured now
+- `data/catalog-products.json`: starter catalog (17 products with manufacturer image URLs).
+- `data/supplier-stock-snapshot.json`: stock values only after a source has been checked.
+- `index.html` fetches the catalog and snapshots automatically. Customers **cannot trigger a supplier request** and do not see delivery estimates.
+- `scripts/check-public-supplier-stock.mjs`: scheduled, cautious, robots.txt-aware checks of publicly accessible product pages for products already known to the catalog. It never fabricates stock or bypasses restricted access.
+- `.github/workflows/refresh-public-supplier-stock.yml`: scheduled every three hours, with a push trigger for the first workflow test.
+- `scripts/sync-supplier-feeds.mjs`: imports complete catalog and warehouse availability **when supplier-authorized XML/CSV/JSON feeds exist**.
+- `.github/workflows/sync-supplier-feeds.yml`: scheduled every two hours.
+- `scripts/copy-static.mjs`: publishes product + stock snapshots into Cloudflare static assets on deployment.
+- `worker/index.js`: serves a read-only stock and product API from snapshots, with freshness limits. **No D1 database is required.**
 
-The storefront displays:
-- `Készleten` for confirmed `in_stock` or `low_stock`;
-- `Nincs készleten` for confirmed `out_of_stock`;
-- `Kifutott termék` for confirmed `out_of_assortment`;
-- `Elérhetőség egyeztetés alapján` for unknown, stale, expected delivery or other unverified cases.
+## IMPORTANT: Status and prerequisites
+The GitHub automation is wired up, but it does not mean live synchronization has been proven. An empty `data/supplier-stock-snapshot.json` means no product status has been checked successfully and committed.
 
-**No delivery estimates are shown to customers.** Data older than one hour is considered stale. Stock data is supplier information, not GastroSky-owned stock.
+**Complete Maxima + HENDI catalogs are not currently included.** For full coverage and reliable vendor warehouse data, arrange official reseller feeds. Maxima explicitly provides XML/CSV files and marketing photos upon request to registered dealers. HENDI wholesale integration is also documented to use authorized product files, which may include photos and warehouse stock.
 
-## Activation — setup still required
-Cloudflare Workers was previously deployed without a D1 binding, to avoid a failing build. The cron is present, but `ENABLE_SCHEDULED_SYNC` is deliberately `false`.
+## Obtain supplier feed URLs and connect
+1. Request the dealer catalog feed **with images, SKU/EAN, and stock values** from Maxima and HENDI (ask if stock is included; not all product feeds have inventory).
+2. When they provide downloadable HTTPS feed URLs, save them as repository **Actions secrets**:
+   - `MAXIMA_FEED_URL`
+   - `HENDI_FEED_URL`
+   Do **not** paste passwords or protected URLs in source files or public chats.
+3. Repository → Actions → **Sync authorized Maxima and HENDI feeds** → Run workflow.
+4. Check the logs for how many products and explicit warehouse stock values were imported. If the supplier feed uses different XML fields, adapt `scripts/sync-supplier-feeds.mjs` to its exact schema.
+5. Successful workflow commits will trigger the connected Cloudflare Worker deployment. Verify `/api/health` reports a positive number of `verified_fresh_records`.
+6. Check a few SKUs against each supplier's authorized reseller inventory interface.
 
-1. Cloudflare dashboard: **Storage & databases → D1 → Create database**, name `gastrosky2-stock`.
-2. In the D1 database console, execute `worker/supplier-stock-schema.sql`.
-3. In `wrangler.jsonc`, add the D1 binding:
+Only unambiguous stock statuses display **Készleten** or **Nincs készleten**. Unknown, blocked, missing, or stale data displays **Elérhetőség egyeztetés alapján**.
 
-```json
-"d1_databases": [
-  {
-    "binding": "DB",
-    "database_name": "gastrosky2-stock",
-    "database_id": "<the actual database UUID from Cloudflare>"
-  }
-]
-```
-
-4. Before enabling automatic requests, get Maxima and HENDI reseller permission or their authorized stock feeds and test that their sites provide reliable SKU-matched status.
-5. Set `ENABLE_SCHEDULED_SYNC` to `"true"` only after verification and redeploy.
-6. Inspect `/api/health` and `/stock-monitor.html` on the Cloudflare preview.
-
-## Scaling limits
-The current batch checks **3 products every 5 minutes**, rotating across the small development catalog. It is not suitable for a supplier's full catalog of thousands of SKUs. For that, ingest authorized supplier inventory feeds in bulk; only URLs with permitted automated access should be checked individually. HENDI may not expose warehouse stock on its public product pages.
-
-The mere existence of cron code or a supplier stock label in a search result does not demonstrate that this Worker has synchronized anything. A successful runtime check and stored D1 record are required before calling it live.
+## Scaling and privacy
+- Public page checks are a limited fallback for known products, not a substitute for vendor-provided full catalog feeds.
+- The public page checker respects supplier robots.txt and rate-limits itself.
+- No confidential supplier buying prices are imported or publicly published.
+- Product images are linked from the manufacturers' sites; confirm reseller image usage permissions.
