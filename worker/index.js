@@ -1,65 +1,55 @@
-// GastroSky 2.0 – live, on-demand Maxima product-page availability.
-// The check never fabricates stock. Supplier access must be permitted;
-// if blocked, mismatched, dynamic-only, or ambiguous we return "unknown".
-import products from '../data/maxima-products.json';
+// GastroSky 2.0 — read supplier product pages ONLY when the visitor opens a product.
+// Manufacturer data is never treated as a guaranteed warehouse balance.
+import products from '../data/catalog-products.json';
 import {parseMaximaAvailability} from './availability.js';
 
-const catalog = new Map(products.filter(p => p.manufacturer === 'Maxima').map(p => [p.sku, p]));
-const TTL_SECONDS = 900; // maximum one page request per SKU per cache location / 15 min
-const UNKNOWN_TTL = 120;
-const responseHeaders = { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store', 'x-content-type-options': 'nosniff' };
-const json = (data, status=200) => new Response(JSON.stringify(data), {status,headers:responseHeaders});
-const unknown = (reason, sku, checked_at=null) => ({sku,kind:'unknown',quantity:null,expected_date:null,checked_at,reason});
-
-async function checkSupplier(sku, product) {
- const checked_at=new Date().toISOString();
- if(!product?.source_url) return unknown('source_not_verified',sku,checked_at);
- let url;
- try {url=new URL(product.source_url)} catch {return unknown('invalid_supplier_url',sku,checked_at)}
- if(url.protocol!=='https:'||url.hostname!=='maxima.com'||!url.pathname.startsWith('/hu/'))
-   return unknown('requires_hungarian_supplier_page',sku,checked_at);
- try {
-  const res=await fetch(url.href,{
-   headers: { 'Accept':'text/html', 'Accept-Language':'hu-HU,hu;q=0.9' },
-   redirect:'follow',
-   signal:AbortSignal.timeout(12000)
-  });
-  if(!res.ok) return unknown('supplier_http_'+res.status,sku,checked_at);
-  const final=new URL(res.url);
-  if(final.hostname!=='maxima.com'||!final.pathname.startsWith('/hu/'))
-    return unknown('supplier_redirected',sku,checked_at);
-  const type=res.headers.get('content-type')||'';
-  if(!type.includes('text/html'))return unknown('unexpected_content_type',sku,checked_at);
-  const body=await res.text();
-  if(body.length>2000000)return unknown('supplier_page_too_large',sku,checked_at);
-  const result=parseMaximaAvailability(body,sku);
-  return {sku,kind:result.kind,quantity:result.quantity,expected_date:result.expected_date,reason:result.reason||null,checked_at};
- } catch(e) {return unknown(e.name==='TimeoutError'?'timeout':'supplier_unreachable',sku,checked_at)}
+const catalog = new Map(products.map(p=>[p.id,p]));
+const headers = {'content-type':'application/json; charset=utf-8','cache-control':'no-store','x-content-type-options':'nosniff'};
+const json=(payload,status=200)=>new Response(JSON.stringify(payload),{status,headers});
+const missing=(p,reason,checkedAt=null)=>({id:p.id,sku:p.sku,supplier:p.manufacturer,kind:'unknown',quantity:null,expected_date:null,reason,checked_at:checkedAt});
+const ALLOWED={'Maxima':new Set(['maxima.com']),'HENDI':new Set(['hendi.eu','www.hendi.eu'])};
+async function verifySupplierPage(p){
+ const now=new Date().toISOString();
+ if(!p.source_url)return missing(p,'supplier_url_unverified',now);
+ let u;try{u=new URL(p.source_url)}catch{return missing(p,'bad_source_url',now)}
+ if(u.protocol!=='https:'||!ALLOWED[p.manufacturer]?.has(u.hostname))return missing(p,'untrusted_source_url',now);
+ // Live supplier-stock checking is opt-in: do not start automated requests until
+ // the seller has permission and a verified availability extraction method.
+ if(p.manufacturer==='Maxima'&&p.stock_source_status==='needs_correct_product_url')return missing(p,'supplier_sku_mismatch',now);
+ if(p.manufacturer==='HENDI')return missing(p,'manufacturer_stock_not_publicly_verified',now);
+ try{
+  const res=await fetch(u.toString(),{headers:{Accept:'text/html','Accept-Language':'hu-HU,hu;q=0.9'},redirect:'follow',signal:AbortSignal.timeout(12000)});
+  if(!res.ok)return missing(p,'supplier_http_'+res.status,now);
+  const redirect=new URL(res.url);
+  if(!ALLOWED[p.manufacturer].has(redirect.hostname))return missing(p,'unexpected_redirect',now);
+  const contentType=res.headers.get('content-type')||'';
+  if(!contentType.includes('text/html'))return missing(p,'non_html_supplier_page',now);
+  const html=await res.text();
+  if(html.length>2500000)return missing(p,'oversized_page',now);
+  const result=parseMaximaAvailability(html,p.sku);
+  return {id:p.id,sku:p.sku,supplier:p.manufacturer,kind:result.kind,quantity:result.quantity,expected_date:result.expected_date,reason:result.reason,checked_at:now};
+ }catch(e){return missing(p,e.name==='TimeoutError'?'timeout':'supplier_request_failed',now)}
 }
-
-async function getStock(request, env) {
- const params=new URL(request.url).searchParams;
- const sku=params.get('sku')||'';
- if(!catalog.has(sku))return json({error:'unknown_sku'},404);
- const cacheUrl=new URL('/__maxima_stock_cache/'+encodeURIComponent(sku),request.url);
- const cacheKey=new Request(cacheUrl.toString(),{method:'GET'});
- const cache=caches.default;
- const cached=await cache.match(cacheKey);
- if(cached){const data=await cached.json();return json({...data,cached:true})}
- const data=await checkSupplier(sku,catalog.get(sku));
- // Cache both real and unknown results to avoid overwhelming the supplier.
- const ttl=data.kind==='unknown'?UNKNOWN_TTL:TTL_SECONDS;
- const storage=new Response(JSON.stringify(data),{headers:{'content-type':'application/json','cache-control':'public, max-age='+ttl}});
- await cache.put(cacheKey,storage);
- return json({...data,cached:false});
+async function stockRequest(req,env){
+ const url=new URL(req.url);
+ const id=url.searchParams.get('id')||'';
+ const p=catalog.get(id);
+ if(!p)return json({error:'unknown_product'},404);
+ if(env.ENABLE_SITE_CHECKS!=='true')return json(missing(p,'checks_not_enabled'));
+ const key=new Request(new URL('/__stockcache/'+encodeURIComponent(id),url).toString());
+ const cached=await caches.default.match(key);
+ if(cached)return json({...await cached.json(),cached:true});
+ const value=await verifySupplierPage(p);
+ // Cap load on manufacturer sites. For unknown results, retry later.
+ const ttl=value.kind==='unknown'?600:900;
+ await caches.default.put(key,new Response(JSON.stringify(value),{headers:{'content-type':'application/json','cache-control':'public, max-age='+ttl}}));
+ return json({...value,cached:false});
 }
-
 export default {
- async fetch(request,env){
-  const path=new URL(request.url).pathname;
-  if(path==='/api/stock'&&request.method==='GET') return getStock(request,env);
-  if(path==='/api/health'&&request.method==='GET') return json({ok:true,mode:'on_demand_supplier_page_checks',source:'maxima.com/hu',cache_seconds:TTL_SECONDS,d1_required:false});
-  if(env.ASSETS) return env.ASSETS.fetch(request);
-  return new Response('Not found',{status:404});
+ async fetch(req,env){
+  const path=new URL(req.url).pathname;
+  if(path==='/api/stock'&&req.method==='GET')return stockRequest(req,env);
+  if(path==='/api/health')return json({ok:true,products:catalog.size,mode:'per_product_page_checks',site_checks_enabled:env.ENABLE_SITE_CHECKS==='true',database_required:false});
+  return env.ASSETS?env.ASSETS.fetch(req):new Response('Not found',{status:404});
  }
 };
