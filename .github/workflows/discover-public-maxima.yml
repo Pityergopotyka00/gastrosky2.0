@@ -1,6 +1,8 @@
 name: Discover Maxima public catalog products
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '23 2 * * *'
   push:
     paths:
       - '.github/workflows/discover-public-maxima.yml'
