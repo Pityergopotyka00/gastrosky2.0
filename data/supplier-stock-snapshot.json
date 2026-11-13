@@ -5,8 +5,8 @@
     "kind": "unknown",
     "quantity": null,
     "expected_date": null,
-    "reason": "supplier_robots_not_permitted",
-    "checked_at": "2026-11-13T10:52:26.033Z",
+    "reason": "supplier_robots_disallows",
+    "checked_at": "2026-11-13T11:09:09.336Z",
     "source": "public_supplier_product_page"
   },
   "maxima:09402310": {
@@ -15,8 +15,8 @@
     "kind": "unknown",
     "quantity": null,
     "expected_date": null,
-    "reason": "supplier_robots_not_permitted",
-    "checked_at": "2026-11-13T10:52:27.536Z",
+    "reason": "supplier_robots_disallows",
+    "checked_at": "2026-11-13T11:09:10.838Z",
     "source": "public_supplier_product_page"
   },
   "maxima:09300490": {
@@ -25,8 +25,8 @@
     "kind": "unknown",
     "quantity": null,
     "expected_date": null,
-    "reason": "supplier_robots_not_permitted",
-    "checked_at": "2026-11-13T10:52:29.038Z",
+    "reason": "supplier_robots_disallows",
+    "checked_at": "2026-11-13T11:09:12.340Z",
     "source": "public_supplier_product_page"
   },
   "maxima:09300495": {
@@ -35,8 +35,8 @@
     "kind": "unknown",
     "quantity": null,
     "expected_date": null,
-    "reason": "supplier_robots_not_permitted",
-    "checked_at": "2026-11-13T10:52:30.539Z",
+    "reason": "supplier_robots_disallows",
+    "checked_at": "2026-11-13T11:09:13.841Z",
     "source": "public_supplier_product_page"
   },
   "maxima:09300500": {
@@ -45,8 +45,8 @@
     "kind": "unknown",
     "quantity": null,
     "expected_date": null,
-    "reason": "supplier_robots_not_permitted",
-    "checked_at": "2026-11-13T10:52:32.041Z",
+    "reason": "supplier_robots_disallows",
+    "checked_at": "2026-11-13T11:09:15.343Z",
     "source": "public_supplier_product_page"
   },
   "maxima:09240050": {
@@ -55,8 +55,8 @@
     "kind": "unknown",
     "quantity": null,
     "expected_date": null,
-    "reason": "supplier_robots_not_permitted",
-    "checked_at": "2026-11-13T10:52:33.543Z",
+    "reason": "supplier_robots_disallows",
+    "checked_at": "2026-11-13T11:09:16.844Z",
     "source": "public_supplier_product_page"
   },
   "maxima:09240060": {
@@ -65,8 +65,8 @@
     "kind": "unknown",
     "quantity": null,
     "expected_date": null,
-    "reason": "supplier_robots_not_permitted",
-    "checked_at": "2026-11-13T10:52:35.045Z",
+    "reason": "supplier_robots_disallows",
+    "checked_at": "2026-11-13T11:09:18.346Z",
     "source": "public_supplier_product_page"
   },
   "maxima:09211005": {
@@ -75,8 +75,8 @@
     "kind": "unknown",
     "quantity": null,
     "expected_date": null,
-    "reason": "supplier_robots_not_permitted",
-    "checked_at": "2026-11-13T10:52:36.546Z",
+    "reason": "supplier_robots_disallows",
+    "checked_at": "2026-11-13T11:09:19.847Z",
     "source": "public_supplier_product_page"
   },
   "maxima:09211006": {
@@ -85,8 +85,8 @@
     "kind": "unknown",
     "quantity": null,
     "expected_date": null,
-    "reason": "supplier_robots_not_permitted",
-    "checked_at": "2026-11-13T10:52:38.048Z",
+    "reason": "supplier_robots_disallows",
+    "checked_at": "2026-11-13T11:09:21.349Z",
     "source": "public_supplier_product_page"
   },
   "hendi:239780": {
@@ -95,8 +95,8 @@
     "kind": "unknown",
     "quantity": null,
     "expected_date": null,
-    "reason": "supplier_robots_not_permitted",
-    "checked_at": "2026-11-13T10:52:39.767Z",
+    "reason": "supplier_robots_disallows",
+    "checked_at": "2026-11-13T11:09:23.251Z",
     "source": "public_supplier_product_page"
   },
   "hendi:239421": {
@@ -105,8 +105,8 @@
     "kind": "unknown",
     "quantity": null,
     "expected_date": null,
-    "reason": "supplier_robots_not_permitted",
-    "checked_at": "2026-11-13T10:52:41.269Z",
+    "reason": "supplier_robots_disallows",
+    "checked_at": "2026-11-13T11:09:24.752Z",
     "source": "public_supplier_product_page"
   },
   "hendi:239711": {
@@ -115,8 +115,8 @@
     "kind": "unknown",
     "quantity": null,
     "expected_date": null,
-    "reason": "supplier_robots_not_permitted",
-    "checked_at": "2026-11-13T10:52:42.770Z",
+    "reason": "supplier_robots_disallows",
+    "checked_at": "2026-11-13T11:09:26.254Z",
     "source": "public_supplier_product_page"
   },
   "hendi:239698": {
@@ -125,8 +125,8 @@
     "kind": "unknown",
     "quantity": null,
     "expected_date": null,
-    "reason": "supplier_robots_not_permitted",
-    "checked_at": "2026-11-13T10:52:44.271Z",
+    "reason": "supplier_robots_disallows",
+    "checked_at": "2026-11-13T11:09:27.754Z",
     "source": "public_supplier_product_page"
   },
   "hendi:240083": {
@@ -135,8 +135,8 @@
     "kind": "unknown",
     "quantity": null,
     "expected_date": null,
-    "reason": "supplier_robots_not_permitted",
-    "checked_at": "2026-11-13T10:52:45.773Z",
+    "reason": "supplier_robots_disallows",
+    "checked_at": "2026-11-13T11:09:29.256Z",
     "source": "public_supplier_product_page"
   },
   "hendi:238967": {
@@ -145,8 +145,8 @@
     "kind": "unknown",
     "quantity": null,
     "expected_date": null,
-    "reason": "supplier_robots_not_permitted",
-    "checked_at": "2026-11-13T10:52:47.275Z",
+    "reason": "supplier_robots_disallows",
+    "checked_at": "2026-11-13T11:09:30.758Z",
     "source": "public_supplier_product_page"
   },
   "hendi:470909": {
@@ -155,8 +155,8 @@
     "kind": "unknown",
     "quantity": null,
     "expected_date": null,
-    "reason": "supplier_robots_not_permitted",
-    "checked_at": "2026-11-13T10:52:48.777Z",
+    "reason": "supplier_robots_disallows",
+    "checked_at": "2026-11-13T11:09:32.259Z",
     "source": "public_supplier_product_page"
   },
   "maxima:09100000": {
@@ -165,8 +165,8 @@
     "kind": "unknown",
     "quantity": null,
     "expected_date": null,
-    "reason": "supplier_robots_not_permitted",
-    "checked_at": "2026-11-13T10:52:50.278Z",
+    "reason": "supplier_robots_disallows",
+    "checked_at": "2026-11-13T11:09:33.760Z",
     "source": "public_supplier_product_page"
   }
 }
