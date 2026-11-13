@@ -29,7 +29,7 @@ footer a{color:#e3bd73;margin-right:15px}
 <main>
 <p class="muted">GASTROSKY 2.0 · ELLENŐRZŐ FELÜLET</p>
 <h1>Gyártói készletellenőrzés</h1>
-<p class="lead">Itt látható, hogy a Maxima és HENDI nyilvános termékoldalai milyen ellenőrizhető információt adnak vissza. A rendszer csak a megfelelő cikkszámhoz tartozó, azonosítható állapotot jelzi. A beérkezett adatok nem azonosak a GastroSky saját raktárkészletével.</p>
+<p class="lead">Itt látható, hogy a Maxima és HENDI nyilvános termékoldalai milyen ellenőrizhető információt adnak vissza. A rendszer a szerver által utoljára mentett, megfelelő cikkszámhoz tartozó állapotot jelzi. A beérkezett adatok nem azonosak a GastroSky saját raktárkészletével.</p>
 <div class="notice">Ez fejlesztői ellenőrző felület, nem garantált raktárkészlet. A gyártó által nem közölt, hibás vagy nem hozzáférhető adatok <strong>„Nem ellenőrizhető”</strong> állapotúak maradnak. A nyilvános online rendelés letiltása nem jelenti automatikusan a készlethiányt.</div>
 <div class="stats">
 <div class="stat"><strong id="total">–</strong><span>Listázott termék</span></div>
@@ -38,7 +38,7 @@ footer a{color:#e3bd73;margin-right:15px}
 <div class="stat"><strong id="pending">0</strong><span>Még folyamatban</span></div>
 </div>
 <div class="actions">
-<button id="refresh" type="button">Látható termékek ellenőrzése</button>
+<span class="muted">A megjelenített készletet a szerver frissíti automatikusan.</span>
 <button id="next" type="button" disabled>Következő oldal</button>
 <span id="message" aria-live="polite">Katalógus betöltése…</span>
 </div>
@@ -57,7 +57,7 @@ function statusText(x){
  if(x.kind==='in_stock')return 'Készleten – gyártói jelzés';
  if(x.kind==='out_of_stock')return 'Nincs készleten – gyártói jelzés';
  if(x.kind==='expected')return 'Várható: '+(x.expected_date||'nincs dátum');
- if(x.kind==='orderable')return 'Rendelhető'+(x.delivery_days?' · '+x.delivery_days+' munkanap':'');
+ if(x.kind==='orderable')return 'Elérhetőség egyeztetés alapján';
  if(x.kind==='out_of_assortment')return 'Kifutott termék';
  const reason={
   supplier_sku_mismatch:'Eltérő gyártói cikkszám',
@@ -94,7 +94,7 @@ function render(){
  document.getElementById('unknown').textContent=visible.length-verified;
  document.getElementById('pending').textContent=Math.max(0,items.length-visible.length);
  document.getElementById('next').disabled=running||offset+items.length>=total;
- document.getElementById('refresh').disabled=running;
+
 }
 async function loadPage(){
  message.textContent='Terméklista betöltése…';
@@ -102,14 +102,14 @@ async function loadPage(){
   const response=await fetch('/api/products?limit='+perPage+'&offset='+offset,{cache:'no-store'});
   if(!response.ok)throw Error('products unavailable');
   const data=await response.json();items=data.items||[];total=data.total||0;states.clear();
-  render();message.textContent='Listázott: '+items.length+' / '+total+' termék. Kattints az ellenőrzésre.';
+  render();message.textContent='Listázott: '+items.length+' / '+total+' termék. Mentett készletadatok lekérése…';check();
  }catch{
   message.textContent='A termék-API nem érhető el. Ezt a monitoroldalt a Cloudflare Workerrel együtt kell futtatni.';
  }
 }
 async function check(){
  if(running||!items.length)return;running=true;render();
- let next=0,completed=0;message.textContent='Gyártói oldalak lekérdezése…';
+ let next=0,completed=0;message.textContent='Mentett készletállapotok betöltése…';
  async function worker(){
   while(next<items.length){
    const p=items[next++];
@@ -122,10 +122,11 @@ async function check(){
   }
  }
  await Promise.all([worker(),worker()]);running=false;render();
- message.textContent='Ellenőrzés befejezve. A nem ellenőrizhető adatok nem számítanak raktárkészletnek.';
+ message.textContent='A legutóbbi szerveroldali ellenőrzés eredménye. A nem ellenőrizhető adatok nem számítanak raktárkészletnek.';
 }
-document.getElementById('refresh').onclick=check;
+
 document.getElementById('next').onclick=()=>{if(running)return;offset+=perPage;loadPage()};
 loadPage();
+setInterval(()=>{if(!running&&items.length)check()},60000);
 </script>
 </body></html>
