@@ -8,6 +8,7 @@
     "binding": "ASSETS"
   },
   "compatibility_date": "2026-11-13",
+  "triggers": { "crons": ["*/5 * * * *"] },
   "vars": {
     "ENABLE_STOCK_SYNC": "false"
   }
