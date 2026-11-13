@@ -19,7 +19,7 @@ export default{
 
   if(url.pathname==='/api/stock'&&request.method==='GET'){
    const id=url.searchParams.get('id')||'';
-   if(!/^(?:maxima|hendi|fagor|modular|coldline|krupps|aristarco):[\w.-]{1,80}$/i.test(id))return json({error:'invalid_product_id'},400);
+   if(!/^(?:maxima|hendi|fagor|modular|coldline|krupps|aristarco|sistemaproject):[\w.-]{1,80}$/i.test(id))return json({error:'invalid_product_id'},400);
    try{
     const catalog=await readAsset(env,'/data/catalog-products.json',url);
     const product=catalog.find(p=>p.id===id);
