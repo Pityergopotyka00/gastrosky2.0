@@ -1,17 +1,14 @@
 {
-  "name": "gastrosky2-stock-preview",
+  // Temporary deploy configuration: live inventory is NOT enabled.
+  // Add the D1 binding after creating the database in Cloudflare.
+  "name": "gastrosky2-0",
   "main": "worker/index.js",
-  "assets": {"directory":"./dist","binding":"ASSETS"},
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS"
+  },
   "compatibility_date": "2026-11-13",
-  "triggers": { "crons": [ "*/5 * * * *" ] },
   "vars": {
     "ENABLE_STOCK_SYNC": "false"
-  },
-  "d1_databases": [
-    {
-      "binding": "DB",
-      "database_name": "gastrosky2-stock",
-      "database_id": "REPLACE_WITH_REAL_D1_DATABASE_ID"
-    }
-  ]
+  }
 }
