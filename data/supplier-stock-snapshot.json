@@ -1,1 +1,172 @@
-{}
+{
+  "maxima:09400018": {
+    "id": "maxima:09400018",
+    "sku": "09400018",
+    "kind": "unknown",
+    "quantity": null,
+    "expected_date": null,
+    "reason": "supplier_robots_not_permitted",
+    "checked_at": "2026-11-13T10:52:26.033Z",
+    "source": "public_supplier_product_page"
+  },
+  "maxima:09402310": {
+    "id": "maxima:09402310",
+    "sku": "09402310",
+    "kind": "unknown",
+    "quantity": null,
+    "expected_date": null,
+    "reason": "supplier_robots_not_permitted",
+    "checked_at": "2026-11-13T10:52:27.536Z",
+    "source": "public_supplier_product_page"
+  },
+  "maxima:09300490": {
+    "id": "maxima:09300490",
+    "sku": "09300490",
+    "kind": "unknown",
+    "quantity": null,
+    "expected_date": null,
+    "reason": "supplier_robots_not_permitted",
+    "checked_at": "2026-11-13T10:52:29.038Z",
+    "source": "public_supplier_product_page"
+  },
+  "maxima:09300495": {
+    "id": "maxima:09300495",
+    "sku": "09300495",
+    "kind": "unknown",
+    "quantity": null,
+    "expected_date": null,
+    "reason": "supplier_robots_not_permitted",
+    "checked_at": "2026-11-13T10:52:30.539Z",
+    "source": "public_supplier_product_page"
+  },
+  "maxima:09300500": {
+    "id": "maxima:09300500",
+    "sku": "09300500",
+    "kind": "unknown",
+    "quantity": null,
+    "expected_date": null,
+    "reason": "supplier_robots_not_permitted",
+    "checked_at": "2026-11-13T10:52:32.041Z",
+    "source": "public_supplier_product_page"
+  },
+  "maxima:09240050": {
+    "id": "maxima:09240050",
+    "sku": "09240050",
+    "kind": "unknown",
+    "quantity": null,
+    "expected_date": null,
+    "reason": "supplier_robots_not_permitted",
+    "checked_at": "2026-11-13T10:52:33.543Z",
+    "source": "public_supplier_product_page"
+  },
+  "maxima:09240060": {
+    "id": "maxima:09240060",
+    "sku": "09240060",
+    "kind": "unknown",
+    "quantity": null,
+    "expected_date": null,
+    "reason": "supplier_robots_not_permitted",
+    "checked_at": "2026-11-13T10:52:35.045Z",
+    "source": "public_supplier_product_page"
+  },
+  "maxima:09211005": {
+    "id": "maxima:09211005",
+    "sku": "09211005",
+    "kind": "unknown",
+    "quantity": null,
+    "expected_date": null,
+    "reason": "supplier_robots_not_permitted",
+    "checked_at": "2026-11-13T10:52:36.546Z",
+    "source": "public_supplier_product_page"
+  },
+  "maxima:09211006": {
+    "id": "maxima:09211006",
+    "sku": "09211006",
+    "kind": "unknown",
+    "quantity": null,
+    "expected_date": null,
+    "reason": "supplier_robots_not_permitted",
+    "checked_at": "2026-11-13T10:52:38.048Z",
+    "source": "public_supplier_product_page"
+  },
+  "hendi:239780": {
+    "id": "hendi:239780",
+    "sku": "239780",
+    "kind": "unknown",
+    "quantity": null,
+    "expected_date": null,
+    "reason": "supplier_robots_not_permitted",
+    "checked_at": "2026-11-13T10:52:39.767Z",
+    "source": "public_supplier_product_page"
+  },
+  "hendi:239421": {
+    "id": "hendi:239421",
+    "sku": "239421",
+    "kind": "unknown",
+    "quantity": null,
+    "expected_date": null,
+    "reason": "supplier_robots_not_permitted",
+    "checked_at": "2026-11-13T10:52:41.269Z",
+    "source": "public_supplier_product_page"
+  },
+  "hendi:239711": {
+    "id": "hendi:239711",
+    "sku": "239711",
+    "kind": "unknown",
+    "quantity": null,
+    "expected_date": null,
+    "reason": "supplier_robots_not_permitted",
+    "checked_at": "2026-11-13T10:52:42.770Z",
+    "source": "public_supplier_product_page"
+  },
+  "hendi:239698": {
+    "id": "hendi:239698",
+    "sku": "239698",
+    "kind": "unknown",
+    "quantity": null,
+    "expected_date": null,
+    "reason": "supplier_robots_not_permitted",
+    "checked_at": "2026-11-13T10:52:44.271Z",
+    "source": "public_supplier_product_page"
+  },
+  "hendi:240083": {
+    "id": "hendi:240083",
+    "sku": "240083",
+    "kind": "unknown",
+    "quantity": null,
+    "expected_date": null,
+    "reason": "supplier_robots_not_permitted",
+    "checked_at": "2026-11-13T10:52:45.773Z",
+    "source": "public_supplier_product_page"
+  },
+  "hendi:238967": {
+    "id": "hendi:238967",
+    "sku": "238967",
+    "kind": "unknown",
+    "quantity": null,
+    "expected_date": null,
+    "reason": "supplier_robots_not_permitted",
+    "checked_at": "2026-11-13T10:52:47.275Z",
+    "source": "public_supplier_product_page"
+  },
+  "hendi:470909": {
+    "id": "hendi:470909",
+    "sku": "470909",
+    "kind": "unknown",
+    "quantity": null,
+    "expected_date": null,
+    "reason": "supplier_robots_not_permitted",
+    "checked_at": "2026-11-13T10:52:48.777Z",
+    "source": "public_supplier_product_page"
+  },
+  "maxima:09100000": {
+    "id": "maxima:09100000",
+    "sku": "09100000",
+    "kind": "unknown",
+    "quantity": null,
+    "expected_date": null,
+    "reason": "supplier_robots_not_permitted",
+    "checked_at": "2026-11-13T10:52:50.278Z",
+    "source": "public_supplier_product_page"
+  }
+}
