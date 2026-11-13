@@ -1,6 +1,10 @@
 name: Refresh public supplier page availability
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/refresh-public-supplier-stock.yml'
+      - 'scripts/check-public-supplier-stock.mjs'
   schedule:
     - cron: '43 */3 * * *'
 permissions:
