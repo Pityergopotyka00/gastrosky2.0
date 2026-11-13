@@ -2010,13 +2010,13 @@
       "Nettó tömeg": "10 kg"
     },
     "source_url": "https://www.modular.it/en/catalog/modul-30-cm-9",
-    "image_url": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16646__product-thumbnail/MP01012011000_Fun_600_Piano_cottura_gas_modulo_30_mod.png",
     "source_type": "manufacturer_product_sheet",
     "record_status": "published_model_data",
     "price": null,
     "availability": null,
-    "image_source": "awaiting_verified_manufacturer_photo",
-    "photo_status": "product_photo_pending",
+    "image_source": "official_modular_exact_model_image",
+    "photo_status": "official_model_matched",
     "publication_status": "public_product_details"
   },
   {
