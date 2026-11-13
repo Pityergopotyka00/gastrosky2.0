@@ -59,28 +59,28 @@ async function page(url,brand){
  const doc=load(body);const obj={doc,url:res.url,body};pageCache.set(url,obj);return obj;
 }
 function aristarcoPhoto($,model,base){
- const code=norm(model);
- // Aristarco categories show product name immediately next to the associated image.
- // Search anchors and headings first; avoid accidental matches in navigation.
- let best=null,bestScore=Infinity;
+ const code=norm(model), matches=[];
+ // Search for exact model labels in each product tile, then use an image from
+ // that tile only. A common shared image is acceptable when the maker assigns
+ // it to the exact model card.
  $('img').each((_,img)=>{
-  const el=$(img);const image=imageOf($,img,base,'Aristarco');if(!image)return;
-  let current=el;
+  const url=imageOf($,img,base,'Aristarco');
+  if(!url)return;
+  let node=$(img);
   for(let depth=1;depth<=5;depth++){
-   current=current.parent();if(!current.length)break;
-   const texts=current.find('h2,h3,h4,h5,a,span,p').map((_,node)=>norm($(node).text())).get();
-   const exact=texts.some(t=>t===code);
-   if(!exact)continue;
-   const text=norm(current.text()),score=depth*100+Math.min(text.length,999);
-   if(score<bestScore){best={url:image,kind:'official_category_card',score};bestScore=score}
-   break;
+   node=node.parent();if(!node.length)break;
+   const labels=node.find('h2,h3,h4,h5,a,span,strong').toArray()
+    .map(el=>norm($(el).text())).filter(t=>t.length<90);
+   const exact=labels.some(t=>t===code);
+   if(exact){
+    const siblings=node.find('img').length,words=norm(node.text()).length;
+    matches.push({url,score:depth*20+Math.min(words,300)+Math.max(0,siblings-1)*30});
+    break;
+   }
   }
  });
- if(best)return best;
- // If a model has an individual detail link, look there rather than using unrelated art.
- const link=$('a').filter((_,el)=>norm($(el).text())===code).first();
- if(link.length){const href=link.attr('href');if(href){try{return {detailUrl:new URL(href,base).href}}catch{}}}
- return null;
+ matches.sort((a,b)=>a.score-b.score);
+ return matches.length?{url:matches[0].url,kind:'official_category_card'}:null;
 }
 let filled=0,missed=[],byBrand={};const MAX=Number(process.env.PHOTO_CHECK_LIMIT||200);
 let attempted=0;
