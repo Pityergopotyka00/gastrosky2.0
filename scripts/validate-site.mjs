@@ -12,6 +12,17 @@ new vm.Script(script,{filename:'index.inline.js'});
 assert.ok(script.includes('let products='),'Preview catalog fallback missing');
 assert.ok(script.includes('loadFullSupplierCatalog()'),'Bulk supplier catalog loader missing');
 assert.equal((new Set(p.map(x=>x.id))).size,p.length,'Duplicate supplier SKU IDs');
+const staged=JSON.parse(await readFile('data/modular-verified-staging.json','utf8'));
+assert.ok(Array.isArray(staged)&&staged.length>=6,'Verified Modular staging records missing');
+assert.equal(new Set(staged.map(x=>x.sku)).size,staged.length,'Repeated Modular staging SKU');
+for(const item of staged){
+ assert.equal(item.id,'modular:'+item.sku,'Invalid staged Modular SKU');
+ assert.ok(item.name&&item.description.length>=95&&Object.keys(item.specifications).length>2,'Incomplete manufacturer product information');
+ assert.equal(item.image_url,null,'Do not imply images are verified before media review');
+ assert.ok(item.source_url.startsWith('https://www.modular.it/'),'Missing official product sheet');
+ assert.ok(!p.some(x=>x.id===item.id),'A staged product was published without matching photo approval');
+}
+
 for (const x of p) {
  assert.ok(x.sku&&x.name&&x.manufacturer&&x.id);
  if(x.manufacturer==='HENDI'){
