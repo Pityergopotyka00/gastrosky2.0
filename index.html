@@ -162,7 +162,7 @@ const quoteSendButton=document.getElementById('quoteEmailButton');
 const quoteFallbackButton=document.getElementById('quoteMailtoFallback');
 const quoteFeedback=document.getElementById('quoteFeedback');
 const quoteCaptcha=document.getElementById('quoteCaptcha');
-let quoteApiEnabled=false,quoteSiteKey='';
+let quoteApiEnabled=false,quoteSiteKey='',quoteWidgetId=null;
 function quoteInputs(){
  return {
   name:document.getElementById('quoteName').value.trim(),
@@ -208,7 +208,7 @@ async function configureQuoteSender(){
   script.onerror=()=>showQuoteFallback();
   script.onload=()=>{
    if(!quoteApiEnabled||!window.turnstile){showQuoteFallback();return}
-   window.turnstile.render(quoteCaptcha,{sitekey:quoteSiteKey,theme:'light'});
+   quoteWidgetId=window.turnstile.render(quoteCaptcha,{sitekey:quoteSiteKey,theme:'light'});
   };
   document.head.append(script);
  }catch{showQuoteFallback()}
@@ -216,7 +216,7 @@ async function configureQuoteSender(){
 quoteSendButton.onclick=async()=>{
  const form=quoteInputs();if(!quoteValid(form))return;
  if(!quoteApiEnabled){composeQuoteEmail();return}
- const token=window.turnstile?.getResponse(quoteCaptcha)||'';
+ const token=quoteWidgetId!==null?window.turnstile?.getResponse(quoteWidgetId)||'':'';
  if(!token){quoteFeedback.textContent='Kérjük, teljesítsd az ellenőrzést.';return}
  quoteSendButton.disabled=true;quoteSendButton.textContent='Küldés…';
  quoteFeedback.textContent='';
@@ -227,7 +227,7 @@ quoteSendButton.onclick=async()=>{
   quoteFeedback.dataset.state='success';
   quoteFeedback.textContent='Az ajánlatkérés sikeresen elküldve. Köszönjük a megkeresést!';
   quoteIds=[];saveQuote();
-  window.turnstile?.reset(quoteCaptcha);
+  if(quoteWidgetId!==null)window.turnstile?.reset(quoteWidgetId);
  }catch(e){
   quoteFeedback.dataset.state='error';
   quoteFeedback.textContent='Nem sikerült elküldeni az ajánlatkérést. Kérjük, próbáld újra, vagy használd az e-mail alkalmazást.';
