@@ -60,7 +60,8 @@ test('Verified quote is accepted by mail provider with correct SKU and reply-to'
   const body=JSON.parse(requests[1].options.body);
   assert.equal(body.reply_to,'test@example.com');
   assert.match(body.text,/09400018/);
-  assert.deepEqual(body.to,['info@gastrosky.hu']);\n  assert.deepEqual(JSON.parse(requests[2].options.body).to,['test@example.com']);
+  assert.deepEqual(body.to,['info@gastrosky.hu']);
+  assert.deepEqual(JSON.parse(requests[2].options.body).to,['test@example.com']);
  }finally{globalThis.fetch=original}
 });
 test('Provider error never claims successful quotation delivery',async()=>{
