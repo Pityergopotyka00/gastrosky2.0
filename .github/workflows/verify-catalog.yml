@@ -10,6 +10,9 @@ on:
       - 'index.html'
       - 'data/catalog-products.json'
       - 'scripts/validate-site.mjs'
+      - 'scripts/catalog-url.mjs'
+      - 'scripts/discover-both-catalogs.mjs'
+      - 'data/catalog-discovery-state.json'
 permissions:
   contents: read
 jobs:
