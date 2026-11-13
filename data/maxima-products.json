@@ -1,0 +1,191 @@
+[
+  {
+    "id": "maxima:09400018",
+    "manufacturer": "Maxima",
+    "manufacturer_status": "verified",
+    "supplier": "Maxima",
+    "name": "Fagyasztószekrény 1200 L – 2 üvegajtó",
+    "category": "Hűtéstechnika",
+    "sku": "09400018",
+    "ean": "8720783983391",
+    "description": "1200 literes rozsdamentes acél fagyasztószekrény, két üvegajtóval, hat állítható 2/1 GN polccal, ventilációs hűtéssel.",
+    "specifications": {
+      "Űrtartalom": "1200 L",
+      "Méret": "134 × 89 × 200 cm",
+      "Teljesítmény": "700 W",
+      "Hőmérséklet": "−20 és −15 °C között"
+    },
+    "source_url": "https://maxima.com/hu/fagyasztoszekreny-1200l-6-allithato-polc-2-1-gn-rozsdamentes-acel-uvegajtoval.html",
+    "price": null,
+    "availability": null,
+    "record_status": "research_sample",
+    "source_type": "manufacturer_product_page"
+  },
+  {
+    "id": "maxima:09402310",
+    "manufacturer": "Maxima",
+    "manufacturer_status": "verified",
+    "supplier": "Maxima",
+    "name": "Fagyasztóláda 93 L – kompakt",
+    "category": "Hűtéstechnika",
+    "sku": "09402310",
+    "ean": "8719632122722",
+    "description": "Kompakt 93 literes fagyasztóláda, két kerékkel, belső akasztókosárral, fedélvilágítással és zárral.",
+    "specifications": {
+      "Űrtartalom": "93 L",
+      "Mozgatás": "2 kerék"
+    },
+    "source_url": "https://maxima.com/en/digital-deluxe-chest-freezer-horeca-freezer-93l.html",
+    "price": null,
+    "availability": null,
+    "record_status": "research_sample",
+    "source_type": "manufacturer_product_page"
+  },
+  {
+    "id": "maxima:09300490",
+    "manufacturer": "Maxima",
+    "manufacturer_status": "verified",
+    "supplier": "Maxima",
+    "name": "Hússzeletelő 22 cm-es késsel",
+    "category": "Élelmiszer-előkészítés",
+    "sku": "09300490",
+    "ean": "8719632120346",
+    "description": "Professzionális elektromos hússzeletelő 22 cm-es késsel, állítható szeletvastagsággal és beépített késélezővel.",
+    "specifications": {
+      "Késátmérő": "22 cm",
+      "Teljesítmény": "120 W",
+      "Szeletvastagság": "1–12 mm"
+    },
+    "source_url": "https://maxima.com/en/maxima-meat-slicer-ms-220.html",
+    "price": null,
+    "availability": null,
+    "record_status": "research_sample",
+    "source_type": "manufacturer_product_page"
+  },
+  {
+    "id": "maxima:09300495",
+    "manufacturer": "Maxima",
+    "manufacturer_status": "verified",
+    "supplier": "Maxima",
+    "name": "Hússzeletelő 25 cm-es késsel",
+    "category": "Élelmiszer-előkészítés",
+    "sku": "09300495",
+    "ean": "8719632120353",
+    "description": "Professzionális elektromos hússzeletelő 25 cm-es késsel, levehető vágófelülettel és késélezővel.",
+    "specifications": {
+      "Késátmérő": "25 cm",
+      "Teljesítmény": "150 W",
+      "Méret": "47,9 × 41,4 × 36,4 cm"
+    },
+    "source_url": "https://maxima.com/hu/husszeletelo-25cm-atmeroju-penge.html",
+    "price": null,
+    "availability": null,
+    "record_status": "research_sample",
+    "source_type": "manufacturer_product_page"
+  },
+  {
+    "id": "maxima:09300500",
+    "manufacturer": "Maxima",
+    "manufacturer_status": "verified",
+    "supplier": "Maxima",
+    "name": "Hússzeletelő 30 cm-es késsel",
+    "category": "Élelmiszer-előkészítés",
+    "sku": "09300500",
+    "ean": "8719632120360",
+    "description": "Nagy méretű professzionális elektromos hússzeletelő 30 cm-es késsel.",
+    "specifications": {
+      "Késátmérő": "30 cm",
+      "Teljesítmény": "250 W",
+      "Szeletvastagság": "1–12 mm"
+    },
+    "source_url": "https://maxima.com/en/meat-slicer-30cm-diameter-blade.html",
+    "price": null,
+    "availability": null,
+    "record_status": "research_sample",
+    "source_type": "manufacturer_product_page"
+  },
+  {
+    "id": "maxima:09240050",
+    "manufacturer": "Maxima",
+    "manufacturer_status": "verified",
+    "supplier": "Maxima",
+    "sku": "09240050",
+    "ean": "8720783953295",
+    "name": "Pult alatti mosogatógép 50×50 cm – lefolyószivattyúval",
+    "category": "Mosogatástechnika",
+    "description": "Rozsdamentes kivitelű, 230 V-os ipari mosogatógép, 100 és 190 másodperces mosási programokkal.",
+    "specifications": {
+      "Kosár": "50 × 50 cm",
+      "Teljesítmény": "3560 W",
+      "Feszültség": "230 V"
+    },
+    "source_url": "https://maxima.com/hu/pult-alatti-mosogatogep-50-x-50cm-lefolyoszivattyuval-230v-1.html",
+    "price": null,
+    "availability": null,
+    "record_status": "research_sample",
+    "source_type": "manufacturer_product_page"
+  },
+  {
+    "id": "maxima:09240060",
+    "manufacturer": "Maxima",
+    "manufacturer_status": "verified",
+    "supplier": "Maxima",
+    "sku": "09240060",
+    "ean": "8720783953301",
+    "name": "Pult alatti mosogatógép 50×50 cm – öblítőszivattyúval",
+    "category": "Mosogatástechnika",
+    "description": "400 V-os ipari mosogatógép két mosási programmal és öblítőszivattyúval.",
+    "specifications": {
+      "Kosár": "50 × 50 cm",
+      "Teljesítmény": "5560 W",
+      "Feszültség": "400 V"
+    },
+    "source_url": "https://maxima.com/hu/pult-alatti-mosogatogep-50-x-50cm-oblitoszivattyuval-400v-1.html",
+    "price": null,
+    "availability": null,
+    "record_status": "research_sample",
+    "source_type": "manufacturer_product_page"
+  },
+  {
+    "id": "maxima:09211005",
+    "manufacturer": "Maxima",
+    "manufacturer_status": "verified",
+    "supplier": "Maxima",
+    "sku": "09211005",
+    "ean": "8720783938797",
+    "name": "Pult alatti mosogatógép digitális kijelzővel 50×50 cm",
+    "category": "Mosogatástechnika",
+    "description": "Digitális kijelzős, 400 V-os ipari mosogatógép 55, 105 és 195 másodperces programokkal.",
+    "specifications": {
+      "Kosár": "50 × 50 cm",
+      "Teljesítmény": "5500 W",
+      "Feszültség": "400 V"
+    },
+    "source_url": "https://maxima.com/hu/pult-alatti-mosogatogep-50-x-50cm-oblitoszivattyuval-digitalis-kijelzo-400v.html",
+    "price": null,
+    "availability": null,
+    "record_status": "research_sample",
+    "source_type": "manufacturer_product_page"
+  },
+  {
+    "id": "maxima:09211006",
+    "manufacturer": "Maxima",
+    "manufacturer_status": "verified",
+    "supplier": "Maxima",
+    "sku": "09211006",
+    "ean": "8720783938810",
+    "name": "Pult alatti mosogatógép digitális kijelzővel – 230 V",
+    "category": "Mosogatástechnika",
+    "description": "Digitális, 230 V-os ipari mosogatógép lefolyó-, szappan- és öblítőszivattyúval.",
+    "specifications": {
+      "Kosár": "50 × 50 cm",
+      "Teljesítmény": "3600 W",
+      "Feszültség": "230 V"
+    },
+    "source_url": "https://maxima.com/hu/pult-alatti-mosogatogep-50-x-50cm-lefolyoval-oblitovel-es-szappanszivattyuval-digitalis-kijelzo-230v.html",
+    "price": null,
+    "availability": null,
+    "record_status": "research_sample",
+    "source_type": "manufacturer_product_page"
+  }
+]
