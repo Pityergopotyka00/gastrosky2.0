@@ -26,4 +26,6 @@ assert.ok(monitorScript,'Missing stock monitor script');
 new vm.Script(monitorScript,{filename:'stock-monitor.inline.js'});
 assert.ok(html.includes('stock-monitor.html'),'Stock monitor navigation missing');
 assert.ok(html.includes('id="manufacturer"'),'Manufacturer filter missing');
+assert.ok(script.includes("badge.hidden=kind==='unknown'"),'Unknown-stock badges must remain hidden');
+assert.ok(html.includes('id="statusHint"'),'Inventory explanation missing');
 console.log('Stock monitor JavaScript compiled');
