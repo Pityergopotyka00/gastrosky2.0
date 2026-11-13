@@ -10,7 +10,8 @@ const allowed={
  Aristarco:['aristarco.it'],Fagor:['fagorprofessional.com'],
  Modular:['modular.it','thenicekitchen.com'],Coldline:['coldline.it'],
  Krupps:['krupps.com'],HENDI:['hendi.eu','hendi.xcdn.nl'],
- Maxima:['maxima.com'],\n 'Sistema Project Italia':['projectsystems.it'],Tecnodom:['tecnodomspa.com']
+ Maxima:['maxima.com'],
+ 'Sistema Project Italia':['projectsystems.it'],Tecnodom:['tecnodomspa.com']
 };
 const delay=ms=>new Promise(resolve=>setTimeout(resolve,ms));
 const norm=s=>String(s||'').normalize('NFKC').replace(/[\s\u00a0]+/g,' ').toUpperCase().trim();
@@ -127,7 +128,11 @@ async function officialRangePhoto($,url,p){
 
 let filled=0,missed=[],byBrand={};const MAX=Number(process.env.PHOTO_CHECK_LIMIT||200);
 let attempted=0;
-const queue=products.filter(p=>!p.image_url).sort((a,b)=>{\n const priority=p=>p.manufacturer==='Tecnodom'?0:p.manufacturer==='Sistema Project Italia'?1:p.manufacturer==='Coldline'?2:p.manufacturer==='Krupps'?3:p.manufacturer==='Maxima'?4:p.manufacturer==='Modular'&&p.record_status!=='official_model_index_only'?5:6;\n return priority(a)-priority(b);\n});\nfor(const p of queue){
+const queue=products.filter(p=>!p.image_url).sort((a,b)=>{
+ const priority=p=>p.manufacturer==='Tecnodom'?0:p.manufacturer==='Sistema Project Italia'?1:p.manufacturer==='Coldline'?2:p.manufacturer==='Krupps'?3:p.manufacturer==='Maxima'?4:p.manufacturer==='Modular'&&p.record_status!=='official_model_index_only'?5:6;
+ return priority(a)-priority(b);
+});
+for(const p of queue){
  if(p.image_url)continue;
  if(attempted++>=MAX){missed.push({id:p.id,reason:'run_limit'});continue}
  const brand=p.manufacturer,src=p.source_url;
