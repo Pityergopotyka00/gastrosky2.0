@@ -2039,13 +2039,13 @@
       "Gázcsatlakozás": "1/2″"
     },
     "source_url": "https://www.modular.it/coldline/product/print/68428?language=en",
-    "image_url": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17063__product-thumbnail/MP01372111002_Fun_600_Fry_top_gas_piastra_liscia_cromata_modulo_30_mod.png",
     "source_type": "manufacturer_product_sheet",
     "record_status": "published_model_data",
     "price": null,
     "availability": null,
-    "image_source": "awaiting_verified_manufacturer_photo",
-    "photo_status": "product_photo_pending",
+    "image_source": "official_manufacturer_exact_model",
+    "photo_status": "official_manufacturer_product_photo",
     "publication_status": "public_product_details"
   },
   {
@@ -2236,9 +2236,9 @@
     "availability": null,
     "record_status": "manufacturer_reference_requires_reseller_approval",
     "source_type": "manufacturer_product_reference",
-    "image_url": null,
-    "image_source": "pending_supplier_media",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__1778__product-thumbnail/W81420212001_abbattitore_a_carrello_VISION_INDUSTRY.png",
+    "image_source": "official_manufacturer_exact_model",
+    "photo_status": "official_manufacturer_product_photo",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -2886,9 +2886,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": "https://aldiwaninternational.com/uploads/products/1761639547_AR%202500%20EDX%20V400.webp",
-    "image_source": "manufacturer_family_reference_photo",
-    "photo_status": "illustrative_family_only_not_exact_model",
+    "image_url": "https://www.aristarco.it/wp-content/uploads/2026/07/TAU-2000-AR-2000-scaled-lbox-800x650-fff.jpg",
+    "image_source": "official_manufacturer_exact_model",
+    "photo_status": "official_manufacturer_product_photo",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -2910,9 +2910,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": "https://aldiwaninternational.com/uploads/products/1761639547_AR%202500%20EDX%20V400.webp",
-    "image_source": "manufacturer_previous_code_photo",
-    "photo_status": "model_predecessor_reference_unverified_external_link",
+    "image_url": "https://www.aristarco.it/wp-content/uploads/2026/07/TAU-2500-AR-2500-scaled-lbox-800x650-fff.jpg",
+    "image_source": "official_manufacturer_exact_model",
+    "photo_status": "official_manufacturer_product_photo",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -3006,9 +3006,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": "https://www.aristarco.it/wp-content/uploads/2018/10/AR-3500-lbox-800x650-fff.jpg",
-    "image_source": "manufacturer_family_reference_photo",
-    "photo_status": "illustrative_family_only_not_exact_model",
+    "image_url": "https://www.aristarco.it/wp-content/uploads/2026/07/TAU-R-4000-ARR-4000-scaled-lbox-800x650-fff.jpg",
+    "image_source": "official_manufacturer_exact_model",
+    "photo_status": "official_manufacturer_product_photo",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -3030,9 +3030,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": "https://www.gastromarket.sk/web/image/product.template/46054/image_1920?unique=c01f5ee",
-    "image_source": "manufacturer_previous_code_photo",
-    "photo_status": "model_predecessor_reference_unverified_external_link",
+    "image_url": "https://www.aristarco.it/wp-content/uploads/2026/07/CEN-3500-AFX-3500-scaled-lbox-800x650-fff.jpg",
+    "image_source": "official_manufacturer_exact_model",
+    "photo_status": "official_manufacturer_product_photo",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -3078,9 +3078,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": "https://www.aristarco.it/wp-content/uploads/2020/06/6000-lbox-800x650-fff.png",
-    "image_source": "manufacturer_family_reference_photo",
-    "photo_status": "illustrative_family_only_not_exact_model",
+    "image_url": "https://www.aristarco.it/wp-content/uploads/2026/07/CEN-5000-AFX-5000-scaled-lbox-800x650-fff.jpg",
+    "image_source": "official_manufacturer_exact_model",
+    "photo_status": "official_manufacturer_product_photo",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -3126,9 +3126,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": "https://www.aristarco.it/wp-content/uploads/2020/06/6000-lbox-800x650-fff.png",
-    "image_source": "manufacturer_family_reference_photo",
-    "photo_status": "illustrative_family_only_not_exact_model",
+    "image_url": "https://www.aristarco.it/wp-content/uploads/2026/07/CEN-8000-AFX-8000-scaled-lbox-800x650-fff.jpg",
+    "image_source": "official_manufacturer_exact_model",
+    "photo_status": "official_manufacturer_product_photo",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -3582,9 +3582,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": "https://bizweb.dktcdn.net/100/176/486/products/cp37-45-50-ari-d6683809-1289-4bf4-a730-b660ad683413.jpg?v=1502510525723",
-    "image_source": "manufacturer_family_reference_photo",
-    "photo_status": "illustrative_family_only_not_exact_model",
+    "image_url": "https://www.aristarco.it/wp-content/uploads/2026/07/PHE-140.70-CP-CS-135.75-lbox-800x650-fff.jpeg",
+    "image_source": "official_manufacturer_exact_model",
+    "photo_status": "official_manufacturer_product_photo",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
