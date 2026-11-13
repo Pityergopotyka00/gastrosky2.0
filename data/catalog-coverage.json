@@ -1,7 +1,7 @@
 {
   "target_per_supplier": 50,
   "target_total": 400,
-  "current_total": 498,
+  "current_total": 508,
   "counts": {
     "Maxima": {
       "products": 16,
@@ -18,8 +18,8 @@
       "missing_to_target": 0
     },
     "Fagor": {
-      "products": 201,
-      "verified_products": 201,
+      "products": 211,
+      "verified_products": 211,
       "model_only": 0,
       "with_photo_url": 19,
       "missing_to_target": 0
