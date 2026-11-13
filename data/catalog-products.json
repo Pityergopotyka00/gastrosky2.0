@@ -7234,29 +7234,6 @@
     "publication_status": "verified_model_photo_pending"
   },
   {
-    "id": "gastrohaal:275",
-    "manufacturer": "Gastro Haal",
-    "manufacturer_status": "official_product_page",
-    "supplier": "GASTRO-HAAL s.r.o.",
-    "sku": "275",
-    "model": "VAZELINA 100G",
-    "name": "Gastro Haal – VAZELINA 100G Vazelin a leeresztő csaphoz VAZELINA 100G",
-    "category": "Gastro Haal – Főzőüstök",
-    "description": "VAZELINA 100G - Vazelína na výtokový ventil - Potravinárska vazelína",
-    "specifications": {
-      "Főcsoport": "Főzőüstök"
-    },
-    "source_url": "https://gastrohaal.sk/hu/termekek/59_fozoustok/fozoust-tartozekok/vazelin-a-leereszto-csaphoz/275_vazelina-100g-vazelin-a-leereszto-csaphoz",
-    "source_type": "official_manufacturer_product_page",
-    "record_status": "manufacturer_page_and_photo_verified",
-    "image_url": "https://gastrohaal.sk/userfiles/products/thumb/Vazel%C3%ADna%201.png",
-    "image_source": "official_manufacturer_product_page",
-    "photo_status": "verified_url_display_permission_to_confirm",
-    "price": null,
-    "availability": null,
-    "stock_source_status": "unknown"
-  },
-  {
     "id": "gastrohaal:278",
     "manufacturer": "Gastro Haal",
     "manufacturer_status": "official_product_page",
@@ -7282,32 +7259,6 @@
     "source_type": "official_manufacturer_product_page",
     "record_status": "manufacturer_page_and_photo_verified",
     "image_url": "https://gastrohaal.sk/userfiles/products/thumb/XL_new_1_svetle_orez.jpg",
-    "image_source": "official_manufacturer_product_page",
-    "photo_status": "verified_url_display_permission_to_confirm",
-    "price": null,
-    "availability": null,
-    "stock_source_status": "unknown"
-  },
-  {
-    "id": "gastrohaal:285",
-    "manufacturer": "Gastro Haal",
-    "manufacturer_status": "official_product_page",
-    "supplier": "GASTRO-HAAL s.r.o.",
-    "sku": "285",
-    "model": "PB420-STD/GP",
-    "name": "Gastro Haal – PB420-STD/GP Elemtöltő PB420-STD/GP",
-    "category": "Gastro Haal – Fertőtlenítés és kamera terminál",
-    "description": "Gastro Haal professzionális berendezés a gyártó hivatalos katalógusából. A részleteket a modell adatlapja tartalmazza.",
-    "specifications": {
-      "Főcsoport": "Fertőtlenítés és kamera terminál",
-      "elem mérete": "AA,AAA",
-      "csomagolásban": "1",
-      "Elemtípus": "Ni-MH"
-    },
-    "source_url": "https://gastrohaal.sk/hu/termekek/64_automata-fertotlenito-adagolo/tartozekok-kezfertotlenito-adagolo/285_pb420-std-gp-elemtolto",
-    "source_type": "official_manufacturer_product_page",
-    "record_status": "manufacturer_page_and_photo_verified",
-    "image_url": "https://gastrohaal.sk/userfiles/products/thumb/nabijacka_na_baterie.jpg",
     "image_source": "official_manufacturer_product_page",
     "photo_status": "verified_url_display_permission_to_confirm",
     "price": null,
