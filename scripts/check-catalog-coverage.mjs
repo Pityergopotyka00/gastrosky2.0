@@ -2,7 +2,7 @@
 import {readFile,writeFile} from 'node:fs/promises';
 const catalog=JSON.parse(await readFile('data/catalog-products.json','utf8'));
 const goal=50;
-const brands=['Maxima','HENDI','Fagor','Modular','Coldline','Krupps','Aristarco','Sistema Project Italia'];
+const brands=['Maxima','HENDI','Fagor','Modular','Coldline','Krupps','Aristarco','Sistema Project Italia','Tecnodom'];
 const counts=Object.fromEntries(brands.map(name=>[name,{products:0,verified_products:0,model_only:0,with_photo_url:0,missing_to_target:goal}]));
 const seen=new Set();
 const issues=[];
@@ -12,7 +12,7 @@ for(const p of catalog){
   seen.add(p.id);
   const entry=counts[p.manufacturer];
   entry.products++;
-  if(p.record_status==='official_model_index_only')entry.model_only++;
+  if(p.record_status==='official_model_index_only'||p.record_status==='official_product_family_listing')entry.model_only++;
   else entry.verified_products++;
   if(p.image_url && /^https:\/\//.test(p.image_url))entry.with_photo_url++;
 }
