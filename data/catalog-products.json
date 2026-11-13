@@ -252,8 +252,8 @@
     "availability": null,
     "record_status": "research_sample",
     "source_type": "manufacturer_product_page",
-    "image_url": null,
-    "image_source": "not_verified",
+    "image_url": "https://hendi.xcdn.nl/RM700%2C700/-/239421_02.jpg",
+    "image_source": "hendi_official_product_media",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -371,8 +371,8 @@
     "availability": null,
     "record_status": "research_sample",
     "source_type": "manufacturer_product_page",
-    "image_url": null,
-    "image_source": "not_verified",
+    "image_url": "https://hendi.xcdn.nl/RM700%2C700/-/470909.jpg",
+    "image_source": "hendi_official_product_media",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
