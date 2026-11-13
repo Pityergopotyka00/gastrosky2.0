@@ -3414,9 +3414,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://www.ventus.com.gr/thumbnails/33/1/fplrg_400/resize/0/255.255.255/800x800/webp/1746190204_0_CP-30.12.jpg",
+    "image_source": "matching_retailer_product_photo",
+    "photo_status": "manufacturer_model_equivalent_photo_requires_rights_review",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
