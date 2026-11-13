@@ -20,3 +20,11 @@ for (const x of p) {
 assert.ok(html.includes('Ajánlatkéréshez adom'),'Quote add button not installed');
 assert.ok(html.includes('quotePanel'),'Quote dialog absent');
 console.log('Validated inline JS and '+p.length+' supplier products');
+
+const monitor=await readFile('stock-monitor.html','utf8');
+const monitorScript=monitor.match(/<script>([\s\S]*?)<\/script>/i)?.[1];
+assert.ok(monitorScript,'Missing stock monitor script');
+new vm.Script(monitorScript,{filename:'stock-monitor.inline.js'});
+assert.ok(html.includes('stock-monitor.html'),'Stock monitor navigation missing');
+assert.ok(html.includes('id="manufacturer"'),'Manufacturer filter missing');
+console.log('Stock monitor JavaScript compiled');
