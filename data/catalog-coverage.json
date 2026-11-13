@@ -1,20 +1,67 @@
 {
-  "target_per_supplier": 250,
-  "target_total": 500,
-  "current_total": 72,
+  "target_per_supplier": 50,
+  "target_total": 400,
+  "current_total": 498,
   "counts": {
     "Maxima": {
-      "products": 15,
+      "products": 16,
+      "verified_products": 16,
+      "model_only": 0,
       "with_photo_url": 15,
-      "missing_to_target": 235
+      "missing_to_target": 34
     },
     "HENDI": {
       "products": 57,
+      "verified_products": 57,
+      "model_only": 0,
       "with_photo_url": 57,
-      "missing_to_target": 193
+      "missing_to_target": 0
+    },
+    "Fagor": {
+      "products": 201,
+      "verified_products": 201,
+      "model_only": 0,
+      "with_photo_url": 19,
+      "missing_to_target": 0
+    },
+    "Modular": {
+      "products": 82,
+      "verified_products": 18,
+      "model_only": 64,
+      "with_photo_url": 6,
+      "missing_to_target": 0
+    },
+    "Coldline": {
+      "products": 17,
+      "verified_products": 17,
+      "model_only": 0,
+      "with_photo_url": 3,
+      "missing_to_target": 33
+    },
+    "Krupps": {
+      "products": 17,
+      "verified_products": 17,
+      "model_only": 0,
+      "with_photo_url": 2,
+      "missing_to_target": 33
+    },
+    "Aristarco": {
+      "products": 74,
+      "verified_products": 74,
+      "model_only": 0,
+      "with_photo_url": 74,
+      "missing_to_target": 0
+    },
+    "Sistema Project Italia": {
+      "products": 34,
+      "verified_products": 34,
+      "model_only": 0,
+      "with_photo_url": 0,
+      "missing_to_target": 16
     }
   },
   "complete": false,
-  "notes": "Photo URLs are not proof of successful image delivery. Run the separate image audit.",
+  "all_entries_have_photos": false,
+  "notes": "Model-only entries are official model identifiers awaiting product-level SKU/spec/photo verification. Photo URL presence does not guarantee a working image or display rights.",
   "issues": []
 }
