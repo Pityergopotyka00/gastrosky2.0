@@ -1,6 +1,6 @@
 {
-  // Temporary deploy configuration: live inventory is NOT enabled.
-  // Add the D1 binding after creating the database in Cloudflare.
+  // On-demand supplier page verification only. No scheduled bulk crawling.
+  // Unknown or inaccessible supplier inventory is never reported as available.
   "name": "gastrosky2-0",
   "main": "worker/index.js",
   "assets": {
