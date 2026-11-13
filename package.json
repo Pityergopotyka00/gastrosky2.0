@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "vite build",
-    "import:existing": "node scripts/import-existing.mjs"
+    "build": "vite build && node scripts/copy-static.mjs",
+    "import:existing": "node scripts/import-existing.mjs",
+    "media:maxima": "node scripts/fetch-maxima-media.mjs"
   },
   "dependencies": {
     "cheerio": "^1.0.0",
