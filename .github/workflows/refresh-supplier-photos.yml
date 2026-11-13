@@ -1,0 +1,24 @@
+name: Refresh supplier photos
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/refresh-supplier-photos.yml'
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Discover missing official product pictures
+        run: node scripts/fetch-all-supplier-media.mjs
+      - name: Commit verified links
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/catalog-products.json index.html
+          git diff --cached --quiet || (git commit -m "Update verified supplier images" && git push)
