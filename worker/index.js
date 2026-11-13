@@ -64,6 +64,7 @@ export default {
       return json({enabled:true,items:rows.results||[]});
     }
     if(url.pathname === '/api/health') return json({ok:true,mode:'prototype',stock_sync_enabled:env.ENABLE_STOCK_SYNC === 'true'});
+    if(env.ASSETS)return env.ASSETS.fetch(req);
     return new Response('Not found',{status:404});
   },
   async scheduled(controller,env,ctx){
