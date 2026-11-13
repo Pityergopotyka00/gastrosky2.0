@@ -27,6 +27,10 @@ jobs:
         run: node scripts/check-public-supplier-stock.mjs
         env:
           PUBLIC_CHECK_LIMIT: '20'
+      - name: Summarize stock-check results
+        if: always()
+        run: |
+          node --input-type=module -e "import fs from 'node:fs';const s=JSON.parse(fs.readFileSync('data/supplier-stock-snapshot.json','utf8'));const values=Object.values(s);const verified=values.filter(x=>['in_stock','low_stock','out_of_stock'].includes(x.kind)).length;const reasons=Object.entries(values.reduce((a,v)=>(a[v.reason||'verified']=(a[v.reason||'verified']||0)+1,a),{}));console.log(JSON.stringify({records:values.length,verified,reasons},null,2))"
       - name: Commit public status evidence for worker snapshot
         run: |
           git config user.name "github-actions[bot]"
