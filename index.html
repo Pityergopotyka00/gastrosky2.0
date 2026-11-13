@@ -450,10 +450,30 @@ function composeQuoteEmail(){
 quoteFallbackButton.onclick=composeQuoteEmail;
 function showQuoteFallback(note){
  quoteApiEnabled=false;
- quoteSendButton.hidden=true;
- quoteFallbackButton.hidden=false;
+ quoteSendButton.hidden=false;
+ quoteFallbackButton.hidden=true;
+ quoteCaptcha.replaceChildren();
  quoteFeedback.dataset.state='';
- quoteFeedback.textContent=note||'Ingyenes e-mailes ajánlatkérés: a gomb megnyitja a leveleződet az előre kitöltött üzenettel. A levelet ott neked kell elküldened.';
+ quoteFeedback.textContent=note||'Az ajánlatkérést közvetlenül a weboldalról küldheted el, levelezőprogram megnyitása nélkül. A funkcióhoz a címzett e-mail-címének egyszeri megerősítése szükséges.';
+}
+async function sendViaFreeFormService(form){
+ if(form.companyWebsite)return false;
+ const lines=form.items.map(id=>{const p=products.find(p=>p.id===id);return p?p.manufacturer+' – '+p.name+' (SKU: '+p.sku+')':''}).filter(Boolean);
+ const payload={
+  name:form.name,email:form.email,
+  _subject:'GastroSky ajánlatkérés – '+form.items.length+' termék',
+  _template:'table',
+  _honey:form.companyWebsite,
+  message:'Termékek:\\n'+lines.join('\\n')+'\\n\\nÜzenet:\\n'+form.message
+ };
+ const response=await fetch('https://formsubmit.co/ajax/info@gastrosky.hu',{
+  method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},
+  body:JSON.stringify(payload)
+ });
+ if(!response.ok)throw Error('free_form_service_unavailable');
+ const result=await response.json();
+ if(result.success===false||result.success==='false')throw Error(result.message||'form_rejected');
+ return true;
 }
 async function configureQuoteSender(){
  try{
@@ -477,7 +497,23 @@ async function configureQuoteSender(){
 }
 quoteSendButton.onclick=async()=>{
  const form=quoteInputs();if(!quoteValid(form))return;
- if(!quoteApiEnabled){composeQuoteEmail();return}
+ if(!quoteApiEnabled){
+  quoteSendButton.disabled=true;quoteSendButton.textContent='Küldés…';
+  quoteFeedback.textContent='';
+  try{
+   await sendViaFreeFormService(form);
+   quoteFeedback.dataset.state='success';
+   quoteFeedback.textContent='Az ajánlatkérést átadtuk az e-mail szolgáltatónak. Az első küldés után az info@gastrosky.hu cím tulajdonosának aktiválnia kell a szolgáltatást a kapott e-mailben. A kézbesítés addig nem garantált.';
+   // Keep the selected products until the recipient confirms activation and delivery.
+  }catch(e){
+   quoteFeedback.dataset.state='error';
+   quoteFeedback.textContent='A közvetlen elküldés most nem sikerült. Választhatod az e-mail alkalmazást is.';
+   quoteFallbackButton.hidden=false;
+  }finally{
+   quoteSendButton.disabled=false;quoteSendButton.textContent='Ajánlatkérés elküldése';
+  }
+  return;
+ }
  const token=quoteWidgetId!==null?window.turnstile?.getResponse(quoteWidgetId)||'':'';
  if(!token){quoteFeedback.textContent='Kérjük, teljesítsd az ellenőrzést.';return}
  quoteSendButton.disabled=true;quoteSendButton.textContent='Küldés…';
@@ -492,7 +528,7 @@ quoteSendButton.onclick=async()=>{
   if(quoteWidgetId!==null)window.turnstile?.reset(quoteWidgetId);
  }catch(e){
   quoteFeedback.dataset.state='error';
-  quoteFeedback.textContent='Nem sikerült elküldeni az ajánlatkérést. Kérjük, próbáld újra, vagy használd az e-mail alkalmazást.';
+  quoteFeedback.textContent='A küldés nem sikerült. Kérjük, próbáld újra, vagy használd az e-mail alkalmazást.';
   quoteFallbackButton.hidden=false;
   window.turnstile?.reset(quoteCaptcha);
  }finally{
