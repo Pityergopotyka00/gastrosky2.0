@@ -156,6 +156,112 @@ body{background:linear-gradient(#f3f5f8,#f8f9fb 560px)}
 @media(max-width:800px){#detail{max-height:95dvh;border-radius:17px}.gs-detail-shell{grid-template-columns:1fr}.gs-detail-visual{border-right:0;border-bottom:1px solid #e8edf2;padding:16px 24px;min-height:0}.gs-detail-image-frame{min-height:190px;aspect-ratio:1.7/1}.gs-detail-image{max-height:240px}.gs-detail-content{padding:21px 24px 28px}#detailName{padding:20px 24px 18px!important}}
 @media(max-width:480px){#detail .detail-dialog-top{padding:12px 17px}.gs-detail-visual{padding:13px 16px}.gs-detail-content{padding:17px 16px 24px;gap:13px}.gs-detail-spec-grid{grid-template-columns:1fr 1fr}.gs-detail-conversion{align-items:stretch;flex-direction:column}.gs-detail-primary{width:100%;font-size:13px}.gs-detail-image-frame{min-height:180px}.gs-detail-picture-note{margin:9px}}
 @media(prefers-reduced-motion:reduce){.gs-detail-primary{transition:none}}
+</style><style>
+/* GastroSky 2.0 · unified editorial storefront redesign */
+:root{--gs-bg:#f5f7fa;--gs-ink:#14273d;--gs-night:#0d1e32;--gs-amber:#d9ae64;--gs-gray:#61738a;--gs-stroke:#e5eaf1}
+html{scroll-padding-top:105px}body{background:var(--gs-bg);color:var(--gs-ink);-webkit-font-smoothing:antialiased}
+.gs-topline{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:9px max(5%,calc((100vw - 1320px)/2));background:#0a1725;color:#b9c8d7;font-size:10px;font-weight:800;letter-spacing:1.25px}
+.gs-topline a{color:#d5b67c;text-decoration:none;font-size:11px;letter-spacing:.1px}.gs-topline-dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:#d6af6c;vertical-align:middle;margin-right:6px}
+header.gs-header{background:rgba(13,30,49,.97);border-bottom:1px solid #ffffff19;box-shadow:0 10px 35px #0b19273d;padding:0 max(3%,calc((100vw - 1390px)/2));backdrop-filter:blur(15px);position:sticky;top:0;z-index:30}
+.gs-header-inner{max-width:1320px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:32px;min-height:84px}
+.gs-brand{text-decoration:none;min-width:0;display:flex;align-items:center;gap:13px}.gs-brand .real-logo{height:54px;max-width:105px;object-fit:contain}
+.gs-brand strong{font-size:18px;color:#f4f7fa;letter-spacing:2px;font-weight:900;display:block;line-height:1.25}
+.gs-brand small{font-size:10px;letter-spacing:.45px;color:#b8cad9}
+.gs-header nav{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+.gs-header nav>a{color:#c5d2df;font-size:12px;font-weight:750;padding:12px 14px;border-radius:11px;text-decoration:none;white-space:nowrap;transition:.2s}
+.gs-header nav>a:hover{color:#fff;background:#ffffff18}
+.gs-header .quote-nav{font-size:12px;padding:12px 16px;background:#ddad57;color:#102237;border-radius:12px;display:flex;align-items:center;gap:13px;font-weight:850;box-shadow:0 8px 16px #0002}
+.gs-header .quote-nav:hover{background:#edc376}
+.gs-quote-count{background:#102840;color:#fff;border-radius:8px;padding:3px 7px;min-width:24px;text-align:center;font-size:11px}
+.hero.gs-hero{background:radial-gradient(circle at 90% 16%,#a97b3924,transparent 32%),radial-gradient(circle at 24% 80%,#3a63852b,transparent 40%),linear-gradient(128deg,#0c1c2e,#1b344e);color:#fff;padding:72px 6% 92px;min-height:0;position:relative;overflow:hidden}
+.gs-hero:before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.16;background-image:linear-gradient(#ffffff12 1px,transparent 1px),linear-gradient(90deg,#ffffff12 1px,transparent 1px);background-size:85px 85px;mask-image:linear-gradient(90deg,transparent,#000)}
+.gs-hero-inner{max-width:1320px;margin:auto;display:grid;grid-template-columns:minmax(0,1.06fr) minmax(0,.94fr);align-items:center;gap:5%;position:relative;z-index:1}
+.gs-hero-copy{padding:12px 0}.gs-hero .eyebrow{display:inline-flex;gap:10px;align-items:center;color:#e3bc79;letter-spacing:2.3px;font-size:11px}
+.gs-spark{width:9px;height:9px;display:inline-block;background:#e4b86c;transform:rotate(45deg);border-radius:2px;box-shadow:0 0 17px #e4b86c7c}
+.gs-hero h1{margin:24px 0 22px;font-size:clamp(42px,4.4vw,72px);line-height:1.04;letter-spacing:-2.7px;max-width:790px;color:#fff;font-weight:900}
+.gs-hero h1 em{font-style:normal;color:#e4bb75}
+.gs-hero p{font-size:15px;line-height:1.9;max-width:590px;color:#c4d3e2;margin:0}
+.gs-hero-buttons{display:flex;flex-wrap:wrap;gap:12px;margin:30px 0}
+.gs-hero-primary,.gs-hero-secondary{display:inline-flex;align-items:center;justify-content:center;gap:22px;min-height:49px;padding:14px 22px;text-decoration:none;border-radius:12px;font-size:12px;font-weight:850;transition:transform .2s,background .2s}
+.gs-hero-primary{background:#dfb365;color:#102234;box-shadow:0 10px 27px #0002}
+.gs-hero-primary:hover{background:#f1ca82;transform:translateY(-2px)}
+.gs-hero-secondary{border:1px solid #ffffff42;color:#edf4fc;background:#ffffff0c}.gs-hero-secondary:hover{background:#ffffff20}
+.gs-hero .hero-features{display:flex;gap:8px;flex-wrap:wrap;margin-top:28px}
+.gs-hero .hero-features span{border:0;border-radius:6px;color:#b8cadc;font-size:11px;padding:6px 10px 6px 0;background:transparent}
+.gs-hero .hero-features b{color:#e0b977;margin-right:6px}
+.gs-hero-showcase{border:1px solid #ffffff30;border-radius:24px;padding:19px;background:linear-gradient(130deg,#ffffff19,#ffffff07);box-shadow:0 26px 90px #0004;backdrop-filter:blur(13px);transform:rotate(1deg)}
+.gs-showcase-label{display:flex;justify-content:space-between;color:#f4e7ce;font-size:10px;letter-spacing:2px;font-weight:850;padding:7px 7px 17px}
+.gs-showcase-label span{font-size:17px;color:#e2b770}
+.gs-showcase-photos{display:grid;grid-template-columns:1.08fr .92fr;gap:10px;align-items:stretch}
+.gs-showcase-photo{min-width:0;min-height:280px;background:#fff;border-radius:16px;overflow:hidden;position:relative;display:flex;align-items:center;justify-content:center}
+.gs-showcase-photo img{width:100%;height:250px;object-fit:contain;padding:19px;display:block}
+.gs-showcase-photo span{position:absolute;bottom:12px;left:12px;right:12px;background:#112539eb;border:1px solid #ffffff26;color:#fff;border-radius:8px;padding:9px 10px;font-size:10px;font-weight:750}
+.gs-showcase-side{transform:translateY(12px)}.gs-showcase-bottom{display:flex;justify-content:space-between;gap:10px;align-items:center;color:#d7e2ed;font-size:10px;padding:23px 6px 4px}
+.gs-showcase-bottom span:first-child{font-size:13px;font-weight:900;letter-spacing:1px;color:#f7f3ea}.gs-showcase-bottom i{color:#cca25a;font-style:normal;margin:0 5px}
+.gs-intro-strip{background:#fff;border-bottom:1px solid #e6eaf0;box-shadow:0 12px 24px #16253b06}
+.gs-intro-inner{max-width:1320px;margin:auto;padding:24px 22px;display:flex;gap:30px;align-items:center;justify-content:space-between}
+.gs-intro-label,.gs-section-kicker{font-size:10px;letter-spacing:2px;font-weight:900;color:#a3772f}
+.gs-intro-brand{display:flex;flex-direction:column;gap:5px;border-left:1px solid #e4e8ef;padding-left:25px}
+.gs-intro-brand strong{color:#182e45;font-size:18px;letter-spacing:1px}.gs-intro-brand span{color:#738398;font-size:10px}
+.gs-intro-inner>a{font-size:12px;color:#18344e;text-decoration:none;font-weight:800;white-space:nowrap}.gs-intro-inner>a:hover{text-decoration:underline}
+.shell.gs-catalog-shell{max-width:1360px;margin:40px auto 35px;padding:0 22px}
+.gs-catalog-shell .notice{border:1px solid #e8e9e8;border-left:3px solid #d7a856;border-radius:13px;color:#697989;background:#fff;box-shadow:0 8px 20px #0d213a07;margin:0 0 34px;padding:17px 21px;line-height:1.6}
+.gs-catalog-heading{align-items:flex-end;gap:14px;margin-bottom:5px}
+.gs-catalog-heading h2{font-size:clamp(27px,3.1vw,40px);letter-spacing:-1.3px;margin:12px 0 9px;font-weight:850;color:#132a41}
+.gs-catalog-heading p{font-size:13px;color:#708198;max-width:540px;line-height:1.7;margin:0}
+#count{background:#fff;border:1px solid #e6eaf0;padding:10px 14px;border-radius:10px;color:#465f78;font-size:12px;white-space:nowrap}
+#statusHint{color:#8795a4;font-size:11px;margin-top:16px}
+.tools{border:1px solid #e6ebf2;border-radius:15px;background:#fff;padding:12px;box-shadow:0 9px 24px #1025390a;gap:10px;position:sticky;top:91px;z-index:10;margin:20px 0 24px}
+.tools input,.tools select{border-radius:10px;box-shadow:none;background:#f9fafc;border:1px solid #e1e7ef;min-height:49px;color:#283b52;font-size:12px}
+.tools input::placeholder{color:#8698aa}.tools input:focus,.tools select:focus{outline:2px solid #d6b476;outline-offset:1px}
+.grid{grid-template-columns:repeat(auto-fill,minmax(255px,1fr));gap:19px;margin:24px 0 30px}
+.product{border:1px solid #e7eaf0;border-radius:19px;background:#fff;box-shadow:0 8px 28px #142c4510;transition:transform .2s,box-shadow .2s,border-color .2s}
+.product:hover{transform:translateY(-5px);box-shadow:0 22px 44px #1024381a;border-color:#ddc599}
+.illustration{height:235px;min-height:235px;max-height:235px;background:linear-gradient(#fff,#f7f9fc);border-bottom:1px solid #e8edf3}
+.illustration .product-photo{padding:20px;background:transparent;object-fit:contain}
+.details{padding:21px;gap:5px}.details .category{color:#a77b35;font-size:10px;letter-spacing:1.3px}
+.details h3{font-size:17px;line-height:1.36;letter-spacing:-.25px;color:#132a41;font-weight:800}
+.details p.muted{font-size:11px;color:#8493a4}
+.details .product-description{line-height:1.66;color:#566980;font-size:12px;min-height:5em;-webkit-line-clamp:4}
+.details .spec{line-height:1.5;font-size:11px;color:#6a7b8e;max-height:50px}
+.actions{gap:8px}.actions .button{font-size:11px;font-weight:850;min-height:43px;border-radius:11px}.actions .button:not(.quote-add){background:#e6bb6e;color:#14253a}.actions .button.quote-add{background:#142b43;color:#fff}
+.actions .button:hover{filter:none;transform:translateY(-1px)}
+#loadMore{background:#172d47;color:#fff;border-radius:12px;padding:15px 24px}
+.gs-process{padding:78px 22px 88px;background:#fff;border-top:1px solid #e6ebf1}
+.gs-process-inner{max-width:1320px;margin:auto}.gs-process h2{font-size:clamp(27px,3.2vw,41px);letter-spacing:-1.2px;margin:13px 0 30px;color:#142b42}
+.gs-process-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}
+.gs-process-grid article{padding:30px 27px;background:#f8fafc;border:1px solid #e9edf2;border-radius:19px}
+.gs-process-grid article>span{font-size:34px;letter-spacing:-1px;font-weight:900;color:#d0a65c}
+.gs-process-grid h3{font-size:19px;letter-spacing:-.4px;margin:15px 0 11px;color:#1b334b}
+.gs-process-grid p{font-size:13px;color:#697c90;line-height:1.8;margin:0}
+.gs-bottom-cta{display:flex;justify-content:space-between;gap:30px;align-items:center;background:linear-gradient(110deg,#18324d,#102438);color:#fff;padding:50px max(6%,calc((100vw - 1320px)/2));}
+.gs-bottom-cta h2{font-size:clamp(24px,3vw,38px);letter-spacing:-1px;margin:10px 0}.gs-bottom-cta p{color:#bfcfe0;margin:0;font-size:13px;line-height:1.6}
+.gs-bottom-cta .gs-section-kicker{color:#edc27d}
+.gs-footer{margin:0;background:#0b1a2b;color:#d7e3ef;padding:62px 5% 22px}
+.gs-footer-main{display:grid;grid-template-columns:1.8fr 1fr 1fr 1fr;gap:35px;max-width:1320px;margin:auto}
+.gs-footer-wordmark{text-decoration:none;font-size:24px;font-weight:950;letter-spacing:2px;color:#fff}.gs-footer-wordmark span{color:#ddb76e}
+.gs-footer-about p{max-width:280px;font-size:12px;color:#aebed0;line-height:1.9;margin:18px 0}
+.gs-footer-email{color:#ebc37b;text-decoration:none;font-weight:750;font-size:13px}
+.gs-footer-col{display:flex;flex-direction:column;gap:13px}
+.gs-footer-col h3{font-size:11px;text-transform:uppercase;letter-spacing:1.6px;color:#d4ad69;margin:5px 0}
+.gs-footer-col a,.gs-footer-col p{font-size:12px;color:#aebed0;text-decoration:none;margin:0;line-height:1.7}
+.gs-footer-col a:hover{color:#fff}
+.gs-footer-bottom{max-width:1320px;margin:47px auto 0;border-top:1px solid #ffffff18;padding:21px 0 4px;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;color:#788da3;font-size:11px}
+#quotePanel{border-radius:24px;background:#fff;max-width:560px;padding:30px;max-height:92dvh;border:1px solid #e3e9ef}
+#quotePanel h2{font-size:27px;letter-spacing:-.7px;color:#172d45;margin:0 0 6px}
+#quotePanel .muted{font-size:13px;line-height:1.7;color:#6d7e92}
+#quotePanel .quote-field{font-size:12px;color:#243c55;font-weight:850}
+#quotePanel .quote-field input,#quotePanel .quote-field textarea{border-radius:12px;border:1px solid #dde5ee;background:#f9fafc;padding:14px;font-size:13px}
+#quotePanel #quoteItems li{color:#253a51;font-size:13px;line-height:1.55}
+#quotePanel .quote-submit-actions .button{background:#142d49;color:#fff;border-radius:11px}
+#quotePanel .quote-submit-actions .button.secondary{color:#213a53;background:#e8edf3}
+#quotePanel .quote-warning{font-size:11px;color:#7c8b9c;line-height:1.6}
+#quotePanel .quote-warning a{color:#936c2e}
+dialog::backdrop{background:#071726bb;backdrop-filter:blur(4px)}
+@media(max-width:1020px){.gs-hero-inner{grid-template-columns:1fr;gap:40px}.gs-hero-showcase{max-width:710px;transform:none}.gs-hero h1{max-width:780px}.gs-footer-main{grid-template-columns:1.5fr 1fr 1fr}.gs-footer-col:last-child{grid-column:1/-1}.gs-intro-label{display:none}}
+@media(max-width:720px){.gs-topline{padding:9px 17px;font-size:9px}.gs-topline a{font-size:10px}header.gs-header{position:sticky;padding:10px 14px}.gs-header-inner{min-height:0;align-items:flex-start;flex-direction:column;gap:10px}.gs-brand .real-logo{height:38px;max-width:77px}.gs-brand strong{font-size:15px}.gs-header nav{width:100%;gap:2px;justify-content:space-between}.gs-header nav>a{font-size:10px;padding:8px}.gs-header .quote-nav{font-size:10px;padding:9px 10px}.hero.gs-hero{padding:54px 19px 65px}.gs-hero h1{font-size:clamp(35px,9vw,53px);letter-spacing:-1.8px}.gs-hero p{font-size:13px}.gs-hero-showcase{padding:12px}.gs-showcase-photo{min-height:190px}.gs-showcase-photo img{height:190px;padding:11px}.gs-showcase-photo span{font-size:9px}.gs-intro-inner{padding:19px;gap:18px;flex-wrap:wrap}.gs-intro-brand{padding-left:15px}.gs-intro-brand strong{font-size:14px}.gs-intro-brand span{max-width:150px}.gs-intro-inner>a{width:100%;font-size:11px}.shell.gs-catalog-shell{margin-top:22px;padding:0 15px}.gs-catalog-heading{align-items:flex-start;flex-direction:column}.tools{top:130px;position:static}.tools input,.tools select{width:100%;min-width:0}.grid{grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:15px}.gs-process{padding:52px 18px}.gs-process-grid{grid-template-columns:1fr}.gs-process-grid article{padding:22px}.gs-bottom-cta{padding:42px 20px;flex-direction:column;align-items:flex-start}.gs-footer{padding:47px 20px 22px}.gs-footer-main{grid-template-columns:1fr 1fr;gap:25px}.gs-footer-about{grid-column:1/-1}.gs-footer-col:last-child{grid-column:auto}}
+@media(max-width:420px){.gs-footer-main{grid-template-columns:1fr 1fr}.gs-header nav>a{font-size:9px}.gs-showcase-photo img{height:165px}.gs-showcase-photo{min-height:170px}.gs-hero-buttons a{width:100%}}
+@media(prefers-reduced-motion:reduce){.gs-hero-primary,.gs-hero-secondary,.product,.actions .button{transition:none}}
 </style></head><body>
 <div class="gs-topline"><div><span class="gs-topline-dot"></span> GASTROSKY · NAGYKONYHAI BERENDEZÉSEK</div><a href="mailto:info@gastrosky.hu">info@gastrosky.hu</a></div><header class="gs-header"><div class="gs-header-inner"><a class="brand gs-brand" href="index.html" aria-label="GastroSky főoldal"><img class="brandmark real-logo" src="https://gastrosky.hu/assets/images/logo.png" alt="GastroSky" loading="eager" referrerpolicy="no-referrer"><div><strong>GASTROSKY</strong><small>Professzionális konyhatechnika</small></div></a><nav aria-label="Fő navigáció"><a href="#termekek">Termékek</a><a href="#markak">Márkák</a><a href="#hogyan-mukodik">Hogyan működik?</a><button type="button" class="quote-nav" id="quoteOpen"><span>Ajánlatkérő lista</span> <span class="gs-quote-count" id="quoteCount">0</span></button></nav></div></header>
 <section class="hero gs-hero"><div class="gs-hero-inner"><div class="gs-hero-copy"><span class="eyebrow"><span class="gs-spark"></span> GASTROSKY 2.0 · TERMÉKKATALÓGUS</span><h1>Professzionális konyhákhoz. <em>Okosan választva.</em></h1><p>Fedezd fel a Maxima és a HENDI nagykonyhai berendezéseit. Nézd meg a részleteket, hasonlítsd össze a termékeket, és kérj személyre szabott ajánlatot egy helyen.</p><div class="gs-hero-buttons"><a href="#termekek" class="gs-hero-primary">Termékek megtekintése <span aria-hidden="true">↗</span></a><a href="#hogyan-mukodik" class="gs-hero-secondary">Hogyan működik?</a></div><div class="hero-features"><span><b>01</b> Keresés és szűrés</span><span><b>02</b> Termékrészletek</span><span><b>03</b> Ajánlatkérés</span></div></div><div class="gs-hero-showcase" aria-label="Válogatás a termékkatalógusból"><div class="gs-showcase-label">VÁLOGATÁS A KATALÓGUSBÓL <span>✦</span></div><div class="gs-showcase-photos"><div class="gs-showcase-photo gs-showcase-main"><img src="https://hendi.xcdn.nl/RM700%2C700/-/238967_OBW_2024_03_IMGP9712.jpg" alt="HENDI ételmelegítő készlet" loading="eager"><span>HENDI · Ételmelegítés</span></div><div class="gs-showcase-photo gs-showcase-side"><img src="https://maxima.com/img/2ygrxVpYMXeCFMPOO0mV0SeagqUxQHv0SthD4Z-1iZ8/resize:fit:265:265/aHR0cHM6Ly9tYXhpbWEuY29tL21lZGlhL2NhdGFsb2cvcHJvZHVjdC9zL3Avc3AtMTAwMS0wOTEwMDAwMC5qcGc_d2lkdGg9MjY1JmhlaWdodD0yNjU.jpg" alt="Maxima eszpresszógép" loading="eager"><span>MAXIMA · Kávégépek</span></div></div><div class="gs-showcase-bottom"><span>MAXIMA <i>×</i> HENDI</span><span>Professzionális választék</span></div></div></div></section><section class="gs-intro-strip" id="markak"><div class="gs-intro-inner"><span class="gs-intro-label">KÍNÁLATUNKBAN</span><div class="gs-intro-brand"><strong>MAXIMA</strong><span>Nagykonyhai gépek és berendezések</span></div><div class="gs-intro-brand"><strong>HENDI</strong><span>Vendéglátóipari eszközök</span></div><a href="#termekek">Fedezd fel a termékeket <span aria-hidden="true">→</span></a></div></section>
