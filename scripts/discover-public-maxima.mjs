@@ -129,7 +129,10 @@ for(const raw of seed){
  await wait();
 }
 let checked=0,added=0,updated=0,verified=0;
-for(const raw of candidates){
+const ordered=[...candidates].sort();
+const rotation=ordered.length?(Math.floor(Date.now()/86400000)*MAX)%ordered.length:0;
+const cycle=[...ordered.slice(rotation),...ordered.slice(0,rotation)];
+for(const raw of cycle){
  if(checked>=MAX)break;
  const url=new URL(raw);
  const html=await loadPage(url);checked++;
