@@ -43,7 +43,7 @@ footer a{color:#e3bd73;margin-right:15px}
 <span id="message" aria-live="polite">Katalógus betöltése…</span>
 </div>
 <div class="tablewrap">
-<table><thead><tr><th>Termék</th><th>Gyártó / SKU</th><th>Ellenőrzés eredménye</th><th>Utolsó vizsgálat</th></tr></thead><tbody id="results"></tbody></table>
+<table><thead><tr><th>Termék</th><th>Gyártó / SKU</th><th>Gyártói készletinformáció</th><th>Utolsó vizsgálat</th></tr></thead><tbody id="results"></tbody></table>
 </div>
 </main>
 <footer>GastroSky 2.0 — fejlesztői státuszmonitor. <a href="/index.html">Katalógus</a><a href="/adatkezeles.html">Adatkezelés</a><a href="/impresszum.html">Impresszum</a></footer>
@@ -72,7 +72,7 @@ function statusText(x){
   source_not_verified:'Hiányzó gyártói forrás',
   checks_not_enabled:'Ellenőrzés letiltva'
  };
- return 'Nem ellenőrizhető'+(x.reason?' · '+(reason[x.reason]||'forrás nem olvasható'):'');
+ return 'Nincs hiteles készletadat'+(x.reason?' · '+(reason[x.reason]||'gyártói adat nem elérhető'):'');
 }
 function render(){
  tbody.replaceChildren();
