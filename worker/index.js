@@ -1,3 +1,4 @@
+import {handleQuote,quoteConfig} from './quotes.js';
 // Read prevalidated authorized supplier-feed snapshots from Cloudflare static assets.
 // Customers never trigger a supplier request; GitHub Actions updates snapshot files on schedule.
 const headers={'content-type':'application/json; charset=utf-8','cache-control':'no-store','x-content-type-options':'nosniff'};
@@ -12,6 +13,10 @@ const unknown=(id,reason)=>({id,kind:'unknown',quantity:null,expected_date:null,
 export default{
  async fetch(request,env){
   const url=new URL(request.url);
+  if(url.pathname==='/api/quote-config'&&request.method==='GET')return quoteConfig(env);
+  if(url.pathname==='/api/quote'&&request.method==='POST')
+    return handleQuote(request,env,()=>readAsset(env,'/data/catalog-products.json',url));
+
   if(url.pathname==='/api/stock'&&request.method==='GET'){
    const id=url.searchParams.get('id')||'';
    if(!/^(?:maxima|hendi):[\w.-]{1,80}$/i.test(id))return json({error:'invalid_product_id'},400);
