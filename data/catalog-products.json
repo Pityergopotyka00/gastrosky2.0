@@ -3438,9 +3438,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://nivaeq.com/en/yii2images/images/image-by-item-and-alias?dirtyAlias=d711daae8a-1.jpg&item=Goods600",
+    "image_source": "manufacturer_previous_code_photo",
+    "photo_status": "older_manufacturer_code_family_photo_requires_rights_and_link_check",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -3462,9 +3462,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://luxia-nce.co.uk/Aristarco%20CP%2045.15%20ice%20machine.jpg",
+    "image_source": "manufacturer_previous_code_photo",
+    "photo_status": "older_manufacturer_code_family_photo_requires_rights_and_link_check",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -3702,9 +3702,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://shop.gastrooprema.rs/fajlovi/product/big/ledomat%2025.jpg",
+    "image_source": "manufacturer_previous_code_photo",
+    "photo_status": "older_manufacturer_code_family_photo_requires_rights_and_link_check",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -3726,9 +3726,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://www.ventus.com.gr/products_img/1647865735_0_CV-35-45_web.jpg",
+    "image_source": "manufacturer_previous_code_photo",
+    "photo_status": "older_manufacturer_code_family_photo_requires_rights_and_link_check",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -3750,9 +3750,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://www.ventus.com.gr/products_img/1647865735_0_CV-35-45_web.jpg",
+    "image_source": "manufacturer_shared_family_photo",
+    "photo_status": "older_manufacturer_code_family_photo_requires_rights_and_link_check",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -3822,9 +3822,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://www.ventus.com.gr/products_img/1647866295_0_CV-90-150_web.jpg",
+    "image_source": "manufacturer_previous_code_photo",
+    "photo_status": "older_manufacturer_code_family_photo_requires_rights_and_link_check",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
