@@ -1,0 +1,31 @@
+name: Refresh public supplier page availability
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 */3 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: gastrosky-feed-sync
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install dependency for parsers
+        run: npm ci || npm install --no-audit --no-fund
+      - name: Check public stock only where allowed by suppliers
+        run: node scripts/check-public-supplier-stock.mjs
+        env:
+          PUBLIC_CHECK_LIMIT: '20'
+      - name: Commit public status evidence for worker snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/supplier-stock-snapshot.json
+          git diff --cached --quiet || (git commit -m "Refresh publicly verifiable supplier availability" && git push)
