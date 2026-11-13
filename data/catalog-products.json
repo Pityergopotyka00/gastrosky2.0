@@ -16898,5 +16898,159 @@
     "price": null,
     "availability": null,
     "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300147",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300147",
+    "ean": "8720365341168",
+    "name": "Maxima – Jéggép 50 kg/nap, vízhűtéses, jégpehely",
+    "category": "Jégtechnika",
+    "description": "Maxima professzionális berendezés, gyártói termékoldalon ellenőrzött cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09300147"
+    },
+    "source_url": "https://maxima.com/hu/jeggep-50kg-nap-zuzott-lapitott-vizhuteses.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300146",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300146",
+    "ean": "8720365341151",
+    "name": "Maxima – Jéggép 30 kg/nap, vízhűtéses, jégpehely",
+    "category": "Jégtechnika",
+    "description": "Maxima professzionális berendezés, gyártói termékoldalon ellenőrzött cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09300146"
+    },
+    "source_url": "https://maxima.com/hu/jeggep-30kg-nap-zuzott-lapitott-vizhuteses.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300123",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300123",
+    "ean": "8719632125761",
+    "name": "Maxima – Jéggép 24 kg/nap, vízhűtéses, gömbjég",
+    "category": "Jégtechnika",
+    "description": "Maxima professzionális berendezés, gyártói termékoldalon ellenőrzött cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09300123"
+    },
+    "source_url": "https://maxima.com/hu/jeggep-24kg-nap-golyos-kockak-vizhuteses.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300122",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300122",
+    "ean": "8719632122111",
+    "name": "Maxima – Jéggép 24 kg/nap, léghűtéses, gömbjég",
+    "category": "Jégtechnika",
+    "description": "Maxima professzionális berendezés, gyártói termékoldalon ellenőrzött cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09300122"
+    },
+    "source_url": "https://maxima.com/hu/jeggep-24kg-nap-golyos-kockak-leghuteses.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300131",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300131",
+    "ean": "8719632122142",
+    "name": "Maxima – Jéggép 60 kg/nap, léghűtéses, gömbjég",
+    "category": "Jégtechnika",
+    "description": "Maxima professzionális berendezés, gyártói termékoldalon ellenőrzött cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09300131"
+    },
+    "source_url": "https://maxima.com/hu/jeggep-60kg-nap-gombolyu-kockak-leghuteses.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:08803000",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "08803000",
+    "ean": "8720365344916",
+    "name": "Maxima – Turmixgép 2,5 liter, 1800 W",
+    "category": "Bárgépek",
+    "description": "Maxima professzionális berendezés, gyártói termékoldalon ellenőrzött cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "08803000"
+    },
+    "source_url": "https://maxima.com/hu/turmixgep-2-5l-1800w.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09398606",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09398606",
+    "ean": "8720365340932",
+    "name": "Maxima – Prémium gázüzemű fritőz, 2 × 22 L",
+    "category": "Ipari olajsütők",
+    "description": "Maxima professzionális berendezés, gyártói termékoldalon ellenőrzött cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09398606"
+    },
+    "source_url": "https://maxima.com/hu/premium-fritoz-2-x-22l-gaz-dupla-egyseg-lefolyocsappal-90cm-melyen.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
   }
 ]
