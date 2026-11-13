@@ -32,7 +32,7 @@ function extractedMeta($,base,brand){
 const robotsCache=new Map();
 async function robotsPermits(url){
  const u=new URL(url),key=u.origin;if(!robotsCache.has(key)){
-  try{const res=await fetch(key+'/robots.txt',{signal:AbortSignal.timeout(9000),headers:{'User-Agent':'GastroSkyCatalogMedia/1.0'}});
+  try{const res=await fetch(key+'/robots.txt',{signal:AbortSignal.timeout(6500),headers:{'User-Agent':'GastroSkyCatalogMedia/1.0'}});
    if(res.status===404){robotsCache.set(key,'');}else if(res.ok){robotsCache.set(key,(await res.text()).slice(0,200000));}else{robotsCache.set(key,null);}
   }catch{robotsCache.set(key,null)}
  }
@@ -53,7 +53,7 @@ async function page(url,brand){
  if(!sourceUrl(url,brand))throw Error('untrusted_source');
  if(pageCache.has(url))return pageCache.get(url);
  if(!(await robotsPermits(url)))throw Error('robots_disallow_or_unknown');
- const res=await fetch(url,{signal:AbortSignal.timeout(17000),headers:{Accept:'text/html','User-Agent':'GastroSkyCatalogMedia/1.0 (+product-photo verification)'}});
+ const res=await fetch(url,{signal:AbortSignal.timeout(7500),headers:{Accept:'text/html','User-Agent':'GastroSkyCatalogMedia/1.0 (+product-photo verification)'}});
  if(!res.ok)throw Error('HTTP_'+res.status);
  if(!sourceUrl(res.url,brand))throw Error('redirected_outside_supplier');
  const body=await res.text();if(body.length>3000000)throw Error('large_page');
@@ -134,6 +134,8 @@ const queue=products.filter(p=>!p.image_url).sort((a,b)=>{
 });
 for(const p of queue){
  if(p.image_url)continue;
+ // Manufacturer brochures require image-to-SKU page mapping; do not mislabel PDF graphics.
+ if(/\.pdf(?:[/?#]|$)|\/documents\//i.test(p.source_url||'')){missed.push({id:p.id,reason:'manufacturer_pdf_manual_photo_matching_required'});continue;}
  if(attempted++>=MAX){missed.push({id:p.id,reason:'run_limit'});continue}
  const brand=p.manufacturer,src=p.source_url;
  let reason='unavailable';
@@ -166,7 +168,7 @@ for(const p of queue){
   if(found){
    // Check that image actually serves image content before publishing.
    if(!(await robotsPermits(found)))throw Error('image_robots_unavailable');
-   const res=await fetch(found,{method:'GET',signal:AbortSignal.timeout(16000),headers:{Range:'bytes=0-100','User-Agent':'GastroSkyCatalogMedia/1.0'}});
+   const res=await fetch(found,{method:'GET',signal:AbortSignal.timeout(7000),headers:{Range:'bytes=0-100','User-Agent':'GastroSkyCatalogMedia/1.0'}});
    if(!res.ok||!(res.headers.get('content-type')||'').toLowerCase().startsWith('image/'))throw Error('image_not_served');
    await res.body?.cancel();
    p.image_url=found;p.image_source=p.photo_match_type|| (brand==='Aristarco'?'official_manufacturer_model_card':'official_manufacturer_product_page');
