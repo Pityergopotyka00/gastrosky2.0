@@ -115,6 +115,47 @@ body{background:linear-gradient(#f3f5f8,#f8f9fb 560px)}
 #detail .detail-description{font-size:15px;line-height:1.8;color:#283d50}
 #detail .detail-specs dt{font-weight:500}
 @media(max-width:700px){.details .product-description{-webkit-line-clamp:4;min-height:0}}
+</style><style>
+/* GastroSky immersive product details • entirely self-contained, no supplier links */
+#detail{width:min(1120px,calc(100vw - 28px));max-width:1120px;max-height:min(92dvh,940px);border:1px solid #e9edf3;border-radius:26px;overflow:auto;background:#fff;padding:0;box-shadow:0 34px 110px rgba(4,15,29,.35)}
+#detail::backdrop{background:rgba(5,18,32,.77);backdrop-filter:blur(8px)}
+#detail .detail-dialog-top{position:sticky;top:0;z-index:6;margin:0;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:14px 28px;background:linear-gradient(105deg,#102438,#1a344d);border-bottom:1px solid rgba(255,255,255,.12)}
+#detail .detail-overline{font-size:11px;letter-spacing:2.4px;color:#e2b765;font-weight:850}
+#detail #close{display:inline-flex;align-items:center;justify-content:center;min-height:36px;padding:8px 16px;border:1px solid rgba(255,255,255,.24);border-radius:999px;color:#fff;background:rgba(255,255,255,.08);font-size:12px}
+#detail #close:hover{background:rgba(255,255,255,.18)}
+#detailName{padding:27px 33px 19px!important;margin:0!important;max-width:none!important;color:#11253b;font-size:clamp(21px,2.6vw,33px)!important;line-height:1.21;letter-spacing:-.7px;font-weight:840;border-bottom:1px solid #eef1f5}
+.gs-detail-shell{display:grid;grid-template-columns:minmax(0,.94fr) minmax(0,1.06fr);align-items:start;gap:0}
+.gs-detail-visual{background:radial-gradient(circle at 48% 40%,#fff 20%,#f2f5f8 90%);padding:30px;min-height:100%;border-right:1px solid #e8edf2}
+.gs-detail-image-frame{aspect-ratio:1/1;min-height:280px;display:flex;align-items:center;justify-content:center;border:1px solid #e4e9ef;border-radius:20px;background:#fff;box-shadow:0 12px 32px rgba(13,32,54,.05);overflow:hidden;padding:23px}
+.gs-detail-image{height:100%;max-height:450px;width:100%;object-fit:contain;filter:drop-shadow(0 14px 12px rgba(27,41,52,.10))}
+.gs-detail-image-error{color:#61758b;text-align:center;max-width:240px;line-height:1.6}
+.gs-detail-picture-note{display:flex;align-items:center;justify-content:center;gap:8px;color:#728399;font-size:11px;letter-spacing:.25px;margin:15px 0}
+.gs-detail-picture-dot{background:#c8a25a;width:7px;height:7px;border-radius:50%}
+.gs-detail-content{display:flex;flex-direction:column;gap:18px;padding:27px 30px 32px;min-width:0}
+.gs-detail-eyebrow{display:flex;gap:9px;flex-wrap:wrap;align-items:center}
+.gs-detail-brand-chip{font-size:11px;letter-spacing:1.1px;font-weight:900;padding:8px 12px;color:#1d3047;background:#f2e8d3;border:1px solid #e9d7af;border-radius:999px}
+.gs-detail-category{font-size:12px;color:#62758b}
+.gs-detail-identifiers{display:flex;flex-wrap:wrap;gap:8px}
+.gs-detail-identifier{font-size:12px;color:#3c526b;background:#f5f7fa;padding:8px 12px;border:1px solid #e8edf2;border-radius:9px;font-weight:650}
+.gs-detail-panel{padding:18px 20px;border:1px solid #e8edf3;border-radius:16px;background:linear-gradient(135deg,#fff,#fafbfd)}
+.gs-detail-panel-heading{font-size:15px;font-weight:850;letter-spacing:-.2px;color:#162b41;margin:0 0 12px!important}
+.gs-detail-body{margin:0;color:#42576d;font-size:14px;line-height:1.82;white-space:pre-line}
+.gs-detail-spec-panel{background:#f9fafc}
+.gs-detail-spec-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:0}
+.gs-detail-spec-cell{background:#fff;border:1px solid #e5ebf2;border-radius:12px;padding:12px 14px;min-width:0}
+.gs-detail-spec-label{font-size:11px;font-weight:650;color:#718296;margin-bottom:8px;line-height:1.35}
+.gs-detail-spec-value{font-size:14px;color:#152a42;font-weight:850;overflow-wrap:anywhere;margin:0;line-height:1.35}
+.gs-detail-neutral-note{color:#52677e;font-size:13px;line-height:1.6;background:#f4f7fa;padding:13px 16px;border:1px solid #e6edf3;border-radius:12px}
+.gs-detail-conversion{display:flex;align-items:center;gap:15px;justify-content:space-between;padding:17px 18px;background:linear-gradient(105deg,#10253b,#203d57);color:#fff;border-radius:17px;box-shadow:0 12px 30px rgba(11,30,51,.16)}
+.gs-detail-conversion-copy{display:flex;flex-direction:column;gap:6px;min-width:0}
+.gs-detail-conversion-copy strong{font-size:13px;line-height:1.3}
+.gs-detail-conversion-copy span{font-size:11px;color:#cedce9;line-height:1.35}
+.gs-detail-primary{flex:none;min-height:46px;padding:12px 16px;background:#d7ad60;color:#14243a;font-weight:850;font-size:12px;border:0;border-radius:11px;cursor:pointer;transition:background .2s ease,transform .2s ease}
+.gs-detail-primary:hover{background:#f0cb83;transform:translateY(-1px)}
+.gs-detail-primary:focus-visible,#detail #close:focus-visible{outline:3px solid #d6ab5b;outline-offset:3px}
+@media(max-width:800px){#detail{max-height:95dvh;border-radius:17px}.gs-detail-shell{grid-template-columns:1fr}.gs-detail-visual{border-right:0;border-bottom:1px solid #e8edf2;padding:16px 24px;min-height:0}.gs-detail-image-frame{min-height:190px;aspect-ratio:1.7/1}.gs-detail-image{max-height:240px}.gs-detail-content{padding:21px 24px 28px}#detailName{padding:20px 24px 18px!important}}
+@media(max-width:480px){#detail .detail-dialog-top{padding:12px 17px}.gs-detail-visual{padding:13px 16px}.gs-detail-content{padding:17px 16px 24px;gap:13px}.gs-detail-spec-grid{grid-template-columns:1fr 1fr}.gs-detail-conversion{align-items:stretch;flex-direction:column}.gs-detail-primary{width:100%;font-size:13px}.gs-detail-image-frame{min-height:180px}.gs-detail-picture-note{margin:9px}}
+@media(prefers-reduced-motion:reduce){.gs-detail-primary{transition:none}}
 </style></head><body>
 <header><div class="brand"><img class="brandmark real-logo" src="https://gastrosky.hu/assets/images/logo.png" alt="GastroSky – eredeti logó" loading="eager" referrerpolicy="no-referrer"><div><small>Professzionális konyhatechnika</small></div></div><nav><a href="#termekek">Termékek</a><a href="adatkezeles.html">Adatkezelés</a><a href="impresszum.html">Impresszum</a><button type="button" class="quote-nav" id="quoteOpen">Ajánlatkérő lista <span id="quoteCount">0</span></button></nav></header>
 <section class="hero"><div><span class="eyebrow">GASTROSKY 2.0 · FEJLESZTŐI ELŐNÉZET</span><h1>Professzionális gépek.<br>Átgondolt konyhák.</h1><p>Maxima és HENDI nagykonyhai berendezések – fagyasztók, ipari mosogatógépek és élelmiszer-előkészítő gépek. Keress cikkszám vagy kategória alapján.</p><div class="hero-features"><span>Maxima és HENDI</span><span>Professzionális nagykonyhai berendezések</span><span>Ajánlatkérés online fizetés nélkül</span></div></div></section>
@@ -136,36 +177,75 @@ const more=document.getElementById('loadMore');more.hidden=found.length<=visible
 applySavedStock()}
 function showDetail(p){
  const dialog=document.getElementById('detail');
+ const body=document.getElementById('detailText');
+ body.replaceChildren();
  document.getElementById('detailName').textContent=p.name;
- const d=document.getElementById('detailText');d.replaceChildren();
- const layout=document.createElement('div');layout.className='detail-layout';
- const photo=document.createElement('div');photo.className='detail-photo';
+
+ const make=(tag,className,text)=>{
+  const node=document.createElement(tag);
+  if(className)node.className=className;
+  if(text!==undefined)node.textContent=text;
+  return node;
+ };
+ const shell=make('div','gs-detail-shell');
+ const visual=make('section','gs-detail-visual');
+ const photo=make('div','gs-detail-image-frame');
  if(p.image_url){
-  const image=document.createElement('img');image.src=p.image_url;image.alt=p.name+' – termékfotó';image.loading='lazy';
-  image.onerror=()=>{photo.textContent='A termékfotó jelenleg nem elérhető.'};
-  photo.append(image);
- }else{photo.textContent='Termékfotó nem elérhető'}
- const info=document.createElement('div');info.className='detail-info';
- const brand=document.createElement('p');brand.className='detail-brand';brand.textContent=p.manufacturer+' · '+(p.category||'Nagykonyhai berendezés');
- const sku=document.createElement('p');sku.className='detail-sku';sku.textContent='Gyártói cikkszám: '+p.sku;
- info.append(brand,sku);
- if(p.ean){const ean=document.createElement('p');ean.className='detail-sku';ean.textContent='EAN: '+p.ean;info.append(ean)}
- if(p.description){const desc=document.createElement('p');desc.className='detail-description';desc.textContent=p.description;info.append(desc)}
- const entries=Object.entries(p.specifications||{}).filter(([,v])=>v!=null&&String(v).trim());
- if(entries.length){
-  const label=document.createElement('h4');label.textContent='Műszaki adatok';info.append(label);
-  const spec=document.createElement('dl');spec.className='detail-specs';
-  for(const [key,value] of entries){const term=document.createElement('dt');term.textContent=key;const val=document.createElement('dd');val.textContent=String(value);spec.append(term,val)}
-  info.append(spec);
+  const img=make('img','gs-detail-image');
+  img.src=p.image_url;img.alt=p.name+' – termékfotó';
+  img.loading='lazy';img.decoding='async';
+  img.onerror=()=>{photo.replaceChildren(make('p','gs-detail-image-error','A kép jelenleg nem tölthető be.'))};
+  photo.append(img);
+ }else photo.append(make('p','gs-detail-image-error','Termékfotó még nem áll rendelkezésre.'));
+ visual.append(photo);
+ const pictureNote=make('div','gs-detail-picture-note');
+ pictureNote.append(make('span','gs-detail-picture-dot'),make('span','',p.manufacturer+' termékfotó'));
+ visual.append(pictureNote);
+
+ const content=make('section','gs-detail-content');
+ const eyebrow=make('div','gs-detail-eyebrow');
+ eyebrow.append(make('span','gs-detail-brand-chip',p.manufacturer),make('span','gs-detail-category',p.category||'Nagykonyhai berendezés'));
+ content.append(eyebrow);
+
+ const identifiers=make('div','gs-detail-identifiers');
+ const sku=make('span','gs-detail-identifier','Cikkszám: '+p.sku);
+ identifiers.append(sku);
+ if(p.ean)identifiers.append(make('span','gs-detail-identifier','EAN: '+p.ean));
+ content.append(identifiers);
+
+ const intro=make('div','gs-detail-panel');
+ intro.append(make('h4','gs-detail-panel-heading','Mire használható?'));
+ intro.append(make('p','gs-detail-body',p.description||'A termék felhasználásával kapcsolatban a GastroSky-tól kérhetsz tájékoztatást.'));
+ content.append(intro);
+
+ const specs=Object.entries(p.specifications||{}).filter(([key,value])=>key&&value!==null&&value!==undefined&&String(value).trim());
+ if(specs.length){
+  const section=make('div','gs-detail-panel gs-detail-spec-panel');
+  section.append(make('h4','gs-detail-panel-heading','Főbb jellemzők és műszaki adatok'));
+  const grid=make('dl','gs-detail-spec-grid');
+  for(const [name,value] of specs){
+   const cell=make('div','gs-detail-spec-cell');
+   cell.append(make('dt','gs-detail-spec-label',name),make('dd','gs-detail-spec-value',String(value)));
+   grid.append(cell);
+  }
+  section.append(grid);
+  content.append(section);
  }else{
-  const note=document.createElement('p');note.className='detail-note';
-  note.textContent='További műszaki adatok egyeztetéséhez kérj ajánlatot a GastroSky-tól.';
-  info.append(note);
+  const note=make('div','gs-detail-neutral-note','A további műszaki paramétereket a GastroSky ajánlatkérés során tudja pontosítani.');
+  content.append(note);
  }
- const actions=document.createElement('div');actions.className='detail-actions';
- const add=document.createElement('button');add.type='button';add.className='button quote-add';add.textContent='Ajánlatkéréshez adom';
- add.onclick=()=>{dialog.close();addToQuote(p.id)};actions.append(add);
- info.append(actions);layout.append(photo,info);d.append(layout);
+
+ const footer=make('div','gs-detail-conversion');
+ const heading=make('div','gs-detail-conversion-copy');
+ heading.append(make('strong','','Érdekel ez a berendezés?'));
+ heading.append(make('span','','Kérj személyre szabott ajánlatot a GastroSky-tól.'));
+ const add=make('button','gs-detail-primary','Ajánlatkéréshez adom');
+ add.type='button';
+ add.onclick=()=>{dialog.close();addToQuote(p.id)};
+ footer.append(heading,add);
+ content.append(footer);
+ shell.append(visual,content);
+ body.append(shell);
  dialog.showModal();
 }
 document.getElementById('close').onclick=()=>document.getElementById('detail').close();const resetFilter=()=>{visibleLimit=40;render()};
