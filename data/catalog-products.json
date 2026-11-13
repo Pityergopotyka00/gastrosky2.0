@@ -228,8 +228,8 @@
     "availability": null,
     "record_status": "research_sample",
     "source_type": "manufacturer_product_page",
-    "image_url": null,
-    "image_source": "not_verified",
+    "image_url": "https://hendi.xcdn.nl/RM265,265/-/239780_OBW_2020_01_IMG3383.jpg",
+    "image_source": "manufacturer_og_image",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -324,8 +324,8 @@
     "availability": null,
     "record_status": "research_sample",
     "source_type": "manufacturer_product_page",
-    "image_url": null,
-    "image_source": "not_verified",
+    "image_url": "https://hendi.xcdn.nl/RM265,265/-/240083_OBW_2026_05_MGP8341.jpg",
+    "image_source": "manufacturer_og_image",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
