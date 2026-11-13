@@ -20,6 +20,8 @@ const catalog=JSON.parse(await readFile(productFile,'utf8'));
 const products=new Map(catalog.map(p=>[p.id,p]));
 const stocks={};
 let successful=0;
+const coverageBefore=products.size;
+const importSummary={generated_at:new Date().toISOString(),maxima_goal:216,manufacturers:{}};
 const pick=(r,names)=>{
  for(const k of names){const v=r[k.toLowerCase()];if(v!==undefined&&String(v).trim())return String(v).trim()}
  return '';
@@ -94,7 +96,10 @@ function mapProduct(r,manufacturer){
  if(!name)return null;
  const id=manufacturer==='Sistema Project Italia'?'sistemaproject:'+sku.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,''):manufacturer.toLowerCase()+':'+sku;
  const prev=products.get(id);
- const image=publicUrl(pick(r,['imageurl','imagelink','image','picture','pictureurl','productpicture','productimage','mainimage','mainpicture','photo','photo1','image1','img']));
+ const imageRaw=publicUrl(pick(r,['imageurl','imagelink','image','picture','pictureurl','productpicture','productimage','mainimage','mainpicture','photo','photo1','image1','img']));
+ // Product imagery for Maxima must originate from its official media host.
+ // Other suppliers retain their existing allowlisting in storefront validation.
+ const image=manufacturer==='Maxima'&&imageRaw&&!new URL(imageRaw).hostname.match(/^(?:[a-z0-9-]+\.)?maxima\.com$/i)?null:imageRaw;
  const source=publicUrl(pick(r,['url','producturl','link','productlink','sourceurl']));
  const ean=pick(r,['ean','gtin','barcode','ean13'])||prev?.ean||'';
  const desc=pick(r,['description','shortdescription','text','productdescription']);
@@ -135,6 +140,7 @@ for(const feed of feeds){
  }
  if(!mapped)throw Error(feed.manufacturer+': no valid SKU/name pairs. Supplier feed format needs mapping.');
  successful++;
+ importSummary.manufacturers[feed.manufacturer]={feed_rows:records.length,mapped_with_photos:mapped,explicit_stock_count:knownStock};
  console.log(feed.manufacturer+': mapped '+mapped+' products, '+withPhotos+' photos, '+knownStock+' explicit stock statuses');
 }
 // Fail safe: no feed configured = no public data files changed.
@@ -145,4 +151,13 @@ await writeFile(productFile,JSON.stringify(all,null,2)+'\n');
 const old=JSON.parse(await readFile(stockFile,'utf8').catch(()=>'{}'));
 const snapshot={...old,...stocks};
 await writeFile(stockFile,JSON.stringify(snapshot,null,2)+'\n');
+const maxima=all.filter(p=>p.manufacturer==='Maxima');
+importSummary.total_products=all.length;
+importSummary.maxima_products=maxima.length;
+importSummary.maxima_with_images=maxima.filter(p=>p.image_url).length;
+importSummary.maxima_missing_to_goal=Math.max(0,importSummary.maxima_goal-maxima.length);
+importSummary.maxima_200_additional_goal_reached=maxima.length>=importSummary.maxima_goal;
+importSummary.catalog_before=coverageBefore;
+await writeFile('data/maxima-import-report.json',JSON.stringify(importSummary,null,2)+'\n');
+console.log('Maxima coverage:',JSON.stringify({products:importSummary.maxima_products,photos:importSummary.maxima_with_images,remaining:importSummary.maxima_missing_to_goal}));
 console.log('Complete product catalog and stock snapshot written for Cloudflare.');
