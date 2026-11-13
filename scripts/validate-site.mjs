@@ -39,6 +39,10 @@ for (const x of p) {
 }
 assert.ok(html.includes('Ajánlatkéréshez adom'),'Quote add button not installed');
 assert.ok(html.includes('quotePanel'),'Quote dialog absent');
+assert.ok(script.includes('gs-detail-shell'),'Premium detail layout is missing');
+assert.ok(script.includes('gs-detail-spec-grid'),'Structured specification tiles are missing');
+assert.ok(script.includes('Ajánlatkéréshez adom'),'Onsite details quotation action is missing');
+assert.ok(!script.includes('source.href=p.source_url'),'Supplier website links must not appear in product details');
 console.log('Validated storefront JS and dynamic catalog of '+p.length+' products');
 
 const monitor=await readFile('stock-monitor.html','utf8');
