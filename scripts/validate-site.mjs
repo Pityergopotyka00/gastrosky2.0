@@ -17,6 +17,8 @@ for (const x of p) {
  if(x.manufacturer==='HENDI'){
   assert.ok(!/\b(?:chafing dish|milkshake|cook\s*&\s*hold|bain-marie|rice cooker|griddle)\b/i.test(x.name),'Untranslated HENDI product name: '+x.id);
   assert.ok(!/gyártó.{0,20}oldal/i.test(x.description||''),'HENDI description sends customer to manufacturer: '+x.id);
+  assert.ok((x.description||'').length>=95,'HENDI description needs meaningful details: '+x.id);
+  assert.ok(!/^Professzionális vendéglátóipari termék\./.test(x.description||''),'Generic HENDI description: '+x.id);
  }
  assert.equal(x.id,x.manufacturer.toLowerCase()+':'+x.sku,'Catalog ID mismatch '+x.id);
  assert.ok(x.image_url&&/^https:\/\//i.test(x.image_url),'Each published product needs a secure real photo URL: '+x.id);
