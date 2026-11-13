@@ -22,8 +22,8 @@ const oldProducts=await readJson(PRODUCT_PATH,[]);
 const existing=new Map(oldProducts.map(p=>[p.id,p]));
 const state=await readJson(STATE_PATH,{version:1,Maxima:{queue:[],seen:[]},HENDI:{queue:[],seen:[]}});
 const vendors=[
-  {name:'Maxima',origin:'https://maxima.com',prefix:'/hu/',seeds:['https://maxima.com/hu/']},
-  {name:'HENDI',origin:'https://www.hendi.eu',prefix:'/en/',seeds:['https://www.hendi.eu/en/']}
+  {name:'Maxima',origin:'https://maxima.com',prefix:'/hu/',seeds:['https://maxima.com/hu/','https://maxima.com/hu/hutes/','https://maxima.com/hu/fozoberendezes/','https://maxima.com/hu/elelmiszer-feldolgozas/']},
+  {name:'HENDI',origin:'https://www.hendi.eu',prefix:'/en/',seeds:['https://www.hendi.eu/en/','https://www.hendi.eu/en/new/','https://www.hendi.eu/en/kitchen-appliances.html','https://www.hendi.eu/en/cooling.html']}
 ];
 function normalizeUrl(raw,vendor){
   try{
@@ -198,7 +198,15 @@ for(const vendor of vendors){
       queue.push(url);pending.add(url);
     }
   };
-  for(const seed of vendor.seeds)enqueue(seed);
+  // Revisit category and new-product hubs on every run so launches are discovered
+  // even after the initial full traversal.
+  for(const seed of vendor.seeds){
+    const normalized=normalizeUrl(seed,vendor);
+    if(normalized&&policy.allowed(new URL(normalized).pathname)){
+      seen.delete(normalized);
+      enqueue(normalized);
+    }
+  }
   if(!queue.length)await discoverSitemaps(vendor,policy,enqueue);
   // Bootstrap sitemaps on first run even if homepage is in the queue.
   if(!seen.size)await discoverSitemaps(vendor,policy,enqueue);
@@ -207,9 +215,14 @@ for(const vendor of vendors){
     const url=queue.shift();pending.delete(url);
     if(seen.has(url)||!policy.allowed(new URL(url).pathname))continue;
     const html=await getHtml(url,vendor,policy);
-    checked++;seen.add(url);
-    if(!html){failedInARow++;await sleep(1200);continue}
-    failedInARow=0;
+    checked++;
+    if(!html){
+      failedInARow++;
+      // Network errors are retryable; do not permanently mark pages visited.
+      enqueue(url);
+      await sleep(1200);continue;
+    }
+    seen.add(url);failedInARow=0;
     const found=parseProducts(html,url,vendor);
     for(const p of found){
       if(existing.has(p.id))updated++;else added++;
