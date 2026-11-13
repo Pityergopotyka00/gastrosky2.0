@@ -16832,5 +16832,71 @@
     "price": null,
     "availability": null,
     "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09371250",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09371250",
+    "ean": "8720783986217",
+    "name": "Maxima – Indukciós sütőlap 700, sima, 5000 W",
+    "category": "Sütőlapok",
+    "description": "A Maxima hivatalos termékoldalán szereplő professzionális berendezés, egyedi gyártói cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09371250"
+    },
+    "source_url": "https://maxima.com/hu/indukcios-sutolap-700-sima-5-000-w-egyedulallo.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300075",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300075",
+    "ean": "8719632120070",
+    "name": "Maxima – Sima elektromos sütőlap, 73 cm, 400 V",
+    "category": "Sütőlapok",
+    "description": "A Maxima hivatalos termékoldalán szereplő professzionális berendezés, egyedi gyártói cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09300075"
+    },
+    "source_url": "https://maxima.com/hu/sima-sutolap-73cm-400v.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300072",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300072",
+    "ean": "",
+    "name": "Maxima – Félig barázdált sütőlap, 55 cm",
+    "category": "Sütőlapok",
+    "description": "A Maxima hivatalos termékoldalán szereplő professzionális berendezés, egyedi gyártói cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09300072"
+    },
+    "source_url": "https://maxima.com/hu/fel-barazdalt-grillezolemez-55cm.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
   }
 ]
