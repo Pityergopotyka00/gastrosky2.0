@@ -52,7 +52,7 @@ for (const x of p) {
  const isMaxima=x.manufacturer==='Maxima';
  const manufacturerHosts=isMaxima?['maxima.com']:x.manufacturer==='HENDI'?['hendi.eu','www.hendi.eu','hendi.xcdn.nl']:x.manufacturer==='Modular'?['modular.it','www.modular.it','thenicekitchen.com','www.thenicekitchen.com']:x.manufacturer==='Fagor'?['fagorprofessional.com','www.fagorprofessional.com']:x.manufacturer==='Coldline'?['coldline.it','www.coldline.it']:x.manufacturer==='Krupps'?['krupps.com','www.krupps.com']:x.manufacturer==='Aristarco'?['aristarco.it','www.aristarco.it']:[];
  const manuallyMatchedRetailPhoto=(isMaxima||x.manufacturer==='Fagor'||x.manufacturer==='Krupps'||x.manufacturer==='Aristarco')&&x.image_source==='matching_retailer_product_photo';
- const retailerHosts=['static.materiel-horeca.com','images.metro-marketplace.eu','cubosupplies.com','www.hellopro.fr','tirol.bg','www.wea56.com','www.materielhoreca.com','www.audores.lt','audores.lt','nivaeq.com','www.ventus.com.gr'];
+ const retailerHosts=['static.materiel-horeca.com','images.metro-marketplace.eu','cubosupplies.com','www.hellopro.fr','tirol.bg','www.wea56.com','www.materielhoreca.com','www.audores.lt','audores.lt','nivaeq.com','www.ventus.com.gr','img.archiexpo.com'];
  if(image)assert.ok(manufacturerHosts.includes(image.hostname)||(manuallyMatchedRetailPhoto&&retailerHosts.includes(image.hostname)),'Unexpected product photo host: '+x.id);
  if(x.manufacturer==='HENDI'){
   assert.ok(image&&image.pathname.includes(x.sku),'HENDI image filename does not match the product SKU: '+x.id);
