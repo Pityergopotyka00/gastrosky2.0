@@ -50,3 +50,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/catalog-products.json data/catalog-discovery-state.json data/catalog-discovery-report.json
           git diff --cached --quiet || (git commit -m "Expand public Maxima and HENDI product catalogs with verified images" && git push)
+
+      - name: Report if supplier discovery is blocked
+        run: |
+          node --input-type=module -e "import fs from 'node:fs';const r=JSON.parse(fs.readFileSync('data/catalog-discovery-report.json','utf8'));const suppliers=Object.values(r.suppliers||{});if(!suppliers.length||suppliers.every(v=>!v.checked)){console.error('No permitted supplier product pages checked. Full-catalog discovery is NOT operating. Review supplier access and workflow configuration.');process.exitCode=1}else{console.log('Live catalog check ran for',suppliers.filter(x=>x.checked).length,'suppliers')}"
