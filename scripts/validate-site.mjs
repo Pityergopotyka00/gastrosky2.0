@@ -43,6 +43,13 @@ assert.ok(script.includes('gs-detail-shell'),'Premium detail layout is missing')
 assert.ok(script.includes('gs-detail-spec-grid'),'Structured specification tiles are missing');
 assert.ok(script.includes('Ajánlatkéréshez adom'),'Onsite details quotation action is missing');
 assert.ok(!script.includes('source.href=p.source_url'),'Supplier website links must not appear in product details');
+// Keep the full branded storefront intact during future updates.
+for(const section of ['gs-header-inner','gs-hero-showcase','gs-intro-strip','gs-catalog-heading','gs-process-grid','gs-bottom-cta','gs-footer-main']){
+ assert.ok(html.includes(section),'Premium storefront section missing: '+section);
+}
+for(const action of ['id="search"','id="category"','id="manufacturer"','id="sortBy"','id="quoteOpen"','id="quotePanel"']){
+ assert.ok(html.includes(action),'Important catalog/quote control missing: '+action);
+}
 console.log('Validated storefront JS and dynamic catalog of '+p.length+' products');
 
 const monitor=await readFile('stock-monitor.html','utf8');
