@@ -1668,14 +1668,14 @@
       "Méret": "400 × 650 × 290 mm",
       "Gáz": "PB-gáz"
     },
-    "image_url": null,
+    "image_url": "https://tirol.bg/images/detailed/11/fagor-single-tank-countertop-fryer-8l-ci-fe604t-1-8.jpg",
     "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1",
     "source_type": "official_2026_foodservice_catalogue",
     "record_status": "published_model_data",
     "price": null,
     "availability": null,
-    "image_source": "awaiting_verified_manufacturer_photo",
-    "photo_status": "product_photo_pending",
+    "image_source": "matching_retailer_product_photo",
+    "photo_status": "retailer_model_page_image_filename_mismatch_review",
     "publication_status": "public_product_details"
   },
   {
@@ -1694,14 +1694,14 @@
       "Méret": "400 × 650 × 290 mm",
       "Gáz": "Földgáz"
     },
-    "image_url": null,
+    "image_url": "https://tirol.bg/images/detailed/11/fagor-single-tank-countertop-fryer-8l-ci-fe604t-1-8.jpg",
     "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1",
     "source_type": "official_2026_foodservice_catalogue",
     "record_status": "published_model_data",
     "price": null,
     "availability": null,
-    "image_source": "awaiting_verified_manufacturer_photo",
-    "photo_status": "product_photo_pending",
+    "image_source": "matching_retailer_product_photo",
+    "photo_status": "retailer_model_page_image_filename_mismatch_review",
     "publication_status": "public_product_details"
   },
   {
@@ -3942,9 +3942,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://img.archiexpo.com/images_ae/photo-g/49951-15045321.jpg",
+    "image_source": "manufacturer_shared_family_photo",
+    "photo_status": "official_manufacturer_family_shared_visual_check",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -3966,9 +3966,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://img.archiexpo.com/images_ae/photo-g/49951-15045321.jpg",
+    "image_source": "manufacturer_shared_family_photo",
+    "photo_status": "official_manufacturer_family_shared_visual_check",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -3990,9 +3990,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://img.archiexpo.com/images_ae/photo-g/49951-15045321.jpg",
+    "image_source": "manufacturer_shared_family_photo",
+    "photo_status": "official_manufacturer_family_shared_visual_check",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -4014,9 +4014,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://img.archiexpo.com/images_ae/photo-g/49951-15045321.jpg",
+    "image_source": "manufacturer_shared_family_photo",
+    "photo_status": "official_manufacturer_family_shared_visual_check",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -4062,9 +4062,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://img.archiexpo.com/images_ae/photo-g/49951-15045321.jpg",
+    "image_source": "manufacturer_shared_family_photo",
+    "photo_status": "official_manufacturer_family_shared_visual_check",
     "stock_source_status": "pending_supplier_availability_evidence"
   }
 ]
