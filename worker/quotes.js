@@ -11,7 +11,7 @@ export function validateQuote(payload){
  if(typeof email!=='string'||email.length>160||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim()))return 'invalid_email';
  if(message!==undefined&&(typeof message!=='string'||message.length>1600))return 'invalid_message';
  if(!Array.isArray(items)||items.length<1||items.length>40)return 'invalid_items';
- if(!items.every(id=>typeof id==='string'&&/^(maxima|hendi|fagor|modular|coldline|krupps):[\w.-]{1,80}$/i.test(id)))return 'invalid_items';
+ if(!items.every(id=>typeof id==='string'&&/^(maxima|hendi|fagor|modular|coldline|krupps|aristarco):[\w.-]{1,80}$/i.test(id)))return 'invalid_items';
  if(new Set(items).size!==items.length)return 'duplicate_items';
  return null;
 }
