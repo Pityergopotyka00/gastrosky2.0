@@ -189,14 +189,18 @@ for(const vendor of vendors){
       queue.push(url);pending.add(url);
     }
   };
-  // Revisit category and new-product hubs on every run so launches are discovered
-  // even after the initial full traversal.
-  for(const seed of vendor.seeds){
+  // Revisit category and new-product hubs first on every run, rather than
+  // placing them behind thousands of previously discovered product URLs.
+  for(const seed of [...vendor.seeds].reverse()){
     const normalized=normalizeUrl(seed,vendor);
-    if(normalized&&policy.allowed(new URL(normalized).pathname)){
-      seen.delete(normalized);
-      enqueue(normalized);
+    if(!normalized||!policy.allowed(new URL(normalized).pathname))continue;
+    seen.delete(normalized);
+    if(pending.has(normalized)){
+      const idx=queue.indexOf(normalized);
+      if(idx>=0)queue.splice(idx,1);
     }
+    queue.unshift(normalized);
+    pending.add(normalized);
   }
   if(!queue.length)await discoverSitemaps(vendor,policy,enqueue);
   // Bootstrap sitemaps on first run even if homepage is in the queue.
