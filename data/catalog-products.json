@@ -2185,9 +2185,9 @@
     "availability": null,
     "record_status": "manufacturer_reference_requires_reseller_approval",
     "source_type": "manufacturer_product_reference",
-    "image_url": null,
-    "image_source": "pending_supplier_media",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://nivaeq.com/en/yii2images/images/image-by-item-and-alias?dirtyAlias=5d205a039e-1_800x800.jpg&item=Goods343",
+    "image_source": "manufacturer_family_reference_photo",
+    "photo_status": "reference_model_or_previous_code_visual_requires_supplier_confirmation",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -2211,9 +2211,9 @@
     "availability": null,
     "record_status": "manufacturer_reference_requires_reseller_approval",
     "source_type": "manufacturer_product_reference",
-    "image_url": null,
-    "image_source": "pending_supplier_media",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://flexikitch.com.au/cdn/shop/files/Vision-W7.png?v=1718617311",
+    "image_source": "manufacturer_family_reference_photo",
+    "photo_status": "reference_model_or_previous_code_visual_requires_supplier_confirmation",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -2286,9 +2286,9 @@
     "availability": null,
     "record_status": "manufacturer_reference_requires_reseller_approval",
     "source_type": "manufacturer_product_reference",
-    "image_url": null,
-    "image_source": "pending_supplier_media",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://www.pesage-mb.com/120398-large_default/lave-vaisselle-professionnel-krupps.jpg",
+    "image_source": "manufacturer_family_reference_photo",
+    "photo_status": "reference_model_or_previous_code_visual_requires_supplier_confirmation",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -3486,9 +3486,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://nivaeq.com/en/yii2images/images/image-by-item-and-alias?dirtyAlias=8c5b96f4be-1.jpeg&item=Goods647",
+    "image_source": "manufacturer_previous_code_photo",
+    "photo_status": "reference_model_or_previous_code_visual_requires_supplier_confirmation",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -3846,9 +3846,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://www.ventus.com.gr/thumbnails/33/1/fplrg_437/resize/0/255.255.255/800x800/webp/1505729619_0_SG_270-550-1000.png",
+    "image_source": "manufacturer_previous_code_photo",
+    "photo_status": "reference_model_or_previous_code_visual_requires_supplier_confirmation",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
