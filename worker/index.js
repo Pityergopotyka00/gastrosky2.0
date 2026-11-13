@@ -1,29 +1,12 @@
 // GastroSky 2.0 — experimental Maxima stock monitor.
 // Only live, source-verified values may be shown as stock.
 import products from '../data/maxima-products.json';
+import {parseMaximaAvailability} from './availability.js';
 
 const SOURCES = products.filter(p => p.manufacturer === 'Maxima' && p.sku && p.source_url);
 const HEADERS = { 'content-type': 'application/json; charset=utf-8', 'cache-control':'no-store', 'access-control-allow-origin':'*' };
 const json = (body, status=200) => new Response(JSON.stringify(body), {status, headers:HEADERS});
 const unknown = (reason='not_verified') => ({kind:'unknown',quantity:null,expected_date:null,raw:null,reason});
-const normalize = s => (s||'').replace(/&nbsp;|&#160;/gi,' ').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
-const decode = s => s.replace(/&aacute;/g,'á').replace(/&eacute;/g,'é').replace(/&ouml;/g,'ö').replace(/&uuml;/g,'ü').replace(/&amp;/g,'&');
-
-export function parseMaximaAvailability(html) {
-  if (!html || typeof html !== 'string') return unknown('empty_response');
-  const text = decode(normalize(html));
-  // Parsing is deliberately conservative. No matching exact status => unknown.
-  // Supplier pages sometimes include stock text for suggested products, so only
-  // read a product-scope snippet near its cart area.
-  const match = /(?:Kosárba|Add to Cart)[\s\S]{0,800}?(?:Még mindig\s+(\d+)\s+van raktáron|Only\s+(\d+)\s+left in stock|Várható\s*:\s*([\d]{1,2}\s+[a-záéíóöőúüű]+)|Expected\s*:\s*([\d]{1,2}\s+[A-Za-z]+)|Készleten|In stock|Nincs készleten|Out of stock)/i.exec(text);
-  if (!match) return unknown('status_not_found');
-  const full = match[0];
-  if (/Nincs készleten|Out of stock/i.test(full)) return {kind:'out_of_stock',quantity:0,expected_date:null,raw:'Out of stock',reason:null};
-  if (match[1] || match[2]) return {kind:'low_stock',quantity:Number(match[1]||match[2]),expected_date:null,raw:'low stock',reason:null};
-  if (match[3] || match[4]) return {kind:'expected',quantity:null,expected_date:match[3]||match[4],raw:'expected',reason:null};
-  if (/Készleten|In stock/i.test(full)) return {kind:'in_stock',quantity:null,expected_date:null,raw:'in stock',reason:null};
-  return unknown('ambiguous_status');
-}
 
 async function syncOne(env, p) {
   let status = unknown();
@@ -33,7 +16,7 @@ async function syncOne(env, p) {
     const response = await fetch(u.toString(), {headers:{Accept:'text/html','User-Agent':'GastroSky-StockMonitor/0.1 (supplier feed requested; info@gastrosky.hu)'},redirect:'follow',signal:AbortSignal.timeout(12000)});
     if (!response.ok) throw new Error('supplier_http_'+response.status);
     const body = await response.text();
-    status = parseMaximaAvailability(body);
+    status = parseMaximaAvailability(body,p.sku);
   } catch (error) {
     status = unknown(String(error?.message || error).slice(0,100));
   }
