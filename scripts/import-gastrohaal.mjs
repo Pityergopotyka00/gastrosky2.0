@@ -15,7 +15,7 @@ const mainGroups={
 };
 const normalize=s=>String(s||'').replace(/\s+/g,' ').trim();
 const slug=s=>String(s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
-const excluded=url=>/\/3_tuzhelyek(?:\/|$)|\/tuzhelyek(?:\/|$)|\/(?:combined|electric|gas|induction)[-_](?:ranges|stoves)(?:\/|$)|\/accessories-for-ranges(?:\/|$)/i.test(new URL(url).pathname);
+const excluded=url=>/\/\d+_tuzhelyek(?:\/|$)|\/tuzhelyek(?:\/|$)|\/(?:combined|electric|gas|induction)[-_](?:ranges|stoves)(?:\/|$)|\/accessories-for-ranges(?:\/|$)/i.test(new URL(url).pathname);
 const isLocal=url=>{try{const u=new URL(url,ROOT);return u.origin==='https://gastrohaal.sk'&&u.pathname.startsWith('/hu/termekek')&&!excluded(u.href)}catch{return false}};
 const href=(raw,base)=>{try{const u=new URL(raw,base);u.hash='';u.search='';return isLocal(u.href)?u.href:null}catch{return null}};
 const rootPath=url=>new URL(url).pathname.replace(/^\/hu\/termekek\/?/,'').split('/').filter(Boolean);
@@ -62,17 +62,26 @@ function photoCandidates($,url){
  });
  return [...new Map(candidates.sort((a,b)=>b.score-a.score).map(x=>[x.url,x])).values()];
 }
-function categoryInfo(url,rootMap){
- const path=rootPath(url);
- const first=path[0];
- const main=rootMap[first]||mainGroups[first]||'Gastro Haal berendezések';
- return {main,sub:path.length>1?path.slice(0,-1).at(-1):main};
+function categoryInfo(url){
+ const first=rootPath(url)[0]||'';
+ const groups=[
+  [/fozoustok|varne-kotly/i,'Főzőüstök'],
+  [/kotol-panvice/i,'Főzőüstök-serpenyők'],
+  [/billentoserpenyok/i,'Billenőserpenyők'],
+  [/elektromos-sutok/i,'Elektromos sütők'],
+  [/fozozsamolyok/i,'Főzőzsámolyok'],
+  [/burgonyakoptatok/i,'Burgonyakoptatók'],
+  [/bain-maries/i,'Bain-maries'],
+  [/fertotlenito|dezinflex/i,'Fertőtlenítés és kamera terminál']
+ ];
+ const main=groups.find(([pattern])=>pattern.test(first))?.[1]||'Egyéb berendezések';
+ return {main};
 }
 const catalog=JSON.parse(await readFile('data/catalog-products.json','utf8'));
 const known=new Set(catalog.map(p=>p.id));
 const queue=[ROOT],seen=new Set(),productLinks=new Map(),errors=[];
 const rootMap={...mainGroups};
-while(queue.length&&seen.size<130){
+while(queue.length&&seen.size<220){
  const url=queue.shift();if(seen.has(url)||excluded(url))continue;seen.add(url);
  try{
   const {doc:$,url:resolved}=await fetchPage(url);
@@ -87,7 +96,7 @@ while(queue.length&&seen.size<130){
     const text=normalize(a.text());if(!productLinks.has(link))productLinks.set(link,text);
     continue;
    }
-   if(isCategory(link)&&!seen.has(link)&&!queue.includes(link)&&path.length<=2){
+   if(isCategory(link)&&!seen.has(link)&&!queue.includes(link)&&path.length<=3){
     // Only follow official product-category navigation, not unrelated content.
     queue.push(link);
     if(path.length===1&&!rootMap[path[0]])rootMap[path[0]]=normalize(a.text())||'Gastro Haal berendezések';
@@ -111,7 +120,7 @@ for(const [url,listingName] of productLinks){
   const detailTitle=normalize($('h2').first().text());
   const name=normalize((title+' '+detailTitle).slice(0,170));
   if(!name||/tűzhely|sporák|sporak|stove with base|ranges/i.test(name)&&rootPath(url)[0]==='3_tuzhelyek')continue;
-  const info=categoryInfo(url,rootMap);
+  const info=categoryInfo(url);
   const photos=photoCandidates($,url);
   let image_url=null;
   for(const c of photos.slice(0,7)){if(await validImage(c.url)){image_url=c.url;break;}}
@@ -143,7 +152,7 @@ await writeFile('data/gastrohaal-import-report.json',JSON.stringify({
  imported_at:new Date().toISOString(),category_pages_checked:seen.size,
  product_pages_discovered:productLinks.size,
  published_with_images:additions.length,
- excluded_group:'Tűzhelyek (3_tuzhelyek) including every descendant',
+ excluded_group:'Tűzhelyek (all numeric-prefix _tuzhelyek paths and descendants)',
  unresolved,errors
 },null,2)+'\n');
 console.log(JSON.stringify({category_pages:seen.size,found:productLinks.size,with_photos:additions.length,unresolved:unresolved.length,errors:errors.length}));
