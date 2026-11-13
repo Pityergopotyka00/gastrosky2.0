@@ -374,5 +374,29 @@
     "image_url": null,
     "image_source": "not_verified",
     "stock_source_status": "pending_supplier_availability_evidence"
+  },
+  {
+    "id": "maxima:09100000",
+    "manufacturer": "Maxima",
+    "manufacturer_status": "verified",
+    "supplier": "Maxima",
+    "name": "Eszpresszógép – 1 dugattyú – 180 csésze/óra",
+    "category": "Kávégépek",
+    "sku": "09100000",
+    "ean": "8720783959617",
+    "description": "Professzionális eszpresszógép 3 literes bojlerrel, óránként akár 180 csésze kapacitással.",
+    "specifications": {
+      "Bojler": "3 L",
+      "Teljesítmény": "1800 W",
+      "Feszültség": "230 V"
+    },
+    "source_url": "https://maxima.com/hu/eszpresszogep-1-dugattyu.html",
+    "image_url": null,
+    "image_source": "pending_supplier_media",
+    "price": null,
+    "availability": null,
+    "record_status": "manufacturer_sample",
+    "source_type": "manufacturer_product_page",
+    "stock_source_status": "source_verified_for_test"
   }
 ]
