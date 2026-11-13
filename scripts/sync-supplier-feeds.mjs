@@ -92,7 +92,7 @@ function mapProduct(r,manufacturer){
  if(!sku||sku.length>80)return null;
  const name=pick(r,['productname','name','title','producttitle','descriptiontitle']);
  if(!name)return null;
- const id=(manufacturer==='Sistema Project Italia'?'sistemaproject':manufacturer.toLowerCase())+':'+sku.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+ const id=manufacturer==='Sistema Project Italia'?'sistemaproject:'+sku.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,''):manufacturer.toLowerCase()+':'+sku;
  const prev=products.get(id);
  const image=publicUrl(pick(r,['imageurl','imagelink','image','picture','pictureurl','productpicture','productimage','mainimage','mainpicture','photo','photo1','image1','img']));
  const source=publicUrl(pick(r,['url','producturl','link','productlink','sourceurl']));
