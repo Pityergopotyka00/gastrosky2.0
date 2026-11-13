@@ -28,8 +28,13 @@ async function refreshStockFor(id){
     item.kind==='in_stock'?'Készleten':
     item.kind==='out_of_stock'?'Nincs készleten':
     item.kind==='expected'&&item.expected_date?'Várható: '+item.expected_date:
-    'Elérhetőség: ellenőrzés alatt';
+    item.reason==='checks_not_enabled'?'Készletellenőrzés nincs engedélyezve':
+    item.reason==='supplier_sku_mismatch'||item.reason==='supplier_url_unverified'?'A gyártói terméklink ellenőrzésre vár':
+    item.reason==='manufacturer_stock_not_publicly_verified'?'A HENDI nem közöl ellenőrizhető készletet':
+    item.reason==='product_identity_unverified'?'Gyártói cikkszám nem egyezik':
+    item.reason?.startsWith('supplier_http_')?'Gyártói oldal jelenleg nem elérhető':
+    'A gyártói készletadat nem ellenőrizhető';
   badge.textContent=label+(item.kind!=='unknown'&&item.checked_at?' · Ellenőrizve: '+new Date(item.checked_at).toLocaleString('hu-HU'):'');
- } catch {badge.textContent='Elérhetőség: ellenőrzés alatt';}
+ } catch {badge.textContent='Nem sikerült ellenőrizni – később próbálja újra';}
 }
 </script></body></html>
