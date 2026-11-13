@@ -2622,9 +2622,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://www.mh-hygiene.com/media/cd/2a/0a/1758124147/AH1240-EPI-WIFI_tqc.jpg",
+    "image_source": "manufacturer_shared_family_photo",
+    "photo_status": "shared_or_previous_code_photo_source_review_pending",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -2646,9 +2646,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://www.mh-hygiene.com/media/cd/2a/0a/1758124147/AH1240-EPI-WIFI_tqc.jpg",
+    "image_source": "manufacturer_shared_family_photo",
+    "photo_status": "shared_or_previous_code_photo_source_review_pending",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -2694,9 +2694,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://www.mh-hygiene.com/media/cd/2a/0a/1758124147/AH1240-EPI-WIFI_tqc.jpg",
+    "image_source": "manufacturer_shared_family_photo",
+    "photo_status": "shared_or_previous_code_photo_source_review_pending",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -2718,9 +2718,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://www.mh-hygiene.com/media/cd/2a/0a/1758124147/AH1240-EPI-WIFI_tqc.jpg",
+    "image_source": "manufacturer_shared_family_photo",
+    "photo_status": "shared_or_previous_code_photo_source_review_pending",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -2766,9 +2766,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://www.mh-hygiene.com/media/cd/2a/0a/1758124147/AH1240-EPI-WIFI_tqc.jpg",
+    "image_source": "manufacturer_family_reference_photo",
+    "photo_status": "shared_or_previous_code_photo_source_review_pending",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -2790,9 +2790,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://www.mh-hygiene.com/media/cd/2a/0a/1758124147/AH1240-EPI-WIFI_tqc.jpg",
+    "image_source": "manufacturer_family_reference_photo",
+    "photo_status": "shared_or_previous_code_photo_source_review_pending",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -2934,9 +2934,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://img.archiexpo.com/images_ae/photo-mg/49951-19132523.jpg",
+    "image_source": "manufacturer_previous_code_photo",
+    "photo_status": "shared_or_previous_code_photo_source_review_pending",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -3222,9 +3222,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://itpizza-russia.ru/images/detailed/12/Aristarco_AU_55.65_E_PRS-02.jpg",
+    "image_source": "manufacturer_previous_code_photo",
+    "photo_status": "shared_or_previous_code_photo_source_review_pending",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -3342,9 +3342,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://itpizza-russia.ru/images/detailed/12/AU_55.80_E_ES-02.jpg",
+    "image_source": "manufacturer_previous_code_photo",
+    "photo_status": "shared_or_previous_code_photo_source_review_pending",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
