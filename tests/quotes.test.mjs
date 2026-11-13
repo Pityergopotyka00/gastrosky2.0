@@ -17,7 +17,7 @@ test('Name, email, product IDs and request size validated',()=>{
  assert.equal(validateQuote({...okPayload,items:['fake:1']}),'invalid_items');
  assert.equal(validateQuote({...okPayload,items:['maxima:09400018','maxima:09400018']}),'duplicate_items');
  assert.equal(validateQuote({...okPayload,companyWebsite:'spam'}),'spam_rejected');
- assert.equal(validateQuote({...okPayload,items:[]}), 'invalid_items');
+ assert.equal(validateQuote({...okPayload,items:[]}), null); // A detailed general enquiry is valid\n assert.equal(validateQuote({...okPayload,items:[],message:''}), 'message_required_for_general_quote');
 });
 test('Mail configuration is unavailable by default',async()=>{
  const result=await quoteConfig({}).json();
@@ -56,11 +56,11 @@ test('Verified quote is accepted by mail provider with correct SKU and reply-to'
   const response=await handleQuote(request,credentials,async()=>sample);
   assert.equal(response.status,202);
   assert.equal((await response.json()).ok,true);
-  assert.equal(requests.length,2);
+  assert.equal(requests.length,3); // Owner email plus customer acknowledgement
   const body=JSON.parse(requests[1].options.body);
   assert.equal(body.reply_to,'test@example.com');
   assert.match(body.text,/09400018/);
-  assert.deepEqual(body.to,['info@gastrosky.hu']);
+  assert.deepEqual(body.to,['info@gastrosky.hu']);\n  assert.deepEqual(JSON.parse(requests[2].options.body).to,['test@example.com']);
  }finally{globalThis.fetch=original}
 });
 test('Provider error never claims successful quotation delivery',async()=>{
