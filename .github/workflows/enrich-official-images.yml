@@ -24,7 +24,7 @@ jobs:
       - name: Match official supplier product photos
         run: node scripts/enrich-official-images.mjs
         env:
-          PHOTO_CHECK_LIMIT: '200'
+          PHOTO_CHECK_LIMIT: '600'
       - name: Validate complete storefront
         run: npm run validate
       - name: Save verified image URLs and remaining coverage report
@@ -32,4 +32,4 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/catalog-products.json data/image-coverage-report.json index.html
-          git diff --cached --quiet || (git commit -m "Fill source-matched official GastroSky product photographs" && git push)
+          git diff --cached --quiet || (git commit -m "Fill source-matched official GastroSky product photographs" && git pull --rebase origin main && git push)
