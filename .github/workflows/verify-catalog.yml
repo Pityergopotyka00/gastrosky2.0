@@ -10,6 +10,7 @@ on:
       - 'index.html'
       - 'data/catalog-products.json'
       - 'scripts/validate-site.mjs'
+      - 'scripts/sync-supplier-feeds.mjs'
       - 'scripts/catalog-url.mjs'
       - 'scripts/discover-both-catalogs.mjs'
       - 'data/catalog-discovery-state.json'
@@ -25,6 +26,8 @@ jobs:
           node-version: '22'
       - name: Install dependencies
         run: npm install --no-audit --no-fund
+      - name: Check authorized supplier bulk importer syntax
+        run: node --check scripts/sync-supplier-feeds.mjs
       - name: Run stock-parser and storefront tests
         run: npm test
       - name: Build deployable website
