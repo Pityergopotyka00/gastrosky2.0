@@ -1,0 +1,47 @@
+name: Import Fagor 2026 official product codes
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/import-fagor-2026.yml'
+      - 'scripts/import-fagor-2026.py'
+permissions:
+  contents: write
+concurrency:
+  group: gastrosky-fagor-2026
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install PDF text extractor and site dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y poppler-utils
+          npm ci || npm install --no-audit --no-fund
+      - name: Download official 2026 Fagor Foodservice catalogue
+        run: |
+          curl --fail --location --retry 3 --connect-timeout 20 --max-time 240 \
+            --user-agent 'GastroSkyCatalogImport/1.0' \
+            'https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1' \
+            --output /tmp/fagor-foodservice-2026.pdf
+          pdfinfo /tmp/fagor-foodservice-2026.pdf | head -18
+          pdftotext -raw /tmp/fagor-foodservice-2026.pdf /tmp/fagor-raw.txt
+          pdftotext -layout /tmp/fagor-foodservice-2026.pdf /tmp/fagor-layout.txt
+      - name: Extract manufacturer-listed model and article code pairs
+        env:
+          FAGOR_MIN_TOTAL: '200'
+        run: python3 scripts/import-fagor-2026.py /tmp/fagor-raw.txt /tmp/fagor-layout.txt
+      - name: Check catalogue and JavaScript structure
+        run: npm run validate
+      - name: Commit official models, update Fagor brand count and storefront catalog
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/catalog-products.json data/fagor-import-report.json index.html
+          git diff --cached --quiet || (git commit -m 'Expand Fagor 2026 catalogue with verified individual article codes' && git pull --rebase && git push)
