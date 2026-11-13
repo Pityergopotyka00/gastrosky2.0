@@ -15,7 +15,7 @@ assert.equal((new Set(p.map(x=>x.id))).size,p.length,'Duplicate supplier SKU IDs
 for (const x of p) {
  assert.ok(x.sku&&x.name&&x.manufacturer&&x.id);
  if(x.manufacturer==='HENDI'){
-  assert.ok(!/\b(?:chafing dish|milkshake|cook\\s*&\\s*hold|bain-marie|rice cooker|griddle)\b/i.test(x.name),'Untranslated HENDI product name: '+x.id);
+  assert.ok(!/\b(?:chafing dish|milkshake|cook\s*&\s*hold|bain-marie|rice cooker|griddle)\b/i.test(x.name),'Untranslated HENDI product name: '+x.id);
   assert.ok(!/gyártó.{0,20}oldal/i.test(x.description||''),'HENDI description sends customer to manufacturer: '+x.id);
  }
  assert.equal(x.id,x.manufacturer.toLowerCase()+':'+x.sku,'Catalog ID mismatch '+x.id);
