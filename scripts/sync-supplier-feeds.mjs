@@ -23,12 +23,15 @@ function normalize(row){
  const o={};for(const [k,v] of Object.entries(row)){const key=cleanName(k);if(key&&!o[key])o[key]=typeof v==='string'?v:JSON.stringify(v)}return o;
 }
 function csvRows(src) {
- // RFC4180: commas, newlines and escaped quotes in a quoted field
+ // Supports UTF-8 BOM, semicolon or comma exports with RFC4180 quoting.
+ src=src.replace(/^\uFEFF/,'');
+ const firstLine=src.split(/\r?\n/,1)[0];
+ const delim=(firstLine.match(/;/g)||[]).length>(firstLine.match(/,/g)||[]).length?';':',';
  let row=[],cell='',quote=false;const rows=[];
  for(let i=0;i<src.length;i++){
   const ch=src[i];
   if(ch==='"'){if(quote&&src[i+1]==='"'){cell+='"';i++}else quote=!quote}
-  else if(ch===','&&!quote){row.push(cell);cell=''}
+  else if(ch===delim&&!quote){row.push(cell);cell=''}
   else if((ch==='\r'||ch==='\n')&&!quote){
    if(ch==='\r'&&src[i+1]==='\n')i++;
    row.push(cell);if(row.some(Boolean))rows.push(row);row=[];cell='';
