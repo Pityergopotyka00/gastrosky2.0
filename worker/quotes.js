@@ -12,7 +12,7 @@ export function validateQuote(payload){
  if(message!==undefined&&(typeof message!=='string'||message.length>1600))return 'invalid_message';
  if(!Array.isArray(items)||items.length>40)return 'invalid_items';
  if(items.length===0&&(typeof message!=='string'||message.trim().length<10))return 'message_required_for_general_quote';
- if(!items.every(id=>typeof id==='string'&&/^(maxima|hendi|fagor|modular|coldline|krupps|aristarco|sistemaproject|tecnodom):[\w./-]{1,80}$/i.test(id)))return 'invalid_items';
+ if(!items.every(id=>typeof id==='string'&&/^(maxima|hendi|fagor|modular|coldline|krupps|aristarco|sistemaproject|tecnodom|gastrohaal):[\w./-]{1,80}$/i.test(id)))return 'invalid_items';
  if(new Set(items).size!==items.length)return 'duplicate_items';
  return null;
 }
