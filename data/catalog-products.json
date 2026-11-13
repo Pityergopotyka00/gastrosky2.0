@@ -1902,14 +1902,14 @@
       "Hálózat": "400 V · 3+N",
       "Méret": "355 × 485 × 270 mm"
     },
-    "image_url": null,
+    "image_url": "https://audores.lt/19624/fagor-gruzdintuve-8l-fe-8.jpg?v=11734872543",
     "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1",
     "source_type": "official_2026_foodservice_catalogue",
     "record_status": "published_model_data",
     "price": null,
     "availability": null,
-    "image_source": "awaiting_verified_manufacturer_photo",
-    "photo_status": "product_photo_pending",
+    "image_source": "matching_retailer_product_photo",
+    "photo_status": "found_model_matched_check_reseller_rights",
     "publication_status": "public_product_details"
   },
   {
@@ -1928,14 +1928,14 @@
       "Hálózat": "230 V · 1+N",
       "Méret": "355 × 485 × 270 mm"
     },
-    "image_url": null,
+    "image_url": "https://audores.lt/19624/fagor-gruzdintuve-8l-fe-8.jpg?v=11734872543",
     "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1",
     "source_type": "official_2026_foodservice_catalogue",
     "record_status": "published_model_data",
     "price": null,
     "availability": null,
-    "image_source": "awaiting_verified_manufacturer_photo",
-    "photo_status": "product_photo_pending",
+    "image_source": "matching_retailer_product_photo",
+    "photo_status": "found_model_matched_check_reseller_rights",
     "publication_status": "public_product_details"
   },
   {
@@ -2261,9 +2261,9 @@
     "availability": null,
     "record_status": "manufacturer_reference_requires_reseller_approval",
     "source_type": "manufacturer_product_reference",
-    "image_url": null,
-    "image_source": "pending_supplier_media",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://nivaeq.com/en/yii2images/images/image-by-item-and-alias?dirtyAlias=ae5d3727d3-1_800x800.jpg&item=Goods651",
+    "image_source": "matching_retailer_product_photo",
+    "photo_status": "found_model_matched_check_reseller_rights",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -2310,9 +2310,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://www.aristarco.it/wp-content/uploads/2025/02/AF3525-ESI-LS-tqc-lbox-800x650-fff.jpg",
+    "image_source": "official_manufacturer_model_card",
+    "photo_status": "found_model_matched_check_reseller_rights",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -2334,9 +2334,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://www.aristarco.it/wp-content/uploads/2025/02/AF3525-ESI-LS-tqc-lbox-800x650-fff.jpg",
+    "image_source": "official_manufacturer_shared_model_card",
+    "photo_status": "found_model_matched_check_reseller_rights",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
