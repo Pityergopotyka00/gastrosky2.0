@@ -10156,5 +10156,53 @@
     "image_url": null,
     "photo_status": "product_photo_pending",
     "stock_source_status": "pending_supplier_stock"
+  },
+  {
+    "id": "fagor:19111543",
+    "manufacturer": "Fagor",
+    "supplier": "Fagor Professional",
+    "sku": "19111543",
+    "model": "Kit X1100",
+    "name": "Fagor Professional Kit X1100 – Kombisütő vízszűrő rendszer első telepítési készlete",
+    "category": "Sütőtartozékok és vízkezelés",
+    "description": "A Fagor Professional hivatalos 2026-os Foodservice katalógusában Kit X1100 típusnévvel és 19111543 gyártói cikkszámmal szereplő kombisütő vízszűrő rendszer első telepítési készlete. A kompatibilitást, rendelhetőséget és árat ajánlatkéréskor kell pontosítani.",
+    "specifications": {
+      "Modell": "Kit X1100",
+      "Cikkszám": "19111543",
+      "Kategória": "Sütővíz-kezelés",
+      "Katalógus": "Fagor Foodservice 2026"
+    },
+    "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1",
+    "source_type": "official_2026_foodservice_catalogue",
+    "record_status": "manufacturer_catalogue_reference",
+    "price": null,
+    "availability": null,
+    "image_url": null,
+    "photo_status": "product_photo_pending",
+    "stock_source_status": "pending_supplier_stock"
+  },
+  {
+    "id": "fagor:19111548",
+    "manufacturer": "Fagor",
+    "supplier": "Fagor Professional",
+    "sku": "19111548",
+    "model": "X1100",
+    "name": "Fagor Professional X1100 – Kombisütő vízszűrőjének cserepatronja",
+    "category": "Sütőtartozékok és vízkezelés",
+    "description": "A Fagor Professional hivatalos 2026-os Foodservice katalógusában X1100 típusnévvel és 19111548 gyártói cikkszámmal szereplő kombisütő vízszűrőjének cserepatronja. A kompatibilitást, rendelhetőséget és árat ajánlatkéréskor kell pontosítani.",
+    "specifications": {
+      "Modell": "X1100",
+      "Cikkszám": "19111548",
+      "Kategória": "Sütővíz-kezelés",
+      "Katalógus": "Fagor Foodservice 2026"
+    },
+    "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1",
+    "source_type": "official_2026_foodservice_catalogue",
+    "record_status": "manufacturer_catalogue_reference",
+    "price": null,
+    "availability": null,
+    "image_url": null,
+    "photo_status": "product_photo_pending",
+    "stock_source_status": "pending_supplier_stock"
   }
 ]
