@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="GastroSky 2.0 – Gyártói készletellenőrzés állapotmonitor">
+<title>GastroSky 2.0 · Készletellenőrzés</title>
+<style>
+:root{font-family:Inter,system-ui,Arial,sans-serif;background:#f5f7fa;color:#18263a}*{box-sizing:border-box}body{margin:0}
+header{background:#111d2c;padding:18px 5%;display:flex;align-items:center;gap:18px;flex-wrap:wrap;color:#fff}
+header img{height:56px;max-width:180px;object-fit:contain}header nav{margin-left:auto}
+header a{color:#e6c27d;text-decoration:none}
+main{max-width:1160px;padding:24px;margin:34px auto 70px}h1{font-size:clamp(28px,5vw,44px);letter-spacing:-1px;margin-bottom:8px}
+.muted{color:#607189}.lead{max-width:760px;line-height:1.65}.notice{background:#fff9ec;border:1px solid #f0d9ac;border-radius:10px;padding:16px;margin:22px 0;color:#765520}
+.actions{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin:20px 0}button{font:inherit;cursor:pointer;border:0;border-radius:8px;padding:12px 16px;background:#d4aa5d;color:#132438;font-weight:800}button:disabled{opacity:.5;cursor:default}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:24px 0}.stat{background:#fff;padding:20px;border-radius:12px;border:1px solid #e1e7ed}.stat strong{display:block;font-size:30px;color:#142337}.stat span{font-size:13px;color:#5e7185}
+.tablewrap{overflow:auto;border-radius:14px;border:1px solid #e1e6ee;background:white;box-shadow:0 5px 26px #1b2d3f0a}
+table{border-collapse:collapse;width:100%;min-width:760px}th{text-align:left;color:#52647a;font-size:12px;letter-spacing:.7px;text-transform:uppercase;background:#f2f5f8;padding:14px}td{padding:17px 14px;border-top:1px solid #e8edf2;font-size:14px}td:first-child{font-weight:650}td small{display:block;color:#697a8e;font-weight:400;margin-top:5px}
+.status{display:inline-block;padding:7px 11px;border-radius:20px;font-weight:700;font-size:12px;background:#eef2f6;color:#61738b;white-space:nowrap}
+.status.good{background:#e7f5e9;color:#14632e}.status.warn{background:#fff1da;color:#935e10}.status.bad{background:#fff0ef;color:#a4372d}
+#message{font-size:14px;color:#526478}footer{padding:25px 5%;background:#111d2c;color:#cad3dc;font-size:13px}
+footer a{color:#e3bd73;margin-right:15px}
+</style>
+</head>
+<body>
+<header>
+<img src="https://gastrosky.hu/assets/images/logo.png" alt="GastroSky eredeti logó">
+<nav><a href="/index.html">← Vissza a termékkatalógushoz</a></nav>
+</header>
+<main>
+<p class="muted">GASTROSKY 2.0 · ELLENŐRZŐ FELÜLET</p>
+<h1>Gyártói készletellenőrzés</h1>
+<p class="lead">Itt látható, hogy a Maxima és HENDI nyilvános termékoldalai milyen ellenőrizhető információt adnak vissza. A rendszer csak a megfelelő cikkszámhoz tartozó, azonosítható állapotot jelzi. A beérkezett adatok nem azonosak a GastroSky saját raktárkészletével.</p>
+<div class="notice">Ez fejlesztői ellenőrző felület, nem garantált raktárkészlet. A gyártó által nem közölt, hibás vagy nem hozzáférhető adatok <strong>„Nem ellenőrizhető”</strong> állapotúak maradnak. A nyilvános online rendelés letiltása nem jelenti automatikusan a készlethiányt.</div>
+<div class="stats">
+<div class="stat"><strong id="total">–</strong><span>Listázott termék</span></div>
+<div class="stat"><strong id="verified">0</strong><span>Ellenőrzött státusz</span></div>
+<div class="stat"><strong id="unknown">0</strong><span>Nem ellenőrizhető</span></div>
+<div class="stat"><strong id="pending">0</strong><span>Még folyamatban</span></div>
+</div>
+<div class="actions">
+<button id="refresh" type="button">Látható termékek ellenőrzése</button>
+<button id="next" type="button" disabled>Következő oldal</button>
+<span id="message" aria-live="polite">Katalógus betöltése…</span>
+</div>
+<div class="tablewrap">
+<table><thead><tr><th>Termék</th><th>Gyártó / SKU</th><th>Ellenőrzés eredménye</th><th>Utolsó vizsgálat</th></tr></thead><tbody id="results"></tbody></table>
+</div>
+</main>
+<footer>GastroSky 2.0 — fejlesztői státuszmonitor. <a href="/index.html">Katalógus</a><a href="/adatkezeles.html">Adatkezelés</a><a href="/impresszum.html">Impresszum</a></footer>
+<script>
+const perPage=20;let offset=0,items=[],total=0,running=false;
+const tbody=document.getElementById('results'),message=document.getElementById('message');
+const states=new Map();
+function statusText(x){
+ if(!x)return 'Várakozás';
+ if(x.kind==='low_stock'&&Number.isInteger(x.quantity))return x.quantity+' db a gyártónál';
+ if(x.kind==='in_stock')return 'Készleten – gyártói jelzés';
+ if(x.kind==='out_of_stock')return 'Nincs készleten – gyártói jelzés';
+ if(x.kind==='expected')return 'Várható: '+(x.expected_date||'nincs dátum');
+ if(x.kind==='orderable')return 'Rendelhető'+(x.delivery_days?' · '+x.delivery_days+' munkanap':'');
+ if(x.kind==='out_of_assortment')return 'Kifutott termék';
+ const reason={
+  supplier_sku_mismatch:'Eltérő gyártói cikkszám',
+  supplier_url_unverified:'Hiányzó gyártói termékoldal',
+  manufacturer_stock_not_publicly_verified:'Nincs ellenőrzött gyártói készletadat',
+  online_ordering_unavailable_not_stock:'Az online rendelés nem elérhető – készlet ismeretlen',
+  product_identity_unverified:'Nem sikerült azonosítani a cikkszámot',
+  supplier_request_failed:'A gyártói oldal nem érhető el',
+  supplier_unreachable:'A gyártói oldal nem érhető el',
+  no_public_warehouse_stock:'Nincs nyilvános raktárkészlet',
+  no_public_stock_indicator:'Nincs nyilvános készletjelzés',
+  source_not_verified:'Hiányzó gyártói forrás',
+  checks_not_enabled:'Ellenőrzés letiltva'
+ };
+ return 'Nem ellenőrizhető'+(x.reason?' · '+(reason[x.reason]||'forrás nem olvasható'):'');
+}
+function render(){
+ tbody.replaceChildren();
+ for(const p of items){
+  const x=states.get(p.id);
+  const tr=document.createElement('tr');
+  const a=document.createElement('td');a.textContent=p.name;
+  const b=document.createElement('td');b.textContent=p.manufacturer;const code=document.createElement('small');code.textContent=p.sku;b.append(code);
+  const c=document.createElement('td');const pill=document.createElement('span');
+  pill.className='status '+(x?.kind==='unknown'?'bad':x?'good':'');
+  if(x?.kind==='expected'||x?.kind==='out_of_assortment')pill.className='status warn';
+  pill.textContent=statusText(x);c.append(pill);
+  const d=document.createElement('td');d.className='muted';d.textContent=x?.checked_at?new Date(x.checked_at).toLocaleString('hu-HU'):'–';
+  tr.append(a,b,c,d);tbody.append(tr);
+ }
+ const visible=[...states.values()].filter(Boolean),verified=visible.filter(v=>v.kind!=='unknown').length;
+ document.getElementById('total').textContent=total;
+ document.getElementById('verified').textContent=verified;
+ document.getElementById('unknown').textContent=visible.length-verified;
+ document.getElementById('pending').textContent=Math.max(0,items.length-visible.length);
+ document.getElementById('next').disabled=running||offset+items.length>=total;
+ document.getElementById('refresh').disabled=running;
+}
+async function loadPage(){
+ message.textContent='Terméklista betöltése…';
+ try{
+  const response=await fetch('/api/products?limit='+perPage+'&offset='+offset,{cache:'no-store'});
+  if(!response.ok)throw Error('products unavailable');
+  const data=await response.json();items=data.items||[];total=data.total||0;states.clear();
+  render();message.textContent='Listázott: '+items.length+' / '+total+' termék. Kattints az ellenőrzésre.';
+ }catch{
+  message.textContent='A termék-API nem érhető el. Ezt a monitoroldalt a Cloudflare Workerrel együtt kell futtatni.';
+ }
+}
+async function check(){
+ if(running||!items.length)return;running=true;render();
+ let next=0,completed=0;message.textContent='Gyártói oldalak lekérdezése…';
+ async function worker(){
+  while(next<items.length){
+   const p=items[next++];
+   try{
+    const response=await fetch('/api/stock?id='+encodeURIComponent(p.id),{cache:'no-store'});
+    if(!response.ok)throw Error('HTTP '+response.status);
+    states.set(p.id,await response.json());
+   }catch{states.set(p.id,{kind:'unknown',reason:'supplier_request_failed',checked_at:new Date().toISOString()})}
+   completed++;message.textContent='Ellenőrizve: '+completed+' / '+items.length;render();
+  }
+ }
+ await Promise.all([worker(),worker()]);running=false;render();
+ message.textContent='Ellenőrzés befejezve. A nem ellenőrizhető adatok nem számítanak raktárkészletnek.';
+}
+document.getElementById('refresh').onclick=check;
+document.getElementById('next').onclick=()=>{if(running)return;offset+=perPage;loadPage()};
+loadPage();
+</script>
+</body></html>
