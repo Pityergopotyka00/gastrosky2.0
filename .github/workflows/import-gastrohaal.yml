@@ -1,0 +1,33 @@
+name: Import Gastro Haal with matching official photos
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/import-gastrohaal.mjs'
+      - '.github/workflows/import-gastrohaal.yml'
+permissions:
+  contents: write
+concurrency:
+  group: gastrosky-gastrohaal-import
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 27
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+      - name: Discover real Gastro Haal products and verify manufacturer photos
+        run: node scripts/import-gastrohaal.mjs
+      - name: Run storefront validation
+        run: npm test && npm run build
+      - name: Save accepted product pages and photo evidence
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/catalog-products.json data/gastrohaal-import-report.json
+          git diff --cached --quiet || (git commit -m "Import photo-matched Gastro Haal products excluding Tűzhelyek" && git pull --rebase origin main && git push)
