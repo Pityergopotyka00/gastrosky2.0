@@ -462,25 +462,35 @@ function showQuoteFallback(note){
  quoteFallbackButton.hidden=true;
  quoteCaptcha.replaceChildren();
  quoteFeedback.dataset.state='';
- quoteFeedback.textContent=note||'Az ajánlatkérést közvetlenül a weboldalról küldheted el, levelezőprogram megnyitása nélkül. A funkcióhoz a címzett e-mail-címének egyszeri megerősítése szükséges.';
+ quoteFeedback.textContent=note||'Küldés a weboldalról, levelezőprogram megnyitása nélkül. Az első használathoz az info@gastrosky.hu cím tulajdonosának aktiválnia kell az e-mail továbbítást.';
 }
 async function sendViaFreeFormService(form){
- if(form.companyWebsite)return false;
- const lines=form.items.map(id=>{const p=products.find(p=>p.id===id);return p?p.manufacturer+' – '+p.name+' (SKU: '+p.sku+')':''}).filter(Boolean);
+ if(form.companyWebsite)throw Error('spam_rejected');
+ const lines=form.items.map(id=>{
+  const p=products.find(p=>p.id===id);
+  return p?p.manufacturer+' – '+p.name+' (SKU: '+p.sku+')'+(p.promotion?.kind==='discount_quote_request'?' – kedvezményes ajánlatot kérek':''):'';
+ }).filter(Boolean);
  const payload={
   name:form.name,email:form.email,
   _subject:'GastroSky ajánlatkérés – '+form.items.length+' termék',
   _template:'table',
   _honey:form.companyWebsite,
-  message:'Termékek:\\n'+lines.join('\\n')+'\\n\\nÜzenet:\\n'+form.message
+  message:'Termékek:\n'+lines.join('\n')+'\n\nÜzenet:\n'+(form.message||'—')
  };
  const response=await fetch('https://formsubmit.co/ajax/info@gastrosky.hu',{
-  method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},
-  body:JSON.stringify(payload)
+  method:'POST',
+  headers:{'Content-Type':'application/json','Accept':'application/json'},
+  body:JSON.stringify(payload),
+  signal:AbortSignal.timeout(20000)
  });
- if(!response.ok)throw Error('free_form_service_unavailable');
+ if(!response.ok)throw Error('network_or_provider_error');
  const result=await response.json();
- if(result.success===false||result.success==='false')throw Error(result.message||'form_rejected');
+ const success=result?.success===true||result?.success==='true';
+ if(!success){
+  const message=String(result?.message||'').toLowerCase();
+  if(message.includes('activat')||message.includes('confirm'))throw Error('activation_required');
+  throw Error('provider_rejected_submission');
+ }
  return true;
 }
 async function configureQuoteSender(){
@@ -511,11 +521,11 @@ quoteSendButton.onclick=async()=>{
   try{
    await sendViaFreeFormService(form);
    quoteFeedback.dataset.state='success';
-   quoteFeedback.textContent='Az ajánlatkérést átadtuk az e-mail szolgáltatónak. Az első küldés után az info@gastrosky.hu cím tulajdonosának aktiválnia kell a szolgáltatást a kapott e-mailben. A kézbesítés addig nem garantált.';
+   quoteFeedback.textContent='A szolgáltató elfogadta az ajánlatkérést. Köszönjük! A levél kézbesítése a címzett postafiókjába ettől még nem igazolt.';
    // Keep the selected products until the recipient confirms activation and delivery.
   }catch(e){
    quoteFeedback.dataset.state='error';
-   quoteFeedback.textContent='A közvetlen elküldés most nem sikerült. Választhatod az e-mail alkalmazást is.';
+   quoteFeedback.textContent=e?.message==='activation_required'?'Az e-mail küldése még nem aktív. Az info@gastrosky.hu cím tulajdonosának meg kell nyitnia a FormSubmit aktiváló e-mailjét, és jóvá kell hagynia. Addig a kérés nem érkezik meg automatikusan.':'Nem sikerült elküldeni az ajánlatkérést. Kérjük, próbáld újra később; az e-mail alkalmazásos lehetőség tartalék megoldásként elérhető.';
    quoteFallbackButton.hidden=false;
   }finally{
    quoteSendButton.disabled=false;quoteSendButton.textContent='Ajánlatkérés elküldése';
@@ -536,7 +546,7 @@ quoteSendButton.onclick=async()=>{
   if(quoteWidgetId!==null)window.turnstile?.reset(quoteWidgetId);
  }catch(e){
   quoteFeedback.dataset.state='error';
-  quoteFeedback.textContent='A küldés nem sikerült. Kérjük, próbáld újra, vagy használd az e-mail alkalmazást.';
+  quoteFeedback.textContent='A küldés nem sikerült. Ha a közvetlen e-mail szolgáltatás nincs beállítva, az ajánlatkérés még nem érkezett meg.';
   quoteFallbackButton.hidden=false;
   window.turnstile?.reset(quoteCaptcha);
  }finally{
