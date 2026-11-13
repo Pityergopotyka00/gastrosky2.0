@@ -1,8 +1,6 @@
 name: Sync authorized Maxima and HENDI feeds
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '17 */2 * * *'
 permissions:
   contents: write
 concurrency:
