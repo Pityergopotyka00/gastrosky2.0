@@ -13,12 +13,12 @@ const allowed={
  Maxima:['maxima.com']
 };
 const delay=ms=>new Promise(resolve=>setTimeout(resolve,ms));
-const norm=s=>String(s||'').normalize('NFKC').replace(/[\\s\\u00a0]+/g,' ').toUpperCase().trim();
-const goodUrl=(u,brand)=>{try{const x=new URL(u);return x.protocol==='https:'&&allowed[brand]?.some(d=>x.hostname===d||x.hostname.endsWith('.'+d))&&/\\.(jpg|jpeg|png|webp)(?:$|\\?)/i.test(x.pathname+x.search)?x.href:null}catch{return null}};
+const norm=s=>String(s||'').normalize('NFKC').replace(/[\s\u00a0]+/g,' ').toUpperCase().trim();
+const goodUrl=(u,brand)=>{try{const x=new URL(u);return x.protocol==='https:'&&allowed[brand]?.some(d=>x.hostname===d||x.hostname.endsWith('.'+d))&&/\.(jpg|jpeg|png|webp)(?:$|\?)/i.test(x.pathname+x.search)?x.href:null}catch{return null}};
 const sourceUrl=(u,brand)=>{try{const x=new URL(u);return x.protocol==='https:'&&allowed[brand]?.some(d=>x.hostname===d||x.hostname.endsWith('.'+d))?x.href:null}catch{return null}};
 const imageTags=['data-src','data-lazy-src','data-original','src','data-srcset','srcset'];
 function imageOf($,elem,base,brand){
- const el=$(elem);for(const a of imageTags){let raw=el.attr(a)||'';if(a.includes('srcset'))raw=raw.split(',')[0]?.trim().split(/\\s+/)[0]||'';if(!raw||raw.startsWith('data:'))continue;
+ const el=$(elem);for(const a of imageTags){let raw=el.attr(a)||'';if(a.includes('srcset'))raw=raw.split(',')[0]?.trim().split(/\s+/)[0]||'';if(!raw||raw.startsWith('data:'))continue;
   try{const url=goodUrl(new URL(raw,base).href,brand);if(url)return url}catch{}
  }
  return null;
@@ -38,9 +38,9 @@ async function robotsPermits(url){
  const txt=robotsCache.get(key);if(txt===null)return false;
  // Conservative rules for wildcard user-agent; deny requested path on any matching rule.
  let active=false;
- for(const line of txt.split(/\\r?\\n/)){
+ for(const line of txt.split(/\r?\n/)){
   const s=line.split('#')[0].trim();if(!s)continue;
-  const m=s.match(/^([\\w-]+)\\s*:\\s*(.*)$/i);if(!m)continue;
+  const m=s.match(/^([\w-]+)\s*:\s*(.*)$/i);if(!m)continue;
   if(m[1].toLowerCase()==='user-agent'){active=m[2]==='*';continue}
   if(active&&m[1].toLowerCase()==='disallow'&&m[2].trim()){
    const pattern=m[2].trim().split('*')[0];if(pattern&&u.pathname.startsWith(pattern))return false;
@@ -125,12 +125,12 @@ for(const p of products){
  if(attempted%10===0)console.log('Checked',attempted,'new photos',filled,'unresolved',missed.length);
  await delay(250);
 }
-await writeFile(file,JSON.stringify(products,null,2)+'\\n');
+await writeFile(file,JSON.stringify(products,null,2)+'\n');
 let html=await readFile(htmlFile,'utf8');
-const start=html.indexOf('let products='),end=html.indexOf(';\\nconst search=',start);
+const start=html.indexOf('let products='),end=html.indexOf(';\nconst search=',start);
 if(start<0||end<0)throw Error('Cannot find embedded catalog');
 html=html.slice(0,start)+'let products='+JSON.stringify(products).replace(/</g,'\\u003c')+html.slice(end);
 await writeFile(htmlFile,html);
 const report={checked_at:new Date().toISOString(),total:products.length,existing_images:products.filter(p=>p.image_url).length,new_photos:filled,by_brand:byBrand,unresolved:missed};
-await writeFile(reportFile,JSON.stringify(report,null,2)+'\\n');
+await writeFile(reportFile,JSON.stringify(report,null,2)+'\n');
 console.log('Official image enrichment:',JSON.stringify({checked:attempted,new_photos:filled,unresolved:missed.length,byBrand}));
