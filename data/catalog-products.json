@@ -5902,9 +5902,10 @@
     "availability": null,
     "record_status": "manufacturer_product_reference",
     "source_type": "official_product_page",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://mdb-equipement.com/3830-large_default/maxima-eplucheuse-pommes-de-terre-deluxe-15kg.jpg",
+    "photo_status": "photo_found_reseller_display_permission_pending",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "matching_retailer_product_photo"
   },
   {
     "id": "fagor:19114234",
