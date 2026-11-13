@@ -652,11 +652,7 @@ async function loadFullSupplierCatalog(){
   const loaded=await response.json();
   if(!Array.isArray(loaded)||!loaded.length||!loaded.every(p=>p.id&&p.name&&p.sku&&['Maxima','HENDI','Fagor','Modular','Coldline','Krupps','Aristarco','Sistema Project Italia'].includes(p.manufacturer)))throw Error('Invalid catalog');
   products=loaded;
-  category.replaceChildren();
-  const option=document.createElement('option');option.value='';option.textContent='Minden kategória';category.append(option);
-  for(const c of [...new Set(products.map(p=>p.category).filter(Boolean))].sort()){
-   const opt=document.createElement('option');opt.value=c;opt.textContent=c;category.append(opt);
-  }
+  window.syncCategoriesForManufacturer();
   render();renderQuote();
   autoCheckVisibleProducts();
  } catch(err) {
@@ -676,6 +672,17 @@ async function loadFullSupplierCatalog(){
  const noResults=document.getElementById('categoryNoResults');
  const close=document.getElementById('categoryClose');
  function dismiss(restoreFocus=false){panel.hidden=true;trigger.setAttribute('aria-expanded','false');if(restoreFocus)trigger.focus();}
+ function syncCategoriesForManufacturer(){
+  const previous=category.value;
+  const applicable=[...new Set(products.filter(p=>!manufacturer.value||p.manufacturer===manufacturer.value).map(p=>p.category).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'hu'));
+  category.replaceChildren();
+  const all=document.createElement('option');all.value='';all.textContent='Minden kategória';category.append(all);
+  for(const name of applicable){const option=document.createElement('option');option.value=name;option.textContent=name;category.append(option);}
+  category.value=applicable.includes(previous)?previous:'';
+  draw();
+  if(previous!==category.value)category.dispatchEvent(new Event('change',{bubbles:true}));
+ }
+ window.syncCategoriesForManufacturer=syncCategoriesForManufacturer;
  function draw(){
   const term=input.value.trim().toLocaleLowerCase('hu');
   const counts=new Map();
@@ -701,7 +708,7 @@ async function loadFullSupplierCatalog(){
  close.addEventListener('click',()=>dismiss(true));
  input.addEventListener('input',draw);
  category.addEventListener('change',draw);
- manufacturer.addEventListener('change',draw);
+ manufacturer.addEventListener('change',syncCategoriesForManufacturer);
  new MutationObserver(draw).observe(category,{childList:true});
  document.addEventListener('pointerdown',event=>{if(!panel.hidden&&!picker.contains(event.target))dismiss();});
  document.addEventListener('keydown',event=>{if(event.key==='Escape'&&!panel.hidden){dismiss(true);event.preventDefault();}});
