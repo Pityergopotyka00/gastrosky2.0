@@ -40,3 +40,39 @@ test('Invalid requests rejected before sending',async()=>{
  const response=await handleQuote(request,credentials,async()=>sample);
  assert.equal(response.status,400);
 });
+
+test('Verified quote is accepted by mail provider with correct SKU and reply-to',async()=>{
+ const original=globalThis.fetch;
+ const requests=[];
+ globalThis.fetch=async(url,options)=>{
+  requests.push({url,options});
+  if(url.includes('turnstile'))return new Response(JSON.stringify({success:true}),{status:200,headers:{'content-type':'application/json'}});
+  if(url.includes('resend.com'))return new Response(JSON.stringify({id:'msg_test_100'}),{status:200,headers:{'content-type':'application/json'}});
+  throw new Error('Unexpected outbound endpoint');
+ };
+ try{
+  const data={...okPayload,turnstileToken:'a'.repeat(32)};
+  const request=new Request('https://gastrosky.example/api/quote',{method:'POST',headers:{Origin:'https://gastrosky.example','Content-Type':'application/json'},body:JSON.stringify(data)});
+  const response=await handleQuote(request,credentials,async()=>sample);
+  assert.equal(response.status,202);
+  assert.equal((await response.json()).ok,true);
+  assert.equal(requests.length,2);
+  const body=JSON.parse(requests[1].options.body);
+  assert.equal(body.reply_to,'test@example.com');
+  assert.match(body.text,/09400018/);
+  assert.deepEqual(body.to,['info@gastrosky.hu']);
+ }finally{globalThis.fetch=original}
+});
+test('Provider error never claims successful quotation delivery',async()=>{
+ const original=globalThis.fetch;
+ globalThis.fetch=async(url)=>url.includes('turnstile')?
+  new Response(JSON.stringify({success:true}),{status:200}):
+  new Response(JSON.stringify({message:'unauthorized'}),{status:401});
+ try{
+  const data={...okPayload,turnstileToken:'a'.repeat(32)};
+  const request=new Request('https://gastrosky.example/api/quote',{method:'POST',headers:{Origin:'https://gastrosky.example'},body:JSON.stringify(data)});
+  const response=await handleQuote(request,credentials,async()=>sample);
+  assert.equal(response.status,502);
+  assert.equal((await response.json()).error,'email_delivery_failed');
+ }finally{globalThis.fetch=original}
+});
