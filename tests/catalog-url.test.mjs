@@ -19,6 +19,6 @@ test('Tracking and unsafe unrelated domains are rejected',()=>{
  assert.equal(normalizeSupplierUrl('http://www.hendi.eu/en/new/',hendi),null);
  assert.equal(normalizeSupplierUrl('/en/files/catalog.pdf',hendi),null);
 });
-test('Maxima ignores HENDI pagination parameter',()=>{
- assert.equal(normalizeSupplierUrl('/hu/?p=2',maxima),'https://maxima.com/hu/');
+test('Maxima preserves catalog pagination',()=>{
+ assert.equal(normalizeSupplierUrl('/hu/etterem-es-szalloda/?p=4',maxima),'https://maxima.com/hu/etterem-es-szalloda/?p=4');
 });
