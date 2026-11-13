@@ -20,8 +20,8 @@
     "availability": null,
     "record_status": "research_sample",
     "source_type": "manufacturer_product_page",
-    "image_url": null,
-    "image_source": "pending_supplier_media"
+    "image_url": "https://maxima.com/img/5nErCkrodknvw1f6cFhnaT7iBCazhmKuaOQ5B0KwLk8/resize:fit:265:265/aHR0cHM6Ly9tYXhpbWEuY29tL21lZGlhL2NhdGFsb2cvcHJvZHVjdC8yLzYvMjYxMDE5XzA5NDAwMDE4X2ltZ18wMDEuanBnP3dpZHRoPTI2NSZoZWlnaHQ9MjY1.jpg",
+    "image_source": "manufacturer_og_image"
   },
   {
     "id": "maxima:09402310",
@@ -42,8 +42,8 @@
     "availability": null,
     "record_status": "research_sample",
     "source_type": "manufacturer_product_page",
-    "image_url": null,
-    "image_source": "pending_supplier_media"
+    "image_url": "https://maxima.com/img/u6Z2vqie2yjSUCaivSXoLv4GM59JiN8u1b-1MhWKeY0/resize:fit:265:265/aHR0cHM6Ly9tYXhpbWEuY29tL21lZGlhL2NhdGFsb2cvcHJvZHVjdC9zL3Avc3AtMDA1LTYxNjU2ZTZlY2U5NTIuanBnP3dpZHRoPTI2NSZoZWlnaHQ9MjY1.jpg",
+    "image_source": "manufacturer_og_image"
   },
   {
     "id": "maxima:09300490",
@@ -65,8 +65,8 @@
     "availability": null,
     "record_status": "research_sample",
     "source_type": "manufacturer_product_page",
-    "image_url": null,
-    "image_source": "pending_supplier_media"
+    "image_url": "https://maxima.com/img/2HXuEE6wGNdehKe551950TBI3vEXqB6KRlOizBCQiZ0/resize:fit:265:265/aHR0cHM6Ly9tYXhpbWEuY29tL21lZGlhL2NhdGFsb2cvcHJvZHVjdC8wLzkvMDkzMDA0OTBfMzg0MS5qcGc_d2lkdGg9MjY1JmhlaWdodD0yNjU.jpg",
+    "image_source": "manufacturer_og_image"
   },
   {
     "id": "maxima:09300495",
@@ -88,8 +88,8 @@
     "availability": null,
     "record_status": "research_sample",
     "source_type": "manufacturer_product_page",
-    "image_url": "https://maxima.com/img/nwBXrD-wGsYwT1heKWrI6GD1V3tKGMxlek3BRuyuOLY/resize%3Afit%3A700%3A700/aHR0cHM6Ly9tYXhpbWEuY29tL21lZGlhL2NhdGFsb2cvcHJvZHVjdC8wLzkvMDkzMDA0OTVfMzgwNC5qcGc_d2lkdGg9NzAwJmhlaWdodD03MDA.jpg",
-    "image_source": "Maxima public product page"
+    "image_url": "https://maxima.com/img/i7Yr9mwp2Eedu_6ndJ2WGzBkYg61yucEjLH7cjQbbDc/resize:fit:265:265/aHR0cHM6Ly9tYXhpbWEuY29tL21lZGlhL2NhdGFsb2cvcHJvZHVjdC8wLzkvMDkzMDA0OTVfMzgwNC5qcGc_d2lkdGg9MjY1JmhlaWdodD0yNjU.jpg",
+    "image_source": "manufacturer_og_image"
   },
   {
     "id": "maxima:09300500",
@@ -111,8 +111,8 @@
     "availability": null,
     "record_status": "research_sample",
     "source_type": "manufacturer_product_page",
-    "image_url": null,
-    "image_source": "pending_supplier_media"
+    "image_url": "https://maxima.com/img/JHWNP9Nxg1kfOGGIqybHkDFYEnLd-uCxNbEnmSItpLY/resize:fit:265:265/aHR0cHM6Ly9tYXhpbWEuY29tL21lZGlhL2NhdGFsb2cvcHJvZHVjdC8wLzkvMDkzMDA1MDBfMzc2NS5qcGc_d2lkdGg9MjY1JmhlaWdodD0yNjU.jpg",
+    "image_source": "manufacturer_og_image"
   },
   {
     "id": "maxima:09240050",
@@ -134,8 +134,8 @@
     "availability": null,
     "record_status": "research_sample",
     "source_type": "manufacturer_product_page",
-    "image_url": "https://maxima.com/img/xk4wJfpD4eHfAYjdsvnNZk-xMsyCTMV3Oh0JFUptmec/resize%3Afit%3A700%3A700/aHR0cHM6Ly9tYXhpbWEuY29tL21lZGlhL2NhdGFsb2cvcHJvZHVjdC9zL3Avc3AtMDg5XzIuanBnP3dpZHRoPTcwMCZoZWlnaHQ9NzAw.jpg",
-    "image_source": "Maxima public product page"
+    "image_url": "https://maxima.com/img/wvRGxoBNMvwlYXABiCiPxZ7vV-E8nE5s8Vy1yydZyVA/resize:fit:265:265/aHR0cHM6Ly9tYXhpbWEuY29tL21lZGlhL2NhdGFsb2cvcHJvZHVjdC9zL3Avc3AtMDg5XzIuanBnP3dpZHRoPTI2NSZoZWlnaHQ9MjY1.jpg",
+    "image_source": "manufacturer_og_image"
   },
   {
     "id": "maxima:09240060",
@@ -157,8 +157,8 @@
     "availability": null,
     "record_status": "research_sample",
     "source_type": "manufacturer_product_page",
-    "image_url": null,
-    "image_source": "pending_supplier_media"
+    "image_url": "https://maxima.com/img/5-je-tzmGKerUIo6yEB0wRIag60au3kToN0exVId-Wg/resize:fit:265:265/aHR0cHM6Ly9tYXhpbWEuY29tL21lZGlhL2NhdGFsb2cvcHJvZHVjdC9zL3Avc3AtMDk3XzEuanBnP3dpZHRoPTI2NSZoZWlnaHQ9MjY1.jpg",
+    "image_source": "manufacturer_og_image"
   },
   {
     "id": "maxima:09211005",
@@ -180,8 +180,8 @@
     "availability": null,
     "record_status": "research_sample",
     "source_type": "manufacturer_product_page",
-    "image_url": null,
-    "image_source": "pending_supplier_media"
+    "image_url": "https://maxima.com/img/HAaK_6WbqLWDvpqMqxB3luHl_Fs_AM_8XfvCbNxUX04/resize:fit:265:265/aHR0cHM6Ly9tYXhpbWEuY29tL21lZGlhL2NhdGFsb2cvcHJvZHVjdC9zL3Avc3AtMTAwMS0wOTIxMTAwNV8xXy5qcGc_d2lkdGg9MjY1JmhlaWdodD0yNjU.jpg",
+    "image_source": "manufacturer_og_image"
   },
   {
     "id": "maxima:09211006",
@@ -203,7 +203,7 @@
     "availability": null,
     "record_status": "research_sample",
     "source_type": "manufacturer_product_page",
-    "image_url": null,
-    "image_source": "pending_supplier_media"
+    "image_url": "https://maxima.com/img/v0QVnK4iIEEGjbY_qxlztzhnPa4yETssvX5HmwaIrRs/resize:fit:265:265/aHR0cHM6Ly9tYXhpbWEuY29tL21lZGlhL2NhdGFsb2cvcHJvZHVjdC9zL3Avc3AtMTAwMi0wOTIxMTAwNi5qcGc_d2lkdGg9MjY1JmhlaWdodD0yNjU.jpg",
+    "image_source": "manufacturer_og_image"
   }
 ]
