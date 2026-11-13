@@ -15908,5 +15908,137 @@
     "price": null,
     "availability": null,
     "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09366100",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09366100",
+    "ean": "8720783974665",
+    "name": "Maxima – Gyümölcscentrifuga, két sebesség",
+    "category": "Bárgépek",
+    "description": "Professzionális Maxima termék a gyártó publikus termékoldalán ellenőrzött cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09366100"
+    },
+    "source_url": "https://maxima.com/hu/gyumolcscentrifuga-2-sebesseg-19-cm-es-poharmagassag.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09404025",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09404025",
+    "ean": "8719632126058",
+    "name": "Maxima – Italhűtőszekrény, 700 liter",
+    "category": "Hűtéstechnika",
+    "description": "Professzionális Maxima termék a gyártó publikus termékoldalán ellenőrzött cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09404025"
+    },
+    "source_url": "https://maxima.com/hu/italok-hutoszekreny-700l.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300031",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300031",
+    "ean": "8719632122098",
+    "name": "Maxima – Narancsfacsaró, kézi adagolás",
+    "category": "Bárgépek",
+    "description": "Professzionális Maxima termék a gyártó publikus termékoldalán ellenőrzött cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09300031"
+    },
+    "source_url": "https://maxima.com/hu/narancssarga-gyumolcscentrifuga-kezi-adagolas-csap-segitsegevel.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300032",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300032",
+    "ean": "8719324276016",
+    "name": "Maxima – Narancsfacsaró, automata adagolás",
+    "category": "Bárgépek",
+    "description": "Professzionális Maxima termék a gyártó publikus termékoldalán ellenőrzött cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09300032"
+    },
+    "source_url": "https://maxima.com/hu/narancssarga-gyumolcscentrifuga-automatikus-adagolas-csap-segitsegevel.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09405008",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09405008",
+    "ean": "",
+    "name": "Maxima – Hűtőszekrény 200 L, fekete, üvegajtós",
+    "category": "Hűtéstechnika",
+    "description": "Professzionális Maxima termék a gyártó publikus termékoldalán ellenőrzött cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09405008"
+    },
+    "source_url": "https://maxima.com/hu/hutoszekreny-200l-fekete-uvegajtoval.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09400031",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09400031",
+    "ean": "8720783977963",
+    "name": "Maxima – Hűtőszekrény 700 L, üvegajtós GN 2/1",
+    "category": "Hűtéstechnika",
+    "description": "Professzionális Maxima termék a gyártó publikus termékoldalán ellenőrzött cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09400031"
+    },
+    "source_url": "https://maxima.com/hu/hutoszekreny-700l-3-allithato-polc-2-1-gn-rozsdamentes-acel-uvegajtoval.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
   }
 ]
