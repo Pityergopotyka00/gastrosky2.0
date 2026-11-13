@@ -90,6 +90,10 @@ assert.ok(html.includes('id="kedvezmenyek"'),'Discount request section missing')
 assert.ok(p.filter(x=>x.promotion?.kind==='discount_quote_request').length>=5,'Discount quote products missing');
 assert.ok(script.includes("result?.success==='true'"),'FormSubmit should not treat a false string as success');
 assert.ok(script.includes("activation_required"),'Recipient activation status must be surfaced');
+const declaredStock=script.indexOf('let latestSupplierStock=');
+const firstRender=script.indexOf('render();');
+assert.ok(declaredStock>=0&&declaredStock<firstRender,'Initialize saved stock before first render so quote buttons can bind');
+assert.ok(script.includes('coldline|krupps|aristarco|sistemaproject'),'Persist quote selections for all manufacturers');
 console.log('Validated storefront JS and dynamic catalog of '+p.length+' products');
 
 const monitor=await readFile('stock-monitor.html','utf8');
