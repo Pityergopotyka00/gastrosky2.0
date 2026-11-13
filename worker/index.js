@@ -45,13 +45,21 @@ export default{
    }catch{return json({error:'catalog_unavailable'},503)}
   }
   if(url.pathname==='/api/health'&&request.method==='GET'){
-   let count=0,synced=0;
+   let count=0,records=0,verified=0,feedRecords=0;
    try{
     const products=await readAsset(env,'/data/catalog-products.json',url);
     const stock=await readAsset(env,'/data/supplier-stock-snapshot.json',url);
-    count=products.length;synced=Object.keys(stock).length;
+    count=products.length;
+    const now=Date.now(),freshHours=6*60*60*1000;
+    for(const value of Object.values(stock)){
+      records++;
+      const ts=Date.parse(value.checked_at);
+      if(!Number.isFinite(ts)||ts>now+60000||now-ts>freshHours)continue;
+      if(['in_stock','out_of_stock','low_stock','out_of_assortment'].includes(value.kind))verified++;
+      if(value.source==='authorized_supplier_feed')feedRecords++;
+    }
    }catch{}
-   return json({ok:true,mode:'scheduled_authorized_feed_snapshots',products:count,stock_records:synced,live_stock_enabled:synced>0});
+   return json({ok:true,mode:'scheduled_supplier_snapshot',products:count,stock_records:records,verified_fresh_records:verified,authorized_feed_records:feedRecords,live_stock_enabled:verified>0});
   }
   if(env.ASSETS)return env.ASSETS.fetch(request);
   return new Response('Not found',{status:404});
