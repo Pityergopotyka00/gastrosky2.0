@@ -60,29 +60,34 @@ const add=document.createElement('button');add.type='button';add.className='butt
 acts.append(add);d.append(c,h,sku,desc,spec,status,acts);card.append(pic,d);grid.append(card)}}
 function showDetail(p){document.getElementById('detailName').textContent=p.name;const d=document.getElementById('detailText');d.replaceChildren();const s=document.createElement('p');s.textContent=p.manufacturer+' · Cikkszám: '+p.sku+' · EAN: '+p.ean;const desc=document.createElement('p');desc.textContent=p.description;d.append(s,desc);for(const [k,v] of Object.entries(p.specifications||{})){const row=document.createElement('p');row.textContent=k+': '+v;d.append(row)}document.getElementById('detail').showModal()}
 document.getElementById('close').onclick=()=>document.getElementById('detail').close();search.addEventListener('input',render);category.addEventListener('change',render);manufacturer.addEventListener('change',render);render();
-async function refreshStockFor(id){
- const badge=[...document.querySelectorAll('.status[data-id]')].find(el=>el.dataset.id===id);
- if(!badge)return;
- try {
-  const response=await fetch('/api/stock?id='+encodeURIComponent(id),{cache:'no-store'});
-  if(!response.ok)throw Error('api_error');
-  const item=await response.json();
-  const label=(item.kind==='low_stock'||item.kind==='in_stock')?'Készleten':
-    item.kind==='out_of_stock'?'Nincs készleten':
-    item.kind==='out_of_assortment'?'Kifutott termék':
-    'Elérhetőség egyeztetés alapján';
-  badge.dataset.state=item.kind;badge.textContent=label+(item.kind!=='unknown'&&item.checked_at?' · Ellenőrizve: '+new Date(item.checked_at).toLocaleString('hu-HU'):'');
- } catch {badge.textContent='Elérhetőség egyeztetés alapján';}
+// Public pages never request supplier sites. A single snapshot covers all products.
+let latestSupplierStock={};
+function applySavedStock(){
+ const now=Date.now();
+ for(const badge of document.querySelectorAll('.status[data-id]')){
+  const item=latestSupplierStock[badge.dataset.id];
+  const observed=item?.checked_at?Date.parse(item.checked_at):NaN;
+  const fresh=Number.isFinite(observed)&&observed<=now+60000&&now-observed<=6*60*60*1000;
+  const kind=fresh?item.kind:'unknown';
+  badge.dataset.state=kind;
+  badge.textContent=(kind==='in_stock'||kind==='low_stock')?'Készleten':
+   kind==='out_of_stock'?'Nincs készleten':
+   kind==='out_of_assortment'?'Kifutott termék':
+   'Elérhetőség egyeztetés alapján';
+ }
 }
-async function autoCheckVisibleProducts(){
- const ids=[...document.querySelectorAll('.status[data-id]')].slice(0,12).map(node=>node.dataset.id);
- // At most two requests at once; each Worker response is supplier-cacheable.
- let next=0;
- async function worker(){while(next<ids.length){const id=ids[next++];await refreshStockFor(id);}}
- await Promise.all([worker(),worker()]);
+async function refreshSavedStock(){
+ try{
+  const response=await fetch('/data/supplier-stock-snapshot.json',{cache:'no-store'});
+  if(!response.ok)throw Error('Stock snapshot is missing');
+  const body=await response.json();
+  if(!body||typeof body!=='object'||Array.isArray(body))throw Error('Invalid stock snapshot');
+  latestSupplierStock=body;applySavedStock();
+ }catch{latestSupplierStock={};applySavedStock();}
 }
-// Automatically check stock status on page load. No manual button is required.
-autoCheckVisibleProducts();
+function autoCheckVisibleProducts(){applySavedStock();}
+refreshSavedStock();
+setInterval(refreshSavedStock,5*60*1000);
 
 let quoteIds=[];
 try{const saved=JSON.parse(localStorage.getItem('gastrosky-quote-v1')||'[]');if(Array.isArray(saved))quoteIds=saved.filter(id=>products.some(p=>p.id===id)).slice(0,50);}catch{}
