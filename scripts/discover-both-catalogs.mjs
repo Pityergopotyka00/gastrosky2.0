@@ -26,7 +26,7 @@ const oldProducts=await readJson(PRODUCT_PATH,[]);
 const existing=new Map(oldProducts.map(p=>[p.id,p]));
 const state=await readJson(STATE_PATH,{version:1,Maxima:{queue:[],seen:[]},HENDI:{queue:[],seen:[]}});
 const vendors=[
-  {name:'Maxima',origin:'https://maxima.com',prefix:'/hu/',seeds:['https://maxima.com/hu/','https://maxima.com/hu/etterem-es-szalloda/','https://maxima.com/hu/hutes/','https://maxima.com/hu/fozoberendezes/','https://maxima.com/hu/elelmiszer-feldolgozas/']},
+  {name:'Maxima',origin:'https://maxima.com',prefix:'/hu/',seeds:['https://maxima.com/hu/','https://maxima.com/hu/uj-termekek/',''https://maxima.com/hu/etterem-es-szalloda/','https://maxima.com/hu/hutes/','https://maxima.com/hu/fozoberendezes/','https://maxima.com/hu/elelmiszer-feldolgozas/']},
   {name:'HENDI',origin:'https://www.hendi.eu',prefix:'/en/',seeds:['https://www.hendi.eu/en/','https://www.hendi.eu/en/new/','https://www.hendi.eu/en/kitchen-appliances/','https://www.hendi.eu/en/cooling/']}
 ];
 const normalizeUrl=normalizeSupplierUrl;
