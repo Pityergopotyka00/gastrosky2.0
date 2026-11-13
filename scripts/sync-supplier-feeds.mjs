@@ -88,7 +88,7 @@ function mapProduct(r,manufacturer){
  if(!name)return null;
  const id=manufacturer.toLowerCase()+':'+sku;
  const prev=products.get(id);
- const image=publicUrl(pick(r,['imageurl','image','picture','pictureurl','productpicture','mainimage','photo','photo1','image1','img']));
+ const image=publicUrl(pick(r,['imageurl','imagelink','image','picture','pictureurl','productpicture','productimage','mainimage','mainpicture','photo','photo1','image1','img']));
  const source=publicUrl(pick(r,['url','producturl','link','productlink','sourceurl']));
  const ean=pick(r,['ean','gtin','barcode','ean13'])||prev?.ean||'';
  const desc=pick(r,['description','shortdescription','text','productdescription']);
@@ -119,8 +119,10 @@ for(const feed of feeds){
  let mapped=0,withPhotos=0,knownStock=0;const observedAt=new Date().toISOString();
  for(const rawRecord of records){
   const r=normalize(rawRecord);const p=mapProduct(r,feed.manufacturer);
-  if(!p)continue;
-  mapped++;if(p.image_url)withPhotos++;products.set(p.id,p);
+  if(!p||!p.image_url)continue;
+  // Avoid publishing unpictured items or unsafe restricted products.
+  if(/\b(?:knife|knives|blade|dagger|machete|k[eé]s|peng[eé])\b/i.test(p.name))continue;
+  mapped++;withPhotos++;products.set(p.id,p);
   const status=statusFromRecord(r);
   if(status.kind!=='unknown')knownStock++;
   stocks[p.id]={id:p.id,sku:p.sku,kind:status.kind,quantity:status.quantity,expected_date:null,reason:status.kind==='unknown'?'supplier_feed_no_explicit_stock':null,checked_at:observedAt,source:'authorized_supplier_feed'};
