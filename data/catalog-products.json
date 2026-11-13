@@ -1980,14 +1980,14 @@
       "Elektromos teljesítmény": "12,7 kW",
       "Méret": "430 × 585 × 850 mm"
     },
-    "image_url": null,
+    "image_url": "https://www.hellopro.fr/images/produit-2/5/7/4/friteuse-electrique-professionnelle-25-litres-inox-fagor-fe-25-8158475.jpg",
     "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1",
     "source_type": "official_2026_foodservice_catalogue",
     "record_status": "published_model_data",
     "price": null,
     "availability": null,
-    "image_source": "awaiting_verified_manufacturer_photo",
-    "photo_status": "product_photo_pending",
+    "image_source": "matching_retailer_product_photo",
+    "photo_status": "matching_model_retailer_image_http_not_tested",
     "publication_status": "public_product_details"
   },
   {
