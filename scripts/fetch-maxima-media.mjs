@@ -1,28 +1,44 @@
-// Refresh product photo links from the manufacturers' public metadata.
-// Use only if GastroSky has distribution/display rights for supplier media.
+// Retrieves each product's own OG image metadata. Updates JSON and standalone HTML.
+// Automated downloading/redistribution of supplier images requires dealer permission.
 import {readFile,writeFile} from 'node:fs/promises';
-const path='data/maxima-products.json';
-const products=JSON.parse(await readFile(path,'utf8'));
-const unescape=s=>s.replace(/&amp;/g,'&').replace(/&quot;/g,'"');
-const originAllowed=url=>{try{const u=new URL(url);return u.protocol==='https:' && (u.hostname==='maxima.com'||u.hostname.endsWith('.maxima.com'))}catch{return false}};
-const parseMeta=(html)=>{
- const tags=[...html.matchAll(/<meta\b[^>]+>/gi)].map(m=>m[0]);
- const tag=tags.find(t=>/\b(?:property|name)=["'](?:og:image|twitter:image)["']/i.test(t));
- const image=tag?.match(/\bcontent=["']([^"']+)["']/i)?.[1];
- if(!image)return null;
- return unescape(image);
-};
-let found=0;
-for(const p of products){
- if(!originAllowed(p.source_url)){console.warn('Skipping invalid supplier source',p.sku);continue}
- try{
-  const res=await fetch(p.source_url,{headers:{Accept:'text/html'}});
-  if(!res.ok){console.warn('HTTP',res.status,p.sku);continue}
-  const image=parseMeta(await res.text());
-  if(image&&originAllowed(image)){p.image_url=image;p.image_source='manufacturer_og_image';found++;console.log('Image',p.sku,image)}
-  else console.log('No usable supplier image',p.sku);
- }catch(e){console.warn('Could not fetch',p.sku,String(e))}
- await new Promise(r=>setTimeout(r,800));
+const dataFile='data/maxima-products.json';
+const htmlFile='index.html';
+const products=JSON.parse(await readFile(dataFile,'utf8'));
+const sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms));
+function isMaxima(url) {
+ try {const u=new URL(url);return u.protocol==='https:'&&(u.hostname==='maxima.com'||u.hostname.endsWith('.maxima.com'));}catch{return false}
 }
-await writeFile(path,JSON.stringify(products,null,2)+'\n');
-console.log('Refreshed',found,'images. Verify permissions and each image visually before publication.');
+function decode(s){return s.replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#x27;|&#39;/g,"'")}
+function imageFrom(html,source){
+ // Magento's SEO metadata is normally in the initial HTML response.
+ const tags=html.match(/<meta\b[^>]*>/gi)||[];
+ for(const tag of tags){
+  if(!/\b(?:property|name)\s*=\s*["'](?:og:image|twitter:image)["']/i.test(tag))continue;
+  const match=tag.match(/\bcontent\s*=\s*["']([^"']+)["']/i);
+  if(match){const image=new URL(decode(match[1]),source).href;if(isMaxima(image))return image;}
+ }
+ return null;
+}
+let updated=0,failed=0;
+for(const p of products){
+ try{
+  if(!isMaxima(p.source_url))throw new Error('invalid product source');
+  const response=await fetch(p.source_url,{headers:{Accept:'text/html','User-Agent':'GastroSkyCatalogMedia/0.2 (merchant catalog migration)'},signal:AbortSignal.timeout(15000)});
+  if(!response.ok)throw new Error('HTTP '+response.status);
+  const html=await response.text();
+  if(!html.includes(p.sku))throw new Error('SKU not found in supplier product page');
+  const photo=imageFrom(html,response.url||p.source_url);
+  if(!photo)throw new Error('No usable official og:image');
+  p.image_url=photo;p.image_source='manufacturer_og_image';updated++;
+  console.log('OK',p.sku,photo);
+ }catch(e){failed++;console.warn('FAILED',p.sku,e.message)}
+ await sleep(900);
+}
+await writeFile(dataFile,JSON.stringify(products,null,2)+'\n');
+let index=await readFile(htmlFile,'utf8');
+const start=index.indexOf('const products=');
+const end=index.indexOf(';\nconst search=',start);
+if(start<0||end<0)throw new Error('Cannot find embedded product data in HTML');
+index=index.slice(0,start)+'const products='+JSON.stringify(products).replace(/</g,'\\u003c')+index.slice(end);
+await writeFile(htmlFile,index);
+console.log('Updated',updated,'official image links;',failed,'unresolved. Review photo licensing and visuals.');
