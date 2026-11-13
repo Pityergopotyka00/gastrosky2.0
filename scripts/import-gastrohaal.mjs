@@ -116,7 +116,7 @@ for(const [url,listingName] of productLinks){
   if(!productCode)continue;
   const id='gastrohaal:'+productCode;
   // Owner-excluded accessories and DEZINFLEX M listings; do not re-import.
-  if(new Set(['280','282','283','284']).has(productCode))continue;
+  if(new Set(['275','280','282','283','284','285']).has(productCode))continue;
   if(known.has(id))continue;
   const title=normalize($('h1').first().text())||normalize($('h2').first().text())||listingName;
   const detailTitle=normalize($('h2').first().text());
