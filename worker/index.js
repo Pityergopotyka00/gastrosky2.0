@@ -2,6 +2,7 @@
 // Manufacturer data is never treated as a guaranteed warehouse balance.
 import products from '../data/catalog-products.json';
 import {parseMaximaAvailability} from './availability.js';
+import {parseHendiAvailability} from './hendi-availability.js';
 
 const catalog = new Map(products.map(p=>[p.id,p]));
 const headers = {'content-type':'application/json; charset=utf-8','cache-control':'no-store','x-content-type-options':'nosniff'};
@@ -16,7 +17,6 @@ async function verifySupplierPage(p){
  // Live supplier-stock checking is opt-in: do not start automated requests until
  // the seller has permission and a verified availability extraction method.
  if(p.manufacturer==='Maxima'&&p.stock_source_status==='needs_correct_product_url')return missing(p,'supplier_sku_mismatch',now);
- if(p.manufacturer==='HENDI')return missing(p,'manufacturer_stock_not_publicly_verified',now);
  try{
   const res=await fetch(u.toString(),{headers:{Accept:'text/html','Accept-Language':'hu-HU,hu;q=0.9'},redirect:'follow',signal:AbortSignal.timeout(12000)});
   if(!res.ok)return missing(p,'supplier_http_'+res.status,now);
@@ -26,7 +26,7 @@ async function verifySupplierPage(p){
   if(!contentType.includes('text/html'))return missing(p,'non_html_supplier_page',now);
   const html=await res.text();
   if(html.length>2500000)return missing(p,'oversized_page',now);
-  const result=parseMaximaAvailability(html,p.sku);
+  const result=p.manufacturer==='HENDI'?parseHendiAvailability(html,p.sku):parseMaximaAvailability(html,p.sku);
   return {id:p.id,sku:p.sku,supplier:p.manufacturer,kind:result.kind,quantity:result.quantity,expected_date:result.expected_date,delivery_days:result.delivery_days??null,reason:result.reason,checked_at:now};
  }catch(e){return missing(p,e.name==='TimeoutError'?'timeout':'supplier_request_failed',now)}
 }
