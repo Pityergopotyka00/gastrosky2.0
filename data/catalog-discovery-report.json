@@ -1,5 +1,25 @@
 {
-  "status": "awaiting_first_completed_discovery",
-  "catalog_count": 28,
-  "suppliers": {}
+  "checked_at": "2026-11-13T21:10:08.226Z",
+  "suppliers": {
+    "Maxima": {
+      "status": "no_permitted_pages",
+      "checked": 0,
+      "added": 0,
+      "updated": 0,
+      "pending": 0,
+      "seen": 0
+    },
+    "HENDI": {
+      "status": "no_permitted_pages",
+      "checked": 0,
+      "added": 0,
+      "updated": 0,
+      "pending": 0,
+      "seen": 0
+    }
+  },
+  "catalog_count": 562,
+  "new_products": 0,
+  "updated_products": 0,
+  "products_with_image_url": 177
 }

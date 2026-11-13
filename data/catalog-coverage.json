@@ -7,7 +7,7 @@
       "products": 16,
       "verified_products": 16,
       "model_only": 0,
-      "with_photo_url": 15,
+      "with_photo_url": 16,
       "missing_to_target": 34
     },
     "HENDI": {
@@ -69,6 +69,6 @@
   },
   "complete": false,
   "all_entries_have_photos": false,
-  "notes": "Tecnodom entries are official Horizontal/Vertical product families rather than confirmed individual SKUs; photos, variant specs, prices and stock remain unverified. All product images and display rights must be approved before publishing.",
+  "notes": "Model-only entries are official model identifiers awaiting product-level SKU/spec/photo verification. Photo URL presence does not guarantee a working image or display rights. Do not represent model-only entries as verified individual SKUs.",
   "issues": []
 }
