@@ -1824,14 +1824,14 @@
       "Hálózat": "230 V · 1+N",
       "Méret": "175 × 485 × 270 mm"
     },
-    "image_url": null,
+    "image_url": "https://www.hellopro.fr/images/produit-2/0/8/4/friteuse-electrique-professionnelle-4-litres-inox-fagor-fe-4-8158480.jpg",
     "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1",
     "source_type": "official_2026_foodservice_catalogue",
     "record_status": "published_model_data",
     "price": null,
     "availability": null,
-    "image_source": "awaiting_verified_manufacturer_photo",
-    "photo_status": "product_photo_pending",
+    "image_source": "matching_retailer_product_photo",
+    "photo_status": "model_matched_external_image_http_not_tested",
     "publication_status": "public_product_details"
   },
   {
@@ -2016,7 +2016,7 @@
     "price": null,
     "availability": null,
     "image_source": "official_modular_exact_model_image",
-    "photo_status": "official_model_matched",
+    "photo_status": "model_matched_external_image_http_not_tested",
     "publication_status": "public_product_details"
   },
   {
@@ -2068,13 +2068,13 @@
       "Felület": "Sima, krómozott"
     },
     "source_url": "https://www.modular.it/coldline/product/print/68473?language=en",
-    "image_url": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17108__product-thumbnail/MP01372121009_Fun_600_Fry_top_elettirco_piastra_liscia_cromata_modulo_60_mod.png",
     "source_type": "manufacturer_product_sheet",
     "record_status": "published_model_data",
     "price": null,
     "availability": null,
-    "image_source": "awaiting_verified_manufacturer_photo",
-    "photo_status": "product_photo_pending",
+    "image_source": "official_modular_exact_model_image",
+    "photo_status": "model_matched_external_image_http_not_tested",
     "publication_status": "public_product_details"
   },
   {
@@ -2097,13 +2097,13 @@
       "Gázcsatlakozás": "1/2″"
     },
     "source_url": "https://www.modular.it/coldline/product/print/68433?language=en",
-    "image_url": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17068__product-thumbnail/MP01372111007_Fun_600_Fry_top_gas_piastra_liscia_rigata_cromata_modulo_60_mod.png",
     "source_type": "manufacturer_product_sheet",
     "record_status": "published_model_data",
     "price": null,
     "availability": null,
-    "image_source": "awaiting_verified_manufacturer_photo",
-    "photo_status": "product_photo_pending",
+    "image_source": "official_modular_exact_model_image",
+    "photo_status": "model_matched_external_image_http_not_tested",
     "publication_status": "public_product_details"
   },
   {
@@ -2126,13 +2126,13 @@
       "Hálózat": "380–415 V · 3N · 50–60 Hz"
     },
     "source_url": "https://www.modular.it/coldline/product/print/68358?language=en",
-    "image_url": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16994__product-thumbnail/MP01292121000_Fun_600_Friggitrice_elettrica_modulo_ECO_30_mod.png",
     "source_type": "manufacturer_product_sheet",
     "record_status": "published_model_data",
     "price": null,
     "availability": null,
-    "image_source": "awaiting_verified_manufacturer_photo",
-    "photo_status": "product_photo_pending",
+    "image_source": "official_modular_exact_model_image",
+    "photo_status": "model_matched_external_image_http_not_tested",
     "publication_status": "public_product_details"
   },
   {
@@ -2155,13 +2155,13 @@
       "Gázcsatlakozás": "1/2″"
     },
     "source_url": "https://www.modular.it/coldline/product/print/68352?language=en",
-    "image_url": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16988__product-thumbnail/MP01292111000_Fun_600_Friggitrice_gas_modulo_30_mod.png",
     "source_type": "manufacturer_product_sheet",
     "record_status": "published_model_data",
     "price": null,
     "availability": null,
-    "image_source": "awaiting_verified_manufacturer_photo",
-    "photo_status": "product_photo_pending",
+    "image_source": "official_modular_exact_model_image",
+    "photo_status": "model_matched_external_image_http_not_tested",
     "publication_status": "public_product_details"
   }
 ]
