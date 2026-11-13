@@ -398,7 +398,7 @@ refreshSavedStock();
 setInterval(refreshSavedStock,5*60*1000);
 
 let quoteIds=[];
-try{const saved=JSON.parse(localStorage.getItem('gastrosky-quote-v1')||'[]');if(Array.isArray(saved))quoteIds=saved.filter(id=>typeof id==='string'&&/^(maxima|hendi):[\w.-]{1,80}$/i.test(id)).filter((id,i,items)=>items.indexOf(id)===i).slice(0,40);}catch{}
+try{const saved=JSON.parse(localStorage.getItem('gastrosky-quote-v1')||'[]');if(Array.isArray(saved))quoteIds=saved.filter(id=>typeof id==='string'&&/^(maxima|hendi|fagor|modular):[\w.-]{1,80}$/i.test(id)).filter((id,i,items)=>items.indexOf(id)===i).slice(0,40);}catch{}
 const quoteDialog=document.getElementById('quotePanel');
 const quoteCount=document.getElementById('quoteCount');
 function saveQuote(){try{localStorage.setItem('gastrosky-quote-v1',JSON.stringify(quoteIds));}catch{}renderQuote();}
