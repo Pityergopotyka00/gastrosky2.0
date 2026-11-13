@@ -164,7 +164,13 @@
     "source_type": "manufacturer_product_page",
     "image_url": "https://hendi.xcdn.nl/RM700%2C700/-/470909.jpg",
     "image_source": "hendi_official_product_media",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "promotion": {
+      "kind": "discount_quote_request",
+      "label": "Kedvezményes ajánlat kérhető",
+      "status": "subject_to_quote",
+      "price_verified": false
+    }
   },
   {
     "id": "maxima:09100000",
@@ -706,7 +712,13 @@
     "source_type": "manual_manufacturer_catalog_research",
     "record_status": "sku_image_filename_verified",
     "price": null,
-    "availability": null
+    "availability": null,
+    "promotion": {
+      "kind": "discount_quote_request",
+      "label": "Kedvezményes ajánlat kérhető",
+      "status": "subject_to_quote",
+      "price_verified": false
+    }
   },
   {
     "id": "hendi:232118",
@@ -1065,7 +1077,13 @@
     "source_type": "manual_manufacturer_catalog_research",
     "record_status": "sku_image_filename_verified",
     "price": null,
-    "availability": null
+    "availability": null,
+    "promotion": {
+      "kind": "discount_quote_request",
+      "label": "Kedvezményes ajánlat kérhető",
+      "status": "subject_to_quote",
+      "price_verified": false
+    }
   },
   {
     "id": "hendi:221600",
@@ -1083,7 +1101,13 @@
     "source_type": "manual_manufacturer_catalog_research",
     "record_status": "sku_image_filename_verified",
     "price": null,
-    "availability": null
+    "availability": null,
+    "promotion": {
+      "kind": "discount_quote_request",
+      "label": "Kedvezményes ajánlat kérhető",
+      "status": "subject_to_quote",
+      "price_verified": false
+    }
   },
   {
     "id": "hendi:227206",
@@ -1140,7 +1164,13 @@
     "source_type": "manual_manufacturer_catalog_research",
     "record_status": "sku_image_filename_verified",
     "price": null,
-    "availability": null
+    "availability": null,
+    "promotion": {
+      "kind": "discount_quote_request",
+      "label": "Kedvezményes ajánlat kérhető",
+      "status": "subject_to_quote",
+      "price_verified": false
+    }
   },
   {
     "id": "hendi:240441",
@@ -1161,7 +1191,13 @@
     "source_type": "manual_manufacturer_catalog_research",
     "record_status": "sku_image_filename_verified",
     "price": null,
-    "availability": null
+    "availability": null,
+    "promotion": {
+      "kind": "discount_quote_request",
+      "label": "Kedvezményes ajánlat kérhető",
+      "status": "subject_to_quote",
+      "price_verified": false
+    }
   },
   {
     "id": "hendi:240472",
@@ -1245,7 +1281,13 @@
     "source_type": "manual_manufacturer_catalog_research",
     "record_status": "sku_image_filename_verified",
     "price": null,
-    "availability": null
+    "availability": null,
+    "promotion": {
+      "kind": "discount_quote_request",
+      "label": "Kedvezményes ajánlat kérhető",
+      "status": "subject_to_quote",
+      "price_verified": false
+    }
   },
   {
     "id": "hendi:263501",
@@ -1266,7 +1308,13 @@
     "source_type": "manual_manufacturer_catalog_research",
     "record_status": "sku_image_filename_verified",
     "price": null,
-    "availability": null
+    "availability": null,
+    "promotion": {
+      "kind": "discount_quote_request",
+      "label": "Kedvezményes ajánlat kérhető",
+      "status": "subject_to_quote",
+      "price_verified": false
+    }
   },
   {
     "id": "hendi:263594",
