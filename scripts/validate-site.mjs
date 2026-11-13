@@ -50,7 +50,7 @@ for (const x of p) {
  if((x.manufacturer==='Fagor'||x.manufacturer==='Modular')&&!x.image_url)assert.equal(x.photo_status,'product_photo_pending','Missing photo status must be explicit: '+x.id);
  const image=x.image_url?new URL(x.image_url):null;
  const isMaxima=x.manufacturer==='Maxima';
- const manufacturerHosts=isMaxima?['maxima.com']:x.manufacturer==='HENDI'?['hendi.eu','www.hendi.eu','hendi.xcdn.nl']:x.manufacturer==='Modular'?['modular.it','www.modular.it','thenicekitchen.com','www.thenicekitchen.com']:x.manufacturer==='Fagor'?['fagorprofessional.com','www.fagorprofessional.com']:[];
+ const manufacturerHosts=isMaxima?['maxima.com']:x.manufacturer==='HENDI'?['hendi.eu','www.hendi.eu','hendi.xcdn.nl']:x.manufacturer==='Modular'?['modular.it','www.modular.it','thenicekitchen.com','www.thenicekitchen.com']:x.manufacturer==='Fagor'?['fagorprofessional.com','www.fagorprofessional.com']:x.manufacturer==='Coldline'?['coldline.it','www.coldline.it']:x.manufacturer==='Krupps'?['krupps.com','www.krupps.com']:[];
  const manuallyMatchedRetailPhoto=(isMaxima||x.manufacturer==='Fagor')&&x.image_source==='matching_retailer_product_photo';
  const retailerHosts=['static.materiel-horeca.com','images.metro-marketplace.eu','cubosupplies.com','www.hellopro.fr','tirol.bg','www.wea56.com','www.materielhoreca.com','www.audores.lt'];
  if(image)assert.ok(manufacturerHosts.includes(image.hostname)||(manuallyMatchedRetailPhoto&&retailerHosts.includes(image.hostname)),'Unexpected product photo host: '+x.id);
@@ -60,7 +60,7 @@ for (const x of p) {
  if(x.source_url){
   const source=new URL(x.source_url);
   assert.equal(source.protocol,'https:','Unsafe manufacturer product URL: '+x.id);
-  const allowedSourceHosts={Maxima:['maxima.com'],HENDI:['hendi.eu','www.hendi.eu'],Modular:['modular.it','www.modular.it','thenicekitchen.com','www.thenicekitchen.com'],Fagor:['fagorprofessional.com','www.fagorprofessional.com']};
+  const allowedSourceHosts={Maxima:['maxima.com'],HENDI:['hendi.eu','www.hendi.eu'],Modular:['modular.it','www.modular.it','thenicekitchen.com','www.thenicekitchen.com'],Fagor:['fagorprofessional.com','www.fagorprofessional.com'],Coldline:['coldline.it','www.coldline.it'],Krupps:['krupps.com','www.krupps.com']};
   assert.ok((allowedSourceHosts[x.manufacturer]||[]).includes(source.hostname),'Incorrect product manufacturer URL: '+x.id);
  }
 }
@@ -74,7 +74,7 @@ assert.ok(!script.includes('source.href=p.source_url'),'Supplier website links m
 for(const section of ['gs-header-inner','gs-hero-showcase','gs-intro-strip','gs-catalog-heading','gs-process-grid','gs-bottom-cta','gs-footer-main']){
  assert.ok(html.includes(section),'Premium storefront section missing: '+section);
 }
-for(const brand of ['Maxima','HENDI','Fagor','Modular'])assert.ok(html.includes('value="'+brand+'"'),'Brand filter missing: '+brand);
+for(const brand of ['Maxima','HENDI','Fagor','Modular','Coldline','Krupps'])assert.ok(html.includes('value="'+brand+'"'),'Brand filter missing: '+brand);
 for(const action of ['id="search"','id="category"','id="manufacturer"','id="sortBy"','id="quoteOpen"','id="quotePanel"']){
  assert.ok(html.includes(action),'Important catalog/quote control missing: '+action);
 }
