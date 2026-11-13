@@ -13099,14 +13099,17 @@
       "Termékcsoport": "Hűtött munkapultok",
       "Gyártói modell/család": "TAVOLO 60"
     },
-    "source_url": "https://www.tecnodomspa.com/en/orizzontale.html",
+    "source_url": "https://www.tecnodomspa.com/en/orizzontale/tavoli-refrigerati/tavolo-60.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/tavoli-refrigerati/tavolo-60/TAVOLI-REFRIGERATI-tavolo-60-bann.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "image_source": "official_manufacturer_model_page",
+    "photo_status": "manufacturer_model_photo_url_found_permission_to_confirm",
+    "photo_match_type": "official_manufacturer_model_page"
   },
   {
     "id": "tecnodom:tavolo-eko-pizza",
