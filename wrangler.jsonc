@@ -1,14 +1,10 @@
 {
-  // On-demand supplier page verification only. No scheduled bulk crawling.
-  // Unknown or inaccessible supplier inventory is never reported as available.
+  // The stock job is scheduled, but stays safely disabled until D1 exists
+  // and the supplier permits automated page checks or provides an authorized feed.
   "name": "gastrosky2-0",
   "main": "worker/index.js",
-  "assets": {
-    "directory": "./dist",
-    "binding": "ASSETS"
-  },
+  "assets": { "directory": "./dist", "binding": "ASSETS" },
   "compatibility_date": "2026-11-13",
-  "vars": {
-    "ENABLE_SITE_CHECKS": "true"
-  }
+  "triggers": { "crons": ["*/5 * * * *"] },
+  "vars": { "ENABLE_SCHEDULED_SYNC": "false" }
 }
