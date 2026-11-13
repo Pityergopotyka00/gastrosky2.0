@@ -93,6 +93,8 @@ assert.ok(script.includes("activation_required"),'Recipient activation status mu
 const declaredStock=script.indexOf('let latestSupplierStock=');
 const firstRender=script.indexOf('render();');
 assert.ok(declaredStock>=0&&declaredStock<firstRender,'Initialize saved stock before first render so quote buttons can bind');
+const declaredVisibleLimit=script.indexOf('let visibleLimit=40;');
+assert.ok(declaredVisibleLimit>=0&&declaredVisibleLimit<firstRender,'Initialize visibleLimit before first render so quote buttons can bind');
 assert.ok(script.includes('coldline|krupps|aristarco|sistemaproject'),'Persist quote selections for all manufacturers');
 console.log('Validated storefront JS and dynamic catalog of '+p.length+' products');
 
