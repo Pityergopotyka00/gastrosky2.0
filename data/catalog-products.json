@@ -2838,9 +2838,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://img.archiexpo.com/images_ae/photo-mg/49951-19130052.jpg",
+    "image_source": "matching_retailer_product_photo",
+    "photo_status": "model_matched_photo_rights_review",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
