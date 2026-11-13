@@ -11,7 +11,8 @@ const feeds=[
   {manufacturer:'Modular',url:process.env.MODULAR_FEED_URL},
   {manufacturer:'Coldline',url:process.env.COLDLINE_FEED_URL},
   {manufacturer:'Krupps',url:process.env.KRUPPS_FEED_URL},
-  {manufacturer:'Aristarco',url:process.env.ARISTARCO_FEED_URL}
+  {manufacturer:'Aristarco',url:process.env.ARISTARCO_FEED_URL},
+  {manufacturer:'Sistema Project Italia',url:process.env.SISTEMA_PROJECT_FEED_URL}
 ];
 const productFile='data/catalog-products.json';
 const stockFile='data/supplier-stock-snapshot.json';
@@ -91,7 +92,7 @@ function mapProduct(r,manufacturer){
  if(!sku||sku.length>80)return null;
  const name=pick(r,['productname','name','title','producttitle','descriptiontitle']);
  if(!name)return null;
- const id=manufacturer.toLowerCase()+':'+sku;
+ const id=(manufacturer==='Sistema Project Italia'?'sistemaproject':manufacturer.toLowerCase())+':'+sku.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
  const prev=products.get(id);
  const image=publicUrl(pick(r,['imageurl','imagelink','image','picture','pictureurl','productpicture','productimage','mainimage','mainpicture','photo','photo1','image1','img']));
  const source=publicUrl(pick(r,['url','producturl','link','productlink','sourceurl']));
@@ -137,7 +138,7 @@ for(const feed of feeds){
  console.log(feed.manufacturer+': mapped '+mapped+' products, '+withPhotos+' photos, '+knownStock+' explicit stock statuses');
 }
 // Fail safe: no feed configured = no public data files changed.
-if(!successful)throw Error('No supplier feed configured. Set at least one of MAXIMA_FEED_URL, HENDI_FEED_URL, FAGOR_FEED_URL or MODULAR_FEED_URL, COLDLINE_FEED_URL or KRUPPS_FEED_URL or ARISTARCO_FEED_URL in GitHub Actions secrets.');
+if(!successful)throw Error('No supplier feed configured. Set at least one of MAXIMA_FEED_URL, HENDI_FEED_URL, FAGOR_FEED_URL or MODULAR_FEED_URL, COLDLINE_FEED_URL or KRUPPS_FEED_URL or ARISTARCO_FEED_URL or SISTEMA_PROJECT_FEED_URL in GitHub Actions secrets.');
 const all=[...products.values()].sort((a,b)=>a.manufacturer.localeCompare(b.manufacturer)||a.sku.localeCompare(b.sku));
 await writeFile(productFile,JSON.stringify(all,null,2)+'\n');
 // Existing stock from older supplier imports must not appear fresh.
