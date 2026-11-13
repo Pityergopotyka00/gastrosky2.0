@@ -703,7 +703,7 @@ async function loadFullSupplierCatalog(){
   selected.textContent=category.selectedOptions[0]?.textContent||'Minden kategória';
   trigger.title=selected.textContent;
  }
- function open(){panel.hidden=false;trigger.setAttribute('aria-expanded','true');input.value='';draw();input.focus();}
+ function open(){panel.hidden=false;trigger.setAttribute('aria-expanded','true');input.value='';draw();/* Search focuses only when the visitor taps it; avoid opening the mobile keyboard automatically. */}
  trigger.addEventListener('click',()=>panel.hidden?open():dismiss(true));
  close.addEventListener('click',()=>dismiss(true));
  input.addEventListener('input',draw);
