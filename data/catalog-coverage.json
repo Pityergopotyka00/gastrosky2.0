@@ -1,7 +1,7 @@
 {
   "target_per_supplier": 50,
-  "target_total": 400,
-  "current_total": 508,
+  "target_total": 450,
+  "current_total": 562,
   "counts": {
     "Maxima": {
       "products": 16,
@@ -58,10 +58,17 @@
       "model_only": 0,
       "with_photo_url": 0,
       "missing_to_target": 16
+    },
+    "Tecnodom": {
+      "products": 54,
+      "verified_products": 0,
+      "model_only": 54,
+      "with_photo_url": 0,
+      "missing_to_target": 0
     }
   },
   "complete": false,
   "all_entries_have_photos": false,
-  "notes": "Model-only entries are official model identifiers awaiting product-level SKU/spec/photo verification. Photo URL presence does not guarantee a working image or display rights.",
+  "notes": "Tecnodom entries are official Horizontal/Vertical product families rather than confirmed individual SKUs; photos, variant specs, prices and stock remain unverified. All product images and display rights must be approved before publishing.",
   "issues": []
 }
