@@ -16,6 +16,16 @@ const publicModularIndex=JSON.parse(await readFile('data/modular-official-model-
 assert.ok(Array.isArray(publicModularIndex.models)&&publicModularIndex.models.length>=65,'Official Modular model index missing');
 assert.equal(new Set(publicModularIndex.models.map(x=>x.model)).size,publicModularIndex.models.length,'Duplicate Modular models in index');
 assert.ok(publicModularIndex.models.every(x=>x.manufacturer==='Modular'&&x.model&&x.name_hu&&x.image_url===null),'Unverified Modular index entry');
+const fagorStaged=JSON.parse(await readFile('data/fagor-verified-staging.json','utf8'));
+assert.ok(Array.isArray(fagorStaged)&&fagorStaged.length>=19,'Fagor manufacturer staging records missing');
+assert.equal(new Set(fagorStaged.map(x=>x.sku)).size,fagorStaged.length,'Duplicate Fagor catalog reference');
+for(const item of fagorStaged){
+ assert.equal(item.id,'fagor:'+item.sku,'Incorrect Fagor item ID');
+ assert.ok(item.name&&item.description.length>=95&&Object.keys(item.specifications).length>=4,'Incomplete Fagor model description or specifications');
+ assert.equal(item.image_url,null,'Staged Fagor images must not be claimed verified');
+ assert.ok(item.source_url.startsWith('https://www.fagorprofessional.com/'),'Unofficial Fagor product reference');
+ assert.ok(!p.some(x=>x.id===item.id),'Fagor item published before image rights review');
+}
 const staged=JSON.parse(await readFile('data/modular-verified-staging.json','utf8'));
 assert.ok(Array.isArray(staged)&&staged.length>=6,'Verified Modular staging records missing');
 assert.equal(new Set(staged.map(x=>x.sku)).size,staged.length,'Repeated Modular staging SKU');
