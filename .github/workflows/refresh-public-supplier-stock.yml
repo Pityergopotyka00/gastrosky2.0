@@ -5,8 +5,6 @@ on:
     paths:
       - '.github/workflows/refresh-public-supplier-stock.yml'
       - 'scripts/check-public-supplier-stock.mjs'
-  schedule:
-    - cron: '43 */3 * * *'
 permissions:
   contents: write
 concurrency:
