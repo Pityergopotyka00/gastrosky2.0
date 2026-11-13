@@ -2,7 +2,7 @@ name: Discover public Maxima and HENDI products with photos
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 */6 * * *'
+    - cron: '19 */2 * * *'
   push:
     paths:
       - 'scripts/discover-both-catalogs.mjs'
@@ -26,7 +26,7 @@ jobs:
       - name: Discover product pages and SKU-specific manufacturer images
         run: node scripts/discover-both-catalogs.mjs
         env:
-          PUBLIC_DISCOVERY_PAGES: '45'
+          PUBLIC_DISCOVERY_PAGES: '100'
       - name: Validate catalog and website
         run: npm run validate
       - name: Commit imported products and crawl progress
