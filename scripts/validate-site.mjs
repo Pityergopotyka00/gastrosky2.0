@@ -15,6 +15,7 @@ assert.equal((new Set(p.map(x=>x.id))).size,p.length,'Duplicate supplier SKU IDs
 for (const x of p) {
  assert.ok(x.sku&&x.name&&x.manufacturer&&x.id);
  assert.equal(x.id,x.manufacturer.toLowerCase()+':'+x.sku,'Catalog ID mismatch '+x.id);
+ assert.ok(x.image_url&&/^https:\/\//i.test(x.image_url),'Each published product needs a secure real photo URL: '+x.id);
 }
 assert.ok(html.includes('Ajánlatkéréshez adom'),'Quote add button not installed');
 assert.ok(html.includes('quotePanel'),'Quote dialog absent');
