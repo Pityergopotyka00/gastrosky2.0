@@ -1,0 +1,35 @@
+name: Discover Maxima public catalog products
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/discover-public-maxima.yml'
+      - 'scripts/discover-public-maxima.mjs'
+permissions:
+  contents: write
+concurrency:
+  group: gastrosky-feed-sync
+  cancel-in-progress: false
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+      - name: Discover permitted Maxima products, pictures and explicit stock
+        run: node scripts/discover-public-maxima.mjs
+        env:
+          MAXIMA_DISCOVER_LIMIT: '24'
+      - name: Validate storefront and catalog
+        run: npm run validate
+      - name: Commit source-verified products and stock snapshots
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/catalog-products.json data/supplier-stock-snapshot.json
+          git diff --cached --quiet || (git commit -m "Discover verified Maxima public products and stock" && git push)
