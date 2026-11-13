@@ -149,6 +149,8 @@ function parseProducts(html,url,vendor){
       specifications:before.specifications||{},
       source_url:url,image_url,image_source:'manufacturer_public_page',
       source_type:'manufacturer_public_catalog',record_status:'sku_and_image_verified',
+      discovered_at:before.discovered_at||new Date().toISOString(),
+      last_seen_at:new Date().toISOString(),
       price:null,availability:null
     };
   });
