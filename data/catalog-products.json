@@ -3390,9 +3390,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://cdn.webshopapp.com/shops/65625/files/490949232/aristarco-ijsblokjesmachine-aristarco-phoenix-phe.jpg",
+    "image_source": "matching_retailer_product_photo",
+    "photo_status": "web_search_exact_product_or_equivalent_image_verify_rights",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -3510,9 +3510,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://cdn.webshopapp.com/shops/65625/files/493421506/650x750x2/ijsblokjesmachine-aristarco-phoenix-phe-6040-m-a-6.jpg",
+    "image_source": "matching_retailer_product_photo",
+    "photo_status": "web_search_exact_product_or_equivalent_image_verify_rights",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -3870,9 +3870,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://cdn.webshopapp.com/shops/65625/files/493428489/aristarco-ijsblokjesmachine-aristarco-pictor-pic-1.jpg",
+    "image_source": "matching_retailer_product_photo",
+    "photo_status": "web_search_exact_product_or_equivalent_image_verify_rights",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
@@ -4038,9 +4038,9 @@
     "availability": null,
     "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
     "source_type": "manufacturer_public_category",
-    "image_url": null,
-    "image_source": "pending_manufacturer_photo_permission",
-    "photo_status": "product_photo_pending",
+    "image_url": "https://cdn.webshopapp.com/shops/65625/files/341797727/650x750x2/schilferijsmachine-aristarco-andromeda-and-1000-a.jpg",
+    "image_source": "matching_retailer_product_photo",
+    "photo_status": "web_search_exact_product_or_equivalent_image_verify_rights",
     "stock_source_status": "pending_supplier_availability_evidence"
   },
   {
