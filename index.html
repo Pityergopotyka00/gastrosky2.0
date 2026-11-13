@@ -322,7 +322,32 @@ body{background:var(--gs-paper)!important}
 #quotePanel .quote-submit-actions .button{min-height:46px}
 @media(max-width:720px){.gs-intro-strip .gs-intro-inner{padding-top:25px;padding-bottom:17px}.gs-promo-section{padding:0 15px}.gs-promo-inner{padding:22px 19px}.shell.gs-catalog-shell{padding-top:29px}#quotePanel{padding:20px}}
 </style>
-</head><body>
+
+<style id="gs-category-picker-styles">
+/* Accessible, searchable category picker, compact on desktop and mobile */
+.gs-category-picker{position:relative;flex:0 1 230px;min-width:175px;max-width:275px;align-self:center}
+.gs-category-picker .gs-category-native{display:none!important}
+.gs-category-label{display:block;font-size:11px;font-weight:750;color:#64748b;margin:0 0 5px 2px;letter-spacing:.3px}
+.gs-category-trigger{display:flex;align-items:center;gap:9px;width:100%;min-height:42px;max-width:100%;padding:8px 11px;border:1px solid #dce3ea;border-radius:11px;background:#fff;color:#26394d;font:inherit;font-size:13px;font-weight:650;text-align:left;cursor:pointer;box-shadow:0 2px 8px #10253a0b}
+.gs-category-trigger:hover{border-color:#bd995a}.gs-category-trigger:focus-visible,.gs-category-options button:focus-visible,.gs-category-menu input:focus-visible{outline:3px solid #d3a557;outline-offset:2px}
+.gs-category-trigger-icon{display:inline-grid;place-items:center;width:25px;height:25px;background:#f2f5f8;border-radius:7px;color:#6b7a8b;font-size:18px;flex:none}
+#categorySelected{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.gs-category-chevron{font-size:21px;line-height:1;color:#697b8c;transition:transform .15s}
+.gs-category-trigger[aria-expanded="true"] .gs-category-chevron{transform:rotate(180deg)}
+.gs-category-menu{position:absolute;top:calc(100% + 8px);left:0;width:min(355px,calc(100vw - 30px));z-index:40;background:#fff;border:1px solid #e0e5ec;box-shadow:0 18px 45px #14283b35;border-radius:14px;padding:12px;max-height:min(440px,70vh);display:flex;flex-direction:column;gap:10px}
+.gs-category-menu[hidden]{display:none!important}
+.gs-category-menu-heading{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:13px;font-weight:800;color:#25384c;padding:3px 3px 0}
+.gs-category-menu-heading button{border:0;background:#f2f5f8;border-radius:8px;width:30px;height:30px;cursor:pointer;font-size:20px;color:#516276}
+.gs-category-menu input{display:block;width:100%;min-width:0!important;flex:none!important;min-height:40px!important;border-radius:9px;padding:8px 11px;font-size:13px;box-shadow:none!important}
+.gs-category-options{overflow-y:auto;overscroll-behavior:contain;min-height:0;display:flex;flex-direction:column;gap:3px}
+.gs-category-options button{width:100%;border:0;border-radius:8px;background:transparent;padding:10px 9px;display:flex;align-items:center;justify-content:space-between;gap:10px;text-align:left;cursor:pointer;color:#2c3e51;font:inherit;font-size:12.5px;line-height:1.35}
+.gs-category-options button:hover{background:#f1f5f9}
+.gs-category-options button[aria-selected="true"]{background:#edf5f7;color:#173e57;font-weight:750}
+.gs-category-options .gs-category-count{flex:none;background:#f0f2f6;border-radius:50px;padding:4px 7px;color:#657588;font-size:11px;min-width:26px;text-align:center}
+.gs-category-noresults{font-size:12px;color:#687c90;margin:4px}
+@media(max-width:700px){.gs-category-picker{flex:1 1 calc(50% - 6px);max-width:none;min-width:0}.gs-category-trigger{min-height:44px;padding:8px}.gs-category-menu{position:fixed;left:12px;right:12px;top:auto;bottom:12px;width:auto;max-height:min(72dvh,550px);padding:15px;border-radius:18px;box-shadow:0 0 0 120vmax #07152866,0 18px 45px #07152855}.gs-category-options button{min-height:43px;font-size:14px}.gs-category-label{font-size:11px}}
+@media(max-width:430px){.gs-category-picker{flex-basis:100%}.gs-category-trigger{min-height:44px}}
+</style></head><body>
 <div class="gs-topline"><div><span class="gs-topline-dot"></span> GASTROSKY · NAGYKONYHAI BERENDEZÉSEK</div><a href="mailto:info@gastrosky.hu">info@gastrosky.hu</a></div><header class="gs-header"><div class="gs-header-inner"><a class="brand gs-brand" href="index.html" aria-label="GastroSky főoldal"><img class="brandmark real-logo" src="https://gastrosky.hu/assets/images/logo.png" alt="GastroSky" loading="eager" referrerpolicy="no-referrer"><div><strong>GASTROSKY</strong><small>Professzionális konyhatechnika</small></div></a><nav aria-label="Fő navigáció"><a href="#termekek">Termékek</a><a href="#markak">Márkák</a><a href="#hogyan-mukodik">Hogyan működik?</a><button type="button" class="quote-nav" id="quoteOpen"><span>Ajánlatkérő lista</span> <span class="gs-quote-count" id="quoteCount">0</span></button></nav></div></header>
 <section class="hero gs-hero"><div class="gs-hero-inner"><div class="gs-hero-copy"><span class="eyebrow"><span class="gs-spark"></span> GASTROSKY 2.0 · TERMÉKKATALÓGUS</span><h1>Professzionális konyhákhoz. <em>Okosan választva.</em></h1><p>Fedezd fel a Maxima, HENDI, Fagor Professional és Modular nagykonyhai berendezéseit. Nézd meg a részleteket, hasonlítsd össze a termékeket, és kérj személyre szabott ajánlatot egy helyen.</p><div class="gs-hero-buttons"><a href="#termekek" class="gs-hero-primary">Termékek megtekintése <span aria-hidden="true">↗</span></a><a href="#hogyan-mukodik" class="gs-hero-secondary">Hogyan működik?</a></div><div class="hero-features"><span><b>01</b> Keresés és szűrés</span><span><b>02</b> Termékrészletek</span><span><b>03</b> Ajánlatkérés</span></div></div><div class="gs-hero-showcase" aria-label="Válogatás a termékkatalógusból"><div class="gs-showcase-label">VÁLOGATÁS A KATALÓGUSBÓL <span>✦</span></div><div class="gs-showcase-photos"><div class="gs-showcase-photo gs-showcase-main"><img src="https://hendi.xcdn.nl/RM700%2C700/-/238967_OBW_2024_03_IMGP9712.jpg" alt="HENDI ételmelegítő készlet" loading="eager"><span>HENDI · Ételmelegítés</span></div><div class="gs-showcase-photo gs-showcase-side"><img src="https://maxima.com/img/2ygrxVpYMXeCFMPOO0mV0SeagqUxQHv0SthD4Z-1iZ8/resize:fit:265:265/aHR0cHM6Ly9tYXhpbWEuY29tL21lZGlhL2NhdGFsb2cvcHJvZHVjdC9zL3Avc3AtMTAwMS0wOTEwMDAwMC5qcGc_d2lkdGg9MjY1JmhlaWdodD0yNjU.jpg" alt="Maxima eszpresszógép" loading="eager"><span>MAXIMA · Kávégépek</span></div></div><div class="gs-showcase-bottom"><span>MAXIMA <i>×</i> HENDI</span><span>Professzionális választék</span></div></div></div></section><section class="gs-intro-strip" id="markak"><div class="gs-intro-inner"><span class="gs-intro-label">MÁRKÁK</span><div class="gs-intro-brand-grid"><a class="gs-intro-brand" href="#termekek" data-brand-filter="Maxima"><strong>MAXIMA</strong><span>16 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="HENDI"><strong>HENDI</strong><span>57 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Fagor"><strong>FAGOR</strong><span>201 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Modular"><strong>MODULAR</strong><span>18 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Coldline"><strong>COLDLINE</strong><span>17 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Krupps"><strong>KRUPPS</strong><span>17 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Aristarco"><strong>ARISTARCO</strong><span>74 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Sistema Project Italia"><strong>SISTEMA PROJECT ITALIA</strong><span>34 termék megtekinthető</span></a></div></div></section>
 <section class="gs-promo-section" id="kedvezmenyek">
@@ -332,7 +357,17 @@ body{background:var(--gs-paper)!important}
   <a href="#termekek" data-brand-filter="HENDI" class="button gs-promo-link">HENDI termékek megtekintése</a>
  </div>
 </section>
-<main class="shell gs-catalog-shell"><p class="notice"><strong>GastroSky márkakatalógus.</strong> Maxima, HENDI, Fagor Professional, Modular, Coldline, Krupps, Aristarco és Sistema Project Italia berendezései. Az árakat, a készletet és a rendelhető kiviteleket egyedi ajánlatban egyeztetjük. Egyes termékek gyártói fényképe még ellenőrzés alatt áll.</p><div id="termekek" class="heading gs-catalog-heading"><div><span class="gs-section-kicker">VÁLOGASS A KATALÓGUSBÓL</span><h2>Találd meg a következő berendezésed.</h2><p>Válassz gyártót és kategóriát, vagy keress közvetlenül cikkszám alapján.</p></div><span id="count" class="muted"></span></div><p id="statusHint">Az igazolatlan készletet nem jelöljük raktáron lévőnek.</p><div class="tools"><input id="search" aria-label="Termékkeresés" placeholder="Keresés név, SKU, EAN alapján…"><select id="category" aria-label="Kategória"><option value="">Minden kategória</option></select><select id="manufacturer" aria-label="Gyártó"><option value="">Minden márka</option><option value="Maxima">Maxima</option><option value="HENDI">HENDI</option><option value="Fagor">Fagor Professional</option><option value="Modular">Modular Professional</option><option value="Coldline">Coldline</option><option value="Krupps">Krupps</option><option value="Aristarco">Aristarco</option><option value="Sistema Project Italia">Sistema Project Italia</option></select><select id="sortBy" aria-label="Termékek rendezése"><option value="new">Újdonságok elöl</option><option value="name">Név szerint A–Z</option><option value="brand">Gyártó szerint</option></select></div><div class="grid" id="grid"></div><div style="text-align:center;padding:24px"><button id="loadMore" class="button" type="button" hidden>További termékek betöltése</button></div></main>
+<main class="shell gs-catalog-shell"><p class="notice"><strong>GastroSky márkakatalógus.</strong> Maxima, HENDI, Fagor Professional, Modular, Coldline, Krupps, Aristarco és Sistema Project Italia berendezései. Az árakat, a készletet és a rendelhető kiviteleket egyedi ajánlatban egyeztetjük. Egyes termékek gyártói fényképe még ellenőrzés alatt áll.</p><div id="termekek" class="heading gs-catalog-heading"><div><span class="gs-section-kicker">VÁLOGASS A KATALÓGUSBÓL</span><h2>Találd meg a következő berendezésed.</h2><p>Válassz gyártót és kategóriát, vagy keress közvetlenül cikkszám alapján.</p></div><span id="count" class="muted"></span></div><p id="statusHint">Az igazolatlan készletet nem jelöljük raktáron lévőnek.</p><div class="tools"><input id="search" aria-label="Termékkeresés" placeholder="Keresés név, SKU, EAN alapján…"><div class="gs-category-picker" id="categoryPicker">
+ <label class="gs-category-label" for="categoryTrigger">Kategória</label>
+ <button type="button" class="gs-category-trigger" id="categoryTrigger" aria-haspopup="listbox" aria-controls="categoryMenu" aria-expanded="false"><span class="gs-category-trigger-icon" aria-hidden="true">☷</span><span id="categorySelected">Minden kategória</span><span class="gs-category-chevron" aria-hidden="true">⌄</span></button>
+ <div class="gs-category-menu" id="categoryMenu" hidden>
+  <div class="gs-category-menu-heading">Kategória kiválasztása <button type="button" id="categoryClose" aria-label="Kategória választó bezárása">×</button></div>
+  <input type="search" id="categorySearch" placeholder="Kategória keresése…" aria-label="Kategóriák keresése" autocomplete="off">
+  <div class="gs-category-options" id="categoryOptions" role="listbox" aria-label="Elérhető kategóriák"></div>
+  <p id="categoryNoResults" class="gs-category-noresults" hidden>Nincs találat. Próbálj másik kifejezést.</p>
+ </div>
+ <select id="category" class="gs-category-native" aria-label="Kategória" tabindex="-1"><option value="">Minden kategória</option></select>
+</div><select id="manufacturer" aria-label="Gyártó"><option value="">Minden márka</option><option value="Maxima">Maxima</option><option value="HENDI">HENDI</option><option value="Fagor">Fagor Professional</option><option value="Modular">Modular Professional</option><option value="Coldline">Coldline</option><option value="Krupps">Krupps</option><option value="Aristarco">Aristarco</option><option value="Sistema Project Italia">Sistema Project Italia</option></select><select id="sortBy" aria-label="Termékek rendezése"><option value="new">Újdonságok elöl</option><option value="name">Név szerint A–Z</option><option value="brand">Gyártó szerint</option></select></div><div class="grid" id="grid"></div><div style="text-align:center;padding:24px"><button id="loadMore" class="button" type="button" hidden>További termékek betöltése</button></div></main>
 <section id="hogyan-mukodik" class="gs-process"><div class="gs-process-inner"><span class="gs-section-kicker">EGYSZERŰ FOLYAMAT</span><h2>A megfelelő géptől az ajánlatkérésig.</h2><div class="gs-process-grid"><article><span>01</span><h3>Válogass</h3><p>Szűrj kategória vagy márka szerint, vagy keress a termék nevére és cikkszámára.</p></article><article><span>02</span><h3>Nézd meg a részleteket</h3><p>Olvasd el, mire használható a berendezés, és nézd át az elérhető műszaki adatokat.</p></article><article><span>03</span><h3>Kérj ajánlatot</h3><p>Állítsd össze az ajánlatkérő listádat, majd küldd el a GastroSky részére.</p></article></div></div></section><section class="gs-bottom-cta"><div><span class="gs-section-kicker">SEGÍTÜNK A VÁLASZTÁSBAN</span><h2>Megvan a megfelelő berendezés?</h2><p>Tedd az ajánlatkérő listába, és egyeztess velünk a részletekről.</p></div><a href="#termekek" class="gs-hero-primary">Termékek böngészése <span aria-hidden="true">↗</span></a></section><footer class="gs-footer"><div class="gs-footer-main"><div class="gs-footer-about"><a href="index.html" class="gs-footer-wordmark">GASTRO<span>SKY</span></a><p>Maxima, HENDI, Fagor Professional és Modular berendezések személyre szabott ajánlatkéréssel.</p><a href="mailto:info@gastrosky.hu" class="gs-footer-email">info@gastrosky.hu</a></div><div class="gs-footer-col"><h3>Felfedezés</h3><a href="#termekek">Termékek</a><a href="#markak">Maxima és HENDI</a><a href="#hogyan-mukodik">Ajánlatkérés menete</a></div><div class="gs-footer-col"><h3>Információk</h3><a href="impresszum.html">Impresszum</a><a href="adatkezeles.html">Adatkezelés</a><a href="sutik.html">Sütik</a></div><div class="gs-footer-col"><h3>Kapcsolat</h3><p>Ajánlatkérés a termékkatalógusból.</p><a href="mailto:info@gastrosky.hu">Írj nekünk →</a></div></div><div class="gs-footer-bottom"><span>© 2026 GastroSky · Minden jog fenntartva.</span><span>GastroSky 2.0 · Fejlesztői előnézet</span></div></footer>
 <dialog id="quotePanel" aria-label="Ajánlatkérő lista"><button id="quoteClose" class="button secondary" style="float:right" type="button">Bezárás</button><h2>Ajánlatkérő lista</h2><p class="muted">Válassz termékeket, vagy írd le, milyen berendezést keresel. A kérés a weboldalról küldhető el, levelezőprogram megnyitása nélkül.</p><ul id="quoteItems"></ul><p id="quoteEmpty" class="muted">Nincs kiválasztott termék. Általános ajánlatkéréshez töltsd ki az üzenetet.</p><label class="quote-field">Név<input id="quoteName" maxlength="120" autocomplete="name" placeholder="Név" required></label><label class="quote-field">E-mail-cím<input id="quoteEmail" type="email" maxlength="160" autocomplete="email" placeholder="nev@pelda.hu" required></label><label class="quote-field">Üzenet<textarea id="quoteMessage" rows="3" maxlength="1600" placeholder="Miben segíthetünk?"></textarea></label><label class="quote-field quote-honeypot" aria-hidden="true">Weboldal<input id="quoteCompanyWebsite" tabindex="-1" autocomplete="off"></label><div id="quoteCaptcha"></div><p class="quote-warning">A beküldéssel tudomásul veszed az <a href="adatkezeles.html">adatkezelési tájékoztatót</a>. Az ajánlatkérés nem minősül megrendelésnek.</p><p id="quoteFeedback" role="status" aria-live="polite" class="quote-feedback"></p><div class="quote-submit-actions"><button id="quoteEmailButton" class="button" type="button">Ajánlatkérés elküldése</button><button id="quoteMailtoFallback" class="button" type="button" hidden>Ajánlatkérés e-mailben</button></div></dialog><dialog id="detail" aria-label="Termék részletei"><div class="detail-dialog-top"><span class="detail-overline">TERMÉKADATLAP</span><button id="close" class="button secondary" type="button">Bezárás</button></div><h3 id="detailName"></h3><div id="detailText"></div></dialog>
 <script>
@@ -629,5 +664,49 @@ async function loadFullSupplierCatalog(){
   console.warn('Only preview catalog is available');
  }
 }
+
+/* Searchable category picker. Native select stays as the single source of filter state. */
+(function initCategoryPicker(){
+ const picker=document.getElementById('categoryPicker');
+ const trigger=document.getElementById('categoryTrigger');
+ const panel=document.getElementById('categoryMenu');
+ const input=document.getElementById('categorySearch');
+ const list=document.getElementById('categoryOptions');
+ const selected=document.getElementById('categorySelected');
+ const noResults=document.getElementById('categoryNoResults');
+ const close=document.getElementById('categoryClose');
+ function dismiss(restoreFocus=false){panel.hidden=true;trigger.setAttribute('aria-expanded','false');if(restoreFocus)trigger.focus();}
+ function draw(){
+  const term=input.value.trim().toLocaleLowerCase('hu');
+  const counts=new Map();
+  for(const product of products){if(!product.category)continue;if(manufacturer.value&&manufacturer.value!==product.manufacturer)continue;counts.set(product.category,(counts.get(product.category)||0)+1);}
+  const entries=[...category.options].map(o=>({value:o.value,label:o.textContent||o.value,count:o.value?(counts.get(o.value)||0):[...counts.values()].reduce((a,b)=>a+b,0)}))
+   .filter(o=>!term||o.label.toLocaleLowerCase('hu').includes(term))
+   .sort((a,b)=>a.value===''?-1:b.value===''?1:b.count-a.count||a.label.localeCompare(b.label,'hu'));
+  list.replaceChildren();
+  for(const item of entries){
+   const button=document.createElement('button');button.type='button';button.setAttribute('role','option');button.setAttribute('aria-selected',String(item.value===category.value));
+   const name=document.createElement('span');name.textContent=item.label;
+   const total=document.createElement('span');total.className='gs-category-count';total.textContent=String(item.count);
+   button.append(name,total);
+   button.addEventListener('click',()=>{category.value=item.value;category.dispatchEvent(new Event('change',{bubbles:true}));dismiss(true);});
+   list.append(button);
+  }
+  noResults.hidden=entries.length>0;
+  selected.textContent=category.selectedOptions[0]?.textContent||'Minden kategória';
+  trigger.title=selected.textContent;
+ }
+ function open(){panel.hidden=false;trigger.setAttribute('aria-expanded','true');input.value='';draw();input.focus();}
+ trigger.addEventListener('click',()=>panel.hidden?open():dismiss(true));
+ close.addEventListener('click',()=>dismiss(true));
+ input.addEventListener('input',draw);
+ category.addEventListener('change',draw);
+ manufacturer.addEventListener('change',draw);
+ new MutationObserver(draw).observe(category,{childList:true});
+ document.addEventListener('pointerdown',event=>{if(!panel.hidden&&!picker.contains(event.target))dismiss();});
+ document.addEventListener('keydown',event=>{if(event.key==='Escape'&&!panel.hidden){dismiss(true);event.preventDefault();}});
+ draw();
+})();
+
 loadFullSupplierCatalog();
 </script></body></html>
