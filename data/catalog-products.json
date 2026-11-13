@@ -16040,5 +16040,159 @@
     "price": null,
     "availability": null,
     "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09374140",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09374140",
+    "ean": "8719632127741",
+    "name": "Maxima – Tésztafőző, 2 × 2 liter",
+    "category": "Főzőberendezések",
+    "description": "Professzionális Maxima berendezés, ellenőrzött gyártói cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09374140"
+    },
+    "source_url": "https://maxima.com/hu/tesztafozo-2-x-2l.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09506005",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09506005",
+    "ean": "8720783966349",
+    "name": "Maxima – Popcorn készítő, 150 g",
+    "category": "Sütőberendezések",
+    "description": "Professzionális Maxima berendezés, ellenőrzött gyártói cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09506005"
+    },
+    "source_url": "https://maxima.com/hu/popcorn-gep-150gr.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09506006",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09506006",
+    "ean": "8720783966356",
+    "name": "Maxima – Popcorn készítő melegítő vitrinnel",
+    "category": "Sütőberendezések",
+    "description": "Professzionális Maxima berendezés, ellenőrzött gyártói cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09506006"
+    },
+    "source_url": "https://maxima.com/hu/popcorn-gep-150gr-melegitessel-eloallito-vitrinben.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09506007",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09506007",
+    "ean": "8720783966363",
+    "name": "Maxima – Popcorn géphez szállítókocsi",
+    "category": "Sütőberendezés tartozékai",
+    "description": "Professzionális Maxima berendezés, ellenőrzött gyártói cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09506007"
+    },
+    "source_url": "https://maxima.com/hu/popcorn-gep-kocsi.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09398615",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09398615",
+    "ean": "8720365340604",
+    "name": "Maxima – Gázüzemű tésztafőző, prémium 40 liter",
+    "category": "Főzőberendezések",
+    "description": "Professzionális Maxima berendezés, ellenőrzött gyártói cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09398615"
+    },
+    "source_url": "https://maxima.com/hu/premium-tesztafozo-egyszemelyes-gaz-90cm-melysegu.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09391550",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09391550",
+    "ean": "8719632123224",
+    "name": "Maxima – Elektromos tűzhely, két főzőzóna",
+    "category": "Főzőberendezések",
+    "description": "Professzionális Maxima berendezés, ellenőrzött gyártói cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09391550"
+    },
+    "source_url": "https://maxima.com/hu/kereskedelmi-minosegu-tuzhely-2-egovel-elektromos-single-unit.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09395001",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09395001",
+    "ean": "8719632123552",
+    "name": "Maxima – Elektromos tűzhely, két nagy teljesítményű főzőzóna",
+    "category": "Főzőberendezések",
+    "description": "Professzionális Maxima berendezés, ellenőrzött gyártói cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09395001"
+    },
+    "source_url": "https://maxima.com/hu/nagy-teljesitmenyu-tuzhely-2-egovel-elektromos-egyszemelyes-70cm-melysegu.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
   }
 ]
