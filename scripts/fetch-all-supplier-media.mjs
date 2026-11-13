@@ -34,9 +34,9 @@ function imageFrom(html,base,p){
  // HENDI serves its official photos from hendi.xcdn.nl rather than hendi.eu.
  // Prefer an actual product-specific media URL in the page, not generic site images.
  if(p.manufacturer==='HENDI'){
-  const srcs=[...html.matchAll(/(?:href|src)\\s*=\\s*["']([^"']+)["']/gi)];
+  const srcs=[...html.matchAll(/(?:href|src)\s*=\s*["']([^"']+)["']/gi)];
   const links=srcs.map(x=>x[1].replace(/&amp;/g,'&'));
-  const preferred=links.filter(x=>x.includes(p.sku)&&/\\.(jpe?g|png|webp)(?:\\?|$)/i.test(x));
+  const preferred=links.filter(x=>x.includes(p.sku)&&/\.(jpe?g|png|webp)(?:\?|$)/i.test(x));
   preferred.sort((a,b)=>(b.includes('RM700')?1:0)-(a.includes('RM700')?1:0));
   for(const raw of preferred){
    try{const uri=new URL(raw,base).href;if(imageHostOk(uri,p))return uri}catch{}
