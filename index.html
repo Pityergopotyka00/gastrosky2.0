@@ -140,11 +140,11 @@ refreshSavedStock();
 setInterval(refreshSavedStock,5*60*1000);
 
 let quoteIds=[];
-try{const saved=JSON.parse(localStorage.getItem('gastrosky-quote-v1')||'[]');if(Array.isArray(saved))quoteIds=saved.filter(id=>products.some(p=>p.id===id)).slice(0,50);}catch{}
+try{const saved=JSON.parse(localStorage.getItem('gastrosky-quote-v1')||'[]');if(Array.isArray(saved))quoteIds=saved.filter(id=>typeof id==='string'&&/^(maxima|hendi):[\w.-]{1,80}$/i.test(id)).filter((id,i,items)=>items.indexOf(id)===i).slice(0,40);}catch{}
 const quoteDialog=document.getElementById('quotePanel');
 const quoteCount=document.getElementById('quoteCount');
 function saveQuote(){try{localStorage.setItem('gastrosky-quote-v1',JSON.stringify(quoteIds));}catch{}renderQuote();}
-function addToQuote(id){if(!quoteIds.includes(id))quoteIds.push(id);saveQuote();quoteDialog.showModal();}
+function addToQuote(id){if(!quoteIds.includes(id)){if(quoteIds.length>=40){alert('Legfeljebb 40 terméket választhatsz egy ajánlatkéréshez.');return}quoteIds.push(id)}saveQuote();quoteDialog.showModal();}
 function renderQuote(){
  const ul=document.getElementById('quoteItems');ul.replaceChildren();
  quoteCount.textContent=String(quoteIds.length);
