@@ -16194,5 +16194,115 @@
     "price": null,
     "availability": null,
     "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300001",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300001",
+    "ean": "8719632123521",
+    "name": "Maxima – Elektromos chafing dish 8,5 L GN 1/1",
+    "category": "Melegentartás",
+    "description": "A gyártó hivatalos oldalán szereplő professzionális vendéglátóipari eszköz, ellenőrzött gyártói cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09300001"
+    },
+    "source_url": "https://maxima.com/hu/chafing-dish-elektromos-8-5l-1-1-gn-fedellel-egyutt.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09374251",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09374251",
+    "ean": "8719632128076",
+    "name": "Maxima – Nyalókás gofrisütő, 4 darab",
+    "category": "Sütőberendezések",
+    "description": "A gyártó hivatalos oldalán szereplő professzionális vendéglátóipari eszköz, ellenőrzött gyártói cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09374251"
+    },
+    "source_url": "https://maxima.com/hu/lolly-waffle-maker-4-nyaloka-palcikan.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09367935",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09367935",
+    "ean": "8720365341441",
+    "name": "Maxima – Polikarbonát gastronorm fedél GN 1/9",
+    "category": "Sütőtartozékok",
+    "description": "A gyártó hivatalos oldalán szereplő professzionális vendéglátóipari eszköz, ellenőrzött gyártói cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09367935"
+    },
+    "source_url": "https://maxima.com/hu/gasztronorm-fedel-1-9-gn-polikarbonat.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09367602",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09367602",
+    "ean": "8719632125273",
+    "name": "Maxima – Perforált GN 1/1 tartály, 65 mm",
+    "category": "Sütőtartozékok",
+    "description": "A gyártó hivatalos oldalán szereplő professzionális vendéglátóipari eszköz, ellenőrzött gyártói cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09367602"
+    },
+    "source_url": "https://maxima.com/hu/gasztronorm-tartaly-1-1-gn-perforalt-6-5cm-mely-53-x-32-5cm-rozsdamentes-acel.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09367612",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09367612",
+    "ean": "8719632125396",
+    "name": "Maxima – Perforált GN 1/2 tartály, 100 mm",
+    "category": "Sütőtartozékok",
+    "description": "A gyártó hivatalos oldalán szereplő professzionális vendéglátóipari eszköz, ellenőrzött gyártói cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09367612"
+    },
+    "source_url": "https://maxima.com/hu/gasztronorm-tartaly-1-2-gn-perforalt-10cm-mely-32-5-x-26-5cm-rozsdamentes-acel.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
   }
 ]
