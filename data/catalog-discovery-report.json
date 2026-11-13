@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-13T21:10:08.226Z",
+  "checked_at": "2026-11-13T23:00:43.136Z",
   "suppliers": {
     "Maxima": {
       "status": "no_permitted_pages",
@@ -18,8 +18,8 @@
       "seen": 0
     }
   },
-  "catalog_count": 562,
+  "catalog_count": 577,
   "new_products": 0,
   "updated_products": 0,
-  "products_with_image_url": 177
+  "products_with_image_url": 193
 }
