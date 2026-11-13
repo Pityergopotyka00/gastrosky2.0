@@ -16304,5 +16304,137 @@
     "price": null,
     "availability": null,
     "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09367934",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09367934",
+    "ean": "8720365341434",
+    "name": "Maxima – Polikarbonát GN 1/6 fedél",
+    "category": "Sütőtartozékok",
+    "description": "Maxima gyártói katalógus szerint ellenőrzött, egyedi cikkszámmal rendelkező GN felszerelés.",
+    "specifications": {
+      "Cikkszám": "09367934"
+    },
+    "source_url": "https://maxima.com/hu/gasztronorm-fedel-1-6-gn-polikarbonat.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09367614",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09367614",
+    "ean": "8719632125419",
+    "name": "Maxima – Perforált GN 1/2 tartály, 200 mm",
+    "category": "Sütőtartozékok",
+    "description": "Maxima gyártói katalógus szerint ellenőrzött, egyedi cikkszámmal rendelkező GN felszerelés.",
+    "specifications": {
+      "Cikkszám": "09367614"
+    },
+    "source_url": "https://maxima.com/hu/gasztronorm-tartaly-1-2-gn-perforalt-20cm-mely-32-5-x-26-5cm-rozsdamentes-acel.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09367611",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09367611",
+    "ean": "8719632125389",
+    "name": "Maxima – Perforált GN 1/2 tartály, 65 mm",
+    "category": "Sütőtartozékok",
+    "description": "Maxima gyártói katalógus szerint ellenőrzött, egyedi cikkszámmal rendelkező GN felszerelés.",
+    "specifications": {
+      "Cikkszám": "09367611"
+    },
+    "source_url": "https://maxima.com/hu/gasztronorm-tartaly-1-2-gn-perforalt-6-5cm-mely-32-5-x-26-5cm-rozsdamentes-acel.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09367622",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09367622",
+    "ean": "8719632125440",
+    "name": "Maxima – Perforált GN 1/3 tartály, 150 mm",
+    "category": "Sütőtartozékok",
+    "description": "Maxima gyártói katalógus szerint ellenőrzött, egyedi cikkszámmal rendelkező GN felszerelés.",
+    "specifications": {
+      "Cikkszám": "09367622"
+    },
+    "source_url": "https://maxima.com/hu/gasztronorm-tartaly-1-3-gn-perforalt-15cm-mely-32-5-x-17-6cm-rozsdamentes-acel.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09367920",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09367920",
+    "ean": "8720365341298",
+    "name": "Maxima – Polikarbonát GN 1/3 tartály, 150 mm",
+    "category": "Sütőtartozékok",
+    "description": "Maxima gyártói katalógus szerint ellenőrzött, egyedi cikkszámmal rendelkező GN felszerelés.",
+    "specifications": {
+      "Cikkszám": "09367920"
+    },
+    "source_url": "https://maxima.com/hu/gasztronorm-tartaly-1-3-gn-15cm-mely-32-5-x-17-6-cm-polikarbonat.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09367921",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09367921",
+    "ean": "8720365341304",
+    "name": "Maxima – Polikarbonát GN 1/3 tartály, 200 mm",
+    "category": "Sütőtartozékok",
+    "description": "Maxima gyártói katalógus szerint ellenőrzött, egyedi cikkszámmal rendelkező GN felszerelés.",
+    "specifications": {
+      "Cikkszám": "09367921"
+    },
+    "source_url": "https://maxima.com/hu/gastronorm-tartaly-1-3-gn-20cm-mely-32-5-x-17-6-cm-polikarbonat.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
   }
 ]
