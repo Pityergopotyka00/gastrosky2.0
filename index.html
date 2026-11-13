@@ -152,14 +152,10 @@ function showDetail(p){
   info.append(spec);
  }else{
   const note=document.createElement('p');note.className='detail-note';
-  note.textContent='A részletes műszaki adatokat a gyártói termékoldalon találod. Az ajánlatkéréshez elegendő a cikkszám.';
+  note.textContent='A részletes műszaki adatok és a pontos ajánlat egyeztetéséhez add a terméket az ajánlatkérő listához.';
   info.append(note);
  }
  const actions=document.createElement('div');actions.className='detail-actions';
- if(p.source_url){
-  const source=document.createElement('a');source.className='button secondary';source.textContent='Gyártói termékoldal ↗';
-  source.href=p.source_url;source.target='_blank';source.rel='noopener noreferrer';actions.append(source);
- }
  const add=document.createElement('button');add.type='button';add.className='button quote-add';add.textContent='Ajánlatkéréshez adom';
  add.onclick=()=>{dialog.close();addToQuote(p.id)};actions.append(add);
  info.append(actions);layout.append(photo,info);d.append(layout);
