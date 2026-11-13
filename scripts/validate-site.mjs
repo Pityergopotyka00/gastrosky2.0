@@ -38,7 +38,7 @@ for(const item of products){
  }
  if(item.record_status==='official_product_family_listing'){
   assert.equal(item.manufacturer,'Tecnodom');
-  assert.equal(item.image_url,null,'Do not invent product family images');
+  assert.ok(!item.image_url||(item.photo_match_type==='official_manufacturer_model_page'&&item.image_source==='official_manufacturer_model_page'&&new URL(item.image_url).hostname==='www.tecnodomspa.com'),'Only individually matched official manufacturer family photos are permitted');
   assert.equal(item.price,null,'Do not invent product family prices');
  }
  if(item.record_status==='official_model_index_only'){
