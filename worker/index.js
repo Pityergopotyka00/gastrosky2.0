@@ -49,6 +49,15 @@ export default {
  async fetch(req,env){
   const path=new URL(req.url).pathname;
   if(path==='/api/stock'&&req.method==='GET')return stockRequest(req,env);
+  if(path==='/api/products'&&req.method==='GET'){
+    const params=new URL(req.url).searchParams;
+    const limit=Math.min(50,Math.max(1,Number(params.get('limit'))||25));
+    const offset=Math.min(catalog.size,Math.max(0,Number(params.get('offset'))||0));
+    const items=[...catalog.values()].slice(offset,offset+limit).map(p=>({
+      id:p.id,sku:p.sku,name:p.name,manufacturer:p.manufacturer,category:p.category,source_verified:!!p.source_url
+    }));
+    return json({items,total:catalog.size,offset,limit});
+  }
   if(path==='/api/health')return json({ok:true,products:catalog.size,mode:'per_product_page_checks',site_checks_enabled:env.ENABLE_SITE_CHECKS==='true',database_required:false});
   return env.ASSETS?env.ASSETS.fetch(req):new Response('Not found',{status:404});
  }
