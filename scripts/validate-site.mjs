@@ -52,7 +52,7 @@ for (const x of p) {
  const isMaxima=x.manufacturer==='Maxima';
  const manufacturerHosts=isMaxima?['maxima.com']:x.manufacturer==='HENDI'?['hendi.eu','www.hendi.eu','hendi.xcdn.nl']:x.manufacturer==='Modular'?['modular.it','www.modular.it','thenicekitchen.com','www.thenicekitchen.com']:x.manufacturer==='Fagor'?['fagorprofessional.com','www.fagorprofessional.com']:[];
  const manuallyMatchedRetailPhoto=(isMaxima||x.manufacturer==='Fagor')&&x.image_source==='matching_retailer_product_photo';
- const retailerHosts=['static.materiel-horeca.com','images.metro-marketplace.eu','cubosupplies.com','www.hellopro.fr'];
+ const retailerHosts=['static.materiel-horeca.com','images.metro-marketplace.eu','cubosupplies.com','www.hellopro.fr','tirol.bg','www.wea56.com','www.materielhoreca.com','www.audores.lt'];
  if(image)assert.ok(manufacturerHosts.includes(image.hostname)||(manuallyMatchedRetailPhoto&&retailerHosts.includes(image.hostname)),'Unexpected product photo host: '+x.id);
  if(x.manufacturer==='HENDI'){
   assert.ok(image&&image.pathname.includes(x.sku),'HENDI image filename does not match the product SKU: '+x.id);
