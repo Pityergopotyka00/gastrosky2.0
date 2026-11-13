@@ -18,8 +18,10 @@ for (const x of p) {
  assert.ok(x.image_url&&/^https:\/\//i.test(x.image_url),'Each published product needs a secure real photo URL: '+x.id);
  const image=new URL(x.image_url);
  const isMaxima=x.manufacturer==='Maxima';
- const permittedImageHosts=isMaxima?['maxima.com']:['hendi.eu','www.hendi.eu','hendi.xcdn.nl'];
- assert.ok(permittedImageHosts.includes(image.hostname),'Unexpected manufacturer photo host: '+x.id);
+ const manufacturerHosts=isMaxima?['maxima.com']:['hendi.eu','www.hendi.eu','hendi.xcdn.nl'];
+ const manuallyMatchedRetailPhoto=isMaxima&&x.image_source==='matching_retailer_product_photo';
+ const retailerHosts=['static.materiel-horeca.com','images.metro-marketplace.eu','cubosupplies.com'];
+ assert.ok(manufacturerHosts.includes(image.hostname)||(manuallyMatchedRetailPhoto&&retailerHosts.includes(image.hostname)),'Unexpected product photo host: '+x.id);
  if(!isMaxima){
   assert.ok(image.pathname.includes(x.sku),'HENDI image filename does not match the product SKU: '+x.id);
  }
