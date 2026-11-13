@@ -16678,5 +16678,115 @@
     "price": null,
     "availability": null,
     "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09400839",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09400839",
+    "ean": "8719632122999",
+    "name": "Maxima – Süteményes hűtővitrin – 152 cm, 500 L",
+    "category": "Hűtéstechnika",
+    "description": "Professzionális Maxima berendezés a hivatalos termékoldal szerinti gyártói cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09400839"
+    },
+    "source_url": "https://maxima.com/hu/hutoszekreny-152cm-500l.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09364036",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09364036",
+    "ean": "8719632123132",
+    "name": "Maxima – Rozsdamentes munkaasztal hátfallal, 140 × 70 cm",
+    "category": "Rozsdamentes bútorok",
+    "description": "Professzionális Maxima berendezés a hivatalos termékoldal szerinti gyártói cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09364036"
+    },
+    "source_url": "https://maxima.com/hu/rozsdamentes-acel-asztal-hatso-resszel-140-x-70cm-allithato-magassagu.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300962",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300962",
+    "ean": "8719632120858",
+    "name": "Maxima – Rozsdamentes munkaasztal 140 × 60 cm",
+    "category": "Rozsdamentes bútorok",
+    "description": "Professzionális Maxima berendezés a hivatalos termékoldal szerinti gyártói cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09300962"
+    },
+    "source_url": "https://maxima.com/hu/rozsdamentes-acel-asztal-140-x-60cm-allithato-magassagu.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09398601",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09398601",
+    "ean": "8720365340710",
+    "name": "Maxima – Gázüzemű prémium chargrill, 8 zóna, 120 cm",
+    "category": "Gázgrillek",
+    "description": "Professzionális Maxima berendezés a hivatalos termékoldal szerinti gyártói cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09398601"
+    },
+    "source_url": "https://maxima.com/hu/premium-chargrill-8-zonas-gaz-harmas-egyseg-90cm-melysegu.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09397990",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09397990",
+    "ean": "8719632123750",
+    "name": "Maxima – Lávaköves gázgrill, 40 cm",
+    "category": "Gázgrillek",
+    "description": "Professzionális Maxima berendezés a hivatalos termékoldal szerinti gyártói cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09397990"
+    },
+    "source_url": "https://maxima.com/hu/nagy-teherbirasu-lavako-grill-gaz-egyszemelyes-70cm-melysegu.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
   }
 ]
