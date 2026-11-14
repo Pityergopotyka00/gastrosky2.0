@@ -12922,9 +12922,11 @@
     "availability": null,
     "record_status": "official_range_model_reference",
     "source_type": "manufacturer_public_catalog",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://horeca365.ro/userfiles/9c513b91-0707-4c89-b80f-5fba80304b39/products/13246253_big.jpg",
+    "photo_status": "matching_model_photo_found_web_not_http_verified",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "model_matched_retailer_product_page",
+    "photo_match_type": "exact_model_retailer_page"
   },
   {
     "id": "krupps:C432-BT",
