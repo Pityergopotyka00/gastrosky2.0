@@ -9,7 +9,7 @@ const candidates=[
  {sku:'19102772',model:'CI-CG604T',page:'https://contessa.rs/proizvod/profesionalni-gasni-top-sporet/',photo:'https://contessa.rs/wp-content/uploads/2020/12/CI-CG604T2-fagor.jpg'},
  {sku:'19101248',model:'FT-G710 L',page:'https://contessa.rs/proizvod/gasni-rostilj-ravna-ploca-fagor-ft-g710-l-serija-700/',photo:'https://contessa.rs/wp-content/uploads/2022/06/gasni-rostilj-fagor-ravni-FT-G710-L.jpg'},
  {sku:'19101390',model:'FT-E705 L',page:'https://contessa.rs/proizvod/profesionalni-strujni-rostilj-ravna-ploca/',photo:'https://contessa.rs/wp-content/uploads/2020/12/rostilj-fagor-struja-ravna-ploca-400-mm.jpg'},
- {sku:'19074120',model:'B-G705',page:'https://jopco.net/producto/parrilla-de-cocina-a-gas-de-20-x-7-pulgadas-19074120-fagor/',photo:'https://jopco.net/wp-content/uploads/2023/07/FG-B-G705-LPG.jpg'},
+ {sku:'19074120',model:'B-G705',page:'https://cateringinventar.dk/produkter/maskiner-smaa-el/koge-varme-og-stege/gas-grill-b-g705-fagor/',photo:'https://cateringinventar.dk/wp-content/uploads/2024/05/83d8410b-827d-4e41-86dd-6f383687727c.jpg'},
  {sku:'19074781',model:'B-G705 I',page:'https://cateringinventar.dk/produkter/maskiner-smaa-el/koge-varme-og-stege/gas-grill-b-g705-i-fagor/',photo:'https://cateringinventar.dk/wp-content/uploads/2024/05/80f3e1a0-18de-49a7-b17c-a7832dffae89.jpg'},
  {sku:'19101247',model:'FT-E710 L',page:'https://contessa.rs/proizvod/elektricni-rostilj-ravna-ploca-700/',photo:'https://contessa.rs/wp-content/uploads/2020/12/rostilj-fagor-struja-ravna-ploca-800-mm.jpg'}
 ];
