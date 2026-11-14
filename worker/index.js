@@ -1,4 +1,5 @@
 import {handleQuote,quoteConfig} from './quotes.js';
+import {securityResponse,rejectUnsafeRequest} from './security.js';
 // Read prevalidated authorized supplier-feed snapshots from Cloudflare static assets.
 // Customers never trigger a supplier request; GitHub Actions updates snapshot files on schedule.
 const headers={'content-type':'application/json; charset=utf-8','cache-control':'no-store','x-content-type-options':'nosniff'};
@@ -12,6 +13,12 @@ async function readAsset(env,path,url){
 const unknown=(id,reason)=>({id,kind:'unknown',quantity:null,expected_date:null,reason,checked_at:null});
 export default{
  async fetch(request,env){
+  const denied=rejectUnsafeRequest(request);
+  if(denied)return securityResponse(denied);
+  return securityResponse(await handleStorefrontRequest(request,env));
+ }
+};
+async function handleStorefrontRequest(request,env){
   const url=new URL(request.url);
   if(url.pathname==='/api/quote-config'&&request.method==='GET')return quoteConfig(env);
   if(url.pathname==='/api/quote'&&request.method==='POST')
@@ -69,4 +76,3 @@ export default{
   if(env.ASSETS)return env.ASSETS.fetch(request);
   return new Response('Not found',{status:404});
  }
-};
