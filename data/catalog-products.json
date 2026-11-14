@@ -13638,8 +13638,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "matching_model_photo_found_web_not_http_verified",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "image_url": "https://img.archiexpo.com/images_ae/photo-g/75261-17075422.jpg",
+    "image_source": "model_matched_product_listing",
+    "photo_match_type": "exact_model_listing"
   },
   {
     "id": "krupps:EL981E",
@@ -13661,8 +13664,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "matching_model_photo_found_web_not_http_verified",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "image_url": "https://www.serooequipements.fr/5159-large_default/lave-batterie.jpg",
+    "image_source": "model_matched_product_listing",
+    "photo_match_type": "exact_model_listing"
   },
   {
     "id": "krupps:EL985E",
@@ -13684,8 +13690,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "matching_model_photo_found_web_not_http_verified",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "image_url": "https://www.dishwashers-direct.co.uk/cdn/shop/articles/KRUPPS-EL985E-881x1024.jpg?v=1692810559",
+    "image_source": "model_matched_product_listing",
+    "photo_match_type": "exact_model_listing"
   },
   {
     "id": "krupps:EL991E",
@@ -13707,8 +13716,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "matching_model_photo_found_web_not_http_verified",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "image_url": "https://dishwashers-direct.co.uk/cdn/shop/products/8add619d-c631-4399-8d5f-416f99144895.jpg?v=1743011346",
+    "image_source": "model_matched_product_listing",
+    "photo_match_type": "exact_model_listing"
   },
   {
     "id": "krupps:ELS60E",
