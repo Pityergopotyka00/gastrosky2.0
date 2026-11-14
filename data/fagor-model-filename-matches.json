@@ -1,0 +1,837 @@
+{
+  "checked_at": "2026-11-14T20:03:49.756Z",
+  "mode": "applied",
+  "scanned": 207,
+  "matched": [],
+  "unmatched": [
+    {
+      "id": "fagor:19001676",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19001677",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19001679",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19001680",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19001681",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19001980",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19001981",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19001982",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19001983",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19048496",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19058654",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19058655",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19058656",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19058657",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19058658",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19058659",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19058660",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19058661",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19058664",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19059112",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19067288",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19070294",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19072463",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19074120",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19074716",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19074779",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19074781",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19074782",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19074783",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19074784",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19074788",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19078755",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19078771",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19078905",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19078909",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19081687",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19081688",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19081689",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19081700",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19087745",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19087746",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19089615",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19089616",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19089617",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19089618",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19089619",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19097584",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19098121",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19101116",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101247",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101248",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101249",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101390",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101391",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101392",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101393",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101394",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101395",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101396",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101397",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101398",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101399",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101400",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101401",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101402",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101403",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101404",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101405",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101406",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101407",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101408",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101409",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101410",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101411",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101412",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101413",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101414",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101415",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101416",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101417",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101418",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101419",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101420",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101421",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101422",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101423",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101424",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101491",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19101748",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19102977",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19103128",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19103129",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19105381",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19107594",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19107615",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19107627",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19107800",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19107811",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19107820",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19107822",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19108800",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19111025",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19111026",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19111266",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19111321",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19111322",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19111543",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19111548",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19112566",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19113859",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19113860",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19113861",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19113862",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19113863",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19113864",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19113866",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19113867",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114234",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114689",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19114691",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19114692",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19114693",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19114694",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19114695",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19114696",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114697",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114698",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114699",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114702",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114703",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114704",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114705",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114706",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19114707",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114708",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114709",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114710",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114711",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114712",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114713",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114714",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114715",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114716",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114717",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19114718",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114719",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114720",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114721",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114722",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19114723",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19114724",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19114725",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19114726",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19114727",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19114728",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19114729",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19114730",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114731",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114732",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114733",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114734",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114735",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114736",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114737",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114738",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114739",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114740",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114741",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114901",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114903",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19114904",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19115442",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19115443",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19115444",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19115445",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19115446",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19115521",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19115522",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19115534",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19115535",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19115536",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19115537",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19115538",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19115539",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19115540",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19115541",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19115542",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19115550",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19115551",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19115553",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19115555",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19115556",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:19115558",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19115559",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19115560",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19115938",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:19115939",
+      "reason": "model_too_short_or_not_set"
+    },
+    {
+      "id": "fagor:ikore-apw-061-e-r-sw-s",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:ikore-apw-0623-e-r-sw-s",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:ikore-aw-061-e-r-sw",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:ikore-aw-0623-e-r-sw",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:ikore-aw-101-e-r-sw",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:ikore-cpw-061-e-r-sw-s",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:ikore-cpw-0623-e-r-sw-s",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:ikore-cw-061-e-r-sw",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:ikore-cw-0623-e-r-sw",
+      "reason": "no_matching_official_filename"
+    },
+    {
+      "id": "fagor:ikore-cw-101-e-r-sw",
+      "reason": "no_matching_official_filename"
+    }
+  ],
+  "added": 0
+}
