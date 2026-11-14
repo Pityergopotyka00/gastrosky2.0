@@ -1,14 +1,14 @@
 {
   "target_per_supplier": 50,
   "target_total": 450,
-  "current_total": 562,
+  "current_total": 776,
   "counts": {
     "Maxima": {
-      "products": 16,
-      "verified_products": 16,
+      "products": 217,
+      "verified_products": 217,
       "model_only": 0,
       "with_photo_url": 16,
-      "missing_to_target": 34
+      "missing_to_target": 0
     },
     "HENDI": {
       "products": 57,
