@@ -21,21 +21,21 @@
       "products": 224,
       "verified_products": 224,
       "model_only": 0,
-      "with_photo_url": 17,
+      "with_photo_url": 22,
       "missing_to_target": 0
     },
     "Modular": {
       "products": 82,
       "verified_products": 18,
       "model_only": 64,
-      "with_photo_url": 6,
+      "with_photo_url": 52,
       "missing_to_target": 0
     },
     "Coldline": {
       "products": 125,
       "verified_products": 125,
       "model_only": 0,
-      "with_photo_url": 37,
+      "with_photo_url": 116,
       "missing_to_target": 0
     },
     "Krupps": {
@@ -63,7 +63,7 @@
       "products": 54,
       "verified_products": 0,
       "model_only": 54,
-      "with_photo_url": 1,
+      "with_photo_url": 52,
       "missing_to_target": 0
     }
   },
