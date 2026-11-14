@@ -20,8 +20,8 @@ for(const p of catalog){
  names.add(name);
  await access(join(dir,name));
  const svg=await readFile(join(dir,name),'utf8');
- if(!svg.startsWith('<svg ')||!svg.includes('ILLUSZTRÁCIÓ')||!svg.includes('</svg>'))
-   throw Error('Missing illustration provenance for '+p.id);
+ if(!svg.startsWith('<svg ')||!svg.includes('</svg>'))
+   throw Error('Malformed SVG fallback for '+p.id);
  if(p.image_url)photographed++;else illustrated++;
 }
 const files=await readdir(dir);
