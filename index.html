@@ -452,7 +452,9 @@ let visibleLimit=40;
 
 const DAILY_DEALS_GROUP='__akciok__';
 function budapestDayKey(){
- return new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Budapest',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+ const parts=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Budapest',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date());
+ const get=type=>parts.find(part=>part.type===type)?.value;
+ return get('year')+'-'+get('month')+'-'+get('day');
 }
 function dailyDealProducts(items,dayKey=budapestDayKey()){
  const eligible=items.filter(p=>p.promotion?.kind==='discount_quote_request'&&p.promotion?.status==='subject_to_quote'&&p.promotion?.price_verified===false).sort((a,b)=>String(a.id).localeCompare(String(b.id)));
