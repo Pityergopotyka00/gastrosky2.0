@@ -17,10 +17,7 @@ const pages=[
  '/en/kitchen-appliances/commercial-refrigeration/refrigeration-counters',
  '/en/kitchen-appliances/commercial-refrigeration/blast-chillers',
  '/en/kitchen-appliances/dynamic-preparation/industrial-hand-blenders',
- '/en/kitchen-appliances/dynamic-preparation/cutters-kitchen',
- '/en/kitchen-appliances/dynamic-preparation/professional-vegetable-cutter',
- '/en/kitchen-appliances/dynamic-preparation/professional-meat-mincers',
- '/en/kitchen-appliances/dynamic-preparation/potato-peelers'
+ '/en/kitchen-appliances/industrial-ovens/accessories'
 ];
 const normalize=s=>String(s||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^A-Za-z0-9]/g,'').toUpperCase();
 const legit=u=>{try{const x=new URL(u);return x.protocol==='https:'&&x.hostname===host}catch{return false}};
