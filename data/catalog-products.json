@@ -10349,10 +10349,13 @@
     "source_url": "https://gastrohaal.sk/hu/termekek/72_burgonyakoptatok/308_skz-25-burgonyakoptato-25kg-adag-ciklus",
     "source_type": "official_manufacturer_product_page",
     "record_status": "manufacturer_page_and_photo_verified",
-    "photo_status": "product_photo_pending_correct_model",
+    "photo_status": "official_photo_http_verified",
     "price": null,
     "availability": null,
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "image_url": "https://www.gastrohaal.sk/userfiles/products/zoom/SKZ-25_06-2024.27.jpg",
+    "image_source": "official_detail_page_id_title_and_og_product_photo",
+    "photo_match_type": "official_detail_page_id_title_and_og_product_photo"
   },
   {
     "id": "gastrohaal:320",
@@ -10374,10 +10377,13 @@
     "source_url": "https://gastrohaal.sk/hu/termekek/72_burgonyakoptatok/320_lo-1-hulladekfogo-a-burgonyakoptatohoz",
     "source_type": "official_manufacturer_product_page",
     "record_status": "manufacturer_page_and_photo_verified",
-    "photo_status": "product_photo_pending_correct_model",
+    "photo_status": "official_photo_http_verified",
     "price": null,
     "availability": null,
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "image_url": "https://www.gastrohaal.sk/userfiles/products/zoom/LO_1_small.jpg",
+    "image_source": "official_detail_page_id_title_and_og_product_photo",
+    "photo_match_type": "official_detail_page_id_title_and_og_product_photo"
   },
   {
     "id": "gastrohaal:324",
@@ -10620,10 +10626,13 @@
     "source_url": "https://gastrohaal.sk/hu/termekek/72_burgonyakoptatok/488_lo-1-v-hulladekfogo-a-burgonyakoptatohoz",
     "source_type": "official_manufacturer_product_page",
     "record_status": "manufacturer_page_and_photo_verified",
-    "photo_status": "product_photo_pending_correct_model",
+    "photo_status": "official_photo_http_verified",
     "price": null,
     "availability": null,
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "image_url": "https://www.gastrohaal.sk/userfiles/products/zoom/LO-1-V.png",
+    "image_source": "official_detail_page_id_title_and_og_product_photo",
+    "photo_match_type": "official_detail_page_id_title_and_og_product_photo"
   },
   {
     "id": "gastrohaal:492",
@@ -10644,10 +10653,13 @@
     "source_url": "https://gastrohaal.sk/hu/termekek/72_burgonyakoptatok/492_skz-t-external-timer-for-the-potato-peeler",
     "source_type": "official_manufacturer_product_page",
     "record_status": "manufacturer_page_and_photo_verified",
-    "photo_status": "product_photo_pending_correct_model",
+    "photo_status": "official_photo_http_verified",
     "price": null,
     "availability": null,
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "image_url": "https://www.gastrohaal.sk/userfiles/products/zoom/Casovac%20SKZ.502.png",
+    "image_source": "official_detail_page_id_title_and_og_product_photo",
+    "photo_match_type": "official_detail_page_id_title_and_og_product_photo"
   },
   {
     "id": "gastrosky:munkaasztalok:1",
@@ -23655,12 +23667,14 @@
     "source_url": "https://www.tecnodomspa.com/en/verticale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/armadi-refrigerati/tecnodom_AISS-300.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:aladino",
@@ -23680,12 +23694,14 @@
     "source_url": "https://www.tecnodomspa.com/en/verticale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/abbattitori/aladino-th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:armadio-1200",
@@ -23705,12 +23721,14 @@
     "source_url": "https://www.tecnodomspa.com/en/verticale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/armadi-refrigerati/1400-th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:armadio-1400",
@@ -23755,12 +23773,14 @@
     "source_url": "https://www.tecnodomspa.com/en/verticale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/armadi-refrigerati/400-th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:armadio-600",
@@ -23780,12 +23800,14 @@
     "source_url": "https://www.tecnodomspa.com/en/verticale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/armadi-refrigerati/700-th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:armadio-700",
@@ -23830,12 +23852,14 @@
     "source_url": "https://www.tecnodomspa.com/en/verticale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/abbattitori/attila-th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:attila-p-att02",
@@ -23855,12 +23879,14 @@
     "source_url": "https://www.tecnodomspa.com/en/verticale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/abbattitori/att02-th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:big",
@@ -23880,12 +23906,14 @@
     "source_url": "https://www.tecnodomspa.com/en/verticale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/armadi-refrigerati/big-th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_manufacturer_product_detail"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:combined-cabinet",
@@ -23905,12 +23933,14 @@
     "source_url": "https://www.tecnodomspa.com/en/verticale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/armadi-refrigerati/1400-plus-th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:evo",
@@ -23930,12 +23960,14 @@
     "source_url": "https://www.tecnodomspa.com/en/verticale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/evo/evo-th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_manufacturer_product_detail"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:evo-hot",
@@ -23955,12 +23987,14 @@
     "source_url": "https://www.tecnodomspa.com/en/verticale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/evo/evo-hot-th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:evo-lux",
@@ -23980,12 +24014,14 @@
     "source_url": "https://www.tecnodomspa.com/en/verticale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/evo/evo-lux-th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:evo-lux-hot",
@@ -24005,12 +24041,14 @@
     "source_url": "https://www.tecnodomspa.com/en/verticale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/evo/evo-lux-hot-th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:evo-self",
@@ -24030,12 +24068,14 @@
     "source_url": "https://www.tecnodomspa.com/en/verticale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/evo/evo-self-th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:evok",
@@ -24055,12 +24095,14 @@
     "source_url": "https://www.tecnodomspa.com/en/verticale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/evo/evok-th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:evok-hot",
@@ -24080,12 +24122,14 @@
     "source_url": "https://www.tecnodomspa.com/en/verticale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/evo/evok-hot-th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:evok-l-2-porte",
@@ -24105,12 +24149,14 @@
     "source_url": "https://www.tecnodomspa.com/en/verticale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/evo/evok-l-2porte-th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:evok-l-2-porte-hot",
@@ -24130,12 +24176,14 @@
     "source_url": "https://www.tecnodomspa.com/en/verticale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/evo/evok-l-2porte-hot-th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:evok-l-4-porte",
@@ -24155,12 +24203,14 @@
     "source_url": "https://www.tecnodomspa.com/en/verticale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/evo/evok-l-4porte-th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:evok-l-4-porte-hot",
@@ -24180,12 +24230,14 @@
     "source_url": "https://www.tecnodomspa.com/en/verticale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/evo/evok-l-4porte-hot-th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:evok-lux",
@@ -24205,12 +24257,14 @@
     "source_url": "https://www.tecnodomspa.com/en/verticale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/evo/evok-lux-th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:evok-lux-hot",
@@ -24230,12 +24284,14 @@
     "source_url": "https://www.tecnodomspa.com/en/verticale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/evo/evok-lux-hot-th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:evokl-120v-special",
@@ -24255,12 +24311,14 @@
     "source_url": "https://www.tecnodomspa.com/en/verticale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/evo/evok-l-120-th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:lavelli-a-giorno",
@@ -24280,12 +24338,14 @@
     "source_url": "https://www.tecnodomspa.com/en/orizzontale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/arredamento-neutro/Lavelli-a-giorno-300.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:lido",
@@ -24305,12 +24365,14 @@
     "source_url": "https://www.tecnodomspa.com/en/verticale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/Lido/LIDO-th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:m-1000",
@@ -24330,12 +24392,14 @@
     "source_url": "https://www.tecnodomspa.com/en/orizzontale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/serie-m/serie-m1000_th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:m-80",
@@ -24355,12 +24419,14 @@
     "source_url": "https://www.tecnodomspa.com/en/orizzontale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/serie-m/serie-m80_th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_manufacturer_product_detail"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:m-90",
@@ -24380,12 +24446,14 @@
     "source_url": "https://www.tecnodomspa.com/en/orizzontale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/serie-m/serie-m90_th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_manufacturer_product_detail"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:minicella-100",
@@ -24405,12 +24473,14 @@
     "source_url": "https://www.tecnodomspa.com/en/verticale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/minicella/minicella-100_th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:mr-80",
@@ -24430,12 +24500,14 @@
     "source_url": "https://www.tecnodomspa.com/en/orizzontale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/serie-mr/mr80-th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:mr-9-5",
@@ -24455,12 +24527,14 @@
     "source_url": "https://www.tecnodomspa.com/en/orizzontale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/serie-mr/ESPOSITORI-REFRIGERATI-M-95-pre.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:mr-9-5-vcc-w",
@@ -24480,12 +24554,14 @@
     "source_url": "https://www.tecnodomspa.com/en/orizzontale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/serie-mr/ESPOSITORI-REFRIGERATI-MR95-VCC-W-pre.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:pensili-armadiati",
@@ -24505,12 +24581,14 @@
     "source_url": "https://www.tecnodomspa.com/en/orizzontale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/arredamento-neutro/pensili-armadiati-300.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:puntok",
@@ -24530,12 +24608,14 @@
     "source_url": "https://www.tecnodomspa.com/en/orizzontale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/Punto-k/ESPOSITORI-REFRIGERATI-PUNTO-K-pre.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:saladette",
@@ -24555,12 +24635,14 @@
     "source_url": "https://www.tecnodomspa.com/en/orizzontale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/saladette/saladette-th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:saladette-pizza",
@@ -24580,12 +24662,14 @@
     "source_url": "https://www.tecnodomspa.com/en/orizzontale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/saladette/saladette-pizza-th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:stromboli-90",
@@ -24605,12 +24689,14 @@
     "source_url": "https://www.tecnodomspa.com/en/verticale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/stromboli/stromboli-th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:stromboli-90-b",
@@ -24630,12 +24716,14 @@
     "source_url": "https://www.tecnodomspa.com/en/verticale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/stromboli/stromboli-b-th1.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:tavoli-a-giorno",
@@ -24655,12 +24743,14 @@
     "source_url": "https://www.tecnodomspa.com/en/orizzontale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/arredamento-neutro/Tavoli-a-giorno-300.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:tavoli-armadiati",
@@ -24680,12 +24770,14 @@
     "source_url": "https://www.tecnodomspa.com/en/orizzontale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/arredamento-neutro/Tavoli-armadiati-300.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:tavolo-60",
@@ -24732,12 +24824,14 @@
     "source_url": "https://www.tecnodomspa.com/en/orizzontale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/tavoli-refrigerati/Eko-pizza/TAVOLO-EKO-PIZZA-300.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:tavolo-mid-gastronomia-tn-bt",
@@ -24757,12 +24851,14 @@
     "source_url": "https://www.tecnodomspa.com/en/orizzontale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/tavoli-refrigerati/MID-gastronomia/TAVOLO-MID-GASTRONOMIA-300.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:tavolo-mid-pasticceria",
@@ -24782,12 +24878,14 @@
     "source_url": "https://www.tecnodomspa.com/en/orizzontale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/tavoli-refrigerati/Mid-pasticceria/TAVOLO-mid-pasticceria-300.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:tavolo-mid-pizza",
@@ -24807,12 +24905,14 @@
     "source_url": "https://www.tecnodomspa.com/en/orizzontale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/tavoli-refrigerati/Mid-pizza/TAVOLO-MID-PIZZA-300.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:vetrina-refrigerata-ingredienti-pizza",
@@ -24832,12 +24932,14 @@
     "source_url": "https://www.tecnodomspa.com/en/orizzontale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/tavoli-refrigerati/vetrina-pizza-th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:vigo-78",
@@ -24857,12 +24959,14 @@
     "source_url": "https://www.tecnodomspa.com/en/orizzontale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/vigo/vigo-78-th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:vigo-90",
@@ -24882,12 +24986,14 @@
     "source_url": "https://www.tecnodomspa.com/en/orizzontale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/vigo/vigo-90-th.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:vulcano",
@@ -24907,12 +25013,14 @@
     "source_url": "https://www.tecnodomspa.com/en/verticale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/Vulcano/vulcano-pre.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:vulcano-sc",
@@ -24932,12 +25040,14 @@
     "source_url": "https://www.tecnodomspa.com/en/verticale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/Vulcano/vulcano-sc-pre.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:vulcano-vb",
@@ -24957,12 +25067,14 @@
     "source_url": "https://www.tecnodomspa.com/en/verticale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/Vulcano/vulcano-bt-pre.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   },
   {
     "id": "tecnodom:vulcano-vs",
@@ -24982,11 +25094,13 @@
     "source_url": "https://www.tecnodomspa.com/en/verticale.html",
     "source_type": "official_manufacturer_product_range",
     "record_status": "official_product_family_listing",
-    "image_url": null,
+    "image_url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/Vulcano/vulcano-vs-pre.jpg",
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
     "stock_source_status": "unknown",
-    "photo_match_type": "official_image_exact_caption_sku"
+    "photo_match_type": "official_exact_model_alt_caption",
+    "image_source": "official_exact_model_alt_caption",
+    "photo_status": "official_photo_http_verified"
   }
 ]

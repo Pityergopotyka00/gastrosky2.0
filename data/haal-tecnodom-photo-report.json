@@ -1,236 +1,292 @@
 {
   "checked": 57,
-  "added": 0,
-  "matched": [],
-  "unmatched": [
+  "added": 55,
+  "matched": [
     {
       "id": "gastrohaal:308",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.gastrohaal.sk/userfiles/products/zoom/SKZ-25_06-2024.27.jpg",
+      "proof": "official_detail_page_id_title_and_og_product_photo"
     },
     {
       "id": "gastrohaal:320",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.gastrohaal.sk/userfiles/products/zoom/LO_1_small.jpg",
+      "proof": "official_detail_page_id_title_and_og_product_photo"
     },
     {
       "id": "gastrohaal:488",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.gastrohaal.sk/userfiles/products/zoom/LO-1-V.png",
+      "proof": "official_detail_page_id_title_and_og_product_photo"
     },
     {
       "id": "gastrohaal:492",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.gastrohaal.sk/userfiles/products/zoom/Casovac%20SKZ.502.png",
+      "proof": "official_detail_page_id_title_and_og_product_photo"
     },
     {
       "id": "tecnodom:aiss",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/armadi-refrigerati/tecnodom_AISS-300.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:aladino",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/abbattitori/aladino-th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:armadio-1200",
-      "reason": "no_unambiguous_exact_model_photo"
-    },
-    {
-      "id": "tecnodom:armadio-1400",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/armadi-refrigerati/1400-th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:armadio-400",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/armadi-refrigerati/400-th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:armadio-600",
-      "reason": "no_unambiguous_exact_model_photo"
-    },
-    {
-      "id": "tecnodom:armadio-700",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/armadi-refrigerati/700-th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:attila",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/abbattitori/attila-th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:attila-p-att02",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/abbattitori/att02-th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:big",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/armadi-refrigerati/big-th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:combined-cabinet",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/armadi-refrigerati/1400-plus-th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:evo",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/evo/evo-th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:evo-hot",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/evo/evo-hot-th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:evo-lux",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/evo/evo-lux-th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:evo-lux-hot",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/evo/evo-lux-hot-th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:evo-self",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/evo/evo-self-th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:evok",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/evo/evok-th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:evok-hot",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/evo/evok-hot-th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:evok-l-2-porte",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/evo/evok-l-2porte-th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:evok-l-2-porte-hot",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/evo/evok-l-2porte-hot-th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:evok-l-4-porte",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/evo/evok-l-4porte-th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:evok-l-4-porte-hot",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/evo/evok-l-4porte-hot-th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:evok-lux",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/evo/evok-lux-th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:evok-lux-hot",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/evo/evok-lux-hot-th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:evokl-120v-special",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/evo/evok-l-120-th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:lavelli-a-giorno",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/arredamento-neutro/Lavelli-a-giorno-300.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:lido",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/Lido/LIDO-th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:m-1000",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/serie-m/serie-m1000_th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:m-80",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/serie-m/serie-m80_th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:m-90",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/serie-m/serie-m90_th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:minicella-100",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/minicella/minicella-100_th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:mr-80",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/serie-mr/mr80-th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:mr-9-5",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/serie-mr/ESPOSITORI-REFRIGERATI-M-95-pre.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:mr-9-5-vcc-w",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/serie-mr/ESPOSITORI-REFRIGERATI-MR95-VCC-W-pre.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:pensili-armadiati",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/arredamento-neutro/pensili-armadiati-300.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:puntok",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/Punto-k/ESPOSITORI-REFRIGERATI-PUNTO-K-pre.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:saladette",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/saladette/saladette-th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:saladette-pizza",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/saladette/saladette-pizza-th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:stromboli-90",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/stromboli/stromboli-th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:stromboli-90-b",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/stromboli/stromboli-b-th1.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:tavoli-a-giorno",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/arredamento-neutro/Tavoli-a-giorno-300.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:tavoli-armadiati",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/arredamento-neutro/Tavoli-armadiati-300.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:tavolo-eko-pizza",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/tavoli-refrigerati/Eko-pizza/TAVOLO-EKO-PIZZA-300.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:tavolo-mid-gastronomia-tn-bt",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/tavoli-refrigerati/MID-gastronomia/TAVOLO-MID-GASTRONOMIA-300.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:tavolo-mid-pasticceria",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/tavoli-refrigerati/Mid-pasticceria/TAVOLO-mid-pasticceria-300.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:tavolo-mid-pizza",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/tavoli-refrigerati/Mid-pizza/TAVOLO-MID-PIZZA-300.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:vetrina-refrigerata-ingredienti-pizza",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/tavoli-refrigerati/vetrina-pizza-th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:vigo-78",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/vigo/vigo-78-th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:vigo-90",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/vigo/vigo-90-th.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:vulcano",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/Vulcano/vulcano-pre.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:vulcano-sc",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/Vulcano/vulcano-sc-pre.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:vulcano-vb",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/Vulcano/vulcano-bt-pre.jpg",
+      "proof": "official_exact_model_alt_caption"
     },
     {
       "id": "tecnodom:vulcano-vs",
-      "reason": "no_unambiguous_exact_model_photo"
+      "url": "https://www.tecnodomspa.com/images/prodotti/espositori-refrigerati/Vulcano/vulcano-vs-pre.jpg",
+      "proof": "official_exact_model_alt_caption"
     }
   ],
-  "checked_at": "2026-11-14T19:35:29.562Z"
+  "unmatched": [
+    {
+      "id": "tecnodom:armadio-1400",
+      "reason": "photo_already_assigned_to_other_model"
+    },
+    {
+      "id": "tecnodom:armadio-700",
+      "reason": "photo_already_assigned_to_other_model"
+    }
+  ],
+  "checked_at": "2026-11-14T19:40:26.960Z"
 }
