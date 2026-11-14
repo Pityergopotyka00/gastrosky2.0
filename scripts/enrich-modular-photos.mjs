@@ -73,6 +73,22 @@ function findExactPhoto(html,url,p){
   const specific=imgs.filter(uri=>clean(decodeURIComponent(new URL(uri).pathname)).includes(code));
   if(specific.length===1)matches.push({url:specific[0],evidence:'model_heading_and_sku_filename'});
  }
+ // On an individual official /en/products/ page, an exact single model heading
+ // plus one product-image node is unambiguous even if gallery markup lives
+ // outside the heading's ancestor tree.
+ if(!matches.length&&/\/en\/products\//.test(new URL(url).pathname)){
+  const modelLabels=$('.product-tab-detail').toArray().map(el=>clean($(el).text())).filter(Boolean);
+  const modelOnly=modelLabels.length===1&&modelLabels[0]===model;
+  const photos=[...new Set($('.product-image img').toArray().map(el=>imageFromElement($,el,url)).filter(Boolean))];
+  if(modelOnly&&photos.length===1)matches.push({url:photos[0],evidence:'single_official_product_page_exact_heading'});
+ }
+ // For manufacturer category grids, the order code is embedded in the actual
+ // photographed product filename. Validate the matching model heading too.
+ if(!matches.length&&headings.length&&code.length>=8){
+  const allImgs=$('img').toArray().map(el=>imageFromElement($,el,url)).filter(Boolean);
+  const specific=[...new Set(allImgs.filter(uri=>clean(decodeURIComponent(new URL(uri).pathname)).includes(code)))];
+  if(specific.length===1)matches.push({url:specific[0],evidence:'exact_sku_in_manufacturer_image_filename'});
+ }
  const unique=[...new Map(matches.map(x=>[x.url,x])).values()];
  return unique.length===1?unique[0]:null;
 }
