@@ -1,13 +1,9 @@
 {
-  "checked_at": "2026-11-14T18:46:15.002Z",
+  "checked_at": "2026-11-14T18:58:05.228Z",
   "total": 1044,
   "existing_images": 306,
-  "new_photos": 57,
-  "by_brand": {
-    "Coldline": 22,
-    "Krupps": 21,
-    "Sistema Project Italia": 14
-  },
+  "new_photos": 0,
+  "by_brand": {},
   "unresolved": [
     {
       "id": "maxima:08400100",
