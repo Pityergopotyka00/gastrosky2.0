@@ -1,7 +1,7 @@
 {
   "target_per_supplier": 50,
   "target_total": 450,
-  "current_total": 776,
+  "current_total": 763,
   "counts": {
     "Maxima": {
       "products": 217,
@@ -71,8 +71,6 @@
   "all_entries_have_photos": false,
   "notes": "Model-only entries are official model identifiers awaiting product-level SKU/spec/photo verification. Photo URL presence does not guarantee a working image or display rights. Do not represent model-only entries as verified individual SKUs.",
   "issues": [
-    "Unexpected manufacturer: Gastro Haal",
-    "Unexpected manufacturer: Gastro Haal",
     "Unexpected manufacturer: Gastro Haal",
     "Unexpected manufacturer: Gastro Haal",
     "Unexpected manufacturer: Gastro Haal",
