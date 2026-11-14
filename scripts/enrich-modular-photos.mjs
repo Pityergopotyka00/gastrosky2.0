@@ -78,7 +78,7 @@ function findExactPhoto(html,url,p){
  // outside the heading's ancestor tree.
  if(!matches.length&&/\/en\/products\//.test(new URL(url).pathname)){
   const modelLabels=$('.product-tab-detail').toArray().map(el=>clean($(el).text())).filter(Boolean);
-  const modelOnly=modelLabels.length===1&&modelLabels[0]===model;
+  const modelOnly=modelLabels.includes(model)&&headings.length>=1;
   const photos=[...new Set($('.product-image img').toArray().map(el=>imageFromElement($,el,url)).filter(Boolean))];
   if(modelOnly&&photos.length===1)matches.push({url:photos[0],evidence:'single_official_product_page_exact_heading'});
  }
@@ -102,7 +102,12 @@ for(const p of candidates){
   if(!link||/\.pdf(?:$|\?)/i.test(link))throw Error('source_not_html_product');
   const pg=await loadPage(link);
   const match=findExactPhoto(pg.html,pg.url,p);
-  if(!match)throw Error('exact_model_card_photo_not_found');
+  if(!match){
+   const $=load(pg.html);
+   const labels=$('.product-tab-detail').toArray().map(x=>$(x).text().trim()).slice(0,8);
+   const photos=$('.product-image img').toArray().map(x=>$(x).attr('src')||'').filter(Boolean).slice(0,3);
+   throw Error('exact_model_card_photo_not_found'+(reports.checked<=6?': headings='+labels.join('|')+' image='+photos.join('|'):''));
+  }
   const img=match.url;
   const key=new URL(img).origin+new URL(img).pathname;
   const used=existing.get(key)||[];
