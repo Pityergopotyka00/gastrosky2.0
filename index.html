@@ -978,3 +978,79 @@ function catalogTaxonomy(p){
   if(has(/indukci/i))return type('Főzéstechnika','Indukciós főzőberendezések');
   if(has(/rizsf[őo]z/i))return type('Főzéstechnika','Rizsfőzők');
   if(has(/t[uű]zhely/i))return type('Főzéstechnika','Ipari tűzhelyek');
+  return type('Főzéstechnika','Főzőmodulok és főzőlapok');
+ }
+ if(has(/melegentart|bain.marie|[eé]telmeleg|chafing/i))return type('Melegentartás és tálalás',has(/bain.marie/i)?'Bain-marie berendezések':'Ételmelegentartók');
+ if(has(/k[aá]v[eé]|eszpressz[oó]|b[aá]rg[eé]p|tej(turmix|hab)|milkshake/i))return type('Kávé- és bártechnika',has(/k[aá]v[eé]|eszpressz[oó]/i)?'Kávé- és eszpresszógépek':'Bárgépek');
+ if(has(/rozsdamentes|b[uú]tor|asztal|lavelli|pensili|neutral equipment/i))return type('Rozsdamentes bútorok',has(/mosogat[oó]|lavelli/i)?'Mosogatóasztalok':'Munkaasztalok és szekrények');
+ if(has(/burgonya|szeletel|dar[aá]l|apr[ií]t|botmixer|kever[őo]|el[őo]k[eé]sz|konyhai g[eé]p/i)){
+  if(has(/burgonya/i))return type('Étel-előkészítés','Burgonyakoptatók és -hámozók');
+  if(has(/dar[aá]l/i))return type('Étel-előkészítés','Húsdarálók');
+  if(has(/botmixer|kever[őo]/i))return type('Étel-előkészítés','Keverőgépek és botmixerek');
+  return type('Étel-előkészítés','Szeletelők és aprítógépek');
+ }
+ return type('Tartozékok és egyéb','Egyéb professzionális berendezések');
+}
+function syncCategoriesForManufacturer(){
+ const groupBefore=categoryGroup.value,typeBefore=categoryType.value;
+ const relevant=products.filter(p=>!manufacturer.value||p.manufacturer===manufacturer.value);
+ const groups=new Map();
+ for(const p of relevant){const t=catalogTaxonomy(p);if(!groups.has(t.group))groups.set(t.group,new Map());const sub=groups.get(t.group);sub.set(t.type,(sub.get(t.type)||0)+1);}
+ categoryGroup.replaceChildren();
+ const all=document.createElement('option');all.value='';all.textContent='Minden termék ('+relevant.length+')';categoryGroup.append(all);
+ const dealsCount=relevant.filter(p=>dailyDealIds().has(p.id)).length;
+ const dealsOption=document.createElement('option');dealsOption.value=DAILY_DEALS_GROUP;dealsOption.textContent='🔥 Akciók – napi ajánlatok ('+dealsCount+')';categoryGroup.append(dealsOption);
+ for(const group of [...groups.keys()].sort((a,b)=>{const ai=categoryOrder.indexOf(a),bi=categoryOrder.indexOf(b);return (ai<0?categoryOrder.length:ai)-(bi<0?categoryOrder.length:bi)||a.localeCompare(b,'hu')})){
+  const opt=document.createElement('option');opt.value=group;opt.textContent=group+' ('+[...groups.get(group).values()].reduce((a,b)=>a+b,0)+')';categoryGroup.append(opt);
+ }
+ categoryGroup.value=groupBefore===DAILY_DEALS_GROUP?DAILY_DEALS_GROUP:(groups.has(groupBefore)?groupBefore:'');
+ categoryType.replaceChildren();
+ const choose=document.createElement('option');choose.value='';choose.textContent=categoryGroup.value?'Minden terméktípus':'Előbb válassz kategóriát';categoryType.append(choose);
+ const types=categoryGroup.value===DAILY_DEALS_GROUP?null:groups.get(categoryGroup.value);
+ if(types)for(const [type,count] of [...types.entries()].sort((a,b)=>a[0].localeCompare(b[0],'hu'))){
+  const opt=document.createElement('option');opt.value=type;opt.textContent=type+' ('+count+')';categoryType.append(opt);
+ }
+ categoryType.disabled=!categoryGroup.value;
+ categoryType.value=types?.has(typeBefore)?typeBefore:'';
+ document.getElementById('categoryPath').textContent=categoryGroup.value===DAILY_DEALS_GROUP?'Naponta frissülő kedvezményes ajánlatkérések.':(categoryGroup.value?(categoryGroup.value+(categoryType.value?'  ›  '+categoryType.value:'  ›  Válassz terméktípust')):'Válassz termékterületet, majd terméktípust.');
+ visibleLimit=40;render();
+}
+window.syncCategoriesForManufacturer=syncCategoriesForManufacturer;
+categoryGroup.addEventListener('change',()=>{categoryType.value='';syncCategoriesForManufacturer();});
+categoryType.addEventListener('change',()=>{document.getElementById('categoryPath').textContent=categoryGroup.value+'  ›  '+(categoryType.value||'Minden terméktípus');visibleLimit=40;render();});
+manufacturer.addEventListener('change',()=>{categoryGroup.value='';categoryType.value='';visibleLimit=40;syncCategoriesForManufacturer();});
+syncCategoriesForManufacturer();
+
+// Accessible phone navigation: visible on small screens, no loss of desktop links.
+const mobileMenuToggle=document.getElementById('mobileMenuToggle');
+const primaryNavigation=document.getElementById('gsPrimaryNavigation');
+function setMobileMenu(open){
+ mobileMenuToggle.setAttribute('aria-expanded',String(open));
+ mobileMenuToggle.setAttribute('aria-label',open?'Navigáció bezárása':'Navigáció megnyitása');
+ mobileMenuToggle.querySelector('span').textContent=open?'×':'☰';
+ primaryNavigation.dataset.open=String(open);
+}
+mobileMenuToggle.addEventListener('click',()=>setMobileMenu(mobileMenuToggle.getAttribute('aria-expanded')!=='true'));
+primaryNavigation.querySelectorAll('a,button').forEach(item=>item.addEventListener('click',()=>setMobileMenu(false)));
+document.addEventListener('keydown',event=>{if(event.key==='Escape')setMobileMenu(false)});
+window.matchMedia('(min-width:761px)').addEventListener('change',event=>{if(event.matches)setMobileMenu(false)});
+
+loadFullSupplierCatalog();
+// Keep the open Akciók view in sync with the actual Hungarian midnight.
+function updateDailyDealsCountdown(){
+ const now=Date.now(),today=budapestDayKey(new Date(now));
+ if(today!==currentDealDay){
+  currentDealDay=today;
+  nextDealRefresh=nextBudapestDealRefresh(now);
+  syncCategoriesForManufacturer();
+ }
+ const display=document.getElementById('dailyDealsCountdown');
+ if(!display || categoryGroup.value!==DAILY_DEALS_GROUP)return;
+ const seconds=Math.max(0,Math.ceil((nextDealRefresh-now)/1000));
+ const hours=String(Math.floor(seconds/3600)).padStart(2,'0');
+ const minutes=String(Math.floor(seconds%3600/60)).padStart(2,'0');
+ const secs=String(seconds%60).padStart(2,'0');
+ display.textContent=hours+':'+minutes+':'+secs;
+}
+setInterval(updateDailyDealsCountdown,1000);
+</script></body></html>
