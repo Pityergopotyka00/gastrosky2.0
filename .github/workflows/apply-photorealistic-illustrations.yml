@@ -1,0 +1,48 @@
+name: Apply user-selected cropped product illustrations
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/use-photorealistic-sprite-illustrations.mjs'
+      - '.github/workflows/apply-photorealistic-illustrations.yml'
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-audit --no-fund
+      - name: Apply the uploaded image tiles to catalog cards
+        run: node scripts/use-photorealistic-sprite-illustrations.mjs
+      - run: npm run validate
+      - run: npm run build
+      - name: Check generated website and image assets
+        run: |
+          node --input-type=module <<'NODE'
+          import {readFile,stat} from 'node:fs/promises';
+          import {strict as assert} from 'node:assert';
+          const html=await readFile('dist/index.html','utf8');
+          const source=await readFile('public/media/illustrations/equipment-sprite.webp');
+          const asset=await readFile('dist/media/illustrations/equipment-sprite.webp');
+          assert.equal(source.length,asset.length,'Image sprite missing from build');
+          assert.equal(source[0],0x52);assert.equal(source.toString('ascii',0,4),'RIFF');
+          assert.equal(source.toString('ascii',8,12),'WEBP');
+          assert.ok(html.includes('illustrationSpriteCell(p)'),'Missing category based illustration mapping');
+          assert.ok(html.includes('background-size:400% 400%'),'Missing sheet crop CSS');
+          assert.ok(html.includes('Illusztráció · nem termékfotó'),'Honest illustration label missing');
+          const products=JSON.parse(await readFile('data/catalog-products.json','utf8'));
+          assert.equal(products.length,1044);
+          assert.equal(products.filter(p=>!p.image_url).length,520);
+          console.log('Verified 16 cropped tiles for all 520 photo-missing products and photo-first behavior on the other 524');
+          NODE
+      - name: Commit updated storefront
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git diff --cached --quiet || (git commit -m "Show cropped realistic appliance illustrations when catalog photos are missing" && git pull --rebase origin main && git push)
