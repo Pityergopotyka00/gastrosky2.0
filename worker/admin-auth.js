@@ -1,3 +1,4 @@
+import {handleAdminManagement} from './admin-management.js';
 import {scryptSync} from 'node:crypto';
 // GastroSky private admin authentication API (Cloudflare Workers + D1).
 // No public signup, bootstrap endpoint, password reset or admin dashboard.
@@ -186,7 +187,19 @@ export async function handleAdminRequest(request,env){
    await env.ADMIN_DB.prepare('INSERT INTO admin_audit_log (actor_id,event,occurred_at) VALUES (?,?,?)').bind(current.user_id,'logout',now).run();
    return secureHeaders(json({ok:true},200,{'set-cookie':clearCookie()}));
   }
-  // No open CRUD API until each operation has permission tests and auditing.
+  if(url.pathname.startsWith('/api/admin/')){
+   phase='management_authorization';
+   const current=await session(request,env);
+   if(!current)return secureHeaders(json({error:'unauthorized'},401));
+   if(!['GET','HEAD'].includes(request.method)){
+    phase='management_csrf';
+    const csrf=request.headers.get('x-csrf-token')||'';
+    if(!/^[0-9a-f]{64}$/i.test(csrf)||!equalHex(await sha256(csrf),current.csrf_hash))
+     return secureHeaders(json({error:'forbidden'},403));
+   }
+   phase='management_request';
+   return secureHeaders(await handleAdminManagement(request,env,current));
+  }
   return secureHeaders(json({error:'not_found'},404));
  }catch(error){
   // Log only the failing phase: never log passwords, TOTP values, secrets, email or tokens.
