@@ -18,6 +18,12 @@ const probes=[
  {brand:'Fagor',url:'https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/ikore'},
  {brand:'Fagor',url:'https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1'},
  {brand:'Coldline',url:'https://coldline.it/en'},
+ {brand:'Coldline',url:'https://coldline.it/en/catalog/1400-lt-5'},
+ {brand:'Krupps',url:'https://www.krupps.com/en/catalogue/advance-range/'},
+ {brand:'Gastro Haal',url:'https://gastrohaal.sk/hu/termekek/72_burgonyakoptatok/308_skz-25-burgonyakoptato-25kg-adag-ciklus'},
+ {brand:'Gastro Haal',url:'https://gastrohaal.sk/hu/termekek/72_burgonyakoptatok/320_lo-1-hulladekfogo-a-burgonyakoptatohoz'},
+ {brand:'Sistema Project Italia',url:'https://www.projectsystems.it/en/projects/a-series/'},
+ {brand:'Tecnodom',url:'https://www.tecnodomspa.com/en/verticale.html'},
 ];
 const results=[];
 for(const {brand,url} of probes){
@@ -27,9 +33,11 @@ for(const {brand,url} of probes){
   record.status=r.status;record.content_type=r.headers.get('content-type');record.redirect=r.url;
   if(record.content_type?.includes('text/html')){
    const html=await r.text();const $=load(html);
+   record.body_codes=$('body').text().replace(/\\s+/g,' ').slice(0,800);
    record.title=$('title').text().slice(0,150);
    record.images=$('img').slice(0,16).map((_,el)=>{const x=$(el);return{src:x.attr('src'),lazy:x.attr('data-src'),alt:x.attr('alt'),parent:x.parent().attr('class')}}).get();
    record.meta_image=$('meta[property="og:image"]').attr('content');
+   record.product_images=$('main img,.product-image img,.product-photo img,.woocommerce-product-gallery img,article img').slice(0,18).map((_,el)=>{const x=$(el);return{src:x.attr('src'),lazy:x.attr('data-src'),alt:x.attr('alt'),parent:x.parent().attr('class')}}).get();
    record.photo_links=$('a').toArray().filter(el=>/photo|image|fotografia/i.test($(el).text())).slice(0,12).map(el=>({title:$(el).text().trim().slice(0,50),href:$(el).attr('href')}));
    record.model_matches=$('h1,h2,h3,h4').toArray().filter(el=>/F60\/30PCG\/T|F60\/30FRESE\/1V10\/T/i.test($(el).text())).slice(0,4).map(el=>$(el).parent().html()?.slice(0,1000));
   }else{await r.body?.cancel();}
