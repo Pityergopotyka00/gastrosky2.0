@@ -1,0 +1,287 @@
+{
+  "checked_at": "2026-11-14T19:12:47.325Z",
+  "results": [
+    {
+      "url": "https://gastrosky.hu/termekek/reszletek/munkaasztal",
+      "http": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "GastroSky - MUNKAASZTAL",
+      "html_length": 35301,
+      "image_nodes": [
+        {
+          "src": "/assets/images/logo.png",
+          "alt": "gastrosky",
+          "class": "img-responsive",
+          "parent": "navbar-brand col-auto ms-0 d-none d-lg-block"
+        },
+        {
+          "src": "/assets/images/logo.png",
+          "alt": "gastrosky",
+          "class": "img-responsive",
+          "parent": "navbar-brand d-block d-lg-none col-auto ms-3"
+        },
+        {
+          "src": "/assets/images/partners/technoinox.png",
+          "alt": "gastrosky",
+          "parent": "col-12 col-md-auto text-center"
+        },
+        {
+          "src": "/assets/images/partners/gastrohall.png",
+          "alt": "gastrosky",
+          "parent": "col-12 col-md-auto text-center"
+        },
+        {
+          "src": "/assets/images/partners/lainox.png",
+          "alt": "gastrosky",
+          "parent": "col-12 col-md-auto text-center"
+        },
+        {
+          "src": "/assets/images/partners/technodom.png",
+          "alt": "gastrosky",
+          "parent": "col-12 col-md-auto text-center"
+        },
+        {
+          "src": "/assets/images/partners/rm.png",
+          "alt": "gastrosky",
+          "parent": "col-12 col-md-auto text-center"
+        },
+        {
+          "src": "/static_content_images/Gastrosky_logo_karácsony_web.png",
+          "width": "243",
+          "height": "242",
+          "parent": ""
+        }
+      ],
+      "picture_sources": [],
+      "meta_image": null,
+      "css_backgrounds": [
+        "background-image: url('https://gastrosky.hu/product_images/347/1_medium.jpg?161?v=20261114201246');"
+      ],
+      "image_urls_in_markup": [
+        "\"/assets/images/favico.png",
+        "\"/assets/images/logo.png",
+        "'https://gastrosky.hu/product_images/347/1_medium.jpg?161?v=20261114201246",
+        "\"/assets/images/partners/technoinox.png",
+        "\"/assets/images/partners/gastrohall.png",
+        "\"/assets/images/partners/lainox.png",
+        "\"/assets/images/partners/technodom.png",
+        "\"/assets/images/partners/rm.png",
+        "\"/static_content_images/Gastrosky_logo_kar&aacute;csony_web.png"
+      ],
+      "classes_near_name": [
+        "\n                <div style=\"min-height: 395px;\">\n                <div class=\"fw-bold\">\n                    TERMÉK MEGNEVEZÉSE:\n                </div>\n                <div class=\"mb-4\">\nMUNKAASZTAL                </div>\n                <div class=\"fw-bold\">\n                    TERMÉKLEÍRÁS:\n                </div>\n                <div class=\"mb-4 col-11\">\n<p><strong>ROZSDAMENTES MUNKAASZTAL<br>\nJellemző</strong>: rozsdamentes acélból, rezgésmentes 50 mm vastag fedlappal, szintező talpakon, hátsó lábösszekötővel</p>\n\n<p>Akár egyedi mértekre is készítjük termékeinket, egyedi igényekkel kapcsolatban érdeklődjön nálunk.</p>\n\n<p>Méretekkel, árakkal kapcsolatban érdeklődjön üzletkötőnknél!</p>\n                </div>\n                </div>\n                    \n                    \n                <div>\n                    <div class=\"fw-bold h5\">\n                    ÁRAJÁNLAT KÉRÉSE:\n                </div>\n                <form class=\"orderForm\" method=\"post\" action=\"/megrendeles_ajax/ajanlatkeres\" id=\"orderProductForm\">\n                    <input type=\"hidden\" name=\"type\" value=\"single\">\n  "
+      ]
+    },
+    {
+      "url": "https://gastrosky.hu/termekek/reszletek/egyszintes-atadopolc",
+      "http": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "GastroSky - EGYSZINTES ÁTADÓPOLC",
+      "html_length": 35450,
+      "image_nodes": [
+        {
+          "src": "/assets/images/logo.png",
+          "alt": "gastrosky",
+          "class": "img-responsive",
+          "parent": "navbar-brand col-auto ms-0 d-none d-lg-block"
+        },
+        {
+          "src": "/assets/images/logo.png",
+          "alt": "gastrosky",
+          "class": "img-responsive",
+          "parent": "navbar-brand d-block d-lg-none col-auto ms-3"
+        },
+        {
+          "src": "/assets/images/partners/technoinox.png",
+          "alt": "gastrosky",
+          "parent": "col-12 col-md-auto text-center"
+        },
+        {
+          "src": "/assets/images/partners/gastrohall.png",
+          "alt": "gastrosky",
+          "parent": "col-12 col-md-auto text-center"
+        },
+        {
+          "src": "/assets/images/partners/lainox.png",
+          "alt": "gastrosky",
+          "parent": "col-12 col-md-auto text-center"
+        },
+        {
+          "src": "/assets/images/partners/technodom.png",
+          "alt": "gastrosky",
+          "parent": "col-12 col-md-auto text-center"
+        },
+        {
+          "src": "/assets/images/partners/rm.png",
+          "alt": "gastrosky",
+          "parent": "col-12 col-md-auto text-center"
+        },
+        {
+          "src": "/static_content_images/Gastrosky_logo_karácsony_web.png",
+          "width": "243",
+          "height": "242",
+          "parent": ""
+        }
+      ],
+      "picture_sources": [],
+      "meta_image": null,
+      "css_backgrounds": [
+        "background-image: url('https://gastrosky.hu/product_images/354/1_medium.jpg?604?v=20261114201246');"
+      ],
+      "image_urls_in_markup": [
+        "\"/assets/images/favico.png",
+        "\"/assets/images/logo.png",
+        "'https://gastrosky.hu/product_images/354/1_medium.jpg?604?v=20261114201246",
+        "\"/assets/images/partners/technoinox.png",
+        "\"/assets/images/partners/gastrohall.png",
+        "\"/assets/images/partners/lainox.png",
+        "\"/assets/images/partners/technodom.png",
+        "\"/assets/images/partners/rm.png",
+        "\"/static_content_images/Gastrosky_logo_kar&aacute;csony_web.png"
+      ],
+      "classes_near_name": [
+        "\n                <div style=\"min-height: 395px;\">\n                <div class=\"fw-bold\">\n                    TERMÉK MEGNEVEZÉSE:\n                </div>\n                <div class=\"mb-4\">\nEGYSZINTES ÁTADÓPOLC                </div>\n                <div class=\"fw-bold\">\n                    TERMÉKLEÍRÁS:\n                </div>\n                <div class=\"mb-4 col-11\">\n<p><strong>ROZSDAMENTES ÁTADÓPOLC EGYSZINTES<br>\nJellemző:</strong> rozsdamentes acélból, egyszintes, pultra építhető</p>\n\n<p>Kérésre beépített melegítő kerámia betétekkel.</p>\n\n<p>Akár egyedi mértekre is készítjük termékeinket, egyedi igényekkel kapcsolatban érdeklődjön nálunk.</p>\n\n<p>Méretekkel, árakkal kapcsolatban érdeklődjön üzletkötőnknél!</p>\n                </div>\n                </div>\n                    \n                    \n                <div>\n                    <div class=\"fw-bold h5\">\n                    ÁRAJÁNLAT KÉRÉSE:\n                </div>\n                <form class=\"orderForm\" method=\"post\" action=\"/megrendeles_ajax/ajanlatkeres\" id=\"orderProductForm\">\n                    <input type=\"hidden\" name=\"t"
+      ]
+    },
+    {
+      "url": "https://gastrosky.hu/termekek/reszletek/nyitott-pult",
+      "http": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "GastroSky - NYITOTT PULT",
+      "html_length": 35361,
+      "image_nodes": [
+        {
+          "src": "/assets/images/logo.png",
+          "alt": "gastrosky",
+          "class": "img-responsive",
+          "parent": "navbar-brand col-auto ms-0 d-none d-lg-block"
+        },
+        {
+          "src": "/assets/images/logo.png",
+          "alt": "gastrosky",
+          "class": "img-responsive",
+          "parent": "navbar-brand d-block d-lg-none col-auto ms-3"
+        },
+        {
+          "src": "/assets/images/partners/technoinox.png",
+          "alt": "gastrosky",
+          "parent": "col-12 col-md-auto text-center"
+        },
+        {
+          "src": "/assets/images/partners/gastrohall.png",
+          "alt": "gastrosky",
+          "parent": "col-12 col-md-auto text-center"
+        },
+        {
+          "src": "/assets/images/partners/lainox.png",
+          "alt": "gastrosky",
+          "parent": "col-12 col-md-auto text-center"
+        },
+        {
+          "src": "/assets/images/partners/technodom.png",
+          "alt": "gastrosky",
+          "parent": "col-12 col-md-auto text-center"
+        },
+        {
+          "src": "/assets/images/partners/rm.png",
+          "alt": "gastrosky",
+          "parent": "col-12 col-md-auto text-center"
+        },
+        {
+          "src": "/static_content_images/Gastrosky_logo_karácsony_web.png",
+          "width": "243",
+          "height": "242",
+          "parent": ""
+        }
+      ],
+      "picture_sources": [],
+      "meta_image": null,
+      "css_backgrounds": [
+        "background-image: url('https://gastrosky.hu/product_images/350/1_medium.jpg?933?v=20261114201246');"
+      ],
+      "image_urls_in_markup": [
+        "\"/assets/images/favico.png",
+        "\"/assets/images/logo.png",
+        "'https://gastrosky.hu/product_images/350/1_medium.jpg?933?v=20261114201246",
+        "\"/assets/images/partners/technoinox.png",
+        "\"/assets/images/partners/gastrohall.png",
+        "\"/assets/images/partners/lainox.png",
+        "\"/assets/images/partners/technodom.png",
+        "\"/assets/images/partners/rm.png",
+        "\"/static_content_images/Gastrosky_logo_kar&aacute;csony_web.png"
+      ],
+      "classes_near_name": [
+        "\n                <div style=\"min-height: 395px;\">\n                <div class=\"fw-bold\">\n                    TERMÉK MEGNEVEZÉSE:\n                </div>\n                <div class=\"mb-4\">\nNYITOTT PULT                </div>\n                <div class=\"fw-bold\">\n                    TERMÉKLEÍRÁS:\n                </div>\n                <div class=\"mb-4 col-11\">\n<p><strong>ROZSDAMENTES NYITOTT PULT<br>\nJellemző:</strong> rozsdamentes acélból, rezgésmentes fedlappal, szintező talpakon, alsó és köztes polccal, nyitott tároló résszel</p>\n\n<p>Akár egyedi mértekre is készítjük termékeinket, egyedi igényekkel kapcsolatban érdeklődjön nálunk.</p>\n\n<p>Méretekkel, árakkal kapcsolatban érdeklődjön üzletkötőnknél!</p>\n                </div>\n                </div>\n                    \n                    \n                <div>\n                    <div class=\"fw-bold h5\">\n                    ÁRAJÁNLAT KÉRÉSE:\n                </div>\n                <form class=\"orderForm\" method=\"post\" action=\"/megrendeles_ajax/ajanlatkeres\" id=\"orderProductForm\">\n                    <input type=\"hidden\" name=\"type\" valu"
+      ]
+    },
+    {
+      "url": "https://gastrosky.hu/termekek/kategoria/munkaasztalok",
+      "http": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "GastroSky",
+      "html_length": 31658,
+      "image_nodes": [
+        {
+          "src": "/assets/images/logo.png",
+          "alt": "gastrosky",
+          "class": "img-responsive",
+          "parent": "navbar-brand col-auto ms-0 d-none d-lg-block"
+        },
+        {
+          "src": "/assets/images/logo.png",
+          "alt": "gastrosky",
+          "class": "img-responsive",
+          "parent": "navbar-brand d-block d-lg-none col-auto ms-3"
+        },
+        {
+          "src": "/assets/images/partners/technoinox.png",
+          "alt": "gastrosky",
+          "parent": "col-12 col-md-auto text-center"
+        },
+        {
+          "src": "/assets/images/partners/gastrohall.png",
+          "alt": "gastrosky",
+          "parent": "col-12 col-md-auto text-center"
+        },
+        {
+          "src": "/assets/images/partners/lainox.png",
+          "alt": "gastrosky",
+          "parent": "col-12 col-md-auto text-center"
+        },
+        {
+          "src": "/assets/images/partners/technodom.png",
+          "alt": "gastrosky",
+          "parent": "col-12 col-md-auto text-center"
+        },
+        {
+          "src": "/assets/images/partners/rm.png",
+          "alt": "gastrosky",
+          "parent": "col-12 col-md-auto text-center"
+        },
+        {
+          "src": "/static_content_images/Gastrosky_logo_karácsony_web.png",
+          "width": "243",
+          "height": "242",
+          "parent": ""
+        }
+      ],
+      "picture_sources": [],
+      "meta_image": null,
+      "css_backgrounds": [
+        "background-image: url('https://gastrosky.hu/product_images/347/1_thumb.jpg?860?v=20261114201247');"
+      ],
+      "image_urls_in_markup": [
+        "\"/assets/images/favico.png",
+        "\"/assets/images/logo.png",
+        "'https://gastrosky.hu/product_images/347/1_thumb.jpg?860?v=20261114201247",
+        "\"/assets/images/partners/technoinox.png",
+        "\"/assets/images/partners/gastrohall.png",
+        "\"/assets/images/partners/lainox.png",
+        "\"/assets/images/partners/technodom.png",
+        "\"/assets/images/partners/rm.png",
+        "\"/static_content_images/Gastrosky_logo_kar&aacute;csony_web.png"
+      ],
+      "classes_near_name": []
+    }
+  ]
+}
