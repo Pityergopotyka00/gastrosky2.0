@@ -1,0 +1,1109 @@
+{
+  "checked_at": "2026-11-14T20:00:08.709Z",
+  "pages": [
+    {
+      "url": "https://www.fagorprofessional.com/en/kitchen-appliances",
+      "photos": 16,
+      "http": 200
+    },
+    {
+      "url": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen",
+      "photos": 7,
+      "http": 200
+    },
+    {
+      "url": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/kore",
+      "photos": 10,
+      "http": 200
+    },
+    {
+      "url": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/independent-cooking",
+      "photos": 10,
+      "http": 200
+    },
+    {
+      "url": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/high-production-equipment",
+      "photos": 11,
+      "http": 200
+    },
+    {
+      "url": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens",
+      "photos": 8,
+      "http": 200
+    },
+    {
+      "url": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/ikore",
+      "photos": 1,
+      "http": 200
+    },
+    {
+      "url": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/compact",
+      "photos": 8,
+      "http": 200
+    },
+    {
+      "url": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accelerated-cooking-oven",
+      "photos": 6,
+      "http": 200
+    },
+    {
+      "url": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accessories",
+      "photos": 7,
+      "http": 200
+    },
+    {
+      "url": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration",
+      "photos": 11,
+      "http": 200
+    },
+    {
+      "url": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/refrigeration-cabinets",
+      "photos": 28,
+      "http": 200
+    },
+    {
+      "url": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/refrigeration-counters",
+      "photos": 27,
+      "http": 200
+    },
+    {
+      "url": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/preparation-counters",
+      "photos": 6,
+      "http": 200
+    },
+    {
+      "url": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/blast-chillers",
+      "photos": 7,
+      "http": 200
+    },
+    {
+      "url": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/coolers",
+      "photos": 6,
+      "http": 200
+    },
+    {
+      "url": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution",
+      "photos": 3,
+      "http": 200
+    },
+    {
+      "url": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation",
+      "photos": 8,
+      "http": 200
+    },
+    {
+      "url": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/industrial-hand-blenders",
+      "photos": 5,
+      "http": 200
+    }
+  ],
+  "images": [
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228038/foodservice-portada.jpg/02fa81de-0193-a858-c287-e7143f96dd57?t=1647348117119&download=true",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances"
+      ],
+      "category": "/en/kitchen-appliances",
+      "title": "Foodservice",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228038/coccion-industrial.jpg/b880aa24-4adc-cbec-2790-884139542004?t=1647351103512&download=true",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances"
+      ],
+      "category": "/en/kitchen-appliances",
+      "title": "Foodservice",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228038/Recurso+7.png/cc268df6-a74f-3761-c84b-77705b713ceb?t=1634719796187&download=true",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances"
+      ],
+      "category": "/en/kitchen-appliances",
+      "title": "Foodservice",
+      "is_image": true,
+      "mime": "image/png"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228038/Recurso+8.png/3bcb05f4-a8d1-d71d-7943-c4e4f870e7a0?t=1634719796283&download=true",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances"
+      ],
+      "category": "/en/kitchen-appliances",
+      "title": "Foodservice",
+      "is_image": true,
+      "mime": "image/png"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228038/hornos-industriales.jpg/333e8c07-b2f4-2859-2ae2-32094c84bfb7?t=1647351089771&download=true",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances"
+      ],
+      "category": "/en/kitchen-appliances",
+      "title": "Foodservice",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/d/global/dsc02397?imagePreview=1",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances"
+      ],
+      "category": "/en/kitchen-appliances",
+      "title": "Foodservice",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228038/Recurso%209.png/98639259-d41f-d54a-b247-0f622eaaa522?t=1634719796342&imagePreview=1",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances"
+      ],
+      "category": "/en/kitchen-appliances",
+      "title": "Foodservice",
+      "is_image": true,
+      "mime": "image/png"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228038/foodservice-background-2.jpg/3153131a-24c6-4852-9571-c648dcc03d43?t=1570604666315&version=1.0&download=true",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances"
+      ],
+      "category": "/en/kitchen-appliances",
+      "title": "Foodservice",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228038/frio-comercial.jpg/8c2c830d-837a-e993-f946-841bbdf47dcf?t=1647351070818&download=true",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances"
+      ],
+      "category": "/en/kitchen-appliances",
+      "title": "Foodservice",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228038/Recurso+11.png/6643bd1b-d648-e615-4f98-c2551e3639c9?t=1634719796479&download=true",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances"
+      ],
+      "category": "/en/kitchen-appliances",
+      "title": "Foodservice",
+      "is_image": true,
+      "mime": "image/png"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228038/Recurso+13.png/67a8fdab-1cb1-49bd-69cb-05bfec7f9cc9?t=1634719796605&download=true",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances"
+      ],
+      "category": "/en/kitchen-appliances",
+      "title": "Foodservice",
+      "is_image": true,
+      "mime": "image/png"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228038/distribucion-profesional.jpg/4cc35000-1918-404d-8c54-5f3058ce8afb?t=1647351078161&download=true",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances"
+      ],
+      "category": "/en/kitchen-appliances",
+      "title": "Foodservice",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/d/global/agua-guisada-11_v3-1-?imagePreview=1",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances"
+      ],
+      "category": "/en/kitchen-appliances",
+      "title": "Foodservice",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/d/global/prep-estatica2?imagePreview=1",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances"
+      ],
+      "category": "/en/kitchen-appliances",
+      "title": "Foodservice",
+      "is_image": true,
+      "mime": "image/png"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/d/global/recurso-8?imagePreview=1",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances"
+      ],
+      "category": "/en/kitchen-appliances",
+      "title": "Foodservice",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/d/global/fp_web_preparaciondinamica-1?imagePreview=1",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances"
+      ],
+      "category": "/en/kitchen-appliances",
+      "title": "Foodservice",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228035/Portada+cocci%C3%B3n.jpg/dae7d012-b499-584b-e9aa-16a27b39574b?t=1647352671107",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen",
+      "title": "Cooking",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228035/cocina-medida-symphony.jpg/c4499802-794a-fbee-27d2-a3155dc2596a?t=1574759759912",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen",
+      "title": "Cooking",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/2846626/Portada-monobllock.jpg/264445ec-7317-c74b-2c52-97dec72db7e0?t=1647956403459",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen",
+      "title": "Cooking",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228035/cocina-modular-gama900.jpg/c50b376c-77b6-298b-bf36-72b86b64586b?t=1574688454800",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen",
+      "title": "Cooking",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/742147/nivel+1_+grandes+prod.jpg/4b39169b-20be-21bb-c89c-ae3f9eb53ee1?t=1614328908363",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen",
+      "title": "Cooking",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228035/cocci%C3%B3n-independiente.jpg/bfeae5f8-1e99-26b3-6a2e-dcff51140160?t=1574688454700",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen",
+      "title": "Cooking",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228035/modulo-descarga-coccion.jpg/d0a6b774-b9e9-4831-64c0-6d3afe38c127?t=1647412448295",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen",
+      "title": "COOKINGA SOLUTION FOR EVERY NEED",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228245/Portada-kore.jpg/785dfb4d-7a5e-9e2a-fe51-d2bdad244a91?t=1647416049201",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/kore"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen/kore",
+      "title": "Modular kitchen: 900 and 700 Kore Generation",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228245/cocina-modular-kore900.jpg/216e216e-16da-f6d4-cc9e-6a161929e048?t=1581676390830",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/kore"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen/kore",
+      "title": "Modular kitchen: 900 and 700 Kore Generation",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228245/cocina-kore700.jpg/66b86ac5-facf-5e5c-61e0-e65cfb30b463?t=1587023814783",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/kore"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen/kore",
+      "title": "Modular kitchen: 900 and 700 Kore Generation",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228245/descraga-kore.jpg/dbf0ef1b-b472-e7db-fc9f-ef44c2cfe3f9?t=1647417018910",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/kore"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen/kore",
+      "title": "THE HEART OF THE PROFESSIONAL KITCHEN",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228245/robusto1.jpg/3724a445-3412-3475-05dd-2ed9c0f76867?t=1587037294337",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/kore"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen/kore",
+      "title": "Modular kitchen: 900 and 700 Kore Generation",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228245/robusto2.jpg/f86db64f-494c-2282-c285-ce695866eda1?t=1587037281677",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/kore"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen/kore",
+      "title": "Modular kitchen: 900 and 700 Kore Generation",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228245/cocina-modular-kore900-detalle3.jpg/3a8ec480-2ba1-8881-f1c4-d0fdf17919ab?t=1581676390803",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/kore"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen/kore",
+      "title": "Modular kitchen: 900 and 700 Kore Generation",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228245/cocina-modular-kore900-detalle4.jpg/9f9469dc-d73a-012b-3a1f-7f05d82e9dde?t=1581676390809",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/kore"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen/kore",
+      "title": "Modular kitchen: 900 and 700 Kore Generation",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228245/cocina-modular-kore900-detalle5%282%29.jpg/12c262d4-8f0d-026d-6de9-a99f1a979eda?t=1587039943635",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/kore"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen/kore",
+      "title": "Modular kitchen: 900 and 700 Kore Generation",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228245/cocina-modular-kore900-detalle6.jpg/79a864bb-cfb2-e3de-e08f-999f97df5bdf?t=1587039656875",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/kore"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen/kore",
+      "title": "Modular kitchen: 900 and 700 Kore Generation",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228308/Slider+Cocci%C3%B3n+Independiente.jpg/e866d0bc-e058-8665-cde3-63b13921c662?t=1647441294362",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/independent-cooking"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen/independent-cooking",
+      "title": "Independent cooking",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228293/cocinas-industriales-de-gas-gama600.jpg/651570a1-ff5d-2065-efdb-24d9e9e72185?t=1574779120703",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/independent-cooking"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen/independent-cooking",
+      "title": "Independent cooking",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228293/fry-tops-industriales-gama600+%281%29.jpg/f74c5bfc-c730-3d52-629b-e4fc65186694?t=1573573812738",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/independent-cooking"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen/independent-cooking",
+      "title": "Independent cooking",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228293/freidoras-industriales-600.jpg/95eeb7a1-e6e2-a0c6-f8f1-80806572394f?t=1574779120803",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/independent-cooking"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen/independent-cooking",
+      "title": "Independent cooking",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228308/parrilla-vasca.jpg/a06b74c6-c7d2-d593-ae75-035e149b2a04?t=1573574257710",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/independent-cooking"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen/independent-cooking",
+      "title": "Independent cooking",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/330450/robata.jpg/0b7d99a3-9881-6adc-f4e7-e366880c608b?t=1570429676603",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/independent-cooking"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen/independent-cooking",
+      "title": "Independent cooking",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/330450/hornillo-de-pavimento-de-gas.jpg/e684aa31-121e-a978-21d1-59454243f1f7?t=1570429675937",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/independent-cooking"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen/independent-cooking",
+      "title": "Independent cooking",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/330450/salamandras-electricas-de-techo-movil.jpg/232cc8e3-15ce-bcc4-3fae-0059b2465192?t=1570429676699",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/independent-cooking"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen/independent-cooking",
+      "title": "Independent cooking",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/330450/salamandras-electricas-ultrarrapidas.jpg/697bacd9-d8ab-ee84-f6e8-2f0daac57df3?t=1570429676825",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/independent-cooking"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen/independent-cooking",
+      "title": "Independent cooking",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228308/cocinas-centrales-1+%281%29.jpg/646b2355-6a08-88ef-c9c8-48ee4dc076f4?t=1581676390862",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/independent-cooking"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen/independent-cooking",
+      "title": "SPECIFIC EQUIPMENT FOR INDEPENDENT COOKING",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/742147/Portada+grandes+producciones.jpg/9d173e15-ba95-a923-5a6e-716612f548d8?t=1647437626178",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/high-production-equipment"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen/high-production-equipment",
+      "title": "HIGH PRODUCTION EQUIPMENT",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/742147/marmitas+cilindricas+fija.jpg/e90f9df8-0a0d-b3ea-dbd4-3c9b08158646?t=1611313851069",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/high-production-equipment"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen/high-production-equipment",
+      "title": "HIGH PRODUCTION EQUIPMENT",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/742147/marmitas+cilindricas+fija+con+mexcaldor.jpg/e4279c11-351f-9681-9ce5-3ccdaea34925?t=1611313850981",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/high-production-equipment"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen/high-production-equipment",
+      "title": "HIGH PRODUCTION EQUIPMENT",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/742147/marmitas+cilindricas+basculantes.jpg/9659ab9b-63a6-ede7-1b6e-56d1249055fb?t=1611313850847",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/high-production-equipment"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen/high-production-equipment",
+      "title": "HIGH PRODUCTION EQUIPMENT",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/742147/marmitas+rectangulares+fijas.jpg/98649f5a-ee71-3cf7-c21a-17a5dbfb591b?t=1611313851167",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/high-production-equipment"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen/high-production-equipment",
+      "title": "HIGH PRODUCTION EQUIPMENT",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/742147/marmitas+rectangulares+GN.jpg/2a12387f-a896-ffde-b0c1-8ffda2746d8f?t=1611313851266",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/high-production-equipment"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen/high-production-equipment",
+      "title": "HIGH PRODUCTION EQUIPMENT",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/742147/sarten+basculante+motorizada.jpg/ec7e5348-5e98-4ac2-d6cc-5993176ce1f3?version=1.0&t=1611313851468&imageThumbnail=1",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/high-production-equipment"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen/high-production-equipment",
+      "title": "HIGH PRODUCTION EQUIPMENT",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/742147/sarten+basculante+automatica.jpg/b502be81-d795-d6aa-ef87-7043b22f08f8?version=1.0&t=1611313851362&imageThumbnail=1",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/high-production-equipment"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen/high-production-equipment",
+      "title": "HIGH PRODUCTION EQUIPMENT",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/742147/cocedores+automaticos.jpg/892f3aaa-326e-2dec-efda-cca871a0bc37?version=1.0&t=1611313851640&imageThumbnail=1",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/high-production-equipment"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen/high-production-equipment",
+      "title": "HIGH PRODUCTION EQUIPMENT",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/742147/grandes+producciones+descarga.jpg/14153ddf-5d30-17df-1409-c6d9dd5f7c74?t=1613064610499",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/high-production-equipment"
+      ],
+      "category": "/en/kitchen-appliances/commercial-kitchen/high-production-equipment",
+      "title": "HIGH PRODUCTION EQUIPMENT",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228113/Portada+hornos.jpg/b21bd656-14df-ad2c-84d9-bd47a84906b1?t=1646138583058",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens"
+      ],
+      "category": "/en/kitchen-appliances/industrial-ovens",
+      "title": "Ovens",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/d/global/fp_hornos_speed",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens"
+      ],
+      "category": "/en/kitchen-appliances/industrial-ovens",
+      "title": "Ovens",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/d/global/fp_hornos_ikore",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens"
+      ],
+      "category": "/en/kitchen-appliances/industrial-ovens",
+      "title": "Ovens",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/d/global/fp_hornos_konpact",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens"
+      ],
+      "category": "/en/kitchen-appliances/industrial-ovens",
+      "title": "Ovens",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/d/global/fp_hornos_cook-chill",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens"
+      ],
+      "category": "/en/kitchen-appliances/industrial-ovens",
+      "title": "Ovens",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/d/global/fp_hornos_envasadora",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens"
+      ],
+      "category": "/en/kitchen-appliances/industrial-ovens",
+      "title": "Ovens",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/d/global/fp_hornos_bandejas",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens"
+      ],
+      "category": "/en/kitchen-appliances/industrial-ovens",
+      "title": "Ovens",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228113/horno-industrial+%281%29.jpg/fc731f69-c1d4-e194-7f98-268d4d52b057?t=1646213735275",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens"
+      ],
+      "category": "/en/kitchen-appliances/industrial-ovens",
+      "title": "OVENSTHE PERFECT SOLUTION FOR EVERY CHEF",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/2762604/Hornos+ikore+3.jpg/9d7acad5-e391-835a-ac83-cf5a21059270?t=1710164008782",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/ikore"
+      ],
+      "category": "/en/kitchen-appliances/industrial-ovens/ikore",
+      "title": null,
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/9369918/img2.jpg/27d7256e-9b21-a6a0-3901-b40e5c149094?t=1732096739993",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/compact"
+      ],
+      "category": "/en/kitchen-appliances/industrial-ovens/compact",
+      "title": null,
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/9369918/SIZE-ikorekompact.jpg/8ed2c5af-8293-54b5-b935-1b76f955e404?t=1731670182140",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/compact"
+      ],
+      "category": "/en/kitchen-appliances/industrial-ovens/compact",
+      "title": "client-image",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/9369918/COOKING-ikorekompact.jpg/eeaf4003-b2b2-58ba-cdeb-0e38fa7dace0?t=1731670576632",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/compact"
+      ],
+      "category": "/en/kitchen-appliances/industrial-ovens/compact",
+      "title": "client-image",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/9369918/USE-ikorekompact.jpg/6e3a09e2-cf9c-335e-5ff5-8f3f2677ed9c?t=1731677052140",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/compact"
+      ],
+      "category": "/en/kitchen-appliances/industrial-ovens/compact",
+      "title": "client-image",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/9369918/Turbina-bidireccional_iKORE-Kompact2.jpg/64b9160e-82d6-b926-c892-a0aab313b2e3?t=1731924424972",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/compact"
+      ],
+      "category": "/en/kitchen-appliances/industrial-ovens/compact",
+      "title": "client-image",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/9369918/HIGYNE_ikorekompact2.jpg/aa7a69a1-470d-a317-504a-dac7c3a99640?t=1731677266281",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/compact"
+      ],
+      "category": "/en/kitchen-appliances/industrial-ovens/compact",
+      "title": "client-image",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/9369918/FAGORKONNECT-ikorekompact.jpg/0f8a93b2-de9d-c8af-5574-b9833c31e8a3?t=1731924563994",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/compact"
+      ],
+      "category": "/en/kitchen-appliances/industrial-ovens/compact",
+      "title": "client-image",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/9369918/modulo-descargas+%281%29.jpg/59eca9bb-4107-568c-b355-bf4efd76a3f8?t=1731925969836",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/compact"
+      ],
+      "category": "/en/kitchen-appliances/industrial-ovens/compact",
+      "title": "WHEN SIZE MATTERS",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/12740189/Cabecera+Speed+Oven.jpg/e8952125-54bb-902a-e5e0-53ba4e696388?t=1782133153486",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accelerated-cooking-oven"
+      ],
+      "category": "/en/kitchen-appliances/industrial-ovens/accelerated-cooking-oven",
+      "title": "Speed oven",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/12740189/respuesta+inmediata.jpg/720fd20e-c11b-ebab-a2c4-08e1a935562d?t=1782296486593",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accelerated-cooking-oven"
+      ],
+      "category": "/en/kitchen-appliances/industrial-ovens/accelerated-cooking-oven",
+      "title": "client-image",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/12740189/consistencia.jpg/f8c9cc90-3b8c-9e41-cb9a-b8896dbb5b86?t=1782296416346",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accelerated-cooking-oven"
+      ],
+      "category": "/en/kitchen-appliances/industrial-ovens/accelerated-cooking-oven",
+      "title": "client-image",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/12740189/puesta+en+marcha.jpg/e975b7e8-14e5-00e5-162c-d8d35e6f19f1?t=1782296407809",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accelerated-cooking-oven"
+      ],
+      "category": "/en/kitchen-appliances/industrial-ovens/accelerated-cooking-oven",
+      "title": "client-image",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/12740189/maximo+rendimiento.jpg/65787456-2945-a2fc-d719-5957f871506f?t=1782296397694",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accelerated-cooking-oven"
+      ],
+      "category": "/en/kitchen-appliances/industrial-ovens/accelerated-cooking-oven",
+      "title": "client-image",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/12740189/speed+oven2.jpg/df0a85ef-94df-df2f-be86-475c4402a228?t=1782295585355",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accelerated-cooking-oven"
+      ],
+      "category": "/en/kitchen-appliances/industrial-ovens/accelerated-cooking-oven",
+      "title": "Speed oven",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228593/Slider+accesorios+%281%29.jpg/70b94ddf-536d-c5da-b962-ac7c5795416d?t=1581676408625",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accessories"
+      ],
+      "category": "/en/kitchen-appliances/industrial-ovens/accessories",
+      "title": "Accessories",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228593/hornos-mixtos-industriales23.jpg/9e71138a-b615-052d-daaf-0f283de633c1?t=1587554712613",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accessories"
+      ],
+      "category": "/en/kitchen-appliances/industrial-ovens/accessories",
+      "title": "Accessories",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228593/hornos-mixtos+industriales-carro+%281%29.jpg/1756d7c5-2b60-666d-5c3b-bd98338bbb6b?t=1581676408628",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accessories"
+      ],
+      "category": "/en/kitchen-appliances/industrial-ovens/accessories",
+      "title": "Accessories",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228593/hornos-compactos-optima-ahumador+%281%29.jpg/3c1e44d3-6f86-1cb9-c67b-473ea1ba72f0?t=1581676408633",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accessories"
+      ],
+      "category": "/en/kitchen-appliances/industrial-ovens/accessories",
+      "title": "Accessories",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228593/hornos-compactos-optima-kits-montaje-columna+%281%29.jpg/724560ed-3bcc-7768-0ec0-3cf3341b5064?t=1581676408635",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accessories"
+      ],
+      "category": "/en/kitchen-appliances/industrial-ovens/accessories",
+      "title": "Accessories",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228593/hornos-compactos-optima-limpieza.jpg/7c99524c-1bd4-4ab6-1f17-f84a6e3ef7d7?t=1581676408638",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accessories"
+      ],
+      "category": "/en/kitchen-appliances/industrial-ovens/accessories",
+      "title": "Accessories",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228593/hornos-mixtos+industriales-carro.1+%282%29.jpg/fe0a30e2-c854-65f3-949d-c4cb61361645?t=1581676408640",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accessories"
+      ],
+      "category": "/en/kitchen-appliances/industrial-ovens/accessories",
+      "title": "ONE OF THE LARGEST RANGES ON THE MARKET",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228119/Portada+Fr%C3%ADo+Comercial.jpg/74e9348c-1e51-da1f-c7c7-5b5ce507ad75?t=1744290902646",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration"
+      ],
+      "category": "/en/kitchen-appliances/commercial-refrigeration",
+      "title": "Commercial refrigeration",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228119/iKOLD+Generation.jpg/bc237c22-2bce-e869-bbf3-3ee75c912921?t=1673256162737",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration"
+      ],
+      "category": "/en/kitchen-appliances/commercial-refrigeration",
+      "title": "Commercial refrigeration",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228119/Familia_+100+Armarios+frigor%C3%ADficos.jpg/e8683d1a-c8f9-a09a-1fe5-c79248ef4866?t=1673275208320",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration"
+      ],
+      "category": "/en/kitchen-appliances/commercial-refrigeration",
+      "title": "Commercial refrigeration",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228119/Familia_+200+Mesas+frigor%C3%ADficas.jpg/4bd54d41-59ee-a642-95fb-cf485d347191?t=1673275208491",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration"
+      ],
+      "category": "/en/kitchen-appliances/commercial-refrigeration",
+      "title": "Commercial refrigeration",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228119/Familia_+300+Mesas+de+preparaci%C3%B3n.jpg/f227a0c5-3286-31a3-acb0-f3812f8b5346?t=1673275208648",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration"
+      ],
+      "category": "/en/kitchen-appliances/commercial-refrigeration",
+      "title": "Commercial refrigeration",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228119/Familia_+500+Vitrinas.jpg/d3f31f7c-969b-63cd-de87-af49fb45f5fd?t=1673275209960",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration"
+      ],
+      "category": "/en/kitchen-appliances/commercial-refrigeration",
+      "title": "Commercial refrigeration",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228119/abatidores-de-temperatura-industrial-3.jpg/ade2a13c-8705-b4c3-6fc2-a07e985eb8ec?t=1717583238253",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration"
+      ],
+      "category": "/en/kitchen-appliances/commercial-refrigeration",
+      "title": "Commercial refrigeration",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228119/Familia_+400+Enfriadores.jpg/0a129bf1-f345-6a77-fba0-c99696959a71?t=1673275209780",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration"
+      ],
+      "category": "/en/kitchen-appliances/commercial-refrigeration",
+      "title": "Commercial refrigeration",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228119/cavas.jpg/8f4597f7-ed1e-b0d1-6952-9521f5d0651f?t=1717583238374",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration"
+      ],
+      "category": "/en/kitchen-appliances/commercial-refrigeration",
+      "title": "Commercial refrigeration",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228119/Familia_+600+Fabricadores+de+hielo.jpg/dbdee930-656a-9b9b-77ec-a7205c87fd77?t=1673275210145",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration"
+      ],
+      "category": "/en/kitchen-appliances/commercial-refrigeration",
+      "title": "Commercial refrigeration",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228119/descarga-tarifa.jpg/486ea989-1a8b-f5d1-280c-0b5a2261f39d?t=1744291659279",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration",
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/refrigeration-cabinets"
+      ],
+      "category": "/en/kitchen-appliances/commercial-refrigeration",
+      "title": "THE LEADING MANUFACTURER OF COMMERCIAL REFRIGERATION PRODUCTS",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/228554/fondo-armario-solo.jpg/a0574b85-1b44-2f18-f23b-bd98d8e02426?t=1744291986361",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/refrigeration-cabinets"
+      ],
+      "category": "/en/kitchen-appliances/commercial-refrigeration/refrigeration-cabinets",
+      "title": "Refrigerated cabinets",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/6071350/caracteristica-clase-a.jpg/c2600995-b350-5c60-9e63-7832fc38ea1c?t=1673338683396",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/refrigeration-cabinets",
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/refrigeration-counters"
+      ],
+      "category": "/en/kitchen-appliances/commercial-refrigeration/refrigeration-cabinets",
+      "title": "Refrigerated cabinets",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/6071350/caracteristica-zero-impact.jpg/c3b0904f-52d5-c084-7408-5eeb45e6b796?t=1673338686477",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/refrigeration-cabinets",
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/refrigeration-counters"
+      ],
+      "category": "/en/kitchen-appliances/commercial-refrigeration/refrigeration-cabinets",
+      "title": "Refrigerated cabinets",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/6071350/caracteristica-aislamiento.jpg/e70fdc84-ebfe-6449-7d35-1c37c897dff7?t=1673338686578",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/refrigeration-cabinets",
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/refrigeration-counters"
+      ],
+      "category": "/en/kitchen-appliances/commercial-refrigeration/refrigeration-cabinets",
+      "title": "Refrigerated cabinets",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/6071350/caracteristica-funcion-eco.jpg/76488640-9306-a81f-2099-5d5fa90c4eb3?t=1673338684351",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/refrigeration-cabinets",
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/refrigeration-counters"
+      ],
+      "category": "/en/kitchen-appliances/commercial-refrigeration/refrigeration-cabinets",
+      "title": "Refrigerated cabinets",
+      "is_image": true,
+      "mime": "image/jpeg"
+    },
+    {
+      "image_url": "https://www.fagorprofessional.com/documents/20127/6071350/caracteristica-desescarche-gas-caliente.jpg/04346cfe-d990-f2c0-0a54-5fd4cf0f0070?t=1673338683996",
+      "source_pages": [
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/refrigeration-cabinets",
+        "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/refrigeration-counters"
+      ],
+      "category": "/en/kitchen-appliances/commercial-refrigeration/refrigeration-cabinets",
+      "title": "Refrigerated cabinets",
+      "is_image": true,
+      "mime": "image/jpeg"
+    }
+  ],
+  "unknown": 61
+}
