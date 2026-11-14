@@ -13331,8 +13331,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "matching_model_photo_found_web_not_http_verified",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "image_url": "https://www.swissfrigo.ch/cdn/shop/products/Captured_ecran2022-02-16a13.19.13_1200x1200.png?v=1721038984",
+    "image_source": "model_matched_retailer_product_page",
+    "photo_match_type": "exact_model_retailer_page"
   },
   {
     "id": "krupps:CH110-BTS",
