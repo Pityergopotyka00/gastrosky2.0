@@ -5,6 +5,7 @@ on:
     paths:
       - '.github/workflows/enrich-official-images.yml'
       - 'scripts/enrich-official-images.mjs'
+      - 'data/catalog-products.json'
 permissions:
   contents: write
 concurrency:
@@ -13,7 +14,7 @@ concurrency:
 jobs:
   images:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 55
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -24,7 +25,7 @@ jobs:
       - name: Match official supplier product photos
         run: node scripts/enrich-official-images.mjs
         env:
-          PHOTO_CHECK_LIMIT: '600'
+          PHOTO_CHECK_LIMIT: '1500'
       - name: Validate complete storefront
         run: npm run validate
       - name: Save verified image URLs and remaining coverage report
