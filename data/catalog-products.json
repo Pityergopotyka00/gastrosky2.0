@@ -21409,10 +21409,11 @@
     "availability": null,
     "record_status": "manufacturer_official_public_reference",
     "source_type": "manufacturer_product_page",
-    "image_url": null,
-    "image_source": "manufacturer_image_pending",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "supplier_stock_unverified"
+    "image_url": "https://hosteleriauno.es/462871-large_default/lavavajillas-alpha40-sistema-project.jpg",
+    "image_source": "exact_model_retailer_product_page",
+    "photo_status": "matching_model_photo_found_web_not_http_verified",
+    "stock_source_status": "supplier_stock_unverified",
+    "photo_match_type": "exact_model_retailer_page"
   },
   {
     "id": "sistemaproject:alpha-40ls",
