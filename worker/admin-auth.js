@@ -112,7 +112,7 @@ export async function handleAdminRequest(request,env){
  // Authentication, authorization and secrets stay on the API server.
  const assetName={
   '/admin':'index.html','/admin/':'index.html','/admin/index.html':'index.html',
-  '/admin/admin.css':'admin.css','/admin/admin.js':'admin.js'
+  '/admin/admin.css':'admin.css','/admin/admin.js':'admin.js','/admin/dashboard.js':'dashboard.js'
  }[url.pathname];
  if(assetName){
   if(request.method!=='GET'&&request.method!=='HEAD')return secureHeaders(json({error:'method_not_allowed'},405));
