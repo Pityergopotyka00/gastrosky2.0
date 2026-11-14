@@ -15,6 +15,12 @@ export async function getCatalogWithOverrides(env,url,{includeHidden=false}={}){
  const items=await assetCatalog(env,url);
  if(!env.ADMIN_DB?.prepare)return items;
  try{
+  const custom=await env.ADMIN_DB.prepare('SELECT id,manufacturer,sku,name,category,description,image_url FROM admin_custom_products WHERE archived=0').all();
+  for(const p of custom.results||[])items.push({
+   ...p,source_type:'manual_admin',record_status:'manual_entry',
+   price:null,availability:null,stock_source_status:'pending_supplier_stock',
+   specifications:{Forrás:'GastroSky admin'}
+  });
   const result=await env.ADMIN_DB.prepare('SELECT product_id,custom_name,custom_description,image_url,hidden,featured FROM admin_product_overrides').all();
   const edits=new Map((result.results||[]).map(x=>[x.product_id,x]));
   return items.filter(p=>includeHidden||!edits.get(p.id)?.hidden).map(p=>{
@@ -48,7 +54,13 @@ async function ensureAdminTables(env){
     note TEXT NOT NULL DEFAULT '',status TEXT NOT NULL DEFAULT 'new'
     CHECK(status IN ('new','in_progress','done')),
     created_at INTEGER NOT NULL,updated_at INTEGER NOT NULL,updated_by TEXT NOT NULL)`,
-  'CREATE INDEX IF NOT EXISTS admin_quote_notes_status_idx ON admin_quote_notes(status,updated_at)'
+  'CREATE INDEX IF NOT EXISTS admin_quote_notes_status_idx ON admin_quote_notes(status,updated_at)',
+  `CREATE TABLE IF NOT EXISTS admin_custom_products(
+    id TEXT PRIMARY KEY NOT NULL,manufacturer TEXT NOT NULL,sku TEXT NOT NULL,
+    name TEXT NOT NULL,category TEXT NOT NULL,description TEXT NOT NULL DEFAULT '',
+    image_url TEXT,archived INTEGER NOT NULL DEFAULT 0 CHECK(archived IN (0,1)),
+    created_at INTEGER NOT NULL,updated_at INTEGER NOT NULL,created_by TEXT NOT NULL)`,
+  'CREATE INDEX IF NOT EXISTS admin_custom_products_manufacturer_idx ON admin_custom_products(manufacturer,archived)'
  ];
  for(const q of sql)await env.ADMIN_DB.prepare(q).run();
 }
@@ -81,13 +93,43 @@ export async function handleAdminManagement(request,env,user){
   const manufacturer=(new URL(request.url).searchParams.get('manufacturer')||'').slice(0,80);
   const start=Math.max(0,Math.min(100000,Number.parseInt(new URL(request.url).searchParams.get('offset')||'0',10)||0));
   const found=catalog.filter(p=>(!manufacturer||p.manufacturer===manufacturer)&&(!q||(p.name+' '+p.sku+' '+p.id).toLocaleLowerCase('hu').includes(q)));
-  return reply({items:found.slice(start,start+30).map(p=>({id:p.id,name:p.name,sku:p.sku,manufacturer:p.manufacturer,description:p.description||'',image_url:p.image_url||null,featured:Boolean(p.admin_featured),hidden:Boolean(p.admin_hidden)})),total:found.length,offset:start});
+  return reply({items:found.slice(start,start+30).map(p=>({id:p.id,name:p.name,sku:p.sku,manufacturer:p.manufacturer,description:p.description||'',image_url:p.image_url||null,featured:Boolean(p.admin_featured),hidden:Boolean(p.admin_hidden),manual:p.source_type==='manual_admin'})),total:found.length,offset:start});
+ }
+ if(path==='/api/admin/products'&&method==='POST'){
+  if(!ownerOnly(user))return reply({error:'owner_required'},403);
+  const body=await parseBody(request);
+  const manufacturer=text(body?.manufacturer,80),sku=text(body?.sku,80),name=text(body?.name,180),
+   category=text(body?.category,120),description=text(body?.description,1800);
+  if(!manufacturer||!sku||!name||!category||description===null||!/^[\\w.\\/-]{2,80}$/.test(sku))
+   return reply({error:'invalid_input'},400);
+  const allowed=['Maxima','HENDI','Fagor','Modular','Coldline','Krupps','Aristarco','Sistema Project Italia','Tecnodom','Gastro Haal','GastroSky'];
+  if(!allowed.includes(manufacturer))return reply({error:'unknown_manufacturer'},400);
+  const image=body.image_url==null||body.image_url===''?null:text(body.image_url,1400);
+  if(image!==null){
+   try{const u=new URL(image);if(u.protocol!=='https:'||u.username||u.password)throw Error('bad_url');}
+   catch{return reply({error:'invalid_image_url'},400)}
+  }
+  const slug={Maxima:'maxima',HENDI:'hendi',Fagor:'fagor',Modular:'modular',Coldline:'coldline',Krupps:'krupps',Aristarco:'aristarco','Sistema Project Italia':'sistemaproject',Tecnodom:'tecnodom','Gastro Haal':'gastrohaal',GastroSky:'gastrosky'}[manufacturer];
+  const id=slug+':admin-'+crypto.randomUUID(),time=now();
+  await env.ADMIN_DB.prepare('INSERT INTO admin_custom_products(id,manufacturer,sku,name,category,description,image_url,archived,created_at,updated_at,created_by) VALUES(?,?,?,?,?,?,?,?,?,?,?)')
+   .bind(id,manufacturer,sku,name,category,description,image,0,time,time,user.user_id).run();
+  await log(env,user.user_id,'product_created',id);
+  return reply({ok:true,id},201);
+ }
+ if(path.startsWith('/api/admin/products/')&&method==='DELETE'){
+  if(!ownerOnly(user))return reply({error:'owner_required'},403);
+  const id=decodeURIComponent(path.slice('/api/admin/products/'.length));
+  if(!idPattern.test(id)||!id.includes(':admin-'))return reply({error:'invalid_id'},400);
+  const result=await env.ADMIN_DB.prepare('UPDATE admin_custom_products SET archived=1,updated_at=? WHERE id=?').bind(now(),id).run();
+  if(!result.meta?.changes)return reply({error:'not_found'},404);
+  await log(env,user.user_id,'product_archived',id);
+  return reply({ok:true});
  }
  if(path==='/api/admin/product'&&method==='PUT'){
   if(!ownerOnly(user))return reply({error:'owner_required'},403);
   const body=await parseBody(request);
   if(!body||!idPattern.test(body.id||''))return reply({error:'invalid_input'},400);
-  const catalog=await assetCatalog(env,request.url);
+  const catalog=await getCatalogWithOverrides(env,request.url,{includeHidden:true});
   if(!catalog.some(p=>p.id===body.id))return reply({error:'unknown_product'},404);
   const name=body.name==null?null:text(body.name,180),desc=body.description==null?null:text(body.description,1800);
   if((name!==null&&!name)||(desc!==null&&!desc))return reply({error:'invalid_text'},400);
