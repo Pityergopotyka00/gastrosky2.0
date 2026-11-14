@@ -1,4 +1,4 @@
-import {pbkdf2Sync} from 'node:crypto';
+import {scryptSync} from 'node:crypto';
 // GastroSky private admin authentication API (Cloudflare Workers + D1).
 // No public signup, bootstrap endpoint, password reset or admin dashboard.
 // Fails CLOSED until ADMIN_DB and ADMIN_TOTP_KEY are configured. Provision
@@ -21,14 +21,15 @@ const bytesFromHex=hexString=>{
 };
 function randomHex(size){const bytes=new Uint8Array(size);crypto.getRandomValues(bytes);return hex(bytes)}
 async function sha256(input){return hex(new Uint8Array(await crypto.subtle.digest('SHA-256',encoder.encode(input))))}
-export async function passwordDigest(password,saltHex,iterations=600000){
- if(typeof password!=='string'||password.length<14||password.length>256||!Number.isSafeInteger(iterations)||iterations<600000)throw Error('invalid_password_parameters');
- // Cloudflare Workers WebCrypto limits PBKDF2 to 100,000 iterations.
- // Node crypto supports our existing 600,000-round SHA-256 hashes and is
- // enabled by the Worker's 2026-11 compatibility date. Never lower the rounds
- // or rehash the database: existing accounts must keep working.
- return pbkdf2Sync(password,bytesFromHex(saltHex),iterations,32,'sha256').toString('hex');
+// A supported memory-hard password verifier. Do not run legacy PBKDF2 hashes
+// in Cloudflare Workers: even node:crypto is subject to the 100k-round limit.
+export async function passwordDigest(password,saltHex,algorithm='scrypt-v1'){
+ if(typeof password!=='string'||password.length<14||password.length>256||
+    typeof saltHex!=='string'||saltHex.length!==64||algorithm!=='scrypt-v1')
+   throw Error('invalid_password_parameters');
+ return scryptSync(password,bytesFromHex(saltHex),32,{N:16384,r:8,p:1,maxmem:64*1024*1024}).toString('hex');
 }
+
 function equalHex(a,b){
  if(typeof a!=='string'||typeof b!=='string'||a.length!==b.length||!/^[\da-f]+$/i.test(a)||!/^[\da-f]+$/i.test(b))return false;
  let diff=0;for(let i=0;i<a.length;i++)diff|=a.charCodeAt(i)^b.charCodeAt(i);
@@ -136,12 +137,15 @@ export async function handleAdminRequest(request,env){
    const password=input?.password,code=input?.code;
    if(email.length>160||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)||typeof password!=='string'||password.length<14||password.length>256||typeof code!=='string')return secureHeaders(fail());
    phase='load_user';
-   const user=await env.ADMIN_DB.prepare('SELECT id,email,role,password_salt,password_hash,password_iterations,totp_encrypted,last_totp_step,disabled,failed_attempts,locked_until FROM admin_users WHERE email=?').bind(email).first();
+   const user=await env.ADMIN_DB.prepare('SELECT id,email,role,password_salt,password_hash,password_iterations,password_algo,totp_encrypted,last_totp_step,disabled,failed_attempts,locked_until FROM admin_users WHERE email=?').bind(email).first();
    if(!user||user.disabled)return secureHeaders(fail());
    const now=Date.now();
    if(user.locked_until>now)return secureHeaders(fail());
    phase='verify_password';
-   const hash=await passwordDigest(password,user.password_salt,user.password_iterations);
+   // Legacy accounts require an offline password-hash migration. Fail
+   // closed instead of executing unsupported PBKDF2 in production.
+   if(user.password_algo!=='scrypt-v1')return secureHeaders(json({error:'password_migration_required'},409));
+   const hash=await passwordDigest(password,user.password_salt,user.password_algo);
    const passwordOK=equalHex(hash,user.password_hash);
    let step=null;
    if(passwordOK){phase='verify_totp';step=await validateTotp(user.totp_encrypted,code,user.last_totp_step,env,now);}
