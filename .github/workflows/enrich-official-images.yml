@@ -1,6 +1,8 @@
 name: Find missing official product photographs
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '17 4 * * *'
   push:
     paths:
       - '.github/workflows/enrich-official-images.yml'
@@ -26,6 +28,10 @@ jobs:
         run: node scripts/enrich-official-images.mjs
         env:
           PHOTO_CHECK_LIMIT: '1500'
+      - name: Check additional exact-SKU product photographs
+        run: npm run media:discover -- --limit=120 --apply
+      - name: Summarize remaining missing photos
+        run: npm run audit:images
       - name: Validate complete storefront
         run: npm run validate
       - name: Save verified image URLs and remaining coverage report
