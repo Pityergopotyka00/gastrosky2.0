@@ -1,4 +1,5 @@
 import {handleQuote,quoteConfig} from './quotes.js';
+import {handleAdminRequest,isAdminPath} from './admin-auth.js';
 import {securityResponse,rejectUnsafeRequest,rateLimitRequest} from './security.js';
 // Read prevalidated authorized supplier-feed snapshots from Cloudflare static assets.
 // Customers never trigger a supplier request; GitHub Actions updates snapshot files on schedule.
@@ -13,6 +14,9 @@ async function readAsset(env,path,url){
 const unknown=(id,reason)=>({id,kind:'unknown',quantity:null,expected_date:null,reason,checked_at:null});
 export default{
  async fetch(request,env){
+  // Admin routes are never served as public static assets, even on bad deploys.
+  // The auth module denies all routes until its DB, secret and limiter exist.
+  if(isAdminPath(new URL(request.url).pathname))return securityResponse(await handleAdminRequest(request,env));
   const denied=rejectUnsafeRequest(request);
   if(denied)return securityResponse(denied);
   const throttled=await rateLimitRequest(request,env);
