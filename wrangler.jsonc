@@ -7,6 +7,21 @@
     "run_worker_first": true
   },
   "compatibility_date": "2026-11-13",
+  // GastroSky admin authentication uses the private ADMIN_DB D1 binding.
+  // After creating "gastrosky-admin" in Cloudflare, replace the example UUID
+  // with the real database ID and UNCOMMENT the d1_databases block below.
+  // Do not activate a fake UUID: that would break deployment.
+  // "d1_databases": [
+  //   {
+  //     "binding": "ADMIN_DB",
+  //     "database_name": "gastrosky-admin",
+  //     "database_id": "PASTE_REAL_CLOUDFLARE_D1_UUID_HERE",
+  //     "migrations_dir": "migrations"
+  //   }
+  // ],
+  // Never add ADMIN_TOTP_KEY, ADMIN_SETUP_PASSWORD or authenticator
+  // enrollment secrets to vars or GitHub. Set ADMIN_TOTP_KEY using
+  // Cloudflare Worker Secrets; setup email/password/role are prompted locally.
   "vars": {
     "QUOTE_TO_EMAIL": "info@gastrosky.hu"
   },
