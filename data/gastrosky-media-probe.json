@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-14T19:12:47.325Z",
+  "checked_at": "2026-11-14T19:14:14.842Z",
   "results": [
     {
       "url": "https://gastrosky.hu/termekek/reszletek/munkaasztal",
@@ -55,12 +55,35 @@
       "picture_sources": [],
       "meta_image": null,
       "css_backgrounds": [
-        "background-image: url('https://gastrosky.hu/product_images/347/1_medium.jpg?161?v=20261114201246');"
+        "background-image: url('https://gastrosky.hu/product_images/347/1_medium.jpg?252?v=20261114201405');"
+      ],
+      "image_tests": [
+        {
+          "variant": "HEAD",
+          "status": 200,
+          "final_url": "https://gastrosky.hu/product_images/347/1_medium.jpg?252?v=20261114201405",
+          "type": "image/jpeg",
+          "length": "11825"
+        },
+        {
+          "variant": "RANGE",
+          "status": 206,
+          "final_url": "https://gastrosky.hu/product_images/347/1_medium.jpg?252?v=20261114201405",
+          "type": "image/jpeg",
+          "length": "129"
+        },
+        {
+          "variant": "GET",
+          "status": 200,
+          "final_url": "https://gastrosky.hu/product_images/347/1_medium.jpg?252?v=20261114201405",
+          "type": "image/jpeg",
+          "length": "11825"
+        }
       ],
       "image_urls_in_markup": [
         "\"/assets/images/favico.png",
         "\"/assets/images/logo.png",
-        "'https://gastrosky.hu/product_images/347/1_medium.jpg?161?v=20261114201246",
+        "'https://gastrosky.hu/product_images/347/1_medium.jpg?252?v=20261114201405",
         "\"/assets/images/partners/technoinox.png",
         "\"/assets/images/partners/gastrohall.png",
         "\"/assets/images/partners/lainox.png",
@@ -126,12 +149,35 @@
       "picture_sources": [],
       "meta_image": null,
       "css_backgrounds": [
-        "background-image: url('https://gastrosky.hu/product_images/354/1_medium.jpg?604?v=20261114201246');"
+        "background-image: url('https://gastrosky.hu/product_images/354/1_medium.jpg?562?v=20261114201407');"
+      ],
+      "image_tests": [
+        {
+          "variant": "HEAD",
+          "status": 200,
+          "final_url": "https://gastrosky.hu/product_images/354/1_medium.jpg?562?v=20261114201407",
+          "type": "image/jpeg",
+          "length": "7492"
+        },
+        {
+          "variant": "RANGE",
+          "status": 206,
+          "final_url": "https://gastrosky.hu/product_images/354/1_medium.jpg?562?v=20261114201407",
+          "type": "image/jpeg",
+          "length": "129"
+        },
+        {
+          "variant": "GET",
+          "status": 200,
+          "final_url": "https://gastrosky.hu/product_images/354/1_medium.jpg?562?v=20261114201407",
+          "type": "image/jpeg",
+          "length": "7492"
+        }
       ],
       "image_urls_in_markup": [
         "\"/assets/images/favico.png",
         "\"/assets/images/logo.png",
-        "'https://gastrosky.hu/product_images/354/1_medium.jpg?604?v=20261114201246",
+        "'https://gastrosky.hu/product_images/354/1_medium.jpg?562?v=20261114201407",
         "\"/assets/images/partners/technoinox.png",
         "\"/assets/images/partners/gastrohall.png",
         "\"/assets/images/partners/lainox.png",
@@ -197,12 +243,35 @@
       "picture_sources": [],
       "meta_image": null,
       "css_backgrounds": [
-        "background-image: url('https://gastrosky.hu/product_images/350/1_medium.jpg?933?v=20261114201246');"
+        "background-image: url('https://gastrosky.hu/product_images/350/1_medium.jpg?137?v=20261114201410');"
+      ],
+      "image_tests": [
+        {
+          "variant": "HEAD",
+          "status": 200,
+          "final_url": "https://gastrosky.hu/product_images/350/1_medium.jpg?137?v=20261114201410",
+          "type": "image/jpeg",
+          "length": "14059"
+        },
+        {
+          "variant": "RANGE",
+          "status": 206,
+          "final_url": "https://gastrosky.hu/product_images/350/1_medium.jpg?137?v=20261114201410",
+          "type": "image/jpeg",
+          "length": "129"
+        },
+        {
+          "variant": "GET",
+          "status": 200,
+          "final_url": "https://gastrosky.hu/product_images/350/1_medium.jpg?137?v=20261114201410",
+          "type": "image/jpeg",
+          "length": "14059"
+        }
       ],
       "image_urls_in_markup": [
         "\"/assets/images/favico.png",
         "\"/assets/images/logo.png",
-        "'https://gastrosky.hu/product_images/350/1_medium.jpg?933?v=20261114201246",
+        "'https://gastrosky.hu/product_images/350/1_medium.jpg?137?v=20261114201410",
         "\"/assets/images/partners/technoinox.png",
         "\"/assets/images/partners/gastrohall.png",
         "\"/assets/images/partners/lainox.png",
@@ -268,12 +337,35 @@
       "picture_sources": [],
       "meta_image": null,
       "css_backgrounds": [
-        "background-image: url('https://gastrosky.hu/product_images/347/1_thumb.jpg?860?v=20261114201247');"
+        "background-image: url('https://gastrosky.hu/product_images/347/1_thumb.jpg?478?v=20261114201413');"
+      ],
+      "image_tests": [
+        {
+          "variant": "HEAD",
+          "status": 200,
+          "final_url": "https://gastrosky.hu/product_images/347/1_thumb.jpg?478?v=20261114201413",
+          "type": "image/jpeg",
+          "length": "5992"
+        },
+        {
+          "variant": "RANGE",
+          "status": 206,
+          "final_url": "https://gastrosky.hu/product_images/347/1_thumb.jpg?478?v=20261114201413",
+          "type": "image/jpeg",
+          "length": "129"
+        },
+        {
+          "variant": "GET",
+          "status": 200,
+          "final_url": "https://gastrosky.hu/product_images/347/1_thumb.jpg?478?v=20261114201413",
+          "type": "image/jpeg",
+          "length": "5992"
+        }
       ],
       "image_urls_in_markup": [
         "\"/assets/images/favico.png",
         "\"/assets/images/logo.png",
-        "'https://gastrosky.hu/product_images/347/1_thumb.jpg?860?v=20261114201247",
+        "'https://gastrosky.hu/product_images/347/1_thumb.jpg?478?v=20261114201413",
         "\"/assets/images/partners/technoinox.png",
         "\"/assets/images/partners/gastrohall.png",
         "\"/assets/images/partners/lainox.png",
