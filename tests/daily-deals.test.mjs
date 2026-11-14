@@ -8,7 +8,7 @@ const products=JSON.parse(await readFile('data/catalog-products.json','utf8'));
 const source=html.match(/const DAILY_DEALS_GROUP='__akciok__';([\s\S]*?)function render\(/)?.[0];
 assert.ok(source,'Daily deals selection functions must exist');
 const helpers=source.replace(/function render\($/,'');
-const {dailyDealProducts}=vm.runInNewContext(helpers+'\n({dailyDealProducts})');
+const {dailyDealProducts,nextBudapestDealRefresh}=vm.runInNewContext(helpers+'\n({dailyDealProducts,nextBudapestDealRefresh})');
 
 test('Akciók appear in the category menu right after Minden termék',()=>{
  assert.match(html,/all\.textContent='Minden termék \('\+relevant\.length\+'\)'/);
@@ -36,4 +36,22 @@ test('daily deal selection is deterministic, distinct, and only uses approved qu
 test('rotation does not advertise unverified numerical prices',()=>{
  assert.match(html,/A kedvezmény és a végleges ár az egyedi ajánlatban kerül megerősítésre/);
  assert.match(html,/const promo=todaysDeals\.has\(p\.id\)/);
+});
+
+test('countdown targets Hungary midnight even when daylight saving changes',()=>{
+ const check=(start,expected)=>{
+  const result=nextBudapestDealRefresh(Date.parse(start));
+  assert.equal(new Date(result).toISOString(),expected);
+ };
+ check('2026-11-14T12:00:00.000Z','2026-11-14T23:00:00.000Z');
+ check('2026-03-28T12:00:00.000Z','2026-03-28T23:00:00.000Z');
+ check('2026-03-29T12:00:00.000Z','2026-03-29T22:00:00.000Z');
+ check('2026-10-25T12:00:00.000Z','2026-10-25T23:00:00.000Z');
+});
+
+test('countdown only appears in the daily deals category',()=>{
+ assert.match(html,/const active=categoryGroup\.value===DAILY_DEALS_GROUP;\s*note\.hidden=!active;\s*if\(!active\)return;/);
+ assert.match(html,/id="dailyDealsCountdown"/);
+ assert.match(html,/setInterval\(updateDailyDealsCountdown,1000\)/);
+ assert.match(html,/Következő akciófrissítés:/);
 });
