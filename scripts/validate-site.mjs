@@ -40,12 +40,12 @@ for(const item of products){
  }
  if(item.record_status==='official_product_family_listing'){
   assert.equal(item.manufacturer,'Tecnodom');
-  assert.ok(!item.image_url||(item.photo_match_type==='official_manufacturer_model_page'&&item.image_source==='official_manufacturer_model_page'&&new URL(item.image_url).hostname==='www.tecnodomspa.com'),'Only individually matched official manufacturer family photos are permitted');
+  assert.ok(!item.image_url||(item.photo_match_type==='official_manufacturer_model_page'&&item.image_source==='official_manufacturer_model_page'&&new URL(item.image_url).hostname==='www.tecnodomspa.com')||(item.photo_match_type==='official_exact_model_alt_caption'&&item.image_source==='official_exact_model_alt_caption'&&hosts.Tecnodom.includes(new URL(item.image_url).hostname)&&new URL(item.image_url).pathname.startsWith('/images/prodotti/')),'Only exactly model-matched official manufacturer family photos are permitted');
   assert.equal(item.price,null,'Do not invent product family prices');
  }
  if(item.record_status==='official_model_index_only'){
   assert.equal(item.manufacturer,'Modular');
-  assert.equal(item.image_url,null,'Do not invent unverified model images');
+  assert.ok(!item.image_url||(item.image_source==='official_modular_exact_model_card'&&['exact_model_card','exact_order_code_filename','model_heading_and_sku_filename','single_official_product_page_exact_heading','exact_sku_in_manufacturer_image_filename'].includes(item.photo_match_type)&&hosts.Modular.includes(new URL(item.image_url).hostname)),'Model-only photos require exact manufacturer model-card evidence');
  }
 }
 for(const brand of brands){
@@ -62,7 +62,7 @@ assert.equal(tecnodom.filter(p=>p.specifications?.['Termékvonal']==='VERTICAL')
 const gastro=products.filter(p=>p.manufacturer==='Gastro Haal');
 for(const p of gastro){
  assert.ok(!/\/\d+_tuzhelyek(?:\/|$)/i.test(new URL(p.source_url).pathname),'Excluded Tűzhelyek product: '+p.id);
- assert.ok(!p.image_url||new URL(p.image_url).hostname==='gastrohaal.sk','Gastro Haal images must come from the official manufacturer when present: '+p.id);
+ assert.ok(!p.image_url||hosts['Gastro Haal'].includes(new URL(p.image_url).hostname),'Gastro Haal images must come from the official manufacturer when present: '+p.id);
  assert.ok(p.source_url.includes('/hu/termekek/'),'Gastro Haal product needs its official detail page');
 }
 for(const control of ['id="search"','id="category"','id="manufacturer"','id="sortBy"','id="quotePanel"','id="quoteOpen"']){
