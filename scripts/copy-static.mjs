@@ -8,4 +8,5 @@ await copyFile('data/catalog-products.json','dist/data/catalog-products.json');
 for(const file of ['impresszum.html','adatkezeles.html','sutik.html','stock-monitor.html','szerzoi-jog.html','kreditek.html']) {
  await copyFile(file,'dist/'+file);
 }
+await import('./build-product-illustrations.mjs');
 console.log('Legal pages and stock monitor copied into dist/');
