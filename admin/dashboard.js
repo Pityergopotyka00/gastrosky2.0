@@ -58,6 +58,7 @@ async function loadProducts(append=false){
    const details=create('div','product-admin-details');
    details.append(create('strong',null,p.name),create('small',null,p.manufacturer+' · '+p.sku));
    if(p.featured)details.append(create('small','featured','Kiemelt'));
+   if(p.hidden)details.append(create('small','featured','Elrejtve'));
    const btn=create('button','small-button','Szerkesztés');
    btn.type='button';btn.disabled=role!=='owner';
    btn.addEventListener('click',()=>editProduct(p));
@@ -73,7 +74,7 @@ function editProduct(p){
  $('editName').value=p.name;
  $('editDescription').value=p.description||'';
  $('editImage').value=p.image_url||'';
- $('editHidden').checked=false;
+ $('editHidden').checked=Boolean(p.hidden);
  $('editFeatured').checked=p.featured;
  $('productEditor').hidden=false;
  $('productEditor').scrollIntoView({behavior:'smooth',block:'start'});
