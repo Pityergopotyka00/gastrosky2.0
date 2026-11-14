@@ -13396,8 +13396,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "matching_model_photo_found_web_not_http_verified",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "image_url": "https://hosteleria10.com/recursos/fotos/krupps-lavavajilla-lavaobjetos-cupula-k-01.jpg",
+    "image_source": "model_matched_product_listing",
+    "photo_match_type": "exact_model_retailer_or_trade_page"
   },
   {
     "id": "krupps:CH150-BT",
@@ -13465,8 +13468,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "matching_model_photo_found_web_not_http_verified",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "image_url": "https://img.archiexpo.com/images_ae/photo-g/75261-16120849.webp",
+    "image_source": "model_matched_product_listing",
+    "photo_match_type": "exact_model_retailer_or_trade_page"
   },
   {
     "id": "krupps:EL55EH",
@@ -13511,8 +13517,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "matching_model_photo_found_web_not_http_verified",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "image_url": "https://img.archiexpo.com/images_ae/photo-mg/75261-16121976.jpg",
+    "image_source": "model_matched_product_listing",
+    "photo_match_type": "exact_model_retailer_or_trade_page"
   },
   {
     "id": "krupps:EL60E-A",
@@ -14316,8 +14325,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "matching_model_photo_found_web_not_http_verified",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "image_url": "https://img.archiexpo.it/images_ae/photo-g/75261-16120259.jpg",
+    "image_source": "model_matched_product_listing",
+    "photo_match_type": "exact_model_retailer_or_trade_page"
   },
   {
     "id": "krupps:K209E-A",
