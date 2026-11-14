@@ -7,3 +7,4 @@ dist/
 
 # Sensitive offline admin enrollment outputs
 .admin-enrollment-*
+.admin-password-repair-*
