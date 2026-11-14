@@ -194,7 +194,7 @@ for(const product of products){if(product.image_url){const key=product.image_url
 
 let attempted=0;
 const queue=products.filter(p=>!p.image_url).sort((a,b)=>{
- const priority=p=>p.manufacturer==='Tecnodom'?0:p.manufacturer==='Sistema Project Italia'?1:p.manufacturer==='Coldline'?2:p.manufacturer==='Krupps'?3:p.manufacturer==='Maxima'?4:p.manufacturer==='Modular'&&p.record_status!=='official_model_index_only'?5:6;
+ const priority=p=>p.manufacturer==='Maxima'?0:p.manufacturer==='Coldline'?1:p.manufacturer==='Krupps'?2:p.manufacturer==='Modular'&&p.record_status!=='official_model_index_only'?3:p.manufacturer==='Sistema Project Italia'?4:p.manufacturer==='Tecnodom'?5:6;
  return priority(a)-priority(b);
 });
 for(const p of queue){
@@ -210,7 +210,7 @@ for(const p of queue){
   let found=structuredSkuPhoto($,url,brand,p.sku);
   if(!found){found=exactCaptionPhoto($,url,brand,p.sku);if(found)p.photo_match_type='official_image_exact_caption_sku';}
   if(!found){found=exactModelCardPhoto($,url,brand,p.sku);if(found)p.photo_match_type='official_exact_model_card_photo';}
-  if(found)p.photo_match_type='official_structured_data_exact_sku';
+  if(found&&!p.photo_match_type)p.photo_match_type='official_structured_data_exact_sku';
   if(!found&&brand==='Aristarco'){
    const result=aristarcoPhoto($,p.sku,url);
    if(result?.url)found=result.url;
@@ -234,6 +234,13 @@ for(const p of queue){
    }else{reason='model_not_on_page'}
   }
   if(found){
+   // Tecnodom family cards cannot be represented by a generic category image.
+   // Only accept an exact individually identified manufacturer model detail.
+   if(brand==='Tecnodom'&&!(p.photo_match_type==='official_manufacturer_model_page'&&
+       new URL(found).hostname==='www.tecnodomspa.com')){
+    missed.push({id:p.id,reason:'tecnodom_exact_model_photo_not_verified'});
+    continue;
+   }
    if(existingImages.has(found.split('?')[0])){
     missed.push({id:p.id,reason:'photo_url_already_assigned_to_another_product'});
     continue;
@@ -253,7 +260,7 @@ for(const p of queue){
 }
 await writeFile(file,JSON.stringify(products,null,2)+'\n');
 let html=await readFile(htmlFile,'utf8');
-const start=html.indexOf('let products='),end=html.indexOf(';\nconst search=',start);
+const start=html.indexOf('let products='),end=html.indexOf(';\nconst categoryGroup=',start);
 if(start<0||end<0)throw Error('Cannot find embedded catalog');
 html=html.slice(0,start)+'let products='+JSON.stringify(products).replace(/</g,'\\u003c')+html.slice(end);
 await writeFile(htmlFile,html);
