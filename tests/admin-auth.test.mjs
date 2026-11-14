@@ -42,3 +42,22 @@ test('strong salted PBKDF2 hashes are deterministic for verification',async()=>{
  assert.match(a,/^[0-9a-f]{64}$/);
  await assert.rejects(passwordDigest('short',salt),/invalid_password_parameters/);
 });
+
+test('login shell is served without exposing private APIs or admin files',async()=>{
+ const requests=[];
+ const env={ASSETS:{fetch:async request=>{
+  requests.push(new URL(request.url).pathname);
+  return new Response('<!doctype html><title>GastroSky Admin</title>',{headers:{'content-type':'text/html; charset=utf-8'}});
+ }}};
+ const page=await handleAdminRequest(new Request('https://example.test/admin'),env);
+ assert.equal(page.status,200);
+ assert.match(page.headers.get('content-security-policy'),/script-src 'self'/);
+ assert.match(page.headers.get('content-security-policy'),/frame-ancestors 'none'/);
+ assert.equal(page.headers.get('cache-control'),'no-store');
+ assert.deepEqual(requests,['/admin/index.html']);
+ const privatePath=await handleAdminRequest(new Request('https://example.test/admin/secrets.txt'),env);
+ assert.equal(privatePath.status,404);
+ assert.equal(requests.length,1);
+ const login=await handleAdminRequest(new Request('https://example.test/api/admin/login',{method:'POST',headers:{origin:'https://example.test'}}),env);
+ assert.equal(login.status,503);
+});
