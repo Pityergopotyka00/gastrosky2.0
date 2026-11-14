@@ -39,7 +39,7 @@ async function handleStorefrontRequest(request,env){
 
   if(url.pathname==='/api/stock'&&request.method==='GET'){
    const id=url.searchParams.get('id')||'';
-   if(!/^(?:maxima|hendi|fagor|modular|coldline|krupps|aristarco|sistemaproject|tecnodom|gastrohaal):[\w./-]{1,80}$/i.test(id))return json({error:'invalid_product_id'},400);
+   if(!/^(?:maxima|hendi|fagor|modular|coldline|krupps|aristarco|sistemaproject|tecnodom|gastrohaal|gastrosky):[\w./-]{1,80}$/i.test(id))return json({error:'invalid_product_id'},400);
    try{
     const catalog=await getCatalogWithOverrides(env,url);
     const product=catalog.find(p=>p.id===id);
