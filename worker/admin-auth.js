@@ -100,10 +100,24 @@ async function session(request,env){
  await env.ADMIN_DB.prepare('UPDATE admin_sessions SET last_seen=? WHERE id=? AND revoked_at IS NULL').bind(now,row.id).run();
  return row;
 }
-function secureHeaders(resp){const headers=new Headers(resp.headers);headers.set('cache-control','no-store');headers.set('x-robots-tag','noindex, nofollow');headers.set('content-security-policy',"default-src 'none'; frame-ancestors 'none'; base-uri 'none'");return new Response(resp.body,{status:resp.status,headers})}
+function secureHeaders(resp,adminPage=false){const headers=new Headers(resp.headers);headers.set('cache-control','no-store');headers.set('x-robots-tag','noindex, nofollow');headers.set('content-security-policy',adminPage?"default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'self'; form-action 'self'; frame-ancestors 'none'; base-uri 'none'":"default-src 'none'; frame-ancestors 'none'; base-uri 'none'");return new Response(resp.body,{status:resp.status,headers})}
 export async function handleAdminRequest(request,env){
  const url=new URL(request.url);
- // Do not publish HTML/admin assets or expose unimplemented write APIs.
+ // Serve only the deliberately public login shell and its exact two assets.
+ // Authentication, authorization and secrets stay on the API server.
+ const assetName={
+  '/admin':'index.html','/admin/':'index.html','/admin/index.html':'index.html',
+  '/admin/admin.css':'admin.css','/admin/admin.js':'admin.js'
+ }[url.pathname];
+ if(assetName){
+  if(request.method!=='GET'&&request.method!=='HEAD')return secureHeaders(json({error:'method_not_allowed'},405));
+  if(!env.ASSETS?.fetch)return secureHeaders(json({error:'not_found'},404));
+  const assetUrl=new URL('/admin/'+assetName,url);
+  const asset=await env.ASSETS.fetch(new Request(assetUrl.toString(),{method:request.method}));
+  if(!asset.ok)return secureHeaders(json({error:'not_found'},404));
+  return secureHeaders(asset,assetName==='index.html');
+ }
+ // No other admin HTML or admin API is served without deliberate routing.
  if(!url.pathname.startsWith('/api/admin/'))return secureHeaders(json({error:'not_found'},404));
  if(!hasConfig(env))return secureHeaders(fail(503));
  if(request.method!=='GET'&&!safeOrigin(request))return secureHeaders(json({error:'forbidden'},403));
