@@ -1,0 +1,236 @@
+{
+  "checked": 57,
+  "added": 0,
+  "matched": [],
+  "unmatched": [
+    {
+      "id": "gastrohaal:308",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "gastrohaal:320",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "gastrohaal:488",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "gastrohaal:492",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:aiss",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:aladino",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:armadio-1200",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:armadio-1400",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:armadio-400",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:armadio-600",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:armadio-700",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:attila",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:attila-p-att02",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:big",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:combined-cabinet",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:evo",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:evo-hot",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:evo-lux",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:evo-lux-hot",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:evo-self",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:evok",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:evok-hot",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:evok-l-2-porte",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:evok-l-2-porte-hot",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:evok-l-4-porte",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:evok-l-4-porte-hot",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:evok-lux",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:evok-lux-hot",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:evokl-120v-special",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:lavelli-a-giorno",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:lido",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:m-1000",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:m-80",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:m-90",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:minicella-100",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:mr-80",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:mr-9-5",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:mr-9-5-vcc-w",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:pensili-armadiati",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:puntok",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:saladette",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:saladette-pizza",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:stromboli-90",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:stromboli-90-b",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:tavoli-a-giorno",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:tavoli-armadiati",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:tavolo-eko-pizza",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:tavolo-mid-gastronomia-tn-bt",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:tavolo-mid-pasticceria",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:tavolo-mid-pizza",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:vetrina-refrigerata-ingredienti-pizza",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:vigo-78",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:vigo-90",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:vulcano",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:vulcano-sc",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:vulcano-vb",
+      "reason": "no_unambiguous_exact_model_photo"
+    },
+    {
+      "id": "tecnodom:vulcano-vs",
+      "reason": "no_unambiguous_exact_model_photo"
+    }
+  ],
+  "checked_at": "2026-11-14T19:35:29.562Z"
+}
