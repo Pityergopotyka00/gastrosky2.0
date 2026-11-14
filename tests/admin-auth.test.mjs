@@ -1,5 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import {scryptSync} from 'node:crypto';
 import {handleAdminRequest,isAdminPath,totpAt,passwordDigest} from '../worker/admin-auth.js';
 
 test('all admin HTML and API routes remain private, including under static assets',()=>{
@@ -34,11 +35,12 @@ test('RFC 6238 TOTP implementation matches the published SHA-1 test vector',asyn
  assert.equal(await totpAt(secret,1),'287082');
 });
 
-test('strong salted PBKDF2 hashes are deterministic for verification',async()=>{
+test('scrypt password hashes match the offline setup utility and verify deterministically',async()=>{
  const salt='12'.repeat(32);
  const a=await passwordDigest('correct horse battery staple',salt);
  const b=await passwordDigest('correct horse battery staple',salt);
  assert.equal(a,b);
+ assert.equal(a,scryptSync('correct horse battery staple',Buffer.from(salt,'hex'),32,{N:16384,r:8,p:1,maxmem:64*1024*1024}).toString('hex'));
  assert.match(a,/^[0-9a-f]{64}$/);
  await assert.rejects(passwordDigest('short',salt),/invalid_password_parameters/);
 });
