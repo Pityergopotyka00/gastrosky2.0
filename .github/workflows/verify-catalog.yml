@@ -14,6 +14,7 @@ on:
       - 'scripts/build-product-illustrations.mjs'
       - 'scripts/premium-product-illustrations.mjs'
       - 'scripts/build-illustration-showcase.mjs'
+      - 'scripts/verify-clean-image-display.mjs'
       - 'scripts/verify-product-visuals.mjs'
       - 'scripts/sync-supplier-feeds.mjs'
       - 'scripts/catalog-url.mjs'
@@ -35,6 +36,8 @@ jobs:
         run: node --check scripts/sync-supplier-feeds.mjs
       - name: Run stock-parser and storefront tests
         run: npm test
+      - name: Verify no image badges or notes remain
+        run: node scripts/verify-clean-image-display.mjs
       - name: Build deployable website
         run: npm run build
       - name: Verify all SVG visual assets are well formed
