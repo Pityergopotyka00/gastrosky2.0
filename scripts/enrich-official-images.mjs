@@ -127,6 +127,10 @@ async function officialRangePhoto($,url,p){
 }
 
 let filled=0,missed=[],byBrand={};const MAX=Number(process.env.PHOTO_CHECK_LIMIT||200);
+// A generic or reused category photo should not masquerade as a new product photo.
+const existingImages=new Map();
+for(const product of products){if(product.image_url){const key=product.image_url.split('?')[0];existingImages.set(key,(existingImages.get(key)||0)+1);}}
+
 let attempted=0;
 const queue=products.filter(p=>!p.image_url).sort((a,b)=>{
  const priority=p=>p.manufacturer==='Tecnodom'?0:p.manufacturer==='Sistema Project Italia'?1:p.manufacturer==='Coldline'?2:p.manufacturer==='Krupps'?3:p.manufacturer==='Maxima'?4:p.manufacturer==='Modular'&&p.record_status!=='official_model_index_only'?5:6;
@@ -166,12 +170,16 @@ for(const p of queue){
    }else{reason='model_not_on_page'}
   }
   if(found){
+   if(existingImages.has(found.split('?')[0])){
+    missed.push({id:p.id,reason:'photo_url_already_assigned_to_another_product'});
+    continue;
+   }
    // Check that image actually serves image content before publishing.
    if(!(await robotsPermits(found)))throw Error('image_robots_unavailable');
    const res=await fetch(found,{method:'GET',signal:AbortSignal.timeout(7000),headers:{Range:'bytes=0-100','User-Agent':'GastroSkyCatalogMedia/1.0'}});
    if(!res.ok||!(res.headers.get('content-type')||'').toLowerCase().startsWith('image/'))throw Error('image_not_served');
    await res.body?.cancel();
-   p.image_url=found;p.image_source=p.photo_match_type|| (brand==='Aristarco'?'official_manufacturer_model_card':'official_manufacturer_product_page');
+   p.image_url=found;existingImages.set(found.split('?')[0],1);p.image_source=p.photo_match_type|| (brand==='Aristarco'?'official_manufacturer_model_card':'official_manufacturer_product_page');
    p.photo_status='manufacturer_photo_url_found_permission_to_confirm';
    filled++;byBrand[brand]=(byBrand[brand]||0)+1;
   }else{missed.push({id:p.id,reason});}
