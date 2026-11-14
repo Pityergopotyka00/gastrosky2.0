@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-14T19:10:40.086Z",
+  "checked_at": "2026-11-14T19:17:30.991Z",
   "total": 1044,
-  "existing_images": 306,
+  "existing_images": 339,
   "new_photos": 0,
   "by_brand": {},
   "unresolved": [
@@ -1271,11 +1271,11 @@
     },
     {
       "id": "sistemaproject:40-a",
-      "reason": "photo_url_already_assigned_to_another_product"
+      "reason": "exact_range_photo_not_found"
     },
     {
       "id": "sistemaproject:50-a",
-      "reason": "photo_url_already_assigned_to_another_product"
+      "reason": "exact_range_photo_not_found"
     },
     {
       "id": "sistemaproject:catalog2025-ac360",
@@ -1287,15 +1287,15 @@
     },
     {
       "id": "sistemaproject:alpha-50",
-      "reason": "photo_url_already_assigned_to_another_product"
+      "reason": "exact_range_photo_not_found"
     },
     {
       "id": "sistemaproject:ax-50",
-      "reason": "photo_url_already_assigned_to_another_product"
+      "reason": "exact_range_photo_not_found"
     },
     {
       "id": "sistemaproject:bottle-wash",
-      "reason": "photo_url_already_assigned_to_another_product"
+      "reason": "exact_range_photo_not_found"
     },
     {
       "id": "sistemaproject:catalog2025-cpp3501",
@@ -1355,7 +1355,7 @@
     },
     {
       "id": "sistemaproject:ct-320",
-      "reason": "photo_url_already_assigned_to_another_product"
+      "reason": "exact_range_photo_not_found"
     },
     {
       "id": "sistemaproject:catalog2025-ct137",
@@ -1507,11 +1507,11 @@
     },
     {
       "id": "sistemaproject:t1515",
-      "reason": "image_not_served"
+      "reason": "exact_range_photo_not_found"
     },
     {
       "id": "sistemaproject:unica-50p",
-      "reason": "photo_url_already_assigned_to_another_product"
+      "reason": "exact_range_photo_not_found"
     },
     {
       "id": "tecnodom:aiss",
@@ -2567,138 +2567,6 @@
     },
     {
       "id": "gastrohaal:492",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:munkaasztalok:1",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:munkaasztalok-hatso-felhajtassal:1",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:munkaasztalok-also-polccal:1",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:rozsdamentes-pultok:1",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:rozsdamentes-pultok:2",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:rozsdamentes-falipolcok:1",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:rozsdamentes-falipolcok:2",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:rozsdamentes-atadopolcok:1",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:rozsdamentes-atadopolcok:2",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:nyitott-faliszekreny:1",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:toloajtos-faliszekreny:1",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:rozsdamentes-tarolo-allvany:1",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:geptarto-allvany:1",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:geptarto-allvany:2",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:rozsdamentes-penztarpult:1",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:evoeszkoz-es-talcatarto:1",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:evoeszkoz-es-talcatarto:2",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:elszivo-ernyok:1",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:elszivo-ernyok:2",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:elszivo-ernyok:3",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:elszivo-ernyok:4",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:elszivo-ernyok:5",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:huto-pult-salatahuto:1",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:huto-pult-salatahuto:2",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:huto-pult-salatahuto:3",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:melegentarto-pult:1",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:rozsdamentes-kocsik:1",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:rozsdamentes-kocsik:2",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:rozsdamentes-kocsik:3",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:rozsdamentes-kocsik:4",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:rozsdamentes-kocsik:5",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:rozsdamentes-kocsik:6",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrosky:rozsdamentes-kocsik:7",
       "reason": "model_not_on_page"
     },
     {
