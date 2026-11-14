@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-14T19:36:04.789Z",
+  "checked_at": "2026-11-14T19:37:08.983Z",
   "total_missing": 76,
   "checked": 76,
   "added": 0,
@@ -8,12 +8,12 @@
     {
       "id": "modular:F60/30FTG/R/T",
       "model": "F60/30FTG/R/T",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found: headings=F60/30FTG/R/T|Gas Griddle FUN 60/30 ribbed plate 5,2 kW top image=/Modular/catalogo/prodotti/immagini/image-thumb__17064__product-thumbnail/MP01372111003_Fun_600_Fry_top_gas_piastra_rigata_acciaio_dolce_modulo_30_mod.png"
     },
     {
       "id": "modular:F60/30FTG/SL/T",
       "model": "F60/30FTG/SL/T",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found: headings=F60/30FTG/SL/T|Gas Griddle FUN 60/30 smooth satin chrome plate 5,2 kW top image=/Modular/catalogo/prodotti/immagini/image-thumb__47296__product-thumbnail/MP01372111010_Fun_600_Fry_top_gas_piastra_liscia_cromata_satinata_modulo_30_mod.png"
     },
     {
       "id": "modular:F60/30GRLG/T",
@@ -23,17 +23,17 @@
     {
       "id": "modular:F60/30PCG/T",
       "model": "F60/30PCG/T",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found: headings=F60/30PCG/T|Gas range FUN 60/30 5 burners 6,9 kW top image=/Modular/catalogo/prodotti/immagini/image-thumb__16646__product-thumbnail/MP01012011000_Fun_600_Piano_cottura_gas_modulo_30_mod.png"
     },
     {
       "id": "modular:F60/60CFE",
       "model": "F60/60CFE",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found: headings=F60/60CFE|Electric range 4 plates 8kW with electric oven 3kW image=/Modular/catalogo/prodotti/immagini/image-thumb__67656__product-thumbnail/MP01032121000_Fun_600_Cucine_elettrica_con_forno_elettrico_porta_in_acciaio_modulo_60_mod.png"
     },
     {
       "id": "modular:F60-60FRES-2V10-T",
       "model": "F60/60FRES/2V10/T",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found: headings=F70/70PCGB/P|F70/70PCGB/A|R70/40PCG/T|R70/80PCG/A|R70/80PCGB/A|R90/80PCG/A|R90/80PCGB/A|R90/120PCGB/A image=/Modular/catalogo/prodotti/immagini/image-thumb__16658__product-thumbnail/MP01012113006_Fun_700_Piano_cottura_gas_vano_con_porte_modulo_70_mod.png|/Modular/catalogo/prodotti/immagini/image-thumb__16676__product-thumbnail/MP01014113000_Roc_700_Piano_cottura_gas_piano_stampato_top_modulo_40_mod.png|/Modular/catalogo/prodotti/immagini/image-thumb__16680__product-thumbnail/MP01014113004_Roc_700_Piano_cottura_gas_piano_stampato_vano_aperto_modulo_80_mod.png"
     },
     {
       "id": "modular:F60/60FRESE/2V10/T",
@@ -43,347 +43,347 @@
     {
       "id": "modular:F60-60FRGV-2V8-T",
       "model": "F60/60FRGV/2V8/T",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:F60/60PCEE/T",
       "model": "F60/60PCEE/T",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:F60/60PCG/T",
       "model": "F60/60PCG/T",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:F60/60PVE/T",
       "model": "F60/60PVE/T",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:F60/90CFEE",
       "model": "F60/90CFEE",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:F60/90PCEE/T",
       "model": "F60/90PCEE/T",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:F60/90PCG/T",
       "model": "F60/90PCG/T",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:F65-40FRES-1V10-T",
       "model": "F65/40FRES/1V10/T",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:F65-70CPE-1V40-T",
       "model": "F65/70CPE/1V40/T",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:F70-40CPE-1V40-P",
       "model": "F70/40CPE/1V40/P",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:F70-40CPG-1V40-P",
       "model": "F70/40CPG/1V40/P",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:F70-40FRES-1V10-P",
       "model": "F70/40FRES/1V10/P",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:F70-40FRGV-1V13-P",
       "model": "F70/40FRGV/1V13/P",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:F70-40PLN-T",
       "model": "F70/40PLN/T",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:F70-70CFGB",
       "model": "F70/70CFGB",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:F70-70FRGV-2V13-P",
       "model": "F70/70FRGV/2V13/P",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:F70-70PCGB-A",
       "model": "F70/70PCGB/A",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:F70-70PCGB-P",
       "model": "F70/70PCGB/P",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:F70-80TPE-A",
       "model": "F70/80TPE/A",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R110-60PCEQ-P",
       "model": "R110/60PCEQ/P",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R18-100FTG-SL-A",
       "model": "R18/100FTG/SL/A",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R70-120PLN-A",
       "model": "R70/120PLN/A",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R70-40CPE-1V26-P",
       "model": "R70/40CPE/1V26/P",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R70-40CPG-1V26-P",
       "model": "R70/40CPG/1V26/P",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R70-40FRER-2V8-P",
       "model": "R70/40FRER/2V8/P",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R70-40FRGL-1V13-P",
       "model": "R70/40FRGL/1V13/P",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R70-40FRGV-1V13-P",
       "model": "R70/40FRGV/1V13/P",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R70-40FTE-CL-A",
       "model": "R70/40FTE/CL/A",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R70-40FTE-CL-T",
       "model": "R70/40FTE/CL/T",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R70-40FTG-CL-A",
       "model": "R70/40FTG/CL/A",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R70-40FTG-CL-T",
       "model": "R70/40FTG/CL/T",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R70-40FTG-CR-A",
       "model": "R70/40FTG/CR/A",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R70-40INDW-P",
       "model": "R70/40INDW/P",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R70-80CFG",
       "model": "R70/80CFG",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R70-80FRGL-2V13-P",
       "model": "R70/80FRGL/2V13/P",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R70-80FRGV-2V13-P",
       "model": "R70/80FRGV/2V13/P",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R70-80FTE-CL-T",
       "model": "R70/80FTE/CL/T",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R70-80FTG-CL-A",
       "model": "R70/80FTG/CL/A",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R70-80FTG-CLR-A",
       "model": "R70/80FTG/CLR/A",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R70-80FTG-SL-A",
       "model": "R70/80FTG/SL/A",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R70-80PCG-A",
       "model": "R70/80PCG/A",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R70-80PCGB-A",
       "model": "R70/80PCGB/A",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R90-120PCG-T",
       "model": "R90/120PCG/T",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R90-120PCGB-A",
       "model": "R90/120PCGB/A",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R90-40BMG-T",
       "model": "R90/40BMG/T",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R90-40CPE-1V40-P",
       "model": "R90/40CPE/1V40/P",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R90-40FRGL-1V17-P",
       "model": "R90/40FRGL/1V17/P",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R90-40FRGV-1V13-P",
       "model": "R90/40FRGV/1V13/P",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R90-40FRGV-1V22-P",
       "model": "R90/40FRGV/1V22/P",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R90-40FTE-CL-A",
       "model": "R90/40FTE/CL/A",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R90-40FTE-CL-T",
       "model": "R90/40FTE/CL/T",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R90-40FTE-CR-T",
       "model": "R90/40FTE/CR/T",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R90-40FTE-L-A",
       "model": "R90/40FTE/L/A",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R90-40FTG-CL-T",
       "model": "R90/40FTG/CL/T",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R90-40FTG-L-T",
       "model": "R90/40FTG/L/T",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R90-80CFG",
       "model": "R90/80CFG",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R90-80CFGE",
       "model": "R90/80CFGE",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R90-80CPG-2V40-P",
       "model": "R90/80CPG/2V40/P",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R90-80FRGL-2V17-P",
       "model": "R90/80FRGL/2V17/P",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R90-80FRGV-2V13-P",
       "model": "R90/80FRGV/2V13/P",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R90-80FRGV-2V22-P",
       "model": "R90/80FRGV/2V22/P",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R90-80FTE-CL-A",
       "model": "R90/80FTE/CL/A",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R90-80FTE-CL-T",
       "model": "R90/80FTE/CL/T",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R90-80FTE-CLR-A",
       "model": "R90/80FTE/CLR/A",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R90-80FTG-CLR-A",
       "model": "R90/80FTG/CLR/A",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R90-80FTG-L-T",
       "model": "R90/80FTG/L/T",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R90-80PCG-T",
       "model": "R90/80PCG/T",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R90-80PCGB-A",
       "model": "R90/80PCGB/A",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     },
     {
       "id": "modular:R90-80PEI-50",
       "model": "R90/80PEI/50",
-      "reason": "reports is not defined"
+      "reason": "exact_model_card_photo_not_found"
     }
   ]
 }
