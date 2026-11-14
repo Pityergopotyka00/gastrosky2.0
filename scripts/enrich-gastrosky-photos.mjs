@@ -24,6 +24,18 @@ function imageOf($,el,base){
 }
 function categoryLinks($,base,name){
  const key=normalize(name),found=[];
+ // The old GastroSky store uses /termekek/reszletek/<product-name> links.
+ // Match the full product slug first instead of relying on modern card headings.
+ $('a[href*="/termekek/reszletek/"]').each((_,el)=>{
+  const raw=$(el).attr('href')||'';
+  try{
+   const url=new URL(raw,base).href;
+   if(!trusted(url))return;
+   const slug=new URL(url).pathname.split('/').filter(Boolean).at(-1)||'';
+   if(normalize(decodeURIComponent(slug))===key)found.push(url);
+  }catch{}
+ });
+ if([...new Set(found)].length===1)return [...new Set(found)];
  $('a[href*="/termekek/reszletek/"]').each((_,el)=>{
   const link=$(el);let parent=link;
   for(let depth=0;depth<7;depth++){
@@ -35,7 +47,14 @@ function categoryLinks($,base,name){
    }
   }
  });
- return [...new Set(found)];
+ const unique=[...new Set(found)];
+ if(unique.length===1)return unique;
+ // A category with only one product may use a nonliteral editorial slug;
+ // verify the complete product name again on its dedicated detail page.
+ const all=$('a[href*="/termekek/reszletek/"]').toArray().map(el=>{
+  try{return new URL($(el).attr('href'),base).href}catch{return null}
+ }).filter(trusted);
+ return [...new Set(all)].length===1?[...new Set(all)]:unique;
 }
 function exactTitle($,name){
  const key=normalize(name);
