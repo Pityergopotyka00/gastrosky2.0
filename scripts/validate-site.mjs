@@ -1,4 +1,4 @@
-// GastroSky CI validation: current nine-manufacturer catalog and storefront.
+// GastroSky CI validation: current eleven-manufacturer catalog and storefront.
 import {readFile} from 'node:fs/promises';
 import vm from 'node:vm';
 import assert from 'node:assert/strict';
@@ -9,8 +9,8 @@ const script=html.match(/<script>([\s\S]*?)<\/script>/i)?.[1];
 assert.ok(script,'Missing inline storefront script');
 new vm.Script(script,{filename:'index.inline.js'});
 assert.ok(Array.isArray(products)&&products.length>0,'Catalog missing');
-const brands=['Maxima','HENDI','Fagor','Modular','Coldline','Krupps','Aristarco','Sistema Project Italia','Tecnodom','Gastro Haal'];
-const prefixes={Maxima:'maxima',HENDI:'hendi',Fagor:'fagor',Modular:'modular',Coldline:'coldline',Krupps:'krupps',Aristarco:'aristarco','Sistema Project Italia':'sistemaproject',Tecnodom:'tecnodom','Gastro Haal':'gastrohaal'};
+const brands=['Maxima','HENDI','Fagor','Modular','Coldline','Krupps','Aristarco','Sistema Project Italia','Tecnodom','Gastro Haal','GastroSky'];
+const prefixes={Maxima:'maxima',HENDI:'hendi',Fagor:'fagor',Modular:'modular',Coldline:'coldline',Krupps:'krupps',Aristarco:'aristarco','Sistema Project Italia':'sistemaproject',Tecnodom:'tecnodom','Gastro Haal':'gastrohaal',GastroSky:'gastrosky'};
 const hosts={
  Maxima:['maxima.com'],HENDI:['hendi.eu','www.hendi.eu','hendi.xcdn.nl'],
  Fagor:['fagorprofessional.com','www.fagorprofessional.com','anvalor.hu'],
@@ -19,7 +19,8 @@ const hosts={
  Aristarco:['aristarco.it','www.aristarco.it'],
  'Sistema Project Italia':['projectsystems.it','www.projectsystems.it'],
  Tecnodom:['tecnodomspa.com','www.tecnodomspa.com'],
- 'Gastro Haal':['gastrohaal.sk','www.gastrohaal.sk']
+ 'Gastro Haal':['gastrohaal.sk','www.gastrohaal.sk'],
+ GastroSky:['gastrosky.hu','www.gastrosky.hu']
 };
 const allowedRetailPhotoHosts=new Set(['static.materiel-horeca.com','images.metro-marketplace.eu','cubosupplies.com','www.hellopro.fr','tirol.bg','www.wea56.com','www.materielhoreca.com','www.audores.lt','audores.lt','nivaeq.com','www.ventus.com.gr','img.archiexpo.com','horeca365.ro','www.andretti.hu','restoll.ru','et-e.com.ua','res.cloudinary.com','www.mh-hygiene.com','flexikitch.com.au','www.pesage-mb.com','luxia-nce.co.uk','shop.gastrooprema.rs','itpizza-russia.ru','www.lahostelera.com','mdb-equipement.com']);
 const seen=new Set();
@@ -51,6 +52,9 @@ for(const brand of brands){
  assert.ok(products.some(p=>p.manufacturer===brand),'Missing supplier catalog: '+brand);
  assert.ok(html.includes('value="'+brand+'"'),'Missing manufacturer filter option: '+brand);
 }
+assert.equal(products.filter(p=>p.manufacturer==='GastroSky').length,33,'Unexpected GastroSky furniture count');
+assert.ok(script.includes("'GastroSky'].includes(p.manufacturer)"),'Full catalog loader must accept GastroSky');
+assert.ok(script.includes("categoryGroup.value=''"),'Changing brands must reset category filters');
 const tecnodom=products.filter(p=>p.manufacturer==='Tecnodom');
 assert.equal(tecnodom.length,54,'Tecnodom must contain only the 54 official Horizontal/Vertical families');
 assert.equal(tecnodom.filter(p=>p.specifications?.['Termékvonal']==='HORIZONTAL').length,21);
