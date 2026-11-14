@@ -1,0 +1,26 @@
+name: Check official supplier photo sources
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/probe-supplier-image-layout.mjs'
+      - '.github/workflows/probe-supplier-image-layout.yml'
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci || npm install --no-audit --no-fund
+      - run: node scripts/probe-supplier-image-layout.mjs
+      - name: Save source diagnostics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/supplier-image-layout.json
+          git diff --cached --quiet || (git commit -m "Record manufacturer photo source diagnostics" && git pull --rebase origin main && git push)
