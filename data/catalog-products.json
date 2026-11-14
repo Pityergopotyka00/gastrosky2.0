@@ -1796,8 +1796,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_catalog_or_warehouse_index",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "official_manufacturer_model_image_url",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__478__product-thumbnail/A14120600201_Armadio_MASTER_1200lt.png",
+    "image_source": "official_manufacturer_model_catalog_card",
+    "photo_match_type": "official_manufacturer_model_page"
   },
   {
     "id": "coldline:a120-2br",
@@ -1820,8 +1823,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_catalog_or_warehouse_index",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "official_manufacturer_model_image_url",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__481__product-thumbnail/A14121600201_Armadio_MASTER_1200lt.png",
+    "image_source": "official_manufacturer_model_catalog_card",
+    "photo_match_type": "official_manufacturer_model_page"
   },
   {
     "id": "coldline:a120-2brv",
@@ -1844,8 +1850,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_catalog_or_warehouse_index",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "official_manufacturer_model_image_url",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2081__product-thumbnail/A14121600701_Armadio_MASTER_1200lt_porta_vetro.png",
+    "image_source": "official_manufacturer_model_catalog_card",
+    "photo_match_type": "official_manufacturer_model_page"
   },
   {
     "id": "coldline:a120-2bv",
@@ -1868,8 +1877,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_catalog_or_warehouse_index",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "official_manufacturer_model_image_url",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2078__product-thumbnail/A14120600701_Armadio_MASTER_1200lt_porta_vetro.png",
+    "image_source": "official_manufacturer_model_catalog_card",
+    "photo_match_type": "official_manufacturer_model_page"
   },
   {
     "id": "coldline:a120-2m",
@@ -1892,8 +1904,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_catalog_or_warehouse_index",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "official_manufacturer_model_image_url",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__477__product-thumbnail/A14120200201_Armadio_MASTER_1200lt.png",
+    "image_source": "official_manufacturer_model_catalog_card",
+    "photo_match_type": "official_manufacturer_model_page"
   },
   {
     "id": "coldline:a120-2mr",
@@ -1916,8 +1931,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_catalog_or_warehouse_index",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "official_manufacturer_model_image_url",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__480__product-thumbnail/A14121200201_Armadio_MASTER_1200lt.png",
+    "image_source": "official_manufacturer_model_catalog_card",
+    "photo_match_type": "official_manufacturer_model_page"
   },
   {
     "id": "coldline:a120-2mrv",
@@ -1940,8 +1958,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_catalog_or_warehouse_index",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "official_manufacturer_model_image_url",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2080__product-thumbnail/A14121200701_Armadio_MASTER_1200lt_porta_vetro.png",
+    "image_source": "official_manufacturer_model_catalog_card",
+    "photo_match_type": "official_manufacturer_model_page"
   },
   {
     "id": "coldline:a120-2mv",
@@ -1964,8 +1985,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_catalog_or_warehouse_index",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "official_manufacturer_model_image_url",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2077__product-thumbnail/A14120200701_Armadio_MASTER_1200lt_porta_vetro.png",
+    "image_source": "official_manufacturer_model_catalog_card",
+    "photo_match_type": "official_manufacturer_model_page"
   },
   {
     "id": "coldline:a120-2n",
@@ -1988,8 +2012,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_catalog_or_warehouse_index",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "official_manufacturer_model_image_url",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__476__product-thumbnail/A14120100201_Armadio_MASTER_1200lt.png",
+    "image_source": "official_manufacturer_model_catalog_card",
+    "photo_match_type": "official_manufacturer_model_page"
   },
   {
     "id": "coldline:a120-2nr",
@@ -2012,8 +2039,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_catalog_or_warehouse_index",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "official_manufacturer_model_image_url",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__479__product-thumbnail/A14121100201_Armadio_MASTER_1200lt.png",
+    "image_source": "official_manufacturer_model_catalog_card",
+    "photo_match_type": "official_manufacturer_model_page"
   },
   {
     "id": "coldline:a120-2nrv",
@@ -2036,8 +2066,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_catalog_or_warehouse_index",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "official_manufacturer_model_image_url",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2079__product-thumbnail/A14121100701_Armadio_MASTER_1200lt_porta_vetro.png",
+    "image_source": "official_manufacturer_model_catalog_card",
+    "photo_match_type": "official_manufacturer_model_page"
   },
   {
     "id": "coldline:a120-2nv",
@@ -2060,8 +2093,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_catalog_or_warehouse_index",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "official_manufacturer_model_image_url",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2076__product-thumbnail/A14120100701_Armadio_MASTER_1200lt_porta_vetro.png",
+    "image_source": "official_manufacturer_model_catalog_card",
+    "photo_match_type": "official_manufacturer_model_page"
   },
   {
     "id": "coldline:a140-2b",
