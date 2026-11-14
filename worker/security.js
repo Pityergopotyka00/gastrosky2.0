@@ -52,3 +52,31 @@ export function rejectUnsafeRequest(request) {
   }
   return null;
 }
+
+/**
+ * Cloudflare's native rate limit bindings provide approximate per-colo limits.
+ * The visitor IP is only used as an ephemeral counter key; do not log it.
+ * Cloudflare WAF rules are still recommended at the edge for DDoS mitigation.
+ */
+export async function rateLimitRequest(request, env) {
+  const url=new URL(request.url);
+  const isQuote=url.pathname==='/api/quote'&&request.method==='POST';
+  const isCatalog=(url.pathname==='/api/products'||url.pathname==='/data/catalog-products.json')&&request.method==='GET';
+  if (!isQuote&&!isCatalog)return null;
+  const binding=isQuote?env.QUOTE_RATE_LIMITER:env.CATALOG_RATE_LIMITER;
+  if (!binding?.limit)return null; // Keeps local tests and preview builds functional.
+  const ip=request.headers.get('cf-connecting-ip')||'anonymous';
+  const key=(isQuote?'quote:':'catalog:')+ip;
+  try {
+    const decision=await binding.limit({key});
+    if (decision.success)return null;
+    return new Response(JSON.stringify({error:'rate_limited'}),{
+      status:429,
+      headers:{'content-type':'application/json; charset=utf-8','retry-after':'60','cache-control':'no-store'}
+    });
+  }catch(error){
+    console.error('Security rate limiter unavailable');
+    // The quote form still requires Turnstile; catalog remains available.
+    return null;
+  }
+}
