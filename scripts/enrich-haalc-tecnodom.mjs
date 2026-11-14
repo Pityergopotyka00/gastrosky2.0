@@ -25,7 +25,7 @@ function officialImage(src,base,brand){
  try{
   const url=new URL(src,base);
   url.hash='';
-  if(!trusted(url.href,brand)||!/\\.(jpe?g|png|webp)$/i.test(url.pathname)||/logo|banner|placeholder|icon|sprite/i.test(url.pathname))return null;
+  if(!trusted(url.href,brand)||!/\.(jpe?g|png|webp)$/i.test(url.pathname)||/logo|banner|placeholder|icon|sprite/i.test(url.pathname))return null;
   return url.href;
  }catch{return null}
 }
