@@ -17954,5 +17954,49 @@
     "price": null,
     "availability": null,
     "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09379000",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09379000",
+    "ean": "8719324276054",
+    "name": "Maxima – Turmixgép 1,5 L, 1500 W, 5 program",
+    "category": "Bárgépek",
+    "description": "Egyedi Maxima gyártói cikkszámmal és termékoldallal azonosított professzionális turmixberendezés.",
+    "specifications": {
+      "Cikkszám": "09379000"
+    },
+    "source_url": "https://maxima.com/hu/turmixgep-1-5l-1500w-5-program.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:08410300",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "08410300",
+    "ean": "8720783984053",
+    "name": "Maxima – Pálcika turmixgép 16 cm, 450 W",
+    "category": "Élelmiszer-előkészítés",
+    "description": "Egyedi Maxima gyártói cikkszámmal és termékoldallal azonosított professzionális turmixberendezés.",
+    "specifications": {
+      "Cikkszám": "08410300"
+    },
+    "source_url": "https://maxima.com/hu/palcika-turmixgep-16-cm-es-tengely-450-w.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
   }
 ]
