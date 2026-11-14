@@ -1,0 +1,26 @@
+name: Inspect official Fagor product photo sources
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/probe-fagor-public-photos.mjs'
+      - '.github/workflows/probe-fagor-public-photos.yml'
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci || npm install --no-audit --no-fund
+      - run: node scripts/probe-fagor-public-photos.mjs
+      - name: Publish sanitized source report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/fagor-public-photo-probe.json
+          git diff --cached --quiet || (git commit -m "Record public official Fagor product photo sources" && git pull --rebase origin main && git push)
