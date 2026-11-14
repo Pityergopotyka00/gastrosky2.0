@@ -1,0 +1,31 @@
+name: Match official Fagor photos by exact image filename
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/match-fagor-media-models.mjs'
+      - '.github/workflows/match-fagor-media-models.yml'
+      - 'data/fagor-official-media-index.json'
+permissions:
+  contents: write
+concurrency:
+  group: gastrosky-supplier-media
+  cancel-in-progress: false
+jobs:
+  models:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci || npm install --no-audit --no-fund
+      - run: node scripts/match-fagor-media-models.mjs --apply
+      - run: npm run validate
+      - name: Save verified matching Fagor model pictures
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/catalog-products.json data/fagor-model-filename-matches.json index.html
+          git diff --cached --quiet || (git commit -m "Match exact Fagor model image filenames" && git pull --rebase origin main && git push)
