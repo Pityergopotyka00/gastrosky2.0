@@ -1,0 +1,32 @@
+name: Fill verified Modular product photos
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/enrich-modular-photos.mjs'
+      - '.github/workflows/enrich-modular-photos.yml'
+permissions:
+  contents: write
+concurrency:
+  group: gastrosky-modular-media
+  cancel-in-progress: false
+jobs:
+  modular:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci || npm install --no-audit --no-fund
+      - name: Verify official Modular product images
+        run: node scripts/enrich-modular-photos.mjs
+      - name: Validate storefront
+        run: npm run validate
+      - name: Save verified model images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/catalog-products.json index.html data/modular-photo-match-report.json
+          git diff --cached --quiet || (git commit -m "Add exact official Modular model photographs" && git pull --rebase origin main && git push)
