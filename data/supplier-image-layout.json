@@ -1,0 +1,1137 @@
+{
+  "checked_at": "2026-11-14T19:29:26.788Z",
+  "brands": {
+    "Aristarco": {
+      "total": 74,
+      "with_photo": 74,
+      "missing": 0,
+      "source_examples": [
+        {
+          "id": "aristarco:AND-1000-Split",
+          "sku": "AND 1000 Split",
+          "source_url": "https://www.aristarco.it/en/ice/categories/scaglie-piatte/",
+          "source_type": "manufacturer_public_category",
+          "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
+          "image_url": "https://www.aristarco.it/wp-content/uploads/2026/07/AND-250-SPS-250-scaled-lbox-800x650-fff.jpeg"
+        },
+        {
+          "id": "aristarco:AND-1300",
+          "sku": "AND 1300",
+          "source_url": "https://www.aristarco.it/en/ice/categories/scaglie-piatte/",
+          "source_type": "manufacturer_public_category",
+          "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
+          "image_url": "https://www.aristarco.it/wp-content/uploads/2026/07/AND-250-SPS-250-scaled-lbox-800x650-fff.jpeg"
+        },
+        {
+          "id": "aristarco:AND-1500-Split",
+          "sku": "AND 1500 Split",
+          "source_url": "https://www.aristarco.it/en/ice/categories/scaglie-piatte/",
+          "source_type": "manufacturer_public_category",
+          "record_status": "manufacturer_category_reference_needs_individual_sheet_review",
+          "image_url": "https://www.aristarco.it/wp-content/uploads/2026/07/AND-250-SPS-250-scaled-lbox-800x650-fff.jpeg"
+        }
+      ],
+      "missing_examples": [],
+      "status_counts": {
+        "manufacturer_category_reference_needs_individual_sheet_review": 74
+      }
+    },
+    "Coldline": {
+      "total": 125,
+      "with_photo": 37,
+      "missing": 88,
+      "source_examples": [
+        {
+          "id": "coldline:a120-2b",
+          "sku": "A120/2B",
+          "source_url": "https://coldline.it/en/catalog/1200-lt-3",
+          "source_type": "manufacturer_catalog_or_warehouse_index",
+          "record_status": "official_manufacturer_model_index",
+          "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__478__product-thumbnail/A14120600201_Armadio_MASTER_1200lt.png"
+        },
+        {
+          "id": "coldline:a120-2br",
+          "sku": "A120/2BR",
+          "source_url": "https://coldline.it/en/catalog/1200-lt-3",
+          "source_type": "manufacturer_catalog_or_warehouse_index",
+          "record_status": "official_manufacturer_model_index",
+          "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__481__product-thumbnail/A14121600201_Armadio_MASTER_1200lt.png"
+        },
+        {
+          "id": "coldline:a120-2brv",
+          "sku": "A120/2BRV",
+          "source_url": "https://coldline.it/en/catalog/1200-lt-3",
+          "source_type": "manufacturer_catalog_or_warehouse_index",
+          "record_status": "official_manufacturer_model_index",
+          "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2081__product-thumbnail/A14121600701_Armadio_MASTER_1200lt_porta_vetro.png"
+        }
+      ],
+      "missing_examples": [
+        {
+          "id": "coldline:a140-2br",
+          "sku": "A140/2BR",
+          "source_url": "https://coldline.it/en/catalog/1400-lt-5",
+          "source_type": "manufacturer_catalog_or_warehouse_index",
+          "record_status": "official_manufacturer_model_index"
+        },
+        {
+          "id": "coldline:a140-2brv",
+          "sku": "A140/2BRV",
+          "source_url": "https://coldline.it/en/catalog/1400-lt-5",
+          "source_type": "manufacturer_catalog_or_warehouse_index",
+          "record_status": "official_manufacturer_model_index"
+        },
+        {
+          "id": "coldline:a140-2bv",
+          "sku": "A140/2BV",
+          "source_url": "https://coldline.it/en/catalog/1400-lt-5",
+          "source_type": "manufacturer_catalog_or_warehouse_index",
+          "record_status": "official_manufacturer_model_index"
+        },
+        {
+          "id": "coldline:a140-2m",
+          "sku": "A140/2M",
+          "source_url": "https://coldline.it/en/catalog/1400-lt-5",
+          "source_type": "manufacturer_catalog_or_warehouse_index",
+          "record_status": "official_manufacturer_model_index"
+        },
+        {
+          "id": "coldline:a140-2me",
+          "sku": "A140/2ME",
+          "source_url": "https://coldline.it/en/warehouse/items",
+          "source_type": "manufacturer_catalog_or_warehouse_index",
+          "record_status": "official_manufacturer_model_index"
+        },
+        {
+          "id": "coldline:a140-2mr",
+          "sku": "A140/2MR",
+          "source_url": "https://coldline.it/en/catalog/1400-lt-5",
+          "source_type": "manufacturer_catalog_or_warehouse_index",
+          "record_status": "official_manufacturer_model_index"
+        },
+        {
+          "id": "coldline:a140-2mrv",
+          "sku": "A140/2MRV",
+          "source_url": "https://coldline.it/en/catalog/1400-lt-5",
+          "source_type": "manufacturer_catalog_or_warehouse_index",
+          "record_status": "official_manufacturer_model_index"
+        }
+      ],
+      "status_counts": {
+        "official_manufacturer_model_index": 108,
+        "manufacturer_reference_requires_reseller_approval": 3,
+        "manufacturer_model_reference": 14
+      }
+    },
+    "Fagor": {
+      "total": 224,
+      "with_photo": 17,
+      "missing": 207,
+      "source_examples": [
+        {
+          "id": "fagor:19004652",
+          "sku": "19004652",
+          "model": "FE-4",
+          "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1",
+          "source_type": "official_2026_foodservice_catalogue",
+          "record_status": "published_model_data",
+          "image_url": "https://www.hellopro.fr/images/produit-2/0/8/4/friteuse-electrique-professionnelle-4-litres-inox-fagor-fe-4-8158480.jpg"
+        },
+        {
+          "id": "fagor:19004709",
+          "sku": "19004709",
+          "model": "FE-6",
+          "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1",
+          "source_type": "official_2026_foodservice_catalogue",
+          "record_status": "published_model_data",
+          "image_url": "https://tirol.bg/images/detailed/10/FE_8_usow-wn.jpg"
+        },
+        {
+          "id": "fagor:19004713",
+          "sku": "19004713",
+          "model": "FE-6",
+          "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1",
+          "source_type": "official_2026_foodservice_catalogue",
+          "record_status": "published_model_data",
+          "image_url": "https://tirol.bg/images/detailed/10/FE_8_usow-wn.jpg"
+        }
+      ],
+      "missing_examples": [
+        {
+          "id": "fagor:19001676",
+          "sku": "19001676",
+          "model": "GNP 1/1-100",
+          "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1",
+          "source_type": "official_2026_foodservice_catalogue",
+          "record_status": "manufacturer_catalogue_reference_availability_unconfirmed",
+          "image_url": null
+        },
+        {
+          "id": "fagor:19001677",
+          "sku": "19001677",
+          "model": "GNP 1/1-40",
+          "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1",
+          "source_type": "official_2026_foodservice_catalogue",
+          "record_status": "manufacturer_catalogue_reference_availability_unconfirmed",
+          "image_url": null
+        },
+        {
+          "id": "fagor:19001679",
+          "sku": "19001679",
+          "model": "GNP 2/1-100",
+          "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1",
+          "source_type": "official_2026_foodservice_catalogue",
+          "record_status": "manufacturer_catalogue_reference_availability_unconfirmed",
+          "image_url": null
+        },
+        {
+          "id": "fagor:19001680",
+          "sku": "19001680",
+          "model": "GNP 2/1-40",
+          "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1",
+          "source_type": "official_2026_foodservice_catalogue",
+          "record_status": "manufacturer_catalogue_reference_availability_unconfirmed",
+          "image_url": null
+        },
+        {
+          "id": "fagor:19001681",
+          "sku": "19001681",
+          "model": "GNP 2/1-65",
+          "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1",
+          "source_type": "official_2026_foodservice_catalogue",
+          "record_status": "manufacturer_catalogue_reference_availability_unconfirmed",
+          "image_url": null
+        },
+        {
+          "id": "fagor:19001980",
+          "sku": "19001980",
+          "model": "TP 1/1-65",
+          "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1",
+          "source_type": "official_2026_foodservice_catalogue",
+          "record_status": "manufacturer_catalogue_reference_availability_unconfirmed",
+          "image_url": null
+        },
+        {
+          "id": "fagor:19001981",
+          "sku": "19001981",
+          "model": "TP 2/1-20",
+          "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1",
+          "source_type": "official_2026_foodservice_catalogue",
+          "record_status": "manufacturer_catalogue_reference_availability_unconfirmed",
+          "image_url": null
+        }
+      ],
+      "status_counts": {
+        "manufacturer_catalogue_reference_availability_unconfirmed": 50,
+        "published_model_data": 19,
+        "official_2026_model_article_reference": 61,
+        "official_catalog_sku_verified": 13,
+        "manufacturer_catalogue_reference": 2,
+        "official_catalogue_reference_dealer_availability_unverified": 69,
+        "verified_reseller_model_listing": 10
+      }
+    },
+    "Gastro Haal": {
+      "total": 13,
+      "with_photo": 9,
+      "missing": 4,
+      "source_examples": [
+        {
+          "id": "gastrohaal:278",
+          "sku": "278",
+          "model": "DEZINFLEX XL",
+          "source_url": "https://gastrohaal.sk/hu/termekek/62_automata-fertotlenito-adagolo/automata-fertotlenito-adagolo-dezinflex/278_dezinflex-xl-automata-kezfertotlenito-adagolo-5l",
+          "source_type": "official_manufacturer_product_page",
+          "record_status": "manufacturer_page_and_photo_verified",
+          "image_url": "https://gastrohaal.sk/userfiles/products/thumb/XL_new_1_svetle_orez.jpg"
+        },
+        {
+          "id": "gastrohaal:301",
+          "sku": "301",
+          "model": "DEZINFLEX M/E",
+          "source_url": "https://gastrohaal.sk/hu/termekek/70_automata-fertotlenito-adagolo/arcfelismeres-terminal-dezinflex-hikvision/301_dezinflex-m-e-automata-fertotlenito-adagolo-1l",
+          "source_type": "official_manufacturer_product_page",
+          "record_status": "manufacturer_page_and_photo_verified",
+          "image_url": "https://gastrohaal.sk/userfiles/products/thumb/kamerovy_terminal_produkty11.jpg"
+        },
+        {
+          "id": "gastrohaal:324",
+          "sku": "324",
+          "model": "ŠKZ-15",
+          "source_url": "https://gastrohaal.sk/hu/termekek/72_burgonyakoptatok/324_skz-15-burgonyakoptato-8-15kg-adag-ciklus",
+          "source_type": "official_manufacturer_product_page",
+          "record_status": "manufacturer_page_and_photo_verified",
+          "image_url": "https://gastrohaal.sk/userfiles/products/thumb/SKZ-15_06-2024.28.jpg"
+        }
+      ],
+      "missing_examples": [
+        {
+          "id": "gastrohaal:308",
+          "sku": "308",
+          "model": "ŠKZ-25",
+          "source_url": "https://gastrohaal.sk/hu/termekek/72_burgonyakoptatok/308_skz-25-burgonyakoptato-25kg-adag-ciklus",
+          "source_type": "official_manufacturer_product_page",
+          "record_status": "manufacturer_page_and_photo_verified"
+        },
+        {
+          "id": "gastrohaal:320",
+          "sku": "320",
+          "model": "LO-1",
+          "source_url": "https://gastrohaal.sk/hu/termekek/72_burgonyakoptatok/320_lo-1-hulladekfogo-a-burgonyakoptatohoz",
+          "source_type": "official_manufacturer_product_page",
+          "record_status": "manufacturer_page_and_photo_verified"
+        },
+        {
+          "id": "gastrohaal:488",
+          "sku": "488",
+          "model": "LO-1-V",
+          "source_url": "https://gastrohaal.sk/hu/termekek/72_burgonyakoptatok/488_lo-1-v-hulladekfogo-a-burgonyakoptatohoz",
+          "source_type": "official_manufacturer_product_page",
+          "record_status": "manufacturer_page_and_photo_verified"
+        },
+        {
+          "id": "gastrohaal:492",
+          "sku": "492",
+          "model": "ŠKZ-T",
+          "source_url": "https://gastrohaal.sk/hu/termekek/72_burgonyakoptatok/492_skz-t-external-timer-for-the-potato-peeler",
+          "source_type": "official_manufacturer_product_page",
+          "record_status": "manufacturer_page_and_photo_verified"
+        }
+      ],
+      "status_counts": {
+        "manufacturer_page_and_photo_verified": 13
+      }
+    },
+    "GastroSky": {
+      "total": 33,
+      "with_photo": 33,
+      "missing": 0,
+      "source_examples": [
+        {
+          "id": "gastrosky:munkaasztalok:1",
+          "sku": "GS-BUTOR-001",
+          "source_url": "https://gastrosky.hu/termekek/kategoria/munkaasztalok",
+          "source_type": "original_gastrosky_catalog",
+          "record_status": "original_gastrosky_category_listed",
+          "image_url": "https://gastrosky.hu/product_images/347/1_medium.jpg?378?v=20261114201511"
+        },
+        {
+          "id": "gastrosky:munkaasztalok-hatso-felhajtassal:1",
+          "sku": "GS-BUTOR-002",
+          "source_url": "https://gastrosky.hu/termekek/kategoria/munkaasztalok-hatso-felhajtassal",
+          "source_type": "original_gastrosky_catalog",
+          "record_status": "original_gastrosky_category_listed",
+          "image_url": "https://gastrosky.hu/product_images/348/1_medium.jpg?414?v=20261114201514"
+        },
+        {
+          "id": "gastrosky:munkaasztalok-also-polccal:1",
+          "sku": "GS-BUTOR-003",
+          "source_url": "https://gastrosky.hu/termekek/kategoria/munkaasztalok-also-polccal",
+          "source_type": "original_gastrosky_catalog",
+          "record_status": "original_gastrosky_category_listed",
+          "image_url": "https://gastrosky.hu/product_images/349/1_medium.jpg?558?v=20261114201515"
+        }
+      ],
+      "missing_examples": [],
+      "status_counts": {
+        "original_gastrosky_category_listed": 33
+      }
+    },
+    "HENDI": {
+      "total": 67,
+      "with_photo": 67,
+      "missing": 0,
+      "source_examples": [
+        {
+          "id": "hendi:154922",
+          "sku": "154922",
+          "source_url": "https://www.hendi.eu/en/griddle-flat-512400.html",
+          "source_type": "manual_manufacturer_catalog_research",
+          "record_status": "sku_image_filename_verified",
+          "image_url": "https://hendi.xcdn.nl/RM265,265/-/154922_OBW_2024_02_IMGP4527.jpg"
+        },
+        {
+          "id": "hendi:154939",
+          "sku": "154939",
+          "source_url": "https://www.hendi.eu/en/griddle-flat-512407.html",
+          "source_type": "manual_manufacturer_catalog_research",
+          "record_status": "sku_image_filename_verified",
+          "image_url": "https://hendi.xcdn.nl/RM265,265/-/154939_OBW_2024_02_IMGP4518.jpg"
+        },
+        {
+          "id": "hendi:154960",
+          "sku": "154960",
+          "source_url": "https://www.hendi.eu/en/griddle-13-ribbed-512413.html",
+          "source_type": "hendi_public_product_page",
+          "record_status": "sku_verified_from_public_listing",
+          "image_url": "https://hendi.xcdn.nl/RM265,265/-/154960_OBW_2024_02_IMGP4512.jpg"
+        }
+      ],
+      "missing_examples": [],
+      "status_counts": {
+        "sku_image_filename_verified": 39,
+        "sku_verified_from_public_listing": 11,
+        "manufacturer_verified": 10,
+        "research_sample": 7
+      }
+    },
+    "Krupps": {
+      "total": 68,
+      "with_photo": 42,
+      "missing": 26,
+      "source_examples": [
+        {
+          "id": "krupps:C327",
+          "sku": "C327",
+          "source_url": "https://www.krupps.com/en/catalogue/advance-range/",
+          "source_type": "manufacturer_public_catalog",
+          "record_status": "official_range_model_reference",
+          "image_url": "https://et-e.com.ua/image/cache/catalog/products/000001415_1-800x800.jpg"
+        },
+        {
+          "id": "krupps:C426",
+          "sku": "C426",
+          "source_url": "https://www.krupps.com/en/catalogue/advance-range/",
+          "source_type": "manufacturer_public_catalog",
+          "record_status": "official_range_model_reference",
+          "image_url": "https://www.njuskalo.hr/image-w920x690/ugostiteljske-perilice/akcija-perilica-casa-krupps-c426-slika-266587050.jpg"
+        },
+        {
+          "id": "krupps:C432",
+          "sku": "C432",
+          "source_url": "https://www.krupps.com/en/catalogue/advance-range/",
+          "source_type": "manufacturer_public_catalog",
+          "record_status": "official_range_model_reference",
+          "image_url": "https://horeca365.ro/userfiles/9c513b91-0707-4c89-b80f-5fba80304b39/products/13246253_big.jpg"
+        }
+      ],
+      "missing_examples": [
+        {
+          "id": "krupps:C432-S",
+          "sku": "C432-S",
+          "source_url": "https://www.krupps.com/en/catalogue/advance-range/",
+          "source_type": "manufacturer_public_catalog",
+          "record_status": "official_range_model_reference",
+          "image_url": null
+        },
+        {
+          "id": "krupps:C537-BTS",
+          "sku": "C537-BTS",
+          "source_url": "https://www.krupps.com/en/catalogue/advance-range/",
+          "source_type": "manufacturer_public_catalog",
+          "record_status": "official_range_model_reference",
+          "image_url": null
+        },
+        {
+          "id": "krupps:C537T-BT",
+          "sku": "C537T-BT",
+          "source_url": "https://www.krupps.com/en/catalogue/advance-range/",
+          "source_type": "manufacturer_public_catalog",
+          "record_status": "official_range_model_reference",
+          "image_url": null
+        },
+        {
+          "id": "krupps:C537T-BTS",
+          "sku": "C537T-BTS",
+          "source_url": "https://www.krupps.com/en/catalogue/advance-range/",
+          "source_type": "manufacturer_public_catalog",
+          "record_status": "official_range_model_reference",
+          "image_url": null
+        },
+        {
+          "id": "krupps:C537T-S",
+          "sku": "C537T-S",
+          "source_url": "https://www.krupps.com/en/catalogue/advance-range/",
+          "source_type": "manufacturer_public_catalog",
+          "record_status": "official_range_model_reference",
+          "image_url": null
+        },
+        {
+          "id": "krupps:C640-BT",
+          "sku": "C640-BT",
+          "source_url": "https://www.krupps.com/en/catalogue/advance-range/",
+          "source_type": "manufacturer_public_catalog",
+          "record_status": "official_range_model_reference",
+          "image_url": null
+        },
+        {
+          "id": "krupps:CH110-BTS",
+          "sku": "CH110-BTS",
+          "source_url": "https://www.krupps.com/en/catalogue/type/pass-through-dishwasher/",
+          "source_type": "manufacturer_public_catalog",
+          "record_status": "official_manufacturer_model_index"
+        }
+      ],
+      "status_counts": {
+        "official_range_model_reference": 15,
+        "manufacturer_reference_requires_reseller_approval": 2,
+        "official_manufacturer_model_index": 51
+      }
+    },
+    "Maxima": {
+      "total": 217,
+      "with_photo": 28,
+      "missing": 189,
+      "source_examples": [
+        {
+          "id": "maxima:08400200",
+          "sku": "08400200",
+          "source_url": "https://maxima.com/hu/botmixer-18-cm-es-palca-250w.html",
+          "source_type": "manufacturer_public_product_page",
+          "record_status": "sku_and_product_page_verified",
+          "image_url": "https://www.hellopro.fr/images/produit-2/9/2/1/maxima-8400200-mixeur-plongeant-avec-bras-de-18-cm-250-w-ecran-numerique-8-vitesses-poignee-antiderapante-bras-en-inox-44x7x7-cm-8400200-19287129.jpg"
+        },
+        {
+          "id": "maxima:08400400",
+          "sku": "08400400",
+          "source_url": "https://maxima.com/hu/konyhai-kutter-gep-12l.html",
+          "source_type": "manufacturer_public_product_page",
+          "record_status": "sku_and_product_page_verified",
+          "image_url": "https://cubosupplies.com/cdn/shop/files/sp-001-08400400.jpg?v=1719549172&width=1200"
+        },
+        {
+          "id": "maxima:08400900",
+          "sku": "08400900",
+          "source_url": "https://maxima.com/hu/konyhai-kutter-gep-18l.html",
+          "source_type": "manufacturer_public_product_page",
+          "record_status": "sku_and_product_page_verified",
+          "image_url": "https://mdb-equipement.com/20887-large_default/maxima-robot-culinaire-18-l-lame-en-s-lisse.jpg"
+        }
+      ],
+      "missing_examples": [
+        {
+          "id": "maxima:08400100",
+          "sku": "08400100",
+          "source_url": "https://maxima.com/hu/botmixer-15-cm-es-palca-220w.html",
+          "source_type": "manufacturer_public_product_page",
+          "record_status": "sku_and_product_page_verified",
+          "image_url": null
+        },
+        {
+          "id": "maxima:09211003",
+          "sku": "09211003",
+          "source_url": "https://maxima.com/hu/pult-alatti-mosogatogep-40-x-40cm-lefolyoval-oblitovel-es-szappanszivattyuval-digitalis-kijelzo-230v.html",
+          "source_type": "official_manufacturer_product_page",
+          "record_status": "sku_and_product_page_verified",
+          "image_url": null
+        },
+        {
+          "id": "maxima:09211008",
+          "sku": "09211008",
+          "source_url": "https://maxima.com/hu/csuklyas-mosogatogep-50-x-50cm-oblitovel-es-szappanszivattyuval-digitalis-kijelzo-400v.html",
+          "source_type": "manufacturer_public_product_page",
+          "record_status": "sku_and_product_page_verified",
+          "image_url": null
+        },
+        {
+          "id": "maxima:09240140",
+          "sku": "09240140",
+          "source_url": "https://maxima.com/hu/csuklyas-mosogatogep-50x60cm-oblitovel-es-szappanszivattyuval-400v.html",
+          "source_type": "manufacturer_public_product_page",
+          "record_status": "sku_and_product_page_verified",
+          "image_url": null
+        },
+        {
+          "id": "maxima:09300001",
+          "sku": "09300001",
+          "source_url": "https://maxima.com/hu/chafing-dish-elektromos-8-5l-1-1-gn-fedellel-egyutt.html",
+          "source_type": "manufacturer_public_product_page",
+          "record_status": "sku_and_product_page_verified",
+          "image_url": null
+        },
+        {
+          "id": "maxima:09300031",
+          "sku": "09300031",
+          "source_url": "https://maxima.com/hu/narancssarga-gyumolcscentrifuga-kezi-adagolas-csap-segitsegevel.html",
+          "source_type": "manufacturer_public_product_page",
+          "record_status": "sku_and_product_page_verified",
+          "image_url": null
+        },
+        {
+          "id": "maxima:09300032",
+          "sku": "09300032",
+          "source_url": "https://maxima.com/hu/narancssarga-gyumolcscentrifuga-automatikus-adagolas-csap-segitsegevel.html",
+          "source_type": "manufacturer_public_product_page",
+          "record_status": "sku_and_product_page_verified",
+          "image_url": null
+        }
+      ],
+      "status_counts": {
+        "sku_and_product_page_verified": 201,
+        "manufacturer_sample": 1,
+        "sku_verified_photo_matched": 5,
+        "research_sample": 9,
+        "manufacturer_product_reference": 1
+      }
+    },
+    "Modular": {
+      "total": 82,
+      "with_photo": 6,
+      "missing": 76,
+      "source_examples": [
+        {
+          "id": "modular:MP01012011000",
+          "sku": "MP01012011000",
+          "model": "F60/30PCG/T",
+          "source_url": "https://www.modular.it/en/catalog/modul-30-cm-9",
+          "source_type": "manufacturer_product_sheet",
+          "record_status": "published_model_data",
+          "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16646__product-thumbnail/MP01012011000_Fun_600_Piano_cottura_gas_modulo_30_mod.png"
+        },
+        {
+          "id": "modular:MP01292111000",
+          "sku": "MP01292111000",
+          "model": "F60/30FRGV/1V8/T",
+          "source_url": "https://www.modular.it/coldline/product/print/68352?language=en",
+          "source_type": "manufacturer_product_sheet",
+          "record_status": "published_model_data",
+          "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16988__product-thumbnail/MP01292111000_Fun_600_Friggitrice_gas_modulo_30_mod.png"
+        },
+        {
+          "id": "modular:MP01292121000",
+          "sku": "MP01292121000",
+          "model": "F60/30FRESE/1V10/T",
+          "source_url": "https://www.modular.it/coldline/product/print/68358?language=en",
+          "source_type": "manufacturer_product_sheet",
+          "record_status": "published_model_data",
+          "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16994__product-thumbnail/MP01292121000_Fun_600_Friggitrice_elettrica_modulo_ECO_30_mod.png"
+        }
+      ],
+      "missing_examples": [
+        {
+          "id": "modular:F60/30FTG/R/T",
+          "sku": "F60/30FTG/R/T",
+          "source_url": "https://www.modular.it/en/products/fun-600-33",
+          "source_type": "official_product_page",
+          "record_status": "verified_manufacturer_model",
+          "image_url": null
+        },
+        {
+          "id": "modular:F60/30FTG/SL/T",
+          "sku": "F60/30FTG/SL/T",
+          "source_url": "https://www.modular.it/en/products/fun-600-14",
+          "source_type": "official_product_page",
+          "record_status": "verified_manufacturer_model",
+          "image_url": null
+        },
+        {
+          "id": "modular:F60/30GRLG/T",
+          "sku": "F60/30GRLG/T",
+          "source_url": "https://www.modular.it/coldline/product/print/68652?language=en",
+          "source_type": "official_product_page",
+          "record_status": "verified_manufacturer_model",
+          "image_url": null
+        },
+        {
+          "id": "modular:F60/30PCG/T",
+          "sku": "F60/30PCG/T",
+          "source_url": "https://www.modular.it/en/products/fun-600",
+          "source_type": "official_product_page",
+          "record_status": "verified_manufacturer_model",
+          "image_url": null
+        },
+        {
+          "id": "modular:F60/60CFE",
+          "sku": "F60/60CFE",
+          "source_url": "https://www.modular.it/en/products/fun-600-11",
+          "source_type": "official_product_page",
+          "record_status": "verified_manufacturer_model",
+          "image_url": null
+        },
+        {
+          "id": "modular:F60-60FRES-2V10-T",
+          "sku": "F60/60FRES/2V10/T",
+          "model": "F60/60FRES/2V10/T",
+          "source_url": "https://www.modular.it/en/warehouse/items",
+          "source_type": "official_warehouse_public_listing",
+          "record_status": "official_model_index_only",
+          "image_url": null
+        },
+        {
+          "id": "modular:F60/60FRESE/2V10/T",
+          "sku": "F60/60FRESE/2V10/T",
+          "source_url": "https://www.modular.it/coldline/product/print/68360?language=en",
+          "source_type": "official_product_page",
+          "record_status": "verified_manufacturer_model",
+          "image_url": null
+        }
+      ],
+      "status_counts": {
+        "verified_manufacturer_model": 12,
+        "official_model_index_only": 64,
+        "published_model_data": 6
+      }
+    },
+    "Sistema Project Italia": {
+      "total": 87,
+      "with_photo": 25,
+      "missing": 62,
+      "source_examples": [
+        {
+          "id": "sistemaproject:35-a",
+          "sku": "35 A",
+          "source_url": "https://www.projectsystems.it/en/projects/a-series/",
+          "source_type": "manufacturer_product_page",
+          "record_status": "manufacturer_official_public_reference",
+          "image_url": "https://www.projectsystems.it/wp-content/uploads/2020/01/Serie-A-closed-800x800px.jpg"
+        },
+        {
+          "id": "sistemaproject:alpha-35",
+          "sku": "ALPHA 35",
+          "source_url": "https://www.projectsystems.it/en/projects/alpha/",
+          "source_type": "manufacturer_product_page",
+          "record_status": "manufacturer_official_public_reference",
+          "image_url": "https://hosteleriauno.es/462870-large_default/lavavasos-alpha35-sistema-project.jpg"
+        },
+        {
+          "id": "sistemaproject:alpha-40",
+          "sku": "ALPHA 40",
+          "source_url": "https://www.projectsystems.it/en/projects/alpha/",
+          "source_type": "manufacturer_product_page",
+          "record_status": "manufacturer_official_public_reference",
+          "image_url": "https://hosteleriauno.es/462871-large_default/lavavajillas-alpha40-sistema-project.jpg"
+        }
+      ],
+      "missing_examples": [
+        {
+          "id": "sistemaproject:catalog2025-30740",
+          "sku": "30740",
+          "source_url": "https://www.projectsystems.it/wp-content/uploads/2025/05/SistemaProject-Italia-catalogo-2025.pdf",
+          "source_type": "official_manufacturer_catalog_2025_26",
+          "record_status": "official_catalog_code_verified",
+          "image_url": null
+        },
+        {
+          "id": "sistemaproject:40-a",
+          "sku": "40 A",
+          "source_url": "https://www.projectsystems.it/en/projects/a-series/",
+          "source_type": "manufacturer_product_page",
+          "record_status": "manufacturer_official_public_reference",
+          "image_url": null
+        },
+        {
+          "id": "sistemaproject:50-a",
+          "sku": "50 A",
+          "source_url": "https://www.projectsystems.it/en/projects/a-series/",
+          "source_type": "manufacturer_product_page",
+          "record_status": "manufacturer_official_public_reference",
+          "image_url": null
+        },
+        {
+          "id": "sistemaproject:catalog2025-ac360",
+          "sku": "AC360",
+          "source_url": "https://www.projectsystems.it/wp-content/uploads/2025/05/SistemaProject-Italia-catalogo-2025.pdf",
+          "source_type": "official_manufacturer_catalog_2025_26",
+          "record_status": "official_catalog_code_verified",
+          "image_url": null
+        },
+        {
+          "id": "sistemaproject:catalog2025-ac410",
+          "sku": "AC410",
+          "source_url": "https://www.projectsystems.it/wp-content/uploads/2025/05/SistemaProject-Italia-catalogo-2025.pdf",
+          "source_type": "official_manufacturer_catalog_2025_26",
+          "record_status": "official_catalog_code_verified",
+          "image_url": null
+        },
+        {
+          "id": "sistemaproject:alpha-50",
+          "sku": "ALPHA 50",
+          "source_url": "https://www.projectsystems.it/en/projects/alpha/",
+          "source_type": "manufacturer_product_page",
+          "record_status": "manufacturer_official_public_reference",
+          "image_url": null
+        },
+        {
+          "id": "sistemaproject:ax-50",
+          "sku": "AX 50",
+          "source_url": "https://www.projectsystems.it/en/projects/dishwasher-with-built-in-water-softener-and-break-tank-ax/",
+          "source_type": "manufacturer_product_page",
+          "record_status": "manufacturer_official_public_reference",
+          "image_url": null
+        }
+      ],
+      "status_counts": {
+        "official_catalog_code_verified": 53,
+        "manufacturer_official_public_reference": 34
+      }
+    },
+    "Tecnodom": {
+      "total": 54,
+      "with_photo": 1,
+      "missing": 53,
+      "source_examples": [
+        {
+          "id": "tecnodom:tavolo-60",
+          "sku": "TAVOLO 60",
+          "model": "TAVOLO 60",
+          "source_url": "https://www.tecnodomspa.com/en/orizzontale/tavoli-refrigerati/tavolo-60.html",
+          "source_type": "official_manufacturer_product_range",
+          "record_status": "official_product_family_listing",
+          "image_url": "https://www.tecnodomspa.com/images/prodotti/tavoli-refrigerati/tavolo-60/TAVOLI-REFRIGERATI-tavolo-60-bann.jpg"
+        }
+      ],
+      "missing_examples": [
+        {
+          "id": "tecnodom:aiss",
+          "sku": "AISS",
+          "model": "AISS",
+          "source_url": "https://www.tecnodomspa.com/en/verticale.html",
+          "source_type": "official_manufacturer_product_range",
+          "record_status": "official_product_family_listing",
+          "image_url": null
+        },
+        {
+          "id": "tecnodom:aladino",
+          "sku": "ALADINO",
+          "model": "ALADINO",
+          "source_url": "https://www.tecnodomspa.com/en/verticale.html",
+          "source_type": "official_manufacturer_product_range",
+          "record_status": "official_product_family_listing",
+          "image_url": null
+        },
+        {
+          "id": "tecnodom:armadio-1200",
+          "sku": "ARMADIO 1200",
+          "model": "ARMADIO 1200",
+          "source_url": "https://www.tecnodomspa.com/en/verticale.html",
+          "source_type": "official_manufacturer_product_range",
+          "record_status": "official_product_family_listing",
+          "image_url": null
+        },
+        {
+          "id": "tecnodom:armadio-1400",
+          "sku": "ARMADIO 1400",
+          "model": "ARMADIO 1400",
+          "source_url": "https://www.tecnodomspa.com/en/verticale.html",
+          "source_type": "official_manufacturer_product_range",
+          "record_status": "official_product_family_listing",
+          "image_url": null
+        },
+        {
+          "id": "tecnodom:armadio-400",
+          "sku": "ARMADIO 400",
+          "model": "ARMADIO 400",
+          "source_url": "https://www.tecnodomspa.com/en/verticale.html",
+          "source_type": "official_manufacturer_product_range",
+          "record_status": "official_product_family_listing",
+          "image_url": null
+        },
+        {
+          "id": "tecnodom:armadio-600",
+          "sku": "ARMADIO 600",
+          "model": "ARMADIO 600",
+          "source_url": "https://www.tecnodomspa.com/en/verticale.html",
+          "source_type": "official_manufacturer_product_range",
+          "record_status": "official_product_family_listing",
+          "image_url": null
+        },
+        {
+          "id": "tecnodom:armadio-700",
+          "sku": "ARMADIO 700",
+          "model": "ARMADIO 700",
+          "source_url": "https://www.tecnodomspa.com/en/verticale.html",
+          "source_type": "official_manufacturer_product_range",
+          "record_status": "official_product_family_listing",
+          "image_url": null
+        }
+      ],
+      "status_counts": {
+        "official_product_family_listing": 54
+      }
+    }
+  },
+  "probes": [
+    {
+      "brand": "Modular",
+      "url": "https://www.modular.it/en/products/fun-600",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect": "https://www.modular.it/en/products/fun-600",
+      "title": "Modular - Horizontal cooking and neutral elements",
+      "images": [
+        {
+          "src": "/Logo%20e%20Favicon/image-thumb__67758__logo/Logo-Modular-26.png",
+          "alt": ""
+        },
+        {
+          "src": "/static/build/modular/images/megamenu/modular_menu_placeholder.jpg",
+          "parent": "menu-image placeholder"
+        },
+        {
+          "src": "/Modular/catalogo/prodotti/immagini/image-thumb__16646__product-thumbnail/MP01012011000_Fun_600_Piano_cottura_gas_modulo_30_mod.png",
+          "alt": "",
+          "parent": "product-image"
+        }
+      ],
+      "photo_links": [
+        {
+          "title": "Photo"
+        }
+      ],
+      "model_matches": [
+        "\n\n                                                                        <h3 class=\"product-tab-detail\">F60/30PCG/T</h3>\n                                    \n                                    <h2 class=\"hidden-xs hidden-sm\">FUN 600</h2>\n\n                                                                        <h2 class=\"hidden-xs hidden-sm not-bold\">Gas range, 2 burners, top</h2>\n                                    \n                                                                        <h4 class=\"hidden-md hidden-lg product-tab-detail\">Gas range FUN 60/30 5 burners 6,9 kW top</h4>\n                                    \n                                    \n                                    \n                                    \n                                                                    "
+      ]
+    },
+    {
+      "brand": "Modular",
+      "url": "https://www.modular.it/en/catalog/modul-30-cm-9",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect": "https://www.modular.it/en/catalog/modul-30-cm-9",
+      "title": "Modular - Horizontal cooking and neutral elements",
+      "images": [
+        {
+          "src": "/Logo%20e%20Favicon/image-thumb__67758__logo/Logo-Modular-26.png",
+          "alt": ""
+        },
+        {
+          "src": "/static/build/modular/images/megamenu/modular_menu_placeholder.jpg",
+          "parent": "menu-image placeholder"
+        },
+        {
+          "src": "/Modular/catalogo/prodotti/immagini/image-thumb__16646__product-thumbnail/MP01012011000_Fun_600_Piano_cottura_gas_modulo_30_mod.png",
+          "alt": "",
+          "parent": "product-image"
+        }
+      ],
+      "meta_image": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16646__category-image/MP01012011000_Fun_600_Piano_cottura_gas_modulo_30_mod.jpg",
+      "photo_links": [
+        {
+          "title": "Photo"
+        }
+      ],
+      "model_matches": [
+        "\n\n                                                                                    <h3 class=\"product-tab-detail\">F60/30PCG/T</h3>\n                                        \n\n                                        <h2 class=\"hidden-xs hidden-sm\">FUN 600</h2>\n\n                                                                                    <h2 class=\"hidden-xs hidden-sm not-bold\">Gas range, 2 burners, top</h2>\n                                        \n                                                                                    <h4 class=\"hidden-md hidden-lg product-tab-detail\">Gas range FUN 60/30 5 burners 6,9 kW top</h4>\n                                        \n                                        \n                                        \n\n                                        \n                                        \n                                    "
+      ]
+    },
+    {
+      "brand": "Modular",
+      "url": "https://www.modular.it/en/catalog/modul-30-cm-3",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect": "https://www.modular.it/en/catalog/modul-30-cm-3",
+      "title": "Modular - Horizontal cooking and neutral elements",
+      "images": [
+        {
+          "src": "/Logo%20e%20Favicon/image-thumb__67758__logo/Logo-Modular-26.png",
+          "alt": ""
+        },
+        {
+          "src": "/static/build/modular/images/megamenu/modular_menu_placeholder.jpg",
+          "parent": "menu-image placeholder"
+        },
+        {
+          "src": "/Modular/catalogo/prodotti/immagini/image-thumb__16994__product-thumbnail/MP01292121000_Fun_600_Friggitrice_elettrica_modulo_ECO_30_mod.png",
+          "alt": "",
+          "parent": "product-image"
+        },
+        {
+          "src": "/Modular/catalogo/prodotti/immagini/image-thumb__16995__product-thumbnail/MP01292121001_Fun_600_Friggitrice_elettrica_modulo_30_mod.png",
+          "alt": "",
+          "parent": "product-image"
+        }
+      ],
+      "meta_image": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16995__category-image/MP01292121001_Fun_600_Friggitrice_elettrica_modulo_30_mod.jpg",
+      "photo_links": [
+        {
+          "title": "Photo"
+        },
+        {
+          "title": "Photo"
+        }
+      ],
+      "model_matches": [
+        "\n\n                                                                                    <h3 class=\"product-tab-detail\">F60/30FRESE/1V10/T</h3>\n                                        \n\n                                        <h2 class=\"hidden-xs hidden-sm\">FUN 600</h2>\n\n                                                                                    <h2 class=\"hidden-xs hidden-sm not-bold\">Electric fryer, ECO version, 1 well 10 liters, top</h2>\n                                        \n                                                                                    <h4 class=\"hidden-md hidden-lg product-tab-detail\">Electric Fryer eco FUN 60/30 1 well 10lt tilting heating elements 7,5kW top</h4>\n                                        \n                                        \n                                        \n\n                                        \n                                        \n                                    "
+      ]
+    },
+    {
+      "brand": "Fagor",
+      "url": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/ikore",
+      "status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "redirect": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/ikore",
+      "title": "iKORE Professional Ovens - iKORE Industrial Ovens",
+      "images": [
+        {
+          "src": "https://www.fagorprofessional.com/o/fagor-industrial-portal-theme/images/logo-fagor-professional-gris.svg",
+          "alt": "",
+          "parent": "logo custom-logo"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/coccion.png/4c2e3013-2bc8-5c99-1290-603d1db17332?t=1634837069238",
+          "alt": "custom-icon",
+          "parent": "navmenu-custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/hornos.png/f3abe2a3-be40-2b1a-36cb-533568f2e852?t=1634837069394",
+          "alt": "custom-icon",
+          "parent": "navmenu-custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/lavado-de-vajilla.png/90f68f65-38cc-fb10-8ab6-e0117efbc740?t=1634837069490",
+          "alt": "custom-icon",
+          "parent": "navmenu-custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/frio-comercial.png/540eb1a3-d378-d515-d1cb-6dbdfa634d32?t=1634837069340",
+          "alt": "custom-icon",
+          "parent": "navmenu-custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/distribucion.png/bfde5623-4cb1-2fc7-4f51-326284060faf?t=1634837069289",
+          "alt": "custom-icon",
+          "parent": "navmenu-custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/lavanderia-profesional.png/af364e4a-d245-1012-e448-08dd745a8746?t=1634837069537",
+          "alt": "custom-icon",
+          "parent": "navmenu-custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/lavado.png/0234c5bf-d15b-76a2-4c59-ee347171d138?t=1634837069446",
+          "alt": "custom-icon",
+          "parent": "navmenu-custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/secado.png/29118e53-d163-0ffd-228c-e6ab506f887c?t=1634837069701",
+          "alt": "custom-icon",
+          "parent": "navmenu-custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/d/global/ozono",
+          "alt": "custom-icon",
+          "parent": "navmenu-custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/planchado-y-plegado.png/ae77f670-a431-6060-89c1-519d6f9fb81d?t=1634837069591",
+          "alt": "custom-icon",
+          "parent": "navmenu-custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/repaso-y-acabado.png/83bdb62e-650c-78c4-45fd-64da8dee04b0?t=1634837069643",
+          "alt": "custom-icon",
+          "parent": "navmenu-custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/accesorios.png/7764447b-6fb2-7b4e-1dba-d999d594a60d?t=1634837069140",
+          "alt": "custom-icon",
+          "parent": "navmenu-custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/soluciones.png/1361645f-c424-7103-f0d5-a994ed06774f?t=1634837069749",
+          "alt": "custom-icon",
+          "parent": "navmenu-custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/d/global/icono-menu-sectores",
+          "alt": "custom-icon",
+          "parent": "navmenu-custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/o/fagor-industrial-portal-theme/images/logo-myfagor.svg",
+          "alt": "MyFagor Logo"
+        }
+      ],
+      "meta_image": "https://www.fagorprofessional.comhttps://www.fagorprofessional.com/documents/d/global/fp_hornos_ikore",
+      "photo_links": [],
+      "model_matches": []
+    },
+    {
+      "brand": "Fagor",
+      "url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1",
+      "status": 200,
+      "content_type": "application/pdf",
+      "redirect": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+    },
+    {
+      "brand": "Coldline",
+      "url": "https://coldline.it/en",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect": "https://coldline.it/en",
+      "title": "Coldline",
+      "images": [
+        {
+          "src": "/Logo%20e%20Favicon/image-thumb__67759__logo/Logo-Coldline-26.png",
+          "alt": ""
+        },
+        {
+          "src": "",
+          "parent": "menu-image placeholder"
+        },
+        {
+          "src": "/Home/image-thumb__1884__home-carousel/Uova.jpg",
+          "alt": "",
+          "parent": "slide"
+        },
+        {
+          "src": "/Home/image-thumb__1885__home-carousel/Cavolo.jpg",
+          "alt": "",
+          "parent": "slide"
+        },
+        {
+          "src": "/Home/image-thumb__1886__home-carousel/Pane.jpg",
+          "alt": "",
+          "parent": "slide"
+        },
+        {
+          "src": "/Home/image-thumb__1883__home-carousel/Pesce.jpg",
+          "alt": "",
+          "parent": "slide"
+        },
+        {
+          "src": "/TNK/Tecnologia/image-thumb__36859__widget_image_full_width/Tecnologie%20the%20Nice%20kitchen.jpg",
+          "alt": "",
+          "parent": "area-full-image-container"
+        },
+        {
+          "src": "/Home/image-thumb__307__widget_text_left_image_fluid/abbattitore_conservatore_fermalievita_multifunzione_modi_blastchiller_blastfreezer_coldline_surgelatore_abbattitore_pasticceria_ristorazione_pesce_crudo_1.png",
+          "alt": "abbattitore_conservatore_fermalievita_multifunzione_modi_blastchiller_blastfreezer_coldline_surgelatore_abbattitore_pasticceria_ristorazione_pesce_crudo.png",
+          "parent": "col-sm-6 col-xs-12 hidden-xs col-lg-5 image-desktop-wrapper"
+        },
+        {
+          "src": "/Home/image-thumb__307__widget_text_left_image_fluid/abbattitore_conservatore_fermalievita_multifunzione_modi_blastchiller_blastfreezer_coldline_surgelatore_abbattitore_pasticceria_ristorazione_pesce_crudo_1.png",
+          "alt": "abbattitore_conservatore_fermalievita_multifunzione_modi_blastchiller_blastfreezer_coldline_surgelatore_abbattitore_pasticceria_ristorazione_pesce_crudo.png",
+          "parent": "col-xs-12 visible-xs image-mobile-wrapper"
+        },
+        {
+          "src": "/Home/image-thumb__305__widget_text_right_image_fluid/tavolo_refrigerato_ristorazione_pasticceria_refrigerated_counter__low_temperature_tavolo_bassa_temperatura.png",
+          "alt": "tavolo_refrigerato_ristorazione_pasticceria_refrigerated_counter__low_temperature_tavolo_bassa_temperatura",
+          "parent": "col-sm-6 col-xs-12 hidden-xs col-lg-5 image-desktop-wrapper"
+        },
+        {
+          "src": "/Home/image-thumb__305__widget_text_right_image_fluid/tavolo_refrigerato_ristorazione_pasticceria_refrigerated_counter__low_temperature_tavolo_bassa_temperatura.png",
+          "alt": "tavolo_refrigerato_ristorazione_pasticceria_refrigerated_counter__low_temperature_tavolo_bassa_temperatura",
+          "parent": "col-xs-12 visible-xs image-mobile-wrapper"
+        },
+        {
+          "src": "/Home/image-thumb__311__widget_text_left_image_fluid/armadi_frigoriferi_conservatori_freezer_ristorante_pasticceria_pizzeria_gelateria_frigo_coldline.png",
+          "alt": "armadi_frigoriferi_conservatori_freezer_ristorante_pasticceria_pizzeria_gelateria_frigo_coldline",
+          "parent": "col-sm-6 col-xs-12 hidden-xs col-lg-5 image-desktop-wrapper"
+        },
+        {
+          "src": "/Home/image-thumb__311__widget_text_left_image_fluid/armadi_frigoriferi_conservatori_freezer_ristorante_pasticceria_pizzeria_gelateria_frigo_coldline.png",
+          "alt": "armadi_frigoriferi_conservatori_freezer_ristorante_pasticceria_pizzeria_gelateria_frigo_coldline",
+          "parent": "col-xs-12 visible-xs image-mobile-wrapper"
+        },
+        {
+          "src": "/Home/image-thumb__308__widget_text_right_image_fluid/Fermalievitazione_retarder_prover_lievitatore_fermalievita_coldline_levtronic_tavolo_fermalievita_armadio_fermalievita_roll-in.png",
+          "alt": "Fermalievitazione_retarder_prover_lievitatore_fermalievita_coldline_levtronic_tavolo_fermalievita_armadio_fermalievita_roll-in",
+          "parent": "col-sm-6 col-xs-12 hidden-xs col-lg-5 image-desktop-wrapper"
+        },
+        {
+          "src": "/Home/image-thumb__308__widget_text_right_image_fluid/Fermalievitazione_retarder_prover_lievitatore_fermalievita_coldline_levtronic_tavolo_fermalievita_armadio_fermalievita_roll-in.png",
+          "alt": "Fermalievitazione_retarder_prover_lievitatore_fermalievita_coldline_levtronic_tavolo_fermalievita_armadio_fermalievita_roll-in",
+          "parent": "col-xs-12 visible-xs image-mobile-wrapper"
+        },
+        {
+          "src": "/Home/image-thumb__312__widget_text_left_image_fluid/tavoli_pizza_pizzeria_vetrina_pizza_vetrina_ingredienti_tavolo_granito_tavolo_pizzeria.png",
+          "alt": "tavoli_pizza_pizzeria_vetrina_pizza_vetrina_ingredienti_tavolo_granito_tavolo_pizzeria",
+          "parent": "col-sm-6 col-xs-12 hidden-xs col-lg-5 image-desktop-wrapper"
+        }
+      ],
+      "photo_links": [],
+      "model_matches": []
+    }
+  ]
+}
