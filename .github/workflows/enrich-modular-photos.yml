@@ -8,7 +8,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: gastrosky-modular-media
+  group: gastrosky-supplier-media
   cancel-in-progress: false
 jobs:
   modular:
