@@ -32,7 +32,8 @@ export function securityResponse(response) {
   // Only HTML needs CSP in this phase. Do not alter image or JS response bodies.
   if ((headers.get('content-type') || '').includes('text/html'))
     headers.set('content-security-policy-report-only', csp);
-  return new Response(response.body, {status: response.status, statusText: response.statusText, headers});
+  const body = [204, 205, 304].includes(response.status) ? null : response.body;
+  return new Response(body, {status: response.status, statusText: response.statusText, headers});
 }
 
 export function rejectUnsafeRequest(request) {
