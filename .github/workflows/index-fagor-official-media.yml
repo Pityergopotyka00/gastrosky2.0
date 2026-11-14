@@ -1,0 +1,26 @@
+name: Index public Fagor manufacturer photographs
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/index-fagor-official-media.mjs'
+      - '.github/workflows/index-fagor-official-media.yml'
+permissions:
+  contents: write
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci || npm install --no-audit --no-fund
+      - run: node scripts/index-fagor-official-media.mjs
+      - name: Save official product family media references
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/fagor-official-media-index.json
+          git diff --cached --quiet || (git commit -m "Index official Fagor manufacturer image sources" && git pull --rebase origin main && git push)
