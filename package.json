@@ -10,7 +10,8 @@
     "media:maxima": "node scripts/fetch-maxima-media.mjs",
     "test": "node --test tests/*.test.mjs && node scripts/validate-site.mjs",
     "import:suppliers": "node scripts/import-supplier-csv.mjs",
-    "validate": "node scripts/validate-site.mjs"
+    "validate": "node scripts/validate-site.mjs",
+    "audit:images": "node scripts/audit-product-images.mjs"
   },
   "dependencies": {
     "cheerio": "^1.0.0",
