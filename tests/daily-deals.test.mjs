@@ -21,14 +21,14 @@ test('daily deal selection is deterministic, distinct, and only uses approved qu
  const again=dailyDealProducts(products,'2026-11-14');
  const next=dailyDealProducts(products,'2026-11-15');
  assert.deepEqual(one.map(x=>x.id),again.map(x=>x.id));
- assert.ok(one.length>0&&one.length<=3);
+ assert.equal(one.length,6);
  assert.equal(new Set(one.map(x=>x.id)).size,one.length);
  for(const p of one){
   assert.equal(p.promotion.kind,'discount_quote_request');
   assert.equal(p.promotion.status,'subject_to_quote');
   assert.equal(p.promotion.price_verified,false);
  }
- if(products.filter(p=>p.promotion?.kind==='discount_quote_request'&&p.promotion?.status==='subject_to_quote'&&p.promotion?.price_verified===false).length>3){
+ if(products.filter(p=>p.promotion?.kind==='discount_quote_request'&&p.promotion?.status==='subject_to_quote'&&p.promotion?.price_verified===false).length>6){
   assert.notDeepEqual(one.map(x=>x.id),next.map(x=>x.id),'Different days should display different items');
  }
 });
