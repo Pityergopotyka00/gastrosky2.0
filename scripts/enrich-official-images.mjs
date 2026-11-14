@@ -11,6 +11,7 @@ const allowed={
  Modular:['modular.it','thenicekitchen.com'],Coldline:['coldline.it'],
  Krupps:['krupps.com'],HENDI:['hendi.eu','hendi.xcdn.nl'],
  Maxima:['maxima.com'],
+ 'Gastro Haal':['gastrohaal.sk'],GastroSky:['gastrosky.hu'],
  'Sistema Project Italia':['projectsystems.it'],Tecnodom:['tecnodomspa.com']
 };
 const delay=ms=>new Promise(resolve=>setTimeout(resolve,ms));
