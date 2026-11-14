@@ -17602,5 +17602,181 @@
     "price": null,
     "availability": null,
     "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09368450",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09368450",
+    "ean": "8720365347603",
+    "name": "Maxima – Automata kolbásztöltő 10 L, digitális",
+    "category": "Élelmiszer-előkészítés",
+    "description": "Maxima professzionális kolbásztöltő a gyártó által közzétett egyedi cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09368450"
+    },
+    "source_url": "https://maxima.com/hu/kolbasztolto-10l-automata-fuggoleges-digitalis-kijelzovel.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09368460",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09368460",
+    "ean": "8720365347610",
+    "name": "Maxima – Automata kolbásztöltő 15 L, digitális",
+    "category": "Élelmiszer-előkészítés",
+    "description": "Maxima professzionális kolbásztöltő a gyártó által közzétett egyedi cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09368460"
+    },
+    "source_url": "https://maxima.com/hu/kolbasztolto-15l-automata-fuggoleges-digitalis-kijelzovel.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300459",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300459",
+    "ean": "8719632122074",
+    "name": "Maxima – Automata kolbásztöltő 25 L",
+    "category": "Élelmiszer-előkészítés",
+    "description": "Maxima professzionális kolbásztöltő a gyártó által közzétett egyedi cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09300459"
+    },
+    "source_url": "https://maxima.com/hu/kolbasztolto-25l-fuggoleges-4-toltocsovel-egyutt.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300460",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300460",
+    "ean": "8719632121510",
+    "name": "Maxima – Kézi kolbásztöltő 3 L, függőleges",
+    "category": "Élelmiszer-előkészítés",
+    "description": "Maxima professzionális kolbásztöltő a gyártó által közzétett egyedi cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09300460"
+    },
+    "source_url": "https://maxima.com/hu/kolbasztolto-3l-fuggoleges-4-toltocsovel-egyutt.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300467",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300467",
+    "ean": "8719632122029",
+    "name": "Maxima – Kézi kolbásztöltő 3 L, vízszintes",
+    "category": "Élelmiszer-előkészítés",
+    "description": "Maxima professzionális kolbásztöltő a gyártó által közzétett egyedi cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09300467"
+    },
+    "source_url": "https://maxima.com/hu/kolbasztolto-3l-vizszintes-4-toltocsovel-egyutt.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300457",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300457",
+    "ean": "8719632122050",
+    "name": "Maxima – Automata kolbásztöltő 15 L, lábpedálos",
+    "category": "Élelmiszer-előkészítés",
+    "description": "Maxima professzionális kolbásztöltő a gyártó által közzétett egyedi cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09300457"
+    },
+    "source_url": "https://maxima.com/hu/kolbasztolto-15-l-automata-fuggoleges-4-toltocsovel-egyutt.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300464",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300464",
+    "ean": "8719632121558",
+    "name": "Maxima – Kézi kolbásztöltő 12 L, függőleges",
+    "category": "Élelmiszer-előkészítés",
+    "description": "Maxima professzionális kolbásztöltő a gyártó által közzétett egyedi cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09300464"
+    },
+    "source_url": "https://maxima.com/hu/kolbasztolto-12l-fuggoleges-4-toltocsovel-egyutt.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300462",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300462",
+    "ean": "8719632121534",
+    "name": "Maxima – Kézi kolbásztöltő 7 L, függőleges",
+    "category": "Élelmiszer-előkészítés",
+    "description": "Maxima professzionális kolbásztöltő a gyártó által közzétett egyedi cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09300462"
+    },
+    "source_url": "https://maxima.com/hu/kolbasztolto-7l-fuggoleges-4-toltocsovel-egyutt.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
   }
 ]
