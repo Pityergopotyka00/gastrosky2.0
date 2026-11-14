@@ -29,9 +29,11 @@ async function loadDashboard(){
   $('metricNotes').textContent=d.openNotes;
   brands=d.brands;
   const sel=$('productBrand');sel.replaceChildren(new Option('Minden gyártó',''));
+  const newBrand=$('newManufacturer');newBrand.replaceChildren(new Option('Válassz gyártót',''));
   const chips=$('brandResults');chips.replaceChildren();
   d.brands.forEach(b=>{
    sel.add(new Option(b,b));
+   newBrand.add(new Option(b,b));
    const btn=create('button','brand-chip',b);
    btn.type='button';btn.addEventListener('click',()=>{sel.value=b;show('products')});
    chips.append(btn);
@@ -59,10 +61,21 @@ async function loadProducts(append=false){
    details.append(create('strong',null,p.name),create('small',null,p.manufacturer+' · '+p.sku));
    if(p.featured)details.append(create('small','featured','Kiemelt'));
    if(p.hidden)details.append(create('small','featured','Elrejtve'));
+   if(p.manual)details.append(create('small',null,'Manuális termék'));
    const btn=create('button','small-button','Szerkesztés');
    btn.type='button';btn.disabled=role!=='owner';
    btn.addEventListener('click',()=>editProduct(p));
-   row.append(details,btn);target.append(row);
+   row.append(details,btn);
+   if(p.manual&&role==='owner'){
+    const archive=create('button','small-button muted-button','Archiválás');
+    archive.type='button';archive.addEventListener('click',async()=>{
+     if(!confirm('Archiválod ezt a manuálisan létrehozott terméket?'))return;
+     try{await request('/api/admin/products/'+encodeURIComponent(p.id),'DELETE');await loadProducts();await loadDashboard();note('Termék archiválva.')}
+     catch(err){note(err.message,true)}
+    });
+    row.append(archive);
+   }
+   target.append(row);
   }
   offset+=d.items.length;
   $('moreProducts').hidden=offset>=d.total;
@@ -79,6 +92,20 @@ function editProduct(p){
  $('productEditor').hidden=false;
  $('productEditor').scrollIntoView({behavior:'smooth',block:'start'});
 }
+$('newProductForm').addEventListener('submit',async e=>{
+ e.preventDefault();if(role!=='owner')return;
+ const body={
+  manufacturer:$('newManufacturer').value,
+  sku:$('newSku').value.trim(),name:$('newName').value.trim(),
+  category:$('newCategory').value.trim(),description:$('newDescription').value.trim(),
+  image_url:$('newImage').value.trim()
+ };
+ try{
+  await request('/api/admin/products','POST',body);
+  $('newProductForm').reset();note('Új termék létrehozva.');
+  await loadProducts();await loadDashboard();
+ }catch(err){note('Új termék mentése sikertelen: '+err.message,true)}
+});
 $('productEditor').addEventListener('submit',async e=>{
  e.preventDefault();if(!editing||role!=='owner')return;
  const body={id:editing.id,name:$('editName').value,description:$('editDescription').value,image_url:$('editImage').value.trim(),hidden:$('editHidden').checked,featured:$('editFeatured').checked};
