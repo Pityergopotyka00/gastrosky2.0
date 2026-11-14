@@ -724,7 +724,7 @@ async function loadFullSupplierCatalog(){
   const response=await fetch('/data/catalog-products.json',{cache:'no-cache'});
   if(!response.ok)throw Error('Catalog unavailable');
   const loaded=await response.json();
-  if(!Array.isArray(loaded)||!loaded.length||!loaded.every(p=>p.id&&p.name&&p.sku&&['Maxima','HENDI','Fagor','Modular','Coldline','Krupps','Aristarco','Sistema Project Italia','Tecnodom','Gastro Haal'].includes(p.manufacturer)))throw Error('Invalid catalog');
+  if(!Array.isArray(loaded)||!loaded.length||!loaded.every(p=>p.id&&p.name&&p.sku&&['Maxima','HENDI','Fagor','Modular','Coldline','Krupps','Aristarco','Sistema Project Italia','Tecnodom','Gastro Haal','GastroSky'].includes(p.manufacturer)))throw Error('Invalid catalog');
   products=loaded;
   // Brand directory counts always reflect the current supplier catalog.
   for(const link of document.querySelectorAll('[data-brand-filter]')){
@@ -744,7 +744,40 @@ async function loadFullSupplierCatalog(){
 /* Two-step storefront taxonomy. The chosen manufacturer limits both steps. */
 const categoryOrder=['Mosogatástechnika','Sütéstechnika','Főzéstechnika','Hűtéstechnika','Jégtechnika','Étel-előkészítés','Melegentartás és tálalás','Kávé- és bártechnika','Rozsdamentes bútorok','Tartozékok és egyéb'];
 function catalogTaxonomy(p){
- if(p.manufacturer==='GastroSky' && p.category==='Rozsdamentes bútorok')return {group:'Rozsdamentes bútorok',type:String(p.subcategory||'Egyéb rozsdamentes bútorok')};
+ // Match source categories directly for manufacturers whose product names are mostly model codes.
+ if(p.manufacturer==='GastroSky' && p.category==='Rozsdamentes bútorok')
+  return {group:'Rozsdamentes bútorok',type:String(p.subcategory||'Egyéb rozsdamentes bútorok')};
+ if(p.manufacturer==='Tecnodom'){
+  const cat=String(p.category||'').replace(/^Tecnodom\s*[–-]\s*/i,'').trim();
+  if(/rozsdamentes.*b[uú]tor/i.test(cat))return {group:'Rozsdamentes bútorok',type:'Rozsdamentes konyhai bútorok'};
+  if(/sokkol/i.test(cat))return {group:'Hűtéstechnika',type:'Sokkolóhűtők'};
+  if(/h[uű]t[őo]kamra/i.test(cat))return {group:'Hűtéstechnika',type:'Hűtőkamrák'};
+  if(/sal[aá]tah[uű]t/i.test(cat))return {group:'Hűtéstechnika',type:'Salátahűtők'};
+  if(/munkapult/i.test(cat))return {group:'Hűtéstechnika',type:'Hűtött munkapultok'};
+  if(/bemutat[oó]|vitrin/i.test(cat))return {group:'Hűtéstechnika',type:cat};
+  if(/h[uű]t/i.test(cat))return {group:'Hűtéstechnika',type:'Ipari hűtőszekrények'};
+ }
+ if(p.manufacturer==='Gastro Haal'){
+  const cat=String(p.category||'').replace(/^Gastro Haal\s*[–-]\s*/i,'').trim();
+  if(/fert[őo]tlen/i.test(cat))return {group:'Tartozékok és egyéb',type:'Fertőtlenítő berendezések'};
+  if(/burgonya/i.test(cat))return {group:'Étel-előkészítés',type:/hullad[eé]kfog[oó]|tartoz[eé]k/i.test(p.name)?'Burgonyakoptató tartozékok':'Burgonyakoptatók'};
+  if(/zs[aá]moly/i.test(cat))return {group:'Főzéstechnika',type:'Főzőzsámolyok'};
+  if(/f[őo]z[őo][uü]st/i.test(cat))return {group:'Főzéstechnika',type:'Főzőüstök'};
+  if(/s[uü]t[őo]/i.test(cat))return {group:'Sütéstechnika',type:'Elektromos sütők'};
+ }
+ if(p.manufacturer==='Sistema Project Italia'){
+  const cat=String(p.category||'');
+  const name=String(p.name||'');
+  if(/v[ií]zkezel/i.test(cat))return {group:'Mosogatástechnika',type:'Vízkezelés és vízlágyítók'};
+  if(/tartoz[eé]k/i.test(cat))return {group:'Mosogatástechnika',type:'Mosogatógép-tartozékok'};
+  if(/mosogat/i.test(cat)){
+   if(/poh[aá]r|ALPHA 35|ALPHA 40|JET 350|JET 400|35 A|40 A/i.test(name))return {group:'Mosogatástechnika',type:'Pohármosogatók'};
+   if(/kalapos|hood|pass.through|T110E|T1215|T1515/i.test(name))return {group:'Mosogatástechnika',type:'Kalapos mosogatógépek'};
+   if(/kos[aá]rtov[aá]bb|rack conveyor/i.test(name))return {group:'Mosogatástechnika',type:'Kosártovábbítós mosogatógépek'};
+   if(/szalagos|flight.type/i.test(name))return {group:'Mosogatástechnika',type:'Szalagos mosogatógépek'};
+   return {group:'Mosogatástechnika',type:'Pult alatti és tányérmosogatók'};
+  }
+ }
  const cat=String(p.category||'').replace(/^(?:Tecnodom|Gastro Haal)\s*[–-]\s*/i,'');
  const title=String(p.name||'').replace(/^(?:Gastro Haal|Fagor Professional|Tecnodom|Modular|Sistema Project Italia)\s*[–-]?\s*/i,'');
  const text=(cat+' '+title).toLocaleLowerCase('hu');
@@ -809,7 +842,7 @@ function syncCategoriesForManufacturer(){
  for(const p of relevant){const t=catalogTaxonomy(p);if(!groups.has(t.group))groups.set(t.group,new Map());const sub=groups.get(t.group);sub.set(t.type,(sub.get(t.type)||0)+1);}
  categoryGroup.replaceChildren();
  const all=document.createElement('option');all.value='';all.textContent='Minden kategória ('+relevant.length+')';categoryGroup.append(all);
- for(const group of [...groups.keys()].sort((a,b)=>categoryOrder.indexOf(a)-categoryOrder.indexOf(b))){
+ for(const group of [...groups.keys()].sort((a,b)=>{const ai=categoryOrder.indexOf(a),bi=categoryOrder.indexOf(b);return (ai<0?categoryOrder.length:ai)-(bi<0?categoryOrder.length:bi)||a.localeCompare(b,'hu')})){
   const opt=document.createElement('option');opt.value=group;opt.textContent=group+' ('+[...groups.get(group).values()].reduce((a,b)=>a+b,0)+')';categoryGroup.append(opt);
  }
  categoryGroup.value=groups.has(groupBefore)?groupBefore:'';
