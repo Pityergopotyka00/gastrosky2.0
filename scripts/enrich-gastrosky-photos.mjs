@@ -23,52 +23,84 @@ function imageOf($,el,base){
  }return null;
 }
 function categoryLinks($,base,name){
- const key=normalize(name),found=[];
- // The old GastroSky store uses /termekek/reszletek/<product-name> links.
- // Match the full product slug first instead of relying on modern card headings.
- $('a[href*="/termekek/reszletek/"]').each((_,el)=>{
-  const raw=$(el).attr('href')||'';
+ const key=normalize(name), links=[];
+ // Some legacy product URLs are relative, so inspect ALL anchors and resolve them.
+ $('a[href]').each((_,el)=>{
+  const raw=$(el).attr('href');if(!raw)return;
   try{
-   const url=new URL(raw,base).href;
-   if(!trusted(url))return;
-   const slug=new URL(url).pathname.split('/').filter(Boolean).at(-1)||'';
-   if(normalize(decodeURIComponent(slug))===key)found.push(url);
+   const url=new URL(raw,base);
+   if(!trusted(url.href)||!url.pathname.startsWith('/termekek/reszletek/'))return;
+   const slug=decodeURIComponent(url.pathname.split('/').filter(Boolean).at(-1)||'');
+   const node=$(el), surrounding=node.parent().text().replace(/\s+/g,' ').trim();
+   const bySlug=normalize(slug)===key;
+   const byText=normalize(node.text())===key||normalize(surrounding)===key;
+   let byHeading=false,container=node;
+   for(let i=0;i<5;i++){
+    container=container.parent();if(!container.length)break;
+    if(container.find('h2,h3,h4,h5,.product-title,.product-name').toArray().some(e=>normalize($(e).text())===key)){byHeading=true;break}
+   }
+   links.push({url:url.href,match:bySlug||byText||byHeading});
   }catch{}
  });
- if([...new Set(found)].length===1)return [...new Set(found)];
- $('a[href*="/termekek/reszletek/"]').each((_,el)=>{
-  const link=$(el);let parent=link;
-  for(let depth=0;depth<7;depth++){
-   parent=parent.parent();if(!parent.length)break;
-   const headings=parent.find('h1,h2,h3,h4,h5,.title,.name,.product-title').toArray().map(e=>normalize($(e).text()));
-   if(headings.includes(key)){
-    const url=new URL(link.attr('href'),base).href;
-    if(trusted(url))found.push(url);break;
-   }
-  }
- });
- const unique=[...new Set(found)];
- if(unique.length===1)return unique;
- // A category with only one product may use a nonliteral editorial slug;
- // verify the complete product name again on its dedicated detail page.
- const all=$('a[href*="/termekek/reszletek/"]').toArray().map(el=>{
-  try{return new URL($(el).attr('href'),base).href}catch{return null}
- }).filter(trusted);
- return [...new Set(all)].length===1?[...new Set(all)]:unique;
+ const unique=a=>[...new Set(a)];
+ const matches=unique(links.filter(x=>x.match).map(x=>x.url));
+ if(matches.length===1)return matches;
+ const all=unique(links.map(x=>x.url));
+ // If a category contains a single product there is no ambiguity.
+ if(all.length===1)return all;
+ return [];
 }
 function exactTitle($,name){
  const key=normalize(name);
  return $('h1,h2,h3,h4,h5,.product-title,.product-name').toArray().some(el=>normalize($(el).text())===key) ||
   normalize($('body').text().split(/TERMÉK MEGNEVEZÉSE:/i)[1]?.split(/TERMÉKLEÍRÁS:/i)[0])===key;
 }
-function productImage($,base){
- const selectors=['.product-detail img','.product_detail img','.product-gallery img','.product_gallery img','.termek-kep img','.termek_kep img','.termekfotok img','.product-image img','.product_image img','[class*="product-photo"] img','[class*="termek-kep"] img'];
- const images=[];
- for(const selector of selectors)$(selector).each((_,el)=>{const url=imageOf($,el,base);if(url)images.push(url)});
- const unique=[...new Set(images)];
- if(unique.length===1)return unique[0];
- const hero=$('meta[property="og:image"]').attr('content');
- if(hero)try{const src=new URL(hero,base).href;if(unique.includes(src))return src}catch{}
+function productImage($,base,productName){
+ const found=new Map(),key=normalize(productName);
+ function add(raw,el,source){
+  if(!raw||/^data:/i.test(raw))return;
+  try{
+   // srcset consists of image-url/width pairs; use its highest-quality first entry.
+   const url=new URL(String(raw).trim().split(/\s+\d+(?:w|x)(?:,|$)/)[0],base).href;
+   if(!trusted(url)||bad.test(url))return;
+   const node=el?$(el):null;
+   if(node?.closest('header,footer,nav,aside').length)return;
+   const lineage=node?node.parents().toArray().slice(0,6).map(e=>String($(e).attr('class')||'')+' '+String($(e).attr('id')||'')).join(' '):'';
+   const desc=node?String(node.attr('alt')||''):'';
+   const path=new URL(url).pathname;
+   let score=0;
+   if(/product|termek|galer|gallery|photo|fot[oó]|kep|k[eé]p|carousel/i.test(lineage))score+=6;
+   if(/product|termek|fot[oó]|kep|k[eé]p|image/i.test(path))score+=2;
+   if(key&&normalize(desc)===key)score+=7;
+   if(key&&normalize(path).includes(key))score+=5;
+   if(node&&Number.parseInt(node.attr('width')||'0',10)>=180)score+=1;
+   if(source==='detail-selector')score+=6;
+   if(source==='og-image')score-=2;
+   const prev=found.get(url);
+   if(!prev||prev.score<score)found.set(url,{url,score,source});
+  }catch{}
+ }
+ const detailSelectors='.product-detail img,.product_detail img,.product-gallery img,.product_gallery img,.termek-kep img,.termek_kep img,.termekfotok img,.product-image img,.product_image img,[class*="product-photo"] img,[class*="termek-kep"] img';
+ $('img').each((_,el)=>{
+  const node=$(el),specific=node.is(detailSelectors);
+  for(const attr of ['data-src','data-original','data-lazy-src','data-large','data-zoom-image','src']){
+   const raw=node.attr(attr);if(raw)add(raw,el,specific?'detail-selector':'img');
+  }
+  const srcset=node.attr('srcset')||node.attr('data-srcset');
+  if(srcset){const first=srcset.split(',')[0]?.trim().split(/\s+/)[0];if(first)add(first,el,specific?'detail-selector':'srcset')}
+ });
+ $('[style*="url("]').each((_,el)=>{
+  const style=$(el).attr('style')||'';
+  for(const match of style.matchAll(/url\(\s*["']?([^"')]+)["']?\s*\)/gi))add(match[1],el,'inline-background');
+ });
+ for(const prop of ['og:image','twitter:image']){
+  const raw=$('meta[property="'+prop+'"],meta[name="'+prop+'"]').first().attr('content');
+  if(raw)add(raw,null,'og-image');
+ }
+ const candidates=[...found.values()].sort((a,b)=>b.score-a.score);
+ if(candidates.length===1&&candidates[0].source!=='og-image')return candidates[0].url;
+ if(candidates.length&&!candidates[1]&&candidates[0].score>=4)return candidates[0].url;
+ if(candidates.length&&candidates[0].score>=4&&candidates[0].score>candidates[1]?.score)return candidates[0].url;
  return null;
 }
 async function validImage(url){
@@ -81,12 +113,18 @@ for(const p of targets){
  result.checked++;
  try{
   const category=await page(p.source_url);
-  const links=categoryLinks(category.doc,category.url,p.name);
+  let links=categoryLinks(category.doc,category.url,p.name);
+  if(!links.length){
+   // The old store consistently uses /termekek/reszletek/<name-slug>.
+   // We still require an EXACT product title from this derived detail URL.
+   const slug=String(p.name||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+   if(slug)links=['https://gastrosky.hu/termekek/reszletek/'+slug];
+  }
   if(links.length!==1){result.unmatched.push({id:p.id,reason:'unique_product_link_not_found'});continue}
   const detail=await page(links[0]);
-  if(!exactTitle(detail.doc,p.name)){result.unmatched.push({id:p.id,reason:'exact_title_not_confirmed'});continue}
-  const url=productImage(detail.doc,detail.url);
-  if(!url||!(await validImage(url))){result.unmatched.push({id:p.id,reason:'specific_photo_not_verified'});continue}
+  if(!exactTitle(detail.doc,p.name)){result.unmatched.push({id:p.id,reason:'exact_title_not_confirmed',detail_url:links[0]});continue}
+  const url=productImage(detail.doc,detail.url,p.name);
+  if(!url||!(await validImage(url))){result.unmatched.push({id:p.id,reason:'specific_photo_not_verified',detail_url:links[0]});continue}
   p.image_url=url;p.image_source='gastrosky_own_exact_product_detail';p.photo_match_type='official_gastrosky_exact_title';p.photo_status='manufacturer_product_photo_http_verified';
   result.new_photos++;result.matched.push({id:p.id,url,product_url:detail.url});
  }catch(e){result.unmatched.push({id:p.id,reason:String(e.message||e).slice(0,120)})}
