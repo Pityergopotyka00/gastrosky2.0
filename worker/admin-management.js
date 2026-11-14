@@ -31,6 +31,28 @@ async function log(env,actor,event,detail){
  await env.ADMIN_DB.prepare('INSERT INTO admin_audit_log(actor_id,event,occurred_at,detail) VALUES(?,?,?,?)').bind(actor,event,now(),detail).run();
 }
 function ownerOnly(user){return user.role==='owner'}
+// The already-authenticated owner initializes ONLY these fixed, reviewed tables.
+// No user-supplied SQL, no open bootstrap endpoint, no permission changes.
+async function ensureAdminTables(env){
+ const sql=[
+  `CREATE TABLE IF NOT EXISTS admin_product_overrides(
+    product_id TEXT PRIMARY KEY NOT NULL,custom_name TEXT,custom_description TEXT,
+    image_url TEXT,hidden INTEGER NOT NULL DEFAULT 0 CHECK(hidden IN (0,1)),
+    featured INTEGER NOT NULL DEFAULT 0 CHECK(featured IN (0,1)),
+    updated_at INTEGER NOT NULL,updated_by TEXT NOT NULL)`,
+  `CREATE TABLE IF NOT EXISTS admin_settings(
+    key TEXT PRIMARY KEY NOT NULL,value TEXT NOT NULL,
+    updated_at INTEGER NOT NULL,updated_by TEXT NOT NULL)`,
+  `CREATE TABLE IF NOT EXISTS admin_quote_notes(
+    id TEXT PRIMARY KEY NOT NULL,customer_name TEXT NOT NULL,customer_email TEXT NOT NULL,
+    note TEXT NOT NULL DEFAULT '',status TEXT NOT NULL DEFAULT 'new'
+    CHECK(status IN ('new','in_progress','done')),
+    created_at INTEGER NOT NULL,updated_at INTEGER NOT NULL,updated_by TEXT NOT NULL)`,
+  'CREATE INDEX IF NOT EXISTS admin_quote_notes_status_idx ON admin_quote_notes(status,updated_at)'
+ ];
+ for(const q of sql)await env.ADMIN_DB.prepare(q).run();
+}
+
 async function parseBody(request){
  if((request.headers.get('content-type')||'').split(';')[0].trim()!=='application/json')return null;
  if(Number(request.headers.get('content-length')||0)>10000)return null;
@@ -42,6 +64,7 @@ export async function handleAdminManagement(request,env,user){
  const path=new URL(request.url).pathname;
  const method=request.method;
  if(path==='/api/admin/dashboard'&&method==='GET'){
+  if(ownerOnly(user))await ensureAdminTables(env);
   const catalog=await getCatalogWithOverrides(env,request.url);
   const [users,overrides,notes,audits]=await Promise.all([
    env.ADMIN_DB.prepare('SELECT COUNT(*) AS n FROM admin_users WHERE disabled=0').first(),
