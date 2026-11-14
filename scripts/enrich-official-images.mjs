@@ -68,6 +68,26 @@ function exactCaptionPhoto($,base,brand,sku){
  });
  return [...new Set(matches)].length===1?matches[0]:null;
 }
+// Match a product image within the smallest DOM card containing an exact
+// SKU heading. Common on Coldline model listings where images precede labels.
+function exactModelCardPhoto($,base,brand,sku){
+ const code=norm(sku);
+ if(!code||code.length<4)return null;
+ const hits=[];
+ $('h2,h3,h4,h5,strong,.model,.product-code').each((_,el)=>{
+  if(norm($(el).text())!==code)return;
+  let node=$(el);
+  for(let depth=0;depth<7;depth++){
+   node=node.parent();if(!node.length)break;
+   const imgs=node.find('img').toArray();
+   if(imgs.length!==1)continue;
+   const url=imageOf($,imgs[0],base,brand);
+   if(url&&!/(logo|icon|banner|placeholder|favicon)/i.test(url))hits.push(url);
+   break;
+  }
+ });
+ return [...new Set(hits)].length===1?hits[0]:null;
+}
 const robotsCache=new Map();
 async function robotsPermits(url){
  const u=new URL(url),key=u.origin;if(!robotsCache.has(key)){
@@ -189,6 +209,7 @@ for(const p of queue){
   const {doc:$,url,body}=await page(src,brand);
   let found=structuredSkuPhoto($,url,brand,p.sku);
   if(!found){found=exactCaptionPhoto($,url,brand,p.sku);if(found)p.photo_match_type='official_image_exact_caption_sku';}
+  if(!found){found=exactModelCardPhoto($,url,brand,p.sku);if(found)p.photo_match_type='official_exact_model_card_photo';}
   if(found)p.photo_match_type='official_structured_data_exact_sku';
   if(!found&&brand==='Aristarco'){
    const result=aristarcoPhoto($,p.sku,url);
