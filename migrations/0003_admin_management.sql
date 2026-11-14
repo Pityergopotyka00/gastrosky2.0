@@ -26,3 +26,18 @@ CREATE TABLE IF NOT EXISTS admin_quote_notes (
  updated_by TEXT NOT NULL
 );
 CREATE INDEX IF NOT EXISTS admin_quote_notes_status_idx ON admin_quote_notes(status,updated_at);
+
+CREATE TABLE IF NOT EXISTS admin_custom_products (
+ id TEXT PRIMARY KEY NOT NULL,
+ manufacturer TEXT NOT NULL,
+ sku TEXT NOT NULL,
+ name TEXT NOT NULL,
+ category TEXT NOT NULL,
+ description TEXT NOT NULL DEFAULT '',
+ image_url TEXT,
+ archived INTEGER NOT NULL DEFAULT 0 CHECK(archived IN (0,1)),
+ created_at INTEGER NOT NULL,
+ updated_at INTEGER NOT NULL,
+ created_by TEXT NOT NULL
+);
+CREATE INDEX IF NOT EXISTS admin_custom_products_manufacturer_idx ON admin_custom_products(manufacturer,archived);
