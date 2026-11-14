@@ -1,7 +1,7 @@
 // OFFLINE account enrollment; never expose this script via an HTTP endpoint.
 // Run only on a trusted administrator's device. Output files contain secrets:
 // use them once, never commit or upload, and securely delete afterward.
-import {randomBytes,randomUUID,pbkdf2Sync,createCipheriv} from 'node:crypto';
+import {randomBytes,randomUUID,scryptSync,createCipheriv} from 'node:crypto';
 import {writeFile} from 'node:fs/promises';
 const email=(process.env.ADMIN_SETUP_EMAIL||'').trim().toLowerCase();
 const password=process.env.ADMIN_SETUP_PASSWORD;
@@ -16,7 +16,7 @@ if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)||email.length>160||
 }else{
  const master=Buffer.from(keyText,'base64');
  const salt=randomBytes(32);
- const passwordHash=pbkdf2Sync(password,salt,600000,32,'sha256').toString('hex');
+ const passwordHash=scryptSync(password,salt,32,{N:16384,r:8,p:1,maxmem:64*1024*1024}).toString('hex');
  const secret=randomBytes(20);
  const iv=randomBytes(12);
  const cipher=createCipheriv('aes-256-gcm',master,iv);
@@ -35,8 +35,8 @@ if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)||email.length>160||
  const url='otpauth://totp/'+encodeURIComponent('GastroSky:'+email)+'?secret='+base32(secret)+'&issuer=GastroSky&algorithm=SHA1&digits=6&period=30';
  const sqlQuote=v=>"'"+String(v).replaceAll("'","''")+"'";
  const created=Date.now();
- const values=[randomUUID(),email,role,salt.toString('hex'),passwordHash,600000,encrypted,created].map(v=>typeof v==='number'?String(v):sqlQuote(v));
- const sql='INSERT INTO admin_users (id,email,role,password_salt,password_hash,password_iterations,totp_encrypted,created_at) VALUES ('+values.join(',')+');\n';
+ const values=[randomUUID(),email,role,salt.toString('hex'),passwordHash,600000,'scrypt-v1',encrypted,created].map(v=>typeof v==='number'?String(v):sqlQuote(v));
+ const sql='INSERT INTO admin_users (id,email,role,password_salt,password_hash,password_iterations,password_algo,totp_encrypted,created_at) VALUES ('+values.join(',')+');\n';
  const basename='.admin-enrollment-'+created;
  await writeFile(basename+'.sql',sql,{mode:0o600,flag:'wx'});
  await writeFile(basename+'.txt','GastroSky authenticator enrollment (CONFIDENTIAL)\n'+url+'\n',{mode:0o600,flag:'wx'});
