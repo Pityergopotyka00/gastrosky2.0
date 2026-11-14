@@ -905,6 +905,23 @@ async function loadFullSupplierCatalog(){
 /* Two-step storefront taxonomy. The chosen manufacturer limits both steps. */
 const categoryOrder=['Mosogatástechnika','Sütéstechnika','Főzéstechnika','Hűtéstechnika','Jégtechnika','Étel-előkészítés','Melegentartás és tálalás','Kávé- és bártechnika','Rozsdamentes bútorok','Tartozékok és egyéb'];
 function catalogTaxonomy(p){
+ // Aristarco manufactures both ice makers and warewashers; determine the
+ // correct top-level section from the explicit manufacturer category.
+ if(p.manufacturer==='Aristarco'){
+  const category=String(p.category||'');
+  if(/Jégpehelykészítők|jégkockás jéggépek|Kockajégkészítők|Granulált jégkészítők/i.test(category)){
+   if(/Jégpehely/i.test(category))return {group:'Jégtechnika',type:'Jégpehelykészítők'};
+   if(/Granulált/i.test(category))return {group:'Jégtechnika',type:'Granulált jégkészítők'};
+   if(/Üreges/i.test(category))return {group:'Jégtechnika',type:'Üreges jégkockás jéggépek'};
+   if(/Teli/i.test(category))return {group:'Jégtechnika',type:'Teli jégkockás jéggépek'};
+   return {group:'Jégtechnika',type:'Kockajégkészítők'};
+  }
+  if(/Szalagos mosogatógépek/i.test(category))return {group:'Mosogatástechnika',type:'Szalagos mosogatógépek'};
+  if(/Kosártovábbítós mosogatógépek/i.test(category))return {group:'Mosogatástechnika',type:'Kosártovábbítós mosogatógépek'};
+  if(/Edény- és eszközmosogatók/i.test(category))return {group:'Mosogatástechnika',type:'Edény- és eszközmosogatók'};
+  if(/Kalapos mosogatógépek/i.test(category))return {group:'Mosogatástechnika',type:'Kalapos mosogatógépek'};
+  if(/Pohármosogatók/i.test(category))return {group:'Mosogatástechnika',type:'Pohármosogatók'};
+ }
  if(p.manufacturer==='Coldline' && p.subcategory){
   const t=String(p.subcategory);
   if(/Kelesztőszekrény/i.test(t))return {group:'Hűtéstechnika',type:'Kelesztő- és fermentáló szekrények'};
