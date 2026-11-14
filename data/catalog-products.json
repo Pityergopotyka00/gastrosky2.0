@@ -2120,8 +2120,10 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_catalog_or_warehouse_index",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__482__category-image/A14140100201_Armadio_MASTER_1400lt.jpg",
+    "image_source": "official_manufacturer_product_page"
   },
   {
     "id": "coldline:a140-2br",
@@ -2432,8 +2434,10 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_catalog_or_warehouse_index",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__435__category-image/A14030100101_Armadio_MASTER_350lt.jpg",
+    "image_source": "official_manufacturer_product_page"
   },
   {
     "id": "coldline:a30-1br",
@@ -2744,8 +2748,10 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_catalog_or_warehouse_index",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__450__category-image/A14060100101_Armadio_MASTER_600lt.jpg",
+    "image_source": "official_manufacturer_product_page"
   },
   {
     "id": "coldline:a60-1br",
@@ -3104,8 +3110,10 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_catalog_or_warehouse_index",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__456__category-image/A14070100101_Armadio_MASTER_700lt.jpg",
+    "image_source": "official_manufacturer_product_page"
   },
   {
     "id": "coldline:a70-1brv",
@@ -3607,8 +3615,10 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_product_category_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__884__category-image/T12102000201_Tavolo_MASTER_1P_PLUGIN.jpg",
+    "image_source": "official_manufacturer_product_page"
   },
   {
     "id": "coldline:tp09-1m-710",
@@ -4108,9 +4118,10 @@
     "availability": null,
     "record_status": "manufacturer_model_reference",
     "source_type": "official_product_page",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__1560__product-image/W21038000001_Abbattitore_MODI_5T.png",
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "official_manufacturer_product_page"
   },
   {
     "id": "coldline:W5AG",
@@ -4131,9 +4142,10 @@
     "availability": null,
     "record_status": "manufacturer_model_reference",
     "source_type": "official_product_page",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__36414__product-image/W11036010011_Abbattitore_MODI_5T.png",
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "official_manufacturer_product_page"
   },
   {
     "id": "coldline:W5AGR",
@@ -4154,9 +4166,10 @@
     "availability": null,
     "record_status": "manufacturer_model_reference",
     "source_type": "official_product_page",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__1479__product-image/W11038010001_Abbattitore_MODI_5T.png",
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "official_manufacturer_product_page"
   },
   {
     "id": "coldline:W5AGS",
@@ -4177,9 +4190,10 @@
     "availability": null,
     "record_status": "manufacturer_model_reference",
     "source_type": "official_product_page",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__64200__product-image/W11056010011_Abbattitore_MODI_5T.png",
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "official_manufacturer_product_page"
   },
   {
     "id": "coldline:W5AGSR",
@@ -4200,9 +4214,10 @@
     "availability": null,
     "record_status": "manufacturer_model_reference",
     "source_type": "official_product_page",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__7078__product-image/W11058010001_Abbattitore_MODI_5T.png",
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "official_manufacturer_product_page"
   },
   {
     "id": "coldline:W5ALS",
@@ -4223,9 +4238,10 @@
     "availability": null,
     "record_status": "manufacturer_model_reference",
     "source_type": "official_product_page",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__44305__product-image/W51056010011_Abbattitore_MODI_5T.png",
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "official_manufacturer_product_page"
   },
   {
     "id": "coldline:W5FSA",
@@ -4296,9 +4312,10 @@
     "availability": null,
     "record_status": "manufacturer_model_reference",
     "source_type": "official_product_page",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__40719__product-image/W11034000011_Abbattitore_MODI_5T.png",
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "official_manufacturer_product_page"
   },
   {
     "id": "coldline:w5ug",
@@ -4343,9 +4360,10 @@
     "availability": null,
     "record_status": "manufacturer_model_reference",
     "source_type": "official_product_page",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__40720__product-image/W11034010011_Abbattitore_MODI_5T.png",
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "official_manufacturer_product_page"
   },
   {
     "id": "coldline:W5UGS",
@@ -4366,9 +4384,10 @@
     "availability": null,
     "record_status": "manufacturer_model_reference",
     "source_type": "official_product_page",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__37994__product-image/W11053010011_Abbattitore_MODI_5T.png",
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "official_manufacturer_product_page"
   },
   {
     "id": "coldline:W5UR",
@@ -4389,9 +4408,10 @@
     "availability": null,
     "record_status": "manufacturer_model_reference",
     "source_type": "official_product_page",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__1472__product-image/W11035000001_Abbattitore_MODI_5T.png",
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "official_manufacturer_product_page"
   },
   {
     "id": "coldline:W5XG",
@@ -4412,9 +4432,10 @@
     "availability": null,
     "record_status": "manufacturer_model_reference",
     "source_type": "official_product_page",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__66370__product-image/W11033010021_Abbattitore_Smart_5T.png",
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "official_manufacturer_product_page"
   },
   {
     "id": "coldline:w6a",
@@ -4436,8 +4457,10 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_product_category_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__1486__category-image/W11066000001_Abbattitore_MODI_6T.jpg",
+    "image_source": "official_manufacturer_product_page"
   },
   {
     "id": "coldline:W6AE",
@@ -4458,9 +4481,10 @@
     "availability": null,
     "record_status": "manufacturer_model_reference",
     "source_type": "official_product_page",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__36430__product-image/W21066000011_Abbattitore_MODI_6T.png",
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "official_manufacturer_product_page"
   },
   {
     "id": "coldline:W6AGA",
@@ -4481,9 +4505,10 @@
     "availability": null,
     "record_status": "manufacturer_model_reference",
     "source_type": "official_product_page",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__40729__product-image/W11067010011_Abbattitore_MODI_6T.png",
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "official_manufacturer_product_page"
   },
   {
     "id": "coldline:W6AGS",
@@ -4504,9 +4529,10 @@
     "availability": null,
     "record_status": "manufacturer_model_reference",
     "source_type": "official_product_page",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__64201__product-image/W11066011011_Abbattitore_MODI_6T.png",
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "official_manufacturer_product_page"
   },
   {
     "id": "coldline:w6f",
@@ -4552,8 +4578,10 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_product_category_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__1694__category-image/W64063000001_abbattitore_VISION_6T.jpg",
+    "image_source": "official_manufacturer_product_page"
   },
   {
     "id": "coldline:w6fsr",
@@ -4598,8 +4626,10 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_product_category_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__1497__category-image/W11076000001_Abbattitore_MODI_7T.jpg",
+    "image_source": "official_manufacturer_product_page"
   },
   {
     "id": "coldline:W7FA-R452",
@@ -12949,9 +12979,11 @@
     "availability": null,
     "record_status": "official_range_model_reference",
     "source_type": "manufacturer_public_catalog",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/C327-2-668x1024.png",
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_stock",
+    "photo_match_type": "official_image_exact_caption_sku",
+    "image_source": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:C432-S",
@@ -12974,7 +13006,8 @@
     "source_type": "manufacturer_public_catalog",
     "image_url": null,
     "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "stock_source_status": "pending_supplier_stock",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:C537",
@@ -13020,9 +13053,11 @@
     "availability": null,
     "record_status": "official_range_model_reference",
     "source_type": "manufacturer_public_catalog",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/C537-2-770x1024.png",
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_stock",
+    "photo_match_type": "official_image_exact_caption_sku",
+    "image_source": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:C537-BTS",
@@ -13045,7 +13080,8 @@
     "source_type": "manufacturer_public_catalog",
     "image_url": null,
     "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "stock_source_status": "pending_supplier_stock",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:C537-S",
@@ -13118,7 +13154,8 @@
     "source_type": "manufacturer_public_catalog",
     "image_url": null,
     "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "stock_source_status": "pending_supplier_stock",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:C537T-BTS",
@@ -13141,7 +13178,8 @@
     "source_type": "manufacturer_public_catalog",
     "image_url": null,
     "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "stock_source_status": "pending_supplier_stock",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:C537T-S",
@@ -13164,7 +13202,8 @@
     "source_type": "manufacturer_public_catalog",
     "image_url": null,
     "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "stock_source_status": "pending_supplier_stock",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:C640",
@@ -13212,7 +13251,8 @@
     "source_type": "manufacturer_public_catalog",
     "image_url": null,
     "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "stock_source_status": "pending_supplier_stock",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:C640-BTH",
@@ -13233,9 +13273,11 @@
     "availability": null,
     "record_status": "official_range_model_reference",
     "source_type": "manufacturer_public_catalog",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://www.krupps.com/wp-content/uploads/sites/4/2026/03/C640-BTH.jpg",
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_stock",
+    "photo_match_type": "official_image_exact_caption_sku",
+    "image_source": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:CH100",
@@ -13282,8 +13324,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku",
+    "image_url": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/CH100-546x1024.png",
+    "image_source": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:CH110",
@@ -13358,7 +13403,8 @@
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
     "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:CH110-S",
@@ -13381,7 +13427,8 @@
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
     "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:CH150",
@@ -13429,8 +13476,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku",
+    "image_url": "https://www.krupps.com/wp-content/uploads/sites/4/2020/02/CH150-698x1024.png",
+    "image_source": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:EL42E",
@@ -13504,8 +13554,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku",
+    "image_url": "https://www.krupps.com/wp-content/uploads/sites/4/2026/03/EL55EH-604x1024.png",
+    "image_source": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:EL60E",
@@ -13553,8 +13606,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku",
+    "image_url": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/KRUPPS-EL60E_sito-572x1024.png",
+    "image_source": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:EL60TH",
@@ -13576,8 +13632,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku",
+    "image_url": "https://www.krupps.com/wp-content/uploads/sites/4/2019/03/EL60TH-1-667x1024.png",
+    "image_source": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:EL70E",
@@ -13625,8 +13684,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku",
+    "image_url": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/EL70E-1-751x1024.png",
+    "image_source": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:EL951E",
@@ -13753,7 +13815,8 @@
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
     "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:ELS60TH",
@@ -13776,7 +13839,8 @@
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
     "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:EVO101",
@@ -13798,8 +13862,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku",
+    "image_url": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/EVO101-111.png",
+    "image_source": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:EVO111",
@@ -13822,7 +13889,8 @@
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
     "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:EVO121",
@@ -13844,8 +13912,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku",
+    "image_url": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/EVO121-131.png",
+    "image_source": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:EVO131",
@@ -13868,7 +13939,8 @@
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
     "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:EVO201",
@@ -13890,8 +13962,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku",
+    "image_url": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/EVO201-211.png",
+    "image_source": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:EVO211",
@@ -13914,7 +13989,8 @@
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
     "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:EVO221",
@@ -13936,8 +14012,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku",
+    "image_url": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/EVO221-231.png",
+    "image_source": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:EVO231",
@@ -13960,7 +14039,8 @@
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
     "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:EVO301",
@@ -13982,8 +14062,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku",
+    "image_url": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/EVO301-311.png",
+    "image_source": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:EVO311",
@@ -14006,7 +14089,8 @@
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
     "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:EVO321",
@@ -14028,8 +14112,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku",
+    "image_url": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/EVO321-331.png",
+    "image_source": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:EVO331",
@@ -14052,7 +14139,8 @@
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
     "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:EVO401",
@@ -14074,8 +14162,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku",
+    "image_url": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/EVO401-411.png",
+    "image_source": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:EVO411",
@@ -14098,7 +14189,8 @@
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
     "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:EVO421",
@@ -14120,8 +14212,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku",
+    "image_url": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/EVO421-431.png",
+    "image_source": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:EVO431",
@@ -14144,7 +14239,8 @@
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
     "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:EVO501",
@@ -14166,8 +14262,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku",
+    "image_url": "https://www.krupps.com/wp-content/uploads/sites/4/2023/12/EVO501-511.png",
+    "image_source": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:EVO511",
@@ -14190,7 +14289,8 @@
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
     "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:EVO521",
@@ -14212,8 +14312,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku",
+    "image_url": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/EVO521-531.png",
+    "image_source": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:EVO531",
@@ -14236,7 +14339,8 @@
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
     "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:K1100E",
@@ -14285,7 +14389,8 @@
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
     "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:K1500E",
@@ -14308,7 +14413,8 @@
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
     "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:K1500E-A",
@@ -14331,7 +14437,8 @@
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
     "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:K209E",
@@ -14379,8 +14486,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku",
+    "image_url": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/EL42E-1-693x1024.png",
+    "image_source": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:KE40U",
@@ -14402,8 +14512,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku",
+    "image_url": "https://www.krupps.com/wp-content/uploads/sites/4/2024/03/KE40UT.png",
+    "image_source": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:KE40UT",
@@ -14426,7 +14539,8 @@
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
     "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:S1100E",
@@ -14449,7 +14563,8 @@
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
     "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "krupps:S209E",
@@ -14472,7 +14587,8 @@
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
     "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "maxima:08400100",
@@ -21336,10 +21452,11 @@
     "availability": null,
     "record_status": "manufacturer_official_public_reference",
     "source_type": "manufacturer_product_page",
-    "image_url": null,
-    "image_source": "manufacturer_image_pending",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "supplier_stock_unverified"
+    "image_url": "https://www.projectsystems.it/wp-content/uploads/2020/01/Serie-A-closed-800x800px.jpg",
+    "image_source": "official_manufacturer_series_photo_not_specific_sku",
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "supplier_stock_unverified",
+    "photo_match_type": "official_manufacturer_series_photo_not_specific_sku"
   },
   {
     "id": "sistemaproject:40-a",
@@ -21363,7 +21480,8 @@
     "image_url": null,
     "image_source": "manufacturer_image_pending",
     "photo_status": "product_photo_pending",
-    "stock_source_status": "supplier_stock_unverified"
+    "stock_source_status": "supplier_stock_unverified",
+    "photo_match_type": "official_manufacturer_series_photo_not_specific_sku"
   },
   {
     "id": "sistemaproject:50-a",
@@ -21387,7 +21505,8 @@
     "image_url": null,
     "image_source": "manufacturer_image_pending",
     "photo_status": "product_photo_pending",
-    "stock_source_status": "supplier_stock_unverified"
+    "stock_source_status": "supplier_stock_unverified",
+    "photo_match_type": "official_manufacturer_series_photo_not_specific_sku"
   },
   {
     "id": "sistemaproject:catalog2025-ac360",
@@ -21506,10 +21625,11 @@
     "availability": null,
     "record_status": "manufacturer_official_public_reference",
     "source_type": "manufacturer_product_page",
-    "image_url": null,
-    "image_source": "manufacturer_image_pending",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "supplier_stock_unverified"
+    "image_url": "https://www.projectsystems.it/wp-content/uploads/2020/01/Alpha50-800x800.jpg",
+    "image_source": "official_manufacturer_series_photo_not_specific_sku",
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "supplier_stock_unverified",
+    "photo_match_type": "official_manufacturer_series_photo_not_specific_sku"
   },
   {
     "id": "sistemaproject:alpha-50",
@@ -21533,7 +21653,8 @@
     "image_url": null,
     "image_source": "manufacturer_image_pending",
     "photo_status": "product_photo_pending",
-    "stock_source_status": "supplier_stock_unverified"
+    "stock_source_status": "supplier_stock_unverified",
+    "photo_match_type": "official_manufacturer_series_photo_not_specific_sku"
   },
   {
     "id": "sistemaproject:ax-40",
@@ -21555,10 +21676,11 @@
     "availability": null,
     "record_status": "manufacturer_official_public_reference",
     "source_type": "manufacturer_product_page",
-    "image_url": null,
-    "image_source": "manufacturer_image_pending",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "supplier_stock_unverified"
+    "image_url": "https://www.projectsystems.it/wp-content/uploads/2023/03/lavastoviglie-professionale-AX-serie.jpg",
+    "image_source": "official_manufacturer_series_photo_not_specific_sku",
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "supplier_stock_unverified",
+    "photo_match_type": "official_manufacturer_series_photo_not_specific_sku"
   },
   {
     "id": "sistemaproject:ax-50",
@@ -21583,7 +21705,8 @@
     "image_url": null,
     "image_source": "manufacturer_image_pending",
     "photo_status": "product_photo_pending",
-    "stock_source_status": "supplier_stock_unverified"
+    "stock_source_status": "supplier_stock_unverified",
+    "photo_match_type": "official_manufacturer_series_photo_not_specific_sku"
   },
   {
     "id": "sistemaproject:bottle-wash",
@@ -21607,7 +21730,8 @@
     "image_url": null,
     "image_source": "manufacturer_image_pending",
     "photo_status": "product_photo_pending",
-    "stock_source_status": "supplier_stock_unverified"
+    "stock_source_status": "supplier_stock_unverified",
+    "photo_match_type": "official_manufacturer_series_photo_not_specific_sku"
   },
   {
     "id": "sistemaproject:cage",
@@ -21628,10 +21752,11 @@
     "availability": null,
     "record_status": "manufacturer_official_public_reference",
     "source_type": "manufacturer_product_page",
-    "image_url": null,
-    "image_source": "manufacturer_image_pending",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "supplier_stock_unverified"
+    "image_url": "https://www.projectsystems.it/wp-content/uploads/2024/06/cesto-per-il-lavaggio-bicchieri-riutilizzabili-in-plastica-1024x900.jpg",
+    "image_source": "official_manufacturer_series_photo_not_specific_sku",
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "supplier_stock_unverified",
+    "photo_match_type": "official_manufacturer_series_photo_not_specific_sku"
   },
   {
     "id": "sistemaproject:catalog2025-cpp3501",
@@ -22015,10 +22140,11 @@
     "availability": null,
     "record_status": "manufacturer_official_public_reference",
     "source_type": "manufacturer_product_page",
-    "image_url": null,
-    "image_source": "manufacturer_image_pending",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "supplier_stock_unverified"
+    "image_url": "https://www.projectsystems.it/wp-content/uploads/2020/01/398_IMG_1459-Ct200-800x800px.jpg",
+    "image_source": "official_structured_data_exact_sku",
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "supplier_stock_unverified",
+    "photo_match_type": "official_structured_data_exact_sku"
   },
   {
     "id": "sistemaproject:ct-270",
@@ -22040,10 +22166,11 @@
     "availability": null,
     "record_status": "manufacturer_official_public_reference",
     "source_type": "manufacturer_product_page",
-    "image_url": null,
-    "image_source": "manufacturer_image_pending",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "supplier_stock_unverified"
+    "image_url": "https://www.projectsystems.it/wp-content/uploads/2019/06/ct120.jpg",
+    "image_source": "official_manufacturer_series_photo_not_specific_sku",
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "supplier_stock_unverified",
+    "photo_match_type": "official_manufacturer_series_photo_not_specific_sku"
   },
   {
     "id": "sistemaproject:ct-320",
@@ -22068,7 +22195,8 @@
     "image_url": null,
     "image_source": "manufacturer_image_pending",
     "photo_status": "product_photo_pending",
-    "stock_source_status": "supplier_stock_unverified"
+    "stock_source_status": "supplier_stock_unverified",
+    "photo_match_type": "official_manufacturer_series_photo_not_specific_sku"
   },
   {
     "id": "sistemaproject:catalog2025-ct137",
@@ -23027,10 +23155,11 @@
     "availability": null,
     "record_status": "manufacturer_official_public_reference",
     "source_type": "manufacturer_product_page",
-    "image_url": null,
-    "image_source": "manufacturer_image_pending",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "supplier_stock_unverified"
+    "image_url": "https://www.projectsystems.it/wp-content/uploads/2020/01/jet-800x800px.jpg",
+    "image_source": "official_manufacturer_series_photo_not_specific_sku",
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "supplier_stock_unverified",
+    "photo_match_type": "official_manufacturer_series_photo_not_specific_sku"
   },
   {
     "id": "sistemaproject:jet-500-plus",
@@ -23076,10 +23205,11 @@
     "availability": null,
     "record_status": "manufacturer_official_public_reference",
     "source_type": "manufacturer_product_page",
-    "image_url": null,
-    "image_source": "manufacturer_image_pending",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "supplier_stock_unverified"
+    "image_url": "https://www.projectsystems.it/wp-content/uploads/2025/02/OSMOPROJECT-OSMOSI-INVERSA.jpg",
+    "image_source": "official_manufacturer_series_photo_not_specific_sku",
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "supplier_stock_unverified",
+    "photo_match_type": "official_manufacturer_series_photo_not_specific_sku"
   },
   {
     "id": "sistemaproject:s100",
@@ -23125,10 +23255,11 @@
     "availability": null,
     "record_status": "manufacturer_official_public_reference",
     "source_type": "manufacturer_product_page",
-    "image_url": null,
-    "image_source": "manufacturer_image_pending",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "supplier_stock_unverified"
+    "image_url": "https://www.projectsystems.it/wp-content/uploads/2019/07/s200_new.jpg",
+    "image_source": "official_manufacturer_series_photo_not_specific_sku",
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "supplier_stock_unverified",
+    "photo_match_type": "official_manufacturer_series_photo_not_specific_sku"
   },
   {
     "id": "sistemaproject:s350",
@@ -23149,10 +23280,11 @@
     "availability": null,
     "record_status": "manufacturer_official_public_reference",
     "source_type": "manufacturer_product_page",
-    "image_url": null,
-    "image_source": "manufacturer_image_pending",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "supplier_stock_unverified"
+    "image_url": "https://www.projectsystems.it/wp-content/uploads/2019/07/s350_new.jpg",
+    "image_source": "official_manufacturer_series_photo_not_specific_sku",
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "supplier_stock_unverified",
+    "photo_match_type": "official_manufacturer_series_photo_not_specific_sku"
   },
   {
     "id": "sistemaproject:s90",
@@ -23249,10 +23381,11 @@
     "availability": null,
     "record_status": "manufacturer_official_public_reference",
     "source_type": "manufacturer_product_page",
-    "image_url": null,
-    "image_source": "manufacturer_image_pending",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "supplier_stock_unverified"
+    "image_url": "https://www.projectsystems.it/wp-content/uploads/2020/09/1-283_IMG_1410-T1215-Energy-.png",
+    "image_source": "official_structured_data_exact_sku",
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "supplier_stock_unverified",
+    "photo_match_type": "official_structured_data_exact_sku"
   },
   {
     "id": "sistemaproject:t1515",
@@ -23277,7 +23410,8 @@
     "image_url": null,
     "image_source": "manufacturer_image_pending",
     "photo_status": "product_photo_pending",
-    "stock_source_status": "supplier_stock_unverified"
+    "stock_source_status": "supplier_stock_unverified",
+    "photo_match_type": "official_structured_data_exact_sku"
   },
   {
     "id": "sistemaproject:unica-40",
@@ -23298,10 +23432,11 @@
     "availability": null,
     "record_status": "manufacturer_official_public_reference",
     "source_type": "manufacturer_product_page",
-    "image_url": null,
-    "image_source": "manufacturer_image_pending",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "supplier_stock_unverified"
+    "image_url": "https://www.projectsystems.it/wp-content/uploads/2020/01/unica50lcd-800x800px.jpg",
+    "image_source": "official_manufacturer_series_photo_not_specific_sku",
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "supplier_stock_unverified",
+    "photo_match_type": "official_manufacturer_series_photo_not_specific_sku"
   },
   {
     "id": "sistemaproject:unica-40p",
@@ -23322,10 +23457,11 @@
     "availability": null,
     "record_status": "manufacturer_official_public_reference",
     "source_type": "manufacturer_product_page",
-    "image_url": null,
-    "image_source": "manufacturer_image_pending",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "supplier_stock_unverified"
+    "image_url": "https://www.projectsystems.it/wp-content/uploads/2020/01/Unica50P-double-skin-version-800x800px.jpg",
+    "image_source": "official_manufacturer_series_photo_not_specific_sku",
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "supplier_stock_unverified",
+    "photo_match_type": "official_manufacturer_series_photo_not_specific_sku"
   },
   {
     "id": "sistemaproject:unica-50",
@@ -23374,7 +23510,8 @@
     "image_url": null,
     "image_source": "manufacturer_image_pending",
     "photo_status": "product_photo_pending",
-    "stock_source_status": "supplier_stock_unverified"
+    "stock_source_status": "supplier_stock_unverified",
+    "photo_match_type": "official_manufacturer_series_photo_not_specific_sku"
   },
   {
     "id": "sistemaproject:unicamp",
@@ -23395,10 +23532,11 @@
     "availability": null,
     "record_status": "manufacturer_official_public_reference",
     "source_type": "manufacturer_product_page",
-    "image_url": null,
-    "image_source": "manufacturer_image_pending",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "supplier_stock_unverified"
+    "image_url": "https://www.projectsystems.it/wp-content/uploads/2023/07/unicamp-lavstoviglie-a-gettoni-per-camping.jpg",
+    "image_source": "official_manufacturer_series_photo_not_specific_sku",
+    "photo_status": "manufacturer_photo_url_found_permission_to_confirm",
+    "stock_source_status": "supplier_stock_unverified",
+    "photo_match_type": "official_manufacturer_series_photo_not_specific_sku"
   },
   {
     "id": "tecnodom:aiss",
@@ -23422,7 +23560,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:aladino",
@@ -23446,7 +23585,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:armadio-1200",
@@ -23470,7 +23610,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:armadio-1400",
@@ -23494,7 +23635,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:armadio-400",
@@ -23518,7 +23660,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:armadio-600",
@@ -23542,7 +23685,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:armadio-700",
@@ -23566,7 +23710,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:attila",
@@ -23590,7 +23735,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:attila-p-att02",
@@ -23614,7 +23760,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:big",
@@ -23638,7 +23785,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_manufacturer_product_detail"
   },
   {
     "id": "tecnodom:combined-cabinet",
@@ -23662,7 +23810,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:evo",
@@ -23686,7 +23835,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_manufacturer_product_detail"
   },
   {
     "id": "tecnodom:evo-hot",
@@ -23710,7 +23860,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:evo-lux",
@@ -23734,7 +23885,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:evo-lux-hot",
@@ -23758,7 +23910,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:evo-self",
@@ -23782,7 +23935,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:evok",
@@ -23806,7 +23960,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:evok-hot",
@@ -23830,7 +23985,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:evok-l-2-porte",
@@ -23854,7 +24010,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:evok-l-2-porte-hot",
@@ -23878,7 +24035,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:evok-l-4-porte",
@@ -23902,7 +24060,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:evok-l-4-porte-hot",
@@ -23926,7 +24085,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:evok-lux",
@@ -23950,7 +24110,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:evok-lux-hot",
@@ -23974,7 +24135,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:evokl-120v-special",
@@ -23998,7 +24160,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:lavelli-a-giorno",
@@ -24022,7 +24185,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:lido",
@@ -24046,7 +24210,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:m-1000",
@@ -24070,7 +24235,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:m-80",
@@ -24094,7 +24260,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_manufacturer_product_detail"
   },
   {
     "id": "tecnodom:m-90",
@@ -24118,7 +24285,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_manufacturer_product_detail"
   },
   {
     "id": "tecnodom:minicella-100",
@@ -24142,7 +24310,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:mr-80",
@@ -24166,7 +24335,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:mr-9-5",
@@ -24190,7 +24360,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:mr-9-5-vcc-w",
@@ -24214,7 +24385,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:pensili-armadiati",
@@ -24238,7 +24410,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:puntok",
@@ -24262,7 +24435,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:saladette",
@@ -24286,7 +24460,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:saladette-pizza",
@@ -24310,7 +24485,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:stromboli-90",
@@ -24334,7 +24510,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:stromboli-90-b",
@@ -24358,7 +24535,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:tavoli-a-giorno",
@@ -24382,7 +24560,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:tavoli-armadiati",
@@ -24406,7 +24585,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:tavolo-60",
@@ -24457,7 +24637,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:tavolo-mid-gastronomia-tn-bt",
@@ -24481,7 +24662,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:tavolo-mid-pasticceria",
@@ -24505,7 +24687,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:tavolo-mid-pizza",
@@ -24529,7 +24712,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:vetrina-refrigerata-ingredienti-pizza",
@@ -24553,7 +24737,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:vigo-78",
@@ -24577,7 +24762,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:vigo-90",
@@ -24601,7 +24787,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:vulcano",
@@ -24625,7 +24812,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:vulcano-sc",
@@ -24649,7 +24837,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:vulcano-vb",
@@ -24673,7 +24862,8 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   },
   {
     "id": "tecnodom:vulcano-vs",
@@ -24697,6 +24887,7 @@
     "price": null,
     "availability": null,
     "publication_status": "manufacturer_range_listed_individual_sku_pending",
-    "stock_source_status": "unknown"
+    "stock_source_status": "unknown",
+    "photo_match_type": "official_image_exact_caption_sku"
   }
 ]

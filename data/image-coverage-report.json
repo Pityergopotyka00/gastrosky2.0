@@ -1,0 +1,2965 @@
+{
+  "checked_at": "2026-11-14T18:46:15.002Z",
+  "total": 1044,
+  "existing_images": 306,
+  "new_photos": 57,
+  "by_brand": {
+    "Coldline": 22,
+    "Krupps": 21,
+    "Sistema Project Italia": 14
+  },
+  "unresolved": [
+    {
+      "id": "maxima:08400100",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09211003",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09211008",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09240140",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300001",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300031",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300032",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300062",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300075",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300122",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300123",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300128",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300131",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300139",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300146",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300147",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300216",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300220",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300227",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300229",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300230",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300411",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300430",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300435",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300436",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300437",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300440",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300441",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300442",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300450",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300455",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300457",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300459",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300460",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300462",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300463",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300464",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300467",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300471",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300476",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300481",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300486",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300535",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300540",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300541",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300542",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300543",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300575",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300585",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300598",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300599",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300959",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300962",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300965",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300971",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09300977",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09306100",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09361001",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09361003",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09361010",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09361011",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09361020",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09361030",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09361050",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09361080",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09361130",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09361150",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09361905",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09361908",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09362150",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09362155",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09364006",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09364009",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09364033",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09364036",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09365101",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09365105",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09365158",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09365159",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09365229",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09366100",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09367509",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09367512",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09367514",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09367518",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09367521",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09367523",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09367566",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09367570",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09367572",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09367602",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09367611",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09367612",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09367614",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09367621",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09367622",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09367750",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09367760",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09367775",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09367776",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09367792",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09367793",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09367910",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09367911",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09367920",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09367921",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09367922",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09367926",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09367928",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09367931",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09367934",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09367935",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09368001",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09368002",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09368003",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09368010",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09368450",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09368460",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09371250",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09371400",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09371450",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09374011",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09374050",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09374051",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09374131",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09374132",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09374140",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09374182",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09374191",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09374201",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09374203",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09374235",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09374242",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09374245",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09374246",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09374251",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09374255",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09377000",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09377005",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09379000",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09391550",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09391600",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09391680",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09394003",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09395001",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09395006",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09395053",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09397990",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09398601",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09398606",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09398615",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09400003",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09400012",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09400017",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09400030",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09400031",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09400042",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09400175",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09400207",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09400208",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09400210",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09400409",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09400410",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09400801",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09400806",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09400815",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09400816",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09400839",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09400843",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09400847",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09400850",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09400900",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09400941",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09402340",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09402370",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09403000",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09404001",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09404025",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09404026",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09404031",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09405006",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09405007",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09405008",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09405010",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09405029",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09501202",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09506005",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09506006",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "maxima:09506007",
+      "reason": "robots_disallow_or_unknown"
+    },
+    {
+      "id": "coldline:a140-2br",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a140-2brv",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a140-2bv",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a140-2m",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a140-2me",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "coldline:a140-2mr",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a140-2mrv",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a140-2mv",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a140-2n",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a140-2nr",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a140-2nrv",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a140-2nv",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a30-1br",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a30-1brv",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a30-1bv",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a30-1m",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:a30-1mr",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a30-1mrv",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a30-1mv",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a30-1n",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a30-1nr",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a30-1nrv",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a30-1nv",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a55-1bfh",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "coldline:a60-1br",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a60-1brv",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a60-1bv",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a60-1m",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a60-1mr",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a60-1mrv",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a60-1mv",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a60-1n",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:a60-1nr",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a60-1nrv",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a60-1nv",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a70-1b",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:a70-1be",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:a70-1bg",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:a70-1brv",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a70-1bs",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a70-1bsr",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a70-1bv",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a70-1m",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:a70-1me",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:a70-1mr",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a70-1mrv",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a70-1mv",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:a70-1n",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a70-1ne",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:a70-1nr",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a70-1nrv",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a70-1nv",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:a80-1bg",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:a90-1bgr",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:a90-1m",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:af60-1t",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:af80-2t",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "coldline:j100-1m",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:tp09-1m-710",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:ts09-1m-710",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:ts13-1bjr-710",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:ts13-1br-710",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:ts17-1b-760",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "coldline:ts17-1mjr-710",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "coldline:tv13-1mz-1-6-760",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:tz09-1mc-710",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:tz17-1mc-710",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:tz17-1mrc-710",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:tzs21-1m-710",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:vp18-8n",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:vp18-8nl",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:vp20-9nr",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:vp25-13nl",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "coldline:w10u",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:w14h",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:w14u",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:w3ag",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:w5u",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:w5ug",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:w6f",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "coldline:w6fsr",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "coldline:w7tsaer",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:yp14-6n",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:yp14-6nl",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:yp18-8n",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:yp20-9n",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "coldline:yp25-13n",
+      "reason": "unavailable"
+    },
+    {
+      "id": "coldline:yp25-13nl",
+      "reason": "unavailable"
+    },
+    {
+      "id": "krupps:C432-S",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "krupps:C537-BTS",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "krupps:C537T-BT",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "krupps:C537T-BTS",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "krupps:C537T-S",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "krupps:C640-BT",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "krupps:CH110-BTS",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "krupps:CH110-S",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "krupps:ELS60E",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "krupps:ELS60TH",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "krupps:EVO111",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "krupps:EVO131",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "krupps:EVO211",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "krupps:EVO231",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "krupps:EVO311",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "krupps:EVO331",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "krupps:EVO411",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "krupps:EVO431",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "krupps:EVO511",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "krupps:EVO531",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "krupps:K1100E-A",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "krupps:K1500E",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "krupps:K1500E-A",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "krupps:KE40UT",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "krupps:S1100E",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "krupps:S209E",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "modular:F60/30FTG/R/T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:F60/30FTG/SL/T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:F60/30GRLG/T",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "modular:F60/30PCG/T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:F60/60CFE",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:F60/60FRESE/2V10/T",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "modular:F60/60PCEE/T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:F60/60PCG/T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:F60/60PVE/T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:F60/90CFEE",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:F60/90PCEE/T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:F60/90PCG/T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "sistemaproject:catalog2025-30740",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:40-a",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "sistemaproject:50-a",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ac360",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ac410",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:alpha-50",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "sistemaproject:ax-50",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "sistemaproject:bottle-wash",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "sistemaproject:catalog2025-cpp3501",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-cpp3521",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-cpp4001",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-cpp4021",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-cpp5001",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-cpp5002",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-cpp5003",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-cpp5004",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-cpp6001",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-cpp6002",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-cpp6003",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-cppa01",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-cppa02",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-cptc02",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:ct-320",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ct137",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ct166",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ct167",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ct168",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ct186",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ct441",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ct442",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ct443",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ct446",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ct447",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ct448",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ct451",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ct452",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ct453",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ct456",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ct457",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ct458",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ct480",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ct481",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ct482",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ct483",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ct484",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ct485",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ctabt",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ctaf",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ctdd",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ctrc",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ctsez",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ctta",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ctx",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-dec12l",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-dec16l",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-dec20l",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-dec8l",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-decav12l",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-decav8l",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:dent35",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "sistemaproject:t1515",
+      "reason": "image_not_served"
+    },
+    {
+      "id": "sistemaproject:unica-50p",
+      "reason": "photo_url_already_assigned_to_another_product"
+    },
+    {
+      "id": "tecnodom:aiss",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:aladino",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:armadio-1200",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:armadio-1400",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:armadio-400",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:armadio-600",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:armadio-700",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:attila",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:attila-p-att02",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:big",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:combined-cabinet",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:evo",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:evo-hot",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:evo-lux",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:evo-lux-hot",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:evo-self",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:evok",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:evok-hot",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:evok-l-2-porte",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:evok-l-2-porte-hot",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:evok-l-4-porte",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:evok-l-4-porte-hot",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:evok-lux",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:evok-lux-hot",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:evokl-120v-special",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:lavelli-a-giorno",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:lido",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:m-1000",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:m-80",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:m-90",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:minicella-100",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:mr-80",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:mr-9-5",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:mr-9-5-vcc-w",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:pensili-armadiati",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:puntok",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:saladette",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:saladette-pizza",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:stromboli-90",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:stromboli-90-b",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:tavoli-a-giorno",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:tavoli-armadiati",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:tavolo-eko-pizza",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:tavolo-mid-gastronomia-tn-bt",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:tavolo-mid-pasticceria",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:tavolo-mid-pizza",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:vetrina-refrigerata-ingredienti-pizza",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:vigo-78",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:vigo-90",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:vulcano",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:vulcano-sc",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:vulcano-vb",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:vulcano-vs",
+      "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "fagor:19001676",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19001677",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19001679",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19001680",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19001681",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19001980",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19001981",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19001982",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19001983",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19048496",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19058654",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19058655",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19058656",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19058657",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19058658",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19058659",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19058660",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19058661",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19058664",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19059112",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19067288",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19070294",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19072463",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19074120",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19074716",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19074779",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19074781",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19074782",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19074783",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19074784",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19074788",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19078755",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19078771",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19078905",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19078909",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19081687",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19081688",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19081689",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19081700",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19087745",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19087746",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19089615",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19089616",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19089617",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19089618",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19089619",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19097584",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19098121",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101116",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101247",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101248",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101249",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101390",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101391",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101392",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101393",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101394",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101395",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101396",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101397",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101398",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101399",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101400",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101401",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101402",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101403",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101404",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101405",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101406",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101407",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101408",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101409",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101410",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101411",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101412",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101413",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101414",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101415",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101416",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101417",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101418",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101419",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101420",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101421",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101422",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101423",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101424",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101491",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19101748",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19102977",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19103128",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19103129",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19105381",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19107594",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19107615",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19107627",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19107800",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19107811",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19107820",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19107822",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19108800",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19111025",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19111026",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19111266",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19111321",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19111322",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19111543",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19111548",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19112566",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19113859",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19113860",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19113861",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19113862",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19113863",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19113864",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19113866",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19113867",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114234",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114689",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114691",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114692",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114693",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114694",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114695",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114696",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114697",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114698",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114699",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114702",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114703",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114704",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114705",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114706",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114707",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114708",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114709",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114710",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114711",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114712",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114713",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114714",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114715",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114716",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114717",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114718",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114719",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114720",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114721",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114722",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114723",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114724",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114725",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114726",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114727",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114728",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114729",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114730",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114731",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114732",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114733",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114734",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114735",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114736",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114737",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114738",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114739",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114740",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114741",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114901",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114903",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19114904",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19115442",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19115443",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19115444",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19115445",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19115446",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19115521",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19115522",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19115534",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19115535",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19115536",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19115537",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19115538",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19115539",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19115540",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19115541",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19115542",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19115550",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19115551",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19115553",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19115555",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19115556",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19115558",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19115559",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19115560",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19115938",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:19115939",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "fagor:ikore-apw-061-e-r-sw-s",
+      "reason": "no_official_page"
+    },
+    {
+      "id": "fagor:ikore-apw-0623-e-r-sw-s",
+      "reason": "no_official_page"
+    },
+    {
+      "id": "fagor:ikore-aw-061-e-r-sw",
+      "reason": "no_official_page"
+    },
+    {
+      "id": "fagor:ikore-aw-0623-e-r-sw",
+      "reason": "no_official_page"
+    },
+    {
+      "id": "fagor:ikore-aw-101-e-r-sw",
+      "reason": "no_official_page"
+    },
+    {
+      "id": "fagor:ikore-cpw-061-e-r-sw-s",
+      "reason": "no_official_page"
+    },
+    {
+      "id": "fagor:ikore-cpw-0623-e-r-sw-s",
+      "reason": "no_official_page"
+    },
+    {
+      "id": "fagor:ikore-cw-061-e-r-sw",
+      "reason": "no_official_page"
+    },
+    {
+      "id": "fagor:ikore-cw-0623-e-r-sw",
+      "reason": "no_official_page"
+    },
+    {
+      "id": "fagor:ikore-cw-101-e-r-sw",
+      "reason": "no_official_page"
+    },
+    {
+      "id": "gastrohaal:308",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrohaal:320",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrohaal:488",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrohaal:492",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:munkaasztalok:1",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:munkaasztalok-hatso-felhajtassal:1",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:munkaasztalok-also-polccal:1",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:rozsdamentes-pultok:1",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:rozsdamentes-pultok:2",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:rozsdamentes-falipolcok:1",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:rozsdamentes-falipolcok:2",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:rozsdamentes-atadopolcok:1",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:rozsdamentes-atadopolcok:2",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:nyitott-faliszekreny:1",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:toloajtos-faliszekreny:1",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:rozsdamentes-tarolo-allvany:1",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:geptarto-allvany:1",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:geptarto-allvany:2",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:rozsdamentes-penztarpult:1",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:evoeszkoz-es-talcatarto:1",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:evoeszkoz-es-talcatarto:2",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:elszivo-ernyok:1",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:elszivo-ernyok:2",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:elszivo-ernyok:3",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:elszivo-ernyok:4",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:elszivo-ernyok:5",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:huto-pult-salatahuto:1",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:huto-pult-salatahuto:2",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:huto-pult-salatahuto:3",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:melegentarto-pult:1",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:rozsdamentes-kocsik:1",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:rozsdamentes-kocsik:2",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:rozsdamentes-kocsik:3",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:rozsdamentes-kocsik:4",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:rozsdamentes-kocsik:5",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:rozsdamentes-kocsik:6",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "gastrosky:rozsdamentes-kocsik:7",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "modular:F60-60FRES-2V10-T",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "modular:F60-60FRGV-2V8-T",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "modular:F65-40FRES-1V10-T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:F65-70CPE-1V40-T",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "modular:F70-40CPE-1V40-P",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "modular:F70-40CPG-1V40-P",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "modular:F70-40FRES-1V10-P",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "modular:F70-40FRGV-1V13-P",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:F70-40PLN-T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:F70-70CFGB",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "modular:F70-70FRGV-2V13-P",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "modular:F70-70PCGB-A",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:F70-70PCGB-P",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:F70-80TPE-A",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "modular:R110-60PCEQ-P",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:R18-100FTG-SL-A",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:R70-120PLN-A",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:R70-40CPE-1V26-P",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "modular:R70-40CPG-1V26-P",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "modular:R70-40FRER-2V8-P",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "modular:R70-40FRGL-1V13-P",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:R70-40FRGV-1V13-P",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "modular:R70-40FTE-CL-A",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:R70-40FTE-CL-T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:R70-40FTG-CL-A",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:R70-40FTG-CL-T",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "modular:R70-40FTG-CR-A",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:R70-40INDW-P",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:R70-80CFG",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:R70-80FRGL-2V13-P",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:R70-80FRGV-2V13-P",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "modular:R70-80FTE-CL-T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:R70-80FTG-CL-A",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:R70-80FTG-CLR-A",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:R70-80FTG-SL-A",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:R70-80PCG-A",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:R70-80PCGB-A",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:R90-120PCG-T",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "modular:R90-120PCGB-A",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:R90-40BMG-T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:R90-40CPE-1V40-P",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "modular:R90-40FRGL-1V17-P",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "modular:R90-40FRGV-1V13-P",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "modular:R90-40FRGV-1V22-P",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "modular:R90-40FTE-CL-A",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:R90-40FTE-CL-T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:R90-40FTE-CR-T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:R90-40FTE-L-A",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:R90-40FTG-CL-T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:R90-40FTG-L-T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:R90-80CFG",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "modular:R90-80CFGE",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "modular:R90-80CPG-2V40-P",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:R90-80FRGL-2V17-P",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "modular:R90-80FRGV-2V13-P",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "modular:R90-80FRGV-2V22-P",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "modular:R90-80FTE-CL-A",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:R90-80FTE-CL-T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:R90-80FTE-CLR-A",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:R90-80FTG-CLR-A",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:R90-80FTG-L-T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:R90-80PCG-T",
+      "reason": "model_not_on_page"
+    },
+    {
+      "id": "modular:R90-80PCGB-A",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:R90-80PEI-50",
+      "reason": "unavailable"
+    }
+  ]
+}
