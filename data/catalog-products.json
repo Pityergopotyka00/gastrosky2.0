@@ -17998,5 +17998,71 @@
     "price": null,
     "availability": null,
     "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09374011",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09374011",
+    "ean": "8719632127284",
+    "name": "Maxima – Mini fánksütő, 12 darab",
+    "category": "Sütőberendezések",
+    "description": "Hivatalos Maxima termékoldalon ellenőrzött cikkszámú vendéglátóipari berendezés.",
+    "specifications": {
+      "Cikkszám": "09374011"
+    },
+    "source_url": "https://maxima.com/hu/fankkeszito-12-mini-fank.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09371400",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09371400",
+    "ean": "8720783986965",
+    "name": "Maxima – Elektromos melegentartó tálca 38 × 55 cm",
+    "category": "Melegentartás",
+    "description": "Hivatalos Maxima termékoldalon ellenőrzött cikkszámú vendéglátóipari berendezés.",
+    "specifications": {
+      "Cikkszám": "09371400"
+    },
+    "source_url": "https://maxima.com/hu/elektromos-melegentarto-talca-max-105-c-38-x-55cm-230w.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09377000",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09377000",
+    "ean": "8719632129608",
+    "name": "Maxima – Tésztanyújtó 38 cm, asztali kivitel",
+    "category": "Tésztakészítés",
+    "description": "Hivatalos Maxima termékoldalon ellenőrzött cikkszámú vendéglátóipari berendezés.",
+    "specifications": {
+      "Cikkszám": "09377000"
+    },
+    "source_url": "https://maxima.com/hu/tesztagorgo-38cm-asztali.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
   }
 ]
