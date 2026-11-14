@@ -35,14 +35,14 @@
       "products": 125,
       "verified_products": 125,
       "model_only": 0,
-      "with_photo_url": 15,
+      "with_photo_url": 37,
       "missing_to_target": 0
     },
     "Krupps": {
       "products": 68,
       "verified_products": 68,
       "model_only": 0,
-      "with_photo_url": 21,
+      "with_photo_url": 42,
       "missing_to_target": 0
     },
     "Aristarco": {
@@ -56,7 +56,7 @@
       "products": 87,
       "verified_products": 87,
       "model_only": 0,
-      "with_photo_url": 11,
+      "with_photo_url": 25,
       "missing_to_target": 0
     },
     "Tecnodom": {
