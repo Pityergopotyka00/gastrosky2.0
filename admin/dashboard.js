@@ -115,7 +115,17 @@ async function loadNotes(){
     try{await request('/api/admin/quotes/'+encodeURIComponent(item.id),'PATCH',{status:select.value});note('Állapot frissítve.');await loadDashboard()}
     catch(err){note(err.message,true)}
    });
-   card.append(select);target.append(card);
+   card.append(select);
+   if(role==='owner'){
+    const remove=create('button','small-button muted-button','Teendő törlése');
+    remove.type='button';remove.addEventListener('click',async()=>{
+     if(!confirm('Biztosan törlöd ezt a követési teendőt?'))return;
+     try{await request('/api/admin/quotes/'+encodeURIComponent(item.id),'DELETE');await loadNotes();await loadDashboard();note('Teendő törölve.')}
+     catch(err){note('Törlés sikertelen: '+err.message,true)}
+    });
+    card.append(remove);
+   }
+   target.append(card);
   }
  }catch(e){note('Teendők betöltése sikertelen: '+e.message,true)}
 }
@@ -125,7 +135,23 @@ async function loadSecurity(){
  try{
   const [u,a]=await Promise.all([request('/api/admin/staff'),request('/api/admin/audit')]);
   staff.replaceChildren();audit.replaceChildren();
-  for(const item of u.items){const row=create('div','summary-row');row.append(create('span',null,item.email),create('strong',null,item.role+(item.disabled?' · Letiltva':'')));staff.append(row)}
+  for(const item of u.items){
+   const row=create('div','summary-row');
+   const details=create('div');details.append(create('strong',null,item.email),create('small',null,' · '+item.role+(item.disabled?' · Letiltva':'')));
+   row.append(details);
+   if(item.email!==document.getElementById('identity').textContent.split(' · ')[0]){
+    const btn=create('button','small-button',item.disabled?'Engedélyezés':'Hozzáférés tiltása');
+    btn.type='button';
+    btn.addEventListener('click',async()=>{
+     const disabled=!Boolean(item.disabled);
+     if(!confirm(disabled?'Letiltod ezt az adminfiókot és a munkameneteit?':'Újra engedélyezed az adminfiókot?'))return;
+     try{await request('/api/admin/staff','PATCH',{email:item.email,disabled});await loadSecurity();await loadDashboard();note('Hozzáférés módosítva.')}
+     catch(err){note('Hozzáférés módosítása sikertelen: '+err.message,true)}
+    });
+    row.append(btn);
+   }
+   staff.append(row);
+  }
   for(const item of a.items){const row=create('div','summary-row');row.append(create('span',null,item.event+(item.detail?' · '+item.detail:'')),create('small',null,new Date(item.occurred_at).toLocaleString('hu-HU')));audit.append(row)}
  }catch(e){note('Biztonsági adatok nem érhetők el: '+e.message,true)}
 }
