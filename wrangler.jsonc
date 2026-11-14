@@ -13,7 +13,7 @@
     {
       "binding": "ADMIN_DB",
       "database_name": "gastrosky-admin",
-      "database_id": "PASTE_REAL_CLOUDFLARE_D1_UUID_HERE",
+      "database_id": "2057d8f7-1e72-4314-8939-dfce413bee7a",
       "migrations_dir": "migrations"
     }
   ],
