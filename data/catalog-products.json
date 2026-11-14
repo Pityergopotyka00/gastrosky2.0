@@ -13091,9 +13091,11 @@
     "availability": null,
     "record_status": "official_range_model_reference",
     "source_type": "manufacturer_public_catalog",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://altezoro.eu/image/cache/catalog/products/000016400_3-800x800.jpg",
+    "photo_status": "matching_model_photo_found_web_not_http_verified",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "model_matched_retailer_product_page",
+    "photo_match_type": "exact_model_retailer_page"
   },
   {
     "id": "krupps:C537T-BT",
@@ -13254,9 +13256,11 @@
     "availability": null,
     "record_status": "official_range_model_reference",
     "source_type": "manufacturer_public_catalog",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://ideaverde.bg/image/cache/catalog/Produkti/Miqlni/CH100-546x1024-550x550h.png.webp",
+    "photo_status": "matching_model_photo_found_web_not_http_verified",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "model_matched_retailer_product_page",
+    "photo_match_type": "exact_model_retailer_page"
   },
   {
     "id": "krupps:CH100-BT",
