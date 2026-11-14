@@ -1,0 +1,30 @@
+name: Import exact photos from Fagor public website
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/enrich-fagor-site-photos.mjs'
+      - '.github/workflows/enrich-fagor-site-photos.yml'
+permissions:
+  contents: write
+concurrency:
+  group: gastrosky-supplier-media
+  cancel-in-progress: false
+jobs:
+  images:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci || npm install --no-audit --no-fund
+      - run: node scripts/enrich-fagor-site-photos.mjs
+      - run: npm run validate
+      - name: Save model verified Fagor pictures
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/catalog-products.json index.html data/fagor-official-photo-match-report.json
+          git diff --cached --quiet || (git commit -m "Add verified Fagor manufacturer model photos" && git pull --rebase origin main && git push)
