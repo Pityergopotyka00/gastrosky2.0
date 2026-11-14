@@ -5,7 +5,7 @@ const products=JSON.parse(await readFile('data/catalog-products.json','utf8'));
 const targets=products.filter(p=>p.manufacturer==='GastroSky'&&!p.image_url);
 const normalize=s=>String(s||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-zA-Z0-9]/g,'').toLowerCase();
 const trusted=s=>{try{const u=new URL(s);return u.protocol==='https:'&&['gastrosky.hu','www.gastrosky.hu'].includes(u.hostname)}catch{return false}};
-const bad=/logo|banner|header|footer|favicon|placeholder|noimage|spinner|sprite|icon|social|facebook|default/i;
+const bad=/logo|banner|header|footer|favicon|placeholder|noimage|spinner|sprite|icon|social|facebook|default|\/assets\/images\/partners\/|\/static_content_images\//i;
 const cache=new Map();
 async function page(url){
  if(!trusted(url))throw Error('non_manufacturer_link');
@@ -71,6 +71,9 @@ function productImage($,base,productName){
    let score=0;
    if(/product|termek|galer|gallery|photo|fot[oó]|kep|k[eé]p|carousel/i.test(lineage))score+=6;
    if(/product|termek|fot[oó]|kep|k[eé]p|image/i.test(path))score+=2;
+   // Original site embeds the real product photo as an inline CSS background.
+   // It is distinguishable from footer partner logos by its /product_images/<id>/ path.
+   if(/\/product_images\/\d+\/[^/]+\.(?:jpe?g|png|webp)$/i.test(path))score+=12;
    if(key&&normalize(desc)===key)score+=7;
    if(key&&normalize(path).includes(key))score+=5;
    if(node&&Number.parseInt(node.attr('width')||'0',10)>=180)score+=1;
