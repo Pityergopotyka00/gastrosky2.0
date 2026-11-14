@@ -14233,8 +14233,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "matching_model_photo_found_web_not_http_verified",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "image_url": "https://hotmax.com.ua/assets/images/catalog/posydomoechnoe/posudomoechnoe/Krupps-K1100E%281%29.jpg",
+    "image_source": "model_matched_retailer_product_page",
+    "photo_match_type": "exact_model_retailer_page"
   },
   {
     "id": "krupps:K1100E-A",
