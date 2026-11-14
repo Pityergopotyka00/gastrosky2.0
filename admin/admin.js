@@ -13,9 +13,11 @@ function showAccount(data){
  identity.textContent=data.email+' · '+(data.role==='owner'?'Tulajdonos':'Szerkesztő');
  csrfToken=data.csrfToken;
  message('Biztonságos munkamenet aktív.');
+ window.gastroAdminDashboard?.start(data);
 }
 function showLogin(){
  account.hidden=true;form.hidden=false;csrfToken=null;
+ window.gastroAdminDashboard?.stop();
  document.getElementById('password').value='';
  document.getElementById('code').value='';
 }
