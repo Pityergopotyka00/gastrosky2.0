@@ -7,6 +7,7 @@ const securityHeaders = {
   'permissions-policy': 'camera=(), microphone=(), geolocation=(), payment=()',
   'cross-origin-opener-policy': 'same-origin',
   'x-robots-tag': 'noarchive',
+  'strict-transport-security': 'max-age=31536000',
 };
 
 // A report-only policy avoids unexpectedly breaking quote verification or
