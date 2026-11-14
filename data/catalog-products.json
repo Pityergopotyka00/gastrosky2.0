@@ -13589,8 +13589,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "matching_model_photo_found_web_not_http_verified",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "image_url": "https://img.archiexpo.com/images_ae/photo-g/75261-16121916.jpg",
+    "image_source": "model_matched_trade_product_page",
+    "photo_match_type": "exact_model_trade_page"
   },
   {
     "id": "krupps:EL70E-A",
