@@ -11,7 +11,7 @@ const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 function officialUrl(raw,base){
  try{const url=new URL(raw,base);return url.protocol==='https:'&&allowedHosts.has(url.hostname)?url.href:null}catch{return null}
 }
-const bad=/logo|placeholder|banner|favicon|sprite|megamenu|certificate|drawing|footer/i;
+const bad=/(?:^|\/)(?:logo|placeholder|banner|favicon|sprite|megamenu|certificate|drawing|footer)(?:[-_.\/]|$)/i;
 const cache=new Map();
 const policyCache=new Map();
 async function allowedByRobots(url){
