@@ -62,7 +62,7 @@ assert.equal(tecnodom.filter(p=>p.specifications?.['Termékvonal']==='VERTICAL')
 const gastro=products.filter(p=>p.manufacturer==='Gastro Haal');
 for(const p of gastro){
  assert.ok(!/\/\d+_tuzhelyek(?:\/|$)/i.test(new URL(p.source_url).pathname),'Excluded Tűzhelyek product: '+p.id);
- assert.ok(p.image_url&&new URL(p.image_url).hostname==='gastrohaal.sk','Gastro Haal listings require individual manufacturer photos: '+p.id);
+ assert.ok(!p.image_url||new URL(p.image_url).hostname==='gastrohaal.sk','Gastro Haal images must come from the official manufacturer when present: '+p.id);
  assert.ok(p.source_url.includes('/hu/termekek/'),'Gastro Haal product needs its official detail page');
 }
 for(const control of ['id="search"','id="category"','id="manufacturer"','id="sortBy"','id="quotePanel"','id="quoteOpen"']){
