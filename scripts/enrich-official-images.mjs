@@ -29,6 +29,29 @@ function extractedMeta($,base,brand){
   const raw=$(selector).attr('content');if(raw){const url=goodUrl(new URL(raw,base).href,brand);if(url)return url}
  }return null;
 }
+// Exact SKU evidence in manufacturer Product structured data takes priority over
+// generic series open-graph images.
+function structuredSkuPhoto($,base,brand,sku){
+ const target=norm(sku).replace(/[^A-Z0-9]/g,'');
+ if(!target)return null;
+ const visit=node=>{
+  if(Array.isArray(node))return node.map(visit).find(Boolean)||null;
+  if(!node||typeof node!=='object')return null;
+  if(node['@graph']){const nested=visit(node['@graph']);if(nested)return nested;}
+  const type=String(node['@type']||'').toLowerCase();
+  const codes=[node.sku,node.mpn,node.productID].map(v=>norm(v).replace(/[^A-Z0-9]/g,''));
+  if(type.includes('product')&&codes.includes(target)){
+   const raw=Array.isArray(node.image)?node.image[0]:node.image;
+   const url=typeof raw==='string'?raw:raw?.url||raw?.contentUrl;
+   if(url)try{return goodUrl(new URL(url,base).href,brand)}catch{}
+  }
+  return null;
+ };
+ for(const el of $('script[type="application/ld+json"]').toArray()){
+  try{const found=visit(JSON.parse($(el).html()||'null'));if(found)return found}catch{}
+ }
+ return null;
+}
 const robotsCache=new Map();
 async function robotsPermits(url){
  const u=new URL(url),key=u.origin;if(!robotsCache.has(key)){
@@ -97,6 +120,8 @@ function possibleProductImage($,base,brand){
 }
 async function officialRangePhoto($,url,p){
  const brand=p.manufacturer,model=norm(p.model||p.sku);
+ const matchedSkuPhoto=structuredSkuPhoto($,url,brand,p.sku);
+ if(matchedSkuPhoto)return {url:matchedSkuPhoto,type:'official_structured_data_exact_sku'};
  const links=$('a[href]').toArray().map(el=>({label:norm($(el).text()),href:$(el).attr('href')}))
   .filter(x=>x.href&&x.label&&model&&x.label===model);
  for(const link of links.slice(0,4)){
@@ -146,8 +171,9 @@ for(const p of queue){
  try{
   if(!sourceUrl(src,brand))throw Error('no_official_page');
   const {doc:$,url,body}=await page(src,brand);
-  let found=null;
-  if(brand==='Aristarco'){
+  let found=structuredSkuPhoto($,url,brand,p.sku);
+  if(found)p.photo_match_type='official_structured_data_exact_sku';
+  if(!found&&brand==='Aristarco'){
    const result=aristarcoPhoto($,p.sku,url);
    if(result?.url)found=result.url;
    if(!found&&result?.detailUrl&&sourceUrl(result.detailUrl,brand)){
@@ -155,11 +181,11 @@ for(const p of queue){
     if(norm(detail.doc('body').text()).includes(norm(p.sku)))
      found=extractedMeta(detail.doc,detail.url,brand);
    }
-  }else if(brand==='Tecnodom'||brand==='Sistema Project Italia'){
+  }else if(!found&&(brand==='Tecnodom'||brand==='Sistema Project Italia')){
    const matched=await officialRangePhoto($,url,p);
    if(matched){found=matched.url;p.photo_match_type=matched.type;}
    else reason='exact_range_photo_not_found';
-  }else{
+  }else if(!found){
    // Only exact SKU evidence on an individual product page qualifies.
    if(norm($('body').text()).includes(norm(p.sku))){
     found=extractedMeta($,url,brand);
