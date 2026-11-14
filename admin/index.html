@@ -46,6 +46,18 @@
    </div>
    <div class="dash-page" id="tabProducts" data-page="products" hidden>
     <h3>Termékkezelés</h3><p class="note">A gyártói adatok érintetlenek maradnak. Itt külön felülírások készülnek.</p>
+    <details class="new-product"><summary>+ Új termék hozzáadása</summary>
+     <form id="newProductForm">
+      <label for="newManufacturer">Gyártó</label><select id="newManufacturer" required><option value="">Válassz gyártót</option></select>
+      <label for="newSku">Gyártói cikkszám</label><input id="newSku" required maxlength="80" pattern="[A-Za-z0-9_.\\/-]{2,80}">
+      <label for="newName">Termék neve</label><input id="newName" required maxlength="180">
+      <label for="newCategory">Kategória</label><input id="newCategory" required maxlength="120" placeholder="Pl. Hűtéstechnika">
+      <label for="newDescription">Leírás</label><textarea id="newDescription" maxlength="1800" rows="3"></textarea>
+      <label for="newImage">Ellenőrzött termékfotó HTTPS URL</label><input id="newImage" type="url" maxlength="1400" placeholder="https://...">
+      <p class="note">Az új termék manuális bejegyzésként jelenik meg. Árat és készletet nem állítunk bizonyíték nélkül.</p>
+      <button type="submit">Termék létrehozása</button>
+     </form>
+    </details>
     <div class="dash-search"><input id="productSearch" placeholder="Termék neve, cikkszám..." aria-label="Termékkeresés"><select id="productBrand" aria-label="Gyártó"><option value="">Minden gyártó</option></select><button id="searchProducts" type="button">Keresés</button></div>
     <div id="productResults" class="summary-list"></div><button id="moreProducts" type="button" hidden>További termékek</button>
     <form id="productEditor" hidden>
