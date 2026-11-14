@@ -17470,5 +17470,137 @@
     "price": null,
     "availability": null,
     "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300059",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300059",
+    "ean": "8719632121848",
+    "name": "Maxima – Szalamander grill 42 × 34 cm, 2200 W",
+    "category": "Sütéstechnika",
+    "description": "Maxima professzionális berendezés a gyártó cikkszámmal azonosított termékoldaláról.",
+    "specifications": {
+      "Cikkszám": "09300059"
+    },
+    "source_url": "https://maxima.com/hu/salamander-grill-42-x-34cm-2200w.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300058",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300058",
+    "ean": "8719632121855",
+    "name": "Maxima – Szalamander grill 64 × 30 cm, 3600 W",
+    "category": "Sütéstechnika",
+    "description": "Maxima professzionális berendezés a gyártó cikkszámmal azonosított termékoldaláról.",
+    "specifications": {
+      "Cikkszám": "09300058"
+    },
+    "source_url": "https://maxima.com/hu/salamander-grill-64-x-30cm-3600w.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300062",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300062",
+    "ean": "8719632121879",
+    "name": "Maxima – Emelős szalamander grill 59 × 32 cm",
+    "category": "Sütéstechnika",
+    "description": "Maxima professzionális berendezés a gyártó cikkszámmal azonosított termékoldaláról.",
+    "specifications": {
+      "Cikkszám": "09300062"
+    },
+    "source_url": "https://maxima.com/hu/szalamander-grill-emelovel-59-x-32cm-4000w.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300061",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300061",
+    "ean": "8719632121862",
+    "name": "Maxima – Emelős szalamander grill 44 × 32 cm, 2800 W",
+    "category": "Sütéstechnika",
+    "description": "Maxima professzionális berendezés a gyártó cikkszámmal azonosított termékoldaláról.",
+    "specifications": {
+      "Cikkszám": "09300061"
+    },
+    "source_url": "https://maxima.com/hu/szalamander-grill-emelovel-44-x-32cm-2800w.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09395053",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09395053",
+    "ean": "8719632123736",
+    "name": "Maxima – Elektromos grillsütő félig barázdált, dupla",
+    "category": "Sütőlapok",
+    "description": "Maxima professzionális berendezés a gyártó cikkszámmal azonosított termékoldaláról.",
+    "specifications": {
+      "Cikkszám": "09395053"
+    },
+    "source_url": "https://maxima.com/hu/nagy-teherbirasu-grillezo-1-2-barazdalt-elektromos-dupla-egyseg-70cm-melysegu.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09400409",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09400409",
+    "ean": "8720783978083",
+    "name": "Maxima – Hűtött munkapult 223 cm, 4 üvegajtó",
+    "category": "Hűtéstechnika",
+    "description": "Maxima professzionális berendezés a gyártó cikkszámmal azonosított termékoldaláról.",
+    "specifications": {
+      "Cikkszám": "09400409"
+    },
+    "source_url": "https://maxima.com/hu/pultos-hutoszekreny-553l-223cm-4-uvegajtok.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
   }
 ]
