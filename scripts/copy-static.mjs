@@ -10,4 +10,5 @@ for(const file of ['impresszum.html','adatkezeles.html','sutik.html','stock-moni
 }
 await import('./premium-product-illustrations.mjs');
 await import('./verify-product-visuals.mjs');
+await import('./build-illustration-showcase.mjs');
 console.log('Legal pages and stock monitor copied into dist/');
