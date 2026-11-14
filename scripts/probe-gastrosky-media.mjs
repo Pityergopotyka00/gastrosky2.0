@@ -26,6 +26,22 @@ for(const url of pages){
   result.picture_sources=$('picture source').toArray().slice(0,15).map(el=>($(el).attr('srcset')||$(el).attr('data-srcset')||'').slice(0,300));
   result.meta_image=$('meta[property="og:image"]').attr('content')||null;
   result.css_backgrounds=$('[style*="url("]').toArray().slice(0,16).map(el=>($(el).attr('style')||'').slice(0,300));
+  result.image_tests=[];
+  for(const style of result.css_backgrounds.slice(0,2)){
+   const match=style.match(/url\(\s*['"]?([^'")]+)['"]?\s*\)/i);
+   if(!match)continue;
+   for(const variant of ['HEAD','RANGE','GET']){
+    try{
+     const response=await fetch(match[1],{
+      method:variant==='HEAD'?'HEAD':'GET',
+      headers:variant==='RANGE'?{Range:'bytes=0-128','User-Agent':'GastroSkyCatalogMedia/1.0'}:{'User-Agent':'GastroSkyCatalogMedia/1.0'},
+      signal:AbortSignal.timeout(10000)
+     });
+     result.image_tests.push({variant,status:response.status,final_url:response.url,type:response.headers.get('content-type'),length:response.headers.get('content-length')});
+     await response.body?.cancel();
+    }catch(e){result.image_tests.push({variant,error:String(e).slice(0,160)})}
+   }
+  }
   result.image_urls_in_markup=[...new Set((html.match(/(?:"|'|[=(])(?:https?:)?[^"'\s<>]{1,260}\.(?:png|jpe?g|webp|gif|avif)(?:\?[^"'\s<>]*)?/gi)||[]).map(x=>x.slice(0,220)))].slice(0,35);
   const body=$('body');
   result.classes_near_name=body.find('*').filter((_,el)=>$(el).children().length===0&&/TERMÉK MEGNEVEZÉSE/i.test($(el).text())).slice(0,2).map((_,el)=>$(el).parent().parent().html()?.slice(0,1100)||'').get();
