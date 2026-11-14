@@ -1,140 +1,173 @@
 {
-  "checked_at": "2026-11-14T19:01:23.813Z",
+  "checked_at": "2026-11-14T19:08:07.593Z",
   "checked": 33,
   "new_photos": 0,
   "matched": [],
   "unmatched": [
     {
       "id": "gastrosky:munkaasztalok:1",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/munkaasztal"
     },
     {
       "id": "gastrosky:munkaasztalok-hatso-felhajtassal:1",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/munkaasztal-hatsofelhajtassal"
     },
     {
       "id": "gastrosky:munkaasztalok-also-polccal:1",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/munkaasztal-also-polccal"
     },
     {
       "id": "gastrosky:rozsdamentes-pultok:1",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/nyitott-pult"
     },
     {
       "id": "gastrosky:rozsdamentes-pultok:2",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/zart-pult"
     },
     {
       "id": "gastrosky:rozsdamentes-falipolcok:1",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/sima-falipolc"
     },
     {
       "id": "gastrosky:rozsdamentes-falipolcok:2",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/perforalt-falipolc"
     },
     {
       "id": "gastrosky:rozsdamentes-atadopolcok:1",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/egyszintes-atadopolc"
     },
     {
       "id": "gastrosky:rozsdamentes-atadopolcok:2",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/ketszintes-atadopolc"
     },
     {
       "id": "gastrosky:nyitott-faliszekreny:1",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/nyitott-faliszekreny"
     },
     {
       "id": "gastrosky:toloajtos-faliszekreny:1",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/zart-faliszekreny"
     },
     {
       "id": "gastrosky:rozsdamentes-tarolo-allvany:1",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/tarolo-allvany"
     },
     {
       "id": "gastrosky:geptarto-allvany:1",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/geptarto-allvany"
     },
     {
       "id": "gastrosky:geptarto-allvany:2",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/kombi-suto-tarto-allvany"
     },
     {
       "id": "gastrosky:rozsdamentes-penztarpult:1",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/penztarpult"
     },
     {
       "id": "gastrosky:evoeszkoz-es-talcatarto:1",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/talca-es-evoeszkoz-tarto"
     },
     {
       "id": "gastrosky:evoeszkoz-es-talcatarto:2",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/talcapohar-es-evoeszkoz-tarto"
     },
     {
       "id": "gastrosky:elszivo-ernyok:1",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/fali-elszivo"
     },
     {
       "id": "gastrosky:elszivo-ernyok:2",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/fali-snack-elszivo"
     },
     {
       "id": "gastrosky:elszivo-ernyok:3",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/fali-indukcios-elszyivo"
     },
     {
       "id": "gastrosky:elszivo-ernyok:4",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/sziget-elszivo"
     },
     {
       "id": "gastrosky:elszivo-ernyok:5",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/sziget-elszivo-indukcios"
     },
     {
       "id": "gastrosky:huto-pult-salatahuto:1",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/hutopult-3xgn11"
     },
     {
       "id": "gastrosky:huto-pult-salatahuto:2",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/hutopult-4xgn11"
     },
     {
       "id": "gastrosky:huto-pult-salatahuto:3",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/hutopult-5xgn11"
     },
     {
       "id": "gastrosky:melegentarto-pult:1",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/asztali-melegentarto-3xgn11"
     },
     {
       "id": "gastrosky:rozsdamentes-kocsik:1",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/raktari-kezikocsi"
     },
     {
       "id": "gastrosky:rozsdamentes-kocsik:2",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/ketszintes-zsurkocsi"
     },
     {
       "id": "gastrosky:rozsdamentes-kocsik:3",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/haromszintes-zsurkocsi"
     },
     {
       "id": "gastrosky:rozsdamentes-kocsik:4",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/otszintes-zsurkocsi"
     },
     {
       "id": "gastrosky:rozsdamentes-kocsik:5",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/talcatarto-kocsi-gn11"
     },
     {
       "id": "gastrosky:rozsdamentes-kocsik:6",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/talcatarto-kocsi-600x400"
     },
     {
       "id": "gastrosky:rozsdamentes-kocsik:7",
-      "reason": "specific_photo_not_verified"
+      "reason": "specific_photo_not_verified",
+      "detail_url": "https://gastrosky.hu/termekek/reszletek/evoeszkoztarto-kocsi"
     }
   ]
 }
