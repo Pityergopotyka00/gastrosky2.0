@@ -1,0 +1,26 @@
+name: Inspect Coldline exact model photo cards
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/probe-coldline-model-layout.mjs'
+      - '.github/workflows/probe-coldline-model-layout.yml'
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci || npm install --no-audit --no-fund
+      - run: node scripts/probe-coldline-model-layout.mjs
+      - name: Publish diagnostics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/coldline-model-dom-report.json
+          git diff --cached --quiet || (git commit -m "Record Coldline model photo card diagnostic" && git pull --rebase origin main && git push)
