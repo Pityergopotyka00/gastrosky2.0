@@ -19,7 +19,7 @@ concurrency:
 jobs:
   discover:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 35
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -30,7 +30,7 @@ jobs:
       - name: Discover product pages and SKU-specific manufacturer images
         run: node scripts/discover-both-catalogs.mjs
         env:
-          PUBLIC_DISCOVERY_PAGES: '100'
+          PUBLIC_DISCOVERY_PAGES: '120'
       - name: Measure 250-per-brand catalog completeness
         run: node scripts/check-catalog-coverage.mjs
       - name: Publish importer diagnostics to Actions summary
