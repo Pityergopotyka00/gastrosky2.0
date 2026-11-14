@@ -426,6 +426,10 @@ dialog{border:1px solid #e4e9ef;box-shadow:0 28px 85px rgba(6,20,35,.28)}
 .gs-daily-deal-note{padding:13px 17px;border-radius:12px;border:1px solid #ecd5a6;background:#fffaef;color:#795518;font-size:13px;font-weight:650;line-height:1.55;margin:7px 0 14px}
 .gs-daily-deal-note strong{color:#553b15}
 .gs-promo-tag{max-width:100%;overflow-wrap:anywhere}
+</style><style id="gs-akcio-countdown-style">
+.gs-deal-countdown-line{display:block;margin-top:10px;padding-top:10px;border-top:1px solid #ead5af;font-size:13px;color:#69501e}
+.gs-deal-countdown{display:inline-block;margin-left:6px;font-weight:900;font-size:clamp(19px,2.4vw,25px);font-variant-numeric:tabular-nums;letter-spacing:1.4px;color:#152f49}
+.gs-countdown-zone{font-size:11px;color:#806b4a}
 </style></head><body>
 <div class="gs-topline"><div><span class="gs-topline-dot"></span> GASTROSKY · NAGYKONYHAI BERENDEZÉSEK</div><a href="mailto:info@gastrosky.hu">info@gastrosky.hu</a></div><header class="gs-header"><div class="gs-header-inner"><a class="brand gs-brand" href="index.html" aria-label="GastroSky főoldal"><img class="brandmark real-logo" src="https://gastrosky.hu/assets/images/logo.png" alt="GastroSky" loading="eager" referrerpolicy="no-referrer"><div><strong>GASTROSKY</strong><small>Professzionális konyhatechnika</small></div></a><nav aria-label="Fő navigáció"><a href="#termekek">Termékek</a><a href="#markak">Márkák</a><a href="#hogyan-mukodik">Hogyan működik?</a><button type="button" class="quote-nav" id="quoteOpen"><span>Ajánlatkérő lista</span> <span class="gs-quote-count" id="quoteCount">0</span></button></nav></div></header>
 <section class="hero gs-hero"><div class="gs-hero-inner"><div class="gs-hero-copy"><span class="eyebrow"><span class="gs-spark"></span> GASTROSKY 2.0 · TERMÉKKATALÓGUS</span><h1>Professzionális konyhákhoz. <em>Okosan választva.</em></h1><p>Fedezd fel a Maxima, HENDI, Fagor Professional és Modular nagykonyhai berendezéseit. Nézd meg a részleteket, hasonlítsd össze a termékeket, és kérj személyre szabott ajánlatot egy helyen.</p><div class="gs-hero-buttons"><a href="#termekek" class="gs-hero-primary">Termékek megtekintése <span aria-hidden="true">↗</span></a><a href="#hogyan-mukodik" class="gs-hero-secondary">Hogyan működik?</a></div><div class="hero-features"><span><b>01</b> Keresés és szűrés</span><span><b>02</b> Termékrészletek</span><span><b>03</b> Ajánlatkérés</span></div></div><div class="gs-hero-showcase" aria-label="Válogatás a termékkatalógusból"><div class="gs-showcase-label">VÁLOGATÁS A KATALÓGUSBÓL <span>✦</span></div><div class="gs-showcase-photos"><div class="gs-showcase-photo gs-showcase-main"><img src="https://hendi.xcdn.nl/RM700%2C700/-/238967_OBW_2024_03_IMGP9712.jpg" alt="HENDI ételmelegítő készlet" loading="eager"><span>HENDI · Ételmelegítés</span></div><div class="gs-showcase-photo gs-showcase-side"><img src="https://maxima.com/img/2ygrxVpYMXeCFMPOO0mV0SeagqUxQHv0SthD4Z-1iZ8/resize:fit:265:265/aHR0cHM6Ly9tYXhpbWEuY29tL21lZGlhL2NhdGFsb2cvcHJvZHVjdC9zL3Avc3AtMTAwMS0wOTEwMDAwMC5qcGc_d2lkdGg9MjY1JmhlaWdodD0yNjU.jpg" alt="Maxima eszpresszógép" loading="eager"><span>MAXIMA · Kávégépek</span></div></div><div class="gs-showcase-bottom"><span>MAXIMA <i>×</i> HENDI</span><span>Professzionális választék</span></div></div></div></section><section class="gs-intro-strip" id="markak"><div class="gs-intro-inner"><span class="gs-intro-label">MÁRKÁK</span><div class="gs-intro-brand-grid"><a class="gs-intro-brand" href="#termekek" data-brand-filter="Maxima"><strong>MAXIMA</strong><span>217 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="HENDI"><strong>HENDI</strong><span>67 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Fagor"><strong>FAGOR</strong><span>211 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Modular"><strong>MODULAR</strong><span>82 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Coldline"><strong>COLDLINE</strong><span>125 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Krupps"><strong>KRUPPS</strong><span>68 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Aristarco"><strong>ARISTARCO</strong><span>74 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Sistema Project Italia"><strong>SISTEMA PROJECT ITALIA</strong><span>34 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Tecnodom"><strong>TECNODOM</strong><span>54 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Gastro Haal"><strong>GASTRO HAAL</strong><span>13 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="GastroSky"><strong>GASTROSKY</strong><span>33 termék megtekinthető</span></a></div></div></section>
@@ -451,10 +455,22 @@ let latestSupplierStock={};
 let visibleLimit=40;
 
 const DAILY_DEALS_GROUP='__akciok__';
-function budapestDayKey(){
- const parts=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Budapest',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date());
+function budapestDayKey(at=new Date()){
+ const parts=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Budapest',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(at);
  const get=type=>parts.find(part=>part.type===type)?.value;
  return get('year')+'-'+get('month')+'-'+get('day');
+}
+// Binary-search the next calendar-day boundary in Europe/Budapest. This
+// correctly handles summer/winter time changes without assuming 24-hour days.
+function nextBudapestDealRefresh(now=Date.now()){
+ const today=budapestDayKey(new Date(now));
+ let low=now,high=now+27*60*60*1000;
+ while(high-low>1){
+  const mid=low+Math.floor((high-low)/2);
+  if(budapestDayKey(new Date(mid))===today)low=mid;
+  else high=mid;
+ }
+ return high;
 }
 function dailyDealProducts(items,dayKey=budapestDayKey()){
  const eligible=items.filter(p=>p.promotion?.kind==='discount_quote_request'&&p.promotion?.status==='subject_to_quote'&&p.promotion?.price_verified===false).sort((a,b)=>String(a.id).localeCompare(String(b.id)));
@@ -469,7 +485,8 @@ function updateDailyDealInfo(){
  const active=categoryGroup.value===DAILY_DEALS_GROUP;
  note.hidden=!active;
  if(!active)return;
- note.innerHTML='<strong>🔥 Mai akciós ajánlatok.</strong> A kiválasztott kisebb HENDI eszközök naponta váltakoznak. A kedvezmény és a végleges ár az egyedi ajánlatban kerül megerősítésre; itt nem jelenítünk meg ellenőrizetlen árat.';
+ note.innerHTML='<strong>🔥 Mai akciós ajánlatok.</strong> A kiválasztott kisebb HENDI eszközök naponta váltakoznak. A kedvezmény és a végleges ár az egyedi ajánlatban kerül megerősítésre; itt nem jelenítünk meg ellenőrizetlen árat. <span class="gs-deal-countdown-line">Következő akciófrissítés: <span id="dailyDealsCountdown" class="gs-deal-countdown" role="timer" aria-live="off">--:--:--</span><span class="gs-countdown-zone"> (magyar idő szerint)</span></span>';
+ updateDailyDealsCountdown();
 }
 function render(){const q=search.value.trim().toLocaleLowerCase('hu');const todaysDeals=dailyDealIds();updateDailyDealInfo();const found=products.filter(p=>(!categoryGroup.value||(categoryGroup.value===DAILY_DEALS_GROUP?todaysDeals.has(p.id):catalogTaxonomy(p).group===categoryGroup.value))&&(!categoryType.value||catalogTaxonomy(p).type===categoryType.value)&&(!manufacturer.value||manufacturer.value===p.manufacturer)&&[p.name,p.sku,p.ean,p.category,p.manufacturer].join(' ').toLocaleLowerCase('hu').includes(q)).sort((a,b)=>{const today=Date.now(),isNew=p=>p.discovered_at&&Number.isFinite(Date.parse(p.discovered_at))&&today-Date.parse(p.discovered_at)<30*86400000?1:0;return sortBy.value==='name'?String(a.name).localeCompare(String(b.name),'hu'):sortBy.value==='brand'?String(a.manufacturer).localeCompare(String(b.manufacturer),'hu')||String(a.name).localeCompare(String(b.name),'hu'):isNew(b)-isNew(a)||String(a.name).localeCompare(String(b.name),'hu');});count.textContent=found.length+' termék';grid.replaceChildren();if(!found.length){const empty=document.createElement('p');empty.className='empty';empty.textContent='Nincs találat a kiválasztott szűrőkkel.';grid.append(empty)}
 for(const p of found.slice(0,visibleLimit)){const card=document.createElement('article');card.className='product';const pic=document.createElement('div');pic.className='illustration';if(p.image_url){const image=document.createElement('img');image.src=p.image_url;image.className='product-photo';image.alt=p.name+' – '+p.manufacturer+' termékfotó';image.loading='lazy';image.onerror=()=>{pic.replaceChildren();const message=document.createElement('p');message.className='muted';message.textContent='Termékfotó jelenleg nem tölthető be';pic.append(message)};pic.append(image);if(p.image_source==='official_manufacturer_shared_model_photo'){const familyNote=document.createElement('span');familyNote.className='gs-family-image-note';familyNote.textContent='Termékcsalád-fotó';pic.append(familyNote)}}else{const message=document.createElement('p');message.className='muted';message.textContent=p.manufacturer+' · '+(p.model||p.sku)+'\nTermékfotó előkészítés alatt';pic.append(message)}const d=document.createElement('div');d.className='details';const c=document.createElement('div');c.className='category';c.textContent=p.manufacturer+' · '+p.category;if(p.discovered_at&&Date.now()-Date.parse(p.discovered_at)<30*86400000){const n=document.createElement('span');n.className='new-product-pill';n.textContent='ÚJ';pic.append(n);}const promo=todaysDeals.has(p.id);if(promo){const pill=document.createElement('span');pill.className='gs-promo-tag';pill.textContent='Kedvezményes ajánlat kérhető';d.append(pill);}const h=document.createElement('h3');h.textContent=p.name;const sku=document.createElement('p');sku.className='muted';sku.textContent='Cikkszám: '+p.sku+(p.ean?' · EAN: '+p.ean:'');const desc=document.createElement('p');desc.className='product-description';desc.textContent=p.description;const spec=document.createElement('div');spec.className='spec';spec.textContent=Object.entries(p.specifications||{}).map(([k,v])=>k+': '+v).join(' · ');const status=document.createElement('div');status.className='status';status.textContent='';status.hidden=true;status.dataset.id=p.id;const acts=document.createElement('div');acts.className='actions';const detail=document.createElement('button');detail.className='button';detail.textContent='Részletek';detail.onclick=()=>showDetail(p);acts.append(detail);
@@ -915,7 +932,23 @@ manufacturer.addEventListener('change',()=>{categoryGroup.value='';categoryType.
 syncCategoriesForManufacturer();
 
 loadFullSupplierCatalog();
-// Keep an already open catalog in sync with Budapest calendar-day changes.
+// Keep the open Akciók view in sync with the actual Hungarian midnight.
 let currentDealDay=budapestDayKey();
-setInterval(()=>{const next=budapestDayKey();if(next!==currentDealDay){currentDealDay=next;syncCategoriesForManufacturer();}},60000);
+let nextDealRefresh=nextBudapestDealRefresh();
+function updateDailyDealsCountdown(){
+ const now=Date.now(),today=budapestDayKey(new Date(now));
+ if(today!==currentDealDay){
+  currentDealDay=today;
+  nextDealRefresh=nextBudapestDealRefresh(now);
+  syncCategoriesForManufacturer();
+ }
+ const display=document.getElementById('dailyDealsCountdown');
+ if(!display || categoryGroup.value!==DAILY_DEALS_GROUP)return;
+ const seconds=Math.max(0,Math.ceil((nextDealRefresh-now)/1000));
+ const hours=String(Math.floor(seconds/3600)).padStart(2,'0');
+ const minutes=String(Math.floor(seconds%3600/60)).padStart(2,'0');
+ const secs=String(seconds%60).padStart(2,'0');
+ display.textContent=hours+':'+minutes+':'+secs;
+}
+setInterval(updateDailyDealsCountdown,1000);
 </script></body></html>
