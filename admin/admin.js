@@ -43,7 +43,7 @@ form.addEventListener('submit',async event=>{
   else{
    document.getElementById('password').value='';
    document.getElementById('code').value='';
-   const explanation=response.status===429?'Túl sok próbálkozás. Várj egy percet.':response.status===503?'A bejelentkezés még nincs beállítva vagy átmenetileg nem érhető el.':'Sikertelen bejelentkezés. Ellenőrizd az adatokat és az Authenticator kódot.';
+   const explanation=response.status===429?'Túl sok próbálkozás. Várj egy percet.':response.status===503?'A bejelentkezés még nincs beállítva vagy átmenetileg nem érhető el.':response.status===409?'Egyszeri jelszófrissítés szükséges az új biztonságos bejelentkezéshez.':'Sikertelen bejelentkezés. Ellenőrizd az adatokat és az Authenticator kódot.';
    message(explanation,true);
   }
  }catch{message('Nem sikerült kapcsolódni. Próbáld újra.',true)}
