@@ -1,0 +1,3352 @@
+{
+  "checked_at": "2026-11-14T19:50:20.439Z",
+  "totals": {
+    "fagor": 224,
+    "missing": 207,
+    "by_source": {
+      "/documents/d/global/catalogue-foodservice-en-export-1": 120,
+      "/documents/20127/12649964/FP-FOLLETO-NOVELTIES_2026_v07_EN_sp.pdf/f6478b0b-1310-342a-d464-9155668e34fa": 69,
+      "/FAGOR-kombi-suto": 10,
+      "/documents/20127/9853043/04-FRIO%2BCOMERCIAL_EN_SP%2B%281%29.pdf/fa93f8f1-3021-23e3-1599-1a1fa4d5e04a": 8
+    },
+    "by_category": {
+      "Sütőtartozékok": 57,
+      "Gázüzemű sütőlapok": 30,
+      "Gázgrillek": 16,
+      "Ipari botmixerek és tartozékok": 15,
+      "Elektromos sütőlapok": 10,
+      "Hús- és felvágottszeletelők": 10,
+      "Húsdarálók": 10,
+      "Ipari kombi sütők és gőzpárolók": 10,
+      "Kompakt főző- és melegítőberendezések": 9,
+      "Zöldségszeletelő és tárcsái": 9,
+      "Sokkoló hűtők": 8,
+      "Hűtőpultok": 5,
+      "Aprítógépek": 4,
+      "Ipari burgonyahámozók": 4,
+      "Indukciós főzőmodulok": 3,
+      "Elektromos grillsütők": 2,
+      "Ipari olajsütők": 2,
+      "Sütőtartozékok és vízkezelés": 2,
+      "Gyorssütők": 1
+    },
+    "distinct_models": 168,
+    "models": [
+      {
+        "sku": "19001676",
+        "model": "GNP 1/1-100",
+        "category": "Sütőtartozékok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19001677",
+        "model": "GNP 1/1-40",
+        "category": "Sütőtartozékok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19001679",
+        "model": "GNP 2/1-100",
+        "category": "Sütőtartozékok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19001680",
+        "model": "GNP 2/1-40",
+        "category": "Sütőtartozékok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19001681",
+        "model": "GNP 2/1-65",
+        "category": "Sütőtartozékok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19001980",
+        "model": "TP 1/1-65",
+        "category": "Sütőtartozékok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19001981",
+        "model": "TP 2/1-20",
+        "category": "Sütőtartozékok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19001982",
+        "model": "TP 2/1-40",
+        "category": "Sütőtartozékok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19001983",
+        "model": "TP 2/1-65",
+        "category": "Sütőtartozékok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19048496",
+        "model": "GNP 1/1-65",
+        "category": "Sütőtartozékok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19058654",
+        "model": "MG 2/3",
+        "category": "Sütőtartozékok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19058655",
+        "model": "FRI 2/3",
+        "category": "Sütőtartozékok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19058656",
+        "model": "BPP 2/3 Perforated",
+        "category": "Sütőtartozékok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19058657",
+        "model": "BPA 2/3 Flat",
+        "category": "Sütőtartozékok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19058658",
+        "model": "GN 2/3-20",
+        "category": "Sütőtartozékok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19058659",
+        "model": "GN 2/3-40",
+        "category": "Sütőtartozékok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19058660",
+        "model": "GNP 2/3-20",
+        "category": "Sütőtartozékok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19058661",
+        "model": "GNP 2/3-40",
+        "category": "Sütőtartozékok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19058664",
+        "model": "GRID 2/3",
+        "category": "Sütőtartozékok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19059112",
+        "model": "SMOKER",
+        "category": "Sütőtartozékok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19067288",
+        "model": "B-G710",
+        "category": "Gázgrillek",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19070294",
+        "model": "B-E710 I",
+        "category": "Elektromos grillsütők",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19072463",
+        "model": "B-G710 I",
+        "category": "Gázgrillek",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19074120",
+        "model": "B-G705",
+        "category": "Gázgrillek",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19074716",
+        "model": "W-I705",
+        "category": "Indukciós főzőmodulok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19074779",
+        "model": "B-G705",
+        "category": "Gázgrillek",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19074781",
+        "model": "B-G705 I",
+        "category": "Gázgrillek",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19074782",
+        "model": "B-G705 I",
+        "category": "Gázgrillek",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19074783",
+        "model": "B-G710",
+        "category": "Gázgrillek",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19074784",
+        "model": "B-G710 I",
+        "category": "Gázgrillek",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19074788",
+        "model": "B-E705 I",
+        "category": "Elektromos grillsütők",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19078755",
+        "model": "B-G7051 I",
+        "category": "Gázgrillek",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19078771",
+        "model": "B-G7101 I",
+        "category": "Gázgrillek",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19078905",
+        "model": "B-G7101",
+        "category": "Gázgrillek",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19078909",
+        "model": "B-G7051",
+        "category": "Gázgrillek",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19081687",
+        "model": "B-G7051",
+        "category": "Gázgrillek",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19081688",
+        "model": "B-G7051 I",
+        "category": "Gázgrillek",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19081689",
+        "model": "B-G7101 I",
+        "category": "Gázgrillek",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19081700",
+        "model": "B-G7101",
+        "category": "Gázgrillek",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19087745",
+        "model": "Kit SV",
+        "category": "Sütőtartozékok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19087746",
+        "model": "Kit ST",
+        "category": "Sütőtartozékok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19089615",
+        "category": "Hűtőpultok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19089616",
+        "category": "Hűtőpultok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19089617",
+        "category": "Hűtőpultok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19089618",
+        "category": "Hűtőpultok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19089619",
+        "category": "Hűtőpultok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19097584",
+        "model": "C-I745",
+        "category": "Indukciós főzőmodulok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19098121",
+        "model": "C-I725",
+        "category": "Indukciós főzőmodulok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19101116",
+        "model": "FT-E705 C L",
+        "category": "Elektromos sütőlapok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19101247",
+        "model": "FT-E710 L",
+        "category": "Elektromos sütőlapok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19101248",
+        "model": "FT-G710 L",
+        "category": "Gázüzemű sütőlapok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19101249",
+        "model": "FT-G705 L",
+        "category": "Gázüzemű sütőlapok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19101390",
+        "model": "FT-E705 L",
+        "category": "Elektromos sütőlapok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19101391",
+        "model": "FT-G710 V L",
+        "category": "Gázüzemű sütőlapok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19101392",
+        "model": "FT-G705 V L",
+        "category": "Gázüzemű sütőlapok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19101393",
+        "model": "FT-G710 C L",
+        "category": "Gázüzemű sütőlapok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19101394",
+        "model": "FT-G705 C L",
+        "category": "Gázüzemű sütőlapok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19101395",
+        "model": "FT-G705 C L",
+        "category": "Gázüzemű sütőlapok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19101396",
+        "model": "FT-G705 C R",
+        "category": "Gázüzemű sütőlapok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19101397",
+        "model": "FT-G710 C R",
+        "category": "Gázüzemű sütőlapok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19101398",
+        "model": "FT-G710 C L+R",
+        "category": "Gázüzemű sütőlapok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19101399",
+        "model": "FT-E710 L+R",
+        "category": "Elektromos sütőlapok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19101400",
+        "model": "FT-G705 C R",
+        "category": "Gázüzemű sütőlapok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19101401",
+        "model": "FT-G710 C L",
+        "category": "Gázüzemű sütőlapok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19101402",
+        "model": "FT-G710 C R",
+        "category": "Gázüzemű sütőlapok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19101403",
+        "model": "FT-G710 C L+R",
+        "category": "Gázüzemű sütőlapok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19101404",
+        "model": "FT-G705 R",
+        "category": "Gázüzemű sütőlapok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19101405",
+        "model": "FT-G705 V R",
+        "category": "Gázüzemű sütőlapok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19101406",
+        "model": "FT-G710 R",
+        "category": "Gázüzemű sütőlapok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      },
+      {
+        "sku": "19101407",
+        "model": "FT-G710 L+R",
+        "category": "Gázüzemű sütőlapok",
+        "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "url": "https://www.fagorprofessional.com/en/kitchen-appliances",
+      "status": 200,
+      "final_url": "https://www.fagorprofessional.com/en/kitchen-appliances",
+      "type": "text/html;charset=UTF-8",
+      "title": "Commercial Kitchen Equipment - Industrial Kitchen Equipment",
+      "images": [
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/coccion.png/4c2e3013-2bc8-5c99-1290-603d1db17332?t=1634837069238",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/hornos.png/f3abe2a3-be40-2b1a-36cb-533568f2e852?t=1634837069394",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/lavado-de-vajilla.png/90f68f65-38cc-fb10-8ab6-e0117efbc740?t=1634837069490",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/frio-comercial.png/540eb1a3-d378-d515-d1cb-6dbdfa634d32?t=1634837069340",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/distribucion.png/bfde5623-4cb1-2fc7-4f51-326284060faf?t=1634837069289",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/lavanderia-profesional.png/af364e4a-d245-1012-e448-08dd745a8746?t=1634837069537",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/lavado.png/0234c5bf-d15b-76a2-4c59-ee347171d138?t=1634837069446",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/secado.png/29118e53-d163-0ffd-228c-e6ab506f887c?t=1634837069701",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/d/global/ozono",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/planchado-y-plegado.png/ae77f670-a431-6060-89c1-519d6f9fb81d?t=1634837069591",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/repaso-y-acabado.png/83bdb62e-650c-78c4-45fd-64da8dee04b0?t=1634837069643",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/accesorios.png/7764447b-6fb2-7b4e-1dba-d999d594a60d?t=1634837069140",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/soluciones.png/1361645f-c424-7103-f0d5-a994ed06774f?t=1634837069749",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "/documents/20127/228038/foodservice-portada.jpg/02fa81de-0193-a858-c287-e7143f96dd57?t=1647348117119&download=true",
+          "alt": ""
+        },
+        {
+          "src": "/documents/20127/228212/ico-foodservice.png/48497423-ad98-d66f-ca59-3e2e217984f7?t=1647348411616&download=true",
+          "alt": ""
+        },
+        {
+          "src": "/documents/20127/228038/coccion-industrial.jpg/b880aa24-4adc-cbec-2790-884139542004?t=1647351103512&download=true",
+          "alt": ""
+        },
+        {
+          "src": "/documents/20127/228038/Recurso+7.png/cc268df6-a74f-3761-c84b-77705b713ceb?t=1634719796187&download=true",
+          "alt": ""
+        },
+        {
+          "src": "/documents/20127/228038/hornos-banner.jpg/11ea834e-a1a2-23cc-3211-7249609dfb53?t=1647351900406&download=true"
+        },
+        {
+          "src": "/documents/20127/228038/Recurso+8.png/3bcb05f4-a8d1-d71d-7943-c4e4f870e7a0?t=1634719796283&download=true",
+          "alt": ""
+        },
+        {
+          "src": "/documents/20127/228038/hornos-industriales.jpg/333e8c07-b2f4-2859-2ae2-32094c84bfb7?t=1647351089771&download=true",
+          "alt": ""
+        },
+        {
+          "src": "/documents/d/global/dsc02397?imagePreview=1",
+          "alt": ""
+        },
+        {
+          "src": "/documents/20127/228038/Recurso%209.png/98639259-d41f-d54a-b247-0f622eaaa522?t=1634719796342&imagePreview=1",
+          "alt": ""
+        },
+        {
+          "src": "/documents/20127/228038/foodservice-background-2.jpg/3153131a-24c6-4852-9571-c648dcc03d43?t=1570604666315&version=1.0&download=true"
+        },
+        {
+          "src": "/documents/20127/228038/frio-comercial.jpg/8c2c830d-837a-e993-f946-841bbdf47dcf?t=1647351070818&download=true",
+          "alt": ""
+        },
+        {
+          "src": "/documents/20127/228038/Recurso+11.png/6643bd1b-d648-e615-4f98-c2551e3639c9?t=1634719796479&download=true",
+          "alt": ""
+        },
+        {
+          "src": "/documents/20127/228038/Recurso+13.png/67a8fdab-1cb1-49bd-69cb-05bfec7f9cc9?t=1634719796605&download=true",
+          "alt": ""
+        },
+        {
+          "src": "/documents/20127/228038/distribucion-profesional.jpg/4cc35000-1918-404d-8c54-5f3058ce8afb?t=1647351078161&download=true",
+          "alt": ""
+        },
+        {
+          "src": "/documents/d/global/agua-guisada-11_v3-1-?imagePreview=1",
+          "alt": ""
+        },
+        {
+          "src": "/documents/d/global/prep-estatica2?imagePreview=1",
+          "alt": ""
+        },
+        {
+          "src": "/documents/d/global/recurso-8?imagePreview=1",
+          "alt": ""
+        },
+        {
+          "src": "/documents/d/global/fp_web_preparaciondinamica-1?imagePreview=1",
+          "alt": ""
+        },
+        {
+          "src": "/o/fagor-industrial-portal-theme/images/ico-search-bar.png",
+          "alt": ""
+        }
+      ],
+      "model_text_hits": [
+        {
+          "key": "CI-CG604T",
+          "hit": false
+        },
+        {
+          "key": "FE-4",
+          "hit": false
+        },
+        {
+          "key": "APW-061",
+          "hit": false
+        },
+        {
+          "key": "IKORE",
+          "hit": false
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.fagorprofessional.com/en"
+        },
+        {
+          "text": "About us",
+          "href": "https://www.fagorprofessional.com/en/about-us"
+        },
+        {
+          "text": "Foodservice",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances"
+        },
+        {
+          "text": "Foodservice",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances"
+        },
+        {
+          "text": "Cooking",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen"
+        },
+        {
+          "text": "Tailor-made kitchen: Symphony",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/symphony"
+        },
+        {
+          "text": "KORE Monoblock",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/monoblock"
+        },
+        {
+          "text": "Modular kitchen: 900 and 700 Kore Generation",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/kore"
+        },
+        {
+          "text": "High production equipment",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/high-production-equipment"
+        },
+        {
+          "text": "Independent cooking",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/independent-cooking"
+        },
+        {
+          "text": "Ovens",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens"
+        },
+        {
+          "text": "Speed oven",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accelerated-cooking-oven"
+        },
+        {
+          "text": "iKORE Ovens",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/ikore"
+        },
+        {
+          "text": "iKORE Kompact Ovens",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/compact"
+        },
+        {
+          "text": "Cook&Chill Solutions",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/cook-chill"
+        },
+        {
+          "text": "Vacuum packers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/vacuum-packer"
+        },
+        {
+          "text": "Accessories",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accessories"
+        },
+        {
+          "text": "Warewashing",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing"
+        },
+        {
+          "text": "iNOVA Glasswasher",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/glasswashers"
+        },
+        {
+          "text": "iNOVA Front loading dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/front-opening"
+        },
+        {
+          "text": "iNOVA Hood-type dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/hood-type"
+        },
+        {
+          "text": "iNOVA Utensilwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/potwashers"
+        },
+        {
+          "text": "Rack type dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/rack-type"
+        },
+        {
+          "text": "Flight type dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/flight-type"
+        },
+        {
+          "text": "Dishwasher accessories",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/dishwasher-accessories"
+        },
+        {
+          "text": "Commercial refrigeration",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration"
+        },
+        {
+          "text": "Refrigerated cabinets",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/refrigeration-cabinets"
+        },
+        {
+          "text": "Refrigerated counters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/refrigeration-counters"
+        },
+        {
+          "text": "Preparation counters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/preparation-counters"
+        },
+        {
+          "text": "Display cabinets",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/display-cabinets"
+        },
+        {
+          "text": "Blast chillers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/blast-chillers"
+        },
+        {
+          "text": "Bar line",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/coolers"
+        },
+        {
+          "text": "Cellars",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/cellars"
+        },
+        {
+          "text": "Ice makers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/ice-machines"
+        },
+        {
+          "text": "Distribution",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution"
+        },
+        {
+          "text": "Drop-in",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution/drop-in"
+        },
+        {
+          "text": "Self-service",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution/self-service"
+        },
+        {
+          "text": "Distribution trolleys",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution/trolleys"
+        },
+        {
+          "text": "Static Preparation",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation"
+        },
+        {
+          "text": "Sinks, washbasins and professional taps",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/sinks-washbasins-and-professional-taps"
+        },
+        {
+          "text": "Worktops and cabinets",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/worktops-and-cabinets"
+        },
+        {
+          "text": "A combination of neutral and warm-toned furniture",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/combination-of-neutral-and-warm-toned-furniture"
+        },
+        {
+          "text": "Bar Units",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/bar-units"
+        },
+        {
+          "text": "Shelving",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/shelving"
+        },
+        {
+          "text": "Dynamic preparation",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation"
+        },
+        {
+          "text": "Slicers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/professional-slicers"
+        },
+        {
+          "text": "Vegetable cutters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/professional-vegetable-cutter"
+        },
+        {
+          "text": "Picadoras de carne",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/industrial-meat-mincers"
+        },
+        {
+          "text": "Cutters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/cutters-kitchen"
+        },
+        {
+          "text": "Hand Blender",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/industrial-hand-blenders"
+        },
+        {
+          "text": "Potato peelers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/industrial-potato-peelers"
+        },
+        {
+          "text": "Laundry",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery"
+        },
+        {
+          "text": "Laundry",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery"
+        },
+        {
+          "text": "Professional laundry",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery/professional"
+        },
+        {
+          "text": "Professional washers",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery/professional/professional-washer"
+        }
+      ],
+      "ogimage": "https://www.fagorprofessional.com"
+    },
+    {
+      "url": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens",
+      "status": 200,
+      "final_url": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens",
+      "type": "text/html;charset=UTF-8",
+      "title": "Commercial Ovens - Industrial Ovens",
+      "images": [
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/coccion.png/4c2e3013-2bc8-5c99-1290-603d1db17332?t=1634837069238",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/hornos.png/f3abe2a3-be40-2b1a-36cb-533568f2e852?t=1634837069394",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/lavado-de-vajilla.png/90f68f65-38cc-fb10-8ab6-e0117efbc740?t=1634837069490",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/frio-comercial.png/540eb1a3-d378-d515-d1cb-6dbdfa634d32?t=1634837069340",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/distribucion.png/bfde5623-4cb1-2fc7-4f51-326284060faf?t=1634837069289",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/lavanderia-profesional.png/af364e4a-d245-1012-e448-08dd745a8746?t=1634837069537",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/lavado.png/0234c5bf-d15b-76a2-4c59-ee347171d138?t=1634837069446",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/secado.png/29118e53-d163-0ffd-228c-e6ab506f887c?t=1634837069701",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/d/global/ozono",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/planchado-y-plegado.png/ae77f670-a431-6060-89c1-519d6f9fb81d?t=1634837069591",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/repaso-y-acabado.png/83bdb62e-650c-78c4-45fd-64da8dee04b0?t=1634837069643",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/accesorios.png/7764447b-6fb2-7b4e-1dba-d999d594a60d?t=1634837069140",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/soluciones.png/1361645f-c424-7103-f0d5-a994ed06774f?t=1634837069749",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "/documents/20127/228113/Portada+hornos.jpg/b21bd656-14df-ad2c-84d9-bd47a84906b1?t=1646138583058",
+          "alt": ""
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/d/global/fp_hornos_speed"
+        },
+        {
+          "src": "/documents/20127/35984/arrow.png/a3a4dddc-39fa-96f4-7805-a631ddd255e4?t=1566381121847",
+          "alt": "enlace a..."
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/d/global/fp_hornos_ikore"
+        },
+        {
+          "src": "/documents/20127/35984/arrow.png/a3a4dddc-39fa-96f4-7805-a631ddd255e4?t=1566381121847",
+          "alt": "enlace a..."
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/d/global/fp_hornos_konpact"
+        },
+        {
+          "src": "/documents/20127/35984/arrow.png/a3a4dddc-39fa-96f4-7805-a631ddd255e4?t=1566381121847",
+          "alt": "enlace a..."
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/d/global/fp_hornos_cook-chill"
+        },
+        {
+          "src": "/documents/20127/35984/arrow.png/a3a4dddc-39fa-96f4-7805-a631ddd255e4?t=1566381121847",
+          "alt": "enlace a..."
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/d/global/fp_hornos_envasadora"
+        },
+        {
+          "src": "/documents/20127/35984/arrow.png/a3a4dddc-39fa-96f4-7805-a631ddd255e4?t=1566381121847",
+          "alt": "enlace a..."
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/d/global/fp_hornos_bandejas"
+        },
+        {
+          "src": "/documents/20127/35984/arrow.png/a3a4dddc-39fa-96f4-7805-a631ddd255e4?t=1566381121847",
+          "alt": "enlace a..."
+        },
+        {
+          "src": "/documents/20127/228113/horno-industrial+%281%29.jpg/fc731f69-c1d4-e194-7f98-268d4d52b057?t=1646213735275",
+          "alt": ""
+        },
+        {
+          "src": "/o/fagor-industrial-portal-theme/images/ico-search-bar.png",
+          "alt": ""
+        }
+      ],
+      "model_text_hits": [
+        {
+          "key": "CI-CG604T",
+          "hit": false
+        },
+        {
+          "key": "FE-4",
+          "hit": false
+        },
+        {
+          "key": "APW-061",
+          "hit": false
+        },
+        {
+          "key": "IKORE",
+          "hit": false
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.fagorprofessional.com/en"
+        },
+        {
+          "text": "About us",
+          "href": "https://www.fagorprofessional.com/en/about-us"
+        },
+        {
+          "text": "Foodservice",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances"
+        },
+        {
+          "text": "Foodservice",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances"
+        },
+        {
+          "text": "Cooking",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen"
+        },
+        {
+          "text": "Tailor-made kitchen: Symphony",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/symphony"
+        },
+        {
+          "text": "KORE Monoblock",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/monoblock"
+        },
+        {
+          "text": "Modular kitchen: 900 and 700 Kore Generation",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/kore"
+        },
+        {
+          "text": "High production equipment",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/high-production-equipment"
+        },
+        {
+          "text": "Independent cooking",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/independent-cooking"
+        },
+        {
+          "text": "Ovens",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens"
+        },
+        {
+          "text": "Speed oven",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accelerated-cooking-oven"
+        },
+        {
+          "text": "iKORE Ovens",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/ikore"
+        },
+        {
+          "text": "iKORE Kompact Ovens",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/compact"
+        },
+        {
+          "text": "Cook&Chill Solutions",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/cook-chill"
+        },
+        {
+          "text": "Vacuum packers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/vacuum-packer"
+        },
+        {
+          "text": "Accessories",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accessories"
+        },
+        {
+          "text": "Warewashing",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing"
+        },
+        {
+          "text": "iNOVA Glasswasher",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/glasswashers"
+        },
+        {
+          "text": "iNOVA Front loading dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/front-opening"
+        },
+        {
+          "text": "iNOVA Hood-type dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/hood-type"
+        },
+        {
+          "text": "iNOVA Utensilwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/potwashers"
+        },
+        {
+          "text": "Rack type dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/rack-type"
+        },
+        {
+          "text": "Flight type dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/flight-type"
+        },
+        {
+          "text": "Dishwasher accessories",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/dishwasher-accessories"
+        },
+        {
+          "text": "Commercial refrigeration",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration"
+        },
+        {
+          "text": "Refrigerated cabinets",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/refrigeration-cabinets"
+        },
+        {
+          "text": "Refrigerated counters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/refrigeration-counters"
+        },
+        {
+          "text": "Preparation counters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/preparation-counters"
+        },
+        {
+          "text": "Display cabinets",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/display-cabinets"
+        },
+        {
+          "text": "Blast chillers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/blast-chillers"
+        },
+        {
+          "text": "Bar line",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/coolers"
+        },
+        {
+          "text": "Cellars",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/cellars"
+        },
+        {
+          "text": "Ice makers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/ice-machines"
+        },
+        {
+          "text": "Distribution",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution"
+        },
+        {
+          "text": "Drop-in",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution/drop-in"
+        },
+        {
+          "text": "Self-service",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution/self-service"
+        },
+        {
+          "text": "Distribution trolleys",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution/trolleys"
+        },
+        {
+          "text": "Static Preparation",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation"
+        },
+        {
+          "text": "Sinks, washbasins and professional taps",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/sinks-washbasins-and-professional-taps"
+        },
+        {
+          "text": "Worktops and cabinets",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/worktops-and-cabinets"
+        },
+        {
+          "text": "A combination of neutral and warm-toned furniture",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/combination-of-neutral-and-warm-toned-furniture"
+        },
+        {
+          "text": "Bar Units",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/bar-units"
+        },
+        {
+          "text": "Shelving",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/shelving"
+        },
+        {
+          "text": "Dynamic preparation",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation"
+        },
+        {
+          "text": "Slicers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/professional-slicers"
+        },
+        {
+          "text": "Vegetable cutters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/professional-vegetable-cutter"
+        },
+        {
+          "text": "Picadoras de carne",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/industrial-meat-mincers"
+        },
+        {
+          "text": "Cutters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/cutters-kitchen"
+        },
+        {
+          "text": "Hand Blender",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/industrial-hand-blenders"
+        },
+        {
+          "text": "Potato peelers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/industrial-potato-peelers"
+        },
+        {
+          "text": "Laundry",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery"
+        },
+        {
+          "text": "Laundry",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery"
+        },
+        {
+          "text": "Professional laundry",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery/professional"
+        },
+        {
+          "text": "Professional washers",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery/professional/professional-washer"
+        }
+      ],
+      "ogimage": "https://www.fagorprofessional.com"
+    },
+    {
+      "url": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/ikore",
+      "status": 200,
+      "final_url": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/ikore",
+      "type": "text/html;charset=UTF-8",
+      "title": "iKORE Professional Ovens - iKORE Industrial Ovens",
+      "images": [
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/coccion.png/4c2e3013-2bc8-5c99-1290-603d1db17332?t=1634837069238",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/hornos.png/f3abe2a3-be40-2b1a-36cb-533568f2e852?t=1634837069394",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/lavado-de-vajilla.png/90f68f65-38cc-fb10-8ab6-e0117efbc740?t=1634837069490",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/frio-comercial.png/540eb1a3-d378-d515-d1cb-6dbdfa634d32?t=1634837069340",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/distribucion.png/bfde5623-4cb1-2fc7-4f51-326284060faf?t=1634837069289",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/lavanderia-profesional.png/af364e4a-d245-1012-e448-08dd745a8746?t=1634837069537",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/lavado.png/0234c5bf-d15b-76a2-4c59-ee347171d138?t=1634837069446",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/secado.png/29118e53-d163-0ffd-228c-e6ab506f887c?t=1634837069701",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/d/global/ozono",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/planchado-y-plegado.png/ae77f670-a431-6060-89c1-519d6f9fb81d?t=1634837069591",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/repaso-y-acabado.png/83bdb62e-650c-78c4-45fd-64da8dee04b0?t=1634837069643",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/accesorios.png/7764447b-6fb2-7b4e-1dba-d999d594a60d?t=1634837069140",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/soluciones.png/1361645f-c424-7103-f0d5-a994ed06774f?t=1634837069749",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "/documents/20127/2762604/Hornos+ikore+3.jpg/9d7acad5-e391-835a-ac83-cf5a21059270?t=1710164008782",
+          "alt": ""
+        },
+        {
+          "src": "/documents/20127/2762604/testimonios-fernando.jpg/b077d46e-8187-2a8f-7473-213e209f4648?t=1645701837533",
+          "alt": "client-image"
+        },
+        {
+          "src": "/documents/20127/2762604/testimonio-jonan.jpg/65f33cbe-fd3d-d477-9bbc-2f3379e2ff32?t=1645701955215",
+          "alt": "client-image"
+        },
+        {
+          "src": "/documents/20127/2762604/testimonio-olaia.jpg/e9c72806-41a5-a9e7-2f8c-f6bcabae5ef4?t=1645701825230",
+          "alt": "client-image"
+        },
+        {
+          "src": "/documents/20127/2762604/testimonio-maria.jpg/ee6eedd1-fa4f-3728-60bd-36a084f2acfa?t=1645701861408",
+          "alt": "client-image"
+        },
+        {
+          "src": "/documents/20127/2762604/testimonio-oier.jpg/8ea7ab13-8fb7-a6c5-b1e3-4b106c025da2?t=1645701651451",
+          "alt": "client-image"
+        },
+        {
+          "src": "/o/fagor-industrial-portal-theme/images/ico-search-bar.png",
+          "alt": ""
+        }
+      ],
+      "model_text_hits": [
+        {
+          "key": "CI-CG604T",
+          "hit": false
+        },
+        {
+          "key": "FE-4",
+          "hit": false
+        },
+        {
+          "key": "APW-061",
+          "hit": false
+        },
+        {
+          "key": "IKORE",
+          "hit": false
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.fagorprofessional.com/en"
+        },
+        {
+          "text": "About us",
+          "href": "https://www.fagorprofessional.com/en/about-us"
+        },
+        {
+          "text": "Foodservice",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances"
+        },
+        {
+          "text": "Foodservice",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances"
+        },
+        {
+          "text": "Cooking",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen"
+        },
+        {
+          "text": "Tailor-made kitchen: Symphony",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/symphony"
+        },
+        {
+          "text": "KORE Monoblock",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/monoblock"
+        },
+        {
+          "text": "Modular kitchen: 900 and 700 Kore Generation",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/kore"
+        },
+        {
+          "text": "High production equipment",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/high-production-equipment"
+        },
+        {
+          "text": "Independent cooking",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/independent-cooking"
+        },
+        {
+          "text": "Ovens",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens"
+        },
+        {
+          "text": "Speed oven",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accelerated-cooking-oven"
+        },
+        {
+          "text": "iKORE Ovens",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/ikore"
+        },
+        {
+          "text": "iKORE Kompact Ovens",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/compact"
+        },
+        {
+          "text": "Cook&Chill Solutions",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/cook-chill"
+        },
+        {
+          "text": "Vacuum packers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/vacuum-packer"
+        },
+        {
+          "text": "Accessories",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accessories"
+        },
+        {
+          "text": "Warewashing",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing"
+        },
+        {
+          "text": "iNOVA Glasswasher",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/glasswashers"
+        },
+        {
+          "text": "iNOVA Front loading dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/front-opening"
+        },
+        {
+          "text": "iNOVA Hood-type dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/hood-type"
+        },
+        {
+          "text": "iNOVA Utensilwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/potwashers"
+        },
+        {
+          "text": "Rack type dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/rack-type"
+        },
+        {
+          "text": "Flight type dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/flight-type"
+        },
+        {
+          "text": "Dishwasher accessories",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/dishwasher-accessories"
+        },
+        {
+          "text": "Commercial refrigeration",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration"
+        },
+        {
+          "text": "Refrigerated cabinets",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/refrigeration-cabinets"
+        },
+        {
+          "text": "Refrigerated counters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/refrigeration-counters"
+        },
+        {
+          "text": "Preparation counters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/preparation-counters"
+        },
+        {
+          "text": "Display cabinets",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/display-cabinets"
+        },
+        {
+          "text": "Blast chillers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/blast-chillers"
+        },
+        {
+          "text": "Bar line",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/coolers"
+        },
+        {
+          "text": "Cellars",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/cellars"
+        },
+        {
+          "text": "Ice makers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/ice-machines"
+        },
+        {
+          "text": "Distribution",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution"
+        },
+        {
+          "text": "Drop-in",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution/drop-in"
+        },
+        {
+          "text": "Self-service",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution/self-service"
+        },
+        {
+          "text": "Distribution trolleys",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution/trolleys"
+        },
+        {
+          "text": "Static Preparation",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation"
+        },
+        {
+          "text": "Sinks, washbasins and professional taps",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/sinks-washbasins-and-professional-taps"
+        },
+        {
+          "text": "Worktops and cabinets",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/worktops-and-cabinets"
+        },
+        {
+          "text": "A combination of neutral and warm-toned furniture",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/combination-of-neutral-and-warm-toned-furniture"
+        },
+        {
+          "text": "Bar Units",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/bar-units"
+        },
+        {
+          "text": "Shelving",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/shelving"
+        },
+        {
+          "text": "Dynamic preparation",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation"
+        },
+        {
+          "text": "Slicers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/professional-slicers"
+        },
+        {
+          "text": "Vegetable cutters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/professional-vegetable-cutter"
+        },
+        {
+          "text": "Picadoras de carne",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/industrial-meat-mincers"
+        },
+        {
+          "text": "Cutters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/cutters-kitchen"
+        },
+        {
+          "text": "Hand Blender",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/industrial-hand-blenders"
+        },
+        {
+          "text": "Potato peelers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/industrial-potato-peelers"
+        },
+        {
+          "text": "Laundry",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery"
+        },
+        {
+          "text": "Laundry",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery"
+        },
+        {
+          "text": "Professional laundry",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery/professional"
+        },
+        {
+          "text": "Professional washers",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery/professional/professional-washer"
+        }
+      ],
+      "ogimage": "https://www.fagorprofessional.comhttps://www.fagorprofessional.com/documents/d/global/fp_hornos_ikore"
+    },
+    {
+      "url": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-cooking",
+      "status": 404,
+      "final_url": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-cooking",
+      "type": "text/html;charset=UTF-8",
+      "title": "Fagor Professional",
+      "images": [
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/coccion.png/4c2e3013-2bc8-5c99-1290-603d1db17332?t=1634837069238",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/hornos.png/f3abe2a3-be40-2b1a-36cb-533568f2e852?t=1634837069394",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/lavado-de-vajilla.png/90f68f65-38cc-fb10-8ab6-e0117efbc740?t=1634837069490",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/frio-comercial.png/540eb1a3-d378-d515-d1cb-6dbdfa634d32?t=1634837069340",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/distribucion.png/bfde5623-4cb1-2fc7-4f51-326284060faf?t=1634837069289",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/lavanderia-profesional.png/af364e4a-d245-1012-e448-08dd745a8746?t=1634837069537",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/lavado.png/0234c5bf-d15b-76a2-4c59-ee347171d138?t=1634837069446",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/secado.png/29118e53-d163-0ffd-228c-e6ab506f887c?t=1634837069701",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/d/global/ozono",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/planchado-y-plegado.png/ae77f670-a431-6060-89c1-519d6f9fb81d?t=1634837069591",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/repaso-y-acabado.png/83bdb62e-650c-78c4-45fd-64da8dee04b0?t=1634837069643",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/accesorios.png/7764447b-6fb2-7b4e-1dba-d999d594a60d?t=1634837069140",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/soluciones.png/1361645f-c424-7103-f0d5-a994ed06774f?t=1634837069749",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "/o/fagor-industrial-portal-theme/images/ico-search-bar.png",
+          "alt": ""
+        }
+      ],
+      "model_text_hits": [
+        {
+          "key": "CI-CG604T",
+          "hit": false
+        },
+        {
+          "key": "FE-4",
+          "hit": false
+        },
+        {
+          "key": "APW-061",
+          "hit": false
+        },
+        {
+          "key": "IKORE",
+          "hit": false
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.fagorprofessional.com/en"
+        },
+        {
+          "text": "About us",
+          "href": "https://www.fagorprofessional.com/en/about-us"
+        },
+        {
+          "text": "Foodservice",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances"
+        },
+        {
+          "text": "Foodservice",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances"
+        },
+        {
+          "text": "Cooking",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen"
+        },
+        {
+          "text": "Tailor-made kitchen: Symphony",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/symphony"
+        },
+        {
+          "text": "KORE Monoblock",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/monoblock"
+        },
+        {
+          "text": "Modular kitchen: 900 and 700 Kore Generation",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/kore"
+        },
+        {
+          "text": "High production equipment",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/high-production-equipment"
+        },
+        {
+          "text": "Independent cooking",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/independent-cooking"
+        },
+        {
+          "text": "Ovens",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens"
+        },
+        {
+          "text": "Speed oven",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accelerated-cooking-oven"
+        },
+        {
+          "text": "iKORE Ovens",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/ikore"
+        },
+        {
+          "text": "iKORE Kompact Ovens",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/compact"
+        },
+        {
+          "text": "Cook&Chill Solutions",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/cook-chill"
+        },
+        {
+          "text": "Vacuum packers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/vacuum-packer"
+        },
+        {
+          "text": "Accessories",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accessories"
+        },
+        {
+          "text": "Warewashing",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing"
+        },
+        {
+          "text": "iNOVA Glasswasher",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/glasswashers"
+        },
+        {
+          "text": "iNOVA Front loading dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/front-opening"
+        },
+        {
+          "text": "iNOVA Hood-type dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/hood-type"
+        },
+        {
+          "text": "iNOVA Utensilwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/potwashers"
+        },
+        {
+          "text": "Rack type dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/rack-type"
+        },
+        {
+          "text": "Flight type dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/flight-type"
+        },
+        {
+          "text": "Dishwasher accessories",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/dishwasher-accessories"
+        },
+        {
+          "text": "Commercial refrigeration",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration"
+        },
+        {
+          "text": "Refrigerated cabinets",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/refrigeration-cabinets"
+        },
+        {
+          "text": "Refrigerated counters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/refrigeration-counters"
+        },
+        {
+          "text": "Preparation counters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/preparation-counters"
+        },
+        {
+          "text": "Display cabinets",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/display-cabinets"
+        },
+        {
+          "text": "Blast chillers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/blast-chillers"
+        },
+        {
+          "text": "Bar line",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/coolers"
+        },
+        {
+          "text": "Cellars",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/cellars"
+        },
+        {
+          "text": "Ice makers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/ice-machines"
+        },
+        {
+          "text": "Distribution",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution"
+        },
+        {
+          "text": "Drop-in",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution/drop-in"
+        },
+        {
+          "text": "Self-service",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution/self-service"
+        },
+        {
+          "text": "Distribution trolleys",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution/trolleys"
+        },
+        {
+          "text": "Static Preparation",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation"
+        },
+        {
+          "text": "Sinks, washbasins and professional taps",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/sinks-washbasins-and-professional-taps"
+        },
+        {
+          "text": "Worktops and cabinets",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/worktops-and-cabinets"
+        },
+        {
+          "text": "A combination of neutral and warm-toned furniture",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/combination-of-neutral-and-warm-toned-furniture"
+        },
+        {
+          "text": "Bar Units",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/bar-units"
+        },
+        {
+          "text": "Shelving",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/shelving"
+        },
+        {
+          "text": "Dynamic preparation",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation"
+        },
+        {
+          "text": "Slicers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/professional-slicers"
+        },
+        {
+          "text": "Vegetable cutters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/professional-vegetable-cutter"
+        },
+        {
+          "text": "Picadoras de carne",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/industrial-meat-mincers"
+        },
+        {
+          "text": "Cutters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/cutters-kitchen"
+        },
+        {
+          "text": "Hand Blender",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/industrial-hand-blenders"
+        },
+        {
+          "text": "Potato peelers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/industrial-potato-peelers"
+        },
+        {
+          "text": "Laundry",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery"
+        },
+        {
+          "text": "Laundry",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery"
+        },
+        {
+          "text": "Professional laundry",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery/professional"
+        },
+        {
+          "text": "Professional washers",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery/professional/professional-washer"
+        }
+      ],
+      "ogimage": "https://www.fagorprofessional.com"
+    },
+    {
+      "url": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-dishwashers",
+      "status": 404,
+      "final_url": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-dishwashers",
+      "type": "text/html;charset=UTF-8",
+      "title": "Fagor Professional",
+      "images": [
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/coccion.png/4c2e3013-2bc8-5c99-1290-603d1db17332?t=1634837069238",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/hornos.png/f3abe2a3-be40-2b1a-36cb-533568f2e852?t=1634837069394",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/lavado-de-vajilla.png/90f68f65-38cc-fb10-8ab6-e0117efbc740?t=1634837069490",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/frio-comercial.png/540eb1a3-d378-d515-d1cb-6dbdfa634d32?t=1634837069340",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/distribucion.png/bfde5623-4cb1-2fc7-4f51-326284060faf?t=1634837069289",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/lavanderia-profesional.png/af364e4a-d245-1012-e448-08dd745a8746?t=1634837069537",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/lavado.png/0234c5bf-d15b-76a2-4c59-ee347171d138?t=1634837069446",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/secado.png/29118e53-d163-0ffd-228c-e6ab506f887c?t=1634837069701",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/d/global/ozono",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/planchado-y-plegado.png/ae77f670-a431-6060-89c1-519d6f9fb81d?t=1634837069591",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/repaso-y-acabado.png/83bdb62e-650c-78c4-45fd-64da8dee04b0?t=1634837069643",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/accesorios.png/7764447b-6fb2-7b4e-1dba-d999d594a60d?t=1634837069140",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/soluciones.png/1361645f-c424-7103-f0d5-a994ed06774f?t=1634837069749",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "/o/fagor-industrial-portal-theme/images/ico-search-bar.png",
+          "alt": ""
+        }
+      ],
+      "model_text_hits": [
+        {
+          "key": "CI-CG604T",
+          "hit": false
+        },
+        {
+          "key": "FE-4",
+          "hit": false
+        },
+        {
+          "key": "APW-061",
+          "hit": false
+        },
+        {
+          "key": "IKORE",
+          "hit": false
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.fagorprofessional.com/en"
+        },
+        {
+          "text": "About us",
+          "href": "https://www.fagorprofessional.com/en/about-us"
+        },
+        {
+          "text": "Foodservice",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances"
+        },
+        {
+          "text": "Foodservice",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances"
+        },
+        {
+          "text": "Cooking",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen"
+        },
+        {
+          "text": "Tailor-made kitchen: Symphony",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/symphony"
+        },
+        {
+          "text": "KORE Monoblock",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/monoblock"
+        },
+        {
+          "text": "Modular kitchen: 900 and 700 Kore Generation",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/kore"
+        },
+        {
+          "text": "High production equipment",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/high-production-equipment"
+        },
+        {
+          "text": "Independent cooking",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/independent-cooking"
+        },
+        {
+          "text": "Ovens",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens"
+        },
+        {
+          "text": "Speed oven",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accelerated-cooking-oven"
+        },
+        {
+          "text": "iKORE Ovens",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/ikore"
+        },
+        {
+          "text": "iKORE Kompact Ovens",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/compact"
+        },
+        {
+          "text": "Cook&Chill Solutions",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/cook-chill"
+        },
+        {
+          "text": "Vacuum packers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/vacuum-packer"
+        },
+        {
+          "text": "Accessories",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accessories"
+        },
+        {
+          "text": "Warewashing",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing"
+        },
+        {
+          "text": "iNOVA Glasswasher",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/glasswashers"
+        },
+        {
+          "text": "iNOVA Front loading dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/front-opening"
+        },
+        {
+          "text": "iNOVA Hood-type dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/hood-type"
+        },
+        {
+          "text": "iNOVA Utensilwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/potwashers"
+        },
+        {
+          "text": "Rack type dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/rack-type"
+        },
+        {
+          "text": "Flight type dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/flight-type"
+        },
+        {
+          "text": "Dishwasher accessories",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/dishwasher-accessories"
+        },
+        {
+          "text": "Commercial refrigeration",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration"
+        },
+        {
+          "text": "Refrigerated cabinets",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/refrigeration-cabinets"
+        },
+        {
+          "text": "Refrigerated counters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/refrigeration-counters"
+        },
+        {
+          "text": "Preparation counters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/preparation-counters"
+        },
+        {
+          "text": "Display cabinets",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/display-cabinets"
+        },
+        {
+          "text": "Blast chillers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/blast-chillers"
+        },
+        {
+          "text": "Bar line",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/coolers"
+        },
+        {
+          "text": "Cellars",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/cellars"
+        },
+        {
+          "text": "Ice makers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/ice-machines"
+        },
+        {
+          "text": "Distribution",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution"
+        },
+        {
+          "text": "Drop-in",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution/drop-in"
+        },
+        {
+          "text": "Self-service",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution/self-service"
+        },
+        {
+          "text": "Distribution trolleys",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution/trolleys"
+        },
+        {
+          "text": "Static Preparation",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation"
+        },
+        {
+          "text": "Sinks, washbasins and professional taps",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/sinks-washbasins-and-professional-taps"
+        },
+        {
+          "text": "Worktops and cabinets",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/worktops-and-cabinets"
+        },
+        {
+          "text": "A combination of neutral and warm-toned furniture",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/combination-of-neutral-and-warm-toned-furniture"
+        },
+        {
+          "text": "Bar Units",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/bar-units"
+        },
+        {
+          "text": "Shelving",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/shelving"
+        },
+        {
+          "text": "Dynamic preparation",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation"
+        },
+        {
+          "text": "Slicers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/professional-slicers"
+        },
+        {
+          "text": "Vegetable cutters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/professional-vegetable-cutter"
+        },
+        {
+          "text": "Picadoras de carne",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/industrial-meat-mincers"
+        },
+        {
+          "text": "Cutters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/cutters-kitchen"
+        },
+        {
+          "text": "Hand Blender",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/industrial-hand-blenders"
+        },
+        {
+          "text": "Potato peelers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/industrial-potato-peelers"
+        },
+        {
+          "text": "Laundry",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery"
+        },
+        {
+          "text": "Laundry",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery"
+        },
+        {
+          "text": "Professional laundry",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery/professional"
+        },
+        {
+          "text": "Professional washers",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery/professional/professional-washer"
+        }
+      ],
+      "ogimage": "https://www.fagorprofessional.com"
+    },
+    {
+      "url": "https://www.fagorprofessional.com/en/kitchen-appliances/refrigeration",
+      "status": 404,
+      "final_url": "https://www.fagorprofessional.com/en/kitchen-appliances/refrigeration",
+      "type": "text/html;charset=UTF-8",
+      "title": "Fagor Professional",
+      "images": [
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/coccion.png/4c2e3013-2bc8-5c99-1290-603d1db17332?t=1634837069238",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/hornos.png/f3abe2a3-be40-2b1a-36cb-533568f2e852?t=1634837069394",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/lavado-de-vajilla.png/90f68f65-38cc-fb10-8ab6-e0117efbc740?t=1634837069490",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/frio-comercial.png/540eb1a3-d378-d515-d1cb-6dbdfa634d32?t=1634837069340",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/distribucion.png/bfde5623-4cb1-2fc7-4f51-326284060faf?t=1634837069289",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/lavanderia-profesional.png/af364e4a-d245-1012-e448-08dd745a8746?t=1634837069537",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/lavado.png/0234c5bf-d15b-76a2-4c59-ee347171d138?t=1634837069446",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/secado.png/29118e53-d163-0ffd-228c-e6ab506f887c?t=1634837069701",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/d/global/ozono",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/planchado-y-plegado.png/ae77f670-a431-6060-89c1-519d6f9fb81d?t=1634837069591",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/repaso-y-acabado.png/83bdb62e-650c-78c4-45fd-64da8dee04b0?t=1634837069643",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/accesorios.png/7764447b-6fb2-7b4e-1dba-d999d594a60d?t=1634837069140",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/soluciones.png/1361645f-c424-7103-f0d5-a994ed06774f?t=1634837069749",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "/o/fagor-industrial-portal-theme/images/ico-search-bar.png",
+          "alt": ""
+        }
+      ],
+      "model_text_hits": [
+        {
+          "key": "CI-CG604T",
+          "hit": false
+        },
+        {
+          "key": "FE-4",
+          "hit": false
+        },
+        {
+          "key": "APW-061",
+          "hit": false
+        },
+        {
+          "key": "IKORE",
+          "hit": false
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.fagorprofessional.com/en"
+        },
+        {
+          "text": "About us",
+          "href": "https://www.fagorprofessional.com/en/about-us"
+        },
+        {
+          "text": "Foodservice",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances"
+        },
+        {
+          "text": "Foodservice",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances"
+        },
+        {
+          "text": "Cooking",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen"
+        },
+        {
+          "text": "Tailor-made kitchen: Symphony",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/symphony"
+        },
+        {
+          "text": "KORE Monoblock",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/monoblock"
+        },
+        {
+          "text": "Modular kitchen: 900 and 700 Kore Generation",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/kore"
+        },
+        {
+          "text": "High production equipment",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/high-production-equipment"
+        },
+        {
+          "text": "Independent cooking",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/independent-cooking"
+        },
+        {
+          "text": "Ovens",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens"
+        },
+        {
+          "text": "Speed oven",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accelerated-cooking-oven"
+        },
+        {
+          "text": "iKORE Ovens",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/ikore"
+        },
+        {
+          "text": "iKORE Kompact Ovens",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/compact"
+        },
+        {
+          "text": "Cook&Chill Solutions",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/cook-chill"
+        },
+        {
+          "text": "Vacuum packers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/vacuum-packer"
+        },
+        {
+          "text": "Accessories",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accessories"
+        },
+        {
+          "text": "Warewashing",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing"
+        },
+        {
+          "text": "iNOVA Glasswasher",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/glasswashers"
+        },
+        {
+          "text": "iNOVA Front loading dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/front-opening"
+        },
+        {
+          "text": "iNOVA Hood-type dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/hood-type"
+        },
+        {
+          "text": "iNOVA Utensilwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/potwashers"
+        },
+        {
+          "text": "Rack type dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/rack-type"
+        },
+        {
+          "text": "Flight type dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/flight-type"
+        },
+        {
+          "text": "Dishwasher accessories",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/dishwasher-accessories"
+        },
+        {
+          "text": "Commercial refrigeration",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration"
+        },
+        {
+          "text": "Refrigerated cabinets",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/refrigeration-cabinets"
+        },
+        {
+          "text": "Refrigerated counters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/refrigeration-counters"
+        },
+        {
+          "text": "Preparation counters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/preparation-counters"
+        },
+        {
+          "text": "Display cabinets",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/display-cabinets"
+        },
+        {
+          "text": "Blast chillers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/blast-chillers"
+        },
+        {
+          "text": "Bar line",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/coolers"
+        },
+        {
+          "text": "Cellars",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/cellars"
+        },
+        {
+          "text": "Ice makers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/ice-machines"
+        },
+        {
+          "text": "Distribution",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution"
+        },
+        {
+          "text": "Drop-in",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution/drop-in"
+        },
+        {
+          "text": "Self-service",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution/self-service"
+        },
+        {
+          "text": "Distribution trolleys",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution/trolleys"
+        },
+        {
+          "text": "Static Preparation",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation"
+        },
+        {
+          "text": "Sinks, washbasins and professional taps",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/sinks-washbasins-and-professional-taps"
+        },
+        {
+          "text": "Worktops and cabinets",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/worktops-and-cabinets"
+        },
+        {
+          "text": "A combination of neutral and warm-toned furniture",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/combination-of-neutral-and-warm-toned-furniture"
+        },
+        {
+          "text": "Bar Units",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/bar-units"
+        },
+        {
+          "text": "Shelving",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/shelving"
+        },
+        {
+          "text": "Dynamic preparation",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation"
+        },
+        {
+          "text": "Slicers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/professional-slicers"
+        },
+        {
+          "text": "Vegetable cutters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/professional-vegetable-cutter"
+        },
+        {
+          "text": "Picadoras de carne",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/industrial-meat-mincers"
+        },
+        {
+          "text": "Cutters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/cutters-kitchen"
+        },
+        {
+          "text": "Hand Blender",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/industrial-hand-blenders"
+        },
+        {
+          "text": "Potato peelers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/industrial-potato-peelers"
+        },
+        {
+          "text": "Laundry",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery"
+        },
+        {
+          "text": "Laundry",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery"
+        },
+        {
+          "text": "Professional laundry",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery/professional"
+        },
+        {
+          "text": "Professional washers",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery/professional/professional-washer"
+        }
+      ],
+      "ogimage": "https://www.fagorprofessional.com"
+    },
+    {
+      "url": "https://www.fagorprofessional.com/en/foodservice",
+      "status": 404,
+      "final_url": "https://www.fagorprofessional.com/en/foodservice",
+      "type": "text/html;charset=UTF-8",
+      "title": "Fagor Professional",
+      "images": [
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/coccion.png/4c2e3013-2bc8-5c99-1290-603d1db17332?t=1634837069238",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/hornos.png/f3abe2a3-be40-2b1a-36cb-533568f2e852?t=1634837069394",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/lavado-de-vajilla.png/90f68f65-38cc-fb10-8ab6-e0117efbc740?t=1634837069490",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/frio-comercial.png/540eb1a3-d378-d515-d1cb-6dbdfa634d32?t=1634837069340",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/distribucion.png/bfde5623-4cb1-2fc7-4f51-326284060faf?t=1634837069289",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/lavanderia-profesional.png/af364e4a-d245-1012-e448-08dd745a8746?t=1634837069537",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/lavado.png/0234c5bf-d15b-76a2-4c59-ee347171d138?t=1634837069446",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/secado.png/29118e53-d163-0ffd-228c-e6ab506f887c?t=1634837069701",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/d/global/ozono",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/planchado-y-plegado.png/ae77f670-a431-6060-89c1-519d6f9fb81d?t=1634837069591",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/repaso-y-acabado.png/83bdb62e-650c-78c4-45fd-64da8dee04b0?t=1634837069643",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/accesorios.png/7764447b-6fb2-7b4e-1dba-d999d594a60d?t=1634837069140",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/soluciones.png/1361645f-c424-7103-f0d5-a994ed06774f?t=1634837069749",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "/o/fagor-industrial-portal-theme/images/ico-search-bar.png",
+          "alt": ""
+        }
+      ],
+      "model_text_hits": [
+        {
+          "key": "CI-CG604T",
+          "hit": false
+        },
+        {
+          "key": "FE-4",
+          "hit": false
+        },
+        {
+          "key": "APW-061",
+          "hit": false
+        },
+        {
+          "key": "IKORE",
+          "hit": false
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.fagorprofessional.com/en"
+        },
+        {
+          "text": "About us",
+          "href": "https://www.fagorprofessional.com/en/about-us"
+        },
+        {
+          "text": "Foodservice",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances"
+        },
+        {
+          "text": "Foodservice",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances"
+        },
+        {
+          "text": "Cooking",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen"
+        },
+        {
+          "text": "Tailor-made kitchen: Symphony",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/symphony"
+        },
+        {
+          "text": "KORE Monoblock",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/monoblock"
+        },
+        {
+          "text": "Modular kitchen: 900 and 700 Kore Generation",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/kore"
+        },
+        {
+          "text": "High production equipment",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/high-production-equipment"
+        },
+        {
+          "text": "Independent cooking",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/independent-cooking"
+        },
+        {
+          "text": "Ovens",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens"
+        },
+        {
+          "text": "Speed oven",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accelerated-cooking-oven"
+        },
+        {
+          "text": "iKORE Ovens",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/ikore"
+        },
+        {
+          "text": "iKORE Kompact Ovens",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/compact"
+        },
+        {
+          "text": "Cook&Chill Solutions",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/cook-chill"
+        },
+        {
+          "text": "Vacuum packers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/vacuum-packer"
+        },
+        {
+          "text": "Accessories",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accessories"
+        },
+        {
+          "text": "Warewashing",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing"
+        },
+        {
+          "text": "iNOVA Glasswasher",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/glasswashers"
+        },
+        {
+          "text": "iNOVA Front loading dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/front-opening"
+        },
+        {
+          "text": "iNOVA Hood-type dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/hood-type"
+        },
+        {
+          "text": "iNOVA Utensilwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/potwashers"
+        },
+        {
+          "text": "Rack type dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/rack-type"
+        },
+        {
+          "text": "Flight type dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/flight-type"
+        },
+        {
+          "text": "Dishwasher accessories",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/dishwasher-accessories"
+        },
+        {
+          "text": "Commercial refrigeration",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration"
+        },
+        {
+          "text": "Refrigerated cabinets",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/refrigeration-cabinets"
+        },
+        {
+          "text": "Refrigerated counters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/refrigeration-counters"
+        },
+        {
+          "text": "Preparation counters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/preparation-counters"
+        },
+        {
+          "text": "Display cabinets",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/display-cabinets"
+        },
+        {
+          "text": "Blast chillers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/blast-chillers"
+        },
+        {
+          "text": "Bar line",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/coolers"
+        },
+        {
+          "text": "Cellars",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/cellars"
+        },
+        {
+          "text": "Ice makers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/ice-machines"
+        },
+        {
+          "text": "Distribution",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution"
+        },
+        {
+          "text": "Drop-in",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution/drop-in"
+        },
+        {
+          "text": "Self-service",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution/self-service"
+        },
+        {
+          "text": "Distribution trolleys",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution/trolleys"
+        },
+        {
+          "text": "Static Preparation",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation"
+        },
+        {
+          "text": "Sinks, washbasins and professional taps",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/sinks-washbasins-and-professional-taps"
+        },
+        {
+          "text": "Worktops and cabinets",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/worktops-and-cabinets"
+        },
+        {
+          "text": "A combination of neutral and warm-toned furniture",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/combination-of-neutral-and-warm-toned-furniture"
+        },
+        {
+          "text": "Bar Units",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/bar-units"
+        },
+        {
+          "text": "Shelving",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/shelving"
+        },
+        {
+          "text": "Dynamic preparation",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation"
+        },
+        {
+          "text": "Slicers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/professional-slicers"
+        },
+        {
+          "text": "Vegetable cutters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/professional-vegetable-cutter"
+        },
+        {
+          "text": "Picadoras de carne",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/industrial-meat-mincers"
+        },
+        {
+          "text": "Cutters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/cutters-kitchen"
+        },
+        {
+          "text": "Hand Blender",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/industrial-hand-blenders"
+        },
+        {
+          "text": "Potato peelers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/industrial-potato-peelers"
+        },
+        {
+          "text": "Laundry",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery"
+        },
+        {
+          "text": "Laundry",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery"
+        },
+        {
+          "text": "Professional laundry",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery/professional"
+        },
+        {
+          "text": "Professional washers",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery/professional/professional-washer"
+        }
+      ],
+      "ogimage": "https://www.fagorprofessional.com"
+    },
+    {
+      "url": "https://www.fagorprofessional.com/en/search?keywords=CI-CG604T",
+      "status": 200,
+      "final_url": "https://www.fagorprofessional.com/en/search?keywords=CI-CG604T",
+      "type": "text/html;charset=UTF-8",
+      "title": "Search",
+      "images": [
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/coccion.png/4c2e3013-2bc8-5c99-1290-603d1db17332?t=1634837069238",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/hornos.png/f3abe2a3-be40-2b1a-36cb-533568f2e852?t=1634837069394",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/lavado-de-vajilla.png/90f68f65-38cc-fb10-8ab6-e0117efbc740?t=1634837069490",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/frio-comercial.png/540eb1a3-d378-d515-d1cb-6dbdfa634d32?t=1634837069340",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/distribucion.png/bfde5623-4cb1-2fc7-4f51-326284060faf?t=1634837069289",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/lavanderia-profesional.png/af364e4a-d245-1012-e448-08dd745a8746?t=1634837069537",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/lavado.png/0234c5bf-d15b-76a2-4c59-ee347171d138?t=1634837069446",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/secado.png/29118e53-d163-0ffd-228c-e6ab506f887c?t=1634837069701",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/d/global/ozono",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/planchado-y-plegado.png/ae77f670-a431-6060-89c1-519d6f9fb81d?t=1634837069591",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/repaso-y-acabado.png/83bdb62e-650c-78c4-45fd-64da8dee04b0?t=1634837069643",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/accesorios.png/7764447b-6fb2-7b4e-1dba-d999d594a60d?t=1634837069140",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/soluciones.png/1361645f-c424-7103-f0d5-a994ed06774f?t=1634837069749",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "/o/fagor-industrial-portal-theme/images/ico-search-bar.png",
+          "alt": ""
+        }
+      ],
+      "model_text_hits": [
+        {
+          "key": "CI-CG604T",
+          "hit": false
+        },
+        {
+          "key": "FE-4",
+          "hit": false
+        },
+        {
+          "key": "APW-061",
+          "hit": false
+        },
+        {
+          "key": "IKORE",
+          "hit": false
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.fagorprofessional.com/en"
+        },
+        {
+          "text": "About us",
+          "href": "https://www.fagorprofessional.com/en/about-us"
+        },
+        {
+          "text": "Foodservice",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances"
+        },
+        {
+          "text": "Foodservice",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances"
+        },
+        {
+          "text": "Cooking",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen"
+        },
+        {
+          "text": "Tailor-made kitchen: Symphony",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/symphony"
+        },
+        {
+          "text": "KORE Monoblock",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/monoblock"
+        },
+        {
+          "text": "Modular kitchen: 900 and 700 Kore Generation",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/kore"
+        },
+        {
+          "text": "High production equipment",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/high-production-equipment"
+        },
+        {
+          "text": "Independent cooking",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/independent-cooking"
+        },
+        {
+          "text": "Ovens",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens"
+        },
+        {
+          "text": "Speed oven",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accelerated-cooking-oven"
+        },
+        {
+          "text": "iKORE Ovens",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/ikore"
+        },
+        {
+          "text": "iKORE Kompact Ovens",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/compact"
+        },
+        {
+          "text": "Cook&Chill Solutions",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/cook-chill"
+        },
+        {
+          "text": "Vacuum packers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/vacuum-packer"
+        },
+        {
+          "text": "Accessories",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accessories"
+        },
+        {
+          "text": "Warewashing",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing"
+        },
+        {
+          "text": "iNOVA Glasswasher",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/glasswashers"
+        },
+        {
+          "text": "iNOVA Front loading dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/front-opening"
+        },
+        {
+          "text": "iNOVA Hood-type dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/hood-type"
+        },
+        {
+          "text": "iNOVA Utensilwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/potwashers"
+        },
+        {
+          "text": "Rack type dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/rack-type"
+        },
+        {
+          "text": "Flight type dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/flight-type"
+        },
+        {
+          "text": "Dishwasher accessories",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/dishwasher-accessories"
+        },
+        {
+          "text": "Commercial refrigeration",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration"
+        },
+        {
+          "text": "Refrigerated cabinets",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/refrigeration-cabinets"
+        },
+        {
+          "text": "Refrigerated counters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/refrigeration-counters"
+        },
+        {
+          "text": "Preparation counters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/preparation-counters"
+        },
+        {
+          "text": "Display cabinets",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/display-cabinets"
+        },
+        {
+          "text": "Blast chillers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/blast-chillers"
+        },
+        {
+          "text": "Bar line",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/coolers"
+        },
+        {
+          "text": "Cellars",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/cellars"
+        },
+        {
+          "text": "Ice makers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/ice-machines"
+        },
+        {
+          "text": "Distribution",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution"
+        },
+        {
+          "text": "Drop-in",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution/drop-in"
+        },
+        {
+          "text": "Self-service",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution/self-service"
+        },
+        {
+          "text": "Distribution trolleys",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution/trolleys"
+        },
+        {
+          "text": "Static Preparation",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation"
+        },
+        {
+          "text": "Sinks, washbasins and professional taps",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/sinks-washbasins-and-professional-taps"
+        },
+        {
+          "text": "Worktops and cabinets",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/worktops-and-cabinets"
+        },
+        {
+          "text": "A combination of neutral and warm-toned furniture",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/combination-of-neutral-and-warm-toned-furniture"
+        },
+        {
+          "text": "Bar Units",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/bar-units"
+        },
+        {
+          "text": "Shelving",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/shelving"
+        },
+        {
+          "text": "Dynamic preparation",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation"
+        },
+        {
+          "text": "Slicers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/professional-slicers"
+        },
+        {
+          "text": "Vegetable cutters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/professional-vegetable-cutter"
+        },
+        {
+          "text": "Picadoras de carne",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/industrial-meat-mincers"
+        },
+        {
+          "text": "Cutters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/cutters-kitchen"
+        },
+        {
+          "text": "Hand Blender",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/industrial-hand-blenders"
+        },
+        {
+          "text": "Potato peelers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/industrial-potato-peelers"
+        },
+        {
+          "text": "Laundry",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery"
+        },
+        {
+          "text": "Laundry",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery"
+        },
+        {
+          "text": "Professional laundry",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery/professional"
+        },
+        {
+          "text": "Professional washers",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery/professional/professional-washer"
+        }
+      ],
+      "ogimage": "https://www.fagorprofessional.com"
+    },
+    {
+      "url": "https://www.fagorprofessional.com/en/search?keywords=FE-4",
+      "status": 200,
+      "final_url": "https://www.fagorprofessional.com/en/search?keywords=FE-4",
+      "type": "text/html;charset=UTF-8",
+      "title": "Search",
+      "images": [
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/coccion.png/4c2e3013-2bc8-5c99-1290-603d1db17332?t=1634837069238",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/hornos.png/f3abe2a3-be40-2b1a-36cb-533568f2e852?t=1634837069394",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/lavado-de-vajilla.png/90f68f65-38cc-fb10-8ab6-e0117efbc740?t=1634837069490",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/frio-comercial.png/540eb1a3-d378-d515-d1cb-6dbdfa634d32?t=1634837069340",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/distribucion.png/bfde5623-4cb1-2fc7-4f51-326284060faf?t=1634837069289",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/lavanderia-profesional.png/af364e4a-d245-1012-e448-08dd745a8746?t=1634837069537",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/lavado.png/0234c5bf-d15b-76a2-4c59-ee347171d138?t=1634837069446",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/secado.png/29118e53-d163-0ffd-228c-e6ab506f887c?t=1634837069701",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/d/global/ozono",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/planchado-y-plegado.png/ae77f670-a431-6060-89c1-519d6f9fb81d?t=1634837069591",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/repaso-y-acabado.png/83bdb62e-650c-78c4-45fd-64da8dee04b0?t=1634837069643",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/accesorios.png/7764447b-6fb2-7b4e-1dba-d999d594a60d?t=1634837069140",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "https://www.fagorprofessional.com/documents/20127/2569008/soluciones.png/1361645f-c424-7103-f0d5-a994ed06774f?t=1634837069749",
+          "alt": "custom-icon"
+        },
+        {
+          "src": "/o/fagor-industrial-portal-theme/images/ico-search-bar.png",
+          "alt": ""
+        }
+      ],
+      "model_text_hits": [
+        {
+          "key": "CI-CG604T",
+          "hit": false
+        },
+        {
+          "key": "FE-4",
+          "hit": false
+        },
+        {
+          "key": "APW-061",
+          "hit": false
+        },
+        {
+          "key": "IKORE",
+          "hit": false
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.fagorprofessional.com/en"
+        },
+        {
+          "text": "About us",
+          "href": "https://www.fagorprofessional.com/en/about-us"
+        },
+        {
+          "text": "Foodservice",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances"
+        },
+        {
+          "text": "Foodservice",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances"
+        },
+        {
+          "text": "Cooking",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen"
+        },
+        {
+          "text": "Tailor-made kitchen: Symphony",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/symphony"
+        },
+        {
+          "text": "KORE Monoblock",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/monoblock"
+        },
+        {
+          "text": "Modular kitchen: 900 and 700 Kore Generation",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/kore"
+        },
+        {
+          "text": "High production equipment",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/high-production-equipment"
+        },
+        {
+          "text": "Independent cooking",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-kitchen/independent-cooking"
+        },
+        {
+          "text": "Ovens",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens"
+        },
+        {
+          "text": "Speed oven",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accelerated-cooking-oven"
+        },
+        {
+          "text": "iKORE Ovens",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/ikore"
+        },
+        {
+          "text": "iKORE Kompact Ovens",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/compact"
+        },
+        {
+          "text": "Cook&Chill Solutions",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/cook-chill"
+        },
+        {
+          "text": "Vacuum packers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/vacuum-packer"
+        },
+        {
+          "text": "Accessories",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/accessories"
+        },
+        {
+          "text": "Warewashing",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing"
+        },
+        {
+          "text": "iNOVA Glasswasher",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/glasswashers"
+        },
+        {
+          "text": "iNOVA Front loading dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/front-opening"
+        },
+        {
+          "text": "iNOVA Hood-type dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/hood-type"
+        },
+        {
+          "text": "iNOVA Utensilwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/potwashers"
+        },
+        {
+          "text": "Rack type dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/rack-type"
+        },
+        {
+          "text": "Flight type dishwashers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/flight-type"
+        },
+        {
+          "text": "Dishwasher accessories",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dishwashing/dishwasher-accessories"
+        },
+        {
+          "text": "Commercial refrigeration",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration"
+        },
+        {
+          "text": "Refrigerated cabinets",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/refrigeration-cabinets"
+        },
+        {
+          "text": "Refrigerated counters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/refrigeration-counters"
+        },
+        {
+          "text": "Preparation counters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/preparation-counters"
+        },
+        {
+          "text": "Display cabinets",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/display-cabinets"
+        },
+        {
+          "text": "Blast chillers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/blast-chillers"
+        },
+        {
+          "text": "Bar line",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/coolers"
+        },
+        {
+          "text": "Cellars",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/cellars"
+        },
+        {
+          "text": "Ice makers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/commercial-refrigeration/ice-machines"
+        },
+        {
+          "text": "Distribution",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution"
+        },
+        {
+          "text": "Drop-in",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution/drop-in"
+        },
+        {
+          "text": "Self-service",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution/self-service"
+        },
+        {
+          "text": "Distribution trolleys",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/preparation-distribution/trolleys"
+        },
+        {
+          "text": "Static Preparation",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation"
+        },
+        {
+          "text": "Sinks, washbasins and professional taps",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/sinks-washbasins-and-professional-taps"
+        },
+        {
+          "text": "Worktops and cabinets",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/worktops-and-cabinets"
+        },
+        {
+          "text": "A combination of neutral and warm-toned furniture",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/combination-of-neutral-and-warm-toned-furniture"
+        },
+        {
+          "text": "Bar Units",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/bar-units"
+        },
+        {
+          "text": "Shelving",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/static-preparation/shelving"
+        },
+        {
+          "text": "Dynamic preparation",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation"
+        },
+        {
+          "text": "Slicers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/professional-slicers"
+        },
+        {
+          "text": "Vegetable cutters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/professional-vegetable-cutter"
+        },
+        {
+          "text": "Picadoras de carne",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/industrial-meat-mincers"
+        },
+        {
+          "text": "Cutters",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/cutters-kitchen"
+        },
+        {
+          "text": "Hand Blender",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/industrial-hand-blenders"
+        },
+        {
+          "text": "Potato peelers",
+          "href": "https://www.fagorprofessional.com/en/kitchen-appliances/dynamic-preparation/industrial-potato-peelers"
+        },
+        {
+          "text": "Laundry",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery"
+        },
+        {
+          "text": "Laundry",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery"
+        },
+        {
+          "text": "Professional laundry",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery/professional"
+        },
+        {
+          "text": "Professional washers",
+          "href": "https://www.fagorprofessional.com/en/laundry-machinery/professional/professional-washer"
+        }
+      ],
+      "ogimage": "https://www.fagorprofessional.com"
+    }
+  ]
+}
