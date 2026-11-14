@@ -20,7 +20,7 @@ test('catalog overrides apply edits and hide only public products',async()=>{
  const source=[{id:'maxima:123',name:'Original',description:'Original description',image_url:null},{id:'maxima:456',name:'Visible'}];
  const env={
   ASSETS:{fetch:async()=>new Response(JSON.stringify(source),{status:200})},
-  ADMIN_DB:{prepare:sql=>({all:async()=>({results:[
+  ADMIN_DB:{prepare:sql=>({all:async()=>({results:sql.includes('admin_custom_products')?[]:[
    {product_id:'maxima:123',custom_name:'Edited',custom_description:null,image_url:'https://example.com/image.jpg',hidden:1,featured:1}
   ]})})}
  };
