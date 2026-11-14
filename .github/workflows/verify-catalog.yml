@@ -13,6 +13,7 @@ on:
       - 'scripts/copy-static.mjs'
       - 'scripts/build-product-illustrations.mjs'
       - 'scripts/premium-product-illustrations.mjs'
+      - 'scripts/build-illustration-showcase.mjs'
       - 'scripts/verify-product-visuals.mjs'
       - 'scripts/sync-supplier-feeds.mjs'
       - 'scripts/catalog-url.mjs'
@@ -36,6 +37,21 @@ jobs:
         run: npm test
       - name: Build deployable website
         run: npm run build
+      - name: Verify all SVG illustrations are valid and branded as illustrations
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+          files=list(Path('dist/media/product-illustrations').glob('*.svg'))
+          assert len(files)==1044, len(files)
+          for svg in files:
+              content=svg.read_text()
+              assert 'ILLUSZTRÁCIÓ' in content and 'NEM GYÁRTÓI FOTÓ' in content, svg.name
+              root=ET.fromstring(content)
+              assert root.tag.endswith('svg'), svg.name
+          assert Path('dist/illusztracio-bemutato.html').exists()
+          print('Validated',len(files),'machine illustrations as properly formed SVG')
+          PY
       - name: Confirm all Maxima SKUs have image URLs
         run: |
           node --input-type=module -e "import fs from 'node:fs';const p=JSON.parse(fs.readFileSync('data/maxima-products.json'));if(p.some(x=>!x.image_url))throw Error('Missing product image URL');console.log(p.length+' photo URLs present');"
