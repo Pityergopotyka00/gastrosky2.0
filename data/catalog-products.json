@@ -5816,9 +5816,12 @@
     "record_status": "official_2026_model_article_reference",
     "price": null,
     "availability": null,
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://cateringinventar.dk/wp-content/uploads/2024/05/83d8410b-827d-4e41-86dd-6f383687727c.jpg",
+    "photo_status": "real_product_photo_http_verified_reuse_rights_to_confirm",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "retailer_real_product_photo_sku_verified",
+    "image_reference_page": "https://cateringinventar.dk/produkter/maskiner-smaa-el/koge-varme-og-stege/gas-grill-b-g705-fagor/",
+    "photo_match_type": "exact_manufacturer_sku_and_model_product_gallery"
   },
   {
     "id": "fagor:19074716",
