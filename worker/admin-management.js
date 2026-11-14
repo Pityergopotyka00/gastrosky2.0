@@ -109,7 +109,7 @@ export async function handleAdminManagement(request,env,user){
  }
  if(path==='/api/admin/quotes'&&method==='GET'){
   const r=await env.ADMIN_DB.prepare('SELECT id,customer_name,customer_email,note,status,created_at,updated_at FROM admin_quote_notes ORDER BY updated_at DESC LIMIT 100').all();
-  return reply({items:r.results||[],source:'manual_followups_only'});
+  return reply({items:r.results||[],source:'admin_followups_and_confirmed_website_quotes'});
  }
  if(path==='/api/admin/quotes'&&method==='POST'){
   if(!ownerOnly(user))return reply({error:'owner_required'},403);
