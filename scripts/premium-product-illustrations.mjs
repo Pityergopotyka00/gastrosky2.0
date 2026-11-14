@@ -220,7 +220,7 @@ function typeOf(p){
  if(/sütő|suto|oven|konvek|combi|gőzpárol|gozparol|ikore/.test(s))return 'oven';
  return 'equipment';
 }
-const art={oven,fridge,blast:()=>fridge(true),dishwasher,hoodwasher:()=>dishwasher(true),glasswasher:()=>dishwasher(false,true),fryer,griddle,stove:stovetop,table:worktable,sink,shelf,mixer,slicer,grinder,ice,pizza,accessory,coffee,kettle,equipment:generic};
+const art={oven,fridge,blast:()=>fridge(true),dishwasher,hoodwasher:()=>dishwasher(true),glasswasher:()=>dishwasher(false,true),fryer,griddle,stove:stovetop,table:worktable,sink,shelf,mixer,slicer,grinder,ice:iceMachine,pizza,accessory,coffee,kettle,equipment:generic};
 const definitions='<defs>'+
  '<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f4f8fb"/><stop offset=".57" stop-color="#dae5ee"/><stop offset="1" stop-color="#cbdce8"/></linearGradient>'+
  '<linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f9fcfe"/><stop offset=".17" stop-color="#d1dce4"/><stop offset=".4" stop-color="#f7fafb"/><stop offset=".68" stop-color="#a4b8c6"/><stop offset="1" stop-color="#e2edf3"/></linearGradient>'+
