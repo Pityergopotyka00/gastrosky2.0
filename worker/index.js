@@ -1,5 +1,5 @@
 import {handleQuote,quoteConfig} from './quotes.js';
-import {securityResponse,rejectUnsafeRequest} from './security.js';
+import {securityResponse,rejectUnsafeRequest,rateLimitRequest} from './security.js';
 // Read prevalidated authorized supplier-feed snapshots from Cloudflare static assets.
 // Customers never trigger a supplier request; GitHub Actions updates snapshot files on schedule.
 const headers={'content-type':'application/json; charset=utf-8','cache-control':'no-store','x-content-type-options':'nosniff'};
@@ -15,6 +15,8 @@ export default{
  async fetch(request,env){
   const denied=rejectUnsafeRequest(request);
   if(denied)return securityResponse(denied);
+  const throttled=await rateLimitRequest(request,env);
+  if(throttled)return securityResponse(throttled);
   return securityResponse(await handleStorefrontRequest(request,env));
  }
 };
@@ -51,7 +53,7 @@ async function handleStorefrontRequest(request,env){
   if(url.pathname==='/api/products'&&request.method==='GET'){
    try{
     const all=await readAsset(env,'/data/catalog-products.json',url);
-    const limit=Math.min(100,Math.max(1,parseInt(url.searchParams.get('limit')||'25',10)||25));
+    const limit=Math.min(30,Math.max(1,parseInt(url.searchParams.get('limit')||'25',10)||25));
     const offset=Math.max(0,parseInt(url.searchParams.get('offset')||'0',10)||0);
     return json({items:all.slice(offset,offset+limit).map(p=>({id:p.id,sku:p.sku,name:p.name,manufacturer:p.manufacturer,category:p.category,image_url:p.image_url||null})),total:all.length,offset,limit});
    }catch{return json({error:'catalog_unavailable'},503)}
