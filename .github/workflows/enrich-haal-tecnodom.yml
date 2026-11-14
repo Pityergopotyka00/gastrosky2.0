@@ -7,6 +7,9 @@ on:
       - '.github/workflows/enrich-haal-tecnodom.yml'
 permissions:
   contents: write
+concurrency:
+  group: gastrosky-supplier-media
+  cancel-in-progress: false
 jobs:
   images:
     runs-on: ubuntu-latest
