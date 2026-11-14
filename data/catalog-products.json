@@ -23099,10 +23099,11 @@
     "availability": null,
     "record_status": "manufacturer_official_public_reference",
     "source_type": "manufacturer_product_page",
-    "image_url": null,
-    "image_source": "manufacturer_image_pending",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "supplier_stock_unverified"
+    "image_url": "https://avalaks.com.ua/image/catalog/posudomoechnoe-oboru-folder/4/wp-content-uploads-2025-03-44.jpg",
+    "image_source": "exact_model_independent_listing",
+    "photo_status": "search_result_matched_model_http_unverified",
+    "stock_source_status": "supplier_stock_unverified",
+    "photo_match_type": "retailer_exact_model"
   },
   {
     "id": "sistemaproject:s200",
@@ -23221,10 +23222,11 @@
     "availability": null,
     "record_status": "manufacturer_official_public_reference",
     "source_type": "manufacturer_product_page",
-    "image_url": null,
-    "image_source": "manufacturer_image_pending",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "supplier_stock_unverified"
+    "image_url": "https://adukft.hu/image/cache/catalog/product%20images/08%20mosogatastechnika/01%20mosogatogepek/T1215-open-800x800px%20m%C3%A1solata-800x800.jpg",
+    "image_source": "exact_model_independent_listing",
+    "photo_status": "search_result_matched_model_http_unverified",
+    "stock_source_status": "supplier_stock_unverified",
+    "photo_match_type": "retailer_exact_model"
   },
   {
     "id": "sistemaproject:t1215-energy",
