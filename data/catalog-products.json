@@ -12899,9 +12899,11 @@
     "availability": null,
     "record_status": "official_range_model_reference",
     "source_type": "manufacturer_public_catalog",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://www.njuskalo.hr/image-w920x690/ugostiteljske-perilice/akcija-perilica-casa-krupps-c426-slika-266587050.jpg",
+    "photo_status": "matching_model_photo_found_web_not_http_verified",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "model_matched_retailer_product_page",
+    "photo_match_type": "exact_model_retailer_page"
   },
   {
     "id": "krupps:C432",
@@ -13181,9 +13183,11 @@
     "availability": null,
     "record_status": "official_range_model_reference",
     "source_type": "manufacturer_public_catalog",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://f.fcdn.app/imgs/8a1dc9/www.basan.com.uy/basauy/4855/original/catalogo/C640_C640_2/600x600/lavavajilla-industrial-digital-krupps-c640-lavavajilla-industrial-digital-krupps-c640.jpg",
+    "photo_status": "matching_model_photo_found_web_not_http_verified",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "model_matched_retailer_product_page",
+    "photo_match_type": "exact_model_retailer_page"
   },
   {
     "id": "krupps:C640-BT",
@@ -13297,8 +13301,11 @@
     "availability": null,
     "record_status": "official_manufacturer_model_index",
     "source_type": "manufacturer_public_catalog",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_availability_evidence"
+    "photo_status": "matching_model_photo_found_web_not_http_verified",
+    "stock_source_status": "pending_supplier_availability_evidence",
+    "image_url": "https://www.progettocucinagroup.com/272-large_default/lavastoviglie-a-capote-ch110-krupps.jpg",
+    "image_source": "model_matched_retailer_product_page",
+    "photo_match_type": "exact_model_retailer_page"
   },
   {
     "id": "krupps:CH110-BT",
