@@ -1,0 +1,18 @@
+:root{color-scheme:dark;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;font-size:16px;background:#0a1523;color:#eef4fb}
+*{box-sizing:border-box}body{margin:0;min-height:100dvh;background:radial-gradient(ellipse at 15% 4%,#193f58 0,transparent 45%),linear-gradient(135deg,#0b1728,#101f33)}
+.shell{width:min(100% - 32px,500px);margin:0 auto;padding:38px 0 28px}
+.brand{display:flex;gap:12px;align-items:center;color:#f6d18c;font-size:21px;font-weight:850;letter-spacing:1.8px;text-decoration:none;margin:0 0 32px}
+.brand small{display:block;color:#c9d8e5;font-weight:500;font-size:10px;letter-spacing:2px;margin-top:3px}
+.logo{display:grid;place-items:center;background:#122d44;color:#f4cf86;border:1px solid #9e7b45;border-radius:14px;width:51px;height:51px;font-size:29px}
+.panel{background:#13273d;border:1px solid #3b5167;border-radius:20px;padding:clamp(22px,5vw,36px);box-shadow:0 18px 55px #0006}
+.eyebrow{color:#e7ba73;font-size:12px;font-weight:700;letter-spacing:2px}h1{font-size:clamp(28px,6vw,37px);margin:9px 0 12px}h2{font-size:24px;margin:12px 0}
+.intro,.note{color:#bdcddd;line-height:1.55;font-size:14px;margin:0 0 26px}
+form{display:grid;gap:10px}label{font-weight:700;font-size:14px;margin-top:8px}
+input{width:100%;min-width:0;border:1px solid #597089;background:#0c1b2d;color:#fff;border-radius:10px;padding:14px 15px;font:inherit;font-size:16px}
+input:focus-visible,button:focus-visible{outline:3px solid #e0b775;outline-offset:2px}
+button{cursor:pointer;background:#ebbe76;color:#0c2233;border:0;border-radius:11px;font:inherit;font-size:15px;font-weight:800;min-height:49px;padding:12px;margin-top:14px}
+button:hover{background:#f5d092}button:disabled{cursor:wait;opacity:.65}
+#status{color:#e5d0ac;font-size:14px;line-height:1.5;min-height:22px;margin:17px 0 0}#status[data-state="error"]{color:#ffb3b3}
+#account[hidden],#login[hidden]{display:none!important}
+.foot{text-align:center;color:#93a9bd;font-size:12px;line-height:1.5;margin:20px auto}
+@media(max-width:500px){.shell{padding-top:22px}.brand{margin-bottom:22px}.panel{border-radius:16px}}
