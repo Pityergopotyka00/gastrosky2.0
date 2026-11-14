@@ -140,7 +140,11 @@ export async function handleAdminRequest(request,env){
   if(url.pathname==='/api/admin/session'&&request.method==='GET'){
    const current=await session(request,env);
    if(!current)return secureHeaders(json({authenticated:false},401,{'set-cookie':clearCookie()}));
-   return secureHeaders(json({authenticated:true,email:current.email,role:current.role}));
+   // Reissue a CSRF token to the same-origin authenticated browser after reload.
+   // No CSRF token is ever placed in a cookie or URL.
+   const csrf=randomHex(32);
+   await env.ADMIN_DB.prepare('UPDATE admin_sessions SET csrf_hash=? WHERE id=? AND revoked_at IS NULL').bind(await sha256(csrf),current.id).run();
+   return secureHeaders(json({authenticated:true,email:current.email,role:current.role,csrfToken:csrf}));
   }
   if(url.pathname==='/api/admin/logout'&&request.method==='POST'){
    const current=await session(request,env);
