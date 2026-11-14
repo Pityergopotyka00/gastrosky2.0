@@ -5888,9 +5888,12 @@
     "record_status": "official_2026_model_article_reference",
     "price": null,
     "availability": null,
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://cateringinventar.dk/wp-content/uploads/2024/05/80f3e1a0-18de-49a7-b17c-a7832dffae89.jpg",
+    "photo_status": "real_product_photo_http_verified_reuse_rights_to_confirm",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "retailer_real_product_photo_sku_verified",
+    "image_reference_page": "https://cateringinventar.dk/produkter/maskiner-smaa-el/koge-varme-og-stege/gas-grill-b-g705-i-fagor/",
+    "photo_match_type": "exact_manufacturer_sku_and_model_product_gallery"
   },
   {
     "id": "fagor:19074782",
@@ -6465,9 +6468,12 @@
     "record_status": "official_2026_model_article_reference",
     "price": null,
     "availability": null,
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://contessa.rs/wp-content/uploads/2020/12/rostilj-fagor-struja-ravna-ploca-800-mm.jpg",
+    "photo_status": "real_product_photo_http_verified_reuse_rights_to_confirm",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "retailer_real_product_photo_sku_verified",
+    "image_reference_page": "https://contessa.rs/proizvod/elektricni-rostilj-ravna-ploca-700/",
+    "photo_match_type": "exact_manufacturer_sku_and_model_product_gallery"
   },
   {
     "id": "fagor:19101248",
@@ -6489,9 +6495,12 @@
     "record_status": "official_2026_model_article_reference",
     "price": null,
     "availability": null,
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://contessa.rs/wp-content/uploads/2022/06/gasni-rostilj-fagor-ravni-FT-G710-L.jpg",
+    "photo_status": "real_product_photo_http_verified_reuse_rights_to_confirm",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "retailer_real_product_photo_sku_verified",
+    "image_reference_page": "https://contessa.rs/proizvod/gasni-rostilj-ravna-ploca-fagor-ft-g710-l-serija-700/",
+    "photo_match_type": "exact_manufacturer_sku_and_model_product_gallery"
   },
   {
     "id": "fagor:19101249",
@@ -6537,9 +6546,12 @@
     "record_status": "official_2026_model_article_reference",
     "price": null,
     "availability": null,
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://contessa.rs/wp-content/uploads/2020/12/rostilj-fagor-struja-ravna-ploca-400-mm.jpg",
+    "photo_status": "real_product_photo_http_verified_reuse_rights_to_confirm",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "retailer_real_product_photo_sku_verified",
+    "image_reference_page": "https://contessa.rs/proizvod/profesionalni-strujni-rostilj-ravna-ploca/",
+    "photo_match_type": "exact_manufacturer_sku_and_model_product_gallery"
   },
   {
     "id": "fagor:19101391",
