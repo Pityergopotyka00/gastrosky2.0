@@ -53,7 +53,7 @@ for(const path of paths){
  await new Promise(r=>setTimeout(r,200));
 }
 const images=[...found.values()];
-for(const item of images.slice(0,100)){
+for(const item of images){
  try{
   const r=await fetch(item.image_url,{method:'GET',signal:AbortSignal.timeout(8000),headers:{Range:'bytes=0-100','User-Agent':'GastroSkyCatalogMedia/1.0'}});
   item.is_image=r.ok&&(r.headers.get('content-type')||'').toLowerCase().startsWith('image/');
