@@ -127,6 +127,7 @@ export async function handleAdminRequest(request,env){
    if(passwordOK)step=await validateTotp(user.totp_encrypted,code,user.last_totp_step,env,now);
    if(!passwordOK||step===null){
     await env.ADMIN_DB.prepare('UPDATE admin_users SET failed_attempts=failed_attempts+1,locked_until=CASE WHEN failed_attempts+1>=? THEN ? ELSE locked_until END WHERE id=?').bind(MAX_FAILURES,now+LOCK_MS,user.id).run();
+    await env.ADMIN_DB.prepare('INSERT INTO admin_audit_log (actor_id,event,occurred_at) VALUES (?,?,?)').bind(user.id,'login_failed',now).run();
     return secureHeaders(fail());
    }
    // Consume TOTP once, even across competing requests; prevents code replay.
@@ -134,6 +135,7 @@ export async function handleAdminRequest(request,env){
    if(update.meta?.changes!==1)return secureHeaders(fail());
    const token=randomHex(32),csrf=randomHex(32);
    await env.ADMIN_DB.prepare('INSERT INTO admin_sessions (id,user_id,token_hash,csrf_hash,created_at,last_seen,expires_at) VALUES (?,?,?,?,?,?,?)').bind(crypto.randomUUID(),user.id,await sha256(token),await sha256(csrf),now,now,now+SESSION_MAX_MS).run();
+   await env.ADMIN_DB.prepare('INSERT INTO admin_audit_log (actor_id,event,occurred_at) VALUES (?,?,?)').bind(user.id,'login_success',now).run();
    const response=json({ok:true,email:user.email,role:user.role,csrfToken:csrf},200,{'set-cookie':sessionCookie(token)});
    return secureHeaders(response);
   }
@@ -151,7 +153,9 @@ export async function handleAdminRequest(request,env){
    if(!current)return secureHeaders(json({authenticated:false},401,{'set-cookie':clearCookie()}));
    const csrf=request.headers.get('x-csrf-token')||'';
    if(!/^[0-9a-f]{64}$/i.test(csrf)||!equalHex(await sha256(csrf),current.csrf_hash))return secureHeaders(json({error:'forbidden'},403));
-   await env.ADMIN_DB.prepare('UPDATE admin_sessions SET revoked_at=? WHERE id=?').bind(Date.now(),current.id).run();
+   const now=Date.now();
+   await env.ADMIN_DB.prepare('UPDATE admin_sessions SET revoked_at=? WHERE id=?').bind(now,current.id).run();
+   await env.ADMIN_DB.prepare('INSERT INTO admin_audit_log (actor_id,event,occurred_at) VALUES (?,?,?)').bind(current.user_id,'logout',now).run();
    return secureHeaders(json({ok:true},200,{'set-cookie':clearCookie()}));
   }
   // No open CRUD API until each operation has permission tests and auditing.
