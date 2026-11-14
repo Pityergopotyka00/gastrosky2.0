@@ -1,3 +1,4 @@
+import {getCatalogWithOverrides} from './admin-management.js';
 import {handleQuote,quoteConfig} from './quotes.js';
 import {handleAdminRequest,isAdminPath} from './admin-auth.js';
 import {securityResponse,rejectUnsafeRequest,rateLimitRequest} from './security.js';
@@ -26,15 +27,21 @@ export default{
 };
 async function handleStorefrontRequest(request,env){
   const url=new URL(request.url);
+  if(url.pathname==='/data/catalog-products.json'&&request.method==='GET'){
+   try{return new Response(JSON.stringify(await getCatalogWithOverrides(env,url)),{
+    headers:{'content-type':'application/json; charset=utf-8','cache-control':'public, max-age=60','x-content-type-options':'nosniff'}
+   });}
+   catch{return json({error:'catalog_unavailable'},503)}
+  }
   if(url.pathname==='/api/quote-config'&&request.method==='GET')return quoteConfig(env);
   if(url.pathname==='/api/quote'&&request.method==='POST')
-    return handleQuote(request,env,()=>readAsset(env,'/data/catalog-products.json',url));
+    return handleQuote(request,env,()=>getCatalogWithOverrides(env,url));
 
   if(url.pathname==='/api/stock'&&request.method==='GET'){
    const id=url.searchParams.get('id')||'';
    if(!/^(?:maxima|hendi|fagor|modular|coldline|krupps|aristarco|sistemaproject|tecnodom|gastrohaal):[\w./-]{1,80}$/i.test(id))return json({error:'invalid_product_id'},400);
    try{
-    const catalog=await readAsset(env,'/data/catalog-products.json',url);
+    const catalog=await getCatalogWithOverrides(env,url);
     const product=catalog.find(p=>p.id===id);
     if(!product)return json({error:'unknown_product'},404);
     const stock=await readAsset(env,'/data/supplier-stock-snapshot.json',url);
@@ -56,7 +63,7 @@ async function handleStorefrontRequest(request,env){
   }
   if(url.pathname==='/api/products'&&request.method==='GET'){
    try{
-    const all=await readAsset(env,'/data/catalog-products.json',url);
+    const all=await getCatalogWithOverrides(env,url);
     const limit=Math.min(30,Math.max(1,parseInt(url.searchParams.get('limit')||'25',10)||25));
     const offset=Math.max(0,parseInt(url.searchParams.get('offset')||'0',10)||0);
     return json({items:all.slice(offset,offset+limit).map(p=>({id:p.id,sku:p.sku,name:p.name,manufacturer:p.manufacturer,category:p.category,image_url:p.image_url||null})),total:all.length,offset,limit});
@@ -65,7 +72,7 @@ async function handleStorefrontRequest(request,env){
   if(url.pathname==='/api/health'&&request.method==='GET'){
    let count=0,records=0,verified=0,feedRecords=0;
    try{
-    const products=await readAsset(env,'/data/catalog-products.json',url);
+    const products=await getCatalogWithOverrides(env,url);
     const stock=await readAsset(env,'/data/supplier-stock-snapshot.json',url);
     count=products.length;
     const now=Date.now(),freshHours=6*60*60*1000;
