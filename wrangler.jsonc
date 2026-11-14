@@ -9,5 +9,23 @@
   "compatibility_date": "2026-11-13",
   "vars": {
     "QUOTE_TO_EMAIL": "info@gastrosky.hu"
-  }
+  },
+  "ratelimits": [
+    {
+      "name": "CATALOG_RATE_LIMITER",
+      "namespace_id": "62014",
+      "simple": {
+        "limit": 90,
+        "period": 60
+      }
+    },
+    {
+      "name": "QUOTE_RATE_LIMITER",
+      "namespace_id": "62015",
+      "simple": {
+        "limit": 12,
+        "period": 60
+      }
+    }
+  ]
 }
