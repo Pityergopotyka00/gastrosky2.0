@@ -1,0 +1,26 @@
+name: Inspect real Fagor product photographs
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/probe-fagor-sku-retail-photos.mjs'
+      - '.github/workflows/probe-fagor-sku-retail-photos.yml'
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci || npm install --no-audit --no-fund
+      - run: node scripts/probe-fagor-sku-retail-photos.mjs
+      - name: Save retail media diagnostic
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/fagor-retail-photo-probe.json
+          git diff --cached --quiet || (git commit -m "Record exact Fagor retailer photo references" && git pull --rebase origin main && git push)
