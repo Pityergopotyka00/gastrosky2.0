@@ -713,6 +713,9 @@ quoteSendButton.onclick=async()=>{
 };
 document.querySelectorAll('[data-brand-filter]').forEach(link=>link.addEventListener('click',()=>{
  const select=document.getElementById('manufacturer');
+ document.getElementById('search').value='';
+ document.getElementById('categoryGroup').value='';
+ document.getElementById('categoryType').value='';
  select.value=link.dataset.brandFilter;
  select.dispatchEvent(new Event('change',{bubbles:true}));
 }));
@@ -722,9 +725,21 @@ renderQuote();
 // The embedded starter catalog remains a fallback if the feed is unavailable.
 async function loadFullSupplierCatalog(){
  try {
-  const response=await fetch('/data/catalog-products.json',{cache:'no-cache'});
-  if(!response.ok)throw Error('Catalog unavailable');
-  const loaded=await response.json();
+  // Prefer the deployed catalog; recover from the public repository if an
+  // incomplete/stale deployment omitted the large catalog asset.
+  const urls=['/data/catalog-products.json','https://raw.githubusercontent.com/Pityergopotyka00/gastrosky2.0/main/data/catalog-products.json'];
+  let loaded=null,lastError=null;
+  for(const url of urls){
+   try{
+    const response=await fetch(url,{cache:'no-store'});
+    if(!response.ok)throw Error('Catalog HTTP '+response.status+' at '+url);
+    const candidate=await response.json();
+    if(!Array.isArray(candidate)||candidate.length<100)throw Error('Incomplete supplier catalog at '+url);
+    loaded=candidate;
+    break;
+   }catch(error){lastError=error;console.warn('Catalog source unavailable:',url,error)}
+  }
+  if(!loaded)throw lastError||Error('Catalog unavailable');
   if(!Array.isArray(loaded)||!loaded.length||!loaded.every(p=>p.id&&p.name&&p.sku&&['Maxima','HENDI','Fagor','Modular','Coldline','Krupps','Aristarco','Sistema Project Italia','Tecnodom','Gastro Haal','GastroSky'].includes(p.manufacturer)))throw Error('Invalid catalog');
   products=loaded;
   // Brand directory counts always reflect the current supplier catalog.
