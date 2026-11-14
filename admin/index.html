@@ -23,10 +23,64 @@
    <button type="submit" id="submit">Biztonságos bejelentkezés</button>
   </form>
   <section id="account" hidden>
-   <h2>Bejelentkeztél</h2>
-   <p id="identity"></p>
-   <p class="note">A termékkezelő felület még fejlesztés alatt áll. Az admin jogosultságok nem adnak hozzáférést készítés alatt álló funkciókhoz.</p>
-   <button id="logout" type="button">Kijelentkezés</button>
+   <div class="dashboard-top"><div><div class="eyebrow">VEZÉRLŐPULT</div><h2>GastroSky Admin</h2><p id="identity"></p></div><button id="logout" class="logout" type="button">Kijelentkezés</button></div>
+   <div class="dash-metrics">
+    <div><strong id="metricProducts">—</strong><span>Termékek</span></div>
+    <div><strong id="metricBrands">—</strong><span>Gyártók</span></div>
+    <div><strong id="metricEdits">—</strong><span>Szerkesztések</span></div>
+    <div><strong id="metricNotes">—</strong><span>Nyitott teendők</span></div>
+   </div>
+   <nav class="dash-nav" aria-label="Admin menü">
+    <button type="button" data-tab="overview" aria-current="page">Áttekintés</button>
+    <button type="button" data-tab="products">Termékek</button>
+    <button type="button" data-tab="promos">Akciók</button>
+    <button type="button" data-tab="quotes">Ajánlatkérések</button>
+    <button type="button" data-tab="brands">Gyártók</button>
+    <button type="button" data-tab="images">Képek</button>
+    <button type="button" data-tab="security">Biztonság</button>
+   </nav>
+   <div class="dash-page" id="tabOverview" data-page="overview">
+    <h3>Áttekintés</h3><p class="note">Termékkatalógus, kiemelések, ajánlatkérési teendők és biztonsági események egy helyen.</p>
+    <div id="overviewDetails" class="summary-list"></div>
+   </div>
+   <div class="dash-page" id="tabProducts" data-page="products" hidden>
+    <h3>Termékkezelés</h3><p class="note">A gyártói adatok érintetlenek maradnak. Itt külön felülírások készülnek.</p>
+    <div class="dash-search"><input id="productSearch" placeholder="Termék neve, cikkszám..." aria-label="Termékkeresés"><select id="productBrand" aria-label="Gyártó"><option value="">Minden gyártó</option></select><button id="searchProducts" type="button">Keresés</button></div>
+    <div id="productResults" class="summary-list"></div><button id="moreProducts" type="button" hidden>További termékek</button>
+    <form id="productEditor" hidden>
+     <h4 id="editingProduct">Termék szerkesztése</h4>
+     <label for="editName">Terméknév (üres = gyártói alapadat)</label><input id="editName" maxlength="180">
+     <label for="editDescription">Leírás (üres = gyártói alapadat)</label><textarea id="editDescription" maxlength="1800" rows="4"></textarea>
+     <label for="editImage">Ellenőrzött HTTPS termékfotó URL</label><input id="editImage" type="url" maxlength="1400" placeholder="https://...">
+     <label class="check-line"><input id="editHidden" type="checkbox">Termék elrejtése a nyilvános katalógusból</label>
+     <label class="check-line"><input id="editFeatured" type="checkbox">Kiemelt termék</label>
+     <button type="submit">Változtatások mentése</button><button type="button" id="cancelEdit" class="muted-button">Mégse</button>
+    </form>
+   </div>
+   <div class="dash-page" data-page="promos" hidden>
+    <h3>Akciók és kiemelések</h3>
+    <p class="note">A napi Akciók jelenleg ellenőrzött, külön szabályrendszer alapján automatikusan rotálódnak. Az egyedi árengedmények kezelését nem kapcsoljuk be ellenőrzött árak nélkül.</p>
+    <p>A termékeknél a <strong>Kiemelt termék</strong> jelölést már kezelheted, a jövőbeni kampányok előkészítéséhez.</p>
+    <button data-jump="products" type="button">Termékek kezelése</button>
+   </div>
+   <div class="dash-page" data-page="quotes" hidden>
+    <h3>Ajánlatkérési teendők</h3>
+    <p class="note">Ez a lista kézzel rögzített ügyfélkövetéseket kezel. A webes ajánlatkérések jelenleg e-mailben érkeznek; azokat még nem importálja automatikusan.</p>
+    <form id="quoteNoteForm"><label for="quoteName">Ügyfél neve</label><input id="quoteName" maxlength="120" required><label for="quoteEmail">E-mail</label><input id="quoteEmail" type="email" maxlength="160" required><label for="quoteText">Megjegyzés</label><textarea id="quoteText" maxlength="1400" rows="3"></textarea><button type="submit">Teendő hozzáadása</button></form>
+    <div id="quoteResults" class="summary-list"></div>
+   </div>
+   <div class="dash-page" data-page="brands" hidden>
+    <h3>Gyártók</h3><p class="note">Az aktuális gyártók a katalógusból töltődnek be. A gyártói import továbbra is GitHubon keresztül történik.</p><div id="brandResults" class="brand-chips"></div>
+   </div>
+   <div class="dash-page" data-page="images" hidden>
+    <h3>Termékfotók</h3><p class="note">Termékfotókat HTTPS képhivatkozással frissíthetsz a Termékek lapon. A közvetlen fájlfeltöltés biztonságos tárolója még nincs bekötve.</p><button data-jump="products" type="button">Fotó hozzáadása termékhez</button>
+   </div>
+   <div class="dash-page" data-page="security" hidden>
+    <h3>Biztonság és hozzáférések</h3><p class="note">Authenticator, lejáró munkamenetek, naplózott módosítások és tulajdonosi jogosultságok.</p>
+    <h4>Adminfiókok</h4><div id="staffResults" class="summary-list"></div>
+    <h4>Legutóbbi események</h4><div id="auditResults" class="summary-list"></div>
+    <p class="note">Új fiókok létrehozása és helyreállítása továbbra is a biztonságos, privát tulajdonosi eljárással történik.</p>
+   </div>
   </section>
   <p id="status" role="status" aria-live="polite"></p>
  </section>
