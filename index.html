@@ -507,7 +507,7 @@ function showDetail(p){
  const content=make('section','gs-detail-content');
  const eyebrow=make('div','gs-detail-eyebrow');
  eyebrow.append(make('span','gs-detail-brand-chip',p.manufacturer),make('span','gs-detail-category',p.category||'Nagykonyhai berendezés'));
- content.append(eyebrow);if(p.promotion?.kind==='discount_quote_request')content.append(make('div','gs-promo-tag','Kedvezményes ajánlat kérhető – a végleges ár az ajánlatban szerepel'));
+ content.append(eyebrow);if(dailyDealIds().has(p.id))content.append(make('div','gs-promo-tag','Mai akciós ajánlat – a végleges ár az egyedi ajánlatban szerepel'));
 
  const identifiers=make('div','gs-detail-identifiers');
  const sku=make('span','gs-detail-identifier','Cikkszám: '+p.sku);
