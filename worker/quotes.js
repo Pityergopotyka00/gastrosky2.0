@@ -103,6 +103,22 @@ export async function handleQuote(request,env,readProducts){
     else console.error('Customer confirmation rejected with HTTP',receipt.status);
    }catch{console.error('Customer confirmation could not be delivered')}
   }
+  // Mirror confirmed quote requests to the private admin follow-up inbox.
+  // E-mail delivery remains the source of truth; a missing admin table must
+  // never produce a false customer-facing delivery failure.
+  if(env.ADMIN_DB?.prepare){
+   try{
+    const t=Date.now();
+    const internalNote=[
+     'Webes ajánlatkérés · '+result.id,
+     'Termékek: '+(productText.length?productText.join(' | '):'Általános megkeresés'),
+     message||'Nincs külön üzenet'
+    ].join('\n').slice(0,1400);
+    await env.ADMIN_DB.prepare(
+     'INSERT INTO admin_quote_notes(id,customer_name,customer_email,note,status,created_at,updated_at,updated_by) VALUES(?,?,?,?,?,?,?,?)'
+    ).bind(crypto.randomUUID(),name,email,internalNote,'new',t,t,'website').run();
+   }catch{console.warn('Private admin quote mirror unavailable');}
+  }
   return reply({ok:true,requestId:result.id,customerConfirmationSent},202);
  }catch{ return reply({error:'email_provider_unavailable'},502)}
 }
