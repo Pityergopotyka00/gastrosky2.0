@@ -17778,5 +17778,181 @@
     "price": null,
     "availability": null,
     "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300463",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300463",
+    "ean": "8719632121541",
+    "name": "Maxima – Kézi kolbásztöltő 10 L",
+    "category": "Élelmiszer-előkészítés",
+    "description": "Maxima professzionális élelmiszer-előkészítő gép gyártói cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09300463"
+    },
+    "source_url": "https://maxima.com/hu/kolbasztolto-10l-fuggoleges-4-toltocsovel-egyutt.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300441",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300441",
+    "ean": "8719632122517",
+    "name": "Maxima – Kézi húskeverő 20 L",
+    "category": "Élelmiszer-előkészítés",
+    "description": "Maxima professzionális élelmiszer-előkészítő gép gyártói cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09300441"
+    },
+    "source_url": "https://maxima.com/hu/huskevero-20l-kezi-15kg-hus.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300442",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300442",
+    "ean": "8719632125969",
+    "name": "Maxima – Kézi húskeverő 30 L",
+    "category": "Élelmiszer-előkészítés",
+    "description": "Maxima professzionális élelmiszer-előkészítő gép gyártói cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09300442"
+    },
+    "source_url": "https://maxima.com/hu/huskevero-30l-kezi-22-5kg-hus.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300440",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300440",
+    "ean": "8719632122500",
+    "name": "Maxima – Kézi húskeverő 10 L",
+    "category": "Élelmiszer-előkészítés",
+    "description": "Maxima professzionális élelmiszer-előkészítő gép gyártói cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09300440"
+    },
+    "source_url": "https://maxima.com/hu/huskevero-10l-kezi-7-5kg-hus.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09368001",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09368001",
+    "ean": "8719632125921",
+    "name": "Maxima – Kézi húskeverő 40 L, két tengely",
+    "category": "Élelmiszer-előkészítés",
+    "description": "Maxima professzionális élelmiszer-előkészítő gép gyártói cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09368001"
+    },
+    "source_url": "https://maxima.com/hu/huskevero-40l-kezi-dupla-tengelyes-30kg-hus.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09368003",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09368003",
+    "ean": "8719632126003",
+    "name": "Maxima – Kézi húskeverő 60 L, két tengely",
+    "category": "Élelmiszer-előkészítés",
+    "description": "Maxima professzionális élelmiszer-előkészítő gép gyártói cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09368003"
+    },
+    "source_url": "https://maxima.com/hu/huskevero-60l-kezi-kettengelyes-45kg-hus.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09368010",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09368010",
+    "ean": "8720365344336",
+    "name": "Maxima – Kézi húskeverő 10 L, billenő",
+    "category": "Élelmiszer-előkészítés",
+    "description": "Maxima professzionális élelmiszer-előkészítő gép gyártói cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09368010"
+    },
+    "source_url": "https://maxima.com/hu/huskevero-kezi-10-literes-billeno-tal.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09368002",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09368002",
+    "ean": "8719632125990",
+    "name": "Maxima – Kézi húskeverő 50 L, két tengely",
+    "category": "Élelmiszer-előkészítés",
+    "description": "Maxima professzionális élelmiszer-előkészítő gép gyártói cikkszámmal.",
+    "specifications": {
+      "Cikkszám": "09368002"
+    },
+    "source_url": "https://maxima.com/hu/huskevero-50l-kezi-kettos-tengely-37-5kg-hus.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
   }
 ]
