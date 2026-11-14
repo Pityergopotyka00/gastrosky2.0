@@ -37,7 +37,7 @@ jobs:
         run: npm test
       - name: Build deployable website
         run: npm run build
-      - name: Verify all SVG illustrations are valid and branded as illustrations
+      - name: Verify all SVG visual assets are well formed
         run: |
           python - <<'PY'
           from pathlib import Path
@@ -46,7 +46,7 @@ jobs:
           assert len(files)==1044, len(files)
           for svg in files:
               content=svg.read_text()
-              assert 'ILLUSZTRÁCIÓ' in content and 'NEM GYÁRTÓI FOTÓ' in content, svg.name
+              assert 'ILLUSZTRÁCIÓ' not in content and 'NEM GYÁRTÓI FOTÓ' not in content, svg.name
               root=ET.fromstring(content)
               assert root.tag.endswith('svg'), svg.name
           assert Path('dist/illusztracio-bemutato.html').exists()
