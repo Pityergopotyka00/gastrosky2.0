@@ -53,6 +53,21 @@ function structuredSkuPhoto($,base,brand,sku){
  }
  return null;
 }
+// Use image captions/alt text only when they identify the exact machine code.
+// This allows product grids to be matched without borrowing unrelated photos.
+function exactCaptionPhoto($,base,brand,sku){
+ const code=norm(sku).replace(/[^A-Z0-9]/g,'');
+ if(code.length<4)return null;
+ const matches=[];
+ $('img').each((_,node)=>{
+  const img=$(node);
+  const candidates=[img.attr('alt'),img.attr('title'),img.closest('figure').find('figcaption').first().text()];
+  if(!candidates.some(v=>norm(v).replace(/[^A-Z0-9]/g,'')===code))return;
+  const url=imageOf($,node,base,brand);
+  if(url&&!/(logo|banner|icon|placeholder|sprite)/i.test(url))matches.push(url);
+ });
+ return [...new Set(matches)].length===1?matches[0]:null;
+}
 const robotsCache=new Map();
 async function robotsPermits(url){
  const u=new URL(url),key=u.origin;if(!robotsCache.has(key)){
@@ -173,6 +188,7 @@ for(const p of queue){
   if(!sourceUrl(src,brand))throw Error('no_official_page');
   const {doc:$,url,body}=await page(src,brand);
   let found=structuredSkuPhoto($,url,brand,p.sku);
+  if(!found){found=exactCaptionPhoto($,url,brand,p.sku);if(found)p.photo_match_type='official_image_exact_caption_sku';}
   if(found)p.photo_match_type='official_structured_data_exact_sku';
   if(!found&&brand==='Aristarco'){
    const result=aristarcoPhoto($,p.sku,url);
