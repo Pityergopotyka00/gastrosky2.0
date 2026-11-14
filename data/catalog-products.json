@@ -4516,14 +4516,12 @@
       "Méret": "400 × 650 × 290 mm",
       "Gáz": "PB-gáz"
     },
-    "image_url": "https://tirol.bg/images/detailed/11/fagor-single-tank-countertop-fryer-8l-ci-fe604t-1-8.jpg",
     "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1",
     "source_type": "official_2026_foodservice_catalogue",
     "record_status": "published_model_data",
     "price": null,
     "availability": null,
-    "image_source": "matching_retailer_product_photo",
-    "photo_status": "retailer_model_page_image_filename_mismatch_review",
+    "photo_status": "product_photo_pending_model_mismatch",
     "publication_status": "public_product_details"
   },
   {
@@ -4542,14 +4540,12 @@
       "Méret": "400 × 650 × 290 mm",
       "Gáz": "Földgáz"
     },
-    "image_url": "https://tirol.bg/images/detailed/11/fagor-single-tank-countertop-fryer-8l-ci-fe604t-1-8.jpg",
     "source_url": "https://www.fagorprofessional.com/documents/d/global/catalogue-foodservice-en-export-1",
     "source_type": "official_2026_foodservice_catalogue",
     "record_status": "published_model_data",
     "price": null,
     "availability": null,
-    "image_source": "matching_retailer_product_photo",
-    "photo_status": "retailer_model_page_image_filename_mismatch_review",
+    "photo_status": "product_photo_pending_model_mismatch",
     "publication_status": "public_product_details"
   },
   {
@@ -7325,9 +7321,7 @@
     "source_url": "https://gastrohaal.sk/hu/termekek/72_burgonyakoptatok/308_skz-25-burgonyakoptato-25kg-adag-ciklus",
     "source_type": "official_manufacturer_product_page",
     "record_status": "manufacturer_page_and_photo_verified",
-    "image_url": "https://gastrohaal.sk/userfiles/products/thumb/SKZ-15_06-2024.28.jpg",
-    "image_source": "official_manufacturer_product_page",
-    "photo_status": "verified_url_display_permission_to_confirm",
+    "photo_status": "product_photo_pending_correct_model",
     "price": null,
     "availability": null,
     "stock_source_status": "unknown"
@@ -7352,9 +7346,7 @@
     "source_url": "https://gastrohaal.sk/hu/termekek/72_burgonyakoptatok/320_lo-1-hulladekfogo-a-burgonyakoptatohoz",
     "source_type": "official_manufacturer_product_page",
     "record_status": "manufacturer_page_and_photo_verified",
-    "image_url": "https://gastrohaal.sk/userfiles/products/thumb/SKZ-15_06-2024.28.jpg",
-    "image_source": "official_manufacturer_product_page",
-    "photo_status": "verified_url_display_permission_to_confirm",
+    "photo_status": "product_photo_pending_correct_model",
     "price": null,
     "availability": null,
     "stock_source_status": "unknown"
@@ -7600,9 +7592,7 @@
     "source_url": "https://gastrohaal.sk/hu/termekek/72_burgonyakoptatok/488_lo-1-v-hulladekfogo-a-burgonyakoptatohoz",
     "source_type": "official_manufacturer_product_page",
     "record_status": "manufacturer_page_and_photo_verified",
-    "image_url": "https://gastrohaal.sk/userfiles/products/thumb/SKZ-15_06-2024.28.jpg",
-    "image_source": "official_manufacturer_product_page",
-    "photo_status": "verified_url_display_permission_to_confirm",
+    "photo_status": "product_photo_pending_correct_model",
     "price": null,
     "availability": null,
     "stock_source_status": "unknown"
@@ -7626,9 +7616,7 @@
     "source_url": "https://gastrohaal.sk/hu/termekek/72_burgonyakoptatok/492_skz-t-external-timer-for-the-potato-peeler",
     "source_type": "official_manufacturer_product_page",
     "record_status": "manufacturer_page_and_photo_verified",
-    "image_url": "https://gastrohaal.sk/userfiles/products/thumb/SKZ-15_06-2024.28.jpg",
-    "image_source": "official_manufacturer_product_page",
-    "photo_status": "verified_url_display_permission_to_confirm",
+    "photo_status": "product_photo_pending_correct_model",
     "price": null,
     "availability": null,
     "stock_source_status": "unknown"
@@ -18393,7 +18381,9 @@
     "record_status": "manufacturer_verified",
     "source_type": "manufacturer_product_page",
     "stock_source_status": "pending_supplier_availability_evidence",
-    "photo_status": "product_photo_pending"
+    "photo_status": "official_manufacturer_product_photo",
+    "image_url": "https://hendi.xcdn.nl/RM265,265/-/229880_OBW_2025_02_IMGP3947.jpg",
+    "image_source": "hendi_official_sku_photo"
   },
   {
     "id": "hendi:227060",
