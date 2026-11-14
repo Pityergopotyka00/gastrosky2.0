@@ -571,6 +571,7 @@ const quoteCount=document.getElementById('quoteCount');
 function saveQuote(){try{localStorage.setItem('gastrosky-quote-v1',JSON.stringify(quoteIds));}catch{}renderQuote();}
 function addToQuote(id){if(!quoteIds.includes(id)){if(quoteIds.length>=40){alert('Legfeljebb 40 terméket választhatsz egy ajánlatkéréshez.');return}quoteIds.push(id)}saveQuote();quoteDialog.showModal();}
 function renderQuote(){
+ // Prune removed products only once the full catalog has loaded.
  const ul=document.getElementById('quoteItems');ul.replaceChildren();
  quoteCount.textContent=String(quoteIds.length);
  document.getElementById('quoteEmpty').hidden=quoteIds.length>0;
@@ -737,7 +738,8 @@ async function loadFullSupplierCatalog(){
   autoCheckVisibleProducts();
  } catch(err) {
   // Keep the preloaded preview products, never invent supplier product counts.
-  console.warn('Only preview catalog is available');
+  console.warn('Only preview catalog is available',err);
+  const status=document.getElementById('statusHint');if(status)status.textContent='A teljes katalógus átmenetileg nem elérhető. Jelenleg csak a mintatermékek jelennek meg; próbáld újratölteni az oldalt.';
  }
 }
 
@@ -860,7 +862,7 @@ function syncCategoriesForManufacturer(){
 window.syncCategoriesForManufacturer=syncCategoriesForManufacturer;
 categoryGroup.addEventListener('change',()=>{categoryType.value='';syncCategoriesForManufacturer();});
 categoryType.addEventListener('change',()=>{document.getElementById('categoryPath').textContent=categoryGroup.value+'  ›  '+(categoryType.value||'Minden terméktípus');visibleLimit=40;render();});
-manufacturer.addEventListener('change',syncCategoriesForManufacturer);
+manufacturer.addEventListener('change',()=>{categoryGroup.value='';categoryType.value='';visibleLimit=40;syncCategoriesForManufacturer();});
 syncCategoriesForManufacturer();
 
 loadFullSupplierCatalog();
