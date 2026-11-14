@@ -746,6 +746,18 @@ async function loadFullSupplierCatalog(){
 /* Two-step storefront taxonomy. The chosen manufacturer limits both steps. */
 const categoryOrder=['Mosogatástechnika','Sütéstechnika','Főzéstechnika','Hűtéstechnika','Jégtechnika','Étel-előkészítés','Melegentartás és tálalás','Kávé- és bártechnika','Rozsdamentes bútorok','Tartozékok és egyéb'];
 function catalogTaxonomy(p){
+ if(p.manufacturer==='Coldline' && p.subcategory){
+  const t=String(p.subcategory);
+  if(/Kelesztőszekrény/i.test(t))return {group:'Hűtéstechnika',type:'Kelesztő- és fermentáló szekrények'};
+  if(/Sokkolóhűtő/i.test(t))return {group:'Hűtéstechnika',type:'Sokkolóhűtők'};
+  if(/Alapanyag-hűtővitrin/i.test(t))return {group:'Hűtéstechnika',type:'Alapanyag-hűtővitrinek'};
+  if(/Pizza hűtőpult/i.test(t))return {group:'Hűtéstechnika',type:'Pizzapultok'};
+  if(/Fagyasztópult/i.test(t))return {group:'Hűtéstechnika',type:'Fagyasztópultok'};
+  if(/Előkészítő hűtőpult/i.test(t))return {group:'Hűtéstechnika',type:'Előkészítő hűtőpultok'};
+  if(/Hűtőpult/i.test(t))return {group:'Hűtéstechnika',type:'Hűtött munkapultok'};
+  if(/Fagyasztószekrény/i.test(t))return {group:'Hűtéstechnika',type:'Ipari fagyasztószekrények'};
+  if(/Hűtőszekrény/i.test(t))return {group:'Hűtéstechnika',type:'Ipari hűtőszekrények'};
+ }
  // Match source categories directly for manufacturers whose product names are mostly model codes.
  if(p.manufacturer==='GastroSky' && p.category==='Rozsdamentes bútorok')
   return {group:'Rozsdamentes bútorok',type:String(p.subcategory||'Egyéb rozsdamentes bútorok')};
