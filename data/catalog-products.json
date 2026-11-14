@@ -21381,10 +21381,11 @@
     "availability": null,
     "record_status": "manufacturer_official_public_reference",
     "source_type": "manufacturer_product_page",
-    "image_url": null,
-    "image_source": "manufacturer_image_pending",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "supplier_stock_unverified"
+    "image_url": "https://hosteleriauno.es/462870-large_default/lavavasos-alpha35-sistema-project.jpg",
+    "image_source": "model_matched_product_listing",
+    "photo_status": "matching_model_photo_found_web_not_http_verified",
+    "stock_source_status": "supplier_stock_unverified",
+    "photo_match_type": "exact_model_listing"
   },
   {
     "id": "sistemaproject:alpha-40",
@@ -22848,10 +22849,11 @@
     "availability": null,
     "record_status": "manufacturer_official_public_reference",
     "source_type": "manufacturer_product_page",
-    "image_url": null,
-    "image_source": "manufacturer_image_pending",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "supplier_stock_unverified"
+    "image_url": "https://res.cloudinary.com/duyol05ga/image/upload/v1767013822/products/n6vs9i6ebmz75jnksz8w.jpg",
+    "image_source": "model_matched_product_listing",
+    "photo_status": "matching_model_photo_found_web_not_http_verified",
+    "stock_source_status": "supplier_stock_unverified",
+    "photo_match_type": "exact_model_listing"
   },
   {
     "id": "sistemaproject:ct-200",
@@ -22971,10 +22973,11 @@
     "availability": null,
     "record_status": "manufacturer_official_public_reference",
     "source_type": "manufacturer_product_page",
-    "image_url": null,
-    "image_source": "manufacturer_image_pending",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "supplier_stock_unverified"
+    "image_url": "https://www.casadelfrigo.com/1287-large_default/lavabicchieri-sistema-project-italia-jet-350.jpg",
+    "image_source": "model_matched_product_listing",
+    "photo_status": "matching_model_photo_found_web_not_http_verified",
+    "stock_source_status": "supplier_stock_unverified",
+    "photo_match_type": "exact_model_listing"
   },
   {
     "id": "sistemaproject:jet-400",
@@ -23043,10 +23046,11 @@
     "availability": null,
     "record_status": "manufacturer_official_public_reference",
     "source_type": "manufacturer_product_page",
-    "image_url": null,
-    "image_source": "manufacturer_image_pending",
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "supplier_stock_unverified"
+    "image_url": "https://mkayn.com/images/detailed/13/2487_517.jpg",
+    "image_source": "model_matched_product_listing",
+    "photo_status": "matching_model_photo_found_web_not_http_verified",
+    "stock_source_status": "supplier_stock_unverified",
+    "photo_match_type": "exact_model_listing"
   },
   {
     "id": "sistemaproject:osmoproject",
