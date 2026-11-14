@@ -1,0 +1,1903 @@
+{
+  "url": "https://coldline.it/en/catalog/1400-lt-5",
+  "models": [
+    {
+      "target": "A140/2BR",
+      "ancestor": [
+        {
+          "depth": 0,
+          "tag": "div",
+          "class": "col-sm-5 text-wrapper no-padding",
+          "id": "",
+          "imgCount": 0,
+          "models": [
+            "A140/2BR",
+            "-18°-22°C",
+            "2 doors remote"
+          ],
+          "images": []
+        },
+        {
+          "depth": 1,
+          "tag": "div",
+          "class": "row",
+          "id": "",
+          "imgCount": 1,
+          "models": [
+            "A140/2BR",
+            "-18°-22°C",
+            "2 doors remote"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__494__product-thumbnail/A14141600201_Armadio_MASTER_1400lt.png"
+          ]
+        },
+        {
+          "depth": 2,
+          "tag": "div",
+          "class": "tab-pane",
+          "id": "product2385",
+          "imgCount": 1,
+          "models": [
+            "A140/2BR",
+            "-18°-22°C",
+            "2 doors remote"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__494__product-thumbnail/A14141600201_Armadio_MASTER_1400lt.png"
+          ]
+        },
+        {
+          "depth": 3,
+          "tag": "div",
+          "class": "tab-content clearfix",
+          "id": "",
+          "imgCount": 2,
+          "models": [
+            "A140/2B",
+            "-18°-22°C",
+            "2 doors",
+            "A140/2BR",
+            "-18°-22°C",
+            "2 doors remote"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__487__product-thumbnail/A14140600201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__494__product-thumbnail/A14141600201_Armadio_MASTER_1400lt.png"
+          ]
+        },
+        {
+          "depth": 4,
+          "tag": "div",
+          "class": "tab-container",
+          "id": "",
+          "imgCount": 2,
+          "models": [
+            "A140/2B",
+            "-18°-22°C",
+            "2 doors",
+            "A140/2BR",
+            "-18°-22°C",
+            "2 doors remote"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__487__product-thumbnail/A14140600201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__494__product-thumbnail/A14141600201_Armadio_MASTER_1400lt.png"
+          ]
+        },
+        {
+          "depth": 5,
+          "tag": "div",
+          "class": "product-row",
+          "id": "",
+          "imgCount": 2,
+          "models": [
+            "A140/2B",
+            "-18°-22°C",
+            "2 doors",
+            "A140/2BR",
+            "-18°-22°C",
+            "2 doors remote"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__487__product-thumbnail/A14140600201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__494__product-thumbnail/A14141600201_Armadio_MASTER_1400lt.png"
+          ]
+        },
+        {
+          "depth": 6,
+          "tag": "div",
+          "class": "container product-list",
+          "id": "",
+          "imgCount": 12,
+          "models": [
+            "A140/2N",
+            "0°+10°C",
+            "2 doors",
+            "A140/2NR",
+            "0°+10°C",
+            "2 doors remote"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__482__product-thumbnail/A14140100201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__488__product-thumbnail/A14141100201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__2082__product-thumbnail/A14140100701_Armadio_MASTER_1400lt_porta_vetro.png",
+            "/catalogo/prodotti/immagini/image-thumb__2086__product-thumbnail/A14141100701_Armadio_MASTER_1400lt_porta_vetro.png"
+          ]
+        },
+        {
+          "depth": 7,
+          "tag": "div",
+          "class": "product-list-page",
+          "id": "",
+          "imgCount": 12,
+          "models": [
+            "A140/2N",
+            "0°+10°C",
+            "2 doors",
+            "A140/2NR",
+            "0°+10°C",
+            "2 doors remote"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__482__product-thumbnail/A14140100201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__488__product-thumbnail/A14141100201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__2082__product-thumbnail/A14140100701_Armadio_MASTER_1400lt_porta_vetro.png",
+            "/catalogo/prodotti/immagini/image-thumb__2086__product-thumbnail/A14141100701_Armadio_MASTER_1400lt_porta_vetro.png"
+          ]
+        },
+        {
+          "depth": 8,
+          "tag": "div",
+          "class": "content",
+          "id": "",
+          "imgCount": 12,
+          "models": [
+            "A140/2N",
+            "0°+10°C",
+            "2 doors",
+            "A140/2NR",
+            "0°+10°C",
+            "2 doors remote"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__482__product-thumbnail/A14140100201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__488__product-thumbnail/A14141100201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__2082__product-thumbnail/A14140100701_Armadio_MASTER_1400lt_porta_vetro.png",
+            "/catalogo/prodotti/immagini/image-thumb__2086__product-thumbnail/A14141100701_Armadio_MASTER_1400lt_porta_vetro.png"
+          ]
+        },
+        {
+          "depth": 9,
+          "tag": "body",
+          "class": "page-en",
+          "id": "",
+          "imgCount": 12,
+          "models": [
+            "A140/2N",
+            "0°+10°C",
+            "2 doors",
+            "A140/2NR",
+            "0°+10°C",
+            "2 doors remote"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__482__product-thumbnail/A14140100201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__488__product-thumbnail/A14141100201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__2082__product-thumbnail/A14140100701_Armadio_MASTER_1400lt_porta_vetro.png",
+            "/catalogo/prodotti/immagini/image-thumb__2086__product-thumbnail/A14141100701_Armadio_MASTER_1400lt_porta_vetro.png"
+          ]
+        }
+      ]
+    },
+    {
+      "target": "A140/2BRV",
+      "ancestor": [
+        {
+          "depth": 0,
+          "tag": "div",
+          "class": "col-sm-5 text-wrapper no-padding",
+          "id": "",
+          "imgCount": 0,
+          "models": [
+            "A140/2BRV",
+            "-18°-22°C",
+            "2 glass doors remote"
+          ],
+          "images": []
+        },
+        {
+          "depth": 1,
+          "tag": "div",
+          "class": "row",
+          "id": "",
+          "imgCount": 1,
+          "models": [
+            "A140/2BRV",
+            "-18°-22°C",
+            "2 glass doors remote"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__2088__product-thumbnail/A14141600701_Armadio_MASTER_1400lt_porta_vetro.png"
+          ]
+        },
+        {
+          "depth": 2,
+          "tag": "div",
+          "class": "tab-pane",
+          "id": "product2386",
+          "imgCount": 1,
+          "models": [
+            "A140/2BRV",
+            "-18°-22°C",
+            "2 glass doors remote"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__2088__product-thumbnail/A14141600701_Armadio_MASTER_1400lt_porta_vetro.png"
+          ]
+        },
+        {
+          "depth": 3,
+          "tag": "div",
+          "class": "tab-content clearfix",
+          "id": "",
+          "imgCount": 2,
+          "models": [
+            "A140/2BV",
+            "-18°-22°C",
+            "2 glass doors",
+            "A140/2BRV",
+            "-18°-22°C",
+            "2 glass doors remote"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__2085__product-thumbnail/A14140600701_Armadio_MASTER_1400lt_porta_vetro.png",
+            "/catalogo/prodotti/immagini/image-thumb__2088__product-thumbnail/A14141600701_Armadio_MASTER_1400lt_porta_vetro.png"
+          ]
+        },
+        {
+          "depth": 4,
+          "tag": "div",
+          "class": "tab-container",
+          "id": "",
+          "imgCount": 2,
+          "models": [
+            "A140/2BV",
+            "-18°-22°C",
+            "2 glass doors",
+            "A140/2BRV",
+            "-18°-22°C",
+            "2 glass doors remote"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__2085__product-thumbnail/A14140600701_Armadio_MASTER_1400lt_porta_vetro.png",
+            "/catalogo/prodotti/immagini/image-thumb__2088__product-thumbnail/A14141600701_Armadio_MASTER_1400lt_porta_vetro.png"
+          ]
+        },
+        {
+          "depth": 5,
+          "tag": "div",
+          "class": "product-row",
+          "id": "",
+          "imgCount": 2,
+          "models": [
+            "A140/2BV",
+            "-18°-22°C",
+            "2 glass doors",
+            "A140/2BRV",
+            "-18°-22°C",
+            "2 glass doors remote"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__2085__product-thumbnail/A14140600701_Armadio_MASTER_1400lt_porta_vetro.png",
+            "/catalogo/prodotti/immagini/image-thumb__2088__product-thumbnail/A14141600701_Armadio_MASTER_1400lt_porta_vetro.png"
+          ]
+        },
+        {
+          "depth": 6,
+          "tag": "div",
+          "class": "container product-list",
+          "id": "",
+          "imgCount": 12,
+          "models": [
+            "A140/2N",
+            "0°+10°C",
+            "2 doors",
+            "A140/2NR",
+            "0°+10°C",
+            "2 doors remote"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__482__product-thumbnail/A14140100201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__488__product-thumbnail/A14141100201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__2082__product-thumbnail/A14140100701_Armadio_MASTER_1400lt_porta_vetro.png",
+            "/catalogo/prodotti/immagini/image-thumb__2086__product-thumbnail/A14141100701_Armadio_MASTER_1400lt_porta_vetro.png"
+          ]
+        },
+        {
+          "depth": 7,
+          "tag": "div",
+          "class": "product-list-page",
+          "id": "",
+          "imgCount": 12,
+          "models": [
+            "A140/2N",
+            "0°+10°C",
+            "2 doors",
+            "A140/2NR",
+            "0°+10°C",
+            "2 doors remote"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__482__product-thumbnail/A14140100201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__488__product-thumbnail/A14141100201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__2082__product-thumbnail/A14140100701_Armadio_MASTER_1400lt_porta_vetro.png",
+            "/catalogo/prodotti/immagini/image-thumb__2086__product-thumbnail/A14141100701_Armadio_MASTER_1400lt_porta_vetro.png"
+          ]
+        },
+        {
+          "depth": 8,
+          "tag": "div",
+          "class": "content",
+          "id": "",
+          "imgCount": 12,
+          "models": [
+            "A140/2N",
+            "0°+10°C",
+            "2 doors",
+            "A140/2NR",
+            "0°+10°C",
+            "2 doors remote"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__482__product-thumbnail/A14140100201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__488__product-thumbnail/A14141100201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__2082__product-thumbnail/A14140100701_Armadio_MASTER_1400lt_porta_vetro.png",
+            "/catalogo/prodotti/immagini/image-thumb__2086__product-thumbnail/A14141100701_Armadio_MASTER_1400lt_porta_vetro.png"
+          ]
+        },
+        {
+          "depth": 9,
+          "tag": "body",
+          "class": "page-en",
+          "id": "",
+          "imgCount": 12,
+          "models": [
+            "A140/2N",
+            "0°+10°C",
+            "2 doors",
+            "A140/2NR",
+            "0°+10°C",
+            "2 doors remote"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__482__product-thumbnail/A14140100201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__488__product-thumbnail/A14141100201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__2082__product-thumbnail/A14140100701_Armadio_MASTER_1400lt_porta_vetro.png",
+            "/catalogo/prodotti/immagini/image-thumb__2086__product-thumbnail/A14141100701_Armadio_MASTER_1400lt_porta_vetro.png"
+          ]
+        }
+      ]
+    },
+    {
+      "target": "A140/2BV",
+      "ancestor": [
+        {
+          "depth": 0,
+          "tag": "div",
+          "class": "col-sm-5 text-wrapper no-padding",
+          "id": "",
+          "imgCount": 0,
+          "models": [
+            "A140/2BV",
+            "-18°-22°C",
+            "2 glass doors"
+          ],
+          "images": []
+        },
+        {
+          "depth": 1,
+          "tag": "div",
+          "class": "row",
+          "id": "",
+          "imgCount": 1,
+          "models": [
+            "A140/2BV",
+            "-18°-22°C",
+            "2 glass doors"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__2085__product-thumbnail/A14140600701_Armadio_MASTER_1400lt_porta_vetro.png"
+          ]
+        },
+        {
+          "depth": 2,
+          "tag": "div",
+          "class": "tab-pane active",
+          "id": "product2370",
+          "imgCount": 1,
+          "models": [
+            "A140/2BV",
+            "-18°-22°C",
+            "2 glass doors"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__2085__product-thumbnail/A14140600701_Armadio_MASTER_1400lt_porta_vetro.png"
+          ]
+        },
+        {
+          "depth": 3,
+          "tag": "div",
+          "class": "tab-content clearfix",
+          "id": "",
+          "imgCount": 2,
+          "models": [
+            "A140/2BV",
+            "-18°-22°C",
+            "2 glass doors",
+            "A140/2BRV",
+            "-18°-22°C",
+            "2 glass doors remote"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__2085__product-thumbnail/A14140600701_Armadio_MASTER_1400lt_porta_vetro.png",
+            "/catalogo/prodotti/immagini/image-thumb__2088__product-thumbnail/A14141600701_Armadio_MASTER_1400lt_porta_vetro.png"
+          ]
+        },
+        {
+          "depth": 4,
+          "tag": "div",
+          "class": "tab-container",
+          "id": "",
+          "imgCount": 2,
+          "models": [
+            "A140/2BV",
+            "-18°-22°C",
+            "2 glass doors",
+            "A140/2BRV",
+            "-18°-22°C",
+            "2 glass doors remote"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__2085__product-thumbnail/A14140600701_Armadio_MASTER_1400lt_porta_vetro.png",
+            "/catalogo/prodotti/immagini/image-thumb__2088__product-thumbnail/A14141600701_Armadio_MASTER_1400lt_porta_vetro.png"
+          ]
+        },
+        {
+          "depth": 5,
+          "tag": "div",
+          "class": "product-row",
+          "id": "",
+          "imgCount": 2,
+          "models": [
+            "A140/2BV",
+            "-18°-22°C",
+            "2 glass doors",
+            "A140/2BRV",
+            "-18°-22°C",
+            "2 glass doors remote"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__2085__product-thumbnail/A14140600701_Armadio_MASTER_1400lt_porta_vetro.png",
+            "/catalogo/prodotti/immagini/image-thumb__2088__product-thumbnail/A14141600701_Armadio_MASTER_1400lt_porta_vetro.png"
+          ]
+        },
+        {
+          "depth": 6,
+          "tag": "div",
+          "class": "container product-list",
+          "id": "",
+          "imgCount": 12,
+          "models": [
+            "A140/2N",
+            "0°+10°C",
+            "2 doors",
+            "A140/2NR",
+            "0°+10°C",
+            "2 doors remote"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__482__product-thumbnail/A14140100201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__488__product-thumbnail/A14141100201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__2082__product-thumbnail/A14140100701_Armadio_MASTER_1400lt_porta_vetro.png",
+            "/catalogo/prodotti/immagini/image-thumb__2086__product-thumbnail/A14141100701_Armadio_MASTER_1400lt_porta_vetro.png"
+          ]
+        },
+        {
+          "depth": 7,
+          "tag": "div",
+          "class": "product-list-page",
+          "id": "",
+          "imgCount": 12,
+          "models": [
+            "A140/2N",
+            "0°+10°C",
+            "2 doors",
+            "A140/2NR",
+            "0°+10°C",
+            "2 doors remote"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__482__product-thumbnail/A14140100201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__488__product-thumbnail/A14141100201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__2082__product-thumbnail/A14140100701_Armadio_MASTER_1400lt_porta_vetro.png",
+            "/catalogo/prodotti/immagini/image-thumb__2086__product-thumbnail/A14141100701_Armadio_MASTER_1400lt_porta_vetro.png"
+          ]
+        },
+        {
+          "depth": 8,
+          "tag": "div",
+          "class": "content",
+          "id": "",
+          "imgCount": 12,
+          "models": [
+            "A140/2N",
+            "0°+10°C",
+            "2 doors",
+            "A140/2NR",
+            "0°+10°C",
+            "2 doors remote"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__482__product-thumbnail/A14140100201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__488__product-thumbnail/A14141100201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__2082__product-thumbnail/A14140100701_Armadio_MASTER_1400lt_porta_vetro.png",
+            "/catalogo/prodotti/immagini/image-thumb__2086__product-thumbnail/A14141100701_Armadio_MASTER_1400lt_porta_vetro.png"
+          ]
+        },
+        {
+          "depth": 9,
+          "tag": "body",
+          "class": "page-en",
+          "id": "",
+          "imgCount": 12,
+          "models": [
+            "A140/2N",
+            "0°+10°C",
+            "2 doors",
+            "A140/2NR",
+            "0°+10°C",
+            "2 doors remote"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__482__product-thumbnail/A14140100201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__488__product-thumbnail/A14141100201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__2082__product-thumbnail/A14140100701_Armadio_MASTER_1400lt_porta_vetro.png",
+            "/catalogo/prodotti/immagini/image-thumb__2086__product-thumbnail/A14141100701_Armadio_MASTER_1400lt_porta_vetro.png"
+          ]
+        }
+      ]
+    },
+    {
+      "target": "A140/2M",
+      "ancestor": [
+        {
+          "depth": 0,
+          "tag": "div",
+          "class": "col-sm-5 text-wrapper no-padding",
+          "id": "",
+          "imgCount": 0,
+          "models": [
+            "A140/2M",
+            "-2°+8°C",
+            "2 doors"
+          ],
+          "images": []
+        },
+        {
+          "depth": 1,
+          "tag": "div",
+          "class": "row",
+          "id": "",
+          "imgCount": 1,
+          "models": [
+            "A140/2M",
+            "-2°+8°C",
+            "2 doors"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__2084__product-thumbnail/A14140200201_Armadio_MASTER_1400lt.png"
+          ]
+        },
+        {
+          "depth": 2,
+          "tag": "div",
+          "class": "tab-pane active",
+          "id": "product2357",
+          "imgCount": 1,
+          "models": [
+            "A140/2M",
+            "-2°+8°C",
+            "2 doors"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__2084__product-thumbnail/A14140200201_Armadio_MASTER_1400lt.png"
+          ]
+        },
+        {
+          "depth": 3,
+          "tag": "div",
+          "class": "tab-content clearfix",
+          "id": "",
+          "imgCount": 2,
+          "models": [
+            "A140/2M",
+            "-2°+8°C",
+            "2 doors",
+            "A140/2MR",
+            "-2°+8°C",
+            "2 doors remote"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__2084__product-thumbnail/A14140200201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__489__product-thumbnail/A14141200201_Armadio_MASTER_1400lt.png"
+          ]
+        },
+        {
+          "depth": 4,
+          "tag": "div",
+          "class": "tab-container",
+          "id": "",
+          "imgCount": 2,
+          "models": [
+            "A140/2M",
+            "-2°+8°C",
+            "2 doors",
+            "A140/2MR",
+            "-2°+8°C",
+            "2 doors remote"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__2084__product-thumbnail/A14140200201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__489__product-thumbnail/A14141200201_Armadio_MASTER_1400lt.png"
+          ]
+        },
+        {
+          "depth": 5,
+          "tag": "div",
+          "class": "product-row",
+          "id": "",
+          "imgCount": 2,
+          "models": [
+            "A140/2M",
+            "-2°+8°C",
+            "2 doors",
+            "A140/2MR",
+            "-2°+8°C",
+            "2 doors remote"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__2084__product-thumbnail/A14140200201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__489__product-thumbnail/A14141200201_Armadio_MASTER_1400lt.png"
+          ]
+        },
+        {
+          "depth": 6,
+          "tag": "div",
+          "class": "container product-list",
+          "id": "",
+          "imgCount": 12,
+          "models": [
+            "A140/2N",
+            "0°+10°C",
+            "2 doors",
+            "A140/2NR",
+            "0°+10°C",
+            "2 doors remote"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__482__product-thumbnail/A14140100201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__488__product-thumbnail/A14141100201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__2082__product-thumbnail/A14140100701_Armadio_MASTER_1400lt_porta_vetro.png",
+            "/catalogo/prodotti/immagini/image-thumb__2086__product-thumbnail/A14141100701_Armadio_MASTER_1400lt_porta_vetro.png"
+          ]
+        },
+        {
+          "depth": 7,
+          "tag": "div",
+          "class": "product-list-page",
+          "id": "",
+          "imgCount": 12,
+          "models": [
+            "A140/2N",
+            "0°+10°C",
+            "2 doors",
+            "A140/2NR",
+            "0°+10°C",
+            "2 doors remote"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__482__product-thumbnail/A14140100201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__488__product-thumbnail/A14141100201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__2082__product-thumbnail/A14140100701_Armadio_MASTER_1400lt_porta_vetro.png",
+            "/catalogo/prodotti/immagini/image-thumb__2086__product-thumbnail/A14141100701_Armadio_MASTER_1400lt_porta_vetro.png"
+          ]
+        },
+        {
+          "depth": 8,
+          "tag": "div",
+          "class": "content",
+          "id": "",
+          "imgCount": 12,
+          "models": [
+            "A140/2N",
+            "0°+10°C",
+            "2 doors",
+            "A140/2NR",
+            "0°+10°C",
+            "2 doors remote"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__482__product-thumbnail/A14140100201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__488__product-thumbnail/A14141100201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__2082__product-thumbnail/A14140100701_Armadio_MASTER_1400lt_porta_vetro.png",
+            "/catalogo/prodotti/immagini/image-thumb__2086__product-thumbnail/A14141100701_Armadio_MASTER_1400lt_porta_vetro.png"
+          ]
+        },
+        {
+          "depth": 9,
+          "tag": "body",
+          "class": "page-en",
+          "id": "",
+          "imgCount": 12,
+          "models": [
+            "A140/2N",
+            "0°+10°C",
+            "2 doors",
+            "A140/2NR",
+            "0°+10°C",
+            "2 doors remote"
+          ],
+          "images": [
+            "/catalogo/prodotti/immagini/image-thumb__482__product-thumbnail/A14140100201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__488__product-thumbnail/A14141100201_Armadio_MASTER_1400lt.png",
+            "/catalogo/prodotti/immagini/image-thumb__2082__product-thumbnail/A14140100701_Armadio_MASTER_1400lt_porta_vetro.png",
+            "/catalogo/prodotti/immagini/image-thumb__2086__product-thumbnail/A14141100701_Armadio_MASTER_1400lt_porta_vetro.png"
+          ]
+        }
+      ]
+    }
+  ],
+  "productImages": [
+    {
+      "src": "/catalogo/prodotti/immagini/image-thumb__482__product-thumbnail/A14140100201_Armadio_MASTER_1400lt.png",
+      "anc": [
+        {
+          "depth": 0,
+          "class": "product-image",
+          "models": [],
+          "headings": []
+        },
+        {
+          "depth": 1,
+          "class": "col-sm-4",
+          "models": [],
+          "headings": []
+        },
+        {
+          "depth": 2,
+          "class": "row",
+          "models": [
+            "A140/2N",
+            "0°+10°C",
+            "2 doors"
+          ],
+          "headings": [
+            "A140/2N",
+            "Master 1400 cabinet",
+            "0°+10°C",
+            "2 doors"
+          ]
+        },
+        {
+          "depth": 3,
+          "class": "tab-pane active",
+          "models": [
+            "A140/2N",
+            "0°+10°C",
+            "2 doors"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2N",
+            "Master 1400 cabinet",
+            "0°+10°C"
+          ]
+        },
+        {
+          "depth": 4,
+          "class": "tab-content clearfix",
+          "models": [
+            "A140/2N",
+            "0°+10°C",
+            "2 doors",
+            "A140/2NR"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2N",
+            "Master 1400 cabinet",
+            "0°+10°C"
+          ]
+        },
+        {
+          "depth": 5,
+          "class": "tab-container",
+          "models": [
+            "A140/2N",
+            "0°+10°C",
+            "2 doors",
+            "A140/2NR"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2N",
+            "Master 1400 cabinet",
+            "0°+10°C"
+          ]
+        },
+        {
+          "depth": 6,
+          "class": "product-row",
+          "models": [
+            "A140/2N",
+            "0°+10°C",
+            "2 doors",
+            "A140/2NR"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2N",
+            "Master 1400 cabinet",
+            "0°+10°C"
+          ]
+        }
+      ]
+    },
+    {
+      "src": "/catalogo/prodotti/immagini/image-thumb__488__product-thumbnail/A14141100201_Armadio_MASTER_1400lt.png",
+      "anc": [
+        {
+          "depth": 0,
+          "class": "product-image",
+          "models": [],
+          "headings": []
+        },
+        {
+          "depth": 1,
+          "class": "col-sm-4",
+          "models": [],
+          "headings": []
+        },
+        {
+          "depth": 2,
+          "class": "row",
+          "models": [
+            "A140/2NR",
+            "0°+10°C",
+            "2 doors remote"
+          ],
+          "headings": [
+            "A140/2NR",
+            "Master 1400 cabinet",
+            "0°+10°C",
+            "2 doors remote"
+          ]
+        },
+        {
+          "depth": 3,
+          "class": "tab-pane",
+          "models": [
+            "A140/2NR",
+            "0°+10°C",
+            "2 doors remote"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2NR",
+            "Master 1400 cabinet",
+            "0°+10°C"
+          ]
+        },
+        {
+          "depth": 4,
+          "class": "tab-content clearfix",
+          "models": [
+            "A140/2N",
+            "0°+10°C",
+            "2 doors",
+            "A140/2NR"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2N",
+            "Master 1400 cabinet",
+            "0°+10°C"
+          ]
+        },
+        {
+          "depth": 5,
+          "class": "tab-container",
+          "models": [
+            "A140/2N",
+            "0°+10°C",
+            "2 doors",
+            "A140/2NR"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2N",
+            "Master 1400 cabinet",
+            "0°+10°C"
+          ]
+        },
+        {
+          "depth": 6,
+          "class": "product-row",
+          "models": [
+            "A140/2N",
+            "0°+10°C",
+            "2 doors",
+            "A140/2NR"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2N",
+            "Master 1400 cabinet",
+            "0°+10°C"
+          ]
+        }
+      ]
+    },
+    {
+      "src": "/catalogo/prodotti/immagini/image-thumb__2082__product-thumbnail/A14140100701_Armadio_MASTER_1400lt_porta_vetro.png",
+      "anc": [
+        {
+          "depth": 0,
+          "class": "product-image",
+          "models": [],
+          "headings": []
+        },
+        {
+          "depth": 1,
+          "class": "col-sm-4",
+          "models": [],
+          "headings": []
+        },
+        {
+          "depth": 2,
+          "class": "row",
+          "models": [
+            "A140/2NV",
+            "0°+10°C",
+            "2 glass doors"
+          ],
+          "headings": [
+            "A140/2NV",
+            "Master 1400 cabinet",
+            "0°+10°C",
+            "2 glass doors"
+          ]
+        },
+        {
+          "depth": 3,
+          "class": "tab-pane active",
+          "models": [
+            "A140/2NV",
+            "0°+10°C",
+            "2 glass doors"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2NV",
+            "Master 1400 cabinet",
+            "0°+10°C"
+          ]
+        },
+        {
+          "depth": 4,
+          "class": "tab-content clearfix",
+          "models": [
+            "A140/2NV",
+            "0°+10°C",
+            "2 glass doors",
+            "A140/2NRV"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2NV",
+            "Master 1400 cabinet",
+            "0°+10°C"
+          ]
+        },
+        {
+          "depth": 5,
+          "class": "tab-container",
+          "models": [
+            "A140/2NV",
+            "0°+10°C",
+            "2 glass doors",
+            "A140/2NRV"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2NV",
+            "Master 1400 cabinet",
+            "0°+10°C"
+          ]
+        },
+        {
+          "depth": 6,
+          "class": "product-row",
+          "models": [
+            "A140/2NV",
+            "0°+10°C",
+            "2 glass doors",
+            "A140/2NRV"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2NV",
+            "Master 1400 cabinet",
+            "0°+10°C"
+          ]
+        }
+      ]
+    },
+    {
+      "src": "/catalogo/prodotti/immagini/image-thumb__2086__product-thumbnail/A14141100701_Armadio_MASTER_1400lt_porta_vetro.png",
+      "anc": [
+        {
+          "depth": 0,
+          "class": "product-image",
+          "models": [],
+          "headings": []
+        },
+        {
+          "depth": 1,
+          "class": "col-sm-4",
+          "models": [],
+          "headings": []
+        },
+        {
+          "depth": 2,
+          "class": "row",
+          "models": [
+            "A140/2NRV",
+            "0°+10°C",
+            "2 glass doors remote"
+          ],
+          "headings": [
+            "A140/2NRV",
+            "Master 1400 cabinet",
+            "0°+10°C",
+            "2 glass doors remote"
+          ]
+        },
+        {
+          "depth": 3,
+          "class": "tab-pane",
+          "models": [
+            "A140/2NRV",
+            "0°+10°C",
+            "2 glass doors remote"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2NRV",
+            "Master 1400 cabinet",
+            "0°+10°C"
+          ]
+        },
+        {
+          "depth": 4,
+          "class": "tab-content clearfix",
+          "models": [
+            "A140/2NV",
+            "0°+10°C",
+            "2 glass doors",
+            "A140/2NRV"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2NV",
+            "Master 1400 cabinet",
+            "0°+10°C"
+          ]
+        },
+        {
+          "depth": 5,
+          "class": "tab-container",
+          "models": [
+            "A140/2NV",
+            "0°+10°C",
+            "2 glass doors",
+            "A140/2NRV"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2NV",
+            "Master 1400 cabinet",
+            "0°+10°C"
+          ]
+        },
+        {
+          "depth": 6,
+          "class": "product-row",
+          "models": [
+            "A140/2NV",
+            "0°+10°C",
+            "2 glass doors",
+            "A140/2NRV"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2NV",
+            "Master 1400 cabinet",
+            "0°+10°C"
+          ]
+        }
+      ]
+    },
+    {
+      "src": "/catalogo/prodotti/immagini/image-thumb__2084__product-thumbnail/A14140200201_Armadio_MASTER_1400lt.png",
+      "anc": [
+        {
+          "depth": 0,
+          "class": "product-image",
+          "models": [],
+          "headings": []
+        },
+        {
+          "depth": 1,
+          "class": "col-sm-4",
+          "models": [],
+          "headings": []
+        },
+        {
+          "depth": 2,
+          "class": "row",
+          "models": [
+            "A140/2M",
+            "-2°+8°C",
+            "2 doors"
+          ],
+          "headings": [
+            "A140/2M",
+            "Master 1400 cabinet",
+            "-2°+8°C",
+            "2 doors"
+          ]
+        },
+        {
+          "depth": 3,
+          "class": "tab-pane active",
+          "models": [
+            "A140/2M",
+            "-2°+8°C",
+            "2 doors"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2M",
+            "Master 1400 cabinet",
+            "-2°+8°C"
+          ]
+        },
+        {
+          "depth": 4,
+          "class": "tab-content clearfix",
+          "models": [
+            "A140/2M",
+            "-2°+8°C",
+            "2 doors",
+            "A140/2MR"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2M",
+            "Master 1400 cabinet",
+            "-2°+8°C"
+          ]
+        },
+        {
+          "depth": 5,
+          "class": "tab-container",
+          "models": [
+            "A140/2M",
+            "-2°+8°C",
+            "2 doors",
+            "A140/2MR"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2M",
+            "Master 1400 cabinet",
+            "-2°+8°C"
+          ]
+        },
+        {
+          "depth": 6,
+          "class": "product-row",
+          "models": [
+            "A140/2M",
+            "-2°+8°C",
+            "2 doors",
+            "A140/2MR"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2M",
+            "Master 1400 cabinet",
+            "-2°+8°C"
+          ]
+        }
+      ]
+    },
+    {
+      "src": "/catalogo/prodotti/immagini/image-thumb__489__product-thumbnail/A14141200201_Armadio_MASTER_1400lt.png",
+      "anc": [
+        {
+          "depth": 0,
+          "class": "product-image",
+          "models": [],
+          "headings": []
+        },
+        {
+          "depth": 1,
+          "class": "col-sm-4",
+          "models": [],
+          "headings": []
+        },
+        {
+          "depth": 2,
+          "class": "row",
+          "models": [
+            "A140/2MR",
+            "-2°+8°C",
+            "2 doors remote"
+          ],
+          "headings": [
+            "A140/2MR",
+            "Master 1400 cabinet",
+            "-2°+8°C",
+            "2 doors remote"
+          ]
+        },
+        {
+          "depth": 3,
+          "class": "tab-pane",
+          "models": [
+            "A140/2MR",
+            "-2°+8°C",
+            "2 doors remote"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2MR",
+            "Master 1400 cabinet",
+            "-2°+8°C"
+          ]
+        },
+        {
+          "depth": 4,
+          "class": "tab-content clearfix",
+          "models": [
+            "A140/2M",
+            "-2°+8°C",
+            "2 doors",
+            "A140/2MR"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2M",
+            "Master 1400 cabinet",
+            "-2°+8°C"
+          ]
+        },
+        {
+          "depth": 5,
+          "class": "tab-container",
+          "models": [
+            "A140/2M",
+            "-2°+8°C",
+            "2 doors",
+            "A140/2MR"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2M",
+            "Master 1400 cabinet",
+            "-2°+8°C"
+          ]
+        },
+        {
+          "depth": 6,
+          "class": "product-row",
+          "models": [
+            "A140/2M",
+            "-2°+8°C",
+            "2 doors",
+            "A140/2MR"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2M",
+            "Master 1400 cabinet",
+            "-2°+8°C"
+          ]
+        }
+      ]
+    },
+    {
+      "src": "/catalogo/prodotti/immagini/image-thumb__2083__product-thumbnail/A14140200701_Armadio_MASTER_1400lt_porta_vetro.png",
+      "anc": [
+        {
+          "depth": 0,
+          "class": "product-image",
+          "models": [],
+          "headings": []
+        },
+        {
+          "depth": 1,
+          "class": "col-sm-4",
+          "models": [],
+          "headings": []
+        },
+        {
+          "depth": 2,
+          "class": "row",
+          "models": [
+            "A140/2MV",
+            "-2°+8°C",
+            "2 glass doors"
+          ],
+          "headings": [
+            "A140/2MV",
+            "Master 1400 cabinet",
+            "-2°+8°C",
+            "2 glass doors"
+          ]
+        },
+        {
+          "depth": 3,
+          "class": "tab-pane active",
+          "models": [
+            "A140/2MV",
+            "-2°+8°C",
+            "2 glass doors"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2MV",
+            "Master 1400 cabinet",
+            "-2°+8°C"
+          ]
+        },
+        {
+          "depth": 4,
+          "class": "tab-content clearfix",
+          "models": [
+            "A140/2MV",
+            "-2°+8°C",
+            "2 glass doors",
+            "A140/2MRV"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2MV",
+            "Master 1400 cabinet",
+            "-2°+8°C"
+          ]
+        },
+        {
+          "depth": 5,
+          "class": "tab-container",
+          "models": [
+            "A140/2MV",
+            "-2°+8°C",
+            "2 glass doors",
+            "A140/2MRV"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2MV",
+            "Master 1400 cabinet",
+            "-2°+8°C"
+          ]
+        },
+        {
+          "depth": 6,
+          "class": "product-row",
+          "models": [
+            "A140/2MV",
+            "-2°+8°C",
+            "2 glass doors",
+            "A140/2MRV"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2MV",
+            "Master 1400 cabinet",
+            "-2°+8°C"
+          ]
+        }
+      ]
+    },
+    {
+      "src": "/catalogo/prodotti/immagini/image-thumb__2087__product-thumbnail/A14141200701_Armadio_MASTER_1400lt_porta_vetro.png",
+      "anc": [
+        {
+          "depth": 0,
+          "class": "product-image",
+          "models": [],
+          "headings": []
+        },
+        {
+          "depth": 1,
+          "class": "col-sm-4",
+          "models": [],
+          "headings": []
+        },
+        {
+          "depth": 2,
+          "class": "row",
+          "models": [
+            "A140/2MRV",
+            "-2°+8°C",
+            "2 glass doors remote"
+          ],
+          "headings": [
+            "A140/2MRV",
+            "Master 1400 cabinet",
+            "-2°+8°C",
+            "2 glass doors remote"
+          ]
+        },
+        {
+          "depth": 3,
+          "class": "tab-pane",
+          "models": [
+            "A140/2MRV",
+            "-2°+8°C",
+            "2 glass doors remote"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2MRV",
+            "Master 1400 cabinet",
+            "-2°+8°C"
+          ]
+        },
+        {
+          "depth": 4,
+          "class": "tab-content clearfix",
+          "models": [
+            "A140/2MV",
+            "-2°+8°C",
+            "2 glass doors",
+            "A140/2MRV"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2MV",
+            "Master 1400 cabinet",
+            "-2°+8°C"
+          ]
+        },
+        {
+          "depth": 5,
+          "class": "tab-container",
+          "models": [
+            "A140/2MV",
+            "-2°+8°C",
+            "2 glass doors",
+            "A140/2MRV"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2MV",
+            "Master 1400 cabinet",
+            "-2°+8°C"
+          ]
+        },
+        {
+          "depth": 6,
+          "class": "product-row",
+          "models": [
+            "A140/2MV",
+            "-2°+8°C",
+            "2 glass doors",
+            "A140/2MRV"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2MV",
+            "Master 1400 cabinet",
+            "-2°+8°C"
+          ]
+        }
+      ]
+    },
+    {
+      "src": "/catalogo/prodotti/immagini/image-thumb__487__product-thumbnail/A14140600201_Armadio_MASTER_1400lt.png",
+      "anc": [
+        {
+          "depth": 0,
+          "class": "product-image",
+          "models": [],
+          "headings": []
+        },
+        {
+          "depth": 1,
+          "class": "col-sm-4",
+          "models": [],
+          "headings": []
+        },
+        {
+          "depth": 2,
+          "class": "row",
+          "models": [
+            "A140/2B",
+            "-18°-22°C",
+            "2 doors"
+          ],
+          "headings": [
+            "A140/2B",
+            "Master 1400 cabinet",
+            "-18°-22°C",
+            "2 doors"
+          ]
+        },
+        {
+          "depth": 3,
+          "class": "tab-pane active",
+          "models": [
+            "A140/2B",
+            "-18°-22°C",
+            "2 doors"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2B",
+            "Master 1400 cabinet",
+            "-18°-22°C"
+          ]
+        },
+        {
+          "depth": 4,
+          "class": "tab-content clearfix",
+          "models": [
+            "A140/2B",
+            "-18°-22°C",
+            "2 doors",
+            "A140/2BR"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2B",
+            "Master 1400 cabinet",
+            "-18°-22°C"
+          ]
+        },
+        {
+          "depth": 5,
+          "class": "tab-container",
+          "models": [
+            "A140/2B",
+            "-18°-22°C",
+            "2 doors",
+            "A140/2BR"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2B",
+            "Master 1400 cabinet",
+            "-18°-22°C"
+          ]
+        },
+        {
+          "depth": 6,
+          "class": "product-row",
+          "models": [
+            "A140/2B",
+            "-18°-22°C",
+            "2 doors",
+            "A140/2BR"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2B",
+            "Master 1400 cabinet",
+            "-18°-22°C"
+          ]
+        }
+      ]
+    },
+    {
+      "src": "/catalogo/prodotti/immagini/image-thumb__494__product-thumbnail/A14141600201_Armadio_MASTER_1400lt.png",
+      "anc": [
+        {
+          "depth": 0,
+          "class": "product-image",
+          "models": [],
+          "headings": []
+        },
+        {
+          "depth": 1,
+          "class": "col-sm-4",
+          "models": [],
+          "headings": []
+        },
+        {
+          "depth": 2,
+          "class": "row",
+          "models": [
+            "A140/2BR",
+            "-18°-22°C",
+            "2 doors remote"
+          ],
+          "headings": [
+            "A140/2BR",
+            "Master 1400 cabinet",
+            "-18°-22°C",
+            "2 doors remote"
+          ]
+        },
+        {
+          "depth": 3,
+          "class": "tab-pane",
+          "models": [
+            "A140/2BR",
+            "-18°-22°C",
+            "2 doors remote"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2BR",
+            "Master 1400 cabinet",
+            "-18°-22°C"
+          ]
+        },
+        {
+          "depth": 4,
+          "class": "tab-content clearfix",
+          "models": [
+            "A140/2B",
+            "-18°-22°C",
+            "2 doors",
+            "A140/2BR"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2B",
+            "Master 1400 cabinet",
+            "-18°-22°C"
+          ]
+        },
+        {
+          "depth": 5,
+          "class": "tab-container",
+          "models": [
+            "A140/2B",
+            "-18°-22°C",
+            "2 doors",
+            "A140/2BR"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2B",
+            "Master 1400 cabinet",
+            "-18°-22°C"
+          ]
+        },
+        {
+          "depth": 6,
+          "class": "product-row",
+          "models": [
+            "A140/2B",
+            "-18°-22°C",
+            "2 doors",
+            "A140/2BR"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2B",
+            "Master 1400 cabinet",
+            "-18°-22°C"
+          ]
+        }
+      ]
+    },
+    {
+      "src": "/catalogo/prodotti/immagini/image-thumb__2085__product-thumbnail/A14140600701_Armadio_MASTER_1400lt_porta_vetro.png",
+      "anc": [
+        {
+          "depth": 0,
+          "class": "product-image",
+          "models": [],
+          "headings": []
+        },
+        {
+          "depth": 1,
+          "class": "col-sm-4",
+          "models": [],
+          "headings": []
+        },
+        {
+          "depth": 2,
+          "class": "row",
+          "models": [
+            "A140/2BV",
+            "-18°-22°C",
+            "2 glass doors"
+          ],
+          "headings": [
+            "A140/2BV",
+            "Master 1400 cabinet",
+            "-18°-22°C",
+            "2 glass doors"
+          ]
+        },
+        {
+          "depth": 3,
+          "class": "tab-pane active",
+          "models": [
+            "A140/2BV",
+            "-18°-22°C",
+            "2 glass doors"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2BV",
+            "Master 1400 cabinet",
+            "-18°-22°C"
+          ]
+        },
+        {
+          "depth": 4,
+          "class": "tab-content clearfix",
+          "models": [
+            "A140/2BV",
+            "-18°-22°C",
+            "2 glass doors",
+            "A140/2BRV"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2BV",
+            "Master 1400 cabinet",
+            "-18°-22°C"
+          ]
+        },
+        {
+          "depth": 5,
+          "class": "tab-container",
+          "models": [
+            "A140/2BV",
+            "-18°-22°C",
+            "2 glass doors",
+            "A140/2BRV"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2BV",
+            "Master 1400 cabinet",
+            "-18°-22°C"
+          ]
+        },
+        {
+          "depth": 6,
+          "class": "product-row",
+          "models": [
+            "A140/2BV",
+            "-18°-22°C",
+            "2 glass doors",
+            "A140/2BRV"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2BV",
+            "Master 1400 cabinet",
+            "-18°-22°C"
+          ]
+        }
+      ]
+    },
+    {
+      "src": "/catalogo/prodotti/immagini/image-thumb__2088__product-thumbnail/A14141600701_Armadio_MASTER_1400lt_porta_vetro.png",
+      "anc": [
+        {
+          "depth": 0,
+          "class": "product-image",
+          "models": [],
+          "headings": []
+        },
+        {
+          "depth": 1,
+          "class": "col-sm-4",
+          "models": [],
+          "headings": []
+        },
+        {
+          "depth": 2,
+          "class": "row",
+          "models": [
+            "A140/2BRV",
+            "-18°-22°C",
+            "2 glass doors remote"
+          ],
+          "headings": [
+            "A140/2BRV",
+            "Master 1400 cabinet",
+            "-18°-22°C",
+            "2 glass doors remote"
+          ]
+        },
+        {
+          "depth": 3,
+          "class": "tab-pane",
+          "models": [
+            "A140/2BRV",
+            "-18°-22°C",
+            "2 glass doors remote"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2BRV",
+            "Master 1400 cabinet",
+            "-18°-22°C"
+          ]
+        },
+        {
+          "depth": 4,
+          "class": "tab-content clearfix",
+          "models": [
+            "A140/2BV",
+            "-18°-22°C",
+            "2 glass doors",
+            "A140/2BRV"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2BV",
+            "Master 1400 cabinet",
+            "-18°-22°C"
+          ]
+        },
+        {
+          "depth": 5,
+          "class": "tab-container",
+          "models": [
+            "A140/2BV",
+            "-18°-22°C",
+            "2 glass doors",
+            "A140/2BRV"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2BV",
+            "Master 1400 cabinet",
+            "-18°-22°C"
+          ]
+        },
+        {
+          "depth": 6,
+          "class": "product-row",
+          "models": [
+            "A140/2BV",
+            "-18°-22°C",
+            "2 glass doors",
+            "A140/2BRV"
+          ],
+          "headings": [
+            "Master 1400 cabinet",
+            "A140/2BV",
+            "Master 1400 cabinet",
+            "-18°-22°C"
+          ]
+        }
+      ]
+    }
+  ]
+}
