@@ -430,8 +430,96 @@ dialog{border:1px solid #e4e9ef;box-shadow:0 28px 85px rgba(6,20,35,.28)}
 .gs-deal-countdown-line{display:block;margin-top:10px;padding-top:10px;border-top:1px solid #ead5af;font-size:13px;color:#69501e}
 .gs-deal-countdown{display:inline-block;margin-left:6px;font-weight:900;font-size:clamp(19px,2.4vw,25px);font-variant-numeric:tabular-nums;letter-spacing:1.4px;color:#152f49}
 .gs-countdown-zone{font-size:11px;color:#806b4a}
+</style><style id="gs-mobile-responsive-2026">
+/* Mobile-first overrides: readable tap targets, predictable cards and no sideways scrolling. */
+html{scroll-padding-top:110px}
+body{overflow-x:clip}
+#termekek,#markak,#hogyan-mukodik{scroll-margin-top:95px}
+.gs-mobile-menu-toggle{display:none}
+@media(max-width:760px){
+ .gs-topline{display:none!important}
+ header.gs-header{position:sticky!important;top:0!important;z-index:60!important;padding:9px 14px!important}
+ .gs-header-inner{display:grid!important;grid-template-columns:minmax(0,1fr) auto;align-items:center!important;gap:8px 12px!important;width:100%;min-height:0!important}
+ .gs-brand{min-width:0;gap:9px}.gs-brand .real-logo{height:38px;max-width:67px}.gs-brand strong{font-size:15px;letter-spacing:1.2px}.gs-brand small{font-size:10px}
+ .gs-mobile-menu-toggle{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:46px;min-width:85px;padding:9px 12px;border:1px solid #e3bc795c;border-radius:10px;background:#ffffff14;color:#fff;font:700 14px/1.3 inherit;cursor:pointer}
+ .gs-mobile-menu-toggle[aria-expanded="true"]{background:#e8bd77;color:#122c40}
+ .gs-header nav#gsPrimaryNavigation{grid-column:1/-1;display:none;flex-direction:column;align-items:stretch;gap:5px;width:100%;min-width:0;padding:9px 0 5px;border-top:1px solid #ffffff29}
+ .gs-header nav#gsPrimaryNavigation[data-open="true"]{display:flex}
+ .gs-header nav#gsPrimaryNavigation a,.gs-header nav#gsPrimaryNavigation .quote-nav{display:flex;align-items:center;justify-content:space-between;width:100%;min-height:48px;padding:12px 15px;margin:0;border-radius:10px;font-size:15px;line-height:1.4;text-align:left}
+ .gs-header nav#gsPrimaryNavigation a{background:#ffffff0b}.gs-header nav#gsPrimaryNavigation .quote-nav{justify-content:center;gap:12px}
+ .hero.gs-hero{padding:34px 18px 42px!important;min-height:0}
+ .gs-hero-inner{grid-template-columns:minmax(0,1fr)!important;gap:24px!important}
+ .gs-hero h1{font-size:clamp(30px,8.2vw,46px);letter-spacing:-1px;line-height:1.14}
+ .gs-hero p{font-size:14px;line-height:1.7}
+ .gs-hero-buttons{display:grid;grid-template-columns:1fr;gap:10px}
+ .gs-hero-buttons a{width:100%;min-height:48px;display:flex;align-items:center;justify-content:center;text-align:center}
+ .gs-hero-showcase{max-width:100%;min-width:0;transform:none;margin:0}
+ .gs-showcase-photo,.gs-showcase-photo img{min-width:0}
+ .gs-intro-strip .gs-intro-inner{padding:22px 16px}
+ .gs-intro-brand-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ .gs-intro-brand-grid .gs-intro-brand{min-width:0;min-height:73px;padding:13px 12px;gap:5px}
+ .gs-intro-brand-grid .gs-intro-brand strong{font-size:13px}
+ .shell.gs-catalog-shell{padding:20px 15px 30px;margin:0 auto}
+ .gs-catalog-heading{margin-top:0;gap:6px}.gs-catalog-heading h2{font-size:clamp(24px,7vw,32px)}
+ .gs-catalog-shell .notice{font-size:12px;line-height:1.65;padding:12px;margin-bottom:18px}
+ .tools{position:static!important;display:grid!important;grid-template-columns:minmax(0,1fr);gap:12px!important;padding:12px 0!important;margin:12px 0!important;overflow:visible}
+ .tools > *,#search,.tools select,#sortBy,#manufacturer{min-width:0!important;max-width:100%!important;width:100%!important}
+ #search,.tools select{min-height:50px!important;font-size:16px!important;padding:12px 14px}
+ .gs-category-hierarchy{min-width:0!important;max-width:100%!important;width:100%!important;gap:7px}
+ .gs-category-steps{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+ .gs-category-steps select{font-size:15px!important;padding:10px!important}
+ .grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:17px 0 23px}
+ .product{min-width:0;max-width:100%;border-radius:14px}
+ .illustration{height:185px!important;min-height:185px!important;max-height:185px!important}
+ .illustration .product-photo{padding:13px!important}
+ .details{padding:14px!important;gap:3px}.details h3{font-size:15px;line-height:1.35;min-height:0}
+ .details .category{font-size:10px;overflow-wrap:anywhere}
+ .details p{font-size:12px;line-height:1.5;overflow-wrap:anywhere}
+ .details .spec{font-size:11px;max-height:50px}
+ .actions{display:grid;grid-template-columns:1fr!important;gap:8px;padding-top:12px}
+ .actions .button{grid-column:1/-1!important;width:100%;min-height:46px;font-size:13px;padding:11px 9px}
+ #loadMore{min-height:48px;max-width:100%;width:min(100%,340px)}
+ .gs-process{padding:35px 16px}.gs-process-grid{grid-template-columns:1fr;gap:12px}
+ .gs-bottom-cta{padding:34px 18px;align-items:stretch;gap:18px}
+ .gs-bottom-cta .gs-hero-primary{width:100%;min-height:48px;display:flex;align-items:center;justify-content:center}
+ .gs-footer{padding:34px 18px 24px}.gs-footer-main{grid-template-columns:repeat(2,minmax(0,1fr));gap:21px}
+ .gs-footer-about{grid-column:1/-1}.gs-footer-col{min-width:0}.gs-footer-col:last-child{grid-column:1/-1}
+ .gs-footer-col a{display:block;min-height:36px;padding:5px 0;overflow-wrap:anywhere}
+ .gs-copyright-notice{margin:20px 0;padding:15px}
+ #quotePanel,#detail{position:fixed;inset:auto 0 0 0!important;margin:0!important;width:100vw!important;max-width:100vw!important;max-height:94dvh!important;border-radius:19px 19px 0 0!important;overflow-y:auto;overscroll-behavior:contain}
+ #quotePanel{padding:23px 18px max(22px,env(safe-area-inset-bottom))!important}
+ #detail{padding:0!important}
+ #quotePanel input,#quotePanel textarea{font-size:16px!important;min-height:46px}
+ #quotePanel .quote-submit-actions{display:grid;grid-template-columns:1fr;gap:9px}
+ #quotePanel .quote-submit-actions .button{min-height:48px;width:100%}
+ #quoteItems li{align-items:flex-start;overflow-wrap:anywhere}
+ #detail .detail-dialog-top{padding:15px 18px}
+ #detailName{padding:16px 19px!important}
+ .gs-detail-shell{grid-template-columns:1fr!important}
+ .gs-detail-visual{padding:14px 18px!important}
+ .gs-detail-image-frame{min-height:170px;max-height:235px}
+ .gs-detail-content{padding:18px!important}
+}
+@media(max-width:520px){
+ .grid{grid-template-columns:1fr}
+ .illustration{height:225px!important;min-height:225px!important;max-height:225px!important}
+ .gs-category-steps{grid-template-columns:1fr}
+ .gs-hero-showcase .gs-showcase-photos{min-width:0}
+ .gs-footer-main{grid-template-columns:1fr 1fr}
+}
+@media(max-width:350px){
+ .gs-intro-brand-grid{grid-template-columns:1fr}
+ .gs-brand small{display:none}
+ .gs-hero h1{font-size:29px}
+}
+@media(hover:none){
+ .product:hover,.gs-intro-brand-grid .gs-intro-brand:hover{transform:none}
+}
+@media(prefers-reduced-motion:reduce){
+ .gs-mobile-menu-toggle,.gs-header nav#gsPrimaryNavigation{transition:none}
+}
 </style></head><body>
-<div class="gs-topline"><div><span class="gs-topline-dot"></span> GASTROSKY · NAGYKONYHAI BERENDEZÉSEK</div><a href="mailto:info@gastrosky.hu">info@gastrosky.hu</a></div><header class="gs-header"><div class="gs-header-inner"><a class="brand gs-brand" href="index.html" aria-label="GastroSky főoldal"><img class="brandmark real-logo" src="https://gastrosky.hu/assets/images/logo.png" alt="GastroSky" loading="eager" referrerpolicy="no-referrer"><div><strong>GASTROSKY</strong><small>Professzionális konyhatechnika</small></div></a><nav aria-label="Fő navigáció"><a href="#termekek">Termékek</a><a href="#markak">Márkák</a><a href="#hogyan-mukodik">Hogyan működik?</a><button type="button" class="quote-nav" id="quoteOpen"><span>Ajánlatkérő lista</span> <span class="gs-quote-count" id="quoteCount">0</span></button></nav></div></header>
+<div class="gs-topline"><div><span class="gs-topline-dot"></span> GASTROSKY · NAGYKONYHAI BERENDEZÉSEK</div><a href="mailto:info@gastrosky.hu">info@gastrosky.hu</a></div><header class="gs-header"><div class="gs-header-inner"><a class="brand gs-brand" href="index.html" aria-label="GastroSky főoldal"><img class="brandmark real-logo" src="https://gastrosky.hu/assets/images/logo.png" alt="GastroSky" loading="eager" referrerpolicy="no-referrer"><div><strong>GASTROSKY</strong><small>Professzionális konyhatechnika</small></div></a><button type="button" id="mobileMenuToggle" class="gs-mobile-menu-toggle" aria-controls="gsPrimaryNavigation" aria-expanded="false" aria-label="Navigáció megnyitása"><span aria-hidden="true">☰</span> Menü</button><nav id="gsPrimaryNavigation" aria-label="Fő navigáció"><a href="#termekek">Termékek</a><a href="#markak">Márkák</a><a href="#hogyan-mukodik">Hogyan működik?</a><button type="button" class="quote-nav" id="quoteOpen"><span>Ajánlatkérő lista</span> <span class="gs-quote-count" id="quoteCount">0</span></button></nav></div></header>
 <section class="hero gs-hero"><div class="gs-hero-inner"><div class="gs-hero-copy"><span class="eyebrow"><span class="gs-spark"></span> GASTROSKY 2.0 · TERMÉKKATALÓGUS</span><h1>Professzionális konyhákhoz. <em>Okosan választva.</em></h1><p>Fedezd fel a Maxima, HENDI, Fagor Professional és Modular nagykonyhai berendezéseit. Nézd meg a részleteket, hasonlítsd össze a termékeket, és kérj személyre szabott ajánlatot egy helyen.</p><div class="gs-hero-buttons"><a href="#termekek" class="gs-hero-primary">Termékek megtekintése <span aria-hidden="true">↗</span></a><a href="#hogyan-mukodik" class="gs-hero-secondary">Hogyan működik?</a></div><div class="hero-features"><span><b>01</b> Keresés és szűrés</span><span><b>02</b> Termékrészletek</span><span><b>03</b> Ajánlatkérés</span></div></div><div class="gs-hero-showcase" aria-label="Válogatás a termékkatalógusból"><div class="gs-showcase-label">VÁLOGATÁS A KATALÓGUSBÓL <span>✦</span></div><div class="gs-showcase-photos"><div class="gs-showcase-photo gs-showcase-main"><img src="https://hendi.xcdn.nl/RM700%2C700/-/238967_OBW_2024_03_IMGP9712.jpg" alt="HENDI ételmelegítő készlet" loading="eager"><span>HENDI · Ételmelegítés</span></div><div class="gs-showcase-photo gs-showcase-side"><img src="https://maxima.com/img/2ygrxVpYMXeCFMPOO0mV0SeagqUxQHv0SthD4Z-1iZ8/resize:fit:265:265/aHR0cHM6Ly9tYXhpbWEuY29tL21lZGlhL2NhdGFsb2cvcHJvZHVjdC9zL3Avc3AtMTAwMS0wOTEwMDAwMC5qcGc_d2lkdGg9MjY1JmhlaWdodD0yNjU.jpg" alt="Maxima eszpresszógép" loading="eager"><span>MAXIMA · Kávégépek</span></div></div><div class="gs-showcase-bottom"><span>MAXIMA <i>×</i> HENDI</span><span>Professzionális választék</span></div></div></div></section><section class="gs-intro-strip" id="markak"><div class="gs-intro-inner"><span class="gs-intro-label">MÁRKÁK</span><div class="gs-intro-brand-grid"><a class="gs-intro-brand" href="#termekek" data-brand-filter="Maxima"><strong>MAXIMA</strong><span>217 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="HENDI"><strong>HENDI</strong><span>67 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Fagor"><strong>FAGOR</strong><span>211 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Modular"><strong>MODULAR</strong><span>82 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Coldline"><strong>COLDLINE</strong><span>125 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Krupps"><strong>KRUPPS</strong><span>68 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Aristarco"><strong>ARISTARCO</strong><span>74 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Sistema Project Italia"><strong>SISTEMA PROJECT ITALIA</strong><span>34 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Tecnodom"><strong>TECNODOM</strong><span>54 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="Gastro Haal"><strong>GASTRO HAAL</strong><span>13 termék megtekinthető</span></a><a class="gs-intro-brand" href="#termekek" data-brand-filter="GastroSky"><strong>GASTROSKY</strong><span>33 termék megtekinthető</span></a></div></div></section>
 
 <main class="shell gs-catalog-shell"><p class="notice"><strong>GastroSky márkakatalógus.</strong> Maxima, HENDI, Fagor Professional, Modular, Coldline, Krupps, Aristarco, Sistema Project Italia, Tecnodom, Gastro Haal és a GastroSky saját rozsdamentes bútor kínálata. Az árakat, a készletet és a rendelhető kiviteleket egyedi ajánlatban egyeztetjük. Egyes termékek gyártói fényképe még ellenőrzés alatt áll.</p><div id="termekek" class="heading gs-catalog-heading"><div><span class="gs-section-kicker">VÁLOGASS A KATALÓGUSBÓL</span><h2>Találd meg a következő berendezésed.</h2><p>Válassz gyártót és kategóriát, vagy keress közvetlenül cikkszám alapján.</p></div><span id="count" class="muted"></span></div><p id="statusHint">Az igazolatlan készletet nem jelöljük raktáron lévőnek.</p><div class="tools"><input id="search" aria-label="Termékkeresés" placeholder="Keresés név, SKU, EAN alapján…"><div class="gs-category-hierarchy" id="categoryHierarchy">
@@ -932,6 +1020,20 @@ categoryGroup.addEventListener('change',()=>{categoryType.value='';syncCategorie
 categoryType.addEventListener('change',()=>{document.getElementById('categoryPath').textContent=categoryGroup.value+'  ›  '+(categoryType.value||'Minden terméktípus');visibleLimit=40;render();});
 manufacturer.addEventListener('change',()=>{categoryGroup.value='';categoryType.value='';visibleLimit=40;syncCategoriesForManufacturer();});
 syncCategoriesForManufacturer();
+
+// Accessible phone navigation: visible on small screens, no loss of desktop links.
+const mobileMenuToggle=document.getElementById('mobileMenuToggle');
+const primaryNavigation=document.getElementById('gsPrimaryNavigation');
+function setMobileMenu(open){
+ mobileMenuToggle.setAttribute('aria-expanded',String(open));
+ mobileMenuToggle.setAttribute('aria-label',open?'Navigáció bezárása':'Navigáció megnyitása');
+ mobileMenuToggle.querySelector('span').textContent=open?'×':'☰';
+ primaryNavigation.dataset.open=String(open);
+}
+mobileMenuToggle.addEventListener('click',()=>setMobileMenu(mobileMenuToggle.getAttribute('aria-expanded')!=='true'));
+primaryNavigation.querySelectorAll('a,button').forEach(item=>item.addEventListener('click',()=>setMobileMenu(false)));
+document.addEventListener('keydown',event=>{if(event.key==='Escape')setMobileMenu(false)});
+window.matchMedia('(min-width:761px)').addEventListener('change',event=>{if(event.matches)setMobileMenu(false)});
 
 loadFullSupplierCatalog();
 // Keep the open Akciók view in sync with the actual Hungarian midnight.
