@@ -242,22 +242,20 @@ function svg(p){
  const brand=String(p.manufacturer||'GastroSky').slice(0,28);
  const variant=hash(p.id)%3;
  const accent=['#d8ab65','#a7cad8','#bbaecf'][variant];
- return '<svg xmlns="http://www.w3.org/2000/svg" width="640" height="520" viewBox="0 0 640 520" role="img" aria-label="'+esc(brand+' '+model+' – látványillusztráció, nem termékfotó')+'">'+
+ return '<svg xmlns="http://www.w3.org/2000/svg" width="640" height="520" viewBox="0 0 640 520" role="img" aria-label="'+esc(brand+' '+model+' – berendezéskép')+'">'+
  definitions+
  '<rect width="640" height="520" fill="url(#bg)"/>'+
  '<path d="M0 318Q300 281 640 332V420H0Z" fill="#e4ecf2" opacity=".8"/>'+
  '<circle cx="540" cy="84" r="184" fill="url(#shine)" opacity=".85"/>'+
  '<ellipse cx="326" cy="353" rx="207" ry="24" fill="#8b9ead" opacity=".16"/>'+
  '<g filter="url(#shadow)" transform="translate(87 16) scale(1.1)">'+kind()+'</g>'+
- '<rect x="22" y="19" rx="11" width="176" height="33" fill="#172c3d" opacity=".94"/>'+
- '<circle cx="41" cy="36" r="4" fill="'+accent+'"/>'+
- '<text x="55" y="41" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1.2" fill="#fff">ILLUSZTRÁCIÓ</text>'+
+
  '<rect y="414" width="640" height="106" fill="#112c40"/>'+
  '<rect y="414" width="640" height="3" fill="'+accent+'"/>'+
  '<text x="27" y="445" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="'+accent+'">'+esc(brand)+'</text>'+
  '<text x="27" y="477" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#f6f9fb">'+esc(model)+'</text>'+
  '<text x="27" y="501" font-family="Arial,sans-serif" font-size="14" fill="#b6cbd7">'+esc(category)+'</text>'+
- '<text x="613" y="501" text-anchor="end" font-family="Arial,sans-serif" font-size="12" fill="#9aafbe">NEM GYÁRTÓI FOTÓ</text>'+
+
  '</svg>';
 }
 let count=0;const types={};
