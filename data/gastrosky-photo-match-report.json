@@ -1,140 +1,140 @@
 {
-  "checked_at": "2026-11-14T18:55:40.677Z",
+  "checked_at": "2026-11-14T19:01:23.813Z",
   "checked": 33,
   "new_photos": 0,
   "matched": [],
   "unmatched": [
     {
       "id": "gastrosky:munkaasztalok:1",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     },
     {
       "id": "gastrosky:munkaasztalok-hatso-felhajtassal:1",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     },
     {
       "id": "gastrosky:munkaasztalok-also-polccal:1",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     },
     {
       "id": "gastrosky:rozsdamentes-pultok:1",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     },
     {
       "id": "gastrosky:rozsdamentes-pultok:2",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     },
     {
       "id": "gastrosky:rozsdamentes-falipolcok:1",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     },
     {
       "id": "gastrosky:rozsdamentes-falipolcok:2",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     },
     {
       "id": "gastrosky:rozsdamentes-atadopolcok:1",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     },
     {
       "id": "gastrosky:rozsdamentes-atadopolcok:2",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     },
     {
       "id": "gastrosky:nyitott-faliszekreny:1",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     },
     {
       "id": "gastrosky:toloajtos-faliszekreny:1",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     },
     {
       "id": "gastrosky:rozsdamentes-tarolo-allvany:1",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     },
     {
       "id": "gastrosky:geptarto-allvany:1",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     },
     {
       "id": "gastrosky:geptarto-allvany:2",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     },
     {
       "id": "gastrosky:rozsdamentes-penztarpult:1",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     },
     {
       "id": "gastrosky:evoeszkoz-es-talcatarto:1",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     },
     {
       "id": "gastrosky:evoeszkoz-es-talcatarto:2",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     },
     {
       "id": "gastrosky:elszivo-ernyok:1",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     },
     {
       "id": "gastrosky:elszivo-ernyok:2",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     },
     {
       "id": "gastrosky:elszivo-ernyok:3",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     },
     {
       "id": "gastrosky:elszivo-ernyok:4",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     },
     {
       "id": "gastrosky:elszivo-ernyok:5",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     },
     {
       "id": "gastrosky:huto-pult-salatahuto:1",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     },
     {
       "id": "gastrosky:huto-pult-salatahuto:2",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     },
     {
       "id": "gastrosky:huto-pult-salatahuto:3",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     },
     {
       "id": "gastrosky:melegentarto-pult:1",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     },
     {
       "id": "gastrosky:rozsdamentes-kocsik:1",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     },
     {
       "id": "gastrosky:rozsdamentes-kocsik:2",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     },
     {
       "id": "gastrosky:rozsdamentes-kocsik:3",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     },
     {
       "id": "gastrosky:rozsdamentes-kocsik:4",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     },
     {
       "id": "gastrosky:rozsdamentes-kocsik:5",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     },
     {
       "id": "gastrosky:rozsdamentes-kocsik:6",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     },
     {
       "id": "gastrosky:rozsdamentes-kocsik:7",
-      "reason": "unique_product_link_not_found"
+      "reason": "specific_photo_not_verified"
     }
   ]
 }
