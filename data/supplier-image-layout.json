@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-14T19:29:26.788Z",
+  "checked_at": "2026-11-14T19:32:35.798Z",
   "brands": {
     "Aristarco": {
       "total": 74,
@@ -847,6 +847,7 @@
       "status": 200,
       "content_type": "text/html; charset=UTF-8",
       "redirect": "https://www.modular.it/en/products/fun-600",
+      "body_codes": "\n\n\n    \n    \n                        \n    \n        Company\n    \n    \n        the Nice kitchen\n    \n    \n        Catalogues\n    \n    \n        Spare parts\n    \n    \n        News\n    \n    \n        Blog\n    \n    \n        Work with us\n    \n    \n        Contacts\n    \n    \n        Service\n    \n    \n        References\n    \n                \n            \n            Secure Area\n    \n\n    var user_menu_2 = document.getElementById('customBlockLoginSecureArea');\n    if (user_menu_2) {\n        user_menu_2.addEventListener('click', function () {\n            document.cookie = `custom-block-login=${user_menu_2.id}; max-age=10`;\n        });\n    }\n\n            \n    \n        en        \n    \n    \n            en\n                it\n                de\n                        es\n                fr\n            \n\n  ",
       "title": "Modular - Horizontal cooking and neutral elements",
       "images": [
         {
@@ -857,6 +858,13 @@
           "src": "/static/build/modular/images/megamenu/modular_menu_placeholder.jpg",
           "parent": "menu-image placeholder"
         },
+        {
+          "src": "/Modular/catalogo/prodotti/immagini/image-thumb__16646__product-thumbnail/MP01012011000_Fun_600_Piano_cottura_gas_modulo_30_mod.png",
+          "alt": "",
+          "parent": "product-image"
+        }
+      ],
+      "product_images": [
         {
           "src": "/Modular/catalogo/prodotti/immagini/image-thumb__16646__product-thumbnail/MP01012011000_Fun_600_Piano_cottura_gas_modulo_30_mod.png",
           "alt": "",
@@ -878,6 +886,7 @@
       "status": 200,
       "content_type": "text/html; charset=UTF-8",
       "redirect": "https://www.modular.it/en/catalog/modul-30-cm-9",
+      "body_codes": "\n\n\n    \n    \n                        \n    \n        Company\n    \n    \n        the Nice kitchen\n    \n    \n        Catalogues\n    \n    \n        Spare parts\n    \n    \n        News\n    \n    \n        Blog\n    \n    \n        Work with us\n    \n    \n        Contacts\n    \n    \n        Service\n    \n    \n        References\n    \n                \n            \n            Secure Area\n    \n\n    var user_menu_2 = document.getElementById('customBlockLoginSecureArea');\n    if (user_menu_2) {\n        user_menu_2.addEventListener('click', function () {\n            document.cookie = `custom-block-login=${user_menu_2.id}; max-age=10`;\n        });\n    }\n\n            \n    \n        en        \n    \n    \n            en\n                it\n                de\n                        es\n                fr\n            \n\n  ",
       "title": "Modular - Horizontal cooking and neutral elements",
       "images": [
         {
@@ -895,6 +904,13 @@
         }
       ],
       "meta_image": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16646__category-image/MP01012011000_Fun_600_Piano_cottura_gas_modulo_30_mod.jpg",
+      "product_images": [
+        {
+          "src": "/Modular/catalogo/prodotti/immagini/image-thumb__16646__product-thumbnail/MP01012011000_Fun_600_Piano_cottura_gas_modulo_30_mod.png",
+          "alt": "",
+          "parent": "product-image"
+        }
+      ],
       "photo_links": [
         {
           "title": "Photo"
@@ -910,6 +926,7 @@
       "status": 200,
       "content_type": "text/html; charset=UTF-8",
       "redirect": "https://www.modular.it/en/catalog/modul-30-cm-3",
+      "body_codes": "\n\n\n    \n    \n                        \n    \n        Company\n    \n    \n        the Nice kitchen\n    \n    \n        Catalogues\n    \n    \n        Spare parts\n    \n    \n        News\n    \n    \n        Blog\n    \n    \n        Work with us\n    \n    \n        Contacts\n    \n    \n        Service\n    \n    \n        References\n    \n                \n            \n            Secure Area\n    \n\n    var user_menu_2 = document.getElementById('customBlockLoginSecureArea');\n    if (user_menu_2) {\n        user_menu_2.addEventListener('click', function () {\n            document.cookie = `custom-block-login=${user_menu_2.id}; max-age=10`;\n        });\n    }\n\n            \n    \n        en        \n    \n    \n            en\n                it\n                de\n                        es\n                fr\n            \n\n  ",
       "title": "Modular - Horizontal cooking and neutral elements",
       "images": [
         {
@@ -932,6 +949,18 @@
         }
       ],
       "meta_image": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16995__category-image/MP01292121001_Fun_600_Friggitrice_elettrica_modulo_30_mod.jpg",
+      "product_images": [
+        {
+          "src": "/Modular/catalogo/prodotti/immagini/image-thumb__16994__product-thumbnail/MP01292121000_Fun_600_Friggitrice_elettrica_modulo_ECO_30_mod.png",
+          "alt": "",
+          "parent": "product-image"
+        },
+        {
+          "src": "/Modular/catalogo/prodotti/immagini/image-thumb__16995__product-thumbnail/MP01292121001_Fun_600_Friggitrice_elettrica_modulo_30_mod.png",
+          "alt": "",
+          "parent": "product-image"
+        }
+      ],
       "photo_links": [
         {
           "title": "Photo"
@@ -950,6 +979,7 @@
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
       "redirect": "https://www.fagorprofessional.com/en/kitchen-appliances/industrial-ovens/ikore",
+      "body_codes": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\n\t\t\n\n\n\t\n\t\n\t\n\t\t\n\t\n\n\t\n\t\n\t\t\n\t\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n            \n                \n                     About us \n                \n\n            \n\n\n\n\n\n            \n                \n                     Foodservice \n                \n\n\n\n    \n        \n            Foodservice\n        \n    \n\n    \n\n\n\n\n            \n            \n                    \n\n\n                        \n                                                    \n                                \n                                    \n                                \n                        \n                            \n                                \n                                    Cooking\n                                \n                            \n\n            ",
       "title": "iKORE Professional Ovens - iKORE Industrial Ovens",
       "images": [
         {
@@ -1033,6 +1063,7 @@
         }
       ],
       "meta_image": "https://www.fagorprofessional.comhttps://www.fagorprofessional.com/documents/d/global/fp_hornos_ikore",
+      "product_images": [],
       "photo_links": [],
       "model_matches": []
     },
@@ -1049,6 +1080,7 @@
       "status": 200,
       "content_type": "text/html; charset=UTF-8",
       "redirect": "https://coldline.it/en",
+      "body_codes": "\n\n\n\n<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-W5V5XXN\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\n\n\n\n\n    \n    \n                        \n    \n        Company\n    \n    \n        The Nice Kitchen\n    \n    \n        References\n    \n    \n        Brochures\n    \n    \n        Job\n    \n    \n        News\n    \n    \n        Blog\n    \n    \n        Cosmo\n    \n    \n        Contacts\n    \n    \n        Handbook\n    \n    \n        Service\n    \n                \n            \n            Secure Area\n    \n\n    var user_menu_2 = document.getElementById('customBlockLoginSecureArea');\n    if (user_menu_2) {\n        user_menu_2.addEventListener('click', function () {\n            document.cookie = `custom-block-login=${user_menu_2.id}; max-age=10`;\n        });\n    }\n\n      ",
       "title": "Coldline",
       "images": [
         {
@@ -1128,6 +1160,816 @@
           "src": "/Home/image-thumb__312__widget_text_left_image_fluid/tavoli_pizza_pizzeria_vetrina_pizza_vetrina_ingredienti_tavolo_granito_tavolo_pizzeria.png",
           "alt": "tavoli_pizza_pizzeria_vetrina_pizza_vetrina_ingredienti_tavolo_granito_tavolo_pizzeria",
           "parent": "col-sm-6 col-xs-12 hidden-xs col-lg-5 image-desktop-wrapper"
+        }
+      ],
+      "product_images": [],
+      "photo_links": [],
+      "model_matches": []
+    },
+    {
+      "brand": "Coldline",
+      "url": "https://coldline.it/en/catalog/1400-lt-5",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect": "https://coldline.it/en/catalog/1400-lt-5",
+      "body_codes": "\n\n\n\n<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-W5V5XXN\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\n\n\n\n\n    \n    \n                        \n    \n        Company\n    \n    \n        The Nice Kitchen\n    \n    \n        References\n    \n    \n        Brochures\n    \n    \n        Job\n    \n    \n        News\n    \n    \n        Blog\n    \n    \n        Cosmo\n    \n    \n        Contacts\n    \n    \n        Handbook\n    \n    \n        Service\n    \n                \n            \n            Secure Area\n    \n\n    var user_menu_2 = document.getElementById('customBlockLoginSecureArea');\n    if (user_menu_2) {\n        user_menu_2.addEventListener('click', function () {\n            document.cookie = `custom-block-login=${user_menu_2.id}; max-age=10`;\n        });\n    }\n\n      ",
+      "title": "Coldline",
+      "images": [
+        {
+          "src": "/Logo%20e%20Favicon/image-thumb__67759__logo/Logo-Coldline-26.png",
+          "alt": ""
+        },
+        {
+          "src": "",
+          "parent": "menu-image placeholder"
+        },
+        {
+          "src": "/catalogo/prodotti/immagini/image-thumb__482__product-thumbnail/A14140100201_Armadio_MASTER_1400lt.png",
+          "alt": "",
+          "parent": "product-image"
+        },
+        {
+          "src": "/catalogo/prodotti/immagini/image-thumb__488__product-thumbnail/A14141100201_Armadio_MASTER_1400lt.png",
+          "alt": "",
+          "parent": "product-image"
+        },
+        {
+          "src": "/catalogo/prodotti/immagini/image-thumb__2082__product-thumbnail/A14140100701_Armadio_MASTER_1400lt_porta_vetro.png",
+          "alt": "",
+          "parent": "product-image"
+        },
+        {
+          "src": "/catalogo/prodotti/immagini/image-thumb__2086__product-thumbnail/A14141100701_Armadio_MASTER_1400lt_porta_vetro.png",
+          "alt": "",
+          "parent": "product-image"
+        },
+        {
+          "src": "/catalogo/prodotti/immagini/image-thumb__2084__product-thumbnail/A14140200201_Armadio_MASTER_1400lt.png",
+          "alt": "",
+          "parent": "product-image"
+        },
+        {
+          "src": "/catalogo/prodotti/immagini/image-thumb__489__product-thumbnail/A14141200201_Armadio_MASTER_1400lt.png",
+          "alt": "",
+          "parent": "product-image"
+        },
+        {
+          "src": "/catalogo/prodotti/immagini/image-thumb__2083__product-thumbnail/A14140200701_Armadio_MASTER_1400lt_porta_vetro.png",
+          "alt": "",
+          "parent": "product-image"
+        },
+        {
+          "src": "/catalogo/prodotti/immagini/image-thumb__2087__product-thumbnail/A14141200701_Armadio_MASTER_1400lt_porta_vetro.png",
+          "alt": "",
+          "parent": "product-image"
+        },
+        {
+          "src": "/catalogo/prodotti/immagini/image-thumb__487__product-thumbnail/A14140600201_Armadio_MASTER_1400lt.png",
+          "alt": "",
+          "parent": "product-image"
+        },
+        {
+          "src": "/catalogo/prodotti/immagini/image-thumb__494__product-thumbnail/A14141600201_Armadio_MASTER_1400lt.png",
+          "alt": "",
+          "parent": "product-image"
+        },
+        {
+          "src": "/catalogo/prodotti/immagini/image-thumb__2085__product-thumbnail/A14140600701_Armadio_MASTER_1400lt_porta_vetro.png",
+          "alt": "",
+          "parent": "product-image"
+        },
+        {
+          "src": "/catalogo/prodotti/immagini/image-thumb__2088__product-thumbnail/A14141600701_Armadio_MASTER_1400lt_porta_vetro.png",
+          "alt": "",
+          "parent": "product-image"
+        }
+      ],
+      "meta_image": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__482__category-image/A14140100201_Armadio_MASTER_1400lt.jpg",
+      "product_images": [
+        {
+          "src": "/catalogo/prodotti/immagini/image-thumb__482__product-thumbnail/A14140100201_Armadio_MASTER_1400lt.png",
+          "alt": "",
+          "parent": "product-image"
+        },
+        {
+          "src": "/catalogo/prodotti/immagini/image-thumb__488__product-thumbnail/A14141100201_Armadio_MASTER_1400lt.png",
+          "alt": "",
+          "parent": "product-image"
+        },
+        {
+          "src": "/catalogo/prodotti/immagini/image-thumb__2082__product-thumbnail/A14140100701_Armadio_MASTER_1400lt_porta_vetro.png",
+          "alt": "",
+          "parent": "product-image"
+        },
+        {
+          "src": "/catalogo/prodotti/immagini/image-thumb__2086__product-thumbnail/A14141100701_Armadio_MASTER_1400lt_porta_vetro.png",
+          "alt": "",
+          "parent": "product-image"
+        },
+        {
+          "src": "/catalogo/prodotti/immagini/image-thumb__2084__product-thumbnail/A14140200201_Armadio_MASTER_1400lt.png",
+          "alt": "",
+          "parent": "product-image"
+        },
+        {
+          "src": "/catalogo/prodotti/immagini/image-thumb__489__product-thumbnail/A14141200201_Armadio_MASTER_1400lt.png",
+          "alt": "",
+          "parent": "product-image"
+        },
+        {
+          "src": "/catalogo/prodotti/immagini/image-thumb__2083__product-thumbnail/A14140200701_Armadio_MASTER_1400lt_porta_vetro.png",
+          "alt": "",
+          "parent": "product-image"
+        },
+        {
+          "src": "/catalogo/prodotti/immagini/image-thumb__2087__product-thumbnail/A14141200701_Armadio_MASTER_1400lt_porta_vetro.png",
+          "alt": "",
+          "parent": "product-image"
+        },
+        {
+          "src": "/catalogo/prodotti/immagini/image-thumb__487__product-thumbnail/A14140600201_Armadio_MASTER_1400lt.png",
+          "alt": "",
+          "parent": "product-image"
+        },
+        {
+          "src": "/catalogo/prodotti/immagini/image-thumb__494__product-thumbnail/A14141600201_Armadio_MASTER_1400lt.png",
+          "alt": "",
+          "parent": "product-image"
+        },
+        {
+          "src": "/catalogo/prodotti/immagini/image-thumb__2085__product-thumbnail/A14140600701_Armadio_MASTER_1400lt_porta_vetro.png",
+          "alt": "",
+          "parent": "product-image"
+        },
+        {
+          "src": "/catalogo/prodotti/immagini/image-thumb__2088__product-thumbnail/A14141600701_Armadio_MASTER_1400lt_porta_vetro.png",
+          "alt": "",
+          "parent": "product-image"
+        }
+      ],
+      "photo_links": [
+        {
+          "title": "Photo"
+        },
+        {
+          "title": "Photo"
+        },
+        {
+          "title": "Photo"
+        },
+        {
+          "title": "Photo"
+        },
+        {
+          "title": "Photo"
+        },
+        {
+          "title": "Photo"
+        },
+        {
+          "title": "Photo"
+        },
+        {
+          "title": "Photo"
+        },
+        {
+          "title": "Photo"
+        },
+        {
+          "title": "Photo"
+        },
+        {
+          "title": "Photo"
+        },
+        {
+          "title": "Photo"
+        }
+      ],
+      "model_matches": []
+    },
+    {
+      "brand": "Krupps",
+      "url": "https://www.krupps.com/en/catalogue/advance-range/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect": "https://www.krupps.com/en/catalogue/advance-range/",
+      "body_codes": "\n\n    \n<iframe data-cli-class=\"cli-blocker-script\" data-cli-label=\"Google Tag Manager\"  data-cli-script-type=\"analytics\" data-cli-block=\"true\" data-cli-block-if-ccpa-optout=\"false\" data-cli-element-position=\"body\" data-cli-placeholder=\"Accept <a class='cli_manage_current_consent'>Analytics</a> cookies to view the content.\" data-cli-src=\"https://www.googletagmanager.com/ns.html?id=GTM-M79NDTH\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\n\n\n\n\t\n\n\n\tSkip to content\n\n\n\n\t\t\t\n\t\t\t\t\t\tLoginMy account Menu top bar ITA\t\n\n\tSearch:\n\t\t\n\t\t\t\t\n\t\t \n\t\t\t\n\n\t\n\n\t\t\t\t\t\t\n\t\t\t\t\tKRUPPS\n\t\t\t\t\tSistemi di lavaggio professionale per la ristorazione\n\t\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\tProductsTypeGlasswasher Undercounter dishwasher Pass-through dishwasher Warewasher Rack conveyor dishwashers  RangesKERA ra",
+      "title": "ADVANCE range - KRUPPSADVANCE range - KRUPPS",
+      "images": [
+        {
+          "src": "https://www.krupps.com/wp-content/uploads/2026/08/Logo-Krupps-Negativo_sito.png",
+          "alt": "KRUPPS",
+          "parent": ""
+        },
+        {
+          "src": "https://www.krupps.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png",
+          "alt": "",
+          "parent": "menu-text"
+        },
+        {
+          "src": "https://www.krupps.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/it.png",
+          "alt": "",
+          "parent": "menu-text"
+        },
+        {
+          "src": "https://www.krupps.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/fr.png",
+          "alt": "",
+          "parent": "menu-text"
+        },
+        {
+          "src": "https://www.krupps.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png",
+          "alt": "",
+          "parent": "menu-text"
+        },
+        {
+          "src": "https://www.krupps.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/es.png",
+          "alt": "",
+          "parent": "menu-text"
+        },
+        {
+          "src": "https://www.krupps.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ru.png",
+          "alt": "",
+          "parent": "menu-text"
+        },
+        {
+          "src": "https://www.krupps.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/pt-pt.png",
+          "alt": "",
+          "parent": "menu-text"
+        },
+        {
+          "src": "https://www.krupps.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png",
+          "alt": "",
+          "parent": "menu-text"
+        },
+        {
+          "src": "https://www.krupps.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/it.png",
+          "alt": "",
+          "parent": "menu-text"
+        },
+        {
+          "src": "https://www.krupps.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/fr.png",
+          "alt": "",
+          "parent": "menu-text"
+        },
+        {
+          "src": "https://www.krupps.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png",
+          "alt": "",
+          "parent": "menu-text"
+        },
+        {
+          "src": "https://www.krupps.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/es.png",
+          "alt": "",
+          "parent": "menu-text"
+        },
+        {
+          "src": "https://www.krupps.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ru.png",
+          "alt": "",
+          "parent": "menu-text"
+        },
+        {
+          "src": "https://www.krupps.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/pt-pt.png",
+          "alt": "",
+          "parent": "menu-text"
+        },
+        {
+          "src": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/C327-2-668x1024.png",
+          "alt": "",
+          "parent": ""
+        }
+      ],
+      "product_images": [
+        {
+          "src": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/C327-2-668x1024.png",
+          "alt": "",
+          "parent": ""
+        },
+        {
+          "src": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/C327-2-668x1024.png",
+          "alt": "",
+          "parent": ""
+        },
+        {
+          "src": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/C327-2-668x1024.png",
+          "alt": "",
+          "parent": ""
+        },
+        {
+          "src": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/C327-2-668x1024.png",
+          "alt": "",
+          "parent": ""
+        },
+        {
+          "src": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/C327-2-668x1024.png",
+          "alt": "",
+          "parent": ""
+        },
+        {
+          "src": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/C537-2-770x1024.png",
+          "alt": "",
+          "parent": ""
+        },
+        {
+          "src": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/C537-2-770x1024.png",
+          "alt": "",
+          "parent": ""
+        },
+        {
+          "src": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/C537-2-770x1024.png",
+          "alt": "",
+          "parent": ""
+        },
+        {
+          "src": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/C537-2-770x1024.png",
+          "alt": "",
+          "parent": ""
+        },
+        {
+          "src": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/C537-2-770x1024.png",
+          "alt": "",
+          "parent": ""
+        },
+        {
+          "src": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/C537-2-770x1024.png",
+          "alt": "",
+          "parent": ""
+        },
+        {
+          "src": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/C537-2-770x1024.png",
+          "alt": "",
+          "parent": ""
+        },
+        {
+          "src": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/C537-2-770x1024.png",
+          "alt": "",
+          "parent": ""
+        },
+        {
+          "src": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/C537-2-770x1024.png",
+          "alt": "",
+          "parent": ""
+        },
+        {
+          "src": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/C537-2-770x1024.png",
+          "alt": "",
+          "parent": ""
+        },
+        {
+          "src": "https://www.krupps.com/wp-content/uploads/sites/4/2026/03/C640-BTH.jpg",
+          "alt": "",
+          "parent": ""
+        },
+        {
+          "src": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/CH100-546x1024.png",
+          "alt": "",
+          "parent": ""
+        },
+        {
+          "src": "https://www.krupps.com/wp-content/uploads/sites/4/2017/10/CH100-546x1024.png",
+          "alt": "",
+          "parent": ""
+        }
+      ],
+      "photo_links": [],
+      "model_matches": []
+    },
+    {
+      "brand": "Gastro Haal",
+      "url": "https://gastrohaal.sk/hu/termekek/72_burgonyakoptatok/308_skz-25-burgonyakoptato-25kg-adag-ciklus",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "redirect": "https://gastrohaal.sk/hu/termekek/72_burgonyakoptatok/308_skz-25-burgonyakoptato-25kg-adag-ciklus",
+      "body_codes": "\n\n    \n      \n      \t\t\tKezdőlap\t\t\tTermékek\n\tFőzőüstök\t\t\t\n\t\t\tElektromos főzőüstök\n\t\t\t\tGázüzemű főzőüstök\n\t\t\t\tGőzüzemű főzőüstök\n\t\t\t\tFőzőüst tartozékok \n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\tFőzőüstök-serpenyők \n\t\t\t\tTartozékok \n\t\t\t\t\t\t\t\t\t\n\t\tBillenőserpenyők\t\t\t\n\t\t\tElektromos üzemű billenőserpenyők\n\t\t\t\tGázüzemű billenőserpenyők\n\t\t\t\tAccessories for tilting bratt pans\n\t\t\t\t\t\t\t\t\t\n\t\tElektromos sütők\t\t\t\n\t\t\tElectric ovens - static with circulation\n\t\t\t\tElektromos sütő tartozékok\n\t\t\t\t\t\t\t\t\t\n\t\tTűzhelyek\t\t\t\n\t\t\tCombined ranges\n\t\t\t\tElectric ranges\n\t\t\t\tGas stoves with base\n\t\t\t\tElectric stoves with base\n\t\t\t\tElectric induction stove with base\n\t\t\t\tAccessories for ranges\n\t\t\t\t\t\t\t\t\t\n\t\tFőzőzsámolyok\t\t\t\n\t\t\tElectric stock pot ranges\n\t\t\t\tGas stock pot ranges\n\t\t\t\t\t\t\t\t\t\n\t\tBurgonyakoptatók\t\t\n\t\tBain-maries\t\t\n\t\tFertőtlenítés és Kamera terminá",
+      "title": "ŠKZ-25 - Škrabka zemiakov 20-25kg dávky/cyklus | GASTRO - HAAL",
+      "images": [
+        {
+          "src": "/templates/gastrohaal_v33b/img/flags/hu.png",
+          "alt": "Magyar",
+          "parent": "language"
+        },
+        {
+          "src": "/templates/gastrohaal_v33b/img/flags/sk.png",
+          "alt": "Slovenčina",
+          "parent": "dropdown-item"
+        },
+        {
+          "src": "/templates/gastrohaal_v33b/img/flags/en.png",
+          "alt": "English",
+          "parent": "dropdown-item"
+        },
+        {
+          "src": "/templates/gastrohaal_v33b/img/flags/de.png",
+          "alt": "Deutsche",
+          "parent": "dropdown-item"
+        },
+        {
+          "src": "/templates/gastrohaal_v33b/img/logo/logo_v2.png",
+          "alt": "GASTRO-HAAL",
+          "parent": "site-logo"
+        },
+        {
+          "src": "/userfiles/categs/P.KE-150-O.158.png",
+          "alt": "Főzőüstök",
+          "parent": "pic-holder"
+        },
+        {
+          "src": "/userfiles/categs/P.KE-200.175.png",
+          "alt": "Elektromos főzőüstök",
+          "parent": "pic-holder"
+        },
+        {
+          "src": "/userfiles/categs/P.KG-200.171.png",
+          "alt": "Gázüzemű főzőüstök",
+          "parent": "pic-holder"
+        },
+        {
+          "src": "/userfiles/categs/P.KP-200.174.png",
+          "alt": "Gőzüzemű főzőüstök",
+          "parent": "pic-holder"
+        },
+        {
+          "src": "/userfiles/categs/Vozik_akt.342.png",
+          "alt": "Főzőüst tartozékok ",
+          "parent": "pic-holder"
+        },
+        {
+          "src": "/userfiles/categs/P.KED-140.197.png",
+          "alt": "",
+          "parent": "pic-holder"
+        },
+        {
+          "src": "/userfiles/categs/P.KED-140.197.png",
+          "alt": "Főzőüstök-serpenyők ",
+          "parent": "pic-holder"
+        },
+        {
+          "src": "/userfiles/categs/Parak%20PKH.png",
+          "alt": "Tartozékok ",
+          "parent": "pic-holder"
+        },
+        {
+          "src": "/userfiles/categs/P.PE-9120.182.png",
+          "alt": "Billenőserpenyők",
+          "parent": "pic-holder"
+        },
+        {
+          "src": "/userfiles/categs/P.PE-980.181.png",
+          "alt": "Elektromos üzemű billenőserpenyők",
+          "parent": "pic-holder"
+        },
+        {
+          "src": "/userfiles/categs/P.PP-980.184.png",
+          "alt": "Gázüzemű billenőserpenyők",
+          "parent": "pic-holder"
+        }
+      ],
+      "meta_image": "https://www.gastrohaal.sk/userfiles/products/zoom/SKZ-25_06-2024.27.jpg",
+      "product_images": [],
+      "photo_links": [],
+      "model_matches": []
+    },
+    {
+      "brand": "Gastro Haal",
+      "url": "https://gastrohaal.sk/hu/termekek/72_burgonyakoptatok/320_lo-1-hulladekfogo-a-burgonyakoptatohoz",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "redirect": "https://gastrohaal.sk/hu/termekek/72_burgonyakoptatok/320_lo-1-hulladekfogo-a-burgonyakoptatohoz",
+      "body_codes": "\n\n    \n      \n      \t\t\tKezdőlap\t\t\tTermékek\n\tFőzőüstök\t\t\t\n\t\t\tElektromos főzőüstök\n\t\t\t\tGázüzemű főzőüstök\n\t\t\t\tGőzüzemű főzőüstök\n\t\t\t\tFőzőüst tartozékok \n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\tFőzőüstök-serpenyők \n\t\t\t\tTartozékok \n\t\t\t\t\t\t\t\t\t\n\t\tBillenőserpenyők\t\t\t\n\t\t\tElektromos üzemű billenőserpenyők\n\t\t\t\tGázüzemű billenőserpenyők\n\t\t\t\tAccessories for tilting bratt pans\n\t\t\t\t\t\t\t\t\t\n\t\tElektromos sütők\t\t\t\n\t\t\tElectric ovens - static with circulation\n\t\t\t\tElektromos sütő tartozékok\n\t\t\t\t\t\t\t\t\t\n\t\tTűzhelyek\t\t\t\n\t\t\tCombined ranges\n\t\t\t\tElectric ranges\n\t\t\t\tGas stoves with base\n\t\t\t\tElectric stoves with base\n\t\t\t\tElectric induction stove with base\n\t\t\t\tAccessories for ranges\n\t\t\t\t\t\t\t\t\t\n\t\tFőzőzsámolyok\t\t\t\n\t\t\tElectric stock pot ranges\n\t\t\t\tGas stock pot ranges\n\t\t\t\t\t\t\t\t\t\n\t\tBurgonyakoptatók\t\t\n\t\tBain-maries\t\t\n\t\tFertőtlenítés és Kamera terminá",
+      "title": "LO-1 - Lapač odpadu ku škrabke zemiakov  | GASTRO - HAAL",
+      "images": [
+        {
+          "src": "/templates/gastrohaal_v33b/img/flags/hu.png",
+          "alt": "Magyar",
+          "parent": "language"
+        },
+        {
+          "src": "/templates/gastrohaal_v33b/img/flags/sk.png",
+          "alt": "Slovenčina",
+          "parent": "dropdown-item"
+        },
+        {
+          "src": "/templates/gastrohaal_v33b/img/flags/en.png",
+          "alt": "English",
+          "parent": "dropdown-item"
+        },
+        {
+          "src": "/templates/gastrohaal_v33b/img/flags/de.png",
+          "alt": "Deutsche",
+          "parent": "dropdown-item"
+        },
+        {
+          "src": "/templates/gastrohaal_v33b/img/logo/logo_v2.png",
+          "alt": "GASTRO-HAAL",
+          "parent": "site-logo"
+        },
+        {
+          "src": "/userfiles/categs/P.KE-150-O.158.png",
+          "alt": "Főzőüstök",
+          "parent": "pic-holder"
+        },
+        {
+          "src": "/userfiles/categs/P.KE-200.175.png",
+          "alt": "Elektromos főzőüstök",
+          "parent": "pic-holder"
+        },
+        {
+          "src": "/userfiles/categs/P.KG-200.171.png",
+          "alt": "Gázüzemű főzőüstök",
+          "parent": "pic-holder"
+        },
+        {
+          "src": "/userfiles/categs/P.KP-200.174.png",
+          "alt": "Gőzüzemű főzőüstök",
+          "parent": "pic-holder"
+        },
+        {
+          "src": "/userfiles/categs/Vozik_akt.342.png",
+          "alt": "Főzőüst tartozékok ",
+          "parent": "pic-holder"
+        },
+        {
+          "src": "/userfiles/categs/P.KED-140.197.png",
+          "alt": "",
+          "parent": "pic-holder"
+        },
+        {
+          "src": "/userfiles/categs/P.KED-140.197.png",
+          "alt": "Főzőüstök-serpenyők ",
+          "parent": "pic-holder"
+        },
+        {
+          "src": "/userfiles/categs/Parak%20PKH.png",
+          "alt": "Tartozékok ",
+          "parent": "pic-holder"
+        },
+        {
+          "src": "/userfiles/categs/P.PE-9120.182.png",
+          "alt": "Billenőserpenyők",
+          "parent": "pic-holder"
+        },
+        {
+          "src": "/userfiles/categs/P.PE-980.181.png",
+          "alt": "Elektromos üzemű billenőserpenyők",
+          "parent": "pic-holder"
+        },
+        {
+          "src": "/userfiles/categs/P.PP-980.184.png",
+          "alt": "Gázüzemű billenőserpenyők",
+          "parent": "pic-holder"
+        }
+      ],
+      "meta_image": "https://www.gastrohaal.sk/userfiles/products/zoom/LO_1_small.jpg",
+      "product_images": [],
+      "photo_links": [],
+      "model_matches": []
+    },
+    {
+      "brand": "Sistema Project Italia",
+      "url": "https://www.projectsystems.it/en/projects/a-series/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect": "https://www.projectsystems.it/en/projects/a-series/",
+      "body_codes": "     ProductsGlasswashers and dishwashersHood-type dishwasherPot and utensil washersRack Conveyor dishwashersInstrument washerDishwasher for campsitesOsmosis SystemOptionals and AccessoriesApplication AreasGlass washers for bar, pub, wine bars, professional kitchensDishwasher for restaurants, hotels and pizzeriasDishwasher for  bakery, pastry, butcher and gastronomyDishwasher for  community, canteens and hospitalsInstrument washer for dentists hospitals practices & clinicsDesignCompanyReferencesBlogReserved AreaContact  HomeProjectsGlasswashers and dishwashersA SERIES                  var htmlDiv = document.getElementById(\"rs-plugin-settings-inline-css\"); var htmlDivCss=\"\";\n if(htmlDiv) {\n htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;\n }else{\n var htmlDiv = document.createElement(\"di",
+      "title": "Professional dishwashers with built-in water softener",
+      "images": [
+        {
+          "src": "https://www.projectsystems.it/wp-content/themes/projectsystems/img/logo30.png",
+          "alt": "Project Systems"
+        },
+        {
+          "src": "https://www.projectsystems.it/wp-content/plugins/sitepress-multilingual-cms/res/flags/it.png",
+          "alt": "Italian"
+        },
+        {
+          "src": "https://www.projectsystems.it/wp-content/plugins/sitepress-multilingual-cms/res/flags/es.png",
+          "alt": "Spanish"
+        },
+        {
+          "src": "https://www.projectsystems.it/wp-content/uploads/2020/01/Serie-A-closed-800x800px.jpg",
+          "alt": "lavastoviglie serie A"
+        },
+        {
+          "src": "https://www.projectsystems.it/wp-content/uploads/2020/01/serie-A-open-800x800px.jpg",
+          "alt": "lavastoviglie serie A con porta aperta"
+        },
+        {
+          "src": "https://www.projectsystems.it/wp-content/uploads/2020/01/tank-filter-800x800px.jpg",
+          "alt": "dishwasher tank filter"
+        },
+        {
+          "src": "https://www.projectsystems.it/wp-content/uploads/2020/01/tank-no-filter-800x800px.jpg",
+          "alt": "tank no filter"
+        },
+        {
+          "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "lazy": "https://www.projectsystems.it/wp-content/uploads/2026/07/tazzina-150x150-2.png",
+          "alt": "",
+          "parent": "aligncenter is-resized"
+        },
+        {
+          "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "lazy": "https://www.projectsystems.it/wp-content/uploads/",
+          "alt": "",
+          "parent": "aligncenter is-resized"
+        },
+        {
+          "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "lazy": "https://www.projectsystems.it/wp-content/uploads/",
+          "alt": "",
+          "parent": "aligncenter is-resized"
+        },
+        {
+          "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "lazy": "https://www.projectsystems.it/wp-content/uploads/",
+          "alt": "",
+          "parent": "aligncenter is-resized"
+        },
+        {
+          "src": "https://www.projectsystems.it/wp-content/themes/projectsystems/img/logo.png",
+          "alt": "Project Systems",
+          "parent": "col-3 col-md"
+        },
+        {
+          "src": "https://www.projectsystems.it/wp-content/uploads/2021/09/logo-30.png"
+        }
+      ],
+      "meta_image": "https://www.projectsystems.it/wp-content/uploads/2019/06/logo.png",
+      "product_images": [],
+      "photo_links": [],
+      "model_matches": []
+    },
+    {
+      "brand": "Tecnodom",
+      "url": "https://www.tecnodomspa.com/en/verticale.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "redirect": "https://www.tecnodomspa.com/en/verticale.html",
+      "body_codes": "\n        \n                    \n\n        \n                                                \n\n        \n                         \n            \n        \n            \n    \n        \n                                    \n\n                                \n                \n                                                                        \n\n        \n             \n        \n                    \n\n        \n                         \n                                            \n                                            \n                                            \n                                            \n                                            \n                                            \n                                            \n                                            \n              ",
+      "title": "Verticale",
+      "images": [
+        {
+          "src": "/media/mod_languages/images/it_it.gif",
+          "alt": "Italiano (IT)"
+        },
+        {
+          "src": "/media/mod_languages/images/en_gb.gif",
+          "alt": "English (United Kingdom)"
+        },
+        {
+          "src": "/images/loghi/logo-Tecnodom-chicco.png",
+          "alt": "",
+          "parent": "g-logo g-logo-helium"
+        },
+        {
+          "src": "/images/loghi/logo-tecnodom-med.png",
+          "alt": "",
+          "parent": "g-logo g-logo-helium"
+        },
+        {
+          "src": "/images/categorie/armadi-refrigerati600.jpg",
+          "parent": "jl-inline-clip"
+        },
+        {
+          "src": "/images/categorie/minicella600.jpg",
+          "parent": "jl-inline-clip"
+        },
+        {
+          "src": "/images/categorie/abbattitori600.jpg",
+          "parent": "jl-inline-clip"
+        },
+        {
+          "src": "/images/categorie/semimurali600.jpg",
+          "parent": "jl-inline-clip"
+        },
+        {
+          "src": "/images/categorie/murali600.jpg",
+          "parent": "jl-inline-clip"
+        },
+        {
+          "src": "/images/prodotti/armadi-refrigerati/400-th.jpg#joomlaImage://local-images/prodotti/armadi-refrigerati/400-th.jpg?width=300&height=300",
+          "alt": "ARMADIO 400",
+          "parent": "jl-inline-clip"
+        },
+        {
+          "src": "/images/prodotti/armadi-refrigerati/700-th.jpg#joomlaImage://local-images/prodotti/armadi-refrigerati/700-th.jpg?width=300&height=300",
+          "alt": "ARMADIO 600",
+          "parent": "jl-inline-clip"
+        },
+        {
+          "src": "/images/prodotti/armadi-refrigerati/700-th.jpg#joomlaImage://local-images/prodotti/armadi-refrigerati/700-th.jpg?width=300&height=300",
+          "alt": "ARMADIO 700",
+          "parent": "jl-inline-clip"
+        },
+        {
+          "src": "/images/prodotti/armadi-refrigerati/1400-th.jpg#joomlaImage://local-images/prodotti/armadi-refrigerati/1400-th.jpg?width=300&height=300",
+          "alt": "ARMADIO 1200",
+          "parent": "jl-inline-clip"
+        },
+        {
+          "src": "/images/prodotti/armadi-refrigerati/1400-th.jpg#joomlaImage://local-images/prodotti/armadi-refrigerati/1400-th.jpg?width=300&height=300",
+          "alt": "ARMADIO 1400",
+          "parent": "jl-inline-clip"
+        },
+        {
+          "src": "/images/prodotti/armadi-refrigerati/1400-plus-th.jpg#joomlaImage://local-images/prodotti/armadi-refrigerati/1400-plus-th.jpg?width=300&height=300",
+          "alt": "COMBINED CABINET",
+          "parent": "jl-inline-clip"
+        },
+        {
+          "src": "/images/prodotti/armadi-refrigerati/tecnodom_AISS-300.jpg#joomlaImage://local-images/prodotti/armadi-refrigerati/tecnodom_AISS-300.jpg?width=300&height=300",
+          "alt": "AISS",
+          "parent": "jl-inline-clip"
+        }
+      ],
+      "product_images": [
+        {
+          "src": "/images/prodotti/armadi-refrigerati/400-th.jpg#joomlaImage://local-images/prodotti/armadi-refrigerati/400-th.jpg?width=300&height=300",
+          "alt": "ARMADIO 400",
+          "parent": "jl-inline-clip"
+        },
+        {
+          "src": "/images/prodotti/armadi-refrigerati/700-th.jpg#joomlaImage://local-images/prodotti/armadi-refrigerati/700-th.jpg?width=300&height=300",
+          "alt": "ARMADIO 600",
+          "parent": "jl-inline-clip"
+        },
+        {
+          "src": "/images/prodotti/armadi-refrigerati/700-th.jpg#joomlaImage://local-images/prodotti/armadi-refrigerati/700-th.jpg?width=300&height=300",
+          "alt": "ARMADIO 700",
+          "parent": "jl-inline-clip"
+        },
+        {
+          "src": "/images/prodotti/armadi-refrigerati/1400-th.jpg#joomlaImage://local-images/prodotti/armadi-refrigerati/1400-th.jpg?width=300&height=300",
+          "alt": "ARMADIO 1200",
+          "parent": "jl-inline-clip"
+        },
+        {
+          "src": "/images/prodotti/armadi-refrigerati/1400-th.jpg#joomlaImage://local-images/prodotti/armadi-refrigerati/1400-th.jpg?width=300&height=300",
+          "alt": "ARMADIO 1400",
+          "parent": "jl-inline-clip"
+        },
+        {
+          "src": "/images/prodotti/armadi-refrigerati/1400-plus-th.jpg#joomlaImage://local-images/prodotti/armadi-refrigerati/1400-plus-th.jpg?width=300&height=300",
+          "alt": "COMBINED CABINET",
+          "parent": "jl-inline-clip"
+        },
+        {
+          "src": "/images/prodotti/armadi-refrigerati/tecnodom_AISS-300.jpg#joomlaImage://local-images/prodotti/armadi-refrigerati/tecnodom_AISS-300.jpg?width=300&height=300",
+          "alt": "AISS",
+          "parent": "jl-inline-clip"
+        },
+        {
+          "src": "/images/prodotti/armadi-refrigerati/big-th.jpg#joomlaImage://local-images/prodotti/armadi-refrigerati/big-th.jpg?width=300&height=300",
+          "alt": "BIG",
+          "parent": "jl-inline-clip"
+        },
+        {
+          "src": "/images/prodotti/minicella/minicella-100_th.jpg#joomlaImage://local-images/prodotti/minicella/minicella-100_th.jpg?width=300&height=300",
+          "alt": "MINICELLA 100",
+          "parent": "jl-inline-clip"
+        },
+        {
+          "src": "/images/prodotti/abbattitori/att02-th.jpg#joomlaImage://local-images/prodotti/abbattitori/att02-th.jpg?width=300&height=300",
+          "alt": "ATTILA P-ATT02",
+          "parent": "jl-inline-clip"
+        },
+        {
+          "src": "/images/prodotti/abbattitori/aladino-th.jpg#joomlaImage://local-images/prodotti/abbattitori/aladino-th.jpg?width=300&height=300",
+          "alt": "ALADINO",
+          "parent": "jl-inline-clip"
+        },
+        {
+          "src": "/images/prodotti/abbattitori/attila-th.jpg#joomlaImage://local-images/prodotti/abbattitori/attila-th.jpg?width=300&height=300",
+          "alt": "ATTILA",
+          "parent": "jl-inline-clip"
+        },
+        {
+          "src": "/images/prodotti/espositori-refrigerati/evo/evok-th.jpg#joomlaImage://local-images/prodotti/espositori-refrigerati/evo/evok-th.jpg?width=300&height=300",
+          "alt": "EVOK",
+          "parent": "jl-inline-clip"
+        },
+        {
+          "src": "/images/prodotti/espositori-refrigerati/evo/evok-hot-th.jpg#joomlaImage://local-images/prodotti/espositori-refrigerati/evo/evok-hot-th.jpg?width=300&height=300",
+          "alt": "EVOK Hot",
+          "parent": "jl-inline-clip"
+        },
+        {
+          "src": "/images/prodotti/espositori-refrigerati/evo/evok-lux-th.jpg#joomlaImage://local-images/prodotti/espositori-refrigerati/evo/evok-lux-th.jpg?width=300&height=300",
+          "alt": "EVOK LUX",
+          "parent": "jl-inline-clip"
+        },
+        {
+          "src": "/images/prodotti/espositori-refrigerati/evo/evok-lux-hot-th.jpg#joomlaImage://local-images/prodotti/espositori-refrigerati/evo/evok-lux-hot-th.jpg?width=300&height=300",
+          "alt": "EVOK LUX Hot",
+          "parent": "jl-inline-clip"
+        },
+        {
+          "src": "/images/prodotti/espositori-refrigerati/evo/evok-l-2porte-th.jpg#joomlaImage://local-images/prodotti/espositori-refrigerati/evo/evok-l-2porte-th.jpg?width=300&height=300",
+          "alt": "EVOK L 2 porte",
+          "parent": "jl-inline-clip"
+        },
+        {
+          "src": "/images/prodotti/espositori-refrigerati/evo/evok-l-2porte-hot-th.jpg#joomlaImage://local-images/prodotti/espositori-refrigerati/evo/evok-l-2porte-hot-th.jpg?width=300&height=300",
+          "alt": "EVOK L 2 porte Hot",
+          "parent": "jl-inline-clip"
         }
       ],
       "photo_links": [],
