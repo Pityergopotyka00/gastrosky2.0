@@ -106,7 +106,7 @@ for(const p of candidates){
    const $=load(pg.html);
    const labels=$('.product-tab-detail').toArray().map(x=>$(x).text().trim()).slice(0,8);
    const photos=$('.product-image img').toArray().map(x=>$(x).attr('src')||'').filter(Boolean).slice(0,3);
-   throw Error('exact_model_card_photo_not_found'+(reports.checked<=6?': headings='+labels.join('|')+' image='+photos.join('|'):''));
+   throw Error('exact_model_card_photo_not_found'+(report.checked<=6?': headings='+labels.join('|')+' image='+photos.join('|'):''));
   }
   const img=match.url;
   const key=new URL(img).origin+new URL(img).pathname;
@@ -121,7 +121,7 @@ for(const p of candidates){
   p.photo_match_type=match.evidence;p.photo_status='manufacturer_product_photo_http_verified';
   existing.set(key,[...used,{id:p.id,model:clean(p.model||p.sku)}]);
   report.added++;report.matched.push({id:p.id,model:p.model||p.sku,image_url:img,proof:match.evidence});
- }catch(error){report.unmatched.push({id:p.id,model:p.model||p.sku,reason:String(error.message||error).slice(0,110)})}
+ }catch(error){report.unmatched.push({id:p.id,model:p.model||p.sku,reason:String(error.message||error).slice(0,650)})}
  if(report.checked%10===0)console.log('Modular checked',report.checked,'matched',report.added);
  await sleep(280);
 }
