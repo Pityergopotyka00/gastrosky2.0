@@ -18064,5 +18064,137 @@
     "price": null,
     "availability": null,
     "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09306100",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09306100",
+    "ean": "8720783986392",
+    "name": "Maxima – Rozsdamentes levesmelegítő 10 L",
+    "category": "Melegentartás",
+    "description": "Maxima professzionális vendéglátóipari termék gyártói cikkszámmal és egyedi termékoldallal.",
+    "specifications": {
+      "Cikkszám": "09306100"
+    },
+    "source_url": "https://maxima.com/hu/levesmelegito-10-l-kiveheto-belso-edeny-rozsdamentes-acel-kanalnyilassal.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300541",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300541",
+    "ean": "8719632122609",
+    "name": "Maxima – Italadagoló 1 × 8 L",
+    "category": "Bárgépek",
+    "description": "Maxima professzionális vendéglátóipari termék gyártói cikkszámmal és egyedi termékoldallal.",
+    "specifications": {
+      "Cikkszám": "09300541"
+    },
+    "source_url": "https://maxima.com/hu/italadagolo-1-x-8l.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300542",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300542",
+    "ean": "8719632122616",
+    "name": "Maxima – Italadagoló 2 × 8 L",
+    "category": "Bárgépek",
+    "description": "Maxima professzionális vendéglátóipari termék gyártói cikkszámmal és egyedi termékoldallal.",
+    "specifications": {
+      "Cikkszám": "09300542"
+    },
+    "source_url": "https://maxima.com/hu/italadagolo-2-x-8l.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300543",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300543",
+    "ean": "8719632122623",
+    "name": "Maxima – Italadagoló 3 × 8 L",
+    "category": "Bárgépek",
+    "description": "Maxima professzionális vendéglátóipari termék gyártói cikkszámmal és egyedi termékoldallal.",
+    "specifications": {
+      "Cikkszám": "09300543"
+    },
+    "source_url": "https://maxima.com/hu/italadagolo-3-x-8l.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300535",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300535",
+    "ean": "8719324276078",
+    "name": "Maxima – Elektromos italadagoló 2 × 18 L",
+    "category": "Bárgépek",
+    "description": "Maxima professzionális vendéglátóipari termék gyártói cikkszámmal és egyedi termékoldallal.",
+    "specifications": {
+      "Cikkszám": "09300535"
+    },
+    "source_url": "https://maxima.com/hu/italadagolo-2-x-18l-elektromos.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09300540",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09300540",
+    "ean": "8719324276085",
+    "name": "Maxima – Elektromos italadagoló 3 × 18 L",
+    "category": "Bárgépek",
+    "description": "Maxima professzionális vendéglátóipari termék gyártói cikkszámmal és egyedi termékoldallal.",
+    "specifications": {
+      "Cikkszám": "09300540"
+    },
+    "source_url": "https://maxima.com/hu/italadagolo-3-x-18l-elektromos.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
   }
 ]
