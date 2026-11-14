@@ -11,16 +11,16 @@ async function assetCatalog(env,url){
  if(!Array.isArray(result))throw Error('catalog_invalid');
  return result;
 }
-export async function getCatalogWithOverrides(env,url){
+export async function getCatalogWithOverrides(env,url,{includeHidden=false}={}){
  const items=await assetCatalog(env,url);
  if(!env.ADMIN_DB?.prepare)return items;
  try{
   const result=await env.ADMIN_DB.prepare('SELECT product_id,custom_name,custom_description,image_url,hidden,featured FROM admin_product_overrides').all();
   const edits=new Map((result.results||[]).map(x=>[x.product_id,x]));
-  return items.filter(p=>!edits.get(p.id)?.hidden).map(p=>{
+  return items.filter(p=>includeHidden||!edits.get(p.id)?.hidden).map(p=>{
    const x=edits.get(p.id);
    if(!x)return p;
-   return {...p,name:x.custom_name||p.name,description:x.custom_description||p.description,image_url:x.image_url||p.image_url,admin_featured:x.featured===1};
+   return {...p,name:x.custom_name||p.name,description:x.custom_description||p.description,image_url:x.image_url||p.image_url,admin_featured:x.featured===1,admin_hidden:x.hidden===1};
   });
  }catch{
   // Unapplied optional migrations must never take the public catalog offline.
@@ -53,12 +53,12 @@ export async function handleAdminManagement(request,env,user){
   return reply({products:catalog.length,brands,accounts:users?.n||0,edits:overrides?.n||0,openNotes:notes?.n||0,audit:(audits.results||[])});
  }
  if(path==='/api/admin/products'&&method==='GET'){
-  const catalog=await getCatalogWithOverrides(env,request.url);
+  const catalog=await getCatalogWithOverrides(env,request.url,{includeHidden:true});
   const q=(new URL(request.url).searchParams.get('q')||'').slice(0,80).toLocaleLowerCase('hu');
   const manufacturer=(new URL(request.url).searchParams.get('manufacturer')||'').slice(0,80);
   const start=Math.max(0,Math.min(100000,Number.parseInt(new URL(request.url).searchParams.get('offset')||'0',10)||0));
   const found=catalog.filter(p=>(!manufacturer||p.manufacturer===manufacturer)&&(!q||(p.name+' '+p.sku+' '+p.id).toLocaleLowerCase('hu').includes(q)));
-  return reply({items:found.slice(start,start+30).map(p=>({id:p.id,name:p.name,sku:p.sku,manufacturer:p.manufacturer,description:p.description||'',image_url:p.image_url||null,featured:Boolean(p.admin_featured)})),total:found.length,offset:start});
+  return reply({items:found.slice(start,start+30).map(p=>({id:p.id,name:p.name,sku:p.sku,manufacturer:p.manufacturer,description:p.description||'',image_url:p.image_url||null,featured:Boolean(p.admin_featured),hidden:Boolean(p.admin_hidden)})),total:found.length,offset:start});
  }
  if(path==='/api/admin/product'&&method==='PUT'){
   if(!ownerOnly(user))return reply({error:'owner_required'},403);
