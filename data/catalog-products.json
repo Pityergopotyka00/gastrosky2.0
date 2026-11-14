@@ -8867,9 +8867,10 @@
     "availability": null,
     "record_status": "official_range_model_reference",
     "source_type": "manufacturer_public_catalog",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://et-e.com.ua/image/cache/catalog/products/000001415_1-800x800.jpg",
+    "photo_status": "matching_model_retailer_image_display_permission_pending",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "model_matched_external_reseller"
   },
   {
     "id": "krupps:C426",
