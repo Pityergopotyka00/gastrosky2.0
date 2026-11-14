@@ -121,6 +121,7 @@ export async function handleAdminRequest(request,env){
  if(!url.pathname.startsWith('/api/admin/'))return secureHeaders(json({error:'not_found'},404));
  if(!hasConfig(env))return secureHeaders(fail(503));
  if(request.method!=='GET'&&!safeOrigin(request))return secureHeaders(json({error:'forbidden'},403));
+ let phase='route';
  try{
   if(url.pathname==='/api/admin/login'&&request.method==='POST'){
    if(!await rateLimit(request,env))return secureHeaders(json({error:'too_many_attempts'},429,{'retry-after':'60'}));
@@ -131,22 +132,27 @@ export async function handleAdminRequest(request,env){
    const email=typeof input?.email==='string'?input.email.trim().toLowerCase():'';
    const password=input?.password,code=input?.code;
    if(email.length>160||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)||typeof password!=='string'||password.length<14||password.length>256||typeof code!=='string')return secureHeaders(fail());
+   phase='load_user';
    const user=await env.ADMIN_DB.prepare('SELECT id,email,role,password_salt,password_hash,password_iterations,totp_encrypted,last_totp_step,disabled,failed_attempts,locked_until FROM admin_users WHERE email=?').bind(email).first();
    if(!user||user.disabled)return secureHeaders(fail());
    const now=Date.now();
    if(user.locked_until>now)return secureHeaders(fail());
+   phase='verify_password';
    const hash=await passwordDigest(password,user.password_salt,user.password_iterations);
    const passwordOK=equalHex(hash,user.password_hash);
    let step=null;
-   if(passwordOK)step=await validateTotp(user.totp_encrypted,code,user.last_totp_step,env,now);
+   if(passwordOK){phase='verify_totp';step=await validateTotp(user.totp_encrypted,code,user.last_totp_step,env,now);}
    if(!passwordOK||step===null){
+    phase='record_failed_login';
     await env.ADMIN_DB.prepare('UPDATE admin_users SET failed_attempts=failed_attempts+1,locked_until=CASE WHEN failed_attempts+1>=? THEN ? ELSE locked_until END WHERE id=?').bind(MAX_FAILURES,now+LOCK_MS,user.id).run();
     await env.ADMIN_DB.prepare('INSERT INTO admin_audit_log (actor_id,event,occurred_at) VALUES (?,?,?)').bind(user.id,'login_failed',now).run();
     return secureHeaders(fail());
    }
    // Consume TOTP once, even across competing requests; prevents code replay.
+   phase='consume_totp';
    const update=await env.ADMIN_DB.prepare('UPDATE admin_users SET last_totp_step=?,failed_attempts=0,locked_until=0 WHERE id=? AND (last_totp_step IS NULL OR last_totp_step<?)').bind(step,user.id,step).run();
    if(update.meta?.changes!==1)return secureHeaders(fail());
+   phase='create_session';
    const token=randomHex(32),csrf=randomHex(32);
    await env.ADMIN_DB.prepare('INSERT INTO admin_sessions (id,user_id,token_hash,csrf_hash,created_at,last_seen,expires_at) VALUES (?,?,?,?,?,?,?)').bind(crypto.randomUUID(),user.id,await sha256(token),await sha256(csrf),now,now,now+SESSION_MAX_MS).run();
    await env.ADMIN_DB.prepare('INSERT INTO admin_audit_log (actor_id,event,occurred_at) VALUES (?,?,?)').bind(user.id,'login_success',now).run();
@@ -154,6 +160,7 @@ export async function handleAdminRequest(request,env){
    return secureHeaders(response);
   }
   if(url.pathname==='/api/admin/session'&&request.method==='GET'){
+   phase='load_session';
    const current=await session(request,env);
    if(!current)return secureHeaders(json({authenticated:false},401,{'set-cookie':clearCookie()}));
    // Reissue a CSRF token to the same-origin authenticated browser after reload.
@@ -175,7 +182,8 @@ export async function handleAdminRequest(request,env){
   // No open CRUD API until each operation has permission tests and auditing.
   return secureHeaders(json({error:'not_found'},404));
  }catch(error){
-  console.error('Admin authentication unavailable');
+  // Log only the failing phase: never log passwords, TOTP values, secrets, email or tokens.
+  console.error('Admin authentication unavailable at phase:',phase,'type:',error?.name||'unknown');
   return secureHeaders(json({error:'admin_unavailable'},503));
  }
 }
