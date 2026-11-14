@@ -19489,9 +19489,11 @@
     "availability": null,
     "record_status": "verified_manufacturer_model",
     "source_type": "official_product_page",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17064__product-thumbnail/MP01372111003_Fun_600_Fry_top_gas_piastra_rigata_acciaio_dolce_modulo_30_mod.png",
+    "photo_status": "manufacturer_product_photo_http_verified",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "official_modular_exact_model_card",
+    "photo_match_type": "single_official_product_page_exact_heading"
   },
   {
     "id": "modular:F60/30FTG/SL/T",
@@ -19512,9 +19514,11 @@
     "availability": null,
     "record_status": "verified_manufacturer_model",
     "source_type": "official_product_page",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__47296__product-thumbnail/MP01372111010_Fun_600_Fry_top_gas_piastra_liscia_cromata_satinata_modulo_30_mod.png",
+    "photo_status": "manufacturer_product_photo_http_verified",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "official_modular_exact_model_card",
+    "photo_match_type": "single_official_product_page_exact_heading"
   },
   {
     "id": "modular:F60/30GRLG/T",
@@ -19558,9 +19562,11 @@
     "availability": null,
     "record_status": "verified_manufacturer_model",
     "source_type": "official_product_page",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16646__product-thumbnail/MP01012011000_Fun_600_Piano_cottura_gas_modulo_30_mod.png",
+    "photo_status": "manufacturer_product_photo_http_verified",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "official_modular_exact_model_card",
+    "photo_match_type": "single_official_product_page_exact_heading"
   },
   {
     "id": "modular:F60/60CFE",
@@ -19581,9 +19587,11 @@
     "availability": null,
     "record_status": "verified_manufacturer_model",
     "source_type": "official_product_page",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__67656__product-thumbnail/MP01032121000_Fun_600_Cucine_elettrica_con_forno_elettrico_porta_in_acciaio_modulo_60_mod.png",
+    "photo_status": "manufacturer_product_photo_http_verified",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "official_modular_exact_model_card",
+    "photo_match_type": "single_official_product_page_exact_heading"
   },
   {
     "id": "modular:F60-60FRES-2V10-T",
@@ -19677,9 +19685,11 @@
     "availability": null,
     "record_status": "verified_manufacturer_model",
     "source_type": "official_product_page",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__67655__product-thumbnail/MP01012121003_Fun_600_Piano_cottura_elettrico_modulo_60_mod_def.png",
+    "photo_status": "manufacturer_product_photo_http_verified",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "official_modular_exact_model_card",
+    "photo_match_type": "single_official_product_page_exact_heading"
   },
   {
     "id": "modular:F60/60PCG/T",
@@ -19700,9 +19710,11 @@
     "availability": null,
     "record_status": "verified_manufacturer_model",
     "source_type": "official_product_page",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16647__product-thumbnail/MP01012111000_Fun_600_Piano_cottura_gas_modulo_60_mod.png",
+    "photo_status": "manufacturer_product_photo_http_verified",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "official_modular_exact_model_card",
+    "photo_match_type": "single_official_product_page_exact_heading"
   },
   {
     "id": "modular:F60/60PVE/T",
@@ -19723,9 +19735,11 @@
     "availability": null,
     "record_status": "verified_manufacturer_model",
     "source_type": "official_product_page",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16662__product-thumbnail/MP01012121007_Fun_600_Piano_cottura_infrarossi_modulo_60_mod.png",
+    "photo_status": "manufacturer_product_photo_http_verified",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "official_modular_exact_model_card",
+    "photo_match_type": "single_official_product_page_exact_heading"
   },
   {
     "id": "modular:F60/90CFEE",
@@ -19746,9 +19760,11 @@
     "availability": null,
     "record_status": "verified_manufacturer_model",
     "source_type": "official_product_page",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__46332__product-thumbnail/MP01032121001_Fun_600_Cucine_elettrica_con_forno_elettrico_ECO_modulo_90.png",
+    "photo_status": "manufacturer_product_photo_http_verified",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "official_modular_exact_model_card",
+    "photo_match_type": "single_official_product_page_exact_heading"
   },
   {
     "id": "modular:F60/90PCEE/T",
@@ -19769,9 +19785,11 @@
     "availability": null,
     "record_status": "verified_manufacturer_model",
     "source_type": "official_product_page",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__36702__product-thumbnail/MP01012121005_Fun_600_Piano_cottura_elettrico_potenziato_modulo_90_mod_def_copia.png",
+    "photo_status": "manufacturer_product_photo_http_verified",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "official_modular_exact_model_card",
+    "photo_match_type": "single_official_product_page_exact_heading"
   },
   {
     "id": "modular:F60/90PCG/T",
@@ -19792,9 +19810,11 @@
     "availability": null,
     "record_status": "verified_manufacturer_model",
     "source_type": "official_product_page",
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__62973__product-thumbnail/MP01012111001_Fun%20600_Piano%20cottura%20gas%20modulo%2090_mod.png",
+    "photo_status": "manufacturer_product_photo_http_verified",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "official_modular_exact_model_card",
+    "photo_match_type": "single_official_product_page_exact_heading"
   },
   {
     "id": "modular:F65-40FRES-1V10-T",
@@ -19816,10 +19836,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16998__product-thumbnail/MP01292122000_Fun_650_Friggitrice_elettrica_modulo_40.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:F65-70CPE-1V40-T",
@@ -19941,10 +19963,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__65884__product-thumbnail/MP01292113001_Fun%20700_Friggitrice%20gas%20modulo%2040_mod.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:F70-40PLN-T",
@@ -19966,10 +19990,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17439__product-thumbnail/MP01732143009_Fun_700_Elemento_neutro_top_modulo_40_mod.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:F70-70CFGB",
@@ -20066,10 +20092,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16658__product-thumbnail/MP01012113006_Fun_700_Piano_cottura_gas_vano_con_porte_modulo_70_mod.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:F70-80TPE-A",
@@ -20290,10 +20318,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16745__product-thumbnail/MP01015125002_Roc_1100_Piano_cottura_elettrico_vano_con_porta_modulo_60_mod.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:R18-100FTG-SL-A",
@@ -20315,10 +20345,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__36145__product-thumbnail/MP01375115009_Roc_1100_Fry_top_gas_piastra_liscia_cromata_satinata_vano_aperto_modulo_100_mod.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:R70-120PLN-A",
@@ -20340,10 +20372,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__27434__product-thumbnail/MP01734143017_Roc_700_Elemento_neutro_vano_aperto_modulo_120_mod.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:R70-40CPE-1V26-P",
@@ -20440,10 +20474,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17012__product-thumbnail/MP01294113050_Roc_700_Friggitrice_gas_vasca_libera_1_vasca_13_litri_modulo_40_mod.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:R70-40FRGV-1V13-P",
@@ -20490,10 +20526,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17197__product-thumbnail/MP01374123005_Roc_700_Fry_top_elettrico_piastra_liscia_cromata_vano_aperto_modulo_40_mod.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:R70-40FTE-CL-T",
@@ -20515,10 +20553,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17196__product-thumbnail/MP01374123004_Roc_700_Fry_top_elettrico_piastra_liscia_cromata_top_modulo_40_mod.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:R70-40FTG-CL-A",
@@ -20540,10 +20580,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17150__product-thumbnail/MP01374113005_Roc_700_Fry_top_gas_piastra_liscia_cromata_vano_aperto_modulo_40_mod.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:R70-40FTG-CL-T",
@@ -20590,10 +20632,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17156__product-thumbnail/MP01374113011_Roc_700_Fry_top_gas_piastra_rigata_cromata_vano_aperto_modulo_40_mod.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:R70-40INDW-P",
@@ -20615,10 +20659,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16928__product-thumbnail/MP01174123003_Roc_700_Piano_induzione_wok_vano_con_porta_modulo_40.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:R70-80CFG",
@@ -20640,10 +20686,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16763__product-thumbnail/MP01034113000_Roc_700_Cucina_a_gas_piano_stampato_su_forno_gas_modulo_80_mod.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:R70-80FRGL-2V13-P",
@@ -20665,10 +20713,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17013__product-thumbnail/MP01294113051_Roc_700_Friggitrice_gas_vasca_libera_2_vasche_13_litri_modulo_80_mod.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:R70-80FRGV-2V13-P",
@@ -20715,10 +20765,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17208__product-thumbnail/MP01374123016_Roc_700_Fry_top_elettrico_piastra_liscia_cromata_top_modulo_80.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:R70-80FTG-CL-A",
@@ -20740,10 +20792,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17162__product-thumbnail/MP01374113017_Roc_700_Fry_top_gas_piastra_liscia_cromata_vano_aperto_modulo_80_mod.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:R70-80FTG-CLR-A",
@@ -20765,10 +20819,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17168__product-thumbnail/MP01374113023_Roc_700_Fry_top_gas_piastra_2_3_liscia_1_3_rigata_cromata_vano_aperto_modulo_80_mod.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:R70-80FTG-SL-A",
@@ -20790,10 +20846,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__36104__product-thumbnail/MP01374113032_Roc_700_Fry_top_gas_piastra_liscia_cromata_satinata_vano_aperto_modulo_80_mod.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:R70-80PCG-A",
@@ -20815,10 +20873,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16680__product-thumbnail/MP01014113004_Roc_700_Piano_cottura_gas_piano_stampato_vano_aperto_modulo_80_mod.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:R70-80PCGB-A",
@@ -20840,10 +20900,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16689__product-thumbnail/MP01014113054_Roc_700_Piano_cottura_gas_bacinelle_vano_aperto_modulo_80_mod.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:R90-120PCG-T",
@@ -20890,10 +20952,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16710__product-thumbnail/MP01014114057_Roc_900_Piano_cottura_gas_bacinelle_vano_aperto_modulo_120_mod.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:R90-40BMG-T",
@@ -20915,10 +20979,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16966__product-thumbnail/MP01254114000_Roc_900_Bagnomaria_a_gas_top_modulo_40_mod.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:R90-40CPE-1V40-P",
@@ -21040,10 +21106,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17221__product-thumbnail/MP01374124005_Roc_900_Fry_top_elettrico_piastra_liscia_cromata_vano_aperto_modulo_40_mod.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:R90-40FTE-CL-T",
@@ -21065,10 +21133,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17220__product-thumbnail/MP01374124004_Roc_900_Fry_top_elettrico_piastra_liscia_cromata_top_modulo_40_mod.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:R90-40FTE-CR-T",
@@ -21090,10 +21160,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17226__product-thumbnail/MP01374124010_Roc_900_Fry_top_elettrico_piastra_rigata_cromata_top_modulo_da_40_mod.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:R90-40FTE-L-A",
@@ -21115,10 +21187,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17218__product-thumbnail/MP01374124002_Roc_900_Fry_top_elettrico_piastra_liscia_vano_aperto_modulo_40_mod.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:R90-40FTG-CL-T",
@@ -21140,10 +21214,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17172__product-thumbnail/MP01374114004_Roc_900_Fry_top_gas_piastra_liscia_cromata_top_modulo_40_mod.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:R90-40FTG-L-T",
@@ -21240,10 +21316,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__67009__product-thumbnail/MP01214114002_Roc_900_Cuocipasta_gas_2_vasche_40_litri_modulo_80.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:R90-80FRGL-2V17-P",
@@ -21340,10 +21418,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17233__product-thumbnail/MP01374124017_Roc_900_Fry_top_elettrico_piastra_liscia_cromata_vano_aperto_modulo_80_mod.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:R90-80FTE-CL-T",
@@ -21365,10 +21445,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17232__product-thumbnail/MP01374124016_Roc_900_Fry_top_elettrico_piastra_liscia_cromata_top_modulo_80.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:R90-80FTE-CLR-A",
@@ -21390,10 +21472,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17239__product-thumbnail/MP01374124023_Roc_900_Fry_top_elettrico_piastra_2_3_liscia_1_3_rigata_cromata_vano_aperto_modulo_80.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:R90-80FTG-CLR-A",
@@ -21415,10 +21499,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17191__product-thumbnail/MP01374114023_Roc_900_Fry_top_gas_piastra_2_3_liscia_1_3_rigata_cromata_vano_aperto_modulo_80_mod.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:R90-80FTG-L-T",
@@ -21440,10 +21526,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17181__product-thumbnail/MP01374114013_Roc_900_Fry_top_gas_piastra_liscia_vano_modulo_80_mod.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:R90-80PCG-T",
@@ -21490,10 +21578,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16707__product-thumbnail/MP01014114054_Roc_900_Piano_cottura_gas_bacinelle_vano_aperto_modulo_80_mod.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "modular:R90-80PEI-50",
@@ -21515,10 +21605,12 @@
     "availability": null,
     "record_status": "official_model_index_only",
     "source_type": "official_warehouse_public_listing",
-    "image_url": null,
-    "image_source": null,
+    "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17368__product-thumbnail/MP01534124003_Roc_900_Pentola_elettrica_indiretta_50_litri_mod.png",
+    "image_source": "official_modular_exact_model_card",
     "stock_source_status": "not_verified",
-    "publication_status": "model_only_details_pending"
+    "publication_status": "model_only_details_pending",
+    "photo_match_type": "exact_model_card",
+    "photo_status": "manufacturer_product_photo_http_verified"
   },
   {
     "id": "sistemaproject:catalog2025-30740",

@@ -1,34 +1,291 @@
 {
-  "checked_at": "2026-11-14T19:37:08.983Z",
+  "checked_at": "2026-11-14T19:41:10.821Z",
   "total_missing": 76,
   "checked": 76,
-  "added": 0,
-  "matched": [],
-  "unmatched": [
+  "added": 46,
+  "matched": [
     {
       "id": "modular:F60/30FTG/R/T",
       "model": "F60/30FTG/R/T",
-      "reason": "exact_model_card_photo_not_found: headings=F60/30FTG/R/T|Gas Griddle FUN 60/30 ribbed plate 5,2 kW top image=/Modular/catalogo/prodotti/immagini/image-thumb__17064__product-thumbnail/MP01372111003_Fun_600_Fry_top_gas_piastra_rigata_acciaio_dolce_modulo_30_mod.png"
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17064__product-thumbnail/MP01372111003_Fun_600_Fry_top_gas_piastra_rigata_acciaio_dolce_modulo_30_mod.png",
+      "proof": "single_official_product_page_exact_heading"
     },
     {
       "id": "modular:F60/30FTG/SL/T",
       "model": "F60/30FTG/SL/T",
-      "reason": "exact_model_card_photo_not_found: headings=F60/30FTG/SL/T|Gas Griddle FUN 60/30 smooth satin chrome plate 5,2 kW top image=/Modular/catalogo/prodotti/immagini/image-thumb__47296__product-thumbnail/MP01372111010_Fun_600_Fry_top_gas_piastra_liscia_cromata_satinata_modulo_30_mod.png"
-    },
-    {
-      "id": "modular:F60/30GRLG/T",
-      "model": "F60/30GRLG/T",
-      "reason": "non_html_product_page"
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__47296__product-thumbnail/MP01372111010_Fun_600_Fry_top_gas_piastra_liscia_cromata_satinata_modulo_30_mod.png",
+      "proof": "single_official_product_page_exact_heading"
     },
     {
       "id": "modular:F60/30PCG/T",
       "model": "F60/30PCG/T",
-      "reason": "exact_model_card_photo_not_found: headings=F60/30PCG/T|Gas range FUN 60/30 5 burners 6,9 kW top image=/Modular/catalogo/prodotti/immagini/image-thumb__16646__product-thumbnail/MP01012011000_Fun_600_Piano_cottura_gas_modulo_30_mod.png"
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16646__product-thumbnail/MP01012011000_Fun_600_Piano_cottura_gas_modulo_30_mod.png",
+      "proof": "single_official_product_page_exact_heading"
     },
     {
       "id": "modular:F60/60CFE",
       "model": "F60/60CFE",
-      "reason": "exact_model_card_photo_not_found: headings=F60/60CFE|Electric range 4 plates 8kW with electric oven 3kW image=/Modular/catalogo/prodotti/immagini/image-thumb__67656__product-thumbnail/MP01032121000_Fun_600_Cucine_elettrica_con_forno_elettrico_porta_in_acciaio_modulo_60_mod.png"
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__67656__product-thumbnail/MP01032121000_Fun_600_Cucine_elettrica_con_forno_elettrico_porta_in_acciaio_modulo_60_mod.png",
+      "proof": "single_official_product_page_exact_heading"
+    },
+    {
+      "id": "modular:F60/60PCEE/T",
+      "model": "F60/60PCEE/T",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__67655__product-thumbnail/MP01012121003_Fun_600_Piano_cottura_elettrico_modulo_60_mod_def.png",
+      "proof": "single_official_product_page_exact_heading"
+    },
+    {
+      "id": "modular:F60/60PCG/T",
+      "model": "F60/60PCG/T",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16647__product-thumbnail/MP01012111000_Fun_600_Piano_cottura_gas_modulo_60_mod.png",
+      "proof": "single_official_product_page_exact_heading"
+    },
+    {
+      "id": "modular:F60/60PVE/T",
+      "model": "F60/60PVE/T",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16662__product-thumbnail/MP01012121007_Fun_600_Piano_cottura_infrarossi_modulo_60_mod.png",
+      "proof": "single_official_product_page_exact_heading"
+    },
+    {
+      "id": "modular:F60/90CFEE",
+      "model": "F60/90CFEE",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__46332__product-thumbnail/MP01032121001_Fun_600_Cucine_elettrica_con_forno_elettrico_ECO_modulo_90.png",
+      "proof": "single_official_product_page_exact_heading"
+    },
+    {
+      "id": "modular:F60/90PCEE/T",
+      "model": "F60/90PCEE/T",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__36702__product-thumbnail/MP01012121005_Fun_600_Piano_cottura_elettrico_potenziato_modulo_90_mod_def_copia.png",
+      "proof": "single_official_product_page_exact_heading"
+    },
+    {
+      "id": "modular:F60/90PCG/T",
+      "model": "F60/90PCG/T",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__62973__product-thumbnail/MP01012111001_Fun%20600_Piano%20cottura%20gas%20modulo%2090_mod.png",
+      "proof": "single_official_product_page_exact_heading"
+    },
+    {
+      "id": "modular:F65-40FRES-1V10-T",
+      "model": "F65/40FRES/1V10/T",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16998__product-thumbnail/MP01292122000_Fun_650_Friggitrice_elettrica_modulo_40.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:F70-40FRGV-1V13-P",
+      "model": "F70/40FRGV/1V13/P",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__65884__product-thumbnail/MP01292113001_Fun%20700_Friggitrice%20gas%20modulo%2040_mod.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:F70-40PLN-T",
+      "model": "F70/40PLN/T",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17439__product-thumbnail/MP01732143009_Fun_700_Elemento_neutro_top_modulo_40_mod.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:F70-70PCGB-P",
+      "model": "F70/70PCGB/P",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16658__product-thumbnail/MP01012113006_Fun_700_Piano_cottura_gas_vano_con_porte_modulo_70_mod.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:R110-60PCEQ-P",
+      "model": "R110/60PCEQ/P",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16745__product-thumbnail/MP01015125002_Roc_1100_Piano_cottura_elettrico_vano_con_porta_modulo_60_mod.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:R18-100FTG-SL-A",
+      "model": "R18/100FTG/SL/A",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__36145__product-thumbnail/MP01375115009_Roc_1100_Fry_top_gas_piastra_liscia_cromata_satinata_vano_aperto_modulo_100_mod.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:R70-120PLN-A",
+      "model": "R70/120PLN/A",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__27434__product-thumbnail/MP01734143017_Roc_700_Elemento_neutro_vano_aperto_modulo_120_mod.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:R70-40FRGL-1V13-P",
+      "model": "R70/40FRGL/1V13/P",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17012__product-thumbnail/MP01294113050_Roc_700_Friggitrice_gas_vasca_libera_1_vasca_13_litri_modulo_40_mod.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:R70-40FTE-CL-A",
+      "model": "R70/40FTE/CL/A",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17197__product-thumbnail/MP01374123005_Roc_700_Fry_top_elettrico_piastra_liscia_cromata_vano_aperto_modulo_40_mod.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:R70-40FTE-CL-T",
+      "model": "R70/40FTE/CL/T",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17196__product-thumbnail/MP01374123004_Roc_700_Fry_top_elettrico_piastra_liscia_cromata_top_modulo_40_mod.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:R70-40FTG-CL-A",
+      "model": "R70/40FTG/CL/A",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17150__product-thumbnail/MP01374113005_Roc_700_Fry_top_gas_piastra_liscia_cromata_vano_aperto_modulo_40_mod.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:R70-40FTG-CR-A",
+      "model": "R70/40FTG/CR/A",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17156__product-thumbnail/MP01374113011_Roc_700_Fry_top_gas_piastra_rigata_cromata_vano_aperto_modulo_40_mod.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:R70-40INDW-P",
+      "model": "R70/40INDW/P",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16928__product-thumbnail/MP01174123003_Roc_700_Piano_induzione_wok_vano_con_porta_modulo_40.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:R70-80CFG",
+      "model": "R70/80CFG",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16763__product-thumbnail/MP01034113000_Roc_700_Cucina_a_gas_piano_stampato_su_forno_gas_modulo_80_mod.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:R70-80FRGL-2V13-P",
+      "model": "R70/80FRGL/2V13/P",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17013__product-thumbnail/MP01294113051_Roc_700_Friggitrice_gas_vasca_libera_2_vasche_13_litri_modulo_80_mod.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:R70-80FTE-CL-T",
+      "model": "R70/80FTE/CL/T",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17208__product-thumbnail/MP01374123016_Roc_700_Fry_top_elettrico_piastra_liscia_cromata_top_modulo_80.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:R70-80FTG-CL-A",
+      "model": "R70/80FTG/CL/A",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17162__product-thumbnail/MP01374113017_Roc_700_Fry_top_gas_piastra_liscia_cromata_vano_aperto_modulo_80_mod.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:R70-80FTG-CLR-A",
+      "model": "R70/80FTG/CLR/A",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17168__product-thumbnail/MP01374113023_Roc_700_Fry_top_gas_piastra_2_3_liscia_1_3_rigata_cromata_vano_aperto_modulo_80_mod.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:R70-80FTG-SL-A",
+      "model": "R70/80FTG/SL/A",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__36104__product-thumbnail/MP01374113032_Roc_700_Fry_top_gas_piastra_liscia_cromata_satinata_vano_aperto_modulo_80_mod.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:R70-80PCG-A",
+      "model": "R70/80PCG/A",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16680__product-thumbnail/MP01014113004_Roc_700_Piano_cottura_gas_piano_stampato_vano_aperto_modulo_80_mod.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:R70-80PCGB-A",
+      "model": "R70/80PCGB/A",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16689__product-thumbnail/MP01014113054_Roc_700_Piano_cottura_gas_bacinelle_vano_aperto_modulo_80_mod.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:R90-120PCGB-A",
+      "model": "R90/120PCGB/A",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16710__product-thumbnail/MP01014114057_Roc_900_Piano_cottura_gas_bacinelle_vano_aperto_modulo_120_mod.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:R90-40BMG-T",
+      "model": "R90/40BMG/T",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16966__product-thumbnail/MP01254114000_Roc_900_Bagnomaria_a_gas_top_modulo_40_mod.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:R90-40FTE-CL-A",
+      "model": "R90/40FTE/CL/A",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17221__product-thumbnail/MP01374124005_Roc_900_Fry_top_elettrico_piastra_liscia_cromata_vano_aperto_modulo_40_mod.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:R90-40FTE-CL-T",
+      "model": "R90/40FTE/CL/T",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17220__product-thumbnail/MP01374124004_Roc_900_Fry_top_elettrico_piastra_liscia_cromata_top_modulo_40_mod.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:R90-40FTE-CR-T",
+      "model": "R90/40FTE/CR/T",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17226__product-thumbnail/MP01374124010_Roc_900_Fry_top_elettrico_piastra_rigata_cromata_top_modulo_da_40_mod.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:R90-40FTE-L-A",
+      "model": "R90/40FTE/L/A",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17218__product-thumbnail/MP01374124002_Roc_900_Fry_top_elettrico_piastra_liscia_vano_aperto_modulo_40_mod.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:R90-40FTG-CL-T",
+      "model": "R90/40FTG/CL/T",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17172__product-thumbnail/MP01374114004_Roc_900_Fry_top_gas_piastra_liscia_cromata_top_modulo_40_mod.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:R90-80CPG-2V40-P",
+      "model": "R90/80CPG/2V40/P",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__67009__product-thumbnail/MP01214114002_Roc_900_Cuocipasta_gas_2_vasche_40_litri_modulo_80.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:R90-80FTE-CL-A",
+      "model": "R90/80FTE/CL/A",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17233__product-thumbnail/MP01374124017_Roc_900_Fry_top_elettrico_piastra_liscia_cromata_vano_aperto_modulo_80_mod.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:R90-80FTE-CL-T",
+      "model": "R90/80FTE/CL/T",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17232__product-thumbnail/MP01374124016_Roc_900_Fry_top_elettrico_piastra_liscia_cromata_top_modulo_80.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:R90-80FTE-CLR-A",
+      "model": "R90/80FTE/CLR/A",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17239__product-thumbnail/MP01374124023_Roc_900_Fry_top_elettrico_piastra_2_3_liscia_1_3_rigata_cromata_vano_aperto_modulo_80.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:R90-80FTG-CLR-A",
+      "model": "R90/80FTG/CLR/A",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17191__product-thumbnail/MP01374114023_Roc_900_Fry_top_gas_piastra_2_3_liscia_1_3_rigata_cromata_vano_aperto_modulo_80_mod.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:R90-80FTG-L-T",
+      "model": "R90/80FTG/L/T",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17181__product-thumbnail/MP01374114013_Roc_900_Fry_top_gas_piastra_liscia_vano_modulo_80_mod.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:R90-80PCGB-A",
+      "model": "R90/80PCGB/A",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__16707__product-thumbnail/MP01014114054_Roc_900_Piano_cottura_gas_bacinelle_vano_aperto_modulo_80_mod.png",
+      "proof": "exact_model_card"
+    },
+    {
+      "id": "modular:R90-80PEI-50",
+      "model": "R90/80PEI/50",
+      "image_url": "https://www.modular.it/Modular/catalogo/prodotti/immagini/image-thumb__17368__product-thumbnail/MP01534124003_Roc_900_Pentola_elettrica_indiretta_50_litri_mod.png",
+      "proof": "exact_model_card"
+    }
+  ],
+  "unmatched": [
+    {
+      "id": "modular:F60/30GRLG/T",
+      "model": "F60/30GRLG/T",
+      "reason": "non_html_product_page"
     },
     {
       "id": "modular:F60-60FRES-2V10-T",
@@ -43,41 +300,6 @@
     {
       "id": "modular:F60-60FRGV-2V8-T",
       "model": "F60/60FRGV/2V8/T",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:F60/60PCEE/T",
-      "model": "F60/60PCEE/T",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:F60/60PCG/T",
-      "model": "F60/60PCG/T",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:F60/60PVE/T",
-      "model": "F60/60PVE/T",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:F60/90CFEE",
-      "model": "F60/90CFEE",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:F60/90PCEE/T",
-      "model": "F60/90PCEE/T",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:F60/90PCG/T",
-      "model": "F60/90PCG/T",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:F65-40FRES-1V10-T",
-      "model": "F65/40FRES/1V10/T",
       "reason": "exact_model_card_photo_not_found"
     },
     {
@@ -101,16 +323,6 @@
       "reason": "exact_model_card_photo_not_found"
     },
     {
-      "id": "modular:F70-40FRGV-1V13-P",
-      "model": "F70/40FRGV/1V13/P",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:F70-40PLN-T",
-      "model": "F70/40PLN/T",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
       "id": "modular:F70-70CFGB",
       "model": "F70/70CFGB",
       "reason": "exact_model_card_photo_not_found"
@@ -126,28 +338,8 @@
       "reason": "exact_model_card_photo_not_found"
     },
     {
-      "id": "modular:F70-70PCGB-P",
-      "model": "F70/70PCGB/P",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
       "id": "modular:F70-80TPE-A",
       "model": "F70/80TPE/A",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:R110-60PCEQ-P",
-      "model": "R110/60PCEQ/P",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:R18-100FTG-SL-A",
-      "model": "R18/100FTG/SL/A",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:R70-120PLN-A",
-      "model": "R70/120PLN/A",
       "reason": "exact_model_card_photo_not_found"
     },
     {
@@ -166,28 +358,8 @@
       "reason": "exact_model_card_photo_not_found"
     },
     {
-      "id": "modular:R70-40FRGL-1V13-P",
-      "model": "R70/40FRGL/1V13/P",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
       "id": "modular:R70-40FRGV-1V13-P",
       "model": "R70/40FRGV/1V13/P",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:R70-40FTE-CL-A",
-      "model": "R70/40FTE/CL/A",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:R70-40FTE-CL-T",
-      "model": "R70/40FTE/CL/T",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:R70-40FTG-CL-A",
-      "model": "R70/40FTG/CL/A",
       "reason": "exact_model_card_photo_not_found"
     },
     {
@@ -196,73 +368,13 @@
       "reason": "exact_model_card_photo_not_found"
     },
     {
-      "id": "modular:R70-40FTG-CR-A",
-      "model": "R70/40FTG/CR/A",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:R70-40INDW-P",
-      "model": "R70/40INDW/P",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:R70-80CFG",
-      "model": "R70/80CFG",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:R70-80FRGL-2V13-P",
-      "model": "R70/80FRGL/2V13/P",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
       "id": "modular:R70-80FRGV-2V13-P",
       "model": "R70/80FRGV/2V13/P",
       "reason": "exact_model_card_photo_not_found"
     },
     {
-      "id": "modular:R70-80FTE-CL-T",
-      "model": "R70/80FTE/CL/T",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:R70-80FTG-CL-A",
-      "model": "R70/80FTG/CL/A",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:R70-80FTG-CLR-A",
-      "model": "R70/80FTG/CLR/A",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:R70-80FTG-SL-A",
-      "model": "R70/80FTG/SL/A",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:R70-80PCG-A",
-      "model": "R70/80PCG/A",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:R70-80PCGB-A",
-      "model": "R70/80PCGB/A",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
       "id": "modular:R90-120PCG-T",
       "model": "R90/120PCG/T",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:R90-120PCGB-A",
-      "model": "R90/120PCGB/A",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:R90-40BMG-T",
-      "model": "R90/40BMG/T",
       "reason": "exact_model_card_photo_not_found"
     },
     {
@@ -286,31 +398,6 @@
       "reason": "exact_model_card_photo_not_found"
     },
     {
-      "id": "modular:R90-40FTE-CL-A",
-      "model": "R90/40FTE/CL/A",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:R90-40FTE-CL-T",
-      "model": "R90/40FTE/CL/T",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:R90-40FTE-CR-T",
-      "model": "R90/40FTE/CR/T",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:R90-40FTE-L-A",
-      "model": "R90/40FTE/L/A",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:R90-40FTG-CL-T",
-      "model": "R90/40FTG/CL/T",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
       "id": "modular:R90-40FTG-L-T",
       "model": "R90/40FTG/L/T",
       "reason": "exact_model_card_photo_not_found"
@@ -323,11 +410,6 @@
     {
       "id": "modular:R90-80CFGE",
       "model": "R90/80CFGE",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:R90-80CPG-2V40-P",
-      "model": "R90/80CPG/2V40/P",
       "reason": "exact_model_card_photo_not_found"
     },
     {
@@ -346,43 +428,8 @@
       "reason": "exact_model_card_photo_not_found"
     },
     {
-      "id": "modular:R90-80FTE-CL-A",
-      "model": "R90/80FTE/CL/A",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:R90-80FTE-CL-T",
-      "model": "R90/80FTE/CL/T",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:R90-80FTE-CLR-A",
-      "model": "R90/80FTE/CLR/A",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:R90-80FTG-CLR-A",
-      "model": "R90/80FTG/CLR/A",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:R90-80FTG-L-T",
-      "model": "R90/80FTG/L/T",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
       "id": "modular:R90-80PCG-T",
       "model": "R90/80PCG/T",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:R90-80PCGB-A",
-      "model": "R90/80PCGB/A",
-      "reason": "exact_model_card_photo_not_found"
-    },
-    {
-      "id": "modular:R90-80PEI-50",
-      "model": "R90/80PEI/50",
       "reason": "exact_model_card_photo_not_found"
     }
   ]
