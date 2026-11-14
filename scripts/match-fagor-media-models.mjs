@@ -1,3 +1,4 @@
+// Recheck complete verified Fagor image media index.
 // Attach official Fagor images only when the photo file name contains
 // the full exact manufacturer model code. No generic range substitutions.
 import {readFile,writeFile} from 'node:fs/promises';
