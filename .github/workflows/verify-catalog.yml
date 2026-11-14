@@ -12,6 +12,7 @@ on:
       - 'scripts/validate-site.mjs'
       - 'scripts/copy-static.mjs'
       - 'scripts/build-product-illustrations.mjs'
+      - 'scripts/premium-product-illustrations.mjs'
       - 'scripts/verify-product-visuals.mjs'
       - 'scripts/sync-supplier-feeds.mjs'
       - 'scripts/catalog-url.mjs'
