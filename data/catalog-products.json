@@ -17316,5 +17316,49 @@
     "price": null,
     "availability": null,
     "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09367931",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09367931",
+    "ean": "8720365341403",
+    "name": "Maxima – Polikarbonát GN 1/2 fedél",
+    "category": "Sütőtartozékok",
+    "description": "Maxima Gastronorm professzionális konyhai termék, gyártói cikkszámmal igazolva.",
+    "specifications": {
+      "Cikkszám": "09367931"
+    },
+    "source_url": "https://maxima.com/hu/gasztronorm-fedel-1-2-gn-polikarbonat.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09367776",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09367776",
+    "ean": "8719632125587",
+    "name": "Maxima – Rozsdamentes GN 1/9 fedél, mélyített",
+    "category": "Sütőtartozékok",
+    "description": "Maxima Gastronorm professzionális konyhai termék, gyártói cikkszámmal igazolva.",
+    "specifications": {
+      "Cikkszám": "09367776"
+    },
+    "source_url": "https://maxima.com/hu/gasztronorm-fedel-1-9-gn-sullyesztessel-rozsdamentes-acelbol-keszult.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
   }
 ]
