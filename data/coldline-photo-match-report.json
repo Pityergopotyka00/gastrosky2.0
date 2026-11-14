@@ -1,0 +1,441 @@
+{
+  "checked_at": "2026-11-14T19:43:45.042Z",
+  "missing": 88,
+  "checked": 88,
+  "added": 79,
+  "matched": [
+    {
+      "id": "coldline:a140-2br",
+      "model": "A140/2BR",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__494__product-thumbnail/A14141600201_Armadio_MASTER_1400lt.png"
+    },
+    {
+      "id": "coldline:a140-2brv",
+      "model": "A140/2BRV",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2088__product-thumbnail/A14141600701_Armadio_MASTER_1400lt_porta_vetro.png"
+    },
+    {
+      "id": "coldline:a140-2bv",
+      "model": "A140/2BV",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2085__product-thumbnail/A14140600701_Armadio_MASTER_1400lt_porta_vetro.png"
+    },
+    {
+      "id": "coldline:a140-2m",
+      "model": "A140/2M",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2084__product-thumbnail/A14140200201_Armadio_MASTER_1400lt.png"
+    },
+    {
+      "id": "coldline:a140-2mr",
+      "model": "A140/2MR",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__489__product-thumbnail/A14141200201_Armadio_MASTER_1400lt.png"
+    },
+    {
+      "id": "coldline:a140-2mrv",
+      "model": "A140/2MRV",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2087__product-thumbnail/A14141200701_Armadio_MASTER_1400lt_porta_vetro.png"
+    },
+    {
+      "id": "coldline:a140-2mv",
+      "model": "A140/2MV",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2083__product-thumbnail/A14140200701_Armadio_MASTER_1400lt_porta_vetro.png"
+    },
+    {
+      "id": "coldline:a140-2n",
+      "model": "A140/2N",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__482__product-thumbnail/A14140100201_Armadio_MASTER_1400lt.png"
+    },
+    {
+      "id": "coldline:a140-2nr",
+      "model": "A140/2NR",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__488__product-thumbnail/A14141100201_Armadio_MASTER_1400lt.png"
+    },
+    {
+      "id": "coldline:a140-2nrv",
+      "model": "A140/2NRV",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2086__product-thumbnail/A14141100701_Armadio_MASTER_1400lt_porta_vetro.png"
+    },
+    {
+      "id": "coldline:a140-2nv",
+      "model": "A140/2NV",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2082__product-thumbnail/A14140100701_Armadio_MASTER_1400lt_porta_vetro.png"
+    },
+    {
+      "id": "coldline:a30-1br",
+      "model": "A30/1BR",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__443__product-thumbnail/A14031600101_Armadio_MASTER_350lt.png"
+    },
+    {
+      "id": "coldline:a30-1brv",
+      "model": "A30/1BRV",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2049__product-thumbnail/A14031600601_Armadio_MASTER_350lt_porta_vetro.png"
+    },
+    {
+      "id": "coldline:a30-1bv",
+      "model": "A30/1BV",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2046__product-thumbnail/A14030600601_Armadio_MASTER_350lt_porta_vetro.png"
+    },
+    {
+      "id": "coldline:a30-1m",
+      "model": "A30/1M",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__436__product-thumbnail/A14030200101_Armadio_MASTER_350lt.png"
+    },
+    {
+      "id": "coldline:a30-1mr",
+      "model": "A30/1MR",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__441__product-thumbnail/A14031200101_Armadio_MASTER_350lt.png"
+    },
+    {
+      "id": "coldline:a30-1mrv",
+      "model": "A30/1MRV",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2048__product-thumbnail/A14031200601_Armadio_MASTER_350lt_porta_vetro.png"
+    },
+    {
+      "id": "coldline:a30-1mv",
+      "model": "A30/1MV",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2044__product-thumbnail/A14030200601_Armadio_MASTER_350lt_porta_vetro.png"
+    },
+    {
+      "id": "coldline:a30-1n",
+      "model": "A30/1N",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__435__product-thumbnail/A14030100101_Armadio_MASTER_350lt.png"
+    },
+    {
+      "id": "coldline:a30-1nr",
+      "model": "A30/1NR",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__440__product-thumbnail/A14031100101_Armadio_MASTER_350lt.png"
+    },
+    {
+      "id": "coldline:a30-1nrv",
+      "model": "A30/1NRV",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2047__product-thumbnail/A14031100601_Armadio_MASTER_350lt_porta_vetro.png"
+    },
+    {
+      "id": "coldline:a30-1nv",
+      "model": "A30/1NV",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2043__product-thumbnail/A14030100601_Armadio_MASTER_350lt_porta_vetro.png"
+    },
+    {
+      "id": "coldline:a60-1br",
+      "model": "A60/1BR",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__455__product-thumbnail/A14061600101_Armadio_MASTER_600lt.png"
+    },
+    {
+      "id": "coldline:a60-1brv",
+      "model": "A60/1BRV",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2061__product-thumbnail/A14061600601_Armadio_MASTER_600lt_porta_vetro.png"
+    },
+    {
+      "id": "coldline:a60-1bv",
+      "model": "A60/1BV",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2058__product-thumbnail/A14060600601_Armadio_MASTER_600lt_porta_vetro.png"
+    },
+    {
+      "id": "coldline:a60-1m",
+      "model": "A60/1M",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__451__product-thumbnail/A14060200101_Armadio_MASTER_600lt.png"
+    },
+    {
+      "id": "coldline:a60-1mr",
+      "model": "A60/1MR",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__454__product-thumbnail/A14061200101_Armadio_MASTER_600lt.png"
+    },
+    {
+      "id": "coldline:a60-1mrv",
+      "model": "A60/1MRV",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2060__product-thumbnail/A14061200601_Armadio_MASTER_600lt_porta_vetro.png"
+    },
+    {
+      "id": "coldline:a60-1mv",
+      "model": "A60/1MV",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2057__product-thumbnail/A14060200601_Armadio_MASTER_600lt_porta_vetro.png"
+    },
+    {
+      "id": "coldline:a60-1n",
+      "model": "A60/1N",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__450__product-thumbnail/A14060100101_Armadio_MASTER_600lt.png"
+    },
+    {
+      "id": "coldline:a60-1nr",
+      "model": "A60/1NR",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__453__product-thumbnail/A14061100101_Armadio_MASTER_600lt.png"
+    },
+    {
+      "id": "coldline:a60-1nrv",
+      "model": "A60/1NRV",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2059__product-thumbnail/A14061100601_Armadio_MASTER_600lt_porta_vetro.png"
+    },
+    {
+      "id": "coldline:a60-1nv",
+      "model": "A60/1NV",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2056__product-thumbnail/A14060100601_Armadio_MASTER_600lt_porta_vetro.png"
+    },
+    {
+      "id": "coldline:a70-1b",
+      "model": "A70/1B",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__62817__product-thumbnail/A14070600103_Armadio_MASTER_700lt.png"
+    },
+    {
+      "id": "coldline:a70-1be",
+      "model": "A70/1BE",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__62816__product-thumbnail/A12070600103_Armadio_SMART_700lt.png"
+    },
+    {
+      "id": "coldline:a70-1bg",
+      "model": "A70/1BG",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__531__product-thumbnail/A52070500101_Armadio_ICE_700lt.png"
+    },
+    {
+      "id": "coldline:a70-1brv",
+      "model": "A70/1BRV",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2067__product-thumbnail/A14071600601_Armadio_MASTER_700lt_porta_vetro.png"
+    },
+    {
+      "id": "coldline:a70-1bs",
+      "model": "A70/1BS",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2068__product-thumbnail/A14076600101_Armadio_MASTER_700lt.png"
+    },
+    {
+      "id": "coldline:a70-1bsr",
+      "model": "A70/1BSR",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2069__product-thumbnail/A14077600101_Armadio_MASTER_700lt.png"
+    },
+    {
+      "id": "coldline:a70-1bv",
+      "model": "A70/1BV",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2064__product-thumbnail/A14070600601_Armadio_MASTER_700lt_porta_vetro.png"
+    },
+    {
+      "id": "coldline:a70-1m",
+      "model": "A70/1M",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__457__product-thumbnail/A14070200101_Armadio_MASTER_700lt.png"
+    },
+    {
+      "id": "coldline:a70-1me",
+      "model": "A70/1ME",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__419__product-thumbnail/A12070200101_Armadio_SMART_700lt.png"
+    },
+    {
+      "id": "coldline:a70-1mr",
+      "model": "A70/1MR",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__464__product-thumbnail/A14071200101_Armadio_MASTER_700lt.png"
+    },
+    {
+      "id": "coldline:a70-1mrv",
+      "model": "A70/1MRV",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2066__product-thumbnail/A14071200601_Armadio_MASTER_700lt_porta_vetro.png"
+    },
+    {
+      "id": "coldline:a70-1mv",
+      "model": "A70/1MV",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2063__product-thumbnail/A14070200601_Armadio_MASTER_700lt_porta_vetro.png"
+    },
+    {
+      "id": "coldline:a70-1n",
+      "model": "A70/1N",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__456__product-thumbnail/A14070100101_Armadio_MASTER_700lt.png"
+    },
+    {
+      "id": "coldline:a70-1ne",
+      "model": "A70/1NE",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__418__product-thumbnail/A12070100101_Armadio_SMART_700lt.png"
+    },
+    {
+      "id": "coldline:a70-1nr",
+      "model": "A70/1NR",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__463__product-thumbnail/A14071100101_Armadio_MASTER_700lt.png"
+    },
+    {
+      "id": "coldline:a70-1nrv",
+      "model": "A70/1NRV",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2065__product-thumbnail/A14071100601_Armadio_MASTER_700lt_porta_vetro.png"
+    },
+    {
+      "id": "coldline:a70-1nv",
+      "model": "A70/1NV",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2062__product-thumbnail/A14070100601_Armadio_MASTER_700lt_porta_vetro.png"
+    },
+    {
+      "id": "coldline:a80-1bg",
+      "model": "A80/1BG",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__535__product-thumbnail/A52080500101_Armadio_ICE_650lt.png"
+    },
+    {
+      "id": "coldline:a90-1bgr",
+      "model": "A90/1BGR",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__541__product-thumbnail/A52091500101_Armadio_ICE_900lt.png"
+    },
+    {
+      "id": "coldline:a90-1m",
+      "model": "A90/1M",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__508__product-thumbnail/A24090200101_Armadio_WIND_900lt.png"
+    },
+    {
+      "id": "coldline:af60-1t",
+      "model": "AF60/1T",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__40659__product-thumbnail/A64600900101_armadio_fermalievitazione_VISION_60T.png"
+    },
+    {
+      "id": "coldline:j100-1m",
+      "model": "J100/1M",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__543__product-thumbnail/J11100200101_RollIn_L810.png"
+    },
+    {
+      "id": "coldline:tp09-1m-710",
+      "model": "TP09/1M-710",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__560__product-thumbnail/T10101000201_Tavolo_MASTER_1P_PLUGIN.png"
+    },
+    {
+      "id": "coldline:ts09-1m-710",
+      "model": "TS09/1M-710",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__548__product-thumbnail/T10100000201_Tavolo_MASTER_1P_PLUGIN.png"
+    },
+    {
+      "id": "coldline:ts13-1bjr-710",
+      "model": "TS13/1BJR-710",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__1194__product-thumbnail/T20210000401_Tavolo_PASTRY_2P_REMOTO.png"
+    },
+    {
+      "id": "coldline:ts13-1br-710",
+      "model": "TS13/1BR-710",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__657__product-thumbnail/T10210000401_Tavolo_MASTER_2P_REMOTO.png"
+    },
+    {
+      "id": "coldline:tv13-1mz-1-6-760",
+      "model": "TV13/1MZ-1/6-760",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__1177__product-thumbnail/T20201000232_Tavolo_PREP-STATION_2P_P800_PlugIn.png"
+    },
+    {
+      "id": "coldline:tz09-1mc-710",
+      "model": "TZ09/1MC-710",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2245__product-thumbnail/T40603000261_Tavolo_PIZZA_1P_PLUGIN_CASSETTIERA.png"
+    },
+    {
+      "id": "coldline:tz17-1mc-710",
+      "model": "TZ17/1MC-710",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2248__product-thumbnail/T40803000261_Tavolo_PIZZA_3P_PLUGIN_CASSETTIERA.png"
+    },
+    {
+      "id": "coldline:tz17-1mrc-710",
+      "model": "TZ17/1MRC-710",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__2249__product-thumbnail/T40813000261_Tavolo_PIZZA_3P_REMOTO_CASSETTIERA.png"
+    },
+    {
+      "id": "coldline:tzs21-1m-710",
+      "model": "TZS21/1M-710",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__1364__product-thumbnail/T40400000201_Tavolo_BASE_PIZZA_4P_PLUGIN.png"
+    },
+    {
+      "id": "coldline:vp18-8n",
+      "model": "VP18/8N",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__1423__product-thumbnail/V41181010001_Vetrina_Pizza_1795.png"
+    },
+    {
+      "id": "coldline:vp18-8nl",
+      "model": "VP18/8NL",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__1451__product-thumbnail/V42181010001_Vetrina_Pizza_1795.png"
+    },
+    {
+      "id": "coldline:vp20-9nr",
+      "model": "VP20/9NR",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__1429__product-thumbnail/V41201110001_Vetrina_Pizza_2005.png"
+    },
+    {
+      "id": "coldline:w10u",
+      "model": "W10U",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__36423__product-thumbnail/W11103000011_Abbattitore_MODI_10T.png"
+    },
+    {
+      "id": "coldline:w14h",
+      "model": "W14H",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__36456__product-thumbnail/W64146000011_abbattitore_VISION_14T.png"
+    },
+    {
+      "id": "coldline:w14u",
+      "model": "W14U",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__36425__product-thumbnail/W11143000011_Abbattitore_MODI_14T.png"
+    },
+    {
+      "id": "coldline:w3ag",
+      "model": "W3AG",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__65800__product-thumbnail/W11023220211_Abbattitore_MODI_3T_W3AG_categoria.png"
+    },
+    {
+      "id": "coldline:w5ug",
+      "model": "W5UG",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__36412__product-thumbnail/W11033010011_Abbattitore_MODI_5T.png"
+    },
+    {
+      "id": "coldline:w6fsr",
+      "model": "W6FSR",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__1699__product-thumbnail/W64065010001_abbattitore_VISION_6T.png"
+    },
+    {
+      "id": "coldline:w7tsaer",
+      "model": "W7TSAER",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__1623__product-thumbnail/W27078010001_Tavolo_Abbattitore_MODI_P700_7T.png"
+    },
+    {
+      "id": "coldline:yp14-6n",
+      "model": "YP14/6N",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__1413__product-thumbnail/V41141000001_Vetrina_Pizza_1450.png"
+    },
+    {
+      "id": "coldline:yp14-6nl",
+      "model": "YP14/6NL",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__1442__product-thumbnail/V42141000001_Vetrina_Pizza_1450.png"
+    },
+    {
+      "id": "coldline:yp18-8n",
+      "model": "YP18/8N",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__1422__product-thumbnail/V41181000001_Vetrina_Pizza_1795.png"
+    },
+    {
+      "id": "coldline:yp25-13n",
+      "model": "YP25/13N",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__1434__product-thumbnail/V41251000001_Vetrina_Pizza_2560.png"
+    },
+    {
+      "id": "coldline:yp25-13nl",
+      "model": "YP25/13NL",
+      "image_url": "https://coldline.it/catalogo/prodotti/immagini/image-thumb__1462__product-thumbnail/V42251000001_Vetrina_Pizza_2560.png"
+    }
+  ],
+  "unmatched": [
+    {
+      "id": "coldline:a140-2me",
+      "reason": "exact_model_panel_photo_missing"
+    },
+    {
+      "id": "coldline:a55-1bfh",
+      "reason": "exact_model_panel_photo_missing"
+    },
+    {
+      "id": "coldline:af80-2t",
+      "reason": "exact_model_panel_photo_missing"
+    },
+    {
+      "id": "coldline:ts17-1b-760",
+      "reason": "exact_model_panel_photo_missing"
+    },
+    {
+      "id": "coldline:ts17-1mjr-710",
+      "reason": "exact_model_panel_photo_missing"
+    },
+    {
+      "id": "coldline:vp25-13nl",
+      "reason": "exact_model_panel_photo_missing"
+    },
+    {
+      "id": "coldline:w5u",
+      "reason": "exact_model_panel_photo_missing"
+    },
+    {
+      "id": "coldline:w6f",
+      "reason": "exact_model_panel_photo_missing"
+    },
+    {
+      "id": "coldline:yp20-9n",
+      "reason": "exact_model_panel_photo_missing"
+    }
+  ]
+}
