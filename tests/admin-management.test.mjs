@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
+import {execFileSync} from 'node:child_process';
 import {handleAdminRequest} from '../worker/admin-auth.js';
 import {getCatalogWithOverrides} from '../worker/admin-management.js';
 const page=await readFile('admin/index.html','utf8');
@@ -35,4 +36,10 @@ test('protected admin actions cannot run without configured authentication',asyn
  const request=new Request('https://example.test/api/admin/product',{method:'PUT',headers:{origin:'https://example.test','content-type':'application/json'},body:JSON.stringify({id:'maxima:123'})});
  const r=await handleAdminRequest(request,{});
  assert.equal(r.status,503);
+});
+
+test('all browser admin scripts parse cleanly in Node',()=>{
+ for(const file of ['admin/admin.js','admin/dashboard.js']){
+  assert.doesNotThrow(()=>execFileSync(process.execPath,['--check',file],{stdio:'pipe'}));
+ }
 });
