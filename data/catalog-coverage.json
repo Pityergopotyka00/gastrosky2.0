@@ -1,27 +1,27 @@
 {
   "target_per_supplier": 50,
   "target_total": 450,
-  "current_total": 763,
+  "current_total": 998,
   "counts": {
     "Maxima": {
       "products": 217,
       "verified_products": 217,
       "model_only": 0,
-      "with_photo_url": 16,
+      "with_photo_url": 28,
       "missing_to_target": 0
     },
     "HENDI": {
-      "products": 57,
-      "verified_products": 57,
+      "products": 67,
+      "verified_products": 67,
       "model_only": 0,
-      "with_photo_url": 57,
+      "with_photo_url": 67,
       "missing_to_target": 0
     },
     "Fagor": {
-      "products": 211,
-      "verified_products": 211,
+      "products": 224,
+      "verified_products": 224,
       "model_only": 0,
-      "with_photo_url": 19,
+      "with_photo_url": 17,
       "missing_to_target": 0
     },
     "Modular": {
@@ -32,18 +32,18 @@
       "missing_to_target": 0
     },
     "Coldline": {
-      "products": 17,
-      "verified_products": 17,
+      "products": 125,
+      "verified_products": 125,
       "model_only": 0,
-      "with_photo_url": 3,
-      "missing_to_target": 33
+      "with_photo_url": 15,
+      "missing_to_target": 0
     },
     "Krupps": {
-      "products": 17,
-      "verified_products": 17,
+      "products": 68,
+      "verified_products": 68,
       "model_only": 0,
-      "with_photo_url": 2,
-      "missing_to_target": 33
+      "with_photo_url": 21,
+      "missing_to_target": 0
     },
     "Aristarco": {
       "products": 74,
@@ -53,11 +53,11 @@
       "missing_to_target": 0
     },
     "Sistema Project Italia": {
-      "products": 34,
-      "verified_products": 34,
+      "products": 87,
+      "verified_products": 87,
       "model_only": 0,
-      "with_photo_url": 0,
-      "missing_to_target": 16
+      "with_photo_url": 11,
+      "missing_to_target": 0
     },
     "Tecnodom": {
       "products": 54,
@@ -67,7 +67,7 @@
       "missing_to_target": 0
     }
   },
-  "complete": false,
+  "complete": true,
   "all_entries_have_photos": false,
   "notes": "Model-only entries are official model identifiers awaiting product-level SKU/spec/photo verification. Photo URL presence does not guarantee a working image or display rights. Do not represent model-only entries as verified individual SKUs.",
   "issues": [
@@ -83,6 +83,39 @@
     "Unexpected manufacturer: Gastro Haal",
     "Unexpected manufacturer: Gastro Haal",
     "Unexpected manufacturer: Gastro Haal",
-    "Unexpected manufacturer: Gastro Haal"
+    "Unexpected manufacturer: Gastro Haal",
+    "Unexpected manufacturer: GastroSky",
+    "Unexpected manufacturer: GastroSky",
+    "Unexpected manufacturer: GastroSky",
+    "Unexpected manufacturer: GastroSky",
+    "Unexpected manufacturer: GastroSky",
+    "Unexpected manufacturer: GastroSky",
+    "Unexpected manufacturer: GastroSky",
+    "Unexpected manufacturer: GastroSky",
+    "Unexpected manufacturer: GastroSky",
+    "Unexpected manufacturer: GastroSky",
+    "Unexpected manufacturer: GastroSky",
+    "Unexpected manufacturer: GastroSky",
+    "Unexpected manufacturer: GastroSky",
+    "Unexpected manufacturer: GastroSky",
+    "Unexpected manufacturer: GastroSky",
+    "Unexpected manufacturer: GastroSky",
+    "Unexpected manufacturer: GastroSky",
+    "Unexpected manufacturer: GastroSky",
+    "Unexpected manufacturer: GastroSky",
+    "Unexpected manufacturer: GastroSky",
+    "Unexpected manufacturer: GastroSky",
+    "Unexpected manufacturer: GastroSky",
+    "Unexpected manufacturer: GastroSky",
+    "Unexpected manufacturer: GastroSky",
+    "Unexpected manufacturer: GastroSky",
+    "Unexpected manufacturer: GastroSky",
+    "Unexpected manufacturer: GastroSky",
+    "Unexpected manufacturer: GastroSky",
+    "Unexpected manufacturer: GastroSky",
+    "Unexpected manufacturer: GastroSky",
+    "Unexpected manufacturer: GastroSky",
+    "Unexpected manufacturer: GastroSky",
+    "Unexpected manufacturer: GastroSky"
   ]
 }
