@@ -17184,5 +17184,137 @@
     "price": null,
     "availability": null,
     "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09367928",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09367928",
+    "ean": "8720365341373",
+    "name": "Maxima – Polikarbonát GN 1/9 tartály, 6,5 cm",
+    "category": "Sütőtartozékok",
+    "description": "Maxima GN konyhai kiegészítő a hivatalos gyártói katalógus saját termékoldaláról.",
+    "specifications": {
+      "Cikkszám": "09367928"
+    },
+    "source_url": "https://maxima.com/hu/gasztronorm-tartaly-1-9-gn-6-5cm-mely-17-6-x-10-8-cm-polikarbonat.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09367922",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09367922",
+    "ean": "8720365341311",
+    "name": "Maxima – Polikarbonát GN 1/4 tartály, 6,5 cm",
+    "category": "Sütőtartozékok",
+    "description": "Maxima GN konyhai kiegészítő a hivatalos gyártói katalógus saját termékoldaláról.",
+    "specifications": {
+      "Cikkszám": "09367922"
+    },
+    "source_url": "https://maxima.com/hu/gasztronorm-tartaly-1-4-gn-6-5cm-mely-26-5-x-16-2-cm-polikarbonat.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09367926",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09367926",
+    "ean": "8720365341359",
+    "name": "Maxima – Polikarbonát GN 1/6 tartály, 10 cm",
+    "category": "Sütőtartozékok",
+    "description": "Maxima GN konyhai kiegészítő a hivatalos gyártói katalógus saját termékoldaláról.",
+    "specifications": {
+      "Cikkszám": "09367926"
+    },
+    "source_url": "https://maxima.com/hu/gasztronorm-tartaly-1-6-gn-10cm-mely-17-6-x-16-2-cm-polikarbonat.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09367566",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09367566",
+    "ean": "8719632124979",
+    "name": "Maxima – Rozsdamentes GN 2/3 tartály, 10 cm",
+    "category": "Sütőtartozékok",
+    "description": "Maxima GN konyhai kiegészítő a hivatalos gyártói katalógus saját termékoldaláról.",
+    "specifications": {
+      "Cikkszám": "09367566"
+    },
+    "source_url": "https://maxima.com/hu/gasztronorm-tartaly-2-3-gn-10cm-mely-32-5-x-35-4cm-rozsdamentes-acel.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09367775",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09367775",
+    "ean": "8719632125570",
+    "name": "Maxima – Rozsdamentes GN 1/6 fedél, mélyített",
+    "category": "Sütőtartozékok",
+    "description": "Maxima GN konyhai kiegészítő a hivatalos gyártói katalógus saját termékoldaláról.",
+    "specifications": {
+      "Cikkszám": "09367775"
+    },
+    "source_url": "https://maxima.com/hu/gasztronorm-fedel-1-6-gn-sullyesztessel-rozsdamentes-acelbol-keszult.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
+  },
+  {
+    "id": "maxima:09367760",
+    "manufacturer": "Maxima",
+    "supplier": "Maxima",
+    "sku": "09367760",
+    "ean": "8719632125464",
+    "name": "Maxima – Rozsdamentes GN 2/3 fedél",
+    "category": "Sütőtartozékok",
+    "description": "Maxima GN konyhai kiegészítő a hivatalos gyártói katalógus saját termékoldaláról.",
+    "specifications": {
+      "Cikkszám": "09367760"
+    },
+    "source_url": "https://maxima.com/hu/gasztronorm-fedel-2-3-gn-rozsdamentes-acel.html",
+    "source_type": "manufacturer_public_product_page",
+    "record_status": "sku_and_product_page_verified",
+    "image_url": null,
+    "image_source": null,
+    "photo_status": "matching_product_image_pending",
+    "price": null,
+    "availability": null,
+    "stock_source_status": "not_verified"
   }
 ]
