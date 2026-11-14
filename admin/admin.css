@@ -70,3 +70,9 @@ body:has(#account:not([hidden])) .panel>.intro,body:has(#account:not([hidden])) 
  .dash-nav button{text-align:left}
 }
 @media(max-width:440px){.product-admin-row{flex-wrap:wrap}.product-admin-row .small-button{width:100%}}
+
+.new-product{background:#0d2235;border:1px solid #38546f;border-radius:12px;padding:14px;margin:13px 0}
+.new-product summary{cursor:pointer;font-weight:750;color:#f2ca8d;padding:7px;list-style-position:inside}
+.new-product form{display:grid;gap:10px;margin-top:14px}
+.new-product form button{justify-self:start}
+.small-button.muted-button{background:#254156;color:#e8f0f7;border:1px solid #60778f}
