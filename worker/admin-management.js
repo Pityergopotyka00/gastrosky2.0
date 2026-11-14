@@ -133,6 +133,29 @@ export async function handleAdminManagement(request,env,user){
   await log(env,user.user_id,'quote_status_updated',id);
   return reply({ok:true});
  }
+ if(path==='/api/admin/staff'&&method==='PATCH'){
+  if(!ownerOnly(user))return reply({error:'owner_required'},403);
+  const body=await parseBody(request);
+  const email=text(body?.email,160)?.toLowerCase();
+  if(!email||!/^\S+@\S+\.\S+$/.test(email)||typeof body.disabled!=='boolean')return reply({error:'invalid_input'},400);
+  if(email===user.email.toLowerCase())return reply({error:'cannot_disable_self'},403);
+  const target=await env.ADMIN_DB.prepare('SELECT id,role,disabled FROM admin_users WHERE email=?').bind(email).first();
+  if(!target)return reply({error:'not_found'},404);
+  const update=await env.ADMIN_DB.prepare('UPDATE admin_users SET disabled=? WHERE id=?').bind(body.disabled?1:0,target.id).run();
+  if(!update.meta?.changes)return reply({error:'update_failed'},503);
+  if(body.disabled)await env.ADMIN_DB.prepare('UPDATE admin_sessions SET revoked_at=? WHERE user_id=? AND revoked_at IS NULL').bind(now(),target.id).run();
+  await log(env,user.user_id,body.disabled?'staff_disabled':'staff_enabled',target.id);
+  return reply({ok:true});
+ }
+ if(path.startsWith('/api/admin/quotes/')&&method==='DELETE'){
+  if(!ownerOnly(user))return reply({error:'owner_required'},403);
+  const id=path.slice('/api/admin/quotes/'.length);
+  if(!/^[a-f0-9-]{36}$/i.test(id))return reply({error:'invalid_id'},400);
+  const r=await env.ADMIN_DB.prepare('DELETE FROM admin_quote_notes WHERE id=?').bind(id).run();
+  if(!r.meta?.changes)return reply({error:'not_found'},404);
+  await log(env,user.user_id,'quote_note_deleted',id);
+  return reply({ok:true});
+ }
  if(path==='/api/admin/staff'&&method==='GET'){
   if(!ownerOnly(user))return reply({error:'owner_required'},403);
   const result=await env.ADMIN_DB.prepare('SELECT email,role,disabled,created_at FROM admin_users ORDER BY created_at').all();
