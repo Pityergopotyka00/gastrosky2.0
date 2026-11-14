@@ -1,3 +1,4 @@
+import {pbkdf2Sync} from 'node:crypto';
 // GastroSky private admin authentication API (Cloudflare Workers + D1).
 // No public signup, bootstrap endpoint, password reset or admin dashboard.
 // Fails CLOSED until ADMIN_DB and ADMIN_TOTP_KEY are configured. Provision
@@ -22,9 +23,11 @@ function randomHex(size){const bytes=new Uint8Array(size);crypto.getRandomValues
 async function sha256(input){return hex(new Uint8Array(await crypto.subtle.digest('SHA-256',encoder.encode(input))))}
 export async function passwordDigest(password,saltHex,iterations=600000){
  if(typeof password!=='string'||password.length<14||password.length>256||!Number.isSafeInteger(iterations)||iterations<600000)throw Error('invalid_password_parameters');
- const key=await crypto.subtle.importKey('raw',encoder.encode(password),'PBKDF2',false,['deriveBits']);
- const bits=await crypto.subtle.deriveBits({name:'PBKDF2',hash:'SHA-256',salt:bytesFromHex(saltHex),iterations},key,256);
- return hex(new Uint8Array(bits));
+ // Cloudflare Workers WebCrypto limits PBKDF2 to 100,000 iterations.
+ // Node crypto supports our existing 600,000-round SHA-256 hashes and is
+ // enabled by the Worker's 2026-11 compatibility date. Never lower the rounds
+ // or rehash the database: existing accounts must keep working.
+ return pbkdf2Sync(password,bytesFromHex(saltHex),iterations,32,'sha256').toString('hex');
 }
 function equalHex(a,b){
  if(typeof a!=='string'||typeof b!=='string'||a.length!==b.length||!/^[\da-f]+$/i.test(a)||!/^[\da-f]+$/i.test(b))return false;
