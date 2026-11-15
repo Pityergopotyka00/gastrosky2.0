@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-15T05:06:15.599Z",
-  "total": 1044,
-  "existing_images": 524,
+  "checked_at": "2026-11-15T10:45:44.131Z",
+  "total": 1219,
+  "existing_images": 558,
   "new_photos": 0,
   "by_brand": {},
   "unresolved": [
@@ -902,12 +902,220 @@
       "reason": "photo_url_already_assigned_to_another_product"
     },
     {
+      "id": "krupps:KE50U",
+      "reason": "unavailable"
+    },
+    {
+      "id": "krupps:KE50UT",
+      "reason": "unavailable"
+    },
+    {
+      "id": "krupps:KE60UT",
+      "reason": "unavailable"
+    },
+    {
+      "id": "krupps:EL50E",
+      "reason": "unavailable"
+    },
+    {
+      "id": "krupps:EL51E",
+      "reason": "unavailable"
+    },
+    {
+      "id": "krupps:EL55E",
+      "reason": "unavailable"
+    },
+    {
+      "id": "krupps:ELS50E",
+      "reason": "unavailable"
+    },
+    {
+      "id": "krupps:ELS51E",
+      "reason": "unavailable"
+    },
+    {
+      "id": "krupps:S540E",
+      "reason": "unavailable"
+    },
+    {
+      "id": "krupps:S560E",
+      "reason": "unavailable"
+    },
+    {
+      "id": "krupps:K540E",
+      "reason": "unavailable"
+    },
+    {
+      "id": "krupps:K560E",
+      "reason": "unavailable"
+    },
+    {
+      "id": "krupps:K840E",
+      "reason": "unavailable"
+    },
+    {
+      "id": "krupps:EL50E-A",
+      "reason": "unavailable"
+    },
+    {
+      "id": "krupps:K540E-A",
+      "reason": "unavailable"
+    },
+    {
+      "id": "krupps:catalog2024-1153",
+      "reason": "large_page"
+    },
+    {
+      "id": "krupps:catalog2024-207035",
+      "reason": "large_page"
+    },
+    {
+      "id": "krupps:catalog2024-207054",
+      "reason": "large_page"
+    },
+    {
+      "id": "krupps:catalog2024-208035",
+      "reason": "large_page"
+    },
+    {
+      "id": "krupps:catalog2024-208052",
+      "reason": "large_page"
+    },
+    {
+      "id": "krupps:catalog2024-208057",
+      "reason": "large_page"
+    },
+    {
+      "id": "krupps:catalog2024-208054",
+      "reason": "large_page"
+    },
+    {
+      "id": "krupps:catalog2024-208055",
+      "reason": "large_page"
+    },
+    {
+      "id": "krupps:catalog2024-800052",
+      "reason": "large_page"
+    },
+    {
+      "id": "krupps:catalog2024-800057",
+      "reason": "large_page"
+    },
+    {
+      "id": "krupps:catalog2024-800200",
+      "reason": "large_page"
+    },
+    {
+      "id": "krupps:catalog2024-800201",
+      "reason": "large_page"
+    },
+    {
+      "id": "krupps:catalog2024-800202",
+      "reason": "large_page"
+    },
+    {
+      "id": "krupps:catalog2024-800211",
+      "reason": "large_page"
+    },
+    {
+      "id": "krupps:catalog2024-800216k",
+      "reason": "large_page"
+    },
+    {
+      "id": "krupps:catalog2024-800220k",
+      "reason": "large_page"
+    },
+    {
+      "id": "krupps:catalog2024-543300k",
+      "reason": "large_page"
+    },
+    {
+      "id": "krupps:catalog2024-640200",
+      "reason": "large_page"
+    },
+    {
       "id": "modular:F60/30GRLG/T",
       "reason": "model_not_on_page"
     },
     {
       "id": "modular:F60/60FRESE/2V10/T",
       "reason": "model_not_on_page"
+    },
+    {
+      "id": "modular:F60/30PCE/T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:F60/60PCE/T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:F60/30PCEE/T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:F60/90PCE/T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:F60/30PVE/T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:F60/90CFE",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:F60/60CFGE",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:F60/90CFGE",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:F60/30FTG/SR/T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:F60/60FTG/SLR/T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:F60/30CPE/1V14/T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:F60/60CPE/1V30/T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:F60/30BME/T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:F60/60BME/T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:F60/30FRGV/1V8/T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:F60/30FRESE/1V10/T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:F60/30FRES/1V10/T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:F60/30SPE/T",
+      "reason": "unavailable"
+    },
+    {
+      "id": "modular:F60/30FTG/L/T",
+      "reason": "unavailable"
     },
     {
       "id": "sistemaproject:catalog2025-30740",
@@ -1158,12 +1366,256 @@
       "reason": "photo_url_already_assigned_to_another_product"
     },
     {
+      "id": "sistemaproject:catalog2025-t80202",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-t80202l",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-t80200",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-t80201",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-t80204",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-t80203",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-t80206l700",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-t80205l700",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-t80206",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-t80205",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-t80208",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-t80207",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-t70206",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
+      "id": "sistemaproject:catalog2025-t70217",
+      "reason": "manufacturer_pdf_manual_photo_matching_required"
+    },
+    {
       "id": "tecnodom:armadio-1400",
       "reason": "tecnodom_exact_model_photo_not_verified"
     },
     {
       "id": "tecnodom:armadio-700",
       "reason": "tecnodom_exact_model_photo_not_verified"
+    },
+    {
+      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-tavolo-60-tf02",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-tavolo-mid-gastronomia-tn-bt-tf02",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-tavolo-mid-pasticceria-tp02",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-tavolo-mid-pizza-pz02",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-tavolo-eko-pizza-pz02c6",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-vetrina-refrigerata-ingredienti-pizza-120",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-orizzontale-saladette-saladette-sl02",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-orizzontale-saladette-saladette-pizza-sl02c6",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-orizzontale-arredamento-neutro-tavoli-a-giorno-60",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-orizzontale-arredamento-neutro-tavoli-armadiati-100",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-orizzontale-arredamento-neutro-lavelli-a-giorno-70",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-orizzontale-arredamento-neutro-pensili-armadiati-80",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-orizzontale-espositori-refrigerati-mr-95-100",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-orizzontale-espositori-refrigerati-mr-9-5-vcc-w-100",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-orizzontale-espositori-refrigerati-mr-80-100",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-orizzontale-espositori-refrigerati-m-80-100",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-orizzontale-espositori-refrigerati-m-90-100",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-orizzontale-espositori-refrigerati-m-1000-100",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-orizzontale-espositori-refrigerati-vigo-78-100",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-orizzontale-espositori-refrigerati-vigo-90-100",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-verticale-semimurali-evo-evo-60",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-verticale-semimurali-evo-evo-hot-60",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-verticale-semimurali-evo-evo-lux-60",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-verticale-semimurali-evo-evo-lux-hot-60",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-verticale-semimurali-evo-evo-self-90",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-verticale-semimurali-evok-evok-90",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-verticale-semimurali-evok-evok-hot-90",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-verticale-semimurali-evok-evok-lux-60",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-verticale-semimurali-evok-evok-lux-hot-60",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-verticale-semimurali-evok-evok-l-2-porte-90",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-verticale-semimurali-evok-evok-l-2-porte-hot-90",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-verticale-semimurali-evok-evok-l-4-porte-90",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-verticale-semimurali-evok-evok-l-4-porte-hot-90",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-verticale-murali-refrigerati-vulcano-60",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-verticale-murali-refrigerati-vulcano-sc-60",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-verticale-murali-refrigerati-vulcano-vb-125",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-verticale-murali-refrigerati-vulcano-vs-125",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-verticale-murali-refrigerati-lido-100",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-verticale-murali-refrigerati-stromboli-90-125",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-verticale-murali-refrigerati-stromboli-90-b-125",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-tavolo-60-tf03",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-tavolo-mid-gastronomia-tn-bt-tf03",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-tavolo-mid-pasticceria-tp03",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-tavolo-mid-pizza-pz03",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-tavolo-eko-pizza-pz02",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-vetrina-refrigerata-ingredienti-pizza-140",
+      "reason": "exact_range_photo_not_found"
+    },
+    {
+      "id": "tecnodom:variant:tdv-orizzontale-saladette-saladette-sl03",
+      "reason": "exact_range_photo_not_found"
     },
     {
       "id": "fagor:19001676",
@@ -2084,6 +2536,118 @@
     {
       "id": "modular:R90-80PCG-T",
       "reason": "model_not_on_page"
+    },
+    {
+      "id": "aristarco:configuration:ari-phe256m-a",
+      "reason": "unavailable"
+    },
+    {
+      "id": "aristarco:configuration:ari-phe256m-w",
+      "reason": "unavailable"
+    },
+    {
+      "id": "aristarco:configuration:ari-phe3012m-a",
+      "reason": "unavailable"
+    },
+    {
+      "id": "aristarco:configuration:ari-phe3012m-w",
+      "reason": "unavailable"
+    },
+    {
+      "id": "aristarco:configuration:ari-phe4015m-a",
+      "reason": "unavailable"
+    },
+    {
+      "id": "aristarco:configuration:ari-phe4015m-w",
+      "reason": "unavailable"
+    },
+    {
+      "id": "aristarco:configuration:ari-phe4515m-a",
+      "reason": "unavailable"
+    },
+    {
+      "id": "aristarco:configuration:ari-phe4515m-w",
+      "reason": "unavailable"
+    },
+    {
+      "id": "aristarco:configuration:ari-phe5025m-a",
+      "reason": "unavailable"
+    },
+    {
+      "id": "aristarco:configuration:ari-phe5025m-w",
+      "reason": "unavailable"
+    },
+    {
+      "id": "aristarco:configuration:ari-phe6040m-a",
+      "reason": "unavailable"
+    },
+    {
+      "id": "aristarco:configuration:ari-phe6040m-w",
+      "reason": "unavailable"
+    },
+    {
+      "id": "aristarco:configuration:ari-phe8040m-a",
+      "reason": "unavailable"
+    },
+    {
+      "id": "aristarco:configuration:ari-phe8040m-w",
+      "reason": "unavailable"
+    },
+    {
+      "id": "aristarco:configuration:ari-phe10055m-a",
+      "reason": "unavailable"
+    },
+    {
+      "id": "aristarco:configuration:ari-phe10055m-w",
+      "reason": "unavailable"
+    },
+    {
+      "id": "aristarco:configuration:ari-phe14070m-a",
+      "reason": "unavailable"
+    },
+    {
+      "id": "aristarco:configuration:ari-phe14070m-w",
+      "reason": "unavailable"
+    },
+    {
+      "id": "aristarco:configuration:ari-phe16070m-a",
+      "reason": "unavailable"
+    },
+    {
+      "id": "aristarco:configuration:ari-phe16070m-w",
+      "reason": "unavailable"
+    },
+    {
+      "id": "aristarco:configuration:ari-phe160m-a",
+      "reason": "unavailable"
+    },
+    {
+      "id": "aristarco:configuration:ari-phe160m-w",
+      "reason": "unavailable"
+    },
+    {
+      "id": "aristarco:configuration:ari-phe320m-a",
+      "reason": "unavailable"
+    },
+    {
+      "id": "aristarco:configuration:ari-phe320m-w",
+      "reason": "unavailable"
+    },
+    {
+      "id": "aristarco:configuration:ari-lyn205-a",
+      "reason": "unavailable"
+    },
+    {
+      "id": "aristarco:configuration:ari-lyn205-w",
+      "reason": "unavailable"
+    },
+    {
+      "id": "aristarco:configuration:ari-lyn257-a",
+      "reason": "unavailable"
+    },
+    {
+      "id": "aristarco:configuration:ari-lyn257-w",
+      "reason": "unavailable"
     }
   ]
 }
