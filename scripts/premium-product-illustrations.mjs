@@ -190,6 +190,20 @@ function kettle(){
  a+=C(284,232,11,'#3a5568','#98b3bf',2)+H(317,230);
  return a;
 }
+function riceCooker(){
+ let a=E(216,94,112,33,'url(#top)','#728b9d',3);
+ a+=R(108,103,216,134,35,'url(#steel2)','#738b9a',3);
+ a+=E(216,111,110,29,'url(#steel)','#637b8a',3);
+ a+=D('M119 98H313','#2a4354',11);
+ a+=R(187,75,59,39,10,'url(#dark)','#8197a4',2);
+ a+=R(194,163,45,54,6,'url(#dark)','#8a9cab',2);
+ a+=R(201,182,29,12,3,'#79c3a7','#a0b3b9',1);
+ a+=R(108,126,23,26,7,'#243e50','#546c7d',2);
+ a+=R(300,126,23,26,7,'#243e50','#546c7d',2);
+ a+=R(133,228,21,13,4,'#314b5c','#7a94a3',1);
+ a+=R(278,228,21,13,4,'#314b5c','#7a94a3',1);
+ return a;
+}
 function generic(){
  let a=box(96,74,249,190,28)+feet(118,317,264);
  a+=R(112,96,216,56,4,'url(#dark)','#748b9b',2)+V(123,107,116,34)+C(292,124,13,'#314b5d','#97aeba',2);
@@ -198,6 +212,7 @@ function generic(){
 }
 function typeOf(p){
  const s=fold([p.category,p.name,p.model,p.sku].join(' '));
+ if(/rizsfozo|rice.cooker|rice.warmer|rice.steamer|rizsparolo/.test(s))return 'ricecooker';
  if(/tartozek|adapter|kosar|tálca|talca|gn edeny|edeny|rack|accessor|vazlat|betet|perforalt/.test(s))return 'accessory';
  if(/pizzasuto|pizza oven|kemence|pizzakemence/.test(s))return 'pizza';
  if(/poharmoso|poharmos|glasswash/.test(s))return 'glasswasher';
@@ -220,7 +235,7 @@ function typeOf(p){
  if(/sütő|suto|oven|konvek|combi|gőzpárol|gozparol|ikore/.test(s))return 'oven';
  return 'equipment';
 }
-const art={oven,fridge,blast:()=>fridge(true),dishwasher,hoodwasher:()=>dishwasher(true),glasswasher:()=>dishwasher(false,true),fryer,griddle,stove:stovetop,table:worktable,sink,shelf,mixer,slicer,grinder,ice:iceMachine,pizza,accessory,coffee,kettle,equipment:generic};
+const art={ricecooker:riceCooker,oven,fridge,blast:()=>fridge(true),dishwasher,hoodwasher:()=>dishwasher(true),glasswasher:()=>dishwasher(false,true),fryer,griddle,stove:stovetop,table:worktable,sink,shelf,mixer,slicer,grinder,ice:iceMachine,pizza,accessory,coffee,kettle,equipment:generic};
 const definitions='<defs>'+
  '<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f4f8fb"/><stop offset=".57" stop-color="#dae5ee"/><stop offset="1" stop-color="#cbdce8"/></linearGradient>'+
  '<linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f9fcfe"/><stop offset=".17" stop-color="#d1dce4"/><stop offset=".4" stop-color="#f7fafb"/><stop offset=".68" stop-color="#a4b8c6"/><stop offset="1" stop-color="#e2edf3"/></linearGradient>'+
