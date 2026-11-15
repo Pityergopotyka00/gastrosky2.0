@@ -122,6 +122,30 @@ def main():
         export(page, rectangle, OUTPUT / filename)
         generated[sku] = "/media/official-fagor-2026/" + filename
         report["matched"].append({"sku": sku, "model": model, "type": category, "page": page_index + 1, "image": generated[sku]})
+    # Two different SKUs must never silently receive identical photograph bytes.
+    # Reject every member of a duplicate set until model/photo positions are reviewed.
+    import hashlib
+    grouped = {}
+    for sku in generated:
+        digest = hashlib.sha256((OUTPUT / (sku + ".webp")).read_bytes()).hexdigest()
+        grouped.setdefault(digest, []).append(sku)
+    for same_photo_skus in grouped.values():
+        if len(same_photo_skus) < 2:
+            continue
+        for sku in same_photo_skus:
+            (OUTPUT / (sku + ".webp")).unlink(missing_ok=True)
+            generated.pop(sku, None)
+            report["matched"] = [m for m in report["matched"] if m["sku"] != sku]
+            report["unresolved"].append({"sku": sku, "reason": "duplicate_photo_same_bytes_as_another_model"})
+    # Undo any previously published duplicate photos from this exact script.
+    for product in products:
+        sku = str(product.get("sku"))
+        if (product.get("manufacturer") == "Fagor"
+                and product.get("image_source") == "official_fagor_brochure_model_nearby_photo"
+                and sku not in generated):
+            product["image_url"] = None
+            product["image_source"] = "unverified_no_model_photo"
+            product["photo_status"] = "model_photo_not_verified"
     # Photos that could be the same shared PDF block for multiple variants are
     # not safe to label as exact-model, unless the PDF explicitly shows both.
     for sku, url in generated.items():
