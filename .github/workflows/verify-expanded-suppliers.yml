@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'scripts/verify-expanded-catalog.mjs'
+      - 'tests/aristarco-taxonomy.test.mjs'
       - '.github/workflows/verify-expanded-suppliers.yml'
 permissions:
   contents: read
