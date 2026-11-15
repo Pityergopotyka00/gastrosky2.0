@@ -45,8 +45,10 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           import xml.etree.ElementTree as ET
+          import json
+          expected=len(json.loads(Path('data/catalog-products.json').read_text()))
           files=list(Path('dist/media/product-illustrations').glob('*.svg'))
-          assert len(files)==1044, len(files)
+          assert len(files)==expected, (len(files),expected)
           for svg in files:
               content=svg.read_text()
               assert 'ILLUSZTRÁCIÓ' not in content and 'NEM GYÁRTÓI FOTÓ' not in content, svg.name
