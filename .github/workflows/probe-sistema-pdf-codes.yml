@@ -1,0 +1,26 @@
+name: Inspect official Sistema 2025 catalogue model codes
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/probe-sistema-catalog-codes.py'
+      - '.github/workflows/probe-sistema-pdf-codes.yml'
+permissions:
+  contents: write
+jobs:
+  catalog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --disable-pip-version-check pypdf
+      - run: python scripts/probe-sistema-catalog-codes.py
+      - name: Save public catalogue code findings
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/sistema-catalog-code-probe.json
+          git diff --cached --quiet || (git commit -m "Record published Sistema Project catalogue codes" && git pull --rebase origin main && git push)
