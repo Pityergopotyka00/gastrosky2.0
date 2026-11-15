@@ -1,0 +1,179 @@
+{
+  "date": "2026-11-15T09:47:13.158Z",
+  "before": 68,
+  "target": 101,
+  "added": [
+    {
+      "sku": "KE50U",
+      "url": "https://www.krupps.com/en/catalogo/kera-range/prodotto/ke50u/",
+      "image_url": null,
+      "group": "kera"
+    },
+    {
+      "sku": "KE50UT",
+      "url": "https://www.krupps.com/en/catalogo/kera-range/prodotto/ke50ut/",
+      "image_url": null,
+      "group": "kera"
+    },
+    {
+      "sku": "KE60UT",
+      "url": "https://www.krupps.com/en/catalogo/kera-range/prodotto/ke60ut/",
+      "image_url": null,
+      "group": "kera"
+    },
+    {
+      "sku": "EL50E",
+      "url": "https://www.krupps.com/en/catalogo/elitech-range/prodotto/el50e/",
+      "image_url": null,
+      "group": "elitech"
+    },
+    {
+      "sku": "EL51E",
+      "url": "https://www.krupps.com/en/catalogo/elitech-range/prodotto/el51e/",
+      "image_url": null,
+      "group": "elitech"
+    },
+    {
+      "sku": "EL55E",
+      "url": "https://www.krupps.com/en/catalogo/elitech-range/prodotto/el55e/",
+      "image_url": null,
+      "group": "elitech"
+    },
+    {
+      "sku": "ELS50E",
+      "url": "https://www.krupps.com/en/catalogo/elitech-range/prodotto/els50e/",
+      "image_url": null,
+      "group": "elitech"
+    },
+    {
+      "sku": "ELS51E",
+      "url": "https://www.krupps.com/en/catalogo/elitech-range/prodotto/els51e/",
+      "image_url": null,
+      "group": "elitech"
+    },
+    {
+      "sku": "S540E",
+      "url": "https://www.krupps.com/en/catalogo/soft-range/prodotto/s540e/",
+      "image_url": null,
+      "group": "soft"
+    },
+    {
+      "sku": "S560E",
+      "url": "https://www.krupps.com/en/catalogo/soft-range/prodotto/s560e/",
+      "image_url": null,
+      "group": "soft"
+    },
+    {
+      "sku": "K540E",
+      "url": "https://www.krupps.com/en/catalogo/koral-line/prodotto/k540e/",
+      "image_url": null,
+      "group": "koral"
+    },
+    {
+      "sku": "K560E",
+      "url": "https://www.krupps.com/en/catalogo/koral-line/prodotto/k560e/",
+      "image_url": null,
+      "group": "koral"
+    },
+    {
+      "sku": "K840E",
+      "url": "https://www.krupps.com/en/catalogo/koral-line/prodotto/k840e/",
+      "image_url": null,
+      "group": "koral"
+    },
+    {
+      "sku": "EL50E-A",
+      "url": "https://www.krupps.com/en/catalogo/elitech-north-america/prodotto/el50e-a/",
+      "image_url": null,
+      "group": "elitech"
+    },
+    {
+      "sku": "K540E-A",
+      "url": "https://www.krupps.com/en/catalogo/koral-north-america/prodotto/k540e-a/",
+      "image_url": null,
+      "group": "koral"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.krupps.com/en/catalogue/kera-range/",
+      "items": 5,
+      "added": 3,
+      "http": 200
+    },
+    {
+      "url": "https://www.krupps.com/en/catalogue/elitech-range/",
+      "items": 16,
+      "added": 5,
+      "http": 200
+    },
+    {
+      "url": "https://www.krupps.com/en/catalogue/soft-range/",
+      "items": 4,
+      "added": 2,
+      "http": 200
+    },
+    {
+      "url": "https://www.krupps.com/en/catalogue/koral-range/",
+      "items": 6,
+      "added": 3,
+      "http": 200
+    },
+    {
+      "url": "https://www.krupps.com/en/catalogue/advance-range/",
+      "items": 24,
+      "added": 0,
+      "http": 200
+    },
+    {
+      "url": "https://www.krupps.com/en/catalogue/evolution-range/",
+      "items": 20,
+      "added": 0,
+      "http": 200
+    },
+    {
+      "url": "https://www.krupps.com/en/catalogue/elitech-north-america/",
+      "items": 4,
+      "added": 1,
+      "http": 200
+    },
+    {
+      "url": "https://www.krupps.com/en/catalogue/koral-north-america/",
+      "items": 4,
+      "added": 1,
+      "http": 200
+    },
+    {
+      "url": "https://www.krupps.com/en/catalogue/type/glasswasher/",
+      "items": 12,
+      "added": 0,
+      "http": 200
+    },
+    {
+      "url": "https://www.krupps.com/en/catalogue/type/undercounter-dishwasher/",
+      "items": 22,
+      "added": 0,
+      "http": 200
+    },
+    {
+      "url": "https://www.krupps.com/en/catalogue/type/pass-through-dishwasher/",
+      "items": 20,
+      "added": 0,
+      "http": 200
+    },
+    {
+      "url": "https://www.krupps.com/en/catalogue/type/warewasher/",
+      "items": 10,
+      "added": 0,
+      "http": 200
+    },
+    {
+      "url": "https://www.krupps.com/en/catalogue/type/rack-conveyor-dishwashers/",
+      "items": 20,
+      "added": 0,
+      "http": 200
+    }
+  ],
+  "rejections": [],
+  "after": 83
+}
