@@ -204,6 +204,57 @@ function riceCooker(){
  a+=R(278,228,21,13,4,'#314b5c','#7a94a3',1);
  return a;
 }
+function microwave(){
+ let a=box(89,77,263,183,22)+feet(110,322,260);
+ a+=R(103,100,177,136,7,'url(#dark)','#8da5b2',3);
+ a+=R(116,114,151,108,5,'url(#glass)','#a1b8c5',3);
+ a+=D('M124 122V213','#d5e7ef',5);
+ a+=R(291,102,46,132,5,'url(#steel2)','#8197a5',2);
+ a+=C(312,125,11,'url(#dark)','#b6c7d1',2)+C(312,163,11,'url(#dark)','#b6c7d1',2);
+ return a;
+}
+function vacuumSealer(){
+ let a=box(88,181,269,72,18)+feet(105,325,253);
+ a+=P('100,181 124,121 327,121 346,181','url(#glass)','#718a9b',3);
+ a+=D('M125 137H323','#f2f8fa',4);
+ a+=R(121,214,203,22,3,'url(#dark)','#7f99a8',1);
+ a+=R(156,218,74,12,2,'#6fc1c5','none',0)+H(306,222);
+ return a;
+}
+function bainMarie(){
+ let a=box(79,160,278,95,22)+feet(104,323,255);
+ a+=P('82,160 104,112 340,112 372,160','url(#top)','#7b93a1',3);
+ for(let i=0;i<3;i++){
+  const x=114+i*74;
+  a+=R(x,116,67,51,4,'url(#dark)','#90a8b5',2)+R(x+5,120,57,40,3,'url(#steel2)','#a3b7c1',2);
+ }
+ a+=C(141,221,10,'url(#dark)','#b6c6d2',2)+H(304,220);
+ return a;
+}
+function waffleMaker(){
+ let a=box(97,175,247,74,20)+feet(117,318,249);
+ a+=P('102,176 136,101 315,101 344,176','url(#dark)','#7792a3',3);
+ a+=E(220,141,86,35,'url(#steel2)','#718a9d',3);
+ for(let y=124;y<160;y+=14)a+=D('M162 '+y+'H278','#77909d',2);
+ for(let x=176;x<269;x+=18)a+=D('M'+x+' 113V172','#77909d',2);
+ a+=D('M205 100V72H252','#304858',9);
+ return a;
+}
+function scaleMachine(){
+ let a=box(131,178,190,74,20)+feet(155,285,252);
+ a+=P('117,171 149,148 304,148 334,171','url(#steel2)','#77909d',3);
+ a+=R(179,200,90,29,4,'url(#dark)','#8199a9',2);
+ a+=R(192,207,60,15,3,'#7dc3ba','none',0);
+ return a;
+}
+function toasterMachine(){
+ let a=box(119,108,207,145,21)+feet(144,296,253);
+ a+=P('124,111 150,78 325,78 329,111','url(#top)','#758e9d',2);
+ a+=R(170,91,108,14,3,'url(#dark)','#8fa8b6',2);
+ a+=C(282,195,13,'url(#dark)','#b1c5ce',2);
+ a+=D('M300 136V175','#304a5c',6);
+ return a;
+}
 function generic(){
  let a=box(96,74,249,190,28)+feet(118,317,264);
  a+=R(112,96,216,56,4,'url(#dark)','#748b9b',2)+V(123,107,116,34)+C(292,124,13,'#314b5d','#97aeba',2);
@@ -213,6 +264,12 @@ function generic(){
 function typeOf(p){
  const s=fold([p.category,p.name,p.model,p.sku].join(' '));
  if(/rizsfozo|rice.cooker|rice.warmer|rice.steamer|rizsparolo/.test(s))return 'ricecooker';
+ if(/mikrohullam|microwave/.test(s))return 'microwave';
+ if(/vakuum|vacuum|vacpack|vac.packer/.test(s))return 'vacuum';
+ if(/bain.marie|melegentarto|vizfurdo|water.bath|soup.kettle|levesfozo/.test(s))return 'bainmarie';
+ if(/gofri|waffle|palacsinta|crepe/.test(s))return 'waffle';
+ if(/merleg|digital.scale|weighing/.test(s))return 'scale';
+ if(/kenyerpirito|toaster/.test(s))return 'toaster';
  if(/tartozek|adapter|kosar|tálca|talca|gn edeny|edeny|rack|accessor|vazlat|betet|perforalt/.test(s))return 'accessory';
  if(/pizzasuto|pizza oven|kemence|pizzakemence/.test(s))return 'pizza';
  if(/poharmoso|poharmos|glasswash/.test(s))return 'glasswasher';
@@ -235,7 +292,7 @@ function typeOf(p){
  if(/sütő|suto|oven|konvek|combi|gőzpárol|gozparol|ikore/.test(s))return 'oven';
  return 'equipment';
 }
-const art={ricecooker:riceCooker,oven,fridge,blast:()=>fridge(true),dishwasher,hoodwasher:()=>dishwasher(true),glasswasher:()=>dishwasher(false,true),fryer,griddle,stove:stovetop,table:worktable,sink,shelf,mixer,slicer,grinder,ice:iceMachine,pizza,accessory,coffee,kettle,equipment:generic};
+const art={ricecooker:riceCooker,microwave,vacuum:vacuumSealer,bainmarie:bainMarie,waffle:waffleMaker,scale:scaleMachine,toaster:toasterMachine,oven,fridge,blast:()=>fridge(true),dishwasher,hoodwasher:()=>dishwasher(true),glasswasher:()=>dishwasher(false,true),fryer,griddle,stove:stovetop,table:worktable,sink,shelf,mixer,slicer,grinder,ice:iceMachine,pizza,accessory,coffee,kettle,equipment:generic};
 const definitions='<defs>'+
  '<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f4f8fb"/><stop offset=".57" stop-color="#dae5ee"/><stop offset="1" stop-color="#cbdce8"/></linearGradient>'+
  '<linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f9fcfe"/><stop offset=".17" stop-color="#d1dce4"/><stop offset=".4" stop-color="#f7fafb"/><stop offset=".68" stop-color="#a4b8c6"/><stop offset="1" stop-color="#e2edf3"/></linearGradient>'+
