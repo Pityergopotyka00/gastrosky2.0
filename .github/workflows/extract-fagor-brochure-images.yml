@@ -1,0 +1,48 @@
+name: Extract Fagor exact-model product pictures
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/extract-fagor-brochure-images.py'
+      - '.github/workflows/extract-fagor-brochure-images.yml'
+permissions:
+  contents: write
+concurrency:
+  group: fagor-2026-brochure-images
+  cancel-in-progress: false
+jobs:
+  crop-and-apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install PDF photo extractor
+        run: pip install --disable-pip-version-check pymupdf Pillow
+      - name: Crop matched official manufacturer product pictures
+        run: python scripts/extract-fagor-brochure-images.py
+      - name: Verify catalog and generated image paths
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=json.loads(Path("data/catalog-products.json").read_text())
+          for item in p:
+              u=item.get("image_url", "")
+              if u.startswith("/media/official-fagor-2026/"):
+                  path=Path("public") / u.lstrip("/")
+                  assert path.exists() and path.stat().st_size > 3000, str(path)
+          print("All official Fagor cropped image URLs have matching files.")
+          PY
+      - name: Commit new product images and update catalog
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/media/official-fagor-2026/ data/fagor-brochure-photo-report.json data/catalog-products.json index.html
+          if ! git diff --cached --quiet; then
+            git commit -m "Add cropped official 2026 Fagor model pictures to live catalog source"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
