@@ -38,7 +38,8 @@ def download():
     )
     with urllib.request.urlopen(request, timeout=45) as response:
         data = response.read(170_000_001)
-    print("Downloaded brochure bytes:", len(data), "signature:", repr(data[:12]))\n    if not data.startswith(b"%PDF") or len(data) > 170_000_000:
+    print("Downloaded brochure bytes:", len(data), "signature:", repr(data[:12]))
+    if not data.startswith(b"%PDF") or len(data) > 170_000_000:
         raise RuntimeError("Official brochure is not a valid PDF or exceeds 170 MB")
     return data
 
