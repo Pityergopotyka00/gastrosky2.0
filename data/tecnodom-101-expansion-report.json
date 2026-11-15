@@ -1,0 +1,455 @@
+{
+  "checked_at": "2026-11-15T09:54:34.167Z",
+  "probe_date": "2026-11-15T09:50:53.769Z",
+  "before": 54,
+  "target": 101,
+  "available_real_size_options": 213,
+  "documented_families": 40,
+  "added": [
+    {
+      "sku": "TDV-ORIZZONTALE-TAVOLI-REFRIGERATI-TAVOLO-60-TF02",
+      "model": "TAVOLO 60 TF02",
+      "length_mm": 1460,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/orizzontale/tavoli-refrigerati/tavolo-60.html"
+    },
+    {
+      "sku": "TDV-ORIZZONTALE-TAVOLI-REFRIGERATI-TAVOLO-MID-GASTRONOMIA-TN-BT-TF02",
+      "model": "TAVOLOMID GASTRONOMIA TF02",
+      "length_mm": 1420,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/orizzontale/tavoli-refrigerati/tavolo-mid-gastronomia-tn-bt.html"
+    },
+    {
+      "sku": "TDV-ORIZZONTALE-TAVOLI-REFRIGERATI-TAVOLO-MID-PASTICCERIA-TP02",
+      "model": "TAVOLOMID PASTICCERIA TP02",
+      "length_mm": 1600,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/orizzontale/tavoli-refrigerati/tavolo-mid-pasticceria.html"
+    },
+    {
+      "sku": "TDV-ORIZZONTALE-TAVOLI-REFRIGERATI-TAVOLO-MID-PIZZA-PZ02",
+      "model": "TAVOLOMID pizza PZ02",
+      "length_mm": 1610,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/orizzontale/tavoli-refrigerati/tavolo-mid-pizza.html"
+    },
+    {
+      "sku": "TDV-ORIZZONTALE-TAVOLI-REFRIGERATI-TAVOLO-EKO-PIZZA-PZ02C6",
+      "model": "TAVOLOEKO pizza PZ02C6",
+      "length_mm": 1520,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/orizzontale/tavoli-refrigerati/tavolo-eko-pizza.html"
+    },
+    {
+      "sku": "TDV-ORIZZONTALE-TAVOLI-REFRIGERATI-VETRINA-REFRIGERATA-INGREDIENTI-PIZZA-120",
+      "model": "VETRINA refrigerataingredienti pizza 120",
+      "length_mm": 1200,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/orizzontale/tavoli-refrigerati/vetrina-refrigerata-ingredienti-pizza.html"
+    },
+    {
+      "sku": "TDV-ORIZZONTALE-SALADETTE-SALADETTE-SL02",
+      "model": "SALADETTE SL02",
+      "length_mm": 900,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/orizzontale/saladette/saladette.html"
+    },
+    {
+      "sku": "TDV-ORIZZONTALE-SALADETTE-SALADETTE-PIZZA-SL02C6",
+      "model": "SALADETTEpizza SL02C6",
+      "length_mm": 1410,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/orizzontale/saladette/saladette-pizza.html"
+    },
+    {
+      "sku": "TDV-ORIZZONTALE-ARREDAMENTO-NEUTRO-TAVOLI-A-GIORNO-60",
+      "model": "TAVOLIA GIORNO 60",
+      "length_mm": 600,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/orizzontale/arredamento-neutro/tavoli-a-giorno.html"
+    },
+    {
+      "sku": "TDV-ORIZZONTALE-ARREDAMENTO-NEUTRO-TAVOLI-ARMADIATI-100",
+      "model": "TAVOLIARMADIATI 100",
+      "length_mm": 1000,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/orizzontale/arredamento-neutro/tavoli-armadiati.html"
+    },
+    {
+      "sku": "TDV-ORIZZONTALE-ARREDAMENTO-NEUTRO-LAVELLI-A-GIORNO-70",
+      "model": "LAVELLIA GIORNO 70",
+      "length_mm": 700,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/orizzontale/arredamento-neutro/lavelli-a-giorno.html"
+    },
+    {
+      "sku": "TDV-ORIZZONTALE-ARREDAMENTO-NEUTRO-PENSILI-ARMADIATI-80",
+      "model": "PENSILIARMADIATI 80",
+      "length_mm": 800,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/orizzontale/arredamento-neutro/pensili-armadiati.html"
+    },
+    {
+      "sku": "TDV-ORIZZONTALE-ESPOSITORI-REFRIGERATI-MR-95-100",
+      "model": "MR9.5 100",
+      "length_mm": 1000,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/orizzontale/espositori-refrigerati/mr-95.html"
+    },
+    {
+      "sku": "TDV-ORIZZONTALE-ESPOSITORI-REFRIGERATI-MR-9-5-VCC-W-100",
+      "model": "MR9.5VCC_W 100",
+      "length_mm": 1040,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/orizzontale/espositori-refrigerati/mr-9-5-vcc-w.html"
+    },
+    {
+      "sku": "TDV-ORIZZONTALE-ESPOSITORI-REFRIGERATI-MR-80-100",
+      "model": "MR 80 100",
+      "length_mm": 1040,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/orizzontale/espositori-refrigerati/mr-80.html"
+    },
+    {
+      "sku": "TDV-ORIZZONTALE-ESPOSITORI-REFRIGERATI-M-80-100",
+      "model": "M 80 100",
+      "length_mm": 1040,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/orizzontale/espositori-refrigerati/m-80.html"
+    },
+    {
+      "sku": "TDV-ORIZZONTALE-ESPOSITORI-REFRIGERATI-M-90-100",
+      "model": "M 90 100",
+      "length_mm": 1040,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/orizzontale/espositori-refrigerati/m-90.html"
+    },
+    {
+      "sku": "TDV-ORIZZONTALE-ESPOSITORI-REFRIGERATI-M-1000-100",
+      "model": "M 1000 100",
+      "length_mm": 1040,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/orizzontale/espositori-refrigerati/m-1000.html"
+    },
+    {
+      "sku": "TDV-ORIZZONTALE-ESPOSITORI-REFRIGERATI-VIGO-78-100",
+      "model": "VIGO 78 100",
+      "length_mm": 1040,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/orizzontale/espositori-refrigerati/vigo-78.html"
+    },
+    {
+      "sku": "TDV-ORIZZONTALE-ESPOSITORI-REFRIGERATI-VIGO-90-100",
+      "model": "VIGO 90 100",
+      "length_mm": 1040,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/orizzontale/espositori-refrigerati/vigo-90.html"
+    },
+    {
+      "sku": "TDV-VERTICALE-SEMIMURALI-EVO-EVO-60",
+      "model": "EVO 60",
+      "length_mm": 604,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/verticale/semimurali-evo/evo.html"
+    },
+    {
+      "sku": "TDV-VERTICALE-SEMIMURALI-EVO-EVO-HOT-60",
+      "model": "EVOHOT 60",
+      "length_mm": 604,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/verticale/semimurali-evo/evo-hot.html"
+    },
+    {
+      "sku": "TDV-VERTICALE-SEMIMURALI-EVO-EVO-LUX-60",
+      "model": "EVOLUX 60",
+      "length_mm": 646,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/verticale/semimurali-evo/evo-lux.html"
+    },
+    {
+      "sku": "TDV-VERTICALE-SEMIMURALI-EVO-EVO-LUX-HOT-60",
+      "model": "EVOLUX HOT 60",
+      "length_mm": 643,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/verticale/semimurali-evo/evo-lux-hot.html"
+    },
+    {
+      "sku": "TDV-VERTICALE-SEMIMURALI-EVO-EVO-SELF-90",
+      "model": "EVOSELF 90",
+      "length_mm": 905,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/verticale/semimurali-evo/evo-self.html"
+    },
+    {
+      "sku": "TDV-VERTICALE-SEMIMURALI-EVOK-EVOK-90",
+      "model": "EVOK 90",
+      "length_mm": 905,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/verticale/semimurali-evok/evok.html"
+    },
+    {
+      "sku": "TDV-VERTICALE-SEMIMURALI-EVOK-EVOK-HOT-90",
+      "model": "EVOKHOT 90",
+      "length_mm": 905,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/verticale/semimurali-evok/evok-hot.html"
+    },
+    {
+      "sku": "TDV-VERTICALE-SEMIMURALI-EVOK-EVOK-LUX-60",
+      "model": "EVOKLUX 60",
+      "length_mm": 643,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/verticale/semimurali-evok/evok-lux.html"
+    },
+    {
+      "sku": "TDV-VERTICALE-SEMIMURALI-EVOK-EVOK-LUX-HOT-60",
+      "model": "EVOK LUXHOT 60",
+      "length_mm": 643,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/verticale/semimurali-evok/evok-lux-hot.html"
+    },
+    {
+      "sku": "TDV-VERTICALE-SEMIMURALI-EVOK-EVOK-L-2-PORTE-90",
+      "model": "EVOKL2 PORTE 90",
+      "length_mm": 941,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/verticale/semimurali-evok/evok-l-2-porte.html"
+    },
+    {
+      "sku": "TDV-VERTICALE-SEMIMURALI-EVOK-EVOK-L-2-PORTE-HOT-90",
+      "model": "EVOKL2 PORTEHOT 90",
+      "length_mm": 941,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/verticale/semimurali-evok/evok-l-2-porte-hot.html"
+    },
+    {
+      "sku": "TDV-VERTICALE-SEMIMURALI-EVOK-EVOK-L-4-PORTE-90",
+      "model": "EVOKL4 PORTE 90",
+      "length_mm": 922,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/verticale/semimurali-evok/evok-l-4-porte.html"
+    },
+    {
+      "sku": "TDV-VERTICALE-SEMIMURALI-EVOK-EVOK-L-4-PORTE-HOT-90",
+      "model": "EVOKL4 PORTEHOT 90",
+      "length_mm": 922,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/verticale/semimurali-evok/evok-l-4-porte-hot.html"
+    },
+    {
+      "sku": "TDV-VERTICALE-MURALI-REFRIGERATI-VULCANO-60",
+      "model": "VULCANO 60",
+      "length_mm": 680,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/verticale/murali-refrigerati/vulcano.html"
+    },
+    {
+      "sku": "TDV-VERTICALE-MURALI-REFRIGERATI-VULCANO-SC-60",
+      "model": "VULCANOSC 60",
+      "length_mm": 700,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/verticale/murali-refrigerati/vulcano-sc.html"
+    },
+    {
+      "sku": "TDV-VERTICALE-MURALI-REFRIGERATI-VULCANO-VB-125",
+      "model": "VULCANOVB 125",
+      "length_mm": 1330,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/verticale/murali-refrigerati/vulcano-vb.html"
+    },
+    {
+      "sku": "TDV-VERTICALE-MURALI-REFRIGERATI-VULCANO-VS-125",
+      "model": "VULCANOVS 125",
+      "length_mm": 1350,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/verticale/murali-refrigerati/vulcano-vs.html"
+    },
+    {
+      "sku": "TDV-VERTICALE-MURALI-REFRIGERATI-LIDO-100",
+      "model": "LIDO 100",
+      "length_mm": 1060,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/verticale/murali-refrigerati/lido.html"
+    },
+    {
+      "sku": "TDV-VERTICALE-MURALI-REFRIGERATI-STROMBOLI-90-125",
+      "model": "STROMBOLI 90 125",
+      "length_mm": 1250,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/verticale/murali-refrigerati/stromboli-90.html"
+    },
+    {
+      "sku": "TDV-VERTICALE-MURALI-REFRIGERATI-STROMBOLI-90-B-125",
+      "model": "STROMBOLI90 B 125",
+      "length_mm": 1250,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/verticale/murali-refrigerati/stromboli-90-b.html"
+    },
+    {
+      "sku": "TDV-ORIZZONTALE-TAVOLI-REFRIGERATI-TAVOLO-60-TF03",
+      "model": "TAVOLO 60 TF03",
+      "length_mm": 1910,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/orizzontale/tavoli-refrigerati/tavolo-60.html"
+    },
+    {
+      "sku": "TDV-ORIZZONTALE-TAVOLI-REFRIGERATI-TAVOLO-MID-GASTRONOMIA-TN-BT-TF03",
+      "model": "TAVOLOMID GASTRONOMIA TF03",
+      "length_mm": 1870,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/orizzontale/tavoli-refrigerati/tavolo-mid-gastronomia-tn-bt.html"
+    },
+    {
+      "sku": "TDV-ORIZZONTALE-TAVOLI-REFRIGERATI-TAVOLO-MID-PASTICCERIA-TP03",
+      "model": "TAVOLOMID PASTICCERIA TP03",
+      "length_mm": 2150,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/orizzontale/tavoli-refrigerati/tavolo-mid-pasticceria.html"
+    },
+    {
+      "sku": "TDV-ORIZZONTALE-TAVOLI-REFRIGERATI-TAVOLO-MID-PIZZA-PZ03",
+      "model": "TAVOLOMID pizza PZ03",
+      "length_mm": 2160,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/orizzontale/tavoli-refrigerati/tavolo-mid-pizza.html"
+    },
+    {
+      "sku": "TDV-ORIZZONTALE-TAVOLI-REFRIGERATI-TAVOLO-EKO-PIZZA-PZ02",
+      "model": "TAVOLOEKO pizza PZ02",
+      "length_mm": 1610,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/orizzontale/tavoli-refrigerati/tavolo-eko-pizza.html"
+    },
+    {
+      "sku": "TDV-ORIZZONTALE-TAVOLI-REFRIGERATI-VETRINA-REFRIGERATA-INGREDIENTI-PIZZA-140",
+      "model": "VETRINA refrigerataingredienti pizza 140",
+      "length_mm": 1400,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/orizzontale/tavoli-refrigerati/vetrina-refrigerata-ingredienti-pizza.html"
+    },
+    {
+      "sku": "TDV-ORIZZONTALE-SALADETTE-SALADETTE-SL03",
+      "model": "SALADETTE SL03",
+      "length_mm": 1380,
+      "manufacturer_page": "https://www.tecnodomspa.com/en/orizzontale/saladette/saladette.html"
+    }
+  ],
+  "groups": [
+    {
+      "url": "https://www.tecnodomspa.com/en/orizzontale/tavoli-refrigerati/tavolo-60.html",
+      "options": 3
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/orizzontale/tavoli-refrigerati/tavolo-mid-gastronomia-tn-bt.html",
+      "options": 3
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/orizzontale/tavoli-refrigerati/tavolo-mid-pasticceria.html",
+      "options": 3
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/orizzontale/tavoli-refrigerati/tavolo-mid-pizza.html",
+      "options": 3
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/orizzontale/tavoli-refrigerati/tavolo-eko-pizza.html",
+      "options": 5
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/orizzontale/tavoli-refrigerati/vetrina-refrigerata-ingredienti-pizza.html",
+      "options": 10
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/orizzontale/saladette/saladette.html",
+      "options": 2
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/orizzontale/saladette/saladette-pizza.html",
+      "options": 3
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/orizzontale/arredamento-neutro/tavoli-a-giorno.html",
+      "options": 9
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/orizzontale/arredamento-neutro/tavoli-armadiati.html",
+      "options": 6
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/orizzontale/arredamento-neutro/lavelli-a-giorno.html",
+      "options": 7
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/orizzontale/arredamento-neutro/pensili-armadiati.html",
+      "options": 7
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/orizzontale/espositori-refrigerati/mr-95.html",
+      "options": 8
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/orizzontale/espositori-refrigerati/mr-9-5-vcc-w.html",
+      "options": 8
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/orizzontale/espositori-refrigerati/mr-80.html",
+      "options": 8
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/orizzontale/espositori-refrigerati/m-80.html",
+      "options": 8
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/orizzontale/espositori-refrigerati/m-90.html",
+      "options": 8
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/orizzontale/espositori-refrigerati/m-1000.html",
+      "options": 8
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/orizzontale/espositori-refrigerati/vigo-78.html",
+      "options": 5
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/orizzontale/espositori-refrigerati/vigo-90.html",
+      "options": 5
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/verticale/semimurali-evo/evo.html",
+      "options": 6
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/verticale/semimurali-evo/evo-hot.html",
+      "options": 5
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/verticale/semimurali-evo/evo-lux.html",
+      "options": 6
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/verticale/semimurali-evo/evo-lux-hot.html",
+      "options": 5
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/verticale/semimurali-evo/evo-self.html",
+      "options": 5
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/verticale/semimurali-evok/evok.html",
+      "options": 5
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/verticale/semimurali-evok/evok-hot.html",
+      "options": 4
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/verticale/semimurali-evok/evok-lux.html",
+      "options": 6
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/verticale/semimurali-evok/evok-lux-hot.html",
+      "options": 5
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/verticale/semimurali-evok/evok-l-2-porte.html",
+      "options": 4
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/verticale/semimurali-evok/evok-l-2-porte-hot.html",
+      "options": 4
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/verticale/semimurali-evok/evok-l-4-porte.html",
+      "options": 4
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/verticale/semimurali-evok/evok-l-4-porte-hot.html",
+      "options": 4
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/verticale/murali-refrigerati/vulcano.html",
+      "options": 7
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/verticale/murali-refrigerati/vulcano-sc.html",
+      "options": 7
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/verticale/murali-refrigerati/vulcano-vb.html",
+      "options": 2
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/verticale/murali-refrigerati/vulcano-vs.html",
+      "options": 3
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/verticale/murali-refrigerati/lido.html",
+      "options": 4
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/verticale/murali-refrigerati/stromboli-90.html",
+      "options": 4
+    },
+    {
+      "url": "https://www.tecnodomspa.com/en/verticale/murali-refrigerati/stromboli-90-b.html",
+      "options": 4
+    }
+  ],
+  "after": 101
+}
