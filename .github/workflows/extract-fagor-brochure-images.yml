@@ -40,7 +40,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/media/official-fagor-2026/ data/fagor-brochure-photo-report.json data/catalog-products.json index.html
+          git add -A public/media/official-fagor-2026/ data/fagor-brochure-photo-report.json data/catalog-products.json index.html
           if ! git diff --cached --quiet; then
             git commit -m "Add cropped official 2026 Fagor model pictures to live catalog source"
             git pull --rebase origin main
