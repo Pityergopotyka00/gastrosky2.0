@@ -56,9 +56,16 @@ assert.equal(products.filter(p=>p.manufacturer==='GastroSky').length,33,'Unexpec
 assert.ok(script.includes("'GastroSky'].includes(p.manufacturer)"),'Full catalog loader must accept GastroSky');
 assert.ok(script.includes("categoryGroup.value=''"),'Changing brands must reset category filters');
 const tecnodom=products.filter(p=>p.manufacturer==='Tecnodom');
-assert.equal(tecnodom.length,54,'Tecnodom must contain only the 54 official Horizontal/Vertical families');
-assert.equal(tecnodom.filter(p=>p.specifications?.['Termékvonal']==='HORIZONTAL').length,21);
-assert.equal(tecnodom.filter(p=>p.specifications?.['Termékvonal']==='VERTICAL').length,33);
+const tecnodomFamilies=tecnodom.filter(p=>p.record_status==='official_product_family_listing');
+assert.equal(tecnodomFamilies.length,54,'Keep the 54 verified Tecnodom Horizontal/Vertical families');
+assert.equal(tecnodomFamilies.filter(p=>p.specifications?.['Termékvonal']==='HORIZONTAL').length,21);
+assert.equal(tecnodomFamilies.filter(p=>p.specifications?.['Termékvonal']==='VERTICAL').length,33);
+for(const p of tecnodom.filter(p=>p.record_status==='official_manufacturer_size_variant')){
+ assert.ok(p.source_url?.startsWith('https://www.tecnodomspa.com/en/'),'Tecnodom variant requires an official manufacturer specification page: '+p.id);
+ assert.ok(/^TDV-[A-Z0-9-]+$/.test(p.sku),'Tecnodom variant uses an explicit internal reference, never an invented manufacturer SKU: '+p.id);
+ assert.ok(p.specifications?.['Gyártó által közölt méretkód']&&Number.isFinite(Number(p.specifications?.['Hosszúság (mm)'])),'Tecnodom size variants must have documented manufacturer size and length: '+p.id);
+ assert.equal(p.price,null,'Tecnodom size variants cannot invent prices: '+p.id);
+}
 const gastro=products.filter(p=>p.manufacturer==='Gastro Haal');
 for(const p of gastro){
  assert.ok(!/\/\d+_tuzhelyek(?:\/|$)/i.test(new URL(p.source_url).pathname),'Excluded Tűzhelyek product: '+p.id);
