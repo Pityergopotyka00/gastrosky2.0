@@ -1,7 +1,7 @@
 {
   "target_per_supplier": 50,
   "target_total": 450,
-  "current_total": 998,
+  "current_total": 1173,
   "counts": {
     "Maxima": {
       "products": 217,
@@ -11,10 +11,10 @@
       "missing_to_target": 0
     },
     "HENDI": {
-      "products": 67,
-      "verified_products": 67,
+      "products": 101,
+      "verified_products": 101,
       "model_only": 0,
-      "with_photo_url": 67,
+      "with_photo_url": 101,
       "missing_to_target": 0
     },
     "Fagor": {
@@ -25,8 +25,8 @@
       "missing_to_target": 0
     },
     "Modular": {
-      "products": 82,
-      "verified_products": 18,
+      "products": 101,
+      "verified_products": 37,
       "model_only": 64,
       "with_photo_url": 52,
       "missing_to_target": 0
@@ -39,29 +39,29 @@
       "missing_to_target": 0
     },
     "Krupps": {
-      "products": 68,
-      "verified_products": 68,
+      "products": 101,
+      "verified_products": 101,
       "model_only": 0,
       "with_photo_url": 42,
       "missing_to_target": 0
     },
     "Aristarco": {
-      "products": 74,
-      "verified_products": 74,
+      "products": 102,
+      "verified_products": 102,
       "model_only": 0,
       "with_photo_url": 74,
       "missing_to_target": 0
     },
     "Sistema Project Italia": {
-      "products": 87,
-      "verified_products": 87,
+      "products": 101,
+      "verified_products": 101,
       "model_only": 0,
       "with_photo_url": 25,
       "missing_to_target": 0
     },
     "Tecnodom": {
-      "products": 54,
-      "verified_products": 0,
+      "products": 101,
+      "verified_products": 47,
       "model_only": 54,
       "with_photo_url": 52,
       "missing_to_target": 0
