@@ -1,0 +1,30 @@
+name: Expand Tecnodom with documented size options
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/expand-tecnodom-verified-sizes.mjs'
+      - '.github/workflows/expand-tecnodom-to-101.yml'
+permissions:
+  contents: write
+concurrency:
+  group: gastrosky-supplier-media
+  cancel-in-progress: false
+jobs:
+  expand:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci || npm install --no-audit --no-fund
+      - run: node scripts/expand-tecnodom-verified-sizes.mjs
+      - run: npm run validate
+      - name: Save exact manufacturer listed size choices
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/catalog-products.json index.html data/tecnodom-101-expansion-report.json
+          git diff --cached --quiet || (git commit -m "Add verified Tecnodom catalog size variants" && git pull --rebase origin main && git push)
