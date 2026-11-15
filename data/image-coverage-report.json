@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-14T19:17:30.991Z",
+  "checked_at": "2026-11-15T05:06:15.599Z",
   "total": 1044,
-  "existing_images": 339,
+  "existing_images": 524,
   "new_photos": 0,
   "by_brand": {},
   "unresolved": [
@@ -762,252 +762,16 @@
       "reason": "robots_disallow_or_unknown"
     },
     {
-      "id": "coldline:a140-2br",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a140-2brv",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a140-2bv",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a140-2m",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
       "id": "coldline:a140-2me",
       "reason": "model_not_on_page"
-    },
-    {
-      "id": "coldline:a140-2mr",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a140-2mrv",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a140-2mv",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a140-2n",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a140-2nr",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a140-2nrv",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a140-2nv",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a30-1br",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a30-1brv",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a30-1bv",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a30-1m",
-      "reason": "unavailable"
-    },
-    {
-      "id": "coldline:a30-1mr",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a30-1mrv",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a30-1mv",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a30-1n",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a30-1nr",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a30-1nrv",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a30-1nv",
-      "reason": "photo_url_already_assigned_to_another_product"
     },
     {
       "id": "coldline:a55-1bfh",
       "reason": "model_not_on_page"
     },
     {
-      "id": "coldline:a60-1br",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a60-1brv",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a60-1bv",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a60-1m",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a60-1mr",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a60-1mrv",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a60-1mv",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a60-1n",
-      "reason": "unavailable"
-    },
-    {
-      "id": "coldline:a60-1nr",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a60-1nrv",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a60-1nv",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a70-1b",
-      "reason": "unavailable"
-    },
-    {
-      "id": "coldline:a70-1be",
-      "reason": "unavailable"
-    },
-    {
-      "id": "coldline:a70-1bg",
-      "reason": "unavailable"
-    },
-    {
-      "id": "coldline:a70-1brv",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a70-1bs",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a70-1bsr",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a70-1bv",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a70-1m",
-      "reason": "unavailable"
-    },
-    {
-      "id": "coldline:a70-1me",
-      "reason": "unavailable"
-    },
-    {
-      "id": "coldline:a70-1mr",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a70-1mrv",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a70-1mv",
-      "reason": "unavailable"
-    },
-    {
-      "id": "coldline:a70-1n",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a70-1ne",
-      "reason": "unavailable"
-    },
-    {
-      "id": "coldline:a70-1nr",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a70-1nrv",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a70-1nv",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:a80-1bg",
-      "reason": "unavailable"
-    },
-    {
-      "id": "coldline:a90-1bgr",
-      "reason": "unavailable"
-    },
-    {
-      "id": "coldline:a90-1m",
-      "reason": "unavailable"
-    },
-    {
-      "id": "coldline:af60-1t",
-      "reason": "unavailable"
-    },
-    {
       "id": "coldline:af80-2t",
       "reason": "model_not_on_page"
-    },
-    {
-      "id": "coldline:j100-1m",
-      "reason": "unavailable"
-    },
-    {
-      "id": "coldline:tp09-1m-710",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:ts09-1m-710",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:ts13-1bjr-710",
-      "reason": "unavailable"
-    },
-    {
-      "id": "coldline:ts13-1br-710",
-      "reason": "unavailable"
     },
     {
       "id": "coldline:ts17-1b-760",
@@ -1018,63 +782,11 @@
       "reason": "model_not_on_page"
     },
     {
-      "id": "coldline:tv13-1mz-1-6-760",
-      "reason": "unavailable"
-    },
-    {
-      "id": "coldline:tz09-1mc-710",
-      "reason": "unavailable"
-    },
-    {
-      "id": "coldline:tz17-1mc-710",
-      "reason": "unavailable"
-    },
-    {
-      "id": "coldline:tz17-1mrc-710",
-      "reason": "unavailable"
-    },
-    {
-      "id": "coldline:tzs21-1m-710",
-      "reason": "unavailable"
-    },
-    {
-      "id": "coldline:vp18-8n",
-      "reason": "unavailable"
-    },
-    {
-      "id": "coldline:vp18-8nl",
-      "reason": "unavailable"
-    },
-    {
-      "id": "coldline:vp20-9nr",
-      "reason": "unavailable"
-    },
-    {
       "id": "coldline:vp25-13nl",
       "reason": "model_not_on_page"
     },
     {
-      "id": "coldline:w10u",
-      "reason": "unavailable"
-    },
-    {
-      "id": "coldline:w14h",
-      "reason": "unavailable"
-    },
-    {
-      "id": "coldline:w14u",
-      "reason": "unavailable"
-    },
-    {
-      "id": "coldline:w3ag",
-      "reason": "unavailable"
-    },
-    {
       "id": "coldline:w5u",
-      "reason": "unavailable"
-    },
-    {
-      "id": "coldline:w5ug",
       "reason": "unavailable"
     },
     {
@@ -1082,36 +794,8 @@
       "reason": "model_not_on_page"
     },
     {
-      "id": "coldline:w6fsr",
-      "reason": "photo_url_already_assigned_to_another_product"
-    },
-    {
-      "id": "coldline:w7tsaer",
-      "reason": "unavailable"
-    },
-    {
-      "id": "coldline:yp14-6n",
-      "reason": "unavailable"
-    },
-    {
-      "id": "coldline:yp14-6nl",
-      "reason": "unavailable"
-    },
-    {
-      "id": "coldline:yp18-8n",
-      "reason": "unavailable"
-    },
-    {
       "id": "coldline:yp20-9n",
       "reason": "model_not_on_page"
-    },
-    {
-      "id": "coldline:yp25-13n",
-      "reason": "unavailable"
-    },
-    {
-      "id": "coldline:yp25-13nl",
-      "reason": "unavailable"
     },
     {
       "id": "krupps:C432-S",
@@ -1218,52 +902,12 @@
       "reason": "photo_url_already_assigned_to_another_product"
     },
     {
-      "id": "modular:F60/30FTG/R/T",
-      "reason": "unavailable"
-    },
-    {
-      "id": "modular:F60/30FTG/SL/T",
-      "reason": "unavailable"
-    },
-    {
       "id": "modular:F60/30GRLG/T",
       "reason": "model_not_on_page"
     },
     {
-      "id": "modular:F60/30PCG/T",
-      "reason": "unavailable"
-    },
-    {
-      "id": "modular:F60/60CFE",
-      "reason": "unavailable"
-    },
-    {
       "id": "modular:F60/60FRESE/2V10/T",
       "reason": "model_not_on_page"
-    },
-    {
-      "id": "modular:F60/60PCEE/T",
-      "reason": "unavailable"
-    },
-    {
-      "id": "modular:F60/60PCG/T",
-      "reason": "unavailable"
-    },
-    {
-      "id": "modular:F60/60PVE/T",
-      "reason": "unavailable"
-    },
-    {
-      "id": "modular:F60/90CFEE",
-      "reason": "unavailable"
-    },
-    {
-      "id": "modular:F60/90PCEE/T",
-      "reason": "unavailable"
-    },
-    {
-      "id": "modular:F60/90PCG/T",
-      "reason": "unavailable"
     },
     {
       "id": "sistemaproject:catalog2025-30740",
@@ -1271,11 +915,11 @@
     },
     {
       "id": "sistemaproject:40-a",
-      "reason": "exact_range_photo_not_found"
+      "reason": "photo_url_already_assigned_to_another_product"
     },
     {
       "id": "sistemaproject:50-a",
-      "reason": "exact_range_photo_not_found"
+      "reason": "photo_url_already_assigned_to_another_product"
     },
     {
       "id": "sistemaproject:catalog2025-ac360",
@@ -1287,15 +931,15 @@
     },
     {
       "id": "sistemaproject:alpha-50",
-      "reason": "exact_range_photo_not_found"
+      "reason": "photo_url_already_assigned_to_another_product"
     },
     {
       "id": "sistemaproject:ax-50",
-      "reason": "exact_range_photo_not_found"
+      "reason": "photo_url_already_assigned_to_another_product"
     },
     {
       "id": "sistemaproject:bottle-wash",
-      "reason": "exact_range_photo_not_found"
+      "reason": "photo_url_already_assigned_to_another_product"
     },
     {
       "id": "sistemaproject:catalog2025-cpp3501",
@@ -1355,7 +999,7 @@
     },
     {
       "id": "sistemaproject:ct-320",
-      "reason": "exact_range_photo_not_found"
+      "reason": "photo_url_already_assigned_to_another_product"
     },
     {
       "id": "sistemaproject:catalog2025-ct137",
@@ -1507,222 +1151,18 @@
     },
     {
       "id": "sistemaproject:t1515",
-      "reason": "exact_range_photo_not_found"
+      "reason": "image_not_served"
     },
     {
       "id": "sistemaproject:unica-50p",
-      "reason": "exact_range_photo_not_found"
-    },
-    {
-      "id": "tecnodom:aiss",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:aladino",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:armadio-1200",
-      "reason": "tecnodom_exact_model_photo_not_verified"
+      "reason": "photo_url_already_assigned_to_another_product"
     },
     {
       "id": "tecnodom:armadio-1400",
       "reason": "tecnodom_exact_model_photo_not_verified"
     },
     {
-      "id": "tecnodom:armadio-400",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:armadio-600",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
       "id": "tecnodom:armadio-700",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:attila",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:attila-p-att02",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:big",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:combined-cabinet",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:evo",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:evo-hot",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:evo-lux",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:evo-lux-hot",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:evo-self",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:evok",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:evok-hot",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:evok-l-2-porte",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:evok-l-2-porte-hot",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:evok-l-4-porte",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:evok-l-4-porte-hot",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:evok-lux",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:evok-lux-hot",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:evokl-120v-special",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:lavelli-a-giorno",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:lido",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:m-1000",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:m-80",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:m-90",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:minicella-100",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:mr-80",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:mr-9-5",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:mr-9-5-vcc-w",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:pensili-armadiati",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:puntok",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:saladette",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:saladette-pizza",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:stromboli-90",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:stromboli-90-b",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:tavoli-a-giorno",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:tavoli-armadiati",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:tavolo-eko-pizza",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:tavolo-mid-gastronomia-tn-bt",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:tavolo-mid-pasticceria",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:tavolo-mid-pizza",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:vetrina-refrigerata-ingredienti-pizza",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:vigo-78",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:vigo-90",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:vulcano",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:vulcano-sc",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:vulcano-vb",
-      "reason": "tecnodom_exact_model_photo_not_verified"
-    },
-    {
-      "id": "tecnodom:vulcano-vs",
       "reason": "tecnodom_exact_model_photo_not_verified"
     },
     {
@@ -1818,19 +1258,11 @@
       "reason": "manufacturer_pdf_manual_photo_matching_required"
     },
     {
-      "id": "fagor:19074120",
-      "reason": "manufacturer_pdf_manual_photo_matching_required"
-    },
-    {
       "id": "fagor:19074716",
       "reason": "manufacturer_pdf_manual_photo_matching_required"
     },
     {
       "id": "fagor:19074779",
-      "reason": "manufacturer_pdf_manual_photo_matching_required"
-    },
-    {
-      "id": "fagor:19074781",
       "reason": "manufacturer_pdf_manual_photo_matching_required"
     },
     {
@@ -1922,19 +1354,7 @@
       "reason": "manufacturer_pdf_manual_photo_matching_required"
     },
     {
-      "id": "fagor:19101247",
-      "reason": "manufacturer_pdf_manual_photo_matching_required"
-    },
-    {
-      "id": "fagor:19101248",
-      "reason": "manufacturer_pdf_manual_photo_matching_required"
-    },
-    {
       "id": "fagor:19101249",
-      "reason": "manufacturer_pdf_manual_photo_matching_required"
-    },
-    {
-      "id": "fagor:19101390",
       "reason": "manufacturer_pdf_manual_photo_matching_required"
     },
     {
@@ -2554,32 +1974,12 @@
       "reason": "no_official_page"
     },
     {
-      "id": "gastrohaal:308",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrohaal:320",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrohaal:488",
-      "reason": "model_not_on_page"
-    },
-    {
-      "id": "gastrohaal:492",
-      "reason": "model_not_on_page"
-    },
-    {
       "id": "modular:F60-60FRES-2V10-T",
       "reason": "model_not_on_page"
     },
     {
       "id": "modular:F60-60FRGV-2V8-T",
       "reason": "model_not_on_page"
-    },
-    {
-      "id": "modular:F65-40FRES-1V10-T",
-      "reason": "unavailable"
     },
     {
       "id": "modular:F65-70CPE-1V40-T",
@@ -2598,14 +1998,6 @@
       "reason": "model_not_on_page"
     },
     {
-      "id": "modular:F70-40FRGV-1V13-P",
-      "reason": "unavailable"
-    },
-    {
-      "id": "modular:F70-40PLN-T",
-      "reason": "unavailable"
-    },
-    {
       "id": "modular:F70-70CFGB",
       "reason": "model_not_on_page"
     },
@@ -2618,24 +2010,8 @@
       "reason": "unavailable"
     },
     {
-      "id": "modular:F70-70PCGB-P",
-      "reason": "unavailable"
-    },
-    {
       "id": "modular:F70-80TPE-A",
       "reason": "model_not_on_page"
-    },
-    {
-      "id": "modular:R110-60PCEQ-P",
-      "reason": "unavailable"
-    },
-    {
-      "id": "modular:R18-100FTG-SL-A",
-      "reason": "unavailable"
-    },
-    {
-      "id": "modular:R70-120PLN-A",
-      "reason": "unavailable"
     },
     {
       "id": "modular:R70-40CPE-1V26-P",
@@ -2650,84 +2026,20 @@
       "reason": "model_not_on_page"
     },
     {
-      "id": "modular:R70-40FRGL-1V13-P",
-      "reason": "unavailable"
-    },
-    {
       "id": "modular:R70-40FRGV-1V13-P",
       "reason": "model_not_on_page"
-    },
-    {
-      "id": "modular:R70-40FTE-CL-A",
-      "reason": "unavailable"
-    },
-    {
-      "id": "modular:R70-40FTE-CL-T",
-      "reason": "unavailable"
-    },
-    {
-      "id": "modular:R70-40FTG-CL-A",
-      "reason": "unavailable"
     },
     {
       "id": "modular:R70-40FTG-CL-T",
       "reason": "model_not_on_page"
     },
     {
-      "id": "modular:R70-40FTG-CR-A",
-      "reason": "unavailable"
-    },
-    {
-      "id": "modular:R70-40INDW-P",
-      "reason": "unavailable"
-    },
-    {
-      "id": "modular:R70-80CFG",
-      "reason": "unavailable"
-    },
-    {
-      "id": "modular:R70-80FRGL-2V13-P",
-      "reason": "unavailable"
-    },
-    {
       "id": "modular:R70-80FRGV-2V13-P",
       "reason": "model_not_on_page"
     },
     {
-      "id": "modular:R70-80FTE-CL-T",
-      "reason": "unavailable"
-    },
-    {
-      "id": "modular:R70-80FTG-CL-A",
-      "reason": "unavailable"
-    },
-    {
-      "id": "modular:R70-80FTG-CLR-A",
-      "reason": "unavailable"
-    },
-    {
-      "id": "modular:R70-80FTG-SL-A",
-      "reason": "unavailable"
-    },
-    {
-      "id": "modular:R70-80PCG-A",
-      "reason": "unavailable"
-    },
-    {
-      "id": "modular:R70-80PCGB-A",
-      "reason": "unavailable"
-    },
-    {
       "id": "modular:R90-120PCG-T",
       "reason": "model_not_on_page"
-    },
-    {
-      "id": "modular:R90-120PCGB-A",
-      "reason": "unavailable"
-    },
-    {
-      "id": "modular:R90-40BMG-T",
-      "reason": "unavailable"
     },
     {
       "id": "modular:R90-40CPE-1V40-P",
@@ -2746,26 +2058,6 @@
       "reason": "model_not_on_page"
     },
     {
-      "id": "modular:R90-40FTE-CL-A",
-      "reason": "unavailable"
-    },
-    {
-      "id": "modular:R90-40FTE-CL-T",
-      "reason": "unavailable"
-    },
-    {
-      "id": "modular:R90-40FTE-CR-T",
-      "reason": "unavailable"
-    },
-    {
-      "id": "modular:R90-40FTE-L-A",
-      "reason": "unavailable"
-    },
-    {
-      "id": "modular:R90-40FTG-CL-T",
-      "reason": "unavailable"
-    },
-    {
       "id": "modular:R90-40FTG-L-T",
       "reason": "unavailable"
     },
@@ -2776,10 +2068,6 @@
     {
       "id": "modular:R90-80CFGE",
       "reason": "model_not_on_page"
-    },
-    {
-      "id": "modular:R90-80CPG-2V40-P",
-      "reason": "unavailable"
     },
     {
       "id": "modular:R90-80FRGL-2V17-P",
@@ -2794,36 +2082,8 @@
       "reason": "model_not_on_page"
     },
     {
-      "id": "modular:R90-80FTE-CL-A",
-      "reason": "unavailable"
-    },
-    {
-      "id": "modular:R90-80FTE-CL-T",
-      "reason": "unavailable"
-    },
-    {
-      "id": "modular:R90-80FTE-CLR-A",
-      "reason": "unavailable"
-    },
-    {
-      "id": "modular:R90-80FTG-CLR-A",
-      "reason": "unavailable"
-    },
-    {
-      "id": "modular:R90-80FTG-L-T",
-      "reason": "unavailable"
-    },
-    {
       "id": "modular:R90-80PCG-T",
       "reason": "model_not_on_page"
-    },
-    {
-      "id": "modular:R90-80PCGB-A",
-      "reason": "unavailable"
-    },
-    {
-      "id": "modular:R90-80PEI-50",
-      "reason": "unavailable"
     }
   ]
 }
