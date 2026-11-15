@@ -32,6 +32,24 @@ MODELS = {
     "19114903": ("CI-I45 2", 7, "Dupla indukciós főzőlap"),
     "19114904": ("CI-M60 1", 8, "Üvegfelületű ételmelegítő"),
 }
+# Image rectangles verified against the actual official PDF page layout.
+# Some PDF products have multiple overlaid raster layers; use source geometry,
+# not a naive nearest-label test.
+MODEL_PHOTO_RECTS = {
+    "19114234": (207.9, 137.7, 399.2, 269.6),
+    "19115446": (55.9, 138.2, 217.9, 253.6),
+    "19115443": (56.7, 504.4, 218.6, 614.7),
+    "19115444": (56.7, 504.4, 218.6, 614.7),
+    "19115445": (59.6, 128.0, 207.1, 247.2),
+    "19115442": (52.4, 483.8, 210.2, 613.3),
+    "19114901": (58.0, 151.8, 287.1, 265.3),
+    "19114903": (283.0, 133.9, 523.4, 283.5),
+    "19114904": (169.7, 141.9, 415.4, 294.9),
+}
+# The manufacturer's brochure itself uses one photograph for these two
+# fry-top size variants; retain that relationship in internal source metadata.
+FAMILY_PHOTO_SKUS = frozenset(("19115443", "19115444"))
+
 def download():
     request = urllib.request.Request(
         BROCHURE, headers={"User-Agent": "GastroSkyProductCatalog/1.0", "Accept": "application/pdf"}
@@ -66,35 +84,20 @@ def photo_blocks(page):
         found[tuple(round(v, 1) for v in rect)] = rect
     return list(found.values())
 
-def match_image(page, name):
-    positions = page.search_for(name, quads=False)
-    # Require a model label actually printed on the correct manufacturer's page.
-    if not positions:
+def match_image(page, name, sku):
+    # Validate SKU-specific model text is printed on this official source page.
+    if not page.search_for(name):
         return None, "model_label_missing"
-    images = photo_blocks(page)
-    print("FAGOR_LAYOUT", name, "page", page.number+1, "labels", [tuple(round(v,1) for v in q) for q in positions], "images", [tuple(round(v,1) for v in q) for q in images])
-    if not images:
-        return None, "page_has_no_separate_product_photo"
-    candidates = []
-    for picture in images:
-        px, py = centers(picture)
-        for label in positions:
-            lx, ly = centers(label)
-            dx, dy = px - lx, py - ly
-            distance = math.hypot(dx, dy)
-            # Ignore accidental unrelated images at the other end of the page.
-            if distance > 235:
-                continue
-            # Image typically precedes its product label. Prefer sizeable photo.
-            score = distance - min(20.0, picture.width * picture.height / 1600)
-            candidates.append((score, picture))
+    expected = fitz.Rect(MODEL_PHOTO_RECTS[sku])
+    candidates = photo_blocks(page)
     if not candidates:
-        return None, "no_nearby_verified_photo"
-    candidates.sort(key=lambda item: item[0])
-    best = candidates[0]
-    if len(candidates) > 1 and candidates[1][0] - best[0] < 4:
-        return None, "ambiguous_nearest_photo"
-    return best[1], "matched_model_label_and_photo_position"
+        return None, "page_has_no_separate_product_photo"
+    # Compare image rectangles, de-duplicating overlapping raster layers.
+    best = min(candidates, key=lambda r: sum(abs(x-y) for x,y in zip(r, expected)))
+    mismatch = max(abs(x-y) for x,y in zip(best, expected))
+    if mismatch > 5.0:
+        return None, "manufacturer_photo_position_changed"
+    return best, ("official_shared_variant_photo" if sku in FAMILY_PHOTO_SKUS else "official_model_photo_position")
 
 def export(page, rect, path):
     # Crop to the product's own raster image bounding box.
@@ -115,7 +118,7 @@ def main():
             report["unresolved"].append({"sku": sku, "reason": "not_in_catalog"})
             continue
         page = pdf[page_index]
-        rectangle, status = match_image(page, model)
+        rectangle, status = match_image(page, model, sku)
         if rectangle is None:
             report["unresolved"].append({"sku": sku, "model": model, "reason": status})
             continue
@@ -133,6 +136,8 @@ def main():
     for same_photo_skus in grouped.values():
         if len(same_photo_skus) < 2:
             continue
+        if set(same_photo_skus) == FAMILY_PHOTO_SKUS:
+            continue  # manufacturer prints the same photo for both size variants
         for sku in same_photo_skus:
             (OUTPUT / (sku + ".webp")).unlink(missing_ok=True)
             generated.pop(sku, None)
@@ -142,7 +147,7 @@ def main():
     for product in products:
         sku = str(product.get("sku"))
         if (product.get("manufacturer") == "Fagor"
-                and product.get("image_source") == "official_fagor_brochure_model_nearby_photo"
+                and product.get("image_source") in ("official_fagor_brochure_model_nearby_photo", "official_fagor_brochure_shared_variant_photo")
                 and sku not in generated):
             product["image_url"] = None
             product["image_source"] = "unverified_no_model_photo"
@@ -154,7 +159,7 @@ def main():
         if item.get("image_url") and item.get("image_source", "").startswith("official_"):
             continue
         item["image_url"] = url
-        item["image_source"] = "official_fagor_brochure_model_nearby_photo"
+        item["image_source"] = ("official_fagor_brochure_shared_variant_photo" if sku in FAMILY_PHOTO_SKUS else "official_fagor_brochure_model_nearby_photo")
         item["photo_status"] = "manufacturer_brochure_photo_needs_visual_review"
     changed = {p["sku"] for p in products if p.get("manufacturer") == "Fagor" and str(p.get("sku")) in generated}
     if generated:
