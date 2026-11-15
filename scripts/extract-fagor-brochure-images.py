@@ -37,9 +37,9 @@ def download():
         BROCHURE, headers={"User-Agent": "GastroSkyProductCatalog/1.0", "Accept": "application/pdf"}
     )
     with urllib.request.urlopen(request, timeout=45) as response:
-        data = response.read(45_000_001)
-    if not data.startswith(b"%PDF") or len(data) > 45_000_000:
-        raise RuntimeError("Official brochure is missing or exceeds 45 MB")
+        data = response.read(170_000_001)
+    print("Downloaded brochure bytes:", len(data), "signature:", repr(data[:12]))\n    if not data.startswith(b"%PDF") or len(data) > 170_000_000:
+        raise RuntimeError("Official brochure is not a valid PDF or exceeds 170 MB")
     return data
 
 def centers(rect):
