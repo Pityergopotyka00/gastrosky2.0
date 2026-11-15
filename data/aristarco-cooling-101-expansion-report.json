@@ -1,0 +1,191 @@
+{
+  "date": "2026-11-15T10:00:00.977Z",
+  "before": 74,
+  "target": 102,
+  "pages": [
+    {
+      "url": "https://www.aristarco.it/en/ice/categories/cubetto-pieno-18gr/cp/",
+      "verified_models": 12,
+      "added": 24,
+      "http": 200
+    },
+    {
+      "url": "https://www.aristarco.it/en/ice/categories/hollow-ice-cube-17-gr/cv/",
+      "verified_models": 2,
+      "added": 4,
+      "http": 200
+    }
+  ],
+  "added": [
+    {
+      "model": "PHE 25.6 M",
+      "configuration": "air-cooled",
+      "internal_reference": "ARI-PHE256M-A",
+      "source_page": "https://www.aristarco.it/en/ice/categories/cubetto-pieno-18gr/cp/"
+    },
+    {
+      "model": "PHE 25.6 M",
+      "configuration": "water-cooled",
+      "internal_reference": "ARI-PHE256M-W",
+      "source_page": "https://www.aristarco.it/en/ice/categories/cubetto-pieno-18gr/cp/"
+    },
+    {
+      "model": "PHE 30.12 M",
+      "configuration": "air-cooled",
+      "internal_reference": "ARI-PHE3012M-A",
+      "source_page": "https://www.aristarco.it/en/ice/categories/cubetto-pieno-18gr/cp/"
+    },
+    {
+      "model": "PHE 30.12 M",
+      "configuration": "water-cooled",
+      "internal_reference": "ARI-PHE3012M-W",
+      "source_page": "https://www.aristarco.it/en/ice/categories/cubetto-pieno-18gr/cp/"
+    },
+    {
+      "model": "PHE 40.15 M",
+      "configuration": "air-cooled",
+      "internal_reference": "ARI-PHE4015M-A",
+      "source_page": "https://www.aristarco.it/en/ice/categories/cubetto-pieno-18gr/cp/"
+    },
+    {
+      "model": "PHE 40.15 M",
+      "configuration": "water-cooled",
+      "internal_reference": "ARI-PHE4015M-W",
+      "source_page": "https://www.aristarco.it/en/ice/categories/cubetto-pieno-18gr/cp/"
+    },
+    {
+      "model": "PHE 45.15 M",
+      "configuration": "air-cooled",
+      "internal_reference": "ARI-PHE4515M-A",
+      "source_page": "https://www.aristarco.it/en/ice/categories/cubetto-pieno-18gr/cp/"
+    },
+    {
+      "model": "PHE 45.15 M",
+      "configuration": "water-cooled",
+      "internal_reference": "ARI-PHE4515M-W",
+      "source_page": "https://www.aristarco.it/en/ice/categories/cubetto-pieno-18gr/cp/"
+    },
+    {
+      "model": "PHE 50.25 M",
+      "configuration": "air-cooled",
+      "internal_reference": "ARI-PHE5025M-A",
+      "source_page": "https://www.aristarco.it/en/ice/categories/cubetto-pieno-18gr/cp/"
+    },
+    {
+      "model": "PHE 50.25 M",
+      "configuration": "water-cooled",
+      "internal_reference": "ARI-PHE5025M-W",
+      "source_page": "https://www.aristarco.it/en/ice/categories/cubetto-pieno-18gr/cp/"
+    },
+    {
+      "model": "PHE 60.40 M",
+      "configuration": "air-cooled",
+      "internal_reference": "ARI-PHE6040M-A",
+      "source_page": "https://www.aristarco.it/en/ice/categories/cubetto-pieno-18gr/cp/"
+    },
+    {
+      "model": "PHE 60.40 M",
+      "configuration": "water-cooled",
+      "internal_reference": "ARI-PHE6040M-W",
+      "source_page": "https://www.aristarco.it/en/ice/categories/cubetto-pieno-18gr/cp/"
+    },
+    {
+      "model": "PHE 80.40 M",
+      "configuration": "air-cooled",
+      "internal_reference": "ARI-PHE8040M-A",
+      "source_page": "https://www.aristarco.it/en/ice/categories/cubetto-pieno-18gr/cp/"
+    },
+    {
+      "model": "PHE 80.40 M",
+      "configuration": "water-cooled",
+      "internal_reference": "ARI-PHE8040M-W",
+      "source_page": "https://www.aristarco.it/en/ice/categories/cubetto-pieno-18gr/cp/"
+    },
+    {
+      "model": "PHE 100.55 M",
+      "configuration": "air-cooled",
+      "internal_reference": "ARI-PHE10055M-A",
+      "source_page": "https://www.aristarco.it/en/ice/categories/cubetto-pieno-18gr/cp/"
+    },
+    {
+      "model": "PHE 100.55 M",
+      "configuration": "water-cooled",
+      "internal_reference": "ARI-PHE10055M-W",
+      "source_page": "https://www.aristarco.it/en/ice/categories/cubetto-pieno-18gr/cp/"
+    },
+    {
+      "model": "PHE 140.70 M",
+      "configuration": "air-cooled",
+      "internal_reference": "ARI-PHE14070M-A",
+      "source_page": "https://www.aristarco.it/en/ice/categories/cubetto-pieno-18gr/cp/"
+    },
+    {
+      "model": "PHE 140.70 M",
+      "configuration": "water-cooled",
+      "internal_reference": "ARI-PHE14070M-W",
+      "source_page": "https://www.aristarco.it/en/ice/categories/cubetto-pieno-18gr/cp/"
+    },
+    {
+      "model": "PHE 160.70 M",
+      "configuration": "air-cooled",
+      "internal_reference": "ARI-PHE16070M-A",
+      "source_page": "https://www.aristarco.it/en/ice/categories/cubetto-pieno-18gr/cp/"
+    },
+    {
+      "model": "PHE 160.70 M",
+      "configuration": "water-cooled",
+      "internal_reference": "ARI-PHE16070M-W",
+      "source_page": "https://www.aristarco.it/en/ice/categories/cubetto-pieno-18gr/cp/"
+    },
+    {
+      "model": "PHE 160 M",
+      "configuration": "air-cooled",
+      "internal_reference": "ARI-PHE160M-A",
+      "source_page": "https://www.aristarco.it/en/ice/categories/cubetto-pieno-18gr/cp/"
+    },
+    {
+      "model": "PHE 160 M",
+      "configuration": "water-cooled",
+      "internal_reference": "ARI-PHE160M-W",
+      "source_page": "https://www.aristarco.it/en/ice/categories/cubetto-pieno-18gr/cp/"
+    },
+    {
+      "model": "PHE 320 M",
+      "configuration": "air-cooled",
+      "internal_reference": "ARI-PHE320M-A",
+      "source_page": "https://www.aristarco.it/en/ice/categories/cubetto-pieno-18gr/cp/"
+    },
+    {
+      "model": "PHE 320 M",
+      "configuration": "water-cooled",
+      "internal_reference": "ARI-PHE320M-W",
+      "source_page": "https://www.aristarco.it/en/ice/categories/cubetto-pieno-18gr/cp/"
+    },
+    {
+      "model": "LYN 20.5",
+      "configuration": "air-cooled",
+      "internal_reference": "ARI-LYN205-A",
+      "source_page": "https://www.aristarco.it/en/ice/categories/hollow-ice-cube-17-gr/cv/"
+    },
+    {
+      "model": "LYN 20.5",
+      "configuration": "water-cooled",
+      "internal_reference": "ARI-LYN205-W",
+      "source_page": "https://www.aristarco.it/en/ice/categories/hollow-ice-cube-17-gr/cv/"
+    },
+    {
+      "model": "LYN 25.7",
+      "configuration": "air-cooled",
+      "internal_reference": "ARI-LYN257-A",
+      "source_page": "https://www.aristarco.it/en/ice/categories/hollow-ice-cube-17-gr/cv/"
+    },
+    {
+      "model": "LYN 25.7",
+      "configuration": "water-cooled",
+      "internal_reference": "ARI-LYN257-W",
+      "source_page": "https://www.aristarco.it/en/ice/categories/hollow-ice-cube-17-gr/cv/"
+    }
+  ],
+  "skipped": [],
+  "after": 102
+}
