@@ -1,11 +1,13 @@
 {
-  "checked_at": "2026-11-15T07:29:42.315Z",
+  "checked_at": "2026-11-15T09:07:03.766Z",
   "suppliers": {
     "Maxima": {
-      "status": "robots_unavailable",
+      "status": "no_permitted_pages",
       "checked": 0,
       "added": 0,
-      "updated": 0
+      "updated": 0,
+      "pending": 0,
+      "seen": 0
     },
     "HENDI": {
       "status": "no_permitted_pages",
