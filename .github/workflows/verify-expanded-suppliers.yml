@@ -1,0 +1,28 @@
+name: Validate all expanded manufacturer catalogs
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/verify-expanded-catalog.mjs'
+      - '.github/workflows/verify-expanded-suppliers.yml'
+permissions:
+  contents: read
+jobs:
+  validation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci || npm install --no-audit --no-fund
+      - name: Verify target counts, unique SKUs and two exceptions
+        run: node scripts/verify-expanded-catalog.mjs
+      - name: Verify quote and public catalog functionality
+        run: npm test
+      - name: Build complete 1219+ item website and category artwork
+        run: npm run build
+      - name: Verify every generated product fallback is present
+        run: |
+          node --input-type=module -e "import fs from 'node:fs';const a=JSON.parse(fs.readFileSync('data/catalog-products.json','utf8'));const b=fs.readdirSync('dist/media/product-illustrations').filter(x=>x.endsWith('.svg'));if(a.length!==b.length)throw Error('Generated product visuals missing');console.log(b.length+' visual fallbacks checked');"
