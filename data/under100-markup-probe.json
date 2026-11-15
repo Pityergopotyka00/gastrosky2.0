@@ -1,0 +1,3435 @@
+{
+  "date": "2026-11-15T09:40:44.994Z",
+  "sites": [
+    {
+      "manufacturer": "HENDI",
+      "url": "https://www.hendi.eu/en/kitchen-appliances/",
+      "status": 200,
+      "text": "{ \"*\": { \"Magento_PageBuilder/js/widget-initializer\": { \"config\": {\"[data-content-type=\\\"slider\\\"][data-appearance=\\\"default\\\"]\":{\"Magento_PageBuilder\\/js\\/content-type\\/slider\\/appearance\\/default\\/widget\":false},\"[data-content-type=\\\"map\\\"]\":{\"Magento_PageBuilder\\/js\\/content-type\\/map\\/appearance\\/default\\/widget\":false},\"[data-content-type=\\\"row\\\"]\":{\"Magento_PageBuilder\\/js\\/content-type\\/row\\/appearance\\/default\\/widget\":false},\"[data-content-type=\\\"tabs\\\"]\":{\"Magento_PageBuilder\\/js\\/content-type\\/tabs\\/appearance\\/default\\/widget\":false},\"[data-content-type=\\\"slide\\\"]\":{\"Magento_PageBuilder\\/js\\/content-type\\/slide\\/appearance\\/default\\/widget\":{\"buttonSelector\":\".pagebuilder-slide-button\",\"showOverlay\":\"hover\",\"dataRole\":\"slide\"}},\"[data-content-type=\\\"banner\\\"]\":{\"Magento_PageBuilder\\/js\\/content-type\\/banner\\/appearance\\/default\\/widget\":{\"buttonSelector\":\".pagebuilder-banner-button\",\"showOverlay\":\"hover\",\"dataRole\":\"banner\"}},\"[data-content-type=\\\"buttons\\\"]\":{\"Magento_PageBuilder\\/js\\/content-type\\/buttons\\/appearance\\/inline\\/widget\":false},\"[data-content-type=\\\"products\\\"][data-appearance=\\\"carousel\\\"]\":{\"Magento_PageBuilder\\/js\\/content-type\\/products\\/appearance\\/carousel\\/widget\":false},\"[data-content-type=\\\"accordion\\\"]\":{\"Xsarus_ExtendedPageBuilder\\/js\\/content-type\\/accordion\\/appearance\\/default\\/widget\":false}}, \"breakpoints\": {\"desktop\":{\"label\":\"Desktop",
+      "link_count": 160,
+      "product_links": [
+        {
+          "href": "https://www.hendi.eu/en/hygiene-and-storage/washroom-products/",
+          "text": "Washroom products"
+        }
+      ],
+      "products": [],
+      "structured": [],
+      "headers": [
+        {
+          "tag": "h3",
+          "txt": "Kitchen Appliances"
+        }
+      ],
+      "img": [
+        {
+          "src": "https://hendi.xcdn.nl/RB255,140/-/231852_OBW_2021_07_IMG2509.jpg",
+          "alt": "Cutters, peelers & graters"
+        },
+        {
+          "src": "https://hendi.xcdn.nl/RB255,140/-/210017_2020.jpg",
+          "alt": "Meat processing"
+        },
+        {
+          "src": "https://www.hendi.eu/static/version1794317349/frontend/Xsarus/xsa-hfs/en_GB/images/fallback-icon.svg",
+          "alt": "Stick blenders & food processors"
+        },
+        {
+          "src": "https://hendi.xcdn.nl/RB255,140/-/226346_226353.jpg",
+          "alt": "Dough & pasta preparation"
+        },
+        {
+          "src": "https://hendi.xcdn.nl/RB255,140/-/201428_F_2020_IMGP6031.jpg",
+          "alt": "Vacuum packing"
+        }
+      ]
+    },
+    {
+      "manufacturer": "HENDI",
+      "url": "https://www.hendi.eu/en/kitchen-appliances/grills-and-griddles/",
+      "status": 200,
+      "text": "{ \"*\": { \"Magento_PageBuilder/js/widget-initializer\": { \"config\": {\"[data-content-type=\\\"slider\\\"][data-appearance=\\\"default\\\"]\":{\"Magento_PageBuilder\\/js\\/content-type\\/slider\\/appearance\\/default\\/widget\":false},\"[data-content-type=\\\"map\\\"]\":{\"Magento_PageBuilder\\/js\\/content-type\\/map\\/appearance\\/default\\/widget\":false},\"[data-content-type=\\\"row\\\"]\":{\"Magento_PageBuilder\\/js\\/content-type\\/row\\/appearance\\/default\\/widget\":false},\"[data-content-type=\\\"tabs\\\"]\":{\"Magento_PageBuilder\\/js\\/content-type\\/tabs\\/appearance\\/default\\/widget\":false},\"[data-content-type=\\\"slide\\\"]\":{\"Magento_PageBuilder\\/js\\/content-type\\/slide\\/appearance\\/default\\/widget\":{\"buttonSelector\":\".pagebuilder-slide-button\",\"showOverlay\":\"hover\",\"dataRole\":\"slide\"}},\"[data-content-type=\\\"banner\\\"]\":{\"Magento_PageBuilder\\/js\\/content-type\\/banner\\/appearance\\/default\\/widget\":{\"buttonSelector\":\".pagebuilder-banner-button\",\"showOverlay\":\"hover\",\"dataRole\":\"banner\"}},\"[data-content-type=\\\"buttons\\\"]\":{\"Magento_PageBuilder\\/js\\/content-type\\/buttons\\/appearance\\/inline\\/widget\":false},\"[data-content-type=\\\"products\\\"][data-appearance=\\\"carousel\\\"]\":{\"Magento_PageBuilder\\/js\\/content-type\\/products\\/appearance\\/carousel\\/widget\":false},\"[data-content-type=\\\"accordion\\\"]\":{\"Xsarus_ExtendedPageBuilder\\/js\\/content-type\\/accordion\\/appearance\\/default\\/widget\":false}}, \"breakpoints\": {\"desktop\":{\"label\":\"Desktop",
+      "link_count": 236,
+      "product_links": [
+        {
+          "href": "https://www.hendi.eu/en/hygiene-and-storage/washroom-products/",
+          "text": "Washroom products"
+        },
+        {
+          "href": " https://www.hendi.eu/en/griddle-ribbed-512394.html",
+          "text": ".product-image-container-26094 { width: 300px; height: auto; aspect-ratio: 300 / 300;",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/griddle-ribbed-512394.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/griddle-flat-512391.html",
+          "text": ".product-image-container-26064 { width: 300px; height: auto; aspect-ratio: 300 / 300;",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/griddle-flat-512391.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/griddle-half-flat-half-ribbed-512398.html",
+          "text": ".product-image-container-26043 { width: 300px; height: auto; aspect-ratio: 300 / 300;",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/griddle-half-flat-half-ribbed-512398.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/griddle-13-ribbed-512413.html",
+          "text": ".product-image-container-17200 { width: 300px; height: auto; aspect-ratio: 300 / 300;",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/griddle-13-ribbed-512413.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/griddle-ribbed-512409.html",
+          "text": ".product-image-container-17197 { width: 300px; height: auto; aspect-ratio: 300 / 300;",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/griddle-ribbed-512409.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/griddle-half-ribbed-512408.html",
+          "text": ".product-image-container-17194 { width: 300px; height: auto; aspect-ratio: 300 / 300;",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/griddle-half-ribbed-512408.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/griddle-flat-512400.html",
+          "text": ".product-image-container-17191 { width: 300px; height: auto; aspect-ratio: 300 / 300;",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/griddle-flat-512400.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/griddle-flat-512407.html",
+          "text": ".product-image-container-17188 { width: 300px; height: auto; aspect-ratio: 300 / 300;",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/griddle-flat-512407.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/salamander-gn-11-515774.html",
+          "text": ".product-image-container-16598 { width: 300px; height: auto; aspect-ratio: 300 / 300;",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/salamander-gn-11-515774.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/quartz-salamander-maxi-gn-11-102547.html",
+          "text": ".product-image-container-16248 { width: 300px; height: auto; aspect-ratio: 300 / 300;",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/quartz-salamander-maxi-gn-11-102547.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/contact-grill-panini-xl-200884.html",
+          "text": ".product-image-container-16242 { width: 300px; height: auto; aspect-ratio: 300 / 300;",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/contact-grill-panini-xl-200884.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/glass-cover-for-sausage-roller-grills-104519.html",
+          "text": ".product-image-container-12493 { width: 300px; height: auto; aspect-ratio: 300 / 300;",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/glass-cover-for-sausage-roller-grills-104519.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/sausage-rolling-grill-2-zones-6815.html",
+          "text": ".product-image-container-9750 { width: 300px; height: auto; aspect-ratio: 300 / 300; ",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/sausage-rolling-grill-2-zones-6815.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/sausage-rolling-grill-one-zone-6814.html",
+          "text": ".product-image-container-9747 { width: 300px; height: auto; aspect-ratio: 300 / 300; ",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/sausage-rolling-grill-one-zone-6814.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/party-pan-6810.html",
+          "text": ".product-image-container-9740 { width: 300px; height: auto; aspect-ratio: 300 / 300; ",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/party-pan-6810.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/contact-grill-double-version-6809.html",
+          "text": ".product-image-container-9737 { width: 300px; height: auto; aspect-ratio: 300 / 300; ",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/contact-grill-double-version-6809.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/contact-grill-double-version-6808.html",
+          "text": ".product-image-container-9735 { width: 300px; height: auto; aspect-ratio: 300 / 300; ",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/contact-grill-double-version-6808.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/contact-grill-double-grill-6807.html",
+          "text": ".product-image-container-9733 { width: 300px; height: auto; aspect-ratio: 300 / 300; ",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/contact-grill-double-grill-6807.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/contact-grill-single-version-6806.html",
+          "text": ".product-image-container-9731 { width: 300px; height: auto; aspect-ratio: 300 / 300; ",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/contact-grill-single-version-6806.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/contact-grill-single-version-6805.html",
+          "text": ".product-image-container-9729 { width: 300px; height: auto; aspect-ratio: 300 / 300; ",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/contact-grill-single-version-6805.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/contact-grill-panini-6804.html",
+          "text": ".product-image-container-9727 { width: 300px; height: auto; aspect-ratio: 300 / 300; ",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/contact-grill-panini-6804.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/contact-grill-panini-6803.html",
+          "text": ".product-image-container-9725 { width: 300px; height: auto; aspect-ratio: 300 / 300; ",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/contact-grill-panini-6803.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/salamander-with-quartz-infrared-heating-elements-gn-11-6799.html",
+          "text": ".product-image-container-9723 { width: 300px; height: auto; aspect-ratio: 300 / 300; ",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/salamander-with-quartz-infrared-heating-elements-gn-11-6799.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        }
+      ],
+      "products": [
+        "<li class=\"item product product-item has-label\">\n            <a href=\" https://www.hendi.eu/en/griddle-ribbed-512394.html\" tabindex=\"-1\" class=\"product-item-info product-item-photo\" id=\"product-item-info_26094\" data-container=\"product-grid\">\n                                                <div class=\"product photo product-item-photo product-link\">\n                    <span class=\"product-image-container product-image-container-26094\">\n    <span class=\"product-image-wrapper\">\n        <img class=\"product-image-photo\" src=\"https://hendi.xcdn.nl/RM300,300/-/154984_OBW_2024_02_IMGP9511.jpg\" loading=\"lazy\" width=\"300\" height=\"300\" alt=\"154984_OBW_2024_02_IMGP9511.jpg\"></span>\n</span>\n<style>.product-image-container-26094 {\n    width: 300px;\n    height: auto;\n    aspect-ratio: 300 / 300;\n}\n.product-image-container-26094 span.product-image-wrapper {\n    height: 100%;\n    width: 100%;\n}\n@supports not (aspect-ratio: auto) { \n    .product-image-container-26094 span.product-image-wrapper {\n        padding-bottom: 100%;\n    }\n}</style>                                        <div class=\"product-label product-label-New\">New                    </div>\n                                    </div>\n    ",
+        "<li class=\"item product product-item has-label\">\n            <a href=\" https://www.hendi.eu/en/griddle-flat-512391.html\" tabindex=\"-1\" class=\"product-item-info product-item-photo\" id=\"product-item-info_26064\" data-container=\"product-grid\">\n                                                <div class=\"product photo product-item-photo product-link\">\n                    <span class=\"product-image-container product-image-container-26064\">\n    <span class=\"product-image-wrapper\">\n        <img class=\"product-image-photo\" src=\"https://hendi.xcdn.nl/RM300,300/-/154977_OBW_2024_02_IMGP9511.jpg\" loading=\"lazy\" width=\"300\" height=\"300\" alt=\"154977_OBW_2024_02_IMGP9511.jpg\"></span>\n</span>\n<style>.product-image-container-26064 {\n    width: 300px;\n    height: auto;\n    aspect-ratio: 300 / 300;\n}\n.product-image-container-26064 span.product-image-wrapper {\n    height: 100%;\n    width: 100%;\n}\n@supports not (aspect-ratio: auto) { \n    .product-image-container-26064 span.product-image-wrapper {\n        padding-bottom: 100%;\n    }\n}</style>                                        <div class=\"product-label product-label-New\">New                    </div>\n                                    </div>\n      ",
+        "<li class=\"item product product-item has-label\">\n            <a href=\" https://www.hendi.eu/en/griddle-half-flat-half-ribbed-512398.html\" tabindex=\"-1\" class=\"product-item-info product-item-photo\" id=\"product-item-info_26043\" data-container=\"product-grid\">\n                                                <div class=\"product photo product-item-photo product-link\">\n                    <span class=\"product-image-container product-image-container-26043\">\n    <span class=\"product-image-wrapper\">\n        <img class=\"product-image-photo\" src=\"https://hendi.xcdn.nl/RM300,300/-/154991_OBW_2024_02_IMGP9507.jpg\" loading=\"lazy\" width=\"300\" height=\"300\" alt=\"154991_OBW_2024_02_IMGP9507.jpg\"></span>\n</span>\n<style>.product-image-container-26043 {\n    width: 300px;\n    height: auto;\n    aspect-ratio: 300 / 300;\n}\n.product-image-container-26043 span.product-image-wrapper {\n    height: 100%;\n    width: 100%;\n}\n@supports not (aspect-ratio: auto) { \n    .product-image-container-26043 span.product-image-wrapper {\n        padding-bottom: 100%;\n    }\n}</style>                                        <div class=\"product-label product-label-New\">New                    </div>\n                                ",
+        "<li class=\"item product product-item\">\n            <a href=\" https://www.hendi.eu/en/griddle-13-ribbed-512413.html\" tabindex=\"-1\" class=\"product-item-info product-item-photo\" id=\"product-item-info_17200\" data-container=\"product-grid\">\n                                                <div class=\"product photo product-item-photo product-link\">\n                    <span class=\"product-image-container product-image-container-17200\">\n    <span class=\"product-image-wrapper\">\n        <img class=\"product-image-photo\" src=\"https://hendi.xcdn.nl/RM300,300/-/154960_OBW_2024_02_IMGP4512.jpg\" loading=\"lazy\" width=\"300\" height=\"300\" alt=\"154960_OBW_2024_02_IMGP4512.jpg\"></span>\n</span>\n<style>.product-image-container-17200 {\n    width: 300px;\n    height: auto;\n    aspect-ratio: 300 / 300;\n}\n.product-image-container-17200 span.product-image-wrapper {\n    height: 100%;\n    width: 100%;\n}\n@supports not (aspect-ratio: auto) { \n    .product-image-container-17200 span.product-image-wrapper {\n        padding-bottom: 100%;\n    }\n}</style>                                    </div>\n                <div class=\"product details product-item-details\">\n                                        <strong class=\"prod",
+        "<li class=\"item product product-item\">\n            <a href=\" https://www.hendi.eu/en/griddle-ribbed-512409.html\" tabindex=\"-1\" class=\"product-item-info product-item-photo\" id=\"product-item-info_17197\" data-container=\"product-grid\">\n                                                <div class=\"product photo product-item-photo product-link\">\n                    <span class=\"product-image-container product-image-container-17197\">\n    <span class=\"product-image-wrapper\">\n        <img class=\"product-image-photo\" src=\"https://hendi.xcdn.nl/RM300,300/-/154953_OBW_2024_02_IMGP4518.jpg\" loading=\"lazy\" width=\"300\" height=\"300\" alt=\"154953_OBW_2024_02_IMGP4518.jpg\"></span>\n</span>\n<style>.product-image-container-17197 {\n    width: 300px;\n    height: auto;\n    aspect-ratio: 300 / 300;\n}\n.product-image-container-17197 span.product-image-wrapper {\n    height: 100%;\n    width: 100%;\n}\n@supports not (aspect-ratio: auto) { \n    .product-image-container-17197 span.product-image-wrapper {\n        padding-bottom: 100%;\n    }\n}</style>                                    </div>\n                <div class=\"product details product-item-details\">\n                                        <strong class=\"product",
+        "<li class=\"item product product-item\">\n            <a href=\" https://www.hendi.eu/en/griddle-half-ribbed-512408.html\" tabindex=\"-1\" class=\"product-item-info product-item-photo\" id=\"product-item-info_17194\" data-container=\"product-grid\">\n                                                <div class=\"product photo product-item-photo product-link\">\n                    <span class=\"product-image-container product-image-container-17194\">\n    <span class=\"product-image-wrapper\">\n        <img class=\"product-image-photo\" src=\"https://hendi.xcdn.nl/RM300,300/-/154946_OBW_2024_02_IMGP4518.jpg\" loading=\"lazy\" width=\"300\" height=\"300\" alt=\"154946_OBW_2024_02_IMGP4518.jpg\"></span>\n</span>\n<style>.product-image-container-17194 {\n    width: 300px;\n    height: auto;\n    aspect-ratio: 300 / 300;\n}\n.product-image-container-17194 span.product-image-wrapper {\n    height: 100%;\n    width: 100%;\n}\n@supports not (aspect-ratio: auto) { \n    .product-image-container-17194 span.product-image-wrapper {\n        padding-bottom: 100%;\n    }\n}</style>                                    </div>\n                <div class=\"product details product-item-details\">\n                                        <strong class=\"pr"
+      ],
+      "structured": [],
+      "headers": [
+        {
+          "tag": "h1",
+          "txt": "Kitchen Appliances"
+        }
+      ],
+      "img": [
+        {
+          "src": "https://hendi.xcdn.nl/RM300,300/-/154984_OBW_2024_02_IMGP9511.jpg",
+          "alt": "154984_OBW_2024_02_IMGP9511.jpg"
+        },
+        {
+          "src": "https://hendi.xcdn.nl/RM300,300/-/154977_OBW_2024_02_IMGP9511.jpg",
+          "alt": "154977_OBW_2024_02_IMGP9511.jpg"
+        },
+        {
+          "src": "https://hendi.xcdn.nl/RM300,300/-/154991_OBW_2024_02_IMGP9507.jpg",
+          "alt": "154991_OBW_2024_02_IMGP9507.jpg"
+        },
+        {
+          "src": "https://hendi.xcdn.nl/RM300,300/-/154960_OBW_2024_02_IMGP4512.jpg",
+          "alt": "154960_OBW_2024_02_IMGP4512.jpg"
+        },
+        {
+          "src": "https://hendi.xcdn.nl/RM300,300/-/154953_OBW_2024_02_IMGP4518.jpg",
+          "alt": "154953_OBW_2024_02_IMGP4518.jpg"
+        }
+      ]
+    },
+    {
+      "manufacturer": "HENDI",
+      "url": "https://www.hendi.eu/en/kitchen-appliances/deep-fryers/",
+      "status": 200,
+      "text": "{ \"*\": { \"Magento_PageBuilder/js/widget-initializer\": { \"config\": {\"[data-content-type=\\\"slider\\\"][data-appearance=\\\"default\\\"]\":{\"Magento_PageBuilder\\/js\\/content-type\\/slider\\/appearance\\/default\\/widget\":false},\"[data-content-type=\\\"map\\\"]\":{\"Magento_PageBuilder\\/js\\/content-type\\/map\\/appearance\\/default\\/widget\":false},\"[data-content-type=\\\"row\\\"]\":{\"Magento_PageBuilder\\/js\\/content-type\\/row\\/appearance\\/default\\/widget\":false},\"[data-content-type=\\\"tabs\\\"]\":{\"Magento_PageBuilder\\/js\\/content-type\\/tabs\\/appearance\\/default\\/widget\":false},\"[data-content-type=\\\"slide\\\"]\":{\"Magento_PageBuilder\\/js\\/content-type\\/slide\\/appearance\\/default\\/widget\":{\"buttonSelector\":\".pagebuilder-slide-button\",\"showOverlay\":\"hover\",\"dataRole\":\"slide\"}},\"[data-content-type=\\\"banner\\\"]\":{\"Magento_PageBuilder\\/js\\/content-type\\/banner\\/appearance\\/default\\/widget\":{\"buttonSelector\":\".pagebuilder-banner-button\",\"showOverlay\":\"hover\",\"dataRole\":\"banner\"}},\"[data-content-type=\\\"buttons\\\"]\":{\"Magento_PageBuilder\\/js\\/content-type\\/buttons\\/appearance\\/inline\\/widget\":false},\"[data-content-type=\\\"products\\\"][data-appearance=\\\"carousel\\\"]\":{\"Magento_PageBuilder\\/js\\/content-type\\/products\\/appearance\\/carousel\\/widget\":false},\"[data-content-type=\\\"accordion\\\"]\":{\"Xsarus_ExtendedPageBuilder\\/js\\/content-type\\/accordion\\/appearance\\/default\\/widget\":false}}, \"breakpoints\": {\"desktop\":{\"label\":\"Desktop",
+      "link_count": 220,
+      "product_links": [
+        {
+          "href": "https://www.hendi.eu/en/hygiene-and-storage/washroom-products/",
+          "text": "Washroom products"
+        },
+        {
+          "href": " https://www.hendi.eu/en/french-fries-warmer-663968.html",
+          "text": ".product-image-container-24863 { width: 300px; height: auto; aspect-ratio: 300 / 300;",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/french-fries-warmer-663968.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/deep-fryer-xl-with-drain-tap-hendi-goliath-555278.html",
+          "text": ".product-image-container-17938 { width: 300px; height: auto; aspect-ratio: 300 / 300;",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/deep-fryer-xl-with-drain-tap-hendi-goliath-555278.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/frying-basket-167216.html",
+          "text": ".product-image-container-13896 { width: 300px; height: auto; aspect-ratio: 300 / 300;",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/frying-basket-167216.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/deep-fryer-xl-with-drain-tap-237917.html",
+          "text": ".product-image-container-12454 { width: 300px; height: auto; aspect-ratio: 300 / 300;",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/deep-fryer-xl-with-drain-tap-237917.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/deep-fryer-kitchen-line-2x-8l-106677.html",
+          "text": ".product-image-container-10356 { width: 300px; height: auto; aspect-ratio: 300 / 300;",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/deep-fryer-kitchen-line-2x-8l-106677.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/deep-fryer-kitchen-line-8l-106676.html",
+          "text": ".product-image-container-10353 { width: 300px; height: auto; aspect-ratio: 300 / 300;",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/deep-fryer-kitchen-line-8l-106676.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/deep-fryer-kitchen-line-2x-6l-106675.html",
+          "text": ".product-image-container-10350 { width: 300px; height: auto; aspect-ratio: 300 / 300;",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/deep-fryer-kitchen-line-2x-6l-106675.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/deep-fryer-kitchen-line-6l-106674.html",
+          "text": ".product-image-container-10347 { width: 300px; height: auto; aspect-ratio: 300 / 300;",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/deep-fryer-kitchen-line-6l-106674.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/deep-fryer-2x4-l-106673.html",
+          "text": ".product-image-container-10344 { width: 300px; height: auto; aspect-ratio: 300 / 300;",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/deep-fryer-2x4-l-106673.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/deep-fryer-kitchen-line-4l-106672.html",
+          "text": ".product-image-container-10341 { width: 300px; height: auto; aspect-ratio: 300 / 300;",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/deep-fryer-kitchen-line-4l-106672.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/deep-fryer-6784.html",
+          "text": ".product-image-container-9701 { width: 300px; height: auto; aspect-ratio: 300 / 300; ",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/deep-fryer-6784.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/induction-deep-fryer-with-drain-tap-2-x-8-l-6783.html",
+          "text": ".product-image-container-9699 { width: 300px; height: auto; aspect-ratio: 300 / 300; ",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/induction-deep-fryer-with-drain-tap-2-x-8-l-6783.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/induction-deep-fryer-with-drain-tap-8-l-6782.html",
+          "text": ".product-image-container-9697 { width: 300px; height: auto; aspect-ratio: 300 / 300; ",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/induction-deep-fryer-with-drain-tap-8-l-6782.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/deep-fryer-with-drain-tap-digital-2-x-8-l-6780.html",
+          "text": ".product-image-container-9693 { width: 300px; height: auto; aspect-ratio: 300 / 300; ",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/deep-fryer-with-drain-tap-digital-2-x-8-l-6780.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/deep-fryer-with-drain-tap-digital-8-l-6779.html",
+          "text": ".product-image-container-9691 { width: 300px; height: auto; aspect-ratio: 300 / 300; ",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/deep-fryer-with-drain-tap-digital-8-l-6779.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/deep-fryer-with-drain-tap-2x8-l-6775.html",
+          "text": ".product-image-container-9685 { width: 300px; height: auto; aspect-ratio: 300 / 300; ",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/deep-fryer-with-drain-tap-2x8-l-6775.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/deep-fryer-profi-line-with-drain-tap-8-l-6774.html",
+          "text": ".product-image-container-9683 { width: 300px; height: auto; aspect-ratio: 300 / 300; ",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/deep-fryer-profi-line-with-drain-tap-8-l-6774.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/deep-fryer-2x8-l-6773.html",
+          "text": ".product-image-container-9681 { width: 300px; height: auto; aspect-ratio: 300 / 300; ",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/deep-fryer-2x8-l-6773.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/deep-fryer-profi-line-8-l-6772.html",
+          "text": ".product-image-container-9679 { width: 300px; height: auto; aspect-ratio: 300 / 300; ",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/deep-fryer-profi-line-8-l-6772.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        }
+      ],
+      "products": [
+        "<li class=\"item product product-item\">\n            <a href=\" https://www.hendi.eu/en/french-fries-warmer-663968.html\" tabindex=\"-1\" class=\"product-item-info product-item-photo\" id=\"product-item-info_24863\" data-container=\"product-grid\">\n                                                <div class=\"product photo product-item-photo product-link\">\n                    <span class=\"product-image-container product-image-container-24863\">\n    <span class=\"product-image-wrapper\">\n        <img class=\"product-image-photo\" src=\"https://hendi.xcdn.nl/RM300,300/-/209066_OBW_2024_03_IMGP5432.jpg\" loading=\"lazy\" width=\"300\" height=\"300\" alt=\"209066_OBW_2024_03_IMGP5432.jpg\"></span>\n</span>\n<style>.product-image-container-24863 {\n    width: 300px;\n    height: auto;\n    aspect-ratio: 300 / 300;\n}\n.product-image-container-24863 span.product-image-wrapper {\n    height: 100%;\n    width: 100%;\n}\n@supports not (aspect-ratio: auto) { \n    .product-image-container-24863 span.product-image-wrapper {\n        padding-bottom: 100%;\n    }\n}</style>                                    </div>\n                <div class=\"product details product-item-details\">\n                                        <strong class=\"pr",
+        "<li class=\"item product product-item\">\n            <a href=\" https://www.hendi.eu/en/deep-fryer-xl-with-drain-tap-hendi-goliath-555278.html\" tabindex=\"-1\" class=\"product-item-info product-item-photo\" id=\"product-item-info_17938\" data-container=\"product-grid\">\n                                                <div class=\"product photo product-item-photo product-link\">\n                    <span class=\"product-image-container product-image-container-17938\">\n    <span class=\"product-image-wrapper\">\n        <img class=\"product-image-photo\" src=\"https://hendi.xcdn.nl/RM300,300/-/209431_OBW_2024_07_IMGP0657.jpg\" loading=\"lazy\" width=\"300\" height=\"300\" alt=\"209431_OBW_2024_07_IMGP0657.jpg\"></span>\n</span>\n<style>.product-image-container-17938 {\n    width: 300px;\n    height: auto;\n    aspect-ratio: 300 / 300;\n}\n.product-image-container-17938 span.product-image-wrapper {\n    height: 100%;\n    width: 100%;\n}\n@supports not (aspect-ratio: auto) { \n    .product-image-container-17938 span.product-image-wrapper {\n        padding-bottom: 100%;\n    }\n}</style>                                    </div>\n                <div class=\"product details product-item-details\">\n                                  ",
+        "<li class=\"item product product-item\">\n            <a href=\" https://www.hendi.eu/en/frying-basket-167216.html\" tabindex=\"-1\" class=\"product-item-info product-item-photo\" id=\"product-item-info_13896\" data-container=\"product-grid\">\n                                                <div class=\"product photo product-item-photo product-link\">\n                    <span class=\"product-image-container product-image-container-13896\">\n    <span class=\"product-image-wrapper\">\n        <img class=\"product-image-photo\" src=\"https://hendi.xcdn.nl/RM300,300/-/944387.jpg\" loading=\"lazy\" width=\"300\" height=\"300\" alt=\"944387.jpg\"></span>\n</span>\n<style>.product-image-container-13896 {\n    width: 300px;\n    height: auto;\n    aspect-ratio: 300 / 300;\n}\n.product-image-container-13896 span.product-image-wrapper {\n    height: 100%;\n    width: 100%;\n}\n@supports not (aspect-ratio: auto) { \n    .product-image-container-13896 span.product-image-wrapper {\n        padding-bottom: 100%;\n    }\n}</style>                                    </div>\n                <div class=\"product details product-item-details\">\n                                        <strong class=\"product name product-item-name\">\n                 ",
+        "<li class=\"item product product-item\">\n            <a href=\" https://www.hendi.eu/en/deep-fryer-xl-with-drain-tap-237917.html\" tabindex=\"-1\" class=\"product-item-info product-item-photo\" id=\"product-item-info_12454\" data-container=\"product-grid\">\n                                                <div class=\"product photo product-item-photo product-link\">\n                    <span class=\"product-image-container product-image-container-12454\">\n    <span class=\"product-image-wrapper\">\n        <img class=\"product-image-photo\" src=\"https://hendi.xcdn.nl/RM300,300/-/209424_2025.jpg\" loading=\"lazy\" width=\"300\" height=\"300\" alt=\"209424_2025.jpg\"></span>\n</span>\n<style>.product-image-container-12454 {\n    width: 300px;\n    height: auto;\n    aspect-ratio: 300 / 300;\n}\n.product-image-container-12454 span.product-image-wrapper {\n    height: 100%;\n    width: 100%;\n}\n@supports not (aspect-ratio: auto) { \n    .product-image-container-12454 span.product-image-wrapper {\n        padding-bottom: 100%;\n    }\n}</style>                                    </div>\n                <div class=\"product details product-item-details\">\n                                        <strong class=\"product name product-item",
+        "<li class=\"item product product-item\">\n            <a href=\" https://www.hendi.eu/en/deep-fryer-kitchen-line-2x-8l-106677.html\" tabindex=\"-1\" class=\"product-item-info product-item-photo\" id=\"product-item-info_10356\" data-container=\"product-grid\">\n                                                <div class=\"product photo product-item-photo product-link\">\n                    <span class=\"product-image-container product-image-container-10356\">\n    <span class=\"product-image-wrapper\">\n        <img class=\"product-image-photo\" src=\"https://hendi.xcdn.nl/RM300,300/-/205839_OBW_2022_03_IMGP8923.jpg\" loading=\"lazy\" width=\"300\" height=\"300\" alt=\"205839_OBW_2022_03_IMGP8923.jpg\"></span>\n</span>\n<style>.product-image-container-10356 {\n    width: 300px;\n    height: auto;\n    aspect-ratio: 300 / 300;\n}\n.product-image-container-10356 span.product-image-wrapper {\n    height: 100%;\n    width: 100%;\n}\n@supports not (aspect-ratio: auto) { \n    .product-image-container-10356 span.product-image-wrapper {\n        padding-bottom: 100%;\n    }\n}</style>                                    </div>\n                <div class=\"product details product-item-details\">\n                                        <strong",
+        "<li class=\"item product product-item\">\n            <a href=\" https://www.hendi.eu/en/deep-fryer-kitchen-line-8l-106676.html\" tabindex=\"-1\" class=\"product-item-info product-item-photo\" id=\"product-item-info_10353\" data-container=\"product-grid\">\n                                                <div class=\"product photo product-item-photo product-link\">\n                    <span class=\"product-image-container product-image-container-10353\">\n    <span class=\"product-image-wrapper\">\n        <img class=\"product-image-photo\" src=\"https://hendi.xcdn.nl/RM300,300/-/205822_OBW_2022_03_IMGP8934.jpg\" loading=\"lazy\" width=\"300\" height=\"300\" alt=\"205822_OBW_2022_03_IMGP8934.jpg\"></span>\n</span>\n<style>.product-image-container-10353 {\n    width: 300px;\n    height: auto;\n    aspect-ratio: 300 / 300;\n}\n.product-image-container-10353 span.product-image-wrapper {\n    height: 100%;\n    width: 100%;\n}\n@supports not (aspect-ratio: auto) { \n    .product-image-container-10353 span.product-image-wrapper {\n        padding-bottom: 100%;\n    }\n}</style>                                    </div>\n                <div class=\"product details product-item-details\">\n                                        <strong cl"
+      ],
+      "structured": [],
+      "headers": [
+        {
+          "tag": "h1",
+          "txt": "Kitchen Appliances"
+        }
+      ],
+      "img": [
+        {
+          "src": "https://hendi.xcdn.nl/RM300,300/-/209066_OBW_2024_03_IMGP5432.jpg",
+          "alt": "209066_OBW_2024_03_IMGP5432.jpg"
+        },
+        {
+          "src": "https://hendi.xcdn.nl/RM300,300/-/209431_OBW_2024_07_IMGP0657.jpg",
+          "alt": "209431_OBW_2024_07_IMGP0657.jpg"
+        },
+        {
+          "src": "https://hendi.xcdn.nl/RM300,300/-/944387.jpg",
+          "alt": "944387.jpg"
+        },
+        {
+          "src": "https://hendi.xcdn.nl/RM300,300/-/209424_2025.jpg",
+          "alt": "209424_2025.jpg"
+        },
+        {
+          "src": "https://hendi.xcdn.nl/RM300,300/-/205839_OBW_2022_03_IMGP8923.jpg",
+          "alt": "205839_OBW_2022_03_IMGP8923.jpg"
+        }
+      ]
+    },
+    {
+      "manufacturer": "HENDI",
+      "url": "https://www.hendi.eu/en/kitchen-appliances/cookers/",
+      "status": 200,
+      "text": "{ \"*\": { \"Magento_PageBuilder/js/widget-initializer\": { \"config\": {\"[data-content-type=\\\"slider\\\"][data-appearance=\\\"default\\\"]\":{\"Magento_PageBuilder\\/js\\/content-type\\/slider\\/appearance\\/default\\/widget\":false},\"[data-content-type=\\\"map\\\"]\":{\"Magento_PageBuilder\\/js\\/content-type\\/map\\/appearance\\/default\\/widget\":false},\"[data-content-type=\\\"row\\\"]\":{\"Magento_PageBuilder\\/js\\/content-type\\/row\\/appearance\\/default\\/widget\":false},\"[data-content-type=\\\"tabs\\\"]\":{\"Magento_PageBuilder\\/js\\/content-type\\/tabs\\/appearance\\/default\\/widget\":false},\"[data-content-type=\\\"slide\\\"]\":{\"Magento_PageBuilder\\/js\\/content-type\\/slide\\/appearance\\/default\\/widget\":{\"buttonSelector\":\".pagebuilder-slide-button\",\"showOverlay\":\"hover\",\"dataRole\":\"slide\"}},\"[data-content-type=\\\"banner\\\"]\":{\"Magento_PageBuilder\\/js\\/content-type\\/banner\\/appearance\\/default\\/widget\":{\"buttonSelector\":\".pagebuilder-banner-button\",\"showOverlay\":\"hover\",\"dataRole\":\"banner\"}},\"[data-content-type=\\\"buttons\\\"]\":{\"Magento_PageBuilder\\/js\\/content-type\\/buttons\\/appearance\\/inline\\/widget\":false},\"[data-content-type=\\\"products\\\"][data-appearance=\\\"carousel\\\"]\":{\"Magento_PageBuilder\\/js\\/content-type\\/products\\/appearance\\/carousel\\/widget\":false},\"[data-content-type=\\\"accordion\\\"]\":{\"Xsarus_ExtendedPageBuilder\\/js\\/content-type\\/accordion\\/appearance\\/default\\/widget\":false}}, \"breakpoints\": {\"desktop\":{\"label\":\"Desktop",
+      "link_count": 181,
+      "product_links": [
+        {
+          "href": "https://www.hendi.eu/en/hygiene-and-storage/washroom-products/",
+          "text": "Washroom products"
+        },
+        {
+          "href": " https://www.hendi.eu/en/pasta-and-dumplings-cooker-102779.html",
+          "text": ".product-image-container-17725 { width: 300px; height: auto; aspect-ratio: 300 / 300;",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/pasta-and-dumplings-cooker-102779.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/non-stick-mat-for-rice-cookers-377589.html",
+          "text": ".product-image-container-15268 { width: 300px; height: auto; aspect-ratio: 300 / 300;",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/non-stick-mat-for-rice-cookers-377589.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/rice-cooker-10-l-225291.html",
+          "text": ".product-image-container-11849 { width: 300px; height: auto; aspect-ratio: 300 / 300;",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/rice-cooker-10-l-225291.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/rice-cooker-42-l-225284.html",
+          "text": ".product-image-container-11846 { width: 300px; height: auto; aspect-ratio: 300 / 300;",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/rice-cooker-42-l-225284.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/rice-cooker-with-steamer-basket-6769.html",
+          "text": ".product-image-container-9670 { width: 300px; height: auto; aspect-ratio: 300 / 300; ",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/rice-cooker-with-steamer-basket-6769.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/rice-cooker-warmer-54-l-6768.html",
+          "text": ".product-image-container-9668 { width: 300px; height: auto; aspect-ratio: 300 / 300; ",
+          "cls": "product-item-info product-item-photo"
+        },
+        {
+          "href": " https://www.hendi.eu/en/rice-cooker-warmer-54-l-6768.html",
+          "text": "",
+          "cls": "product-item-info product-item-photo"
+        }
+      ],
+      "products": [
+        "<li class=\"item product product-item\">\n            <a href=\" https://www.hendi.eu/en/pasta-and-dumplings-cooker-102779.html\" tabindex=\"-1\" class=\"product-item-info product-item-photo\" id=\"product-item-info_17725\" data-container=\"product-grid\">\n                                                <div class=\"product photo product-item-photo product-link\">\n                    <span class=\"product-image-container product-image-container-17725\">\n    <span class=\"product-image-wrapper\">\n        <img class=\"product-image-photo\" src=\"https://hendi.xcdn.nl/RM300,300/-/238899_OBW_2021_02_IMGP1898.jpg\" loading=\"lazy\" width=\"300\" height=\"300\" alt=\"238899_OBW_2021_02_IMGP1898.jpg\"></span>\n</span>\n<style>.product-image-container-17725 {\n    width: 300px;\n    height: auto;\n    aspect-ratio: 300 / 300;\n}\n.product-image-container-17725 span.product-image-wrapper {\n    height: 100%;\n    width: 100%;\n}\n@supports not (aspect-ratio: auto) { \n    .product-image-container-17725 span.product-image-wrapper {\n        padding-bottom: 100%;\n    }\n}</style>                                    </div>\n                <div class=\"product details product-item-details\">\n                                        <strong cl",
+        "<li class=\"item product product-item has-label\">\n            <a href=\" https://www.hendi.eu/en/non-stick-mat-for-rice-cookers-377589.html\" tabindex=\"-1\" class=\"product-item-info product-item-photo\" id=\"product-item-info_15268\" data-container=\"product-grid\">\n                                                <div class=\"product photo product-item-photo product-link\">\n                    <span class=\"product-image-container product-image-container-15268\">\n    <span class=\"product-image-wrapper\">\n        <img class=\"product-image-photo\" src=\"https://hendi.xcdn.nl/RM300,300/-/240557_OBW_2026_01_IMGP8382.jpg\" loading=\"lazy\" width=\"300\" height=\"300\" alt=\"240557_OBW_2026_01_IMGP8382.jpg\"></span>\n</span>\n<style>.product-image-container-15268 {\n    width: 300px;\n    height: auto;\n    aspect-ratio: 300 / 300;\n}\n.product-image-container-15268 span.product-image-wrapper {\n    height: 100%;\n    width: 100%;\n}\n@supports not (aspect-ratio: auto) { \n    .product-image-container-15268 span.product-image-wrapper {\n        padding-bottom: 100%;\n    }\n}</style>                                        <div class=\"product-label product-label-Last stock\">Last stock                    </div>\n                 ",
+        "<li class=\"item product product-item\">\n            <a href=\" https://www.hendi.eu/en/rice-cooker-10-l-225291.html\" tabindex=\"-1\" class=\"product-item-info product-item-photo\" id=\"product-item-info_11849\" data-container=\"product-grid\">\n                                                <div class=\"product photo product-item-photo product-link\">\n                    <span class=\"product-image-container product-image-container-11849\">\n    <span class=\"product-image-wrapper\">\n        <img class=\"product-image-photo\" src=\"https://hendi.xcdn.nl/RM300,300/-/240458_OBW_2026_01_IMGP8661.jpg\" loading=\"lazy\" width=\"300\" height=\"300\" alt=\"240458_OBW_2026_01_IMGP8661.jpg\"></span>\n</span>\n<style>.product-image-container-11849 {\n    width: 300px;\n    height: auto;\n    aspect-ratio: 300 / 300;\n}\n.product-image-container-11849 span.product-image-wrapper {\n    height: 100%;\n    width: 100%;\n}\n@supports not (aspect-ratio: auto) { \n    .product-image-container-11849 span.product-image-wrapper {\n        padding-bottom: 100%;\n    }\n}</style>                                    </div>\n                <div class=\"product details product-item-details\">\n                                        <strong class=\"produ",
+        "<li class=\"item product product-item\">\n            <a href=\" https://www.hendi.eu/en/rice-cooker-42-l-225284.html\" tabindex=\"-1\" class=\"product-item-info product-item-photo\" id=\"product-item-info_11846\" data-container=\"product-grid\">\n                                                <div class=\"product photo product-item-photo product-link\">\n                    <span class=\"product-image-container product-image-container-11846\">\n    <span class=\"product-image-wrapper\">\n        <img class=\"product-image-photo\" src=\"https://hendi.xcdn.nl/RM300,300/-/Simulation_240441_Rice_cooker.jpg\" loading=\"lazy\" width=\"300\" height=\"300\" alt=\"Simulation_240441_Rice_cooker.jpg\"></span>\n</span>\n<style>.product-image-container-11846 {\n    width: 300px;\n    height: auto;\n    aspect-ratio: 300 / 300;\n}\n.product-image-container-11846 span.product-image-wrapper {\n    height: 100%;\n    width: 100%;\n}\n@supports not (aspect-ratio: auto) { \n    .product-image-container-11846 span.product-image-wrapper {\n        padding-bottom: 100%;\n    }\n}</style>                                    </div>\n                <div class=\"product details product-item-details\">\n                                        <strong class=\"p",
+        "<li class=\"item product product-item\">\n            <a href=\" https://www.hendi.eu/en/rice-cooker-with-steamer-basket-6769.html\" tabindex=\"-1\" class=\"product-item-info product-item-photo\" id=\"product-item-info_9670\" data-container=\"product-grid\">\n                                                <div class=\"product photo product-item-photo product-link\">\n                    <span class=\"product-image-container product-image-container-9670\">\n    <span class=\"product-image-wrapper\">\n        <img class=\"product-image-photo\" src=\"https://hendi.xcdn.nl/RM300,300/-/240410_OBW_2026_01_IMGP8650.jpg\" loading=\"lazy\" width=\"300\" height=\"300\" alt=\"240410_OBW_2026_01_IMGP8650.jpg\"></span>\n</span>\n<style>.product-image-container-9670 {\n    width: 300px;\n    height: auto;\n    aspect-ratio: 300 / 300;\n}\n.product-image-container-9670 span.product-image-wrapper {\n    height: 100%;\n    width: 100%;\n}\n@supports not (aspect-ratio: auto) { \n    .product-image-container-9670 span.product-image-wrapper {\n        padding-bottom: 100%;\n    }\n}</style>                                    </div>\n                <div class=\"product details product-item-details\">\n                                        <strong clas",
+        "<li class=\"item product product-item\">\n            <a href=\" https://www.hendi.eu/en/rice-cooker-warmer-54-l-6768.html\" tabindex=\"-1\" class=\"product-item-info product-item-photo\" id=\"product-item-info_9668\" data-container=\"product-grid\">\n                                                <div class=\"product photo product-item-photo product-link\">\n                    <span class=\"product-image-container product-image-container-9668\">\n    <span class=\"product-image-wrapper\">\n        <img class=\"product-image-photo\" src=\"https://hendi.xcdn.nl/RM300,300/-/240403_OBW_2026_01_IMGP8643.jpg\" loading=\"lazy\" width=\"300\" height=\"300\" alt=\"240403_OBW_2026_01_IMGP8643.jpg\"></span>\n</span>\n<style>.product-image-container-9668 {\n    width: 300px;\n    height: auto;\n    aspect-ratio: 300 / 300;\n}\n.product-image-container-9668 span.product-image-wrapper {\n    height: 100%;\n    width: 100%;\n}\n@supports not (aspect-ratio: auto) { \n    .product-image-container-9668 span.product-image-wrapper {\n        padding-bottom: 100%;\n    }\n}</style>                                    </div>\n                <div class=\"product details product-item-details\">\n                                        <strong class=\"produ"
+      ],
+      "structured": [],
+      "headers": [
+        {
+          "tag": "h1",
+          "txt": "Kitchen Appliances"
+        }
+      ],
+      "img": [
+        {
+          "src": "https://hendi.xcdn.nl/RM300,300/-/238899_OBW_2021_02_IMGP1898.jpg",
+          "alt": "238899_OBW_2021_02_IMGP1898.jpg"
+        },
+        {
+          "src": "https://hendi.xcdn.nl/RM300,300/-/240557_OBW_2026_01_IMGP8382.jpg",
+          "alt": "240557_OBW_2026_01_IMGP8382.jpg"
+        },
+        {
+          "src": "https://hendi.xcdn.nl/RM300,300/-/240458_OBW_2026_01_IMGP8661.jpg",
+          "alt": "240458_OBW_2026_01_IMGP8661.jpg"
+        },
+        {
+          "src": "https://hendi.xcdn.nl/RM300,300/-/Simulation_240441_Rice_cooker.jpg",
+          "alt": "Simulation_240441_Rice_cooker.jpg"
+        },
+        {
+          "src": "https://hendi.xcdn.nl/RM300,300/-/240410_OBW_2026_01_IMGP8650.jpg",
+          "alt": "240410_OBW_2026_01_IMGP8650.jpg"
+        }
+      ]
+    },
+    {
+      "manufacturer": "Modular",
+      "url": "https://www.modular.it/en/prodotti/Fun%20600%20-%20Modular/Gas%20ranges",
+      "status": 200,
+      "text": "Company the Nice kitchen Catalogues Spare parts News Blog Work with us Contacts Service References Secure Area var user_menu_2 = document.getElementById('customBlockLoginSecureArea'); if (user_menu_2) { user_menu_2.addEventListener('click', function () { document.cookie = `custom-block-login=${user_menu_2.id}; max-age=10`; }); } en en it de es fr Products Fun 600 Fun 600. Modular kitchens with a depth of 600 mm that are an excellent choice for small kitchens,seasonal venues and food trucks. Gas ranges Electric ranges Infrared hobs Pasta cookers Bain marie Fryers Heated chip dump Griddles Lava stone grills Neutral elements Fun 650 Fun 650. Modular kitchens with a depth of 650 mmthat are an excellent choice for small kitchens,seasonal venues and food trucks. Gas ranges Gas solid tops Electric ranges Infrared hobs Pasta cookers Bain marie Fryers Heated chip dump Griddles Lava stone grills Gas grills Neutral elements Fun 700 Fun 700. Modular kitchens with a depth of 700 mmThe solution for kitchens in environmentswith limited spaces Gas ranges Gas solid tops Electric ranges Electric solid tops Induction hobs Infrared hobs Pasta cookers Bain marie Fryers Heated chip dump Griddles Lava stone grills Aqua grills Gas grills Electric grills Boiling pans Tilting bratt pans Neutral elements Roc 700 Roc 700. Modular kitchens with a depth of 700 mmperfect for restaurants, b&b and hotel. Gas r",
+      "link_count": 165,
+      "product_links": [
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Gas%20solid%20tops",
+          "text": "Gas solid tops"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Electric%20ranges",
+          "text": "Electric ranges"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Electric%20solid%20tops",
+          "text": "Electric solid tops"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Induction%20hobs",
+          "text": "Induction hobs"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Infrared%20hobs",
+          "text": "Infrared hobs"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Pasta%20cookers",
+          "text": "Pasta cookers"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Bain%20marie",
+          "text": "Bain marie"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Fryers",
+          "text": "Fryers"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Heated%20chip%20dump",
+          "text": "Heated chip dump"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Griddles",
+          "text": "Griddles"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Lava%20stone%20grills",
+          "text": "Lava stone grills"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Aqua%20grills",
+          "text": "Aqua grills"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Gas%20grills",
+          "text": "Gas grills"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Electric%20grills",
+          "text": "Electric grills"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Boiling%20pans",
+          "text": "Boiling pans"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Tilting%20bratt%20pans",
+          "text": "Tilting bratt pans"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Neutral%20elements",
+          "text": "Neutral elements"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular",
+          "text": "Roc 700",
+          "cls": "spacer-top"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Gas%20ranges",
+          "text": "Gas ranges"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Gas%20solid%20tops",
+          "text": "Gas solid tops"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Electric%20ranges",
+          "text": "Electric ranges"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Electric%20solid%20tops",
+          "text": "Electric solid tops"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Induction%20hobs",
+          "text": "Induction hobs"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Infrared%20hobs",
+          "text": "Infrared hobs"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Pasta%20cookers",
+          "text": "Pasta cookers"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Bain%20marie",
+          "text": "Bain marie"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Fryers",
+          "text": "Fryers"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Heated%20chip%20dump",
+          "text": "Heated chip dump"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Griddles",
+          "text": "Griddles"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Aqua%20grills",
+          "text": "Aqua grills"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Lava%20stone%20grills",
+          "text": "Lava stone grills"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Boiling%20pans",
+          "text": "Boiling pans"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Bratt%20pans",
+          "text": "Bratt pans"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Tilting%20bratt%20pans",
+          "text": "Tilting bratt pans"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Neutral%20elements",
+          "text": "Neutral elements"
+        },
+        {
+          "href": "/en/products/refrigerated-counters",
+          "text": "Refrigerated counters"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular",
+          "text": "Roc 900"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Gas%20ranges",
+          "text": "Gas ranges"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Gas%20solid%20tops",
+          "text": "Gas solid tops"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Electric%20ranges",
+          "text": "Electric ranges"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Electric%20solid%20tops",
+          "text": "Electric solid tops"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Induction%20hobs",
+          "text": "Induction hobs"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Infrared%20hobs",
+          "text": "Infrared hobs"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Pasta%20cookers",
+          "text": "Pasta cookers"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Bain%20marie",
+          "text": "Bain marie"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Fryers",
+          "text": "Fryers"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Heated%20chip%20dump",
+          "text": "Heated chip dump"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Griddles",
+          "text": "Griddles"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Aqua%20grills",
+          "text": "Aqua grills"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Lava%20stone%20grills",
+          "text": "Lava stone grills"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Boiling%20pans",
+          "text": "Boiling pans"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Bratt%20pans",
+          "text": "Bratt pans"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Tilting%20bratt%20pans",
+          "text": "Tilting bratt pans"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Neutral%20elements",
+          "text": "Neutral elements"
+        },
+        {
+          "href": "/en/products/refrigerated-counters",
+          "text": "Refrigerated counters"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular",
+          "text": "Roc 1100"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Gas%20ranges",
+          "text": "Gas ranges"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Gas%20solid%20tops",
+          "text": "Gas solid tops"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Electric%20ranges",
+          "text": "Electric ranges"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Electric%20solid%20tops",
+          "text": "Electric solid tops"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Induction%20hobs",
+          "text": "Induction hobs"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Pasta%20cookers",
+          "text": "Pasta cookers"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Bain%20marie",
+          "text": "Bain marie"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Fryers",
+          "text": "Fryers"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Griddles",
+          "text": "Griddles"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Aqua%20grills",
+          "text": "Aqua grills"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Bratt%20pans",
+          "text": "Bratt pans"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Neutral%20elements",
+          "text": "Neutral elements"
+        },
+        {
+          "href": "/en/prodotti/Cooking%20island",
+          "text": "Cooking island",
+          "cls": "spacer-top"
+        },
+        {
+          "href": "/en/prodotti/Cooking%20island/Cooking%20island",
+          "text": "Cooking island",
+          "cls": "spacer-top"
+        },
+        {
+          "href": "/en/prodotti/Salamanders",
+          "text": "Salamanders",
+          "cls": "spacer-top"
+        },
+        {
+          "href": "/en/prodotti/Salamanders/Salamanders",
+          "text": "Salamanders",
+          "cls": "spacer-top"
+        },
+        {
+          "href": "/en/products/refrigerated-counters",
+          "text": "Refrigerated counters",
+          "cls": "spacer-top"
+        },
+        {
+          "href": "/en/products/refrigerated-counters",
+          "text": "Refrigerated counters"
+        },
+        {
+          "href": "/en/prodotti/Fun%20600%20-%20Modular",
+          "text": "Fun 600",
+          "cls": " active active-trail"
+        }
+      ],
+      "products": [],
+      "structured": [],
+      "headers": [
+        {
+          "tag": "h1",
+          "txt": "Gas ranges"
+        },
+        {
+          "tag": "h2",
+          "txt": "Fun 600. Gas ranges"
+        },
+        {
+          "tag": "h4",
+          "txt": "Module 30 cm"
+        },
+        {
+          "tag": "h4",
+          "txt": "Module 60 cm"
+        },
+        {
+          "tag": "h4",
+          "txt": "Module 90 cm"
+        }
+      ],
+      "img": []
+    },
+    {
+      "manufacturer": "Modular",
+      "url": "https://www.modular.it/en/prodotti/Fun%20600%20-%20Modular/Fryers",
+      "status": 200,
+      "text": "Company the Nice kitchen Catalogues Spare parts News Blog Work with us Contacts Service References Secure Area var user_menu_2 = document.getElementById('customBlockLoginSecureArea'); if (user_menu_2) { user_menu_2.addEventListener('click', function () { document.cookie = `custom-block-login=${user_menu_2.id}; max-age=10`; }); } en en it de es fr Products Fun 600 Fun 600. Modular kitchens with a depth of 600 mm that are an excellent choice for small kitchens,seasonal venues and food trucks. Gas ranges Electric ranges Infrared hobs Pasta cookers Bain marie Fryers Heated chip dump Griddles Lava stone grills Neutral elements Fun 650 Fun 650. Modular kitchens with a depth of 650 mmthat are an excellent choice for small kitchens,seasonal venues and food trucks. Gas ranges Gas solid tops Electric ranges Infrared hobs Pasta cookers Bain marie Fryers Heated chip dump Griddles Lava stone grills Gas grills Neutral elements Fun 700 Fun 700. Modular kitchens with a depth of 700 mmThe solution for kitchens in environmentswith limited spaces Gas ranges Gas solid tops Electric ranges Electric solid tops Induction hobs Infrared hobs Pasta cookers Bain marie Fryers Heated chip dump Griddles Lava stone grills Aqua grills Gas grills Electric grills Boiling pans Tilting bratt pans Neutral elements Roc 700 Roc 700. Modular kitchens with a depth of 700 mmperfect for restaurants, b&b and hotel. Gas r",
+      "link_count": 167,
+      "product_links": [
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Gas%20solid%20tops",
+          "text": "Gas solid tops"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Electric%20ranges",
+          "text": "Electric ranges"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Electric%20solid%20tops",
+          "text": "Electric solid tops"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Induction%20hobs",
+          "text": "Induction hobs"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Infrared%20hobs",
+          "text": "Infrared hobs"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Pasta%20cookers",
+          "text": "Pasta cookers"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Bain%20marie",
+          "text": "Bain marie"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Fryers",
+          "text": "Fryers"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Heated%20chip%20dump",
+          "text": "Heated chip dump"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Griddles",
+          "text": "Griddles"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Lava%20stone%20grills",
+          "text": "Lava stone grills"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Aqua%20grills",
+          "text": "Aqua grills"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Gas%20grills",
+          "text": "Gas grills"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Electric%20grills",
+          "text": "Electric grills"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Boiling%20pans",
+          "text": "Boiling pans"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Tilting%20bratt%20pans",
+          "text": "Tilting bratt pans"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Neutral%20elements",
+          "text": "Neutral elements"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular",
+          "text": "Roc 700",
+          "cls": "spacer-top"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Gas%20ranges",
+          "text": "Gas ranges"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Gas%20solid%20tops",
+          "text": "Gas solid tops"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Electric%20ranges",
+          "text": "Electric ranges"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Electric%20solid%20tops",
+          "text": "Electric solid tops"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Induction%20hobs",
+          "text": "Induction hobs"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Infrared%20hobs",
+          "text": "Infrared hobs"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Pasta%20cookers",
+          "text": "Pasta cookers"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Bain%20marie",
+          "text": "Bain marie"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Fryers",
+          "text": "Fryers"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Heated%20chip%20dump",
+          "text": "Heated chip dump"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Griddles",
+          "text": "Griddles"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Aqua%20grills",
+          "text": "Aqua grills"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Lava%20stone%20grills",
+          "text": "Lava stone grills"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Boiling%20pans",
+          "text": "Boiling pans"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Bratt%20pans",
+          "text": "Bratt pans"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Tilting%20bratt%20pans",
+          "text": "Tilting bratt pans"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Neutral%20elements",
+          "text": "Neutral elements"
+        },
+        {
+          "href": "/en/products/refrigerated-counters",
+          "text": "Refrigerated counters"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular",
+          "text": "Roc 900"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Gas%20ranges",
+          "text": "Gas ranges"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Gas%20solid%20tops",
+          "text": "Gas solid tops"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Electric%20ranges",
+          "text": "Electric ranges"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Electric%20solid%20tops",
+          "text": "Electric solid tops"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Induction%20hobs",
+          "text": "Induction hobs"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Infrared%20hobs",
+          "text": "Infrared hobs"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Pasta%20cookers",
+          "text": "Pasta cookers"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Bain%20marie",
+          "text": "Bain marie"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Fryers",
+          "text": "Fryers"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Heated%20chip%20dump",
+          "text": "Heated chip dump"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Griddles",
+          "text": "Griddles"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Aqua%20grills",
+          "text": "Aqua grills"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Lava%20stone%20grills",
+          "text": "Lava stone grills"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Boiling%20pans",
+          "text": "Boiling pans"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Bratt%20pans",
+          "text": "Bratt pans"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Tilting%20bratt%20pans",
+          "text": "Tilting bratt pans"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Neutral%20elements",
+          "text": "Neutral elements"
+        },
+        {
+          "href": "/en/products/refrigerated-counters",
+          "text": "Refrigerated counters"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular",
+          "text": "Roc 1100"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Gas%20ranges",
+          "text": "Gas ranges"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Gas%20solid%20tops",
+          "text": "Gas solid tops"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Electric%20ranges",
+          "text": "Electric ranges"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Electric%20solid%20tops",
+          "text": "Electric solid tops"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Induction%20hobs",
+          "text": "Induction hobs"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Pasta%20cookers",
+          "text": "Pasta cookers"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Bain%20marie",
+          "text": "Bain marie"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Fryers",
+          "text": "Fryers"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Griddles",
+          "text": "Griddles"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Aqua%20grills",
+          "text": "Aqua grills"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Bratt%20pans",
+          "text": "Bratt pans"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Neutral%20elements",
+          "text": "Neutral elements"
+        },
+        {
+          "href": "/en/prodotti/Cooking%20island",
+          "text": "Cooking island",
+          "cls": "spacer-top"
+        },
+        {
+          "href": "/en/prodotti/Cooking%20island/Cooking%20island",
+          "text": "Cooking island",
+          "cls": "spacer-top"
+        },
+        {
+          "href": "/en/prodotti/Salamanders",
+          "text": "Salamanders",
+          "cls": "spacer-top"
+        },
+        {
+          "href": "/en/prodotti/Salamanders/Salamanders",
+          "text": "Salamanders",
+          "cls": "spacer-top"
+        },
+        {
+          "href": "/en/products/refrigerated-counters",
+          "text": "Refrigerated counters",
+          "cls": "spacer-top"
+        },
+        {
+          "href": "/en/products/refrigerated-counters",
+          "text": "Refrigerated counters"
+        },
+        {
+          "href": "/en/prodotti/Fun%20600%20-%20Modular",
+          "text": "Fun 600",
+          "cls": " active active-trail"
+        }
+      ],
+      "products": [],
+      "structured": [],
+      "headers": [
+        {
+          "tag": "h1",
+          "txt": "Fryers"
+        },
+        {
+          "tag": "h2",
+          "txt": "Fun 600. Gas fryers"
+        },
+        {
+          "tag": "h4",
+          "txt": "Module 30 cm"
+        },
+        {
+          "tag": "h4",
+          "txt": "Module 60 cm"
+        },
+        {
+          "tag": "h2",
+          "txt": "Fun 600. Electric fryers"
+        },
+        {
+          "tag": "h4",
+          "txt": "Module 30 cm"
+        },
+        {
+          "tag": "h4",
+          "txt": "Module 60 cm"
+        }
+      ],
+      "img": []
+    },
+    {
+      "manufacturer": "Modular",
+      "url": "https://www.modular.it/en/products/fun-600-11",
+      "status": 200,
+      "text": "Company the Nice kitchen Catalogues Spare parts News Blog Work with us Contacts Service References Secure Area var user_menu_2 = document.getElementById('customBlockLoginSecureArea'); if (user_menu_2) { user_menu_2.addEventListener('click', function () { document.cookie = `custom-block-login=${user_menu_2.id}; max-age=10`; }); } en en it de es fr Products Fun 600 Fun 600. Modular kitchens with a depth of 600 mm that are an excellent choice for small kitchens,seasonal venues and food trucks. Gas ranges Electric ranges Infrared hobs Pasta cookers Bain marie Fryers Heated chip dump Griddles Lava stone grills Neutral elements Fun 650 Fun 650. Modular kitchens with a depth of 650 mmthat are an excellent choice for small kitchens,seasonal venues and food trucks. Gas ranges Gas solid tops Electric ranges Infrared hobs Pasta cookers Bain marie Fryers Heated chip dump Griddles Lava stone grills Gas grills Neutral elements Fun 700 Fun 700. Modular kitchens with a depth of 700 mmThe solution for kitchens in environmentswith limited spaces Gas ranges Gas solid tops Electric ranges Electric solid tops Induction hobs Infrared hobs Pasta cookers Bain marie Fryers Heated chip dump Griddles Lava stone grills Aqua grills Gas grills Electric grills Boiling pans Tilting bratt pans Neutral elements Roc 700 Roc 700. Modular kitchens with a depth of 700 mmperfect for restaurants, b&b and hotel. Gas r",
+      "link_count": 167,
+      "product_links": [
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Fryers",
+          "text": "Fryers"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Heated%20chip%20dump",
+          "text": "Heated chip dump"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Griddles",
+          "text": "Griddles"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Lava%20stone%20grills",
+          "text": "Lava stone grills"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Aqua%20grills",
+          "text": "Aqua grills"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Gas%20grills",
+          "text": "Gas grills"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Electric%20grills",
+          "text": "Electric grills"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Boiling%20pans",
+          "text": "Boiling pans"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Tilting%20bratt%20pans",
+          "text": "Tilting bratt pans"
+        },
+        {
+          "href": "/en/prodotti/Fun%20700%20-%20Modular/Neutral%20elements",
+          "text": "Neutral elements"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular",
+          "text": "Roc 700",
+          "cls": "spacer-top"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Gas%20ranges",
+          "text": "Gas ranges"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Gas%20solid%20tops",
+          "text": "Gas solid tops"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Electric%20ranges",
+          "text": "Electric ranges"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Electric%20solid%20tops",
+          "text": "Electric solid tops"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Induction%20hobs",
+          "text": "Induction hobs"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Infrared%20hobs",
+          "text": "Infrared hobs"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Pasta%20cookers",
+          "text": "Pasta cookers"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Bain%20marie",
+          "text": "Bain marie"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Fryers",
+          "text": "Fryers"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Heated%20chip%20dump",
+          "text": "Heated chip dump"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Griddles",
+          "text": "Griddles"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Aqua%20grills",
+          "text": "Aqua grills"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Lava%20stone%20grills",
+          "text": "Lava stone grills"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Boiling%20pans",
+          "text": "Boiling pans"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Bratt%20pans",
+          "text": "Bratt pans"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Tilting%20bratt%20pans",
+          "text": "Tilting bratt pans"
+        },
+        {
+          "href": "/en/prodotti/Roc%20700%20-%20Modular/Neutral%20elements",
+          "text": "Neutral elements"
+        },
+        {
+          "href": "/en/products/refrigerated-counters",
+          "text": "Refrigerated counters"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular",
+          "text": "Roc 900"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Gas%20ranges",
+          "text": "Gas ranges"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Gas%20solid%20tops",
+          "text": "Gas solid tops"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Electric%20ranges",
+          "text": "Electric ranges"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Electric%20solid%20tops",
+          "text": "Electric solid tops"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Induction%20hobs",
+          "text": "Induction hobs"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Infrared%20hobs",
+          "text": "Infrared hobs"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Pasta%20cookers",
+          "text": "Pasta cookers"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Bain%20marie",
+          "text": "Bain marie"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Fryers",
+          "text": "Fryers"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Heated%20chip%20dump",
+          "text": "Heated chip dump"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Griddles",
+          "text": "Griddles"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Aqua%20grills",
+          "text": "Aqua grills"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Lava%20stone%20grills",
+          "text": "Lava stone grills"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Boiling%20pans",
+          "text": "Boiling pans"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Bratt%20pans",
+          "text": "Bratt pans"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Tilting%20bratt%20pans",
+          "text": "Tilting bratt pans"
+        },
+        {
+          "href": "/en/prodotti/Roc%20900%20-%20Modular/Neutral%20elements",
+          "text": "Neutral elements"
+        },
+        {
+          "href": "/en/products/refrigerated-counters",
+          "text": "Refrigerated counters"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular",
+          "text": "Roc 1100"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Gas%20ranges",
+          "text": "Gas ranges"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Gas%20solid%20tops",
+          "text": "Gas solid tops"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Electric%20ranges",
+          "text": "Electric ranges"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Electric%20solid%20tops",
+          "text": "Electric solid tops"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Induction%20hobs",
+          "text": "Induction hobs"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Pasta%20cookers",
+          "text": "Pasta cookers"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Bain%20marie",
+          "text": "Bain marie"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Fryers",
+          "text": "Fryers"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Griddles",
+          "text": "Griddles"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Aqua%20grills",
+          "text": "Aqua grills"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Bratt%20pans",
+          "text": "Bratt pans"
+        },
+        {
+          "href": "/en/prodotti/Roc%201100%20-%20Modular/Neutral%20elements",
+          "text": "Neutral elements"
+        },
+        {
+          "href": "/en/prodotti/Cooking%20island",
+          "text": "Cooking island",
+          "cls": "spacer-top"
+        },
+        {
+          "href": "/en/prodotti/Cooking%20island/Cooking%20island",
+          "text": "Cooking island",
+          "cls": "spacer-top"
+        },
+        {
+          "href": "/en/prodotti/Salamanders",
+          "text": "Salamanders",
+          "cls": "spacer-top"
+        },
+        {
+          "href": "/en/prodotti/Salamanders/Salamanders",
+          "text": "Salamanders",
+          "cls": "spacer-top"
+        },
+        {
+          "href": "/en/products/refrigerated-counters",
+          "text": "Refrigerated counters",
+          "cls": "spacer-top"
+        },
+        {
+          "href": "/en/products/refrigerated-counters",
+          "text": "Refrigerated counters"
+        },
+        {
+          "href": "/coldline/product/print/68117?language=en",
+          "text": "Technical data",
+          "cls": "dropdown-item"
+        },
+        {
+          "href": "/Modular/catalogo/prodotti/esplosi/MP01032121000_Fun600_Cucina_elettrica_4_piastre_tonde_con_forno_elettrico_modulo_60.svg",
+          "text": "Drawing 2D",
+          "cls": "dropdown-item"
+        },
+        {
+          "href": "/en/products/fun-600-11/form/informations",
+          "text": "Informations",
+          "cls": "button modal-button"
+        },
+        {
+          "href": "/en/products/fun-600-11/form/retailers",
+          "text": "Search dealers",
+          "cls": "button modal-button"
+        },
+        {
+          "href": "/en/products/fun-600-11/form/offer",
+          "text": "Request offer",
+          "cls": "button modal-button offers"
+        },
+        {
+          "href": "/en/product/compare/68117",
+          "text": "Compare product",
+          "cls": "compare-button"
+        },
+        {
+          "href": "#product68117Features",
+          "text": "Features"
+        },
+        {
+          "href": "#product68117ConstructiveData",
+          "text": "Constructive Data"
+        }
+      ],
+      "products": [],
+      "structured": [],
+      "headers": [
+        {
+          "tag": "h2",
+          "txt": "FUN 600"
+        },
+        {
+          "tag": "h3",
+          "txt": "F60/60CFE"
+        },
+        {
+          "tag": "h2",
+          "txt": "FUN 600"
+        },
+        {
+          "tag": "h2",
+          "txt": "Electric range, 4 round plates, electric convection oven"
+        },
+        {
+          "tag": "h4",
+          "txt": "Electric range 4 plates 8kW with electric oven 3kW"
+        },
+        {
+          "tag": "h3",
+          "txt": "FeaturesClose"
+        },
+        {
+          "tag": "h3",
+          "txt": "Constructive DataClose"
+        },
+        {
+          "tag": "h2",
+          "txt": "Sign up to our newsletter"
+        }
+      ],
+      "img": []
+    },
+    {
+      "manufacturer": "Sistema Project Italia",
+      "url": "https://www.projectsystems.it/en/projects/",
+      "status": 200,
+      "text": "ProductsGlasswashers and dishwashersHood-type dishwasherPot and utensil washersRack Conveyor dishwashersInstrument washerDishwasher for campsitesOsmosis SystemOptionals and AccessoriesApplication AreasGlass washers for bar, pub, wine bars, professional kitchensDishwasher for restaurants, hotels and pizzeriasDishwasher for bakery, pastry, butcher and gastronomyDishwasher for community, canteens and hospitalsInstrument washer for dentists hospitals practices & clinicsDesignCompanyReferencesBlogReserved AreaContact HomeProjectsArchives: ProjectsOsmosis system unit 5 February 2025 - <img width=\"1024\" height=\"1024\" src=\"https://www.projectsystems.it/wp-content/uploads/2025/02/OSMOPROJECT-1024x1024.png\" class=\"responsive wp-post-image\" alt=\"\" decoding=\"async\" fetchpriority=\"high\" srcset=\"https://www.projectsystems.it/wp-content/uploads/2025/02/OSMOPROJECT-1024x1024.png 1024w, https://www.projectsystems.it/wp-content/uploads/2025/02/OSMOPROJECT-300x300.png 300w, https://www.projectsystems.it/wp-content/uploads/2025/02/OSMOPROJECT-150x150.png 150w, https://www.projectsystems.it/wp-content/uploads/2025/02/OSMOPROJECT-600x600.png 600w\" sizes=\"(max-width: 1024px) 100vw, 1024px\">OSMOPROJECT Reverse Osmosis Unit for Industrial Dishwashers The Advantages of OSMOPROJECT OSMOPROJECT offers unique advantages for the food service industry:…[ ] Read more UNICA 50 electromechanical 1 March 2020 - ",
+      "link_count": 134,
+      "product_links": [
+        {
+          "href": "https://www.projectsystems.it/en/products/",
+          "text": "Products"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/reverse-osmosis-unit-for-industrial-dishwashers/",
+          "text": "5 February 2025"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/reverse-osmosis-unit-for-industrial-dishwashers/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/unica-50-electromechanical-6/",
+          "text": "1 March 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/unica-50-electromechanical-6/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/unica-50-electromechanical-5/",
+          "text": "1 March 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/unica-50-electromechanical-5/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/unica-50-electromechanical-4/",
+          "text": "1 March 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/unica-50-electromechanical-4/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/unica-40-electromechanical-6/",
+          "text": "1 March 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/unica-40-electromechanical-6/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/unica-40-electromechanical-5/",
+          "text": "1 March 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/unica-40-electromechanical-5/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/unica-50-lcd/",
+          "text": "1 March 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/unica-50-lcd/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/unica-50-electromechanical-3/",
+          "text": "1 March 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/unica-50-electromechanical-3/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/unica-40-electromechanical-4/",
+          "text": "1 March 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/unica-40-electromechanical-4/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/jet-400/",
+          "text": "1 March 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/jet-400/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/unica-40-electromechanical-3/",
+          "text": "1 March 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/unica-40-electromechanical-3/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/unica-40-electromechanical-2/",
+          "text": "1 March 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/unica-40-electromechanical-2/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/alpha-50-electromechanical/",
+          "text": "1 March 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/alpha-50-electromechanical/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/unica-50-electromechanical-2/",
+          "text": "1 March 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/unica-50-electromechanical-2/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/unica-40-electromechanical/",
+          "text": "1 March 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/unica-40-electromechanical/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/unica-50-electromechanical/",
+          "text": "1 March 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/unica-50-electromechanical/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/the-upper-house-stoke-on-trent-uk/",
+          "text": "1 March 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/the-upper-house-stoke-on-trent-uk/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/staffordshire-the-grill-collection-stafford-uk/",
+          "text": "1 March 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/staffordshire-the-grill-collection-stafford-uk/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/oficio-lisbona-portugal/",
+          "text": "1 March 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/oficio-lisbona-portugal/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/quintal-das-docas-lisboa-portugal/",
+          "text": "1 March 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/quintal-das-docas-lisboa-portugal/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/prisma-center-joesuu-finlandia/",
+          "text": "1 March 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/prisma-center-joesuu-finlandia/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/planet-hollywood-disneyland-paris-france/",
+          "text": "1 March 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/planet-hollywood-disneyland-paris-france/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/pilsa-educa-taller-gastronomico-granada-spain/",
+          "text": "1 March 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/pilsa-educa-taller-gastronomico-granada-spain/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/morais-leitao-ass-lisboa-portugal/",
+          "text": "1 March 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/morais-leitao-ass-lisboa-portugal/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/kairaba-mythos-hotel-kerkyra-greece/",
+          "text": "1 March 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/kairaba-mythos-hotel-kerkyra-greece/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/disney-village-paris-france/",
+          "text": "1 March 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/disney-village-paris-france/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/jet/",
+          "text": "11 February 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/jet/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/alpha/",
+          "text": "11 February 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/alpha/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/unica/",
+          "text": "11 February 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/unica/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/unica-p/",
+          "text": "11 February 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/unica-p/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/page/2/",
+          "text": "2",
+          "cls": "page-numbers"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/page/2/",
+          "text": "Next",
+          "cls": "next page-numbers"
+        }
+      ],
+      "products": [
+        "<article><div class=\"content clearfix\"><div class=\"col-8\"><div class=\"article page-item\"><div class=\"post-item fade\"><h2 class=\"blue\">Osmosis system unit</h2> <a href=\"https://www.projectsystems.it/en/projects/reverse-osmosis-unit-for-industrial-dishwashers/\" style=\"font-size: 0.875rem; font-weight: 300;\">5 February 2025</a> - <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" data-src=\"https://www.projectsystems.it/wp-content/uploads/2025/02/OSMOPROJECT-1024x1024.png\" data-srcset=\"https://www.projectsystems.it/wp-content/uploads/2025/02/OSMOPROJECT-1024x1024.png 1024w, https://www.projectsystems.it/wp-content/uploads/2025/02/OSMOPROJECT-300x300.png 300w, https://www.projectsystems.it/wp-content/uploads/2025/02/OSMOPROJECT-150x150.png 150w, https://www.projectsystems.it/wp-content/uploads/2025/02/OSMOPROJECT-600x600.png 600w\" width=\"1024\" height=\"1024\" class=\"responsive wp-post-image lazyload\" alt=\"\" decoding=\"async\" fetchpriority=\"high\" sizes=\"(max-width: 1024px) 100vw, 1024px\"><noscript><img width=\"1024\" height=\"1024\" src=\"https://www.projectsystems.it/wp-content/uploads/2025/02/OSMOPROJECT-1024x1024.png\" class=\"responsive wp-post-image\" alt"
+      ],
+      "structured": [],
+      "headers": [
+        {
+          "tag": "h1",
+          "txt": "Archives: Projects"
+        },
+        {
+          "tag": "h2",
+          "txt": "Osmosis system unit"
+        },
+        {
+          "tag": "h2",
+          "txt": "UNICA 50 electromechanical"
+        },
+        {
+          "tag": "h2",
+          "txt": "UNICA 50 electromechanical"
+        },
+        {
+          "tag": "h2",
+          "txt": "UNICA 50 electromechanical"
+        },
+        {
+          "tag": "h2",
+          "txt": "UNICA 40 electromechanical"
+        },
+        {
+          "tag": "h2",
+          "txt": "UNICA 40 electromechanical"
+        },
+        {
+          "tag": "h2",
+          "txt": "UNICA 50 LCD"
+        },
+        {
+          "tag": "h2",
+          "txt": "UNICA 50 electromechanical"
+        },
+        {
+          "tag": "h2",
+          "txt": "UNICA 40 electromechanical"
+        },
+        {
+          "tag": "h2",
+          "txt": "JET 400"
+        },
+        {
+          "tag": "h2",
+          "txt": "UNICA 40 electromechanical"
+        },
+        {
+          "tag": "h2",
+          "txt": "UNICA 40 electromechanical"
+        },
+        {
+          "tag": "h2",
+          "txt": "Alpha 50 electromechanical"
+        },
+        {
+          "tag": "h2",
+          "txt": "UNICA 50 electromechanical"
+        },
+        {
+          "tag": "h2",
+          "txt": "UNICA 40 electromechanical"
+        },
+        {
+          "tag": "h2",
+          "txt": "UNICA 50 electromechanical"
+        },
+        {
+          "tag": "h2",
+          "txt": "The Upper house, Stoke on Trent, Uk"
+        },
+        {
+          "tag": "h2",
+          "txt": "Staffordshire the grill collection, Stafford, UK"
+        },
+        {
+          "tag": "h2",
+          "txt": "Oficio, Lisbona, Portugal"
+        },
+        {
+          "tag": "h2",
+          "txt": "Quintal das Docas, Lisboa, Portugal"
+        },
+        {
+          "tag": "h2",
+          "txt": "PRISMA CENTER, Joesuu, Finlandia"
+        },
+        {
+          "tag": "h2",
+          "txt": "Planet Hollywood Disneyland, Paris, France"
+        },
+        {
+          "tag": "h2",
+          "txt": "PILSA EDUCA TALLER GASTRONOMICO, Granada, Spain"
+        },
+        {
+          "tag": "h2",
+          "txt": "MORAIS LEITÃO & ASS., Lisboa, Portugal"
+        },
+        {
+          "tag": "h2",
+          "txt": "KAIRABA MYTHOS HOTEL, Kerkyra, Greece"
+        },
+        {
+          "tag": "h2",
+          "txt": "DISNEY VILLAGE, Paris, France"
+        },
+        {
+          "tag": "h2",
+          "txt": "Jet"
+        },
+        {
+          "tag": "h2",
+          "txt": "Alpha"
+        },
+        {
+          "tag": "h2",
+          "txt": "Unica"
+        },
+        {
+          "tag": "h2",
+          "txt": "Unica P"
+        },
+        {
+          "tag": "h2",
+          "txt": "Posts pagination"
+        },
+        {
+          "tag": "h3",
+          "txt": "Search"
+        },
+        {
+          "tag": "h3",
+          "txt": "Recent Posts"
+        },
+        {
+          "tag": "h3",
+          "txt": "Archives"
+        },
+        {
+          "tag": "h4",
+          "txt": "News"
+        },
+        {
+          "tag": "h4",
+          "txt": "WORK WITH US"
+        },
+        {
+          "tag": "h4",
+          "txt": "contacts"
+        }
+      ],
+      "img": []
+    },
+    {
+      "manufacturer": "Sistema Project Italia",
+      "url": "https://www.projectsystems.it/en/projects/page/2/",
+      "status": 200,
+      "text": "ProductsGlasswashers and dishwashersHood-type dishwasherPot and utensil washersRack Conveyor dishwashersInstrument washerDishwasher for campsitesOsmosis SystemOptionals and AccessoriesApplication AreasGlass washers for bar, pub, wine bars, professional kitchensDishwasher for restaurants, hotels and pizzeriasDishwasher for bakery, pastry, butcher and gastronomyDishwasher for community, canteens and hospitalsInstrument washer for dentists hospitals practices & clinicsDesignCompanyReferencesBlogReserved AreaContact HomeProjectsPage 2Archives: ProjectsT110E 11 February 2020 - <img width=\"1024\" height=\"1024\" src=\"https://www.projectsystems.it/wp-content/uploads/2019/06/t110e-1024x1024.jpg\" class=\"responsive wp-post-image\" alt=\"T110E\" decoding=\"async\" fetchpriority=\"high\" srcset=\"https://www.projectsystems.it/wp-content/uploads/2019/06/t110e-1024x1024.jpg 1024w, https://www.projectsystems.it/wp-content/uploads/2019/06/t110e-150x150.jpg 150w, https://www.projectsystems.it/wp-content/uploads/2019/06/t110e-300x300.jpg 300w\" sizes=\"(max-width: 1024px) 100vw, 1024px\">T110E Hood-Type dishwasher 50×50 basket and 450 mm clearance T110E pass through dishwasher with rinse-aid dosing pump General features –…[ ] Read more A SERIES 11 February 2020 - <img width=\"1024\" height=\"1024\" src=\"https://www.projectsystems.it/wp-content/uploads/2019/06/seriea-1024x1024.jpg\" class=\"responsive wp-post-image\"",
+      "link_count": 101,
+      "product_links": [
+        {
+          "href": "https://www.projectsystems.it/en/products/",
+          "text": "Products"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/",
+          "text": "Projects"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/t110e/",
+          "text": "11 February 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/t110e/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/a-series/",
+          "text": "11 February 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/a-series/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/dishwasher-with-built-in-water-softener-and-break-tank-ax/",
+          "text": "11 February 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/dishwasher-with-built-in-water-softener-and-break-tank-ax/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/t1215/",
+          "text": "11 February 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/t1215/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/t1215-energy-plus/",
+          "text": "11 February 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/t1215-energy-plus/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/t1515/",
+          "text": "11 February 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/t1515/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/s90/",
+          "text": "11 February 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/s90/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/s100/",
+          "text": "11 February 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/s100/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/s200/",
+          "text": "11 February 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/s200/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/s350/",
+          "text": "11 February 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/s350/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/ct120/",
+          "text": "11 February 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/ct120/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/ct200/",
+          "text": "11 February 2020"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/ct200/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/coin-operated-dishwasher-for-campsites-holiday-villages/",
+          "text": "19 July 2019"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/coin-operated-dishwasher-for-campsites-holiday-villages/",
+          "text": "Read more",
+          "cls": "button inverse"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/",
+          "text": "Prev",
+          "cls": "prev page-numbers"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/",
+          "text": "1",
+          "cls": "page-numbers"
+        }
+      ],
+      "products": [
+        "<article><div class=\"content clearfix\"><div class=\"col-8\"><div class=\"article page-item\"><div class=\"post-item fade\"><h2 class=\"blue\">T110E</h2> <a href=\"https://www.projectsystems.it/en/projects/t110e/\" style=\"font-size: 0.875rem; font-weight: 300;\">11 February 2020</a> - <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" data-src=\"https://www.projectsystems.it/wp-content/uploads/2019/06/t110e-1024x1024.jpg\" data-srcset=\"https://www.projectsystems.it/wp-content/uploads/2019/06/t110e-1024x1024.jpg 1024w, https://www.projectsystems.it/wp-content/uploads/2019/06/t110e-150x150.jpg 150w, https://www.projectsystems.it/wp-content/uploads/2019/06/t110e-300x300.jpg 300w\" width=\"1024\" height=\"1024\" class=\"responsive wp-post-image lazyload\" alt=\"T110E\" decoding=\"async\" fetchpriority=\"high\" sizes=\"(max-width: 1024px) 100vw, 1024px\"><noscript><img width=\"1024\" height=\"1024\" src=\"https://www.projectsystems.it/wp-content/uploads/2019/06/t110e-1024x1024.jpg\" class=\"responsive wp-post-image\" alt=\"T110E\" decoding=\"async\" fetchpriority=\"high\" srcset=\"https://www.projectsystems.it/wp-content/uploads/2019/06/t110e-1024x1024.jpg 1024w, https://www.projectsystems.i"
+      ],
+      "structured": [],
+      "headers": [
+        {
+          "tag": "h1",
+          "txt": "Archives: Projects"
+        },
+        {
+          "tag": "h2",
+          "txt": "T110E"
+        },
+        {
+          "tag": "h2",
+          "txt": "A SERIES"
+        },
+        {
+          "tag": "h2",
+          "txt": "Ax"
+        },
+        {
+          "tag": "h2",
+          "txt": "T1215"
+        },
+        {
+          "tag": "h2",
+          "txt": "T1215 Energy +"
+        },
+        {
+          "tag": "h2",
+          "txt": "T1515"
+        },
+        {
+          "tag": "h2",
+          "txt": "S90"
+        },
+        {
+          "tag": "h2",
+          "txt": "S100"
+        },
+        {
+          "tag": "h2",
+          "txt": "S200"
+        },
+        {
+          "tag": "h2",
+          "txt": "S350"
+        },
+        {
+          "tag": "h2",
+          "txt": "CT120"
+        },
+        {
+          "tag": "h2",
+          "txt": "CT200"
+        },
+        {
+          "tag": "h2",
+          "txt": "Unicamp"
+        },
+        {
+          "tag": "h2",
+          "txt": "Posts pagination"
+        },
+        {
+          "tag": "h3",
+          "txt": "Search"
+        },
+        {
+          "tag": "h3",
+          "txt": "Recent Posts"
+        },
+        {
+          "tag": "h3",
+          "txt": "Archives"
+        },
+        {
+          "tag": "h4",
+          "txt": "News"
+        },
+        {
+          "tag": "h4",
+          "txt": "WORK WITH US"
+        },
+        {
+          "tag": "h4",
+          "txt": "contacts"
+        }
+      ],
+      "img": []
+    },
+    {
+      "manufacturer": "Sistema Project Italia",
+      "url": "https://www.projectsystems.it/en/projects-categories/glasswashers-and-dishwashers/",
+      "status": 200,
+      "text": "ProductsGlasswashers and dishwashersHood-type dishwasherPot and utensil washersRack Conveyor dishwashersInstrument washerDishwasher for campsitesOsmosis SystemOptionals and AccessoriesApplication AreasGlass washers for bar, pub, wine bars, professional kitchensDishwasher for restaurants, hotels and pizzeriasDishwasher for bakery, pastry, butcher and gastronomyDishwasher for community, canteens and hospitalsInstrument washer for dentists hospitals practices & clinicsDesignCompanyReferencesBlogReserved AreaContact HomeProjectsGlasswashers and dishwashersGlasswashers and dishwashers Commercial undercounter glass washers & dishwashersDiscover our complete range of commercial undercounter glass washers & dishwashers for bars, pubs, caterers, restaurants, hotels, pizzerias and catering. Sistema Project Italia designs and manufactures its machines for the restaurant and catering industry in Italy, conceived to be efficient, ergonomic and low consumption.JetCore range <img width=\"1024\" height=\"1536\" src=\"https://www.projectsystems.it/wp-content/uploads/2019/06/jet.jpg\" class=\"responsive wp-post-image\" alt=\"Jet\" decoding=\"async\" fetchpriority=\"high\" srcset=\"https://www.projectsystems.it/wp-content/uploads/2019/06/jet.jpg 1024w, https://www.projectsystems.it/wp-content/uploads/2019/06/jet-768x1152.jpg 768w\" sizes=\"(max-width: 1024px) 100vw, 1024px\"> AlphaIntermediate range <img width=\"10",
+      "link_count": 48,
+      "product_links": [
+        {
+          "href": "https://www.projectsystems.it/en/products/",
+          "text": "Products"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/",
+          "text": "Projects"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/jet/",
+          "text": "<img width=\"1024\" height=\"1536\" src=\"https://www.projectsystems.it/wp-content/uploads"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/alpha/",
+          "text": "<img width=\"1024\" height=\"1536\" src=\"https://www.projectsystems.it/wp-content/uploads"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/unica/",
+          "text": "<img width=\"1024\" height=\"1536\" src=\"https://www.projectsystems.it/wp-content/uploads"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/unica-p/",
+          "text": "<img width=\"1024\" height=\"1536\" src=\"https://www.projectsystems.it/wp-content/uploads"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/a-series/",
+          "text": "<img width=\"1024\" height=\"1536\" src=\"https://www.projectsystems.it/wp-content/uploads"
+        },
+        {
+          "href": "https://www.projectsystems.it/en/projects/dishwasher-with-built-in-water-softener-and-break-tank-ax/",
+          "text": "<img width=\"1024\" height=\"1536\" src=\"https://www.projectsystems.it/wp-content/uploads"
+        }
+      ],
+      "products": [],
+      "structured": [],
+      "headers": [
+        {
+          "tag": "h1",
+          "txt": "Glasswashers and dishwashers"
+        },
+        {
+          "tag": "h2",
+          "txt": "Commercial undercounter glass washers & dishwashers"
+        },
+        {
+          "tag": "h2",
+          "txt": "Jet"
+        },
+        {
+          "tag": "h3",
+          "txt": "Core range"
+        },
+        {
+          "tag": "h2",
+          "txt": "Alpha"
+        },
+        {
+          "tag": "h3",
+          "txt": "Intermediate range"
+        },
+        {
+          "tag": "h2",
+          "txt": "Unica"
+        },
+        {
+          "tag": "h3",
+          "txt": "High range"
+        },
+        {
+          "tag": "h2",
+          "txt": "Unica P"
+        },
+        {
+          "tag": "h3",
+          "txt": "Fresh water system"
+        },
+        {
+          "tag": "h2",
+          "txt": "A SERIES"
+        },
+        {
+          "tag": "h3",
+          "txt": "With built-in water softener"
+        },
+        {
+          "tag": "h2",
+          "txt": "Ax"
+        },
+        {
+          "tag": "h3",
+          "txt": "Water softener and break tank"
+        },
+        {
+          "tag": "h4",
+          "txt": "News"
+        },
+        {
+          "tag": "h4",
+          "txt": "WORK WITH US"
+        },
+        {
+          "tag": "h4",
+          "txt": "contacts"
+        }
+      ],
+      "img": []
+    },
+    {
+      "manufacturer": "Krupps",
+      "url": "https://www.krupps.com/en/catalogue/evolution-range/",
+      "status": 200,
+      "text": "<iframe data-cli-class=\"cli-blocker-script\" data-cli-label=\"Google Tag Manager\" data-cli-script-type=\"analytics\" data-cli-block=\"true\" data-cli-block-if-ccpa-optout=\"false\" data-cli-element-position=\"body\" data-cli-placeholder=\"Accept <a class='cli_manage_current_consent'>Analytics</a> cookies to view the content.\" data-cli-src=\"https://www.googletagmanager.com/ns.html?id=GTM-M79NDTH\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe> Skip to content LoginMy account Menu top bar ITA Search: KRUPPS Sistemi di lavaggio professionale per la ristorazione ProductsTypeGlasswasher Undercounter dishwasher Pass-through dishwasher Warewasher Rack conveyor dishwashers RangesKERA range ELITECH range SOFT range KORAL range ADVANCE range EVOLUTION range North AmericaELITECH line KORAL line Corporate KERA NewsNews Trade show and events Media Documents AssistanceUser FAQ Technical FAQ Contacts EnglishItaliano Français Deutsch Español Русский Português ProductsTypeGlasswasher Undercounter dishwasher Pass-through dishwasher Warewasher Rack conveyor dishwashers RangesKERA range ELITECH range SOFT range KORAL range ADVANCE range EVOLUTION range North AmericaELITECH line KORAL line Corporate KERA NewsNews Trade show and events Media Documents AssistanceUser FAQ Technical FAQ Contacts EnglishItaliano Français Deutsch Español Русский Português .mobile-false #fancy-header .breadcrum",
+      "link_count": 126,
+      "product_links": [
+        {
+          "href": "https://www.krupps.com/en/catalogue/type/",
+          "text": "Type",
+          "cls": "not-clickable-item"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogue/type/glasswasher/",
+          "text": "Glasswasher"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogue/type/undercounter-dishwasher/",
+          "text": "Undercounter dishwasher"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogue/type/pass-through-dishwasher/",
+          "text": "Pass-through dishwasher"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogue/type/warewasher/",
+          "text": "Warewasher"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogue/type/rack-conveyor-dishwashers/",
+          "text": "Rack conveyor dishwashers"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogue/kera-range/",
+          "text": "KERA range"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogue/elitech-range/",
+          "text": "ELITECH range"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogue/soft-range/",
+          "text": "SOFT range"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogue/koral-range/",
+          "text": "KORAL range"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogue/advance-range/",
+          "text": "ADVANCE range"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogue/evolution-range/",
+          "text": "EVOLUTION range"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogue/elitech-north-america/",
+          "text": "ELITECH line"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogue/koral-north-america/",
+          "text": "KORAL line"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogue/evolution-range/",
+          "text": "English",
+          "cls": "not-clickable-item"
+        },
+        {
+          "href": "https://www.krupps.com/fr/catalogue/evolution-range/",
+          "text": "Français"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogue/type/",
+          "text": "Type",
+          "cls": "not-clickable-item"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogue/type/glasswasher/",
+          "text": "Glasswasher"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogue/type/undercounter-dishwasher/",
+          "text": "Undercounter dishwasher"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogue/type/pass-through-dishwasher/",
+          "text": "Pass-through dishwasher"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogue/type/warewasher/",
+          "text": "Warewasher"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogue/type/rack-conveyor-dishwashers/",
+          "text": "Rack conveyor dishwashers"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogue/kera-range/",
+          "text": "KERA range"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogue/elitech-range/",
+          "text": "ELITECH range"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogue/soft-range/",
+          "text": "SOFT range"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogue/koral-range/",
+          "text": "KORAL range"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogue/advance-range/",
+          "text": "ADVANCE range"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogue/evolution-range/",
+          "text": "EVOLUTION range"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogue/elitech-north-america/",
+          "text": "ELITECH line"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogue/koral-north-america/",
+          "text": "KORAL line"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogue/evolution-range/",
+          "text": "English",
+          "cls": "not-clickable-item"
+        },
+        {
+          "href": "https://www.krupps.com/fr/catalogue/evolution-range/",
+          "text": "Français"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo101/",
+          "text": "",
+          "cls": ""
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo101/",
+          "text": "EVO101"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo111/",
+          "text": "",
+          "cls": ""
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo111/",
+          "text": "EVO111"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo121/",
+          "text": "",
+          "cls": ""
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo121/",
+          "text": "EVO121"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo131/",
+          "text": "",
+          "cls": ""
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo131/",
+          "text": "EVO131"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo201/",
+          "text": "",
+          "cls": ""
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo201/",
+          "text": "EVO201"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo211/",
+          "text": "",
+          "cls": ""
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo211/",
+          "text": "EVO211"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo221/",
+          "text": "",
+          "cls": ""
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo221/",
+          "text": "EVO221"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo231/",
+          "text": "",
+          "cls": ""
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo231/",
+          "text": "EVO231"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo301/",
+          "text": "",
+          "cls": ""
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo301/",
+          "text": "EVO301"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo311/",
+          "text": "",
+          "cls": ""
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo311/",
+          "text": "EVO311"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo321/",
+          "text": "",
+          "cls": ""
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo321/",
+          "text": "EVO321"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo331/",
+          "text": "",
+          "cls": ""
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo331/",
+          "text": "EVO331"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo401/",
+          "text": "",
+          "cls": ""
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo401/",
+          "text": "EVO401"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo411/",
+          "text": "",
+          "cls": ""
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo411/",
+          "text": "EVO411"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo421/",
+          "text": "",
+          "cls": ""
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo421/",
+          "text": "EVO421"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo431/",
+          "text": "",
+          "cls": ""
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo431/",
+          "text": "EVO431"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo501/",
+          "text": "",
+          "cls": ""
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo501/",
+          "text": "EVO501"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo511/",
+          "text": "",
+          "cls": ""
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo511/",
+          "text": "EVO511"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo521/",
+          "text": "",
+          "cls": ""
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo521/",
+          "text": "EVO521"
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo531/",
+          "text": "",
+          "cls": ""
+        },
+        {
+          "href": "https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo531/",
+          "text": "EVO531"
+        }
+      ],
+      "products": [
+        "<article class=\"post post-3596 dt_portfolio type-dt_portfolio status-publish has-post-thumbnail  tipologia-50 text-centered\">\n\t\t\t\t\t<figure class=\"rollover-project forward-post this-ready\">\n\t\t\t\t\t\t<a href=\"https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo101/\" class=\"\" title=\"EVO101\">\n\t\t\t\t\t\t\t<img class=\"jgrid-lazy-load preload-me jgrid-layzr-loaded\" src=\"https://www.krupps.com/wp-content/uploads/sites/4/2017/10/EVO101-111.png\" alt=\"\" height=\"312\" style=\"width: auto; height: 184px;\" sizes=\"184px\" srcset=\"https://www.krupps.com/wp-content/uploads/sites/4/2017/10/EVO101-111.png 312w, https://www.krupps.com/wp-content/uploads/sites/4/2017/10/EVO101-111.png 624w\">\n\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<figcaption class=\"rollover-content click-ready\">\n\t\t\t\t\t\t<div class=\"rollover-content-container\">\n\t\t\t\t\t\t\t<h3 class=\"entry-title\"><a href=\"https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo101/\" title=\"EVO101\" rel=\"bookmark\">EVO101</a></h3>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</figcaption>\n\t\t\t\t\t</figure>\n\t\t\t\t</article>",
+        "<article class=\"post post-3598 dt_portfolio type-dt_portfolio status-publish has-post-thumbnail  tipologia-50 text-centered\">\n\t\t\t\t\t<figure class=\"rollover-project forward-post this-ready\">\n\t\t\t\t\t\t<a href=\"https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo111/\" class=\"\" title=\"EVO111\">\n\t\t\t\t\t\t\t<img class=\"jgrid-lazy-load preload-me jgrid-layzr-loaded\" src=\"https://www.krupps.com/wp-content/uploads/sites/4/2017/10/EVO101-111.png\" alt=\"\" height=\"312\" style=\"width: auto; height: 184px;\" sizes=\"184px\" srcset=\"https://www.krupps.com/wp-content/uploads/sites/4/2017/10/EVO101-111.png 312w, https://www.krupps.com/wp-content/uploads/sites/4/2017/10/EVO101-111.png 624w\">\n\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<figcaption class=\"rollover-content click-ready\">\n\t\t\t\t\t\t<div class=\"rollover-content-container\">\n\t\t\t\t\t\t\t<h3 class=\"entry-title\"><a href=\"https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo111/\" title=\"EVO111\" rel=\"bookmark\">EVO111</a></h3>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</figcaption>\n\t\t\t\t\t</figure>\n\t\t\t\t</article>",
+        "<article class=\"post post-3600 dt_portfolio type-dt_portfolio status-publish has-post-thumbnail  tipologia-50 text-centered\">\n\t\t\t\t\t<figure class=\"rollover-project forward-post this-ready\">\n\t\t\t\t\t\t<a href=\"https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo121/\" class=\"\" title=\"EVO121\">\n\t\t\t\t\t\t\t<img class=\"jgrid-lazy-load preload-me jgrid-layzr-loaded\" src=\"https://www.krupps.com/wp-content/uploads/sites/4/2017/10/EVO121-131.png\" alt=\"\" height=\"312\" style=\"width: auto; height: 184px;\" sizes=\"184px\" srcset=\"https://www.krupps.com/wp-content/uploads/sites/4/2017/10/EVO121-131.png 312w, https://www.krupps.com/wp-content/uploads/sites/4/2017/10/EVO121-131.png 624w\">\n\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<figcaption class=\"rollover-content click-ready\">\n\t\t\t\t\t\t<div class=\"rollover-content-container\">\n\t\t\t\t\t\t\t<h3 class=\"entry-title\"><a href=\"https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo121/\" title=\"EVO121\" rel=\"bookmark\">EVO121</a></h3>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</figcaption>\n\t\t\t\t\t</figure>\n\t\t\t\t</article>",
+        "<article class=\"post post-3602 dt_portfolio type-dt_portfolio status-publish has-post-thumbnail  tipologia-50 text-centered\">\n\t\t\t\t\t<figure class=\"rollover-project forward-post this-ready\">\n\t\t\t\t\t\t<a href=\"https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo131/\" class=\"\" title=\"EVO131\">\n\t\t\t\t\t\t\t<img class=\"jgrid-lazy-load preload-me jgrid-layzr-loaded\" src=\"https://www.krupps.com/wp-content/uploads/sites/4/2017/10/EVO121-131.png\" alt=\"\" height=\"312\" style=\"width: auto; height: 184px;\" sizes=\"184px\" srcset=\"https://www.krupps.com/wp-content/uploads/sites/4/2017/10/EVO121-131.png 312w, https://www.krupps.com/wp-content/uploads/sites/4/2017/10/EVO121-131.png 624w\">\n\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<figcaption class=\"rollover-content click-ready\">\n\t\t\t\t\t\t<div class=\"rollover-content-container\">\n\t\t\t\t\t\t\t<h3 class=\"entry-title\"><a href=\"https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo131/\" title=\"EVO131\" rel=\"bookmark\">EVO131</a></h3>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</figcaption>\n\t\t\t\t\t</figure>\n\t\t\t\t</article>",
+        "<article class=\"post post-3604 dt_portfolio type-dt_portfolio status-publish has-post-thumbnail  tipologia-50 text-centered\">\n\t\t\t\t\t<figure class=\"rollover-project forward-post this-ready\">\n\t\t\t\t\t\t<a href=\"https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo201/\" class=\"\" title=\"EVO201\">\n\t\t\t\t\t\t\t<img class=\"jgrid-lazy-load preload-me jgrid-layzr-loaded\" src=\"https://www.krupps.com/wp-content/uploads/sites/4/2017/10/EVO201-211.png\" alt=\"\" height=\"312\" style=\"width: auto; height: 184px;\" sizes=\"184px\" srcset=\"https://www.krupps.com/wp-content/uploads/sites/4/2017/10/EVO201-211.png 312w, https://www.krupps.com/wp-content/uploads/sites/4/2017/10/EVO201-211.png 624w\">\n\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<figcaption class=\"rollover-content click-ready\">\n\t\t\t\t\t\t<div class=\"rollover-content-container\">\n\t\t\t\t\t\t\t<h3 class=\"entry-title\"><a href=\"https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo201/\" title=\"EVO201\" rel=\"bookmark\">EVO201</a></h3>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</figcaption>\n\t\t\t\t\t</figure>\n\t\t\t\t</article>",
+        "<article class=\"post post-3606 dt_portfolio type-dt_portfolio status-publish has-post-thumbnail  tipologia-50 text-centered\">\n\t\t\t\t\t<figure class=\"rollover-project forward-post this-ready\">\n\t\t\t\t\t\t<a href=\"https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo211/\" class=\"\" title=\"EVO211\">\n\t\t\t\t\t\t\t<img class=\"jgrid-lazy-load preload-me jgrid-layzr-loaded\" src=\"https://www.krupps.com/wp-content/uploads/sites/4/2017/10/EVO201-211.png\" alt=\"\" height=\"312\" style=\"width: auto; height: 184px;\" sizes=\"184px\" srcset=\"https://www.krupps.com/wp-content/uploads/sites/4/2017/10/EVO201-211.png 312w, https://www.krupps.com/wp-content/uploads/sites/4/2017/10/EVO201-211.png 624w\">\n\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<figcaption class=\"rollover-content click-ready\">\n\t\t\t\t\t\t<div class=\"rollover-content-container\">\n\t\t\t\t\t\t\t<h3 class=\"entry-title\"><a href=\"https://www.krupps.com/en/catalogo/evolution-range/prodotto/evo211/\" title=\"EVO211\" rel=\"bookmark\">EVO211</a></h3>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</figcaption>\n\t\t\t\t\t</figure>\n\t\t\t\t</article>"
+      ],
+      "structured": [],
+      "headers": [
+        {
+          "tag": "h3",
+          "txt": "EVO101"
+        },
+        {
+          "tag": "h3",
+          "txt": "EVO111"
+        },
+        {
+          "tag": "h3",
+          "txt": "EVO121"
+        },
+        {
+          "tag": "h3",
+          "txt": "EVO131"
+        },
+        {
+          "tag": "h3",
+          "txt": "EVO201"
+        },
+        {
+          "tag": "h3",
+          "txt": "EVO211"
+        },
+        {
+          "tag": "h3",
+          "txt": "EVO221"
+        },
+        {
+          "tag": "h3",
+          "txt": "EVO231"
+        },
+        {
+          "tag": "h3",
+          "txt": "EVO301"
+        },
+        {
+          "tag": "h3",
+          "txt": "EVO311"
+        },
+        {
+          "tag": "h3",
+          "txt": "EVO321"
+        },
+        {
+          "tag": "h3",
+          "txt": "EVO331"
+        },
+        {
+          "tag": "h3",
+          "txt": "EVO401"
+        },
+        {
+          "tag": "h3",
+          "txt": "EVO411"
+        },
+        {
+          "tag": "h3",
+          "txt": "EVO421"
+        },
+        {
+          "tag": "h3",
+          "txt": "EVO431"
+        },
+        {
+          "tag": "h3",
+          "txt": "EVO501"
+        },
+        {
+          "tag": "h3",
+          "txt": "EVO511"
+        },
+        {
+          "tag": "h3",
+          "txt": "EVO521"
+        },
+        {
+          "tag": "h3",
+          "txt": "EVO531"
+        },
+        {
+          "tag": "h4",
+          "txt": "Privacy Overview"
+        }
+      ],
+      "img": []
+    },
+    {
+      "manufacturer": "Aristarco",
+      "url": "https://www.aristarco.it/en/ice/categories/storage-bins/",
+      "status": 200,
+      "text": "A family of washing & ice ENG FRA ITA Washing Ice MENU××× Company Washing Ice Certifications News Work with us Contacts Reserved area Washing Products Range Categories Applications Areas Products Range / Washing Orion More Pegasus More Taurus More Centaurus More Hercules More Categories / Washing Glasswashers More Dishwashers More Hood-type dishwashers More Rack conveyor dishwashers More Flight conveyor dishwashers More Warewashers More Applications Areas / Washing Bars/Wine bars More Hotels/Restaurants/Pizzerias More Mass Market Retailers/Cooking centres More Catering More Ice creameries/Bakeries/Patisseries More Butchers/Take-away food shops More Naval sector More Ice Products Range Categories Application Areas Products Range / Ice Phoenix More Lynx More Pictor More Sculptor More Andromeda More ST More Categories / Ice Full ice cube 18-36 gr More Full ice cube 36 gr More Hollow ice cube 21 gr More Granular ice More Dice ice 6-10-17 gr More Flat ice flakes More Application Areas / Ice Bars/Wine Bars More Hotels/Restaurants More Fast food kitchens More Nightclubs More Spas/Medical Centres More Fish markets More Supermarkets More Industrial More IceStorageProducts rangeNessun prodotto in listaAristarco S.p.A.Via del Lavoro, 30 – 31033 Castelfranco Veneto – TV – Italy T. +39 0423.425611 - F. +39 0423.425690info@aristarco.it Company Washing Ice Certifications News Work with us Con",
+      "link_count": 74,
+      "product_links": [],
+      "products": [],
+      "structured": [],
+      "headers": [
+        {
+          "tag": "h1",
+          "txt": "Storage"
+        },
+        {
+          "tag": "h2",
+          "txt": "Products range"
+        }
+      ],
+      "img": [
+        {
+          "src": "https://www.aristarco.it/wp-content/themes/aristarco/assets/images/neve2_hover.svg"
+        }
+      ]
+    },
+    {
+      "manufacturer": "Aristarco",
+      "url": "https://www.aristarco.it/en/ice/categories/full-ice-cube-36-gr/",
+      "status": 200,
+      "text": "A family of washing & ice ENG FRA ITA Washing Ice MENU××× Company Washing Ice Certifications News Work with us Contacts Reserved area Washing Products Range Categories Applications Areas Products Range / Washing Orion More Pegasus More Taurus More Centaurus More Hercules More Categories / Washing Glasswashers More Dishwashers More Hood-type dishwashers More Rack conveyor dishwashers More Flight conveyor dishwashers More Warewashers More Applications Areas / Washing Bars/Wine bars More Hotels/Restaurants/Pizzerias More Mass Market Retailers/Cooking centres More Catering More Ice creameries/Bakeries/Patisseries More Butchers/Take-away food shops More Naval sector More Ice Products Range Categories Application Areas Products Range / Ice Phoenix More Lynx More Pictor More Sculptor More Andromeda More ST More Categories / Ice Full ice cube 18-36 gr More Full ice cube 36 gr More Hollow ice cube 21 gr More Granular ice More Dice ice 6-10-17 gr More Flat ice flakes More Application Areas / Ice Bars/Wine Bars More Hotels/Restaurants More Fast food kitchens More Nightclubs More Spas/Medical Centres More Fish markets More Supermarkets More Industrial More IceFull ice cube 36 gr These solid ice cubes end up purer than the water from which they are made and are ideally suitable for keeping drinks cool for an extended time frame without watering them down.Products rangeNessun prodotto in lis",
+      "link_count": 74,
+      "product_links": [],
+      "products": [],
+      "structured": [],
+      "headers": [
+        {
+          "tag": "h1",
+          "txt": "Full ice cube 36 gr"
+        },
+        {
+          "tag": "h3",
+          "txt": "These solid ice cubes end up purer than the water from which they are made and are ideally"
+        },
+        {
+          "tag": "h2",
+          "txt": "Products range"
+        }
+      ],
+      "img": [
+        {
+          "src": "https://www.aristarco.it/wp-content/themes/aristarco/assets/images/neve2_hover.svg"
+        },
+        {
+          "src": "https://www.aristarco.it/wp-content/uploads/2019/01/Cubetto-Pieno-36-ok.jpg",
+          "alt": "Cubetto-Pieno-36-ok"
+        }
+      ]
+    },
+    {
+      "manufacturer": "Tecnodom",
+      "url": "https://www.tecnodomspa.com/en/orizzontale/tavoli-refrigerati/tavolo-60.html",
+      "status": 200,
+      "text": "Select your language Login Login area riservata Username Password Show Password Remember Me Log in Forgot your password? Forgot your username? Create an account Contatti Contacts Login Login area riservata Username Password Show Password Remember Me Log in Forgot your password? Forgot your username? Create an account About us Back soul history Places Contact us how we work Back Made in Italy Visit our Showroom Quality Environmental sustainability Certifications Gallery Support Back Support Assembly tutorial video Troubleshooting Maintenance manuals Back Login cutomer area Password recovery Registration request form News Horizontal Back DOM SystemRacks and runners kit setup Back Refrigerated Counters TAVOLO 60 TAVOLO MID GASTRONOMIA TN/BT TAVOLO MID PASTICCERIA TAVOLO MID PIZZA TAVOLO EKO PIZZA VETRINA REFRIGERATA INGREDIENTI PIZZA Back Saladette Saladette Saladette pizza Neutral equipment Tavoli a giorno Tavoli armadiati Lavelli a giorno Pensili armadiati Back Refrigerated displays MR 9.5 MR 9.5 VCC_W MR 80 M 80 M 90 M 1000 Vigo 78 Vigo 90 Back Refrigerated pastry displays PUNTOK Vertical Back DOM SystemRacks and runners kit setup Back Refrigerated cabinets ARMADIO 400 ARMADIO 600 ARMADIO 700 ARMADIO 1200 ARMADIO 1400 COMBINED CABINET AISS BIG Minicella MINICELLA 100 Back Semimural display curved glass EVO EVO Hot EVO LUX EVO LUX Hot EVO SELF Semimural display straight glass EV",
+      "link_count": 215,
+      "product_links": [
+        {
+          "href": "/en/verticale/semimurali-evo/evo-self.html",
+          "text": "EVO SELF",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/verticale/semimurali-evok.html",
+          "text": "Semimural display straight glass",
+          "cls": "g-menu-item-container"
+        },
+        {
+          "href": "/en/verticale/semimurali-evok/evok.html",
+          "text": "EVOK",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/verticale/semimurali-evok/evok-hot.html",
+          "text": "EVOK Hot",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/verticale/semimurali-evok/evok-lux.html",
+          "text": "EVOK LUX",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/verticale/semimurali-evok/evok-lux-hot.html",
+          "text": "EVOK LUX Hot",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/verticale/semimurali-evok/evok-l-2-porte.html",
+          "text": "EVOK L 2 porte",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/verticale/semimurali-evok/evok-l-2-porte-hot.html",
+          "text": "EVOK L 2 porte Hot",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/verticale/semimurali-evok/evok-l-4-porte.html",
+          "text": "EVOK L 4 porte",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/verticale/semimurali-evok/evok-l-4-porte-hot.html",
+          "text": "EVOK L 4 porte Hot",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/verticale/semimurali-evok/evokl-120v-special.html",
+          "text": "EVOKL 120V Special",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/verticale/murali-refrigerati.html",
+          "text": "REFRIGERATED VERTICAL DISPLAY",
+          "cls": "g-menu-item-container"
+        },
+        {
+          "href": "/en/verticale/murali-refrigerati/vulcano.html",
+          "text": "VULCANO",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/verticale/murali-refrigerati/vulcano-sc.html",
+          "text": "VULCANO SC",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/verticale/murali-refrigerati/vulcano-vb.html",
+          "text": "VULCANO VB",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/verticale/murali-refrigerati/vulcano-vs.html",
+          "text": "VULCANO VS",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/verticale/murali-refrigerati/lido.html",
+          "text": "LIDO",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/verticale/murali-refrigerati/stromboli-90.html",
+          "text": "STROMBOLI 90",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/verticale/murali-refrigerati/stromboli-90-b.html",
+          "text": "STROMBOLI 90 B",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/verticale/abbattitori-di-temperatura.html",
+          "text": "BLAST CHILLER",
+          "cls": "g-menu-item-container"
+        },
+        {
+          "href": "/en/verticale/abbattitori-di-temperatura/att02.html",
+          "text": "ATTILA P-ATT02",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/verticale/abbattitori-di-temperatura/aladino.html",
+          "text": "ALADINO",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/verticale/abbattitori-di-temperatura/attila.html",
+          "text": "ATTILA",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/cottura.html",
+          "text": "Cooking",
+          "cls": "g-menu-item-container"
+        },
+        {
+          "href": "/en/cottura/etna.html",
+          "text": "Etna",
+          "cls": "g-menu-item-container"
+        },
+        {
+          "href": "/en/cottura/etna/etna.html",
+          "text": "ETNA",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/cottura/nerino.html",
+          "text": "Nerino",
+          "cls": "g-menu-item-container"
+        },
+        {
+          "href": "/en/cottura/nerino/nerino.html",
+          "text": "NERINO",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/cottura/linea-domestica.html",
+          "text": "Domestic line",
+          "cls": "g-menu-item-container"
+        },
+        {
+          "href": "/en/cottura/linea-domestica/nerino-a.html",
+          "text": "NERINO A",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/cottura/linea-domestica/595-a.html",
+          "text": "595 A",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/cottura/nerone.html",
+          "text": "Nerone",
+          "cls": "g-menu-item-container"
+        },
+        {
+          "href": "/en/cottura/nerone/nerone-meccanico.html",
+          "text": "NERONE meccanico",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/cottura/nerone/nerone-digitale.html",
+          "text": "NERONE digitale",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/cottura/nerone-cl.html",
+          "text": "Nerone CL",
+          "cls": "g-menu-item-container"
+        },
+        {
+          "href": "/en/cottura/nerone-cl/nerone-cl-meccanico.html",
+          "text": "NERONE CL meccanico",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/cottura/nerone-cl/nerone-cl-digitale.html",
+          "text": "NERONE CL digitale",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/cottura/nerone-mid.html",
+          "text": "Nerone mid",
+          "cls": "g-menu-item-container"
+        },
+        {
+          "href": "/en/cottura/nerone-mid/nerone-mid-meccanico.html",
+          "text": "NERONE MID meccanico",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/cottura/nerone-mid/nerone-mid-digitale.html",
+          "text": "NERONE MID digitale",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/cottura/alcapone.html",
+          "text": "AlCapone",
+          "cls": "g-menu-item-container"
+        },
+        {
+          "href": "/en/cottura/alcapone/cappa-sabina.html",
+          "text": "Cappa Sabina",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/cottura/alcapone/alcapone.html",
+          "text": "AL CAPONE",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/cottura/tornadom.html",
+          "text": "Tornadom",
+          "cls": "g-menu-item-container"
+        },
+        {
+          "href": "/en/cottura/tornadom/tornadom.html",
+          "text": "Tornadom",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/cottura/pi-dom.html",
+          "text": "Pi.Dom",
+          "cls": "g-menu-item-container"
+        },
+        {
+          "href": "/en/cottura/pi-dom/explora.html",
+          "text": "Explora Evoluzione",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/cottura/pi-dom/gamma-pi-dom.html",
+          "text": "Vespucci Galilei Caboto",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/cottura/pi-dom/lievitatori-e-cappe.html",
+          "text": "Lievitatori e cappe",
+          "cls": "mod-articles-category-title "
+        },
+        {
+          "href": "/en/support/support.html",
+          "text": "Read more",
+          "cls": "jl-button jl-button-default"
+        },
+        {
+          "href": "/en/support/manuals.html",
+          "text": "Access the area",
+          "cls": "jl-button jl-button-default"
+        },
+        {
+          "href": "http://www.eact.it/eact-elr.html",
+          "text": "",
+          "cls": "jl-cover-container jl-transition-toggle jl-display-block jl-link-toggle"
+        },
+        {
+          "href": "/en/how-we-work/made-in-italy.html",
+          "text": "Made in Italy"
+        },
+        {
+          "href": "/en/how-we-work/visit-our-showroom.html",
+          "text": "Visit our Showroom"
+        },
+        {
+          "href": "/en/how-we-work/quality.html",
+          "text": "Quality"
+        },
+        {
+          "href": "/en/how-we-work/environmental-sustainability.html",
+          "text": "Environmental sustainability"
+        },
+        {
+          "href": "/en/how-we-work/certifications.html",
+          "text": "Certifications"
+        },
+        {
+          "href": "/en/how-we-work/gallery.html",
+          "text": "Gallery"
+        },
+        {
+          "href": "/en/orizzontale.html",
+          "text": "Horizontal"
+        },
+        {
+          "href": "/en/verticale.html",
+          "text": "Vertical"
+        },
+        {
+          "href": "/en/cottura.html",
+          "text": "Cooking"
+        },
+        {
+          "href": "/en/support/support.html",
+          "text": "Support"
+        },
+        {
+          "href": "/en/support/assembly-tutorial-video.html",
+          "text": "Assembly tutorial video"
+        },
+        {
+          "href": "/en/support/troubleshooting.html",
+          "text": "Troubleshooting"
+        },
+        {
+          "href": "/en/support/manuals.html",
+          "text": "Maintenance manuals"
+        },
+        {
+          "href": "/en/support/password-recovery.html",
+          "text": "Password recovery"
+        },
+        {
+          "href": "/en/support/registration-request-form.html",
+          "text": "Registration request form"
+        },
+        {
+          "href": "http://www.eact.it/eact-food-safety-certificate%20of%20registration-en.html",
+          "text": ""
+        },
+        {
+          "href": "http://www.eact.it/eact-elr-tecnodom-spa.html",
+          "text": ""
+        },
+        {
+          "href": "https://www.eact.it/943589406-tecnodom-spa.html",
+          "text": ""
+        },
+        {
+          "href": "/en/legal-notes.html",
+          "text": "Legal notes",
+          "cls": "g-menu-item-container"
+        },
+        {
+          "href": "/en/terms-and-conditions.html",
+          "text": "Terms and conditions",
+          "cls": "g-menu-item-container"
+        },
+        {
+          "href": "/en/privacy-policy-en.html",
+          "text": "Privacy policy",
+          "cls": "g-menu-item-container"
+        },
+        {
+          "href": "/en/cookie-law-en.html",
+          "text": "Cookie Law",
+          "cls": "g-menu-item-container"
+        },
+        {
+          "href": "/en/general-conditions-of-supply.html?view=frontlist&catid[0]=136",
+          "text": "Conditions of supply",
+          "cls": "g-menu-item-container"
+        }
+      ],
+      "products": [],
+      "structured": [],
+      "headers": [
+        {
+          "tag": "h3",
+          "txt": "Login area riservata"
+        },
+        {
+          "tag": "h3",
+          "txt": "Login area riservata"
+        },
+        {
+          "tag": "h1",
+          "txt": "TAVOLO60"
+        },
+        {
+          "tag": "h2",
+          "txt": "Refrigerated counter."
+        },
+        {
+          "tag": "h4",
+          "txt": "Adatto a"
+        },
+        {
+          "tag": "h3",
+          "txt": "Support"
+        },
+        {
+          "tag": "h3",
+          "txt": "Maintenance manuals"
+        },
+        {
+          "tag": "h3",
+          "txt": "Customer area"
+        },
+        {
+          "tag": "h3",
+          "txt": "HOW WE WORK"
+        },
+        {
+          "tag": "h3",
+          "txt": "PRODUCTS"
+        },
+        {
+          "tag": "h3",
+          "txt": "SUPPORT"
+        }
+      ],
+      "img": [
+        {
+          "src": "/images/prodotti/tavoli-refrigerati/tavolo-60/TAVOLI-REFRIGERATI-tavolo-60-bann.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/images/adatto-per/gastronomia.png"
+        },
+        {
+          "src": "/images/adatto-per/latticini.png"
+        },
+        {
+          "src": "/images/adatto-per/salumi.png"
+        },
+        {
+          "src": "https://www.tecnodomspa.com/images/gallery/97/large/TAVOLO-60-800.jpg",
+          "alt": "TAVOLO-60-800"
+        }
+      ]
+    }
+  ]
+}
