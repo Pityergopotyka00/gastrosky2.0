@@ -10369,9 +10369,10 @@
     "record_status": "official_catalogue_reference_dealer_availability_unverified",
     "price": null,
     "availability": null,
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "/media/official-fagor-2026/19115442.webp",
+    "photo_status": "manufacturer_brochure_photo_needs_visual_review",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "official_fagor_brochure_model_nearby_photo"
   },
   {
     "id": "fagor:19115443",
@@ -10438,9 +10439,10 @@
     "record_status": "official_catalogue_reference_dealer_availability_unverified",
     "price": null,
     "availability": null,
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "/media/official-fagor-2026/19115445.webp",
+    "photo_status": "manufacturer_brochure_photo_needs_visual_review",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "official_fagor_brochure_model_nearby_photo"
   },
   {
     "id": "fagor:19115446",
@@ -10461,9 +10463,10 @@
     "record_status": "official_catalogue_reference_dealer_availability_unverified",
     "price": null,
     "availability": null,
-    "image_url": null,
-    "photo_status": "product_photo_pending",
-    "stock_source_status": "pending_supplier_stock"
+    "image_url": "/media/official-fagor-2026/19115446.webp",
+    "photo_status": "manufacturer_brochure_photo_needs_visual_review",
+    "stock_source_status": "pending_supplier_stock",
+    "image_source": "official_fagor_brochure_model_nearby_photo"
   },
   {
     "id": "fagor:19115521",

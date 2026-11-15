@@ -1,0 +1,59 @@
+{
+  "official_brochure": "https://www.fagorprofessional.com/documents/d/global/fp-folleto-novelties_2026_v07_en_sp",
+  "matched": [
+    {
+      "sku": "19115446",
+      "model": "CD-CIE604 2",
+      "type": "Indukciós főzőlap",
+      "page": 6,
+      "image": "/media/official-fagor-2026/19115446.webp"
+    },
+    {
+      "sku": "19115445",
+      "model": "CD-CPE604 15",
+      "type": "Indukciós tésztafőző",
+      "page": 7,
+      "image": "/media/official-fagor-2026/19115445.webp"
+    },
+    {
+      "sku": "19115442",
+      "model": "CD-FE604 10",
+      "type": "Indukciós olajsütő",
+      "page": 7,
+      "image": "/media/official-fagor-2026/19115442.webp"
+    }
+  ],
+  "unresolved": [
+    {
+      "sku": "19114234",
+      "model": "CI-MW2",
+      "reason": "ambiguous_nearest_photo"
+    },
+    {
+      "sku": "19115443",
+      "model": "CD-FTE604 1",
+      "reason": "ambiguous_nearest_photo"
+    },
+    {
+      "sku": "19115444",
+      "model": "CD-FTE608 1",
+      "reason": "ambiguous_nearest_photo"
+    },
+    {
+      "sku": "19114901",
+      "model": "CI-I40 1",
+      "reason": "no_nearby_verified_photo"
+    },
+    {
+      "sku": "19114903",
+      "model": "CI-I45 2",
+      "reason": "ambiguous_nearest_photo"
+    },
+    {
+      "sku": "19114904",
+      "model": "CI-M60 1",
+      "reason": "ambiguous_nearest_photo"
+    }
+  ],
+  "count": 3
+}
