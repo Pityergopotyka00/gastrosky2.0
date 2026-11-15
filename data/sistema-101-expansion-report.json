@@ -1,0 +1,164 @@
+{
+  "checked_at": "2026-11-15T10:04:39.042Z",
+  "catalog": "https://www.projectsystems.it/wp-content/uploads/2025/05/SistemaProject-Italia-catalogo-2025.pdf",
+  "before": 87,
+  "target": 101,
+  "added": [
+    {
+      "sku": "T80202",
+      "title": "Oldalsó asztal, 700 mm",
+      "dimensions_mm": [
+        700,
+        575,
+        850
+      ],
+      "pdf_page": 78,
+      "source": "https://www.projectsystems.it/wp-content/uploads/2025/05/SistemaProject-Italia-catalogo-2025.pdf"
+    },
+    {
+      "sku": "T80202L",
+      "title": "Oldalsó asztal, 1200 mm",
+      "dimensions_mm": [
+        1200,
+        575,
+        850
+      ],
+      "pdf_page": 78,
+      "source": "https://www.projectsystems.it/wp-content/uploads/2025/05/SistemaProject-Italia-catalogo-2025.pdf"
+    },
+    {
+      "sku": "T80200",
+      "title": "Munkapult, jobbos, 700 mm",
+      "dimensions_mm": [
+        700,
+        715,
+        850
+      ],
+      "pdf_page": 78,
+      "source": "https://www.projectsystems.it/wp-content/uploads/2025/05/SistemaProject-Italia-catalogo-2025.pdf"
+    },
+    {
+      "sku": "T80201",
+      "title": "Munkapult, balos, 700 mm",
+      "dimensions_mm": [
+        700,
+        715,
+        850
+      ],
+      "pdf_page": 78,
+      "source": "https://www.projectsystems.it/wp-content/uploads/2025/05/SistemaProject-Italia-catalogo-2025.pdf"
+    },
+    {
+      "sku": "T80204",
+      "title": "Munkapult, jobbos, 1200 mm",
+      "dimensions_mm": [
+        1200,
+        715,
+        850
+      ],
+      "pdf_page": 78,
+      "source": "https://www.projectsystems.it/wp-content/uploads/2025/05/SistemaProject-Italia-catalogo-2025.pdf"
+    },
+    {
+      "sku": "T80203",
+      "title": "Munkapult, balos, 1200 mm",
+      "dimensions_mm": [
+        1200,
+        715,
+        850
+      ],
+      "pdf_page": 79,
+      "source": "https://www.projectsystems.it/wp-content/uploads/2025/05/SistemaProject-Italia-catalogo-2025.pdf"
+    },
+    {
+      "sku": "T80206L700",
+      "title": "Mosogatómedencés munkapult, jobbos, 700 mm",
+      "dimensions_mm": [
+        700,
+        715,
+        850
+      ],
+      "pdf_page": 79,
+      "source": "https://www.projectsystems.it/wp-content/uploads/2025/05/SistemaProject-Italia-catalogo-2025.pdf"
+    },
+    {
+      "sku": "T80205L700",
+      "title": "Mosogatómedencés munkapult, balos, 700 mm",
+      "dimensions_mm": [
+        700,
+        715,
+        850
+      ],
+      "pdf_page": 79,
+      "source": "https://www.projectsystems.it/wp-content/uploads/2025/05/SistemaProject-Italia-catalogo-2025.pdf"
+    },
+    {
+      "sku": "T80206",
+      "title": "Mosogatómedencés munkapult, jobbos, 1200 mm",
+      "dimensions_mm": [
+        1200,
+        715,
+        850
+      ],
+      "pdf_page": 79,
+      "source": "https://www.projectsystems.it/wp-content/uploads/2025/05/SistemaProject-Italia-catalogo-2025.pdf"
+    },
+    {
+      "sku": "T80205",
+      "title": "Mosogatómedencés munkapult, balos, 1200 mm",
+      "dimensions_mm": [
+        1200,
+        715,
+        850
+      ],
+      "pdf_page": 79,
+      "source": "https://www.projectsystems.it/wp-content/uploads/2025/05/SistemaProject-Italia-catalogo-2025.pdf"
+    },
+    {
+      "sku": "T80208",
+      "title": "Mosogatómedencés és lefolyónyílásos munkapult, jobbos, 1200 mm",
+      "dimensions_mm": [
+        1200,
+        715,
+        850
+      ],
+      "pdf_page": 80,
+      "source": "https://www.projectsystems.it/wp-content/uploads/2025/05/SistemaProject-Italia-catalogo-2025.pdf"
+    },
+    {
+      "sku": "T80207",
+      "title": "Mosogatómedencés és lefolyónyílásos munkapult, balos, 1200 mm",
+      "dimensions_mm": [
+        1200,
+        715,
+        850
+      ],
+      "pdf_page": 80,
+      "source": "https://www.projectsystems.it/wp-content/uploads/2025/05/SistemaProject-Italia-catalogo-2025.pdf"
+    },
+    {
+      "sku": "T70206",
+      "title": "Munkapult, 700 mm",
+      "dimensions_mm": [
+        700,
+        676,
+        850
+      ],
+      "pdf_page": 81,
+      "source": "https://www.projectsystems.it/wp-content/uploads/2025/05/SistemaProject-Italia-catalogo-2025.pdf"
+    },
+    {
+      "sku": "T70217",
+      "title": "Munkapult, jobbos, 700 mm",
+      "dimensions_mm": [
+        700,
+        770,
+        850
+      ],
+      "pdf_page": 81,
+      "source": "https://www.projectsystems.it/wp-content/uploads/2025/05/SistemaProject-Italia-catalogo-2025.pdf"
+    }
+  ],
+  "rejected": [],
+  "after": 101
+}
