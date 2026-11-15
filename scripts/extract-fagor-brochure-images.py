@@ -72,6 +72,7 @@ def match_image(page, name):
     if not positions:
         return None, "model_label_missing"
     images = photo_blocks(page)
+    print("FAGOR_LAYOUT", name, "page", page.number+1, "labels", [tuple(round(v,1) for v in q) for q in positions], "images", [tuple(round(v,1) for v in q) for q in images])
     if not images:
         return None, "page_has_no_separate_product_photo"
     candidates = []
