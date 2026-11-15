@@ -30,7 +30,7 @@ jobs:
           from pathlib import Path
           p=json.loads(Path("data/catalog-products.json").read_text())
           for item in p:
-              u=item.get("image_url", "")
+              u=item.get("image_url") or ""
               if u.startswith("/media/official-fagor-2026/"):
                   path=Path("public") / u.lstrip("/")
                   assert path.exists() and path.stat().st_size > 3000, str(path)
