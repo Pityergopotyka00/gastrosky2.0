@@ -1,0 +1,30 @@
+name: Expand Aristarco with verified cooling configurations
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/expand-aristarco-cooling-options.mjs'
+      - '.github/workflows/expand-aristarco-to-102.yml'
+permissions:
+  contents: write
+concurrency:
+  group: gastrosky-supplier-media
+  cancel-in-progress: false
+jobs:
+  expand:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci || npm install --no-audit --no-fund
+      - run: node scripts/expand-aristarco-cooling-options.mjs
+      - run: npm run validate
+      - name: Commit officially documented cooling options
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/catalog-products.json index.html data/aristarco-cooling-101-expansion-report.json
+          git diff --cached --quiet || (git commit -m "Import verified Aristarco air and water cooled options" && git pull --rebase origin main && git push)
