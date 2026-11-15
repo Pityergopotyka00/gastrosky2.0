@@ -1,0 +1,26 @@
+name: Verify real Tecnodom equipment sizes
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/probe-tecnodom-size-variants.mjs'
+      - '.github/workflows/probe-tecnodom-size-variants.yml'
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci || npm install --no-audit --no-fund
+      - run: node scripts/probe-tecnodom-size-variants.mjs
+      - name: Preserve manufacturer variant evidence
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/tecnodom-size-variant-probe.json
+          git diff --cached --quiet || (git commit -m "Record Tecnodom manufacturer size and variant evidence" && git pull --rebase origin main && git push)
