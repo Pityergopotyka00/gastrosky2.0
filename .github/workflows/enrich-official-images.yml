@@ -7,6 +7,7 @@ on:
     paths:
       - '.github/workflows/enrich-official-images.yml'
       - 'scripts/enrich-official-images.mjs'
+      - 'scripts/fix-illustration-matching.mjs'
       - 'scripts/enrich-gastrosky-photos.mjs'
       - 'data/catalog-products.json'
 permissions:
@@ -35,6 +36,8 @@ jobs:
         run: npm run media:discover -- --limit=120 --apply
       - name: Summarize remaining missing photos
         run: npm run audit:images
+      - name: Compile individual product image fallbacks
+        run: npm run build
       - name: Validate complete storefront
         run: npm run validate
       - name: Save verified image URLs and remaining coverage report
