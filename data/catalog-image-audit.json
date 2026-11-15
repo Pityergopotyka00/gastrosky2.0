@@ -1,161 +1,273 @@
 {
-  "checked_at": "2026-11-14T04:19:41.043Z",
-  "total_products": 776,
+  "checked_at": "2026-11-15T04:22:08.247Z",
+  "total_products": 1044,
   "checked": 80,
-  "ok": 42,
-  "failed": 38,
-  "skipped": 696,
+  "ok": 14,
+  "failed": 66,
+  "skipped": 964,
   "problems": [
     {
-      "id": "fagor:19114903",
+      "id": "maxima:09374182",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19114904",
+      "id": "maxima:09374191",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19115442",
+      "id": "maxima:09374201",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19115443",
+      "id": "maxima:09374203",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19115444",
+      "id": "maxima:09374235",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19115445",
+      "id": "maxima:09374242",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19115446",
+      "id": "maxima:09374245",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19115521",
+      "id": "maxima:09374246",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19115522",
+      "id": "maxima:09374251",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19115534",
+      "id": "maxima:09374255",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19115535",
+      "id": "maxima:09377000",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19115536",
+      "id": "maxima:09377005",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19115537",
+      "id": "maxima:09379000",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19115538",
+      "id": "maxima:09391550",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19115539",
+      "id": "maxima:09391600",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19115540",
+      "id": "maxima:09391680",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19115541",
+      "id": "maxima:09394003",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19115542",
+      "id": "maxima:09395001",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19115550",
+      "id": "maxima:09395006",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19115551",
+      "id": "maxima:09395053",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19115553",
+      "id": "maxima:09397990",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19115555",
+      "id": "maxima:09398601",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19115556",
+      "id": "maxima:09398606",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19115558",
+      "id": "maxima:09398615",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19115559",
+      "id": "maxima:09400003",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19115560",
+      "id": "maxima:09400012",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19115938",
+      "id": "maxima:09400017",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19115939",
+      "id": "maxima:09400030",
       "status": "request_failed"
     },
     {
-      "id": "fagor:ikore-apw-061-e-r-sw-s",
+      "id": "maxima:09400031",
       "status": "request_failed"
     },
     {
-      "id": "fagor:ikore-apw-0623-e-r-sw-s",
+      "id": "maxima:09400042",
       "status": "request_failed"
     },
     {
-      "id": "fagor:ikore-aw-061-e-r-sw",
+      "id": "maxima:09400175",
       "status": "request_failed"
     },
     {
-      "id": "fagor:ikore-aw-0623-e-r-sw",
+      "id": "maxima:09400207",
       "status": "request_failed"
     },
     {
-      "id": "fagor:ikore-aw-101-e-r-sw",
+      "id": "maxima:09400208",
       "status": "request_failed"
     },
     {
-      "id": "fagor:ikore-cpw-061-e-r-sw-s",
+      "id": "maxima:09400210",
       "status": "request_failed"
     },
     {
-      "id": "fagor:ikore-cpw-0623-e-r-sw-s",
+      "id": "maxima:09400409",
       "status": "request_failed"
     },
     {
-      "id": "fagor:ikore-cw-061-e-r-sw",
+      "id": "maxima:09400410",
       "status": "request_failed"
     },
     {
-      "id": "fagor:ikore-cw-0623-e-r-sw",
+      "id": "maxima:09400801",
       "status": "request_failed"
     },
     {
-      "id": "fagor:ikore-cw-101-e-r-sw",
+      "id": "maxima:09400806",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09400815",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09400816",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09400839",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09400843",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09400847",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09400850",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09400900",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09400941",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09402340",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09402370",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09403000",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09404001",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09404025",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09404026",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09404031",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09405006",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09405007",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09405008",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09405010",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09405029",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09501202",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09506005",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09506006",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09506007",
+      "status": "request_failed"
+    },
+    {
+      "id": "modular:F60/30GRLG/T",
+      "status": "request_failed"
+    },
+    {
+      "id": "modular:F60-60FRES-2V10-T",
+      "status": "request_failed"
+    },
+    {
+      "id": "modular:F60/60FRESE/2V10/T",
+      "status": "request_failed"
+    },
+    {
+      "id": "modular:F60-60FRGV-2V8-T",
       "status": "request_failed"
     }
   ]
