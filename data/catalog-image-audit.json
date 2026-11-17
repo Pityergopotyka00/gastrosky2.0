@@ -1,329 +1,121 @@
 {
-  "checked_at": "2026-11-16T04:58:47.373Z",
+  "checked_at": "2026-11-17T04:22:05.978Z",
   "total_products": 1219,
   "checked": 80,
-  "ok": 0,
-  "failed": 80,
+  "ok": 52,
+  "failed": 28,
   "skipped": 1139,
   "problems": [
     {
-      "id": "fagor:19107822",
+      "id": "fagor:19115535",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19108800",
+      "id": "fagor:19115536",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19111025",
+      "id": "fagor:19115537",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19111026",
+      "id": "fagor:19115538",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19111266",
+      "id": "fagor:19115539",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19111321",
+      "id": "fagor:19115540",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19111322",
+      "id": "fagor:19115541",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19111543",
+      "id": "fagor:19115542",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19111548",
+      "id": "fagor:19115550",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19112566",
+      "id": "fagor:19115551",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19113859",
+      "id": "fagor:19115553",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19113860",
+      "id": "fagor:19115555",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19113861",
+      "id": "fagor:19115556",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19113862",
+      "id": "fagor:19115558",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19113863",
+      "id": "fagor:19115559",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19113864",
+      "id": "fagor:19115560",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19113866",
+      "id": "fagor:19115938",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19113867",
+      "id": "fagor:19115939",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19114234",
+      "id": "fagor:ikore-apw-061-e-r-sw-s",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19114689",
+      "id": "fagor:ikore-apw-0623-e-r-sw-s",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19114691",
+      "id": "fagor:ikore-aw-061-e-r-sw",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19114692",
+      "id": "fagor:ikore-aw-0623-e-r-sw",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19114693",
+      "id": "fagor:ikore-aw-101-e-r-sw",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19114694",
+      "id": "fagor:ikore-cpw-061-e-r-sw-s",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19114695",
+      "id": "fagor:ikore-cpw-0623-e-r-sw-s",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19114696",
+      "id": "fagor:ikore-cw-061-e-r-sw",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19114697",
+      "id": "fagor:ikore-cw-0623-e-r-sw",
       "status": "request_failed"
     },
     {
-      "id": "fagor:19114698",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114699",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114702",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114703",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114704",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114705",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114706",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114707",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114708",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114709",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114710",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114711",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114712",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114713",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114714",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114715",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114716",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114717",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114718",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114719",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114720",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114721",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114722",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114723",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114724",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114725",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114726",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114727",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114728",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114729",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114730",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114731",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114732",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114733",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114734",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114735",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114736",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114737",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114738",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114739",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114740",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114741",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114901",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114903",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19114904",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19115442",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19115443",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19115444",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19115445",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19115446",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19115521",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19115522",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19115534",
+      "id": "fagor:ikore-cw-101-e-r-sw",
       "status": "request_failed"
     }
   ]
