@@ -1,122 +1,18 @@
 {
-  "checked_at": "2026-11-17T04:22:05.978Z",
+  "checked_at": "2026-11-18T04:25:47.340Z",
   "total_products": 1219,
   "checked": 80,
-  "ok": 52,
-  "failed": 28,
+  "ok": 78,
+  "failed": 2,
   "skipped": 1139,
   "problems": [
     {
-      "id": "fagor:19115535",
-      "status": "request_failed"
+      "id": "hendi:240410",
+      "status": "HTTP_404"
     },
     {
-      "id": "fagor:19115536",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19115537",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19115538",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19115539",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19115540",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19115541",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19115542",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19115550",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19115551",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19115553",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19115555",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19115556",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19115558",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19115559",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19115560",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19115938",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:19115939",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:ikore-apw-061-e-r-sw-s",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:ikore-apw-0623-e-r-sw-s",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:ikore-aw-061-e-r-sw",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:ikore-aw-0623-e-r-sw",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:ikore-aw-101-e-r-sw",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:ikore-cpw-061-e-r-sw-s",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:ikore-cpw-0623-e-r-sw-s",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:ikore-cw-061-e-r-sw",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:ikore-cw-0623-e-r-sw",
-      "status": "request_failed"
-    },
-    {
-      "id": "fagor:ikore-cw-101-e-r-sw",
-      "status": "request_failed"
+      "id": "hendi:240472",
+      "status": "HTTP_404"
     }
   ]
 }
