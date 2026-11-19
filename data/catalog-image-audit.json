@@ -1,18 +1,150 @@
 {
-  "checked_at": "2026-11-18T04:25:47.340Z",
+  "checked_at": "2026-11-19T04:27:54.253Z",
   "total_products": 1219,
   "checked": 80,
-  "ok": 78,
-  "failed": 2,
+  "ok": 45,
+  "failed": 35,
   "skipped": 1139,
   "problems": [
     {
-      "id": "hendi:240410",
-      "status": "HTTP_404"
+      "id": "krupps:catalog2024-1153",
+      "status": "request_failed"
     },
     {
-      "id": "hendi:240472",
-      "status": "HTTP_404"
+      "id": "krupps:catalog2024-207035",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:catalog2024-207054",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:catalog2024-208035",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:catalog2024-208052",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:catalog2024-208054",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:catalog2024-208055",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:catalog2024-208057",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:catalog2024-543300k",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:catalog2024-640200",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:catalog2024-800052",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:catalog2024-800057",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:catalog2024-800200",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:catalog2024-800201",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:catalog2024-800202",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:catalog2024-800211",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:catalog2024-800216k",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:catalog2024-800220k",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:C432-S",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:C537-BTS",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:C537T-BT",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:C537T-BTS",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:C537T-S",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:C640-BT",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:CH110-BTS",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:CH110-S",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:EL50E",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:EL50E-A",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:EL51E",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:EL55E",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:ELS50E",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:ELS51E",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:ELS60E",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:ELS60TH",
+      "status": "request_failed"
+    },
+    {
+      "id": "krupps:EVO111",
+      "status": "request_failed"
     }
   ]
 }
