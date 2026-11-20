@@ -1,149 +1,201 @@
 {
-  "checked_at": "2026-11-19T04:27:54.253Z",
+  "checked_at": "2026-11-20T04:23:01.878Z",
   "total_products": 1219,
   "checked": 80,
-  "ok": 45,
-  "failed": 35,
+  "ok": 32,
+  "failed": 48,
   "skipped": 1139,
   "problems": [
     {
-      "id": "krupps:catalog2024-1153",
+      "id": "krupps:EVO131",
       "status": "request_failed"
     },
     {
-      "id": "krupps:catalog2024-207035",
+      "id": "krupps:EVO211",
       "status": "request_failed"
     },
     {
-      "id": "krupps:catalog2024-207054",
+      "id": "krupps:EVO231",
       "status": "request_failed"
     },
     {
-      "id": "krupps:catalog2024-208035",
+      "id": "krupps:EVO311",
       "status": "request_failed"
     },
     {
-      "id": "krupps:catalog2024-208052",
+      "id": "krupps:EVO331",
       "status": "request_failed"
     },
     {
-      "id": "krupps:catalog2024-208054",
+      "id": "krupps:EVO411",
       "status": "request_failed"
     },
     {
-      "id": "krupps:catalog2024-208055",
+      "id": "krupps:EVO431",
       "status": "request_failed"
     },
     {
-      "id": "krupps:catalog2024-208057",
+      "id": "krupps:EVO511",
       "status": "request_failed"
     },
     {
-      "id": "krupps:catalog2024-543300k",
+      "id": "krupps:EVO531",
       "status": "request_failed"
     },
     {
-      "id": "krupps:catalog2024-640200",
+      "id": "krupps:K1100E-A",
       "status": "request_failed"
     },
     {
-      "id": "krupps:catalog2024-800052",
+      "id": "krupps:K1500E",
       "status": "request_failed"
     },
     {
-      "id": "krupps:catalog2024-800057",
+      "id": "krupps:K1500E-A",
       "status": "request_failed"
     },
     {
-      "id": "krupps:catalog2024-800200",
+      "id": "krupps:K540E",
       "status": "request_failed"
     },
     {
-      "id": "krupps:catalog2024-800201",
+      "id": "krupps:K540E-A",
       "status": "request_failed"
     },
     {
-      "id": "krupps:catalog2024-800202",
+      "id": "krupps:K560E",
       "status": "request_failed"
     },
     {
-      "id": "krupps:catalog2024-800211",
+      "id": "krupps:K840E",
       "status": "request_failed"
     },
     {
-      "id": "krupps:catalog2024-800216k",
+      "id": "krupps:KE40UT",
       "status": "request_failed"
     },
     {
-      "id": "krupps:catalog2024-800220k",
+      "id": "krupps:KE50U",
       "status": "request_failed"
     },
     {
-      "id": "krupps:C432-S",
+      "id": "krupps:KE50UT",
       "status": "request_failed"
     },
     {
-      "id": "krupps:C537-BTS",
+      "id": "krupps:KE60UT",
       "status": "request_failed"
     },
     {
-      "id": "krupps:C537T-BT",
+      "id": "krupps:S1100E",
       "status": "request_failed"
     },
     {
-      "id": "krupps:C537T-BTS",
+      "id": "krupps:S209E",
       "status": "request_failed"
     },
     {
-      "id": "krupps:C537T-S",
+      "id": "krupps:S540E",
       "status": "request_failed"
     },
     {
-      "id": "krupps:C640-BT",
+      "id": "krupps:S560E",
       "status": "request_failed"
     },
     {
-      "id": "krupps:CH110-BTS",
+      "id": "maxima:08400100",
       "status": "request_failed"
     },
     {
-      "id": "krupps:CH110-S",
+      "id": "maxima:09211003",
       "status": "request_failed"
     },
     {
-      "id": "krupps:EL50E",
+      "id": "maxima:09211008",
       "status": "request_failed"
     },
     {
-      "id": "krupps:EL50E-A",
+      "id": "maxima:09240140",
       "status": "request_failed"
     },
     {
-      "id": "krupps:EL51E",
+      "id": "maxima:09300001",
       "status": "request_failed"
     },
     {
-      "id": "krupps:EL55E",
+      "id": "maxima:09300031",
       "status": "request_failed"
     },
     {
-      "id": "krupps:ELS50E",
+      "id": "maxima:09300032",
       "status": "request_failed"
     },
     {
-      "id": "krupps:ELS51E",
+      "id": "maxima:09300062",
       "status": "request_failed"
     },
     {
-      "id": "krupps:ELS60E",
+      "id": "maxima:09300075",
       "status": "request_failed"
     },
     {
-      "id": "krupps:ELS60TH",
+      "id": "maxima:09300122",
       "status": "request_failed"
     },
     {
-      "id": "krupps:EVO111",
+      "id": "maxima:09300123",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09300128",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09300131",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09300139",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09300146",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09300147",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09300216",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09300220",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09300227",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09300229",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09300230",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09300411",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09300430",
+      "status": "request_failed"
+    },
+    {
+      "id": "maxima:09300435",
       "status": "request_failed"
     }
   ]
