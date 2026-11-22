@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-21T04:20:05.024Z",
+  "checked_at": "2026-11-22T11:45:32.041Z",
   "total_products": 1219,
   "checked": 80,
   "ok": 4,
@@ -7,307 +7,307 @@
   "skipped": 1139,
   "problems": [
     {
-      "id": "maxima:09300436",
+      "id": "maxima:09367792",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09300437",
+      "id": "maxima:09367793",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09300440",
+      "id": "maxima:09367910",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09300441",
+      "id": "maxima:09367911",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09300442",
+      "id": "maxima:09367920",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09300450",
+      "id": "maxima:09367921",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09300455",
+      "id": "maxima:09367922",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09300457",
+      "id": "maxima:09367926",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09300459",
+      "id": "maxima:09367928",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09300460",
+      "id": "maxima:09367931",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09300462",
+      "id": "maxima:09367934",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09300463",
+      "id": "maxima:09367935",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09300464",
+      "id": "maxima:09368001",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09300467",
+      "id": "maxima:09368002",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09300471",
+      "id": "maxima:09368003",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09300476",
+      "id": "maxima:09368010",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09300481",
+      "id": "maxima:09368450",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09300486",
+      "id": "maxima:09368460",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09300535",
+      "id": "maxima:09371250",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09300540",
+      "id": "maxima:09371400",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09300541",
+      "id": "maxima:09371450",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09300542",
+      "id": "maxima:09374011",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09300543",
+      "id": "maxima:09374050",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09300575",
+      "id": "maxima:09374051",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09300585",
+      "id": "maxima:09374131",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09300598",
+      "id": "maxima:09374132",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09300599",
+      "id": "maxima:09374140",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09300959",
+      "id": "maxima:09374182",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09300962",
+      "id": "maxima:09374191",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09300965",
+      "id": "maxima:09374201",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09300971",
+      "id": "maxima:09374203",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09300977",
+      "id": "maxima:09374235",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09306100",
+      "id": "maxima:09374242",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09361001",
+      "id": "maxima:09374245",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09361003",
+      "id": "maxima:09374246",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09361010",
+      "id": "maxima:09374251",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09361011",
+      "id": "maxima:09374255",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09361020",
+      "id": "maxima:09377000",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09361030",
+      "id": "maxima:09377005",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09361050",
+      "id": "maxima:09379000",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09361080",
+      "id": "maxima:09391550",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09361130",
+      "id": "maxima:09391600",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09361150",
+      "id": "maxima:09391680",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09361905",
+      "id": "maxima:09394003",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09361908",
+      "id": "maxima:09395001",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09362150",
+      "id": "maxima:09395006",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09362155",
+      "id": "maxima:09395053",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09364006",
+      "id": "maxima:09397990",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09364009",
+      "id": "maxima:09398601",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09364033",
+      "id": "maxima:09398606",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09364036",
+      "id": "maxima:09398615",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09365101",
+      "id": "maxima:09400003",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09365105",
+      "id": "maxima:09400012",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09365158",
+      "id": "maxima:09400017",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09365159",
+      "id": "maxima:09400030",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09365229",
+      "id": "maxima:09400031",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09366100",
+      "id": "maxima:09400042",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09367509",
+      "id": "maxima:09400175",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09367512",
+      "id": "maxima:09400207",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09367514",
+      "id": "maxima:09400208",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09367518",
+      "id": "maxima:09400210",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09367521",
+      "id": "maxima:09400409",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09367523",
+      "id": "maxima:09400410",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09367566",
+      "id": "maxima:09400801",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09367570",
+      "id": "maxima:09400806",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09367572",
+      "id": "maxima:09400815",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09367602",
+      "id": "maxima:09400816",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09367611",
+      "id": "maxima:09400839",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09367612",
+      "id": "maxima:09400843",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09367614",
+      "id": "maxima:09400847",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09367621",
+      "id": "maxima:09400850",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09367622",
+      "id": "maxima:09400900",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09367750",
+      "id": "maxima:09400941",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09367760",
+      "id": "maxima:09402340",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09367775",
+      "id": "maxima:09402370",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09367776",
+      "id": "maxima:09403000",
       "status": "request_failed"
     }
   ]
