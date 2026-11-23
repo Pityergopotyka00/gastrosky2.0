@@ -1,313 +1,205 @@
 {
-  "checked_at": "2026-11-22T11:45:32.041Z",
+  "checked_at": "2026-11-23T13:24:19.934Z",
   "total_products": 1219,
   "checked": 80,
-  "ok": 4,
-  "failed": 76,
+  "ok": 31,
+  "failed": 49,
   "skipped": 1139,
   "problems": [
     {
-      "id": "maxima:09367792",
+      "id": "maxima:09404001",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09367793",
+      "id": "maxima:09404025",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09367910",
+      "id": "maxima:09404026",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09367911",
+      "id": "maxima:09404031",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09367920",
+      "id": "maxima:09405006",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09367921",
+      "id": "maxima:09405007",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09367922",
+      "id": "maxima:09405008",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09367926",
+      "id": "maxima:09405010",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09367928",
+      "id": "maxima:09405029",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09367931",
+      "id": "maxima:09501202",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09367934",
+      "id": "maxima:09506005",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09367935",
+      "id": "maxima:09506006",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09368001",
+      "id": "maxima:09506007",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09368002",
+      "id": "modular:F60/30BME/T",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09368003",
+      "id": "modular:F60/30CPE/1V14/T",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09368010",
+      "id": "modular:F60/30FRES/1V10/T",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09368450",
+      "id": "modular:F60/30FRESE/1V10/T",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09368460",
+      "id": "modular:F60/30FRGV/1V8/T",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09371250",
+      "id": "modular:F60/30FTG/L/T",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09371400",
+      "id": "modular:F60/30FTG/SR/T",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09371450",
+      "id": "modular:F60/30GRLG/T",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09374011",
+      "id": "modular:F60/30PCE/T",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09374050",
+      "id": "modular:F60/30PCEE/T",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09374051",
+      "id": "modular:F60/30PVE/T",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09374131",
+      "id": "modular:F60/30SPE/T",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09374132",
+      "id": "modular:F60/60BME/T",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09374140",
+      "id": "modular:F60/60CFGE",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09374182",
+      "id": "modular:F60/60CPE/1V30/T",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09374191",
+      "id": "modular:F60-60FRES-2V10-T",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09374201",
+      "id": "modular:F60/60FRESE/2V10/T",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09374203",
+      "id": "modular:F60-60FRGV-2V8-T",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09374235",
+      "id": "modular:F60/60FTG/SLR/T",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09374242",
+      "id": "modular:F60/60PCE/T",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09374245",
+      "id": "modular:F60/90CFE",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09374246",
+      "id": "modular:F60/90CFGE",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09374251",
+      "id": "modular:F60/90PCE/T",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09374255",
+      "id": "modular:F65-70CPE-1V40-T",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09377000",
+      "id": "modular:F70-40CPE-1V40-P",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09377005",
+      "id": "modular:F70-40CPG-1V40-P",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09379000",
+      "id": "modular:F70-40FRES-1V10-P",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09391550",
+      "id": "modular:F70-70CFGB",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09391600",
+      "id": "modular:F70-70FRGV-2V13-P",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09391680",
+      "id": "modular:F70-70PCGB-A",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09394003",
+      "id": "modular:F70-80TPE-A",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09395001",
+      "id": "modular:R70-40CPE-1V26-P",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09395006",
+      "id": "modular:R70-40CPG-1V26-P",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09395053",
+      "id": "modular:R70-40FRER-2V8-P",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09397990",
+      "id": "modular:R70-40FRGV-1V13-P",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09398601",
-      "status": "request_failed"
-    },
-    {
-      "id": "maxima:09398606",
-      "status": "request_failed"
-    },
-    {
-      "id": "maxima:09398615",
-      "status": "request_failed"
-    },
-    {
-      "id": "maxima:09400003",
-      "status": "request_failed"
-    },
-    {
-      "id": "maxima:09400012",
-      "status": "request_failed"
-    },
-    {
-      "id": "maxima:09400017",
-      "status": "request_failed"
-    },
-    {
-      "id": "maxima:09400030",
-      "status": "request_failed"
-    },
-    {
-      "id": "maxima:09400031",
-      "status": "request_failed"
-    },
-    {
-      "id": "maxima:09400042",
-      "status": "request_failed"
-    },
-    {
-      "id": "maxima:09400175",
-      "status": "request_failed"
-    },
-    {
-      "id": "maxima:09400207",
-      "status": "request_failed"
-    },
-    {
-      "id": "maxima:09400208",
-      "status": "request_failed"
-    },
-    {
-      "id": "maxima:09400210",
-      "status": "request_failed"
-    },
-    {
-      "id": "maxima:09400409",
-      "status": "request_failed"
-    },
-    {
-      "id": "maxima:09400410",
-      "status": "request_failed"
-    },
-    {
-      "id": "maxima:09400801",
-      "status": "request_failed"
-    },
-    {
-      "id": "maxima:09400806",
-      "status": "request_failed"
-    },
-    {
-      "id": "maxima:09400815",
-      "status": "request_failed"
-    },
-    {
-      "id": "maxima:09400816",
-      "status": "request_failed"
-    },
-    {
-      "id": "maxima:09400839",
-      "status": "request_failed"
-    },
-    {
-      "id": "maxima:09400843",
-      "status": "request_failed"
-    },
-    {
-      "id": "maxima:09400847",
-      "status": "request_failed"
-    },
-    {
-      "id": "maxima:09400850",
-      "status": "request_failed"
-    },
-    {
-      "id": "maxima:09400900",
-      "status": "request_failed"
-    },
-    {
-      "id": "maxima:09400941",
-      "status": "request_failed"
-    },
-    {
-      "id": "maxima:09402340",
-      "status": "request_failed"
-    },
-    {
-      "id": "maxima:09402370",
-      "status": "request_failed"
-    },
-    {
-      "id": "maxima:09403000",
+      "id": "modular:R70-40FTG-CL-T",
       "status": "request_failed"
     }
   ]
