@@ -1,205 +1,209 @@
 {
-  "checked_at": "2026-11-23T13:24:19.934Z",
+  "checked_at": "2026-11-24T14:03:57.144Z",
   "total_products": 1219,
   "checked": 80,
-  "ok": 31,
-  "failed": 49,
+  "ok": 30,
+  "failed": 50,
   "skipped": 1139,
   "problems": [
     {
-      "id": "maxima:09404001",
+      "id": "modular:R70-80FRGV-2V13-P",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09404025",
+      "id": "modular:R90-120PCG-T",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09404026",
+      "id": "modular:R90-40CPE-1V40-P",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09404031",
+      "id": "modular:R90-40FRGL-1V17-P",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09405006",
+      "id": "modular:R90-40FRGV-1V13-P",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09405007",
+      "id": "modular:R90-40FRGV-1V22-P",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09405008",
+      "id": "modular:R90-40FTG-L-T",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09405010",
+      "id": "modular:R90-80CFG",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09405029",
+      "id": "modular:R90-80CFGE",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09501202",
+      "id": "modular:R90-80FRGL-2V17-P",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09506005",
+      "id": "modular:R90-80FRGV-2V13-P",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09506006",
+      "id": "modular:R90-80FRGV-2V22-P",
       "status": "request_failed"
     },
     {
-      "id": "maxima:09506007",
+      "id": "modular:R90-80PCG-T",
       "status": "request_failed"
     },
     {
-      "id": "modular:F60/30BME/T",
+      "id": "sistemaproject:catalog2025-30740",
       "status": "request_failed"
     },
     {
-      "id": "modular:F60/30CPE/1V14/T",
+      "id": "sistemaproject:40-a",
       "status": "request_failed"
     },
     {
-      "id": "modular:F60/30FRES/1V10/T",
+      "id": "sistemaproject:50-a",
       "status": "request_failed"
     },
     {
-      "id": "modular:F60/30FRESE/1V10/T",
+      "id": "sistemaproject:catalog2025-ac360",
       "status": "request_failed"
     },
     {
-      "id": "modular:F60/30FRGV/1V8/T",
+      "id": "sistemaproject:catalog2025-ac410",
       "status": "request_failed"
     },
     {
-      "id": "modular:F60/30FTG/L/T",
+      "id": "sistemaproject:alpha-50",
       "status": "request_failed"
     },
     {
-      "id": "modular:F60/30FTG/SR/T",
+      "id": "sistemaproject:ax-50",
       "status": "request_failed"
     },
     {
-      "id": "modular:F60/30GRLG/T",
+      "id": "sistemaproject:bottle-wash",
       "status": "request_failed"
     },
     {
-      "id": "modular:F60/30PCE/T",
+      "id": "sistemaproject:catalog2025-cpp3501",
       "status": "request_failed"
     },
     {
-      "id": "modular:F60/30PCEE/T",
+      "id": "sistemaproject:catalog2025-cpp3521",
       "status": "request_failed"
     },
     {
-      "id": "modular:F60/30PVE/T",
+      "id": "sistemaproject:catalog2025-cpp4001",
       "status": "request_failed"
     },
     {
-      "id": "modular:F60/30SPE/T",
+      "id": "sistemaproject:catalog2025-cpp4021",
       "status": "request_failed"
     },
     {
-      "id": "modular:F60/60BME/T",
+      "id": "sistemaproject:catalog2025-cpp5001",
       "status": "request_failed"
     },
     {
-      "id": "modular:F60/60CFGE",
+      "id": "sistemaproject:catalog2025-cpp5002",
       "status": "request_failed"
     },
     {
-      "id": "modular:F60/60CPE/1V30/T",
+      "id": "sistemaproject:catalog2025-cpp5003",
       "status": "request_failed"
     },
     {
-      "id": "modular:F60-60FRES-2V10-T",
+      "id": "sistemaproject:catalog2025-cpp5004",
       "status": "request_failed"
     },
     {
-      "id": "modular:F60/60FRESE/2V10/T",
+      "id": "sistemaproject:catalog2025-cpp6001",
       "status": "request_failed"
     },
     {
-      "id": "modular:F60-60FRGV-2V8-T",
+      "id": "sistemaproject:catalog2025-cpp6002",
       "status": "request_failed"
     },
     {
-      "id": "modular:F60/60FTG/SLR/T",
+      "id": "sistemaproject:catalog2025-cpp6003",
       "status": "request_failed"
     },
     {
-      "id": "modular:F60/60PCE/T",
+      "id": "sistemaproject:catalog2025-cppa01",
       "status": "request_failed"
     },
     {
-      "id": "modular:F60/90CFE",
+      "id": "sistemaproject:catalog2025-cppa02",
       "status": "request_failed"
     },
     {
-      "id": "modular:F60/90CFGE",
+      "id": "sistemaproject:catalog2025-cptc02",
       "status": "request_failed"
     },
     {
-      "id": "modular:F60/90PCE/T",
+      "id": "sistemaproject:ct-320",
       "status": "request_failed"
     },
     {
-      "id": "modular:F65-70CPE-1V40-T",
+      "id": "sistemaproject:catalog2025-ct137",
       "status": "request_failed"
     },
     {
-      "id": "modular:F70-40CPE-1V40-P",
+      "id": "sistemaproject:catalog2025-ct166",
       "status": "request_failed"
     },
     {
-      "id": "modular:F70-40CPG-1V40-P",
+      "id": "sistemaproject:catalog2025-ct167",
       "status": "request_failed"
     },
     {
-      "id": "modular:F70-40FRES-1V10-P",
+      "id": "sistemaproject:catalog2025-ct168",
       "status": "request_failed"
     },
     {
-      "id": "modular:F70-70CFGB",
+      "id": "sistemaproject:catalog2025-ct186",
       "status": "request_failed"
     },
     {
-      "id": "modular:F70-70FRGV-2V13-P",
+      "id": "sistemaproject:catalog2025-ct441",
       "status": "request_failed"
     },
     {
-      "id": "modular:F70-70PCGB-A",
+      "id": "sistemaproject:catalog2025-ct442",
       "status": "request_failed"
     },
     {
-      "id": "modular:F70-80TPE-A",
+      "id": "sistemaproject:catalog2025-ct443",
       "status": "request_failed"
     },
     {
-      "id": "modular:R70-40CPE-1V26-P",
+      "id": "sistemaproject:catalog2025-ct446",
       "status": "request_failed"
     },
     {
-      "id": "modular:R70-40CPG-1V26-P",
+      "id": "sistemaproject:catalog2025-ct447",
       "status": "request_failed"
     },
     {
-      "id": "modular:R70-40FRER-2V8-P",
+      "id": "sistemaproject:catalog2025-ct448",
       "status": "request_failed"
     },
     {
-      "id": "modular:R70-40FRGV-1V13-P",
+      "id": "sistemaproject:catalog2025-ct451",
       "status": "request_failed"
     },
     {
-      "id": "modular:R70-40FTG-CL-T",
+      "id": "sistemaproject:catalog2025-ct452",
+      "status": "request_failed"
+    },
+    {
+      "id": "sistemaproject:catalog2025-ct453",
       "status": "request_failed"
     }
   ]
