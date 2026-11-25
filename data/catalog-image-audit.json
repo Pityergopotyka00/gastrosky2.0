@@ -1,209 +1,193 @@
 {
-  "checked_at": "2026-11-24T14:03:57.144Z",
+  "checked_at": "2026-11-25T13:17:13.869Z",
   "total_products": 1219,
   "checked": 80,
-  "ok": 30,
-  "failed": 50,
+  "ok": 34,
+  "failed": 46,
   "skipped": 1139,
   "problems": [
     {
-      "id": "modular:R70-80FRGV-2V13-P",
+      "id": "sistemaproject:catalog2025-ct456",
       "status": "request_failed"
     },
     {
-      "id": "modular:R90-120PCG-T",
+      "id": "sistemaproject:catalog2025-ct457",
       "status": "request_failed"
     },
     {
-      "id": "modular:R90-40CPE-1V40-P",
+      "id": "sistemaproject:catalog2025-ct458",
       "status": "request_failed"
     },
     {
-      "id": "modular:R90-40FRGL-1V17-P",
+      "id": "sistemaproject:catalog2025-ct480",
       "status": "request_failed"
     },
     {
-      "id": "modular:R90-40FRGV-1V13-P",
+      "id": "sistemaproject:catalog2025-ct481",
       "status": "request_failed"
     },
     {
-      "id": "modular:R90-40FRGV-1V22-P",
+      "id": "sistemaproject:catalog2025-ct482",
       "status": "request_failed"
     },
     {
-      "id": "modular:R90-40FTG-L-T",
+      "id": "sistemaproject:catalog2025-ct483",
       "status": "request_failed"
     },
     {
-      "id": "modular:R90-80CFG",
+      "id": "sistemaproject:catalog2025-ct484",
       "status": "request_failed"
     },
     {
-      "id": "modular:R90-80CFGE",
+      "id": "sistemaproject:catalog2025-ct485",
       "status": "request_failed"
     },
     {
-      "id": "modular:R90-80FRGL-2V17-P",
+      "id": "sistemaproject:catalog2025-ctabt",
       "status": "request_failed"
     },
     {
-      "id": "modular:R90-80FRGV-2V13-P",
+      "id": "sistemaproject:catalog2025-ctaf",
       "status": "request_failed"
     },
     {
-      "id": "modular:R90-80FRGV-2V22-P",
+      "id": "sistemaproject:catalog2025-ctdd",
       "status": "request_failed"
     },
     {
-      "id": "modular:R90-80PCG-T",
+      "id": "sistemaproject:catalog2025-ctrc",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-30740",
+      "id": "sistemaproject:catalog2025-ctsez",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:40-a",
+      "id": "sistemaproject:catalog2025-ctta",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:50-a",
+      "id": "sistemaproject:catalog2025-ctx",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-ac360",
+      "id": "sistemaproject:catalog2025-dec12l",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-ac410",
+      "id": "sistemaproject:catalog2025-dec16l",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:alpha-50",
+      "id": "sistemaproject:catalog2025-dec20l",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:ax-50",
+      "id": "sistemaproject:catalog2025-dec8l",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:bottle-wash",
+      "id": "sistemaproject:catalog2025-decav12l",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-cpp3501",
+      "id": "sistemaproject:catalog2025-decav8l",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-cpp3521",
+      "id": "sistemaproject:dent35",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-cpp4001",
+      "id": "sistemaproject:jet-350",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-cpp4021",
+      "id": "sistemaproject:jet-500-plus",
+      "status": "HTTP_403"
+    },
+    {
+      "id": "sistemaproject:t110e",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-cpp5001",
+      "id": "sistemaproject:t1215",
+      "status": "HTTP_404"
+    },
+    {
+      "id": "sistemaproject:t1515",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-cpp5002",
+      "id": "sistemaproject:catalog2025-t70206",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-cpp5003",
+      "id": "sistemaproject:catalog2025-t70217",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-cpp5004",
+      "id": "sistemaproject:catalog2025-t80200",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-cpp6001",
+      "id": "sistemaproject:catalog2025-t80201",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-cpp6002",
+      "id": "sistemaproject:catalog2025-t80202",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-cpp6003",
+      "id": "sistemaproject:catalog2025-t80202l",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-cppa01",
+      "id": "sistemaproject:catalog2025-t80203",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-cppa02",
+      "id": "sistemaproject:catalog2025-t80204",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-cptc02",
+      "id": "sistemaproject:catalog2025-t80205",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:ct-320",
+      "id": "sistemaproject:catalog2025-t80205l700",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-ct137",
+      "id": "sistemaproject:catalog2025-t80206",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-ct166",
+      "id": "sistemaproject:catalog2025-t80206l700",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-ct167",
+      "id": "sistemaproject:catalog2025-t80207",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-ct168",
+      "id": "sistemaproject:catalog2025-t80208",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-ct186",
+      "id": "sistemaproject:unica-50p",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-ct441",
+      "id": "tecnodom:armadio-1400",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-ct442",
+      "id": "tecnodom:armadio-700",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-ct443",
-      "status": "request_failed"
-    },
-    {
-      "id": "sistemaproject:catalog2025-ct446",
-      "status": "request_failed"
-    },
-    {
-      "id": "sistemaproject:catalog2025-ct447",
-      "status": "request_failed"
-    },
-    {
-      "id": "sistemaproject:catalog2025-ct448",
-      "status": "request_failed"
-    },
-    {
-      "id": "sistemaproject:catalog2025-ct451",
-      "status": "request_failed"
-    },
-    {
-      "id": "sistemaproject:catalog2025-ct452",
-      "status": "request_failed"
-    },
-    {
-      "id": "sistemaproject:catalog2025-ct453",
+      "id": "tecnodom:evok-l-4-porte",
       "status": "request_failed"
     }
   ]
