@@ -1,193 +1,197 @@
 {
-  "checked_at": "2026-11-25T13:17:13.869Z",
+  "checked_at": "2026-11-26T12:58:25.126Z",
   "total_products": 1219,
   "checked": 80,
-  "ok": 34,
-  "failed": 46,
+  "ok": 33,
+  "failed": 47,
   "skipped": 1139,
   "problems": [
     {
-      "id": "sistemaproject:catalog2025-ct456",
+      "id": "tecnodom:variant:tdv-orizzontale-arredamento-neutro-lavelli-a-giorno-70",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-ct457",
+      "id": "tecnodom:variant:tdv-orizzontale-arredamento-neutro-pensili-armadiati-80",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-ct458",
+      "id": "tecnodom:variant:tdv-orizzontale-arredamento-neutro-tavoli-a-giorno-60",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-ct480",
+      "id": "tecnodom:variant:tdv-orizzontale-arredamento-neutro-tavoli-armadiati-100",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-ct481",
+      "id": "tecnodom:variant:tdv-orizzontale-espositori-refrigerati-m-1000-100",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-ct482",
+      "id": "tecnodom:variant:tdv-orizzontale-espositori-refrigerati-m-80-100",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-ct483",
+      "id": "tecnodom:variant:tdv-orizzontale-espositori-refrigerati-m-90-100",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-ct484",
+      "id": "tecnodom:variant:tdv-orizzontale-espositori-refrigerati-mr-80-100",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-ct485",
+      "id": "tecnodom:variant:tdv-orizzontale-espositori-refrigerati-mr-9-5-vcc-w-100",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-ctabt",
+      "id": "tecnodom:variant:tdv-orizzontale-espositori-refrigerati-mr-95-100",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-ctaf",
+      "id": "tecnodom:variant:tdv-orizzontale-espositori-refrigerati-vigo-78-100",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-ctdd",
+      "id": "tecnodom:variant:tdv-orizzontale-espositori-refrigerati-vigo-90-100",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-ctrc",
+      "id": "tecnodom:variant:tdv-orizzontale-saladette-saladette-pizza-sl02c6",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-ctsez",
+      "id": "tecnodom:variant:tdv-orizzontale-saladette-saladette-sl02",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-ctta",
+      "id": "tecnodom:variant:tdv-orizzontale-saladette-saladette-sl03",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-ctx",
+      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-tavolo-60-tf02",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-dec12l",
+      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-tavolo-60-tf03",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-dec16l",
+      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-tavolo-eko-pizza-pz02",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-dec20l",
+      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-tavolo-eko-pizza-pz02c6",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-dec8l",
+      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-tavolo-mid-gastronomia-tn-bt-tf02",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-decav12l",
+      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-tavolo-mid-gastronomia-tn-bt-tf03",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-decav8l",
+      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-tavolo-mid-pasticceria-tp02",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:dent35",
+      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-tavolo-mid-pasticceria-tp03",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:jet-350",
+      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-tavolo-mid-pizza-pz02",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:jet-500-plus",
-      "status": "HTTP_403"
-    },
-    {
-      "id": "sistemaproject:t110e",
+      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-tavolo-mid-pizza-pz03",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:t1215",
-      "status": "HTTP_404"
-    },
-    {
-      "id": "sistemaproject:t1515",
+      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-vetrina-refrigerata-ingredienti-pizza-120",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-t70206",
+      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-vetrina-refrigerata-ingredienti-pizza-140",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-t70217",
+      "id": "tecnodom:variant:tdv-verticale-murali-refrigerati-lido-100",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-t80200",
+      "id": "tecnodom:variant:tdv-verticale-murali-refrigerati-stromboli-90-125",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-t80201",
+      "id": "tecnodom:variant:tdv-verticale-murali-refrigerati-stromboli-90-b-125",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-t80202",
+      "id": "tecnodom:variant:tdv-verticale-murali-refrigerati-vulcano-60",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-t80202l",
+      "id": "tecnodom:variant:tdv-verticale-murali-refrigerati-vulcano-sc-60",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-t80203",
+      "id": "tecnodom:variant:tdv-verticale-murali-refrigerati-vulcano-vb-125",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-t80204",
+      "id": "tecnodom:variant:tdv-verticale-murali-refrigerati-vulcano-vs-125",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-t80205",
+      "id": "tecnodom:variant:tdv-verticale-semimurali-evo-evo-60",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-t80205l700",
+      "id": "tecnodom:variant:tdv-verticale-semimurali-evo-evo-hot-60",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-t80206",
+      "id": "tecnodom:variant:tdv-verticale-semimurali-evo-evo-lux-60",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-t80206l700",
+      "id": "tecnodom:variant:tdv-verticale-semimurali-evo-evo-lux-hot-60",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-t80207",
+      "id": "tecnodom:variant:tdv-verticale-semimurali-evo-evo-self-90",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:catalog2025-t80208",
+      "id": "tecnodom:variant:tdv-verticale-semimurali-evok-evok-90",
       "status": "request_failed"
     },
     {
-      "id": "sistemaproject:unica-50p",
+      "id": "tecnodom:variant:tdv-verticale-semimurali-evok-evok-hot-90",
       "status": "request_failed"
     },
     {
-      "id": "tecnodom:armadio-1400",
+      "id": "tecnodom:variant:tdv-verticale-semimurali-evok-evok-l-2-porte-90",
       "status": "request_failed"
     },
     {
-      "id": "tecnodom:armadio-700",
+      "id": "tecnodom:variant:tdv-verticale-semimurali-evok-evok-l-2-porte-hot-90",
       "status": "request_failed"
     },
     {
-      "id": "tecnodom:evok-l-4-porte",
+      "id": "tecnodom:variant:tdv-verticale-semimurali-evok-evok-l-4-porte-90",
+      "status": "request_failed"
+    },
+    {
+      "id": "tecnodom:variant:tdv-verticale-semimurali-evok-evok-l-4-porte-hot-90",
+      "status": "request_failed"
+    },
+    {
+      "id": "tecnodom:variant:tdv-verticale-semimurali-evok-evok-lux-60",
+      "status": "request_failed"
+    },
+    {
+      "id": "tecnodom:variant:tdv-verticale-semimurali-evok-evok-lux-hot-60",
       "status": "request_failed"
     }
   ]
