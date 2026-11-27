@@ -1,197 +1,121 @@
 {
-  "checked_at": "2026-11-26T12:58:25.126Z",
+  "checked_at": "2026-11-27T12:53:47.022Z",
   "total_products": 1219,
   "checked": 80,
-  "ok": 33,
-  "failed": 47,
+  "ok": 52,
+  "failed": 28,
   "skipped": 1139,
   "problems": [
     {
-      "id": "tecnodom:variant:tdv-orizzontale-arredamento-neutro-lavelli-a-giorno-70",
+      "id": "aristarco:configuration:ari-lyn205-a",
       "status": "request_failed"
     },
     {
-      "id": "tecnodom:variant:tdv-orizzontale-arredamento-neutro-pensili-armadiati-80",
+      "id": "aristarco:configuration:ari-lyn205-w",
       "status": "request_failed"
     },
     {
-      "id": "tecnodom:variant:tdv-orizzontale-arredamento-neutro-tavoli-a-giorno-60",
+      "id": "aristarco:configuration:ari-lyn257-a",
       "status": "request_failed"
     },
     {
-      "id": "tecnodom:variant:tdv-orizzontale-arredamento-neutro-tavoli-armadiati-100",
+      "id": "aristarco:configuration:ari-lyn257-w",
       "status": "request_failed"
     },
     {
-      "id": "tecnodom:variant:tdv-orizzontale-espositori-refrigerati-m-1000-100",
+      "id": "aristarco:configuration:ari-phe10055m-a",
       "status": "request_failed"
     },
     {
-      "id": "tecnodom:variant:tdv-orizzontale-espositori-refrigerati-m-80-100",
+      "id": "aristarco:configuration:ari-phe10055m-w",
       "status": "request_failed"
     },
     {
-      "id": "tecnodom:variant:tdv-orizzontale-espositori-refrigerati-m-90-100",
+      "id": "aristarco:configuration:ari-phe14070m-a",
       "status": "request_failed"
     },
     {
-      "id": "tecnodom:variant:tdv-orizzontale-espositori-refrigerati-mr-80-100",
+      "id": "aristarco:configuration:ari-phe14070m-w",
       "status": "request_failed"
     },
     {
-      "id": "tecnodom:variant:tdv-orizzontale-espositori-refrigerati-mr-9-5-vcc-w-100",
+      "id": "aristarco:configuration:ari-phe16070m-a",
       "status": "request_failed"
     },
     {
-      "id": "tecnodom:variant:tdv-orizzontale-espositori-refrigerati-mr-95-100",
+      "id": "aristarco:configuration:ari-phe16070m-w",
       "status": "request_failed"
     },
     {
-      "id": "tecnodom:variant:tdv-orizzontale-espositori-refrigerati-vigo-78-100",
+      "id": "aristarco:configuration:ari-phe160m-a",
       "status": "request_failed"
     },
     {
-      "id": "tecnodom:variant:tdv-orizzontale-espositori-refrigerati-vigo-90-100",
+      "id": "aristarco:configuration:ari-phe160m-w",
       "status": "request_failed"
     },
     {
-      "id": "tecnodom:variant:tdv-orizzontale-saladette-saladette-pizza-sl02c6",
+      "id": "aristarco:configuration:ari-phe256m-a",
       "status": "request_failed"
     },
     {
-      "id": "tecnodom:variant:tdv-orizzontale-saladette-saladette-sl02",
+      "id": "aristarco:configuration:ari-phe256m-w",
       "status": "request_failed"
     },
     {
-      "id": "tecnodom:variant:tdv-orizzontale-saladette-saladette-sl03",
+      "id": "aristarco:configuration:ari-phe3012m-a",
       "status": "request_failed"
     },
     {
-      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-tavolo-60-tf02",
+      "id": "aristarco:configuration:ari-phe3012m-w",
       "status": "request_failed"
     },
     {
-      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-tavolo-60-tf03",
+      "id": "aristarco:configuration:ari-phe320m-a",
       "status": "request_failed"
     },
     {
-      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-tavolo-eko-pizza-pz02",
+      "id": "aristarco:configuration:ari-phe320m-w",
       "status": "request_failed"
     },
     {
-      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-tavolo-eko-pizza-pz02c6",
+      "id": "aristarco:configuration:ari-phe4015m-a",
       "status": "request_failed"
     },
     {
-      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-tavolo-mid-gastronomia-tn-bt-tf02",
+      "id": "aristarco:configuration:ari-phe4015m-w",
       "status": "request_failed"
     },
     {
-      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-tavolo-mid-gastronomia-tn-bt-tf03",
+      "id": "aristarco:configuration:ari-phe4515m-a",
       "status": "request_failed"
     },
     {
-      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-tavolo-mid-pasticceria-tp02",
+      "id": "aristarco:configuration:ari-phe4515m-w",
       "status": "request_failed"
     },
     {
-      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-tavolo-mid-pasticceria-tp03",
+      "id": "aristarco:configuration:ari-phe5025m-a",
       "status": "request_failed"
     },
     {
-      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-tavolo-mid-pizza-pz02",
+      "id": "aristarco:configuration:ari-phe5025m-w",
       "status": "request_failed"
     },
     {
-      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-tavolo-mid-pizza-pz03",
+      "id": "aristarco:configuration:ari-phe6040m-a",
       "status": "request_failed"
     },
     {
-      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-vetrina-refrigerata-ingredienti-pizza-120",
+      "id": "aristarco:configuration:ari-phe6040m-w",
       "status": "request_failed"
     },
     {
-      "id": "tecnodom:variant:tdv-orizzontale-tavoli-refrigerati-vetrina-refrigerata-ingredienti-pizza-140",
+      "id": "aristarco:configuration:ari-phe8040m-a",
       "status": "request_failed"
     },
     {
-      "id": "tecnodom:variant:tdv-verticale-murali-refrigerati-lido-100",
-      "status": "request_failed"
-    },
-    {
-      "id": "tecnodom:variant:tdv-verticale-murali-refrigerati-stromboli-90-125",
-      "status": "request_failed"
-    },
-    {
-      "id": "tecnodom:variant:tdv-verticale-murali-refrigerati-stromboli-90-b-125",
-      "status": "request_failed"
-    },
-    {
-      "id": "tecnodom:variant:tdv-verticale-murali-refrigerati-vulcano-60",
-      "status": "request_failed"
-    },
-    {
-      "id": "tecnodom:variant:tdv-verticale-murali-refrigerati-vulcano-sc-60",
-      "status": "request_failed"
-    },
-    {
-      "id": "tecnodom:variant:tdv-verticale-murali-refrigerati-vulcano-vb-125",
-      "status": "request_failed"
-    },
-    {
-      "id": "tecnodom:variant:tdv-verticale-murali-refrigerati-vulcano-vs-125",
-      "status": "request_failed"
-    },
-    {
-      "id": "tecnodom:variant:tdv-verticale-semimurali-evo-evo-60",
-      "status": "request_failed"
-    },
-    {
-      "id": "tecnodom:variant:tdv-verticale-semimurali-evo-evo-hot-60",
-      "status": "request_failed"
-    },
-    {
-      "id": "tecnodom:variant:tdv-verticale-semimurali-evo-evo-lux-60",
-      "status": "request_failed"
-    },
-    {
-      "id": "tecnodom:variant:tdv-verticale-semimurali-evo-evo-lux-hot-60",
-      "status": "request_failed"
-    },
-    {
-      "id": "tecnodom:variant:tdv-verticale-semimurali-evo-evo-self-90",
-      "status": "request_failed"
-    },
-    {
-      "id": "tecnodom:variant:tdv-verticale-semimurali-evok-evok-90",
-      "status": "request_failed"
-    },
-    {
-      "id": "tecnodom:variant:tdv-verticale-semimurali-evok-evok-hot-90",
-      "status": "request_failed"
-    },
-    {
-      "id": "tecnodom:variant:tdv-verticale-semimurali-evok-evok-l-2-porte-90",
-      "status": "request_failed"
-    },
-    {
-      "id": "tecnodom:variant:tdv-verticale-semimurali-evok-evok-l-2-porte-hot-90",
-      "status": "request_failed"
-    },
-    {
-      "id": "tecnodom:variant:tdv-verticale-semimurali-evok-evok-l-4-porte-90",
-      "status": "request_failed"
-    },
-    {
-      "id": "tecnodom:variant:tdv-verticale-semimurali-evok-evok-l-4-porte-hot-90",
-      "status": "request_failed"
-    },
-    {
-      "id": "tecnodom:variant:tdv-verticale-semimurali-evok-evok-lux-60",
-      "status": "request_failed"
-    },
-    {
-      "id": "tecnodom:variant:tdv-verticale-semimurali-evok-evok-lux-hot-60",
+      "id": "aristarco:configuration:ari-phe8040m-w",
       "status": "request_failed"
     }
   ]
