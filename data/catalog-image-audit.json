@@ -1,121 +1,17 @@
 {
-  "checked_at": "2026-11-27T12:53:47.022Z",
+  "checked_at": "2026-11-28T12:05:27.062Z",
   "total_products": 1219,
   "checked": 80,
-  "ok": 52,
-  "failed": 28,
+  "ok": 78,
+  "failed": 2,
   "skipped": 1139,
   "problems": [
     {
-      "id": "aristarco:configuration:ari-lyn205-a",
+      "id": "coldline:a140-2me",
       "status": "request_failed"
     },
     {
-      "id": "aristarco:configuration:ari-lyn205-w",
-      "status": "request_failed"
-    },
-    {
-      "id": "aristarco:configuration:ari-lyn257-a",
-      "status": "request_failed"
-    },
-    {
-      "id": "aristarco:configuration:ari-lyn257-w",
-      "status": "request_failed"
-    },
-    {
-      "id": "aristarco:configuration:ari-phe10055m-a",
-      "status": "request_failed"
-    },
-    {
-      "id": "aristarco:configuration:ari-phe10055m-w",
-      "status": "request_failed"
-    },
-    {
-      "id": "aristarco:configuration:ari-phe14070m-a",
-      "status": "request_failed"
-    },
-    {
-      "id": "aristarco:configuration:ari-phe14070m-w",
-      "status": "request_failed"
-    },
-    {
-      "id": "aristarco:configuration:ari-phe16070m-a",
-      "status": "request_failed"
-    },
-    {
-      "id": "aristarco:configuration:ari-phe16070m-w",
-      "status": "request_failed"
-    },
-    {
-      "id": "aristarco:configuration:ari-phe160m-a",
-      "status": "request_failed"
-    },
-    {
-      "id": "aristarco:configuration:ari-phe160m-w",
-      "status": "request_failed"
-    },
-    {
-      "id": "aristarco:configuration:ari-phe256m-a",
-      "status": "request_failed"
-    },
-    {
-      "id": "aristarco:configuration:ari-phe256m-w",
-      "status": "request_failed"
-    },
-    {
-      "id": "aristarco:configuration:ari-phe3012m-a",
-      "status": "request_failed"
-    },
-    {
-      "id": "aristarco:configuration:ari-phe3012m-w",
-      "status": "request_failed"
-    },
-    {
-      "id": "aristarco:configuration:ari-phe320m-a",
-      "status": "request_failed"
-    },
-    {
-      "id": "aristarco:configuration:ari-phe320m-w",
-      "status": "request_failed"
-    },
-    {
-      "id": "aristarco:configuration:ari-phe4015m-a",
-      "status": "request_failed"
-    },
-    {
-      "id": "aristarco:configuration:ari-phe4015m-w",
-      "status": "request_failed"
-    },
-    {
-      "id": "aristarco:configuration:ari-phe4515m-a",
-      "status": "request_failed"
-    },
-    {
-      "id": "aristarco:configuration:ari-phe4515m-w",
-      "status": "request_failed"
-    },
-    {
-      "id": "aristarco:configuration:ari-phe5025m-a",
-      "status": "request_failed"
-    },
-    {
-      "id": "aristarco:configuration:ari-phe5025m-w",
-      "status": "request_failed"
-    },
-    {
-      "id": "aristarco:configuration:ari-phe6040m-a",
-      "status": "request_failed"
-    },
-    {
-      "id": "aristarco:configuration:ari-phe6040m-w",
-      "status": "request_failed"
-    },
-    {
-      "id": "aristarco:configuration:ari-phe8040m-a",
-      "status": "request_failed"
-    },
-    {
-      "id": "aristarco:configuration:ari-phe8040m-w",
+      "id": "coldline:a55-1bfh",
       "status": "request_failed"
     }
   ]
